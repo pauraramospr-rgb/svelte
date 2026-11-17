@@ -3,8 +3,15 @@
 	import { DIFFICULTY_LABEL } from '$lib/questions/types';
 	import CategoryTag from './CategoryTag.svelte';
 	import DisciplineBadge from './DisciplineBadge.svelte';
+	import { BOOKS, CURRENT_EDITION } from '$lib/data/official/books';
 
 	let { q, compact = false }: { q: Question; compact?: boolean } = $props();
+	// Questões oficiais de Língua Portuguesa e Literaturas costumam se basear no livro indicado naquele ano.
+	const pastBook = $derived(
+		q.source === 'oficial' && q.discipline === 'LPL' && q.year !== CURRENT_EDITION
+			? BOOKS.find((b) => b.edition === q.year && b.exam.startsWith('Língua Portuguesa'))
+			: undefined
+	);
 </script>
 
 <article class="qv">
@@ -31,6 +38,10 @@
 				<a href={q.sourceUrl} target="_blank" rel="noopener noreferrer">página {q.sourcePage} do caderno comentado (UERJ)</a>.
 			</p>
 		{/if}
+	{/if}
+
+	{#if pastBook}
+		<p class="notice small">Em {pastBook.edition}, a prova de Língua Portuguesa e Literaturas teve como base <em>{pastBook.title}</em>, de {pastBook.author}. Use esta questão para treinar o tipo de comando; o livro de {CURRENT_EDITION} é outro.</p>
 	{/if}
 
 	<div class="statement" class:clamp={compact}>{q.statement}</div>

@@ -116,6 +116,9 @@
 </section>
 
 <style>
+	.stats {
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	}
 	.stats .card {
 		display: flex;
 		flex-direction: column;

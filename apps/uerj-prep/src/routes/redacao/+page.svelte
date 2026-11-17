@@ -81,6 +81,7 @@
 				{#each evo as e (e.id)}<span style="height:{((e.score ?? 0) / 20) * 70}px" title="{e.score?.toFixed(1)}/20"></span>{/each}
 			</div>
 		{/if}
+		<div class="table-wrap">
 		<table>
 			<thead><tr><th>Data</th><th>Título / proposta</th><th>Nota estimada</th></tr></thead>
 			<tbody>
@@ -93,6 +94,7 @@
 				{/each}
 			</tbody>
 		</table>
+		</div>
 	{:else}
 		<p class="muted">Nenhuma redação ainda. Comece por uma proposta plausível ou por um tema oficial anterior.</p>
 	{/if}

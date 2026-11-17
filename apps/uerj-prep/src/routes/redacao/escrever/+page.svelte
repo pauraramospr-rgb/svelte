@@ -1,12 +1,13 @@
 <script lang="ts">
 	import { estimateLines, wordCount } from '$lib/domain/text';
-	import { onMount } from 'svelte';
+	import { onMount, untrack } from 'svelte';
 
 	let { data, form } = $props();
-	let tema = $state(data.tema);
-	let title = $state(form?.title ?? '');
-	let body = $state(form?.body ?? '');
-	let plan = $state(data.plano);
+	// valores iniciais do formulário (capturados uma vez, de propósito)
+	let tema = $state(untrack(() => data.tema));
+	let title = $state(untrack(() => form?.title ?? ''));
+	let body = $state(untrack(() => form?.body ?? ''));
+	let plan = $state(untrack(() => data.plano));
 	let custom = $state('');
 	let seconds = $state(0);
 	const DRAFT = 'discursiva:rascunho-redacao';

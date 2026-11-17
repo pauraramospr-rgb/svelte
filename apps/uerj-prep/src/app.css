@@ -116,6 +116,7 @@ h3 {
 
 p {
 	margin: 0 0 0.8em;
+	overflow-wrap: break-word;
 }
 
 .muted {
@@ -136,6 +137,11 @@ p {
 
 .card + .card {
 	margin-top: 1rem;
+}
+
+.grid > .card + .card,
+.row > .card + .card {
+	margin-top: 0;
 }
 
 .grid {
@@ -326,6 +332,7 @@ th {
 
 .statement {
 	white-space: pre-wrap;
+	overflow-wrap: anywhere;
 	font-family: var(--serif);
 	font-size: 1.04rem;
 	line-height: 1.65;

@@ -180,6 +180,7 @@
 		padding: 1.75rem clamp(1rem, 3vw, 2.5rem) 3rem;
 		max-width: 1180px;
 		width: 100%;
+		min-width: 0;
 	}
 	main.public {
 		margin: 0 auto;

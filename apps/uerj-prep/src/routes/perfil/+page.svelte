@@ -4,9 +4,10 @@
 	import { DISCIPLINES } from '$lib/data/official/exam-2027';
 	import CategoryTag from '$lib/components/CategoryTag.svelte';
 	import SourceRef from '$lib/components/SourceRef.svelte';
+	import { untrack } from 'svelte';
 
 	let { data, form } = $props();
-	let courseId = $state(data.profile.course_id ?? '');
+	let courseId = $state(untrack(() => data.profile.course_id ?? ''));
 	let filter = $state('');
 	const selected = $derived(data.courses.find((c) => c.id === courseId));
 	const filtered = $derived(
