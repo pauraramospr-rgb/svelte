@@ -1,0 +1,35 @@
+{
+	"name": "uerj-discursivo",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Plataforma de preparação para o Exame Discursivo da UERJ (projeto independente, não afiliado à UERJ).",
+	"type": "module",
+	"engines": {
+		"node": ">=22.13"
+	},
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"start": "node build",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"test": "vitest run",
+		"test:e2e": "node tests/e2e/smoke.mjs",
+		"data:validate": "node scripts/validate-data.mjs"
+	},
+	"dependencies": {
+		"@anthropic-ai/sdk": "^1.8.0",
+		"marked": "^16.4.2"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-node": "^5.5.8",
+		"@sveltejs/kit": "^2.70.4",
+		"@sveltejs/vite-plugin-svelte": "^6.2.4",
+		"@types/node": "^22.10.0",
+		"svelte": "^5.57.3",
+		"svelte-check": "^4.3.0",
+		"typescript": "^5.9.3",
+		"vite": "^7.3.8",
+		"vitest": "^4.1.12"
+	}
+}
