@@ -1,0 +1,950 @@
+{
+ "source": "UERJ – Revista do Vestibular, seção \"Questões Comentadas\" (Exame Discursivo)",
+ "sourceUrl": "https://www.revista.vestibular.uerj.br/questao/",
+ "years": [
+  2017,
+  2018,
+  2019,
+  2020,
+  2024,
+  2025,
+  2026
+ ],
+ "note": "Contagem do número de questões, por edição, cuja classificação oficial (Item do programa) corresponde ao tópico do programa de 2027. Uma questão pode abordar mais de um tópico. Em Língua Estrangeira, as provas de Espanhol, Francês e Inglês são somadas. Frequência passada não garante cobrança futura.",
+ "questionsPerDiscipline": {
+  "BIO": {
+   "2026": 9,
+   "2025": 7,
+   "2024": 7,
+   "2020": 9,
+   "2019": 9,
+   "2018": 9,
+   "2017": 8
+  },
+  "FIS": {
+   "2026": 9,
+   "2025": 10,
+   "2024": 10,
+   "2020": 10,
+   "2019": 10,
+   "2018": 9,
+   "2017": 9
+  },
+  "GEO": {
+   "2026": 10,
+   "2025": 9,
+   "2024": 10,
+   "2020": 8,
+   "2019": 7,
+   "2018": 7,
+   "2017": 8
+  },
+  "HIS": {
+   "2026": 10,
+   "2025": 10,
+   "2024": 10,
+   "2020": 10,
+   "2019": 10,
+   "2018": 9,
+   "2017": 7
+  },
+  "LE": {
+   "2026": 30,
+   "2025": 30,
+   "2024": 28,
+   "2020": 30,
+   "2019": 30,
+   "2018": 30,
+   "2017": 30
+  },
+  "LPL": {
+   "2026": 10,
+   "2025": 10,
+   "2024": 6,
+   "2020": 10,
+   "2019": 8,
+   "2018": 10,
+   "2017": 15
+  },
+  "MAT": {
+   "2026": 9,
+   "2025": 10,
+   "2024": 10,
+   "2020": 10,
+   "2019": 9,
+   "2018": 9,
+   "2017": 7
+  },
+  "QUI": {
+   "2026": 10,
+   "2025": 9,
+   "2024": 10,
+   "2020": 10,
+   "2019": 5,
+   "2018": 9,
+   "2017": 10
+  }
+ },
+ "topics": {
+  "bio-classificacao-dos-seres-vivos": {
+   "2026": 1,
+   "2019": 2,
+   "2017": 1
+  },
+  "bio-doencas-parasitarias-e-carenciais-no-brasil": {
+   "2026": 1,
+   "2024": 1,
+   "2020": 1
+  },
+  "bio-circulacao": {
+   "2026": 1,
+   "2025": 1,
+   "2019": 1
+  },
+  "bio-evolucao": {
+   "2026": 1,
+   "2025": 1,
+   "2024": 1,
+   "2020": 1,
+   "2019": 1,
+   "2017": 1
+  },
+  "bio-hereditariedade": {
+   "2026": 1,
+   "2025": 1,
+   "2024": 1,
+   "2020": 1,
+   "2019": 1,
+   "2018": 1,
+   "2017": 1
+  },
+  "bio-homeostasia": {
+   "2026": 1,
+   "2019": 1,
+   "2017": 1
+  },
+  "bio-celulas-procariotas-e-eucariotas": {
+   "2026": 1,
+   "2025": 1,
+   "2024": 1,
+   "2019": 1,
+   "2018": 1
+  },
+  "bio-cromossomos-e-genes": {
+   "2026": 1,
+   "2020": 1
+  },
+  "bio-metabolismo-animal-e-vegetal": {
+   "2026": 1,
+   "2020": 2,
+   "2018": 1
+  },
+  "bio-bases-da-ecologia": {
+   "2026": 1,
+   "2025": 1,
+   "2020": 2,
+   "2019": 1,
+   "2018": 1,
+   "2017": 2
+  },
+  "fis-calorimetria": {
+   "2026": 1,
+   "2025": 1,
+   "2024": 2,
+   "2020": 1,
+   "2019": 1,
+   "2017": 1
+  },
+  "fis-descricao-do-movimento": {
+   "2026": 3,
+   "2025": 2,
+   "2024": 1,
+   "2020": 2,
+   "2019": 1,
+   "2018": 1,
+   "2017": 1
+  },
+  "fis-ondas-acusticas-e-eletromagneticas": {
+   "2026": 2,
+   "2025": 2,
+   "2024": 1,
+   "2020": 1,
+   "2019": 1,
+   "2018": 1,
+   "2017": 1
+  },
+  "fis-conservacao-de-energia": {
+   "2026": 1,
+   "2025": 1,
+   "2024": 1,
+   "2020": 1,
+   "2019": 3,
+   "2018": 2
+  },
+  "fis-leis-de-newton-e-suas-aplicacoes": {
+   "2026": 1,
+   "2025": 1,
+   "2024": 1,
+   "2020": 1,
+   "2018": 1
+  },
+  "fis-equilibrio-de-corpos": {
+   "2026": 1,
+   "2025": 2,
+   "2024": 2,
+   "2020": 1,
+   "2019": 3,
+   "2017": 2
+  },
+  "fis-interacao-eletrica": {
+   "2026": 1,
+   "2024": 1,
+   "2020": 1,
+   "2018": 1
+  },
+  "geo-territorios-e-dinamicas-da-industria": {
+   "2026": 1,
+   "2024": 2,
+   "2020": 1
+  },
+  "geo-espaco-urbano": {
+   "2026": 2,
+   "2025": 1,
+   "2024": 2,
+   "2020": 1,
+   "2019": 2,
+   "2017": 1
+  },
+  "geo-representacao-e-orientacao-do-no-espaco": {
+   "2026": 1,
+   "2024": 1,
+   "2019": 1
+  },
+  "geo-dimensao-demografica-da-producao-do-espaco": {
+   "2026": 1,
+   "2025": 2,
+   "2024": 1,
+   "2019": 2,
+   "2017": 2
+  },
+  "geo-organizacao-e-acao-do-estado": {
+   "2026": 1,
+   "2025": 1,
+   "2024": 1
+  },
+  "geo-relacao-sociedade-natureza": {
+   "2026": 1,
+   "2025": 2,
+   "2020": 2,
+   "2019": 1,
+   "2018": 1,
+   "2017": 1
+  },
+  "geo-capitalismo-global-tecnologia-e-espaco-geografico": {
+   "2026": 1,
+   "2018": 1,
+   "2017": 1
+  },
+  "geo-dinamica-e-caracterizacao-da-natureza-e-dos-espacos-naturais": {
+   "2026": 1,
+   "2024": 3,
+   "2020": 1,
+   "2018": 3,
+   "2017": 1
+  },
+  "geo-redes-geograficas-e-seus-fluxos": {
+   "2026": 1,
+   "2025": 1,
+   "2020": 1,
+   "2018": 1,
+   "2017": 1
+  },
+  "his-a-expansao-maritima-e-comercial-europeia": {
+   "2026": 1,
+   "2024": 1
+  },
+  "his-as-manifestacoes-filosoficas-artisticas-e-intelectuais": {
+   "2026": 1,
+   "2025": 1,
+   "2020": 1,
+   "2019": 1,
+   "2018": 1
+  },
+  "his-a-america-colonial-portuguesa": {
+   "2026": 1,
+   "2025": 1,
+   "2024": 2,
+   "2018": 1
+  },
+  "his-os-colonialismos-em-questao": {
+   "2026": 2,
+   "2019": 1,
+   "2018": 2
+  },
+  "his-restauracao-e-revolucao-na-europa-e-na-america": {
+   "2026": 1,
+   "2024": 1,
+   "2018": 1,
+   "2017": 1
+  },
+  "his-formacao-e-consolidacao-do-capitalismo-nos-estados-unidos": {
+   "2026": 1,
+   "2020": 1
+  },
+  "his-a-construcao-da-hegemonia-norte-americana": {
+   "2026": 1
+  },
+  "his-africa-asia-e-america-latina-em-um-mundo-bipolar": {
+   "2026": 2,
+   "2024": 1,
+   "2019": 2,
+   "2018": 2,
+   "2017": 1
+  },
+  "his-o-brasil-da-monarquia-a-republica": {
+   "2026": 1,
+   "2024": 2,
+   "2020": 1,
+   "2017": 1
+  },
+  "his-transformacoes-no-capitalismo-e-expansao-imperialista": {
+   "2026": 1,
+   "2020": 1,
+   "2019": 1,
+   "2018": 2,
+   "2017": 1
+  },
+  "his-as-ditaduras-na-america-latina-e-os-movimentos-de-resistenci": {
+   "2026": 2,
+   "2025": 2,
+   "2024": 1,
+   "2020": 1,
+   "2017": 1
+  },
+  "le-tipologias-textuais": {
+   "2026": 1,
+   "2025": 2,
+   "2024": 4,
+   "2020": 2,
+   "2019": 3,
+   "2018": 2,
+   "2017": 2
+  },
+  "le-relacoes-semanticas": {
+   "2026": 4,
+   "2025": 2,
+   "2024": 2,
+   "2020": 9,
+   "2019": 6,
+   "2018": 4,
+   "2017": 4
+  },
+  "le-conhecimento-lexical": {
+   "2026": 9,
+   "2025": 7,
+   "2024": 10,
+   "2020": 9,
+   "2019": 3,
+   "2018": 7,
+   "2017": 9
+  },
+  "le-uso-do-verbo": {
+   "2026": 3,
+   "2025": 3,
+   "2024": 3,
+   "2020": 6,
+   "2019": 3,
+   "2018": 2,
+   "2017": 1
+  },
+  "le-fatores-de-coesao": {
+   "2026": 4,
+   "2025": 8,
+   "2024": 9,
+   "2020": 9,
+   "2019": 6,
+   "2018": 9,
+   "2017": 8
+  },
+  "le-fatores-de-coerencia": {
+   "2026": 6,
+   "2025": 7,
+   "2024": 3,
+   "2020": 8,
+   "2019": 10,
+   "2018": 9,
+   "2017": 7
+  },
+  "le-enunciado-e-enunciacao": {
+   "2026": 7,
+   "2025": 10,
+   "2024": 3,
+   "2020": 7,
+   "2019": 3,
+   "2018": 4
+  },
+  "le-elementos-nao-verbais": {
+   "2026": 3,
+   "2024": 4,
+   "2020": 3,
+   "2019": 1,
+   "2018": 3,
+   "2017": 5
+  },
+  "le-a-narrativa-e-seus-elementos": {
+   "2026": 2,
+   "2024": 1
+  },
+  "le-formas-do-implicito": {
+   "2026": 2,
+   "2025": 5,
+   "2024": 11,
+   "2020": 4,
+   "2019": 7,
+   "2018": 4,
+   "2017": 7
+  },
+  "le-modalizacao": {
+   "2026": 2,
+   "2024": 2
+  },
+  "lpl-elementos-da-narrativa-selecionada": {
+   "2026": 4,
+   "2025": 1,
+   "2024": 2,
+   "2020": 2,
+   "2019": 5,
+   "2018": 2
+  },
+  "lpl-recursos-expressivos-da-criacao-estetica": {
+   "2026": 4,
+   "2025": 4,
+   "2024": 1,
+   "2020": 1,
+   "2019": 1,
+   "2018": 3,
+   "2017": 3
+  },
+  "lpl-formas-de-enunciacao": {
+   "2026": 3,
+   "2024": 1,
+   "2018": 2,
+   "2017": 2
+  },
+  "lpl-a-oracao-e-o-periodo": {
+   "2026": 2,
+   "2025": 1,
+   "2024": 1,
+   "2020": 1,
+   "2019": 1,
+   "2017": 3
+  },
+  "lpl-o-significado-lexical-e-suas-relacoes": {
+   "2026": 1,
+   "2024": 1,
+   "2020": 1,
+   "2018": 1
+  },
+  "lpl-coerencia-textual": {
+   "2026": 1,
+   "2017": 2
+  },
+  "lpl-literatura-e-sociedade": {
+   "2026": 2
+  },
+  "mat-numeros-reais": {
+   "2026": 2,
+   "2025": 2,
+   "2020": 2,
+   "2019": 2,
+   "2018": 1,
+   "2017": 1
+  },
+  "mat-juros": {
+   "2026": 1,
+   "2025": 1,
+   "2024": 1,
+   "2017": 1
+  },
+  "mat-figuras-no-plano": {
+   "2026": 1,
+   "2025": 1,
+   "2024": 1,
+   "2020": 2,
+   "2019": 2,
+   "2018": 1,
+   "2017": 1
+  },
+  "mat-problemas-de-contagem": {
+   "2026": 2
+  },
+  "mat-funcao-afim": {
+   "2026": 1,
+   "2025": 1,
+   "2019": 1
+  },
+  "mat-funcao-quadratica": {
+   "2026": 1
+  },
+  "mat-figuras-tridimensionais": {
+   "2026": 1,
+   "2024": 1,
+   "2020": 1,
+   "2018": 1,
+   "2017": 1
+  },
+  "mat-probabilidades": {
+   "2026": 1,
+   "2025": 1,
+   "2024": 1,
+   "2020": 1,
+   "2019": 1,
+   "2018": 1
+  },
+  "qui-classificacao-periodica-dos-elementos": {
+   "2026": 1,
+   "2025": 1,
+   "2020": 1,
+   "2019": 1,
+   "2018": 1,
+   "2017": 1
+  },
+  "qui-reacoes-quimicas": {
+   "2026": 2,
+   "2025": 1,
+   "2024": 1,
+   "2020": 1
+  },
+  "qui-ligacoes-interatomicas": {
+   "2026": 2,
+   "2025": 1,
+   "2024": 3,
+   "2020": 1,
+   "2019": 1,
+   "2018": 3,
+   "2017": 2
+  },
+  "qui-funcoes-da-quimica-organica": {
+   "2026": 2,
+   "2025": 2,
+   "2024": 2,
+   "2020": 4,
+   "2018": 2,
+   "2017": 1
+  },
+  "qui-moleculas": {
+   "2026": 1,
+   "2025": 2,
+   "2024": 1,
+   "2020": 2,
+   "2018": 1
+  },
+  "qui-relacoes-numericas-fundamentais": {
+   "2026": 1,
+   "2019": 1,
+   "2018": 1
+  },
+  "qui-isomeria": {
+   "2026": 1,
+   "2025": 1,
+   "2024": 2,
+   "2020": 1,
+   "2018": 3,
+   "2017": 2
+  },
+  "qui-propriedades-do-atomo-de-carbono": {
+   "2026": 1,
+   "2020": 1,
+   "2018": 1,
+   "2017": 1
+  },
+  "qui-reacoes-de-substituicao": {
+   "2026": 1,
+   "2020": 1,
+   "2018": 1,
+   "2017": 1
+  },
+  "qui-oxidos": {
+   "2026": 2,
+   "2020": 1,
+   "2019": 1,
+   "2018": 1,
+   "2017": 1
+  },
+  "qui-velocidade-de-reacao": {
+   "2026": 1,
+   "2025": 1
+  },
+  "qui-eletrolise": {
+   "2026": 1,
+   "2025": 1,
+   "2020": 1,
+   "2019": 1,
+   "2017": 1
+  },
+  "qui-acidos-e-bases": {
+   "2026": 1,
+   "2025": 1,
+   "2024": 1,
+   "2020": 2,
+   "2018": 1,
+   "2017": 2
+  },
+  "qui-atomo": {
+   "2026": 1,
+   "2025": 2,
+   "2024": 1,
+   "2020": 1,
+   "2019": 2,
+   "2018": 1
+  },
+  "qui-mecanismos": {
+   "2026": 1,
+   "2025": 1,
+   "2020": 1
+  },
+  "qui-equilibrio-ionico-em-meio-aquoso": {
+   "2026": 1,
+   "2025": 1,
+   "2024": 1,
+   "2020": 1,
+   "2019": 1,
+   "2018": 1,
+   "2017": 1
+  },
+  "qui-unidades-de-concentracao": {
+   "2026": 1,
+   "2025": 1,
+   "2024": 1,
+   "2020": 1,
+   "2019": 1,
+   "2018": 2,
+   "2017": 1
+  },
+  "qui-entalpia-e-variacao-de-entalpia": {
+   "2026": 1,
+   "2024": 1,
+   "2019": 1,
+   "2017": 1
+  },
+  "qui-combustiveis": {
+   "2026": 1
+  },
+  "qui-equilibrio-em-sistemas-heterogeneos": {
+   "2026": 1,
+   "2017": 1
+  },
+  "bio-virus": {
+   "2025": 2,
+   "2024": 1,
+   "2018": 1
+  },
+  "bio-multicelularidade": {
+   "2025": 1,
+   "2024": 1,
+   "2018": 2
+  },
+  "fis-propriedades-dos-fluidos": {
+   "2025": 1,
+   "2024": 1,
+   "2020": 2,
+   "2019": 1,
+   "2018": 1
+  },
+  "fis-conservacao-do-momentum-linear": {
+   "2025": 1,
+   "2018": 1,
+   "2017": 1
+  },
+  "fis-interacao-termica": {
+   "2025": 1,
+   "2024": 1,
+   "2018": 1
+  },
+  "fis-circuitos-eletricos": {
+   "2025": 2,
+   "2024": 1,
+   "2020": 1,
+   "2019": 1,
+   "2017": 1
+  },
+  "geo-geografia-politica-e-a-geopolitica-do-mundo-contemporaneo": {
+   "2025": 1,
+   "2024": 1,
+   "2020": 1,
+   "2018": 1,
+   "2017": 1
+  },
+  "geo-espaco-rural": {
+   "2025": 1,
+   "2024": 1,
+   "2020": 1,
+   "2019": 1,
+   "2018": 1
+  },
+  "his-os-processos-de-conquista-e-colonizacao-europeia-na-america-": {
+   "2025": 1,
+   "2020": 1,
+   "2019": 1,
+   "2018": 1,
+   "2017": 1
+  },
+  "his-a-ilustracao-e-a-crise-do-antigo-regime": {
+   "2025": 1,
+   "2019": 1
+  },
+  "his-os-processos-de-formacao-dos-estados-nacionais-americanos": {
+   "2025": 1,
+   "2020": 2,
+   "2019": 2
+  },
+  "his-a-guerra-em-dois-movimentos": {
+   "2025": 1,
+   "2017": 1
+  },
+  "his-ideologias-em-movimento-reformas-e-revolucoes": {
+   "2025": 2,
+   "2020": 1,
+   "2019": 1,
+   "2018": 1
+  },
+  "his-guerra-fria": {
+   "2025": 1,
+   "2024": 1,
+   "2019": 1
+  },
+  "lpl-morfologia-do-nome-e-do-verbo": {
+   "2025": 1,
+   "2017": 2
+  },
+  "lpl-classificacao-significacao-e-uso-das-palavras": {
+   "2025": 1,
+   "2020": 1,
+   "2019": 2,
+   "2018": 3,
+   "2017": 2
+  },
+  "lpl-elementos-nao-verbais": {
+   "2025": 1
+  },
+  "lpl-procedimentos-de-intertextualidade": {
+   "2025": 1,
+   "2020": 1
+  },
+  "lpl-a-frase-suas-especies-e-funcoes-interacionais": {
+   "2025": 1,
+   "2020": 2
+  },
+  "mat-matrizes": {
+   "2025": 1,
+   "2018": 1
+  },
+  "mat-circulo-trigonometrico": {
+   "2025": 2,
+   "2024": 1,
+   "2019": 1
+  },
+  "mat-progressoes": {
+   "2025": 1,
+   "2024": 1,
+   "2020": 1,
+   "2018": 1
+  },
+  "qui-substancia": {
+   "2025": 1,
+   "2024": 2,
+   "2020": 1
+  },
+  "qui-calculo-estequiometrico": {
+   "2025": 1,
+   "2024": 2,
+   "2020": 1,
+   "2019": 2,
+   "2017": 1
+  },
+  "qui-equilibrio-em-sistemas-homogeneos": {
+   "2025": 1,
+   "2020": 1,
+   "2018": 1
+  },
+  "bio-excrecao-nos-animais": {
+   "2024": 1
+  },
+  "his-o-antigo-regime-em-sociedades-europeias-e-nos-tropicos": {
+   "2024": 1
+  },
+  "his-estado-e-industrializacao-na-america-latina": {
+   "2024": 1,
+   "2020": 2,
+   "2018": 1,
+   "2017": 1
+  },
+  "le-processos-de-intertextualidade": {
+   "2024": 1,
+   "2020": 2,
+   "2019": 1,
+   "2018": 4,
+   "2017": 1
+  },
+  "lpl-genero-narrativo": {
+   "2024": 1
+  },
+  "lpl-coesao-textual": {
+   "2024": 1,
+   "2020": 1,
+   "2019": 1,
+   "2018": 1,
+   "2017": 2
+  },
+  "mat-medidas-de-tendencia-central": {
+   "2024": 1,
+   "2017": 1
+  },
+  "mat-sistemas-de-equacao": {
+   "2024": 1,
+   "2017": 1
+  },
+  "mat-polinomios-e-equacoes-polinomiais": {
+   "2024": 1,
+   "2020": 1,
+   "2018": 1,
+   "2017": 1
+  },
+  "mat-funcoes-logaritmicas-e-exponenciais": {
+   "2024": 1
+  },
+  "qui-radioatividade": {
+   "2024": 1,
+   "2020": 2,
+   "2019": 1,
+   "2017": 1
+  },
+  "qui-determinacao-de-formulas": {
+   "2024": 2
+  },
+  "qui-produtos-sinteticos": {
+   "2024": 1
+  },
+  "qui-reacoes-de-oxirreducao": {
+   "2024": 1,
+   "2018": 1
+  },
+  "lpl-criacao-e-adocao-de-palavras": {
+   "2020": 1
+  },
+  "bio-o-sistema-imune-animal": {
+   "2020": 1,
+   "2018": 1
+  },
+  "bio-medidas-preventivas-em-saude-publica": {
+   "2020": 1
+  },
+  "bio-engenharia-genetica": {
+   "2020": 1,
+   "2018": 1
+  },
+  "bio-os-acidos-nucleicos-dna-e-rna": {
+   "2020": 1
+  },
+  "geo-recortes-regionais": {
+   "2020": 1,
+   "2017": 1
+  },
+  "his-a-formacao-dos-estados-modernos-europeus": {
+   "2020": 1,
+   "2019": 1
+  },
+  "his-a-nova-ordem-em-um-mundo-multipolar": {
+   "2020": 1
+  },
+  "his-globalizacao-e-antiglobalizacao": {
+   "2020": 1,
+   "2019": 1,
+   "2018": 1
+  },
+  "mat-conceito-de-funcao": {
+   "2020": 1
+  },
+  "qui-sais": {
+   "2020": 2,
+   "2018": 2,
+   "2017": 1
+  },
+  "qui-pilhas-e-baterias": {
+   "2020": 1
+  },
+  "lpl-estrutura-derivacao-e-composicao-das-palavras": {
+   "2019": 1,
+   "2018": 1
+  },
+  "bio-processamento-dos-alimentos": {
+   "2019": 1
+  },
+  "fis-eletromagnetismo": {
+   "2019": 1,
+   "2017": 1
+  },
+  "his-modernizacao-e-modernismos": {
+   "2019": 1
+  },
+  "his-contestacao-nos-anos-1960-e-1970": {
+   "2019": 2
+  },
+  "mat-geometria-de-posicao": {
+   "2019": 1
+  },
+  "bio-doencas-infecciosas": {
+   "2018": 1
+  },
+  "bio-reproducao": {
+   "2018": 1,
+   "2017": 1
+  },
+  "bio-bioenergetica": {
+   "2018": 1
+  },
+  "mat-conjuntos-numericos": {
+   "2018": 1
+  },
+  "qui-celula-eletroquimica": {
+   "2018": 1
+  },
+  "qui-efeitos-coligativos": {
+   "2018": 1
+  },
+  "lpl-generos": {
+   "2017": 1
+  },
+  "bio-respiracao": {
+   "2017": 1
+  },
+  "fis-oscilacoes-e-ondas": {
+   "2017": 1
+  },
+  "mat-nocoes-de-conjuntos": {
+   "2017": 1
+  },
+  "qui-reacoes-de-eliminacao": {
+   "2017": 1
+  }
+ },
+ "unmatched": {
+  "LE": {
+   "dimensão pragmático-discursiva": 1
+  },
+  "MAT": {
+   "geometria analítica no R2": 3,
+   "geometria analítica no IR2": 1
+  },
+  "LPL": {
+   "literatura pós-romântica oitocentista": 2,
+   "gêneros literários": 1,
+   "Morte e Vida Severina, de João Cabral de Melo Neto / Ensaio sobre a cegueira, de José Saramago": 1,
+   "recursos de retórica": 1,
+   "redação": 1,
+   "literatura no Brasil colonial": 1,
+   "o texto poético e seus elementos": 1,
+   "poesia e prosa de meados do século XX à atualidade": 1
+  }
+ }
+}

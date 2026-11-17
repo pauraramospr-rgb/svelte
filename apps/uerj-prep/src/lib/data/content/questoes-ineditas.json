@@ -1,0 +1,529 @@
+[
+ {
+  "id": "ined-mat-01",
+  "discipline": "MAT",
+  "topicIds": [
+   "mat-numeros-reais"
+  ],
+  "difficulty": "medio",
+  "statement": "Uma loja aumentou em 25% o preço de um produto. Semanas depois, anunciou uma liquidação com 20% de desconto sobre o novo preço. Um cliente afirmou que, com a liquidação, o produto voltou a custar exatamente o preço original.\n\nVerifique se a afirmação do cliente está correta, justificando com cálculos. Em seguida, determine o desconto percentual que deveria ter sido aplicado sobre o preço aumentado para que o preço final ficasse 10% abaixo do preço original.",
+  "modelAnswer": "A afirmação está correta: sendo P o preço original, o preço final é P × 1,25 × 0,80 = P × 1,00 = P. Para um preço final de 0,9P, o desconto d deve satisfazer 1,25 × (1 − d) = 0,9, logo 1 − d = 0,72 e d = 28%.",
+  "explanation": "Aumentos e descontos sucessivos se compõem multiplicando os fatores. Aumento de 25% → fator 1,25; desconto de 20% → fator 0,80. O produto 1,25 × 0,80 = 1 mostra que o preço volta ao original. Na segunda parte, iguala-se o preço final desejado (0,9P) ao preço aumentado com desconto d: 1,25P(1 − d) = 0,9P.",
+  "skills": [
+   "calcular",
+   "justificar"
+  ],
+  "knowledge": [
+   "números reais: porcentagens",
+   "razões e proporções"
+  ],
+  "patternRationale": "Segue o padrão das questões de Aritmética da UERJ (ex.: 2025, questão 1; 2026, questão 2): situação de consumo, cálculo percentual curto e dois comandos encadeados com exigência de desenvolvimento.",
+  "commonMistakes": [
+   "Somar e subtrair porcentagens (25% − 20% = 5%).",
+   "Aplicar o desconto sobre o preço original em vez do preço aumentado."
+  ],
+  "model": "Claude (acervo inicial da plataforma)"
+ },
+ {
+  "id": "ined-mat-02",
+  "discipline": "MAT",
+  "topicIds": [
+   "mat-probabilidades",
+   "mat-nocoes-de-conjuntos"
+  ],
+  "difficulty": "medio",
+  "statement": "Em uma turma de 40 estudantes que se preparam para o vestibular, 24 estudam Biologia, 18 estudam Química e 10 estudam as duas disciplinas.\n\nEscolhendo-se ao acaso um estudante dessa turma, calcule a probabilidade de que ele não estude nenhuma dessas duas disciplinas. Em seguida, sabendo que o estudante escolhido estuda Química, calcule a probabilidade de que ele também estude Biologia.",
+  "modelAnswer": "Estudam ao menos uma das disciplinas 24 + 18 − 10 = 32 estudantes; logo, 8 não estudam nenhuma: P = 8/40 = 1/5 = 20%. Dado que estuda Química (18 estudantes), 10 também estudam Biologia: P = 10/18 = 5/9 ≈ 55,6%.",
+  "explanation": "Pelo princípio da inclusão-exclusão, n(B ∪ Q) = n(B) + n(Q) − n(B ∩ Q). A probabilidade condicional restringe o espaço amostral aos que estudam Química: P(B | Q) = n(B ∩ Q)/n(Q).",
+  "skills": [
+   "calcular",
+   "interpretar"
+  ],
+  "knowledge": [
+   "noções de conjuntos: operações",
+   "probabilidades: probabilidade condicional"
+  ],
+  "patternRationale": "Combina conjuntos e probabilidade condicional em contexto escolar, como questões de Probabilidade e estatística do Exame Discursivo, com resposta numérica e justificativa.",
+  "commonMistakes": [
+   "Esquecer de subtrair a interseção (contar 42 estudantes).",
+   "Usar 40 como denominador na probabilidade condicional."
+  ],
+  "model": "Claude (acervo inicial da plataforma)"
+ },
+ {
+  "id": "ined-mat-03",
+  "discipline": "MAT",
+  "topicIds": [
+   "mat-figuras-no-plano"
+  ],
+  "difficulty": "dificil",
+  "statement": "Um terreno municipal tem a forma de um triângulo retângulo cujos catetos medem 30 m e 40 m. A prefeitura pretende construir nele uma praça circular com a maior área possível, totalmente contida no terreno.\n\nCalcule o raio dessa praça. Em seguida, considerando π = 3, calcule a porcentagem da área do terreno que será ocupada pela praça.",
+  "modelAnswer": "A hipotenusa mede 50 m (30² + 40² = 50²). O maior círculo contido no triângulo é o inscrito, de raio r = (30 + 40 − 50)/2 = 10 m. Área do terreno = 30 × 40 / 2 = 600 m²; área da praça = 3 × 10² = 300 m². A praça ocupa 300/600 = 50% do terreno.",
+  "explanation": "Em um triângulo retângulo de catetos b e c e hipotenusa a, o raio da circunferência inscrita é r = (b + c − a)/2. Também se obtém r pela relação área = semiperímetro × r: 600 = 60 × r ⇒ r = 10 m.",
+  "skills": [
+   "calcular",
+   "transferir conhecimentos a situações novas"
+  ],
+  "knowledge": [
+   "figuras no plano: relações métricas, circunferências e círculos, área"
+  ],
+  "patternRationale": "Questões de Geometria da UERJ costumam partir de um espaço real (ex.: 2026, questão 5, estacionamento triangular no campus Maracanã) e pedir duas medidas encadeadas.",
+  "commonMistakes": [
+   "Usar a hipotenusa como diâmetro (círculo circunscrito, que não cabe no terreno).",
+   "Esquecer de dividir por 2 a área do triângulo."
+  ],
+  "model": "Claude (acervo inicial da plataforma)"
+ },
+ {
+  "id": "ined-fis-01",
+  "discipline": "FIS",
+  "topicIds": [
+   "fis-conservacao-de-energia"
+  ],
+  "difficulty": "medio",
+  "statement": "Um carrinho de montanha-russa parte do repouso no ponto mais alto de uma rampa, a 20 m de altura em relação ao solo, e desce até o ponto mais baixo do trajeto, ao nível do solo. Em seguida, sobe um segundo morro. Despreze atritos e a resistência do ar e considere g = 10 m/s².\n\nCalcule a velocidade do carrinho no ponto mais baixo. Determine, também, a altura do topo do segundo morro, sabendo que o carrinho passa por esse topo com velocidade de 10 m/s.",
+  "modelAnswer": "Pela conservação da energia mecânica: m·g·h = m·v²/2 ⇒ v = √(2·10·20) = 20 m/s. No topo do segundo morro: m·g·20 = m·g·h₂ + m·10²/2 ⇒ 200 = 10·h₂ + 50 ⇒ h₂ = 15 m.",
+  "explanation": "Sem forças dissipativas, a energia mecânica (cinética + potencial gravitacional) se conserva. A massa se cancela. A energia potencial perdida na descida vira cinética; no segundo morro, parte dela volta a ser potencial.",
+  "skills": [
+   "calcular",
+   "explicar"
+  ],
+  "knowledge": [
+   "conservação de energia: energia cinética, energia potencial gravitacional"
+  ],
+  "patternRationale": "Contexto cotidiano e sistema ideal declarado no enunciado, como prevê o programa de Física da UERJ (“os sistemas físicos serão assumidos ideais… salvo considerações em contrário”).",
+  "commonMistakes": [
+   "Usar v = g·t sem conhecer o tempo.",
+   "Esquecer a energia cinética no topo do segundo morro."
+  ],
+  "model": "Claude (acervo inicial da plataforma)"
+ },
+ {
+  "id": "ined-fis-02",
+  "discipline": "FIS",
+  "topicIds": [
+   "fis-calorimetria",
+   "fis-interacao-termica"
+  ],
+  "difficulty": "medio",
+  "statement": "Em uma garrafa térmica ideal, misturam-se 200 g de água a 80 °C com 300 g de água a 20 °C.\n\nDetermine a temperatura de equilíbrio térmico da mistura. Em seguida, calcule a massa de gelo a 0 °C que deveria ser acrescentada a essa mistura, já em equilíbrio, para que todo o sistema terminasse com água líquida a 0 °C.\nDados: calor específico da água = 1 cal/g·°C; calor latente de fusão do gelo = 80 cal/g.",
+  "modelAnswer": "Equilíbrio: 200·1·(θ − 80) + 300·1·(θ − 20) = 0 ⇒ 500θ = 22000 ⇒ θ = 44 °C. Para levar 500 g de água de 44 °C a 0 °C, ela cede 500·1·44 = 22000 cal, que fundem m = 22000/80 = 275 g de gelo.",
+  "explanation": "Em sistema isolado, a soma dos calores trocados é nula. Na segunda etapa, o calor sensível cedido pela água é integralmente usado como calor latente para fundir o gelo, sem variação da temperatura do gelo (que já está a 0 °C).",
+  "skills": [
+   "calcular"
+  ],
+  "knowledge": [
+   "calorimetria: calor sensível, calor latente",
+   "interação térmica: equilíbrio térmico"
+  ],
+  "patternRationale": "Retoma a estrutura de questões oficiais de calorimetria (ex.: 2024, questão 5, banheira como calorímetro ideal) com uma segunda etapa envolvendo mudança de estado.",
+  "commonMistakes": [
+   "Fazer média simples das temperaturas (50 °C).",
+   "Esquecer que o gelo só funde, sem aquecer."
+  ],
+  "model": "Claude (acervo inicial da plataforma)"
+ },
+ {
+  "id": "ined-qui-01",
+  "discipline": "QUI",
+  "topicIds": [
+   "qui-unidades-de-concentracao"
+  ],
+  "difficulty": "medio",
+  "statement": "O soro fisiológico é uma solução aquosa de cloreto de sódio (NaCl) a 0,9% (m/v), isto é, 0,9 g de soluto em cada 100 mL de solução.\n\nCalcule a concentração dessa solução em g/L e em mol/L. Em seguida, calcule o volume de água que deve ser adicionado a 100 mL de uma solução de NaCl a 1,8% (m/v) para obter soro fisiológico.\nMassas molares: Na = 23 g/mol; Cl = 35,5 g/mol.",
+  "modelAnswer": "0,9 g/100 mL = 9 g/L. Massa molar do NaCl = 58,5 g/mol, logo 9/58,5 ≈ 0,15 mol/L (0,154 mol/L). Na diluição, C₁V₁ = C₂V₂: 1,8 × 100 = 0,9 × V₂ ⇒ V₂ = 200 mL; deve-se adicionar 100 mL de água.",
+  "explanation": "Porcentagem m/v indica massa de soluto em 100 mL. A concentração em quantidade de matéria é a concentração em g/L dividida pela massa molar. Na diluição, a quantidade de soluto não muda.",
+  "skills": [
+   "calcular"
+  ],
+  "knowledge": [
+   "unidades de concentração: porcentagem, g/L, quantidade de matéria; diluição"
+  ],
+  "patternRationale": "Questões de Soluções na UERJ costumam partir de um produto de uso cotidiano e pedir conversões de unidades em sequência.",
+  "commonMistakes": [
+   "Responder que o volume final (200 mL) é o volume de água adicionado.",
+   "Dividir 0,9 por 58,5 sem converter para litro."
+  ],
+  "model": "Claude (acervo inicial da plataforma)"
+ },
+ {
+  "id": "ined-qui-02",
+  "discipline": "QUI",
+  "topicIds": [
+   "qui-isomeria",
+   "qui-funcoes-da-quimica-organica"
+  ],
+  "difficulty": "dificil",
+  "statement": "O ácido lático, cuja fórmula estrutural condensada é CH₃–CH(OH)–COOH, é produzido na fermentação realizada por algumas bactérias e também nos músculos em condições de baixa disponibilidade de oxigênio.\n\nNomeie as duas funções orgânicas oxigenadas presentes nessa molécula e escreva sua fórmula molecular. Em seguida, indique o tipo de isomeria espacial apresentado pelo ácido lático, justificando sua resposta com base na estrutura da molécula.",
+  "modelAnswer": "Funções: álcool (grupo –OH ligado a carbono saturado) e ácido carboxílico (–COOH). Fórmula molecular: C₃H₆O₃. Apresenta isomeria óptica, pois o carbono 2 é quiral (assimétrico): está ligado a quatro grupos diferentes (H, OH, CH₃ e COOH), o que origina dois enantiômeros.",
+  "explanation": "Um carbono quiral, com quatro ligantes diferentes, torna a molécula não sobreponível à sua imagem especular. A contagem de átomos: 3 C; 6 H (3 do CH₃, 1 do CH, 1 do OH, 1 do COOH); 3 O.",
+  "skills": [
+   "nomear",
+   "justificar"
+  ],
+  "knowledge": [
+   "funções da química orgânica",
+   "isomeria espacial (óptica)"
+  ],
+  "patternRationale": "Como em questões oficiais de Química Orgânica (ex.: 2026, questão 3), combina reconhecimento de funções, fórmula e tipo de isomeria em um contexto biológico.",
+  "commonMistakes": [
+   "Indicar isomeria geométrica (não há dupla ligação C=C).",
+   "Esquecer o hidrogênio do grupo –OH na fórmula molecular."
+  ],
+  "model": "Claude (acervo inicial da plataforma)"
+ },
+ {
+  "id": "ined-bio-01",
+  "discipline": "BIO",
+  "topicIds": [
+   "bio-bases-da-ecologia"
+  ],
+  "difficulty": "medio",
+  "statement": "Em um lago, a introdução de uma espécie exótica de peixe predador causou forte redução da população de pequenos peixes que se alimentavam principalmente de zooplâncton.\n\nExplique o que tende a ocorrer, em seguida, com as populações de zooplâncton e de fitoplâncton desse lago. Indique, também, uma consequência provável dessas alterações para a transparência da água.",
+  "modelAnswer": "Com menos peixes zooplanctívoros, a predação sobre o zooplâncton diminui e sua população tende a aumentar. O zooplâncton, mais numeroso, consome mais fitoplâncton, cuja população tende a diminuir. Com menos fitoplâncton em suspensão, a água tende a ficar mais transparente.",
+  "explanation": "Trata-se de uma cascata trófica: a alteração no topo da cadeia alimentar se propaga pelos níveis inferiores, alternando aumentos e reduções populacionais.",
+  "skills": [
+   "explicar",
+   "fazer antecipações sobre a continuidade de acontecimentos"
+  ],
+  "knowledge": [
+   "bases da ecologia: cadeias e teias alimentares, relações ecológicas, desequilíbrio ecológico"
+  ],
+  "patternRationale": "Segue o padrão de Biologia da UERJ de “resolver problemas a partir de temas atuais” e interpretar relações entre populações (ex.: 2025, questão sobre estratégias ecológicas).",
+  "commonMistakes": [
+   "Afirmar que o fitoplâncton aumenta por haver menos peixes.",
+   "Responder apenas sobre o peixe introduzido, sem seguir a cadeia."
+  ],
+  "model": "Claude (acervo inicial da plataforma)"
+ },
+ {
+  "id": "ined-bio-02",
+  "discipline": "BIO",
+  "topicIds": [
+   "bio-hereditariedade"
+  ],
+  "difficulty": "medio",
+  "statement": "O daltonismo do tipo vermelho-verde é uma condição determinada por um alelo recessivo ligado ao cromossomo X. Uma mulher de visão normal, cujo pai é daltônico, tem filhos com um homem de visão normal.\n\nCalcule a probabilidade de esse casal ter uma criança do sexo masculino e daltônica. Em seguida, explique por que nenhuma filha desse casal será daltônica.",
+  "modelAnswer": "A mulher é portadora (XᴰXᵈ), pois recebeu o Xᵈ do pai daltônico; o homem é XᴰY. A probabilidade de um menino daltônico (XᵈY) é 1/2 (menino) × 1/2 (receber Xᵈ da mãe) = 1/4. As filhas recebem sempre o Xᴰ do pai, que tem visão normal; por isso, no máximo serão portadoras (XᴰXᵈ), nunca daltônicas.",
+  "explanation": "Na herança ligada ao X, o pai transmite seu único X a todas as filhas e o Y a todos os filhos. O alelo recessivo só se manifesta em mulheres homozigotas (XᵈXᵈ).",
+  "skills": [
+   "calcular",
+   "explicar"
+  ],
+  "knowledge": [
+   "hereditariedade: herança ligada ao sexo; probabilidade"
+  ],
+  "patternRationale": "Questões oficiais recentes trataram de herança ligada ao sexo (2024, gatas tricolores; 2026, sistema ZW em aves), sempre pedindo explicação do mecanismo além do cálculo.",
+  "commonMistakes": [
+   "Responder 1/2 (probabilidade entre os meninos, não entre todos os filhos).",
+   "Supor que a mulher é homozigota normal."
+  ],
+  "model": "Claude (acervo inicial da plataforma)"
+ },
+ {
+  "id": "ined-geo-01",
+  "discipline": "GEO",
+  "topicIds": [
+   "geo-relacao-sociedade-natureza",
+   "geo-espaco-urbano"
+  ],
+  "difficulty": "medio",
+  "statement": "Texto elaborado para esta questão:\n“Em dias de verão, termômetros instalados em bairros densamente construídos de grandes cidades costumam registrar temperaturas mais altas do que os instalados em parques e em áreas arborizadas da mesma cidade.”\n\nO fenômeno descrito é conhecido como ilha de calor. Apresente duas causas desse fenômeno relacionadas à forma de ocupação do espaço urbano. Em seguida, indique uma medida de planejamento urbano capaz de atenuá-lo.",
+  "modelAnswer": "Causas: (1) substituição da vegetação e do solo por superfícies impermeáveis e de materiais que absorvem e retêm calor, como asfalto e concreto; (2) concentração de edifícios, que dificulta a circulação do ar, e emissão de calor por veículos e atividades humanas. Medida: ampliar áreas verdes e a arborização (parques, telhados verdes) ou aumentar a permeabilidade do solo.",
+  "explanation": "A ilha de calor resulta das propriedades térmicas dos materiais urbanos, da redução da evapotranspiração (menos vegetação) e da produção de calor antrópico.",
+  "skills": [
+   "explicar",
+   "apresentar conclusões"
+  ],
+  "knowledge": [
+   "relação sociedade-natureza: impactos socioambientais",
+   "espaço urbano"
+  ],
+  "patternRationale": "Geografia da UERJ privilegia a relação entre processos sociais e formas espaciais, com textos curtos e pedidos de causas e medidas.",
+  "commonMistakes": [
+   "Confundir ilha de calor com efeito estufa global.",
+   "Citar causas sem relação com a ocupação urbana."
+  ],
+  "model": "Claude (acervo inicial da plataforma)"
+ },
+ {
+  "id": "ined-geo-02",
+  "discipline": "GEO",
+  "topicIds": [
+   "geo-dimensao-demografica-da-producao-do-espaco"
+  ],
+  "difficulty": "medio",
+  "statement": "Nas últimas décadas, a pirâmide etária brasileira apresentou estreitamento da base e alargamento do topo.\n\nExplique dois fatores responsáveis por essa transformação. Em seguida, indique uma consequência desse processo para as políticas públicas.",
+  "modelAnswer": "Fatores: (1) queda da taxa de fecundidade, associada à urbanização, à maior inserção feminina no mercado de trabalho e ao acesso a métodos contraceptivos — reduz a proporção de crianças (base); (2) aumento da expectativa de vida, por avanços na saúde e no saneamento — amplia a proporção de idosos (topo). Consequência: maior demanda sobre a previdência social e os serviços de saúde voltados a idosos.",
+  "explanation": "A transição demográfica brasileira levou ao envelhecimento da população: menos nascimentos e maior longevidade.",
+  "skills": [
+   "explicar",
+   "interpretar"
+  ],
+  "knowledge": [
+   "dimensão demográfica: estrutura populacional, teorias demográficas e políticas populacionais"
+  ],
+  "patternRationale": "Item frequente na classificação oficial (dimensão demográfica), com leitura de gráfico ou dado populacional e pedido de explicação.",
+  "commonMistakes": [
+   "Atribuir o estreitamento da base apenas à mortalidade infantil.",
+   "Citar consequência sem relação com o envelhecimento."
+  ],
+  "model": "Claude (acervo inicial da plataforma)"
+ },
+ {
+  "id": "ined-his-01",
+  "discipline": "HIS",
+  "topicIds": [
+   "his-as-ditaduras-na-america-latina-e-os-movimentos-de-resistenci"
+  ],
+  "difficulty": "medio",
+  "statement": "Texto elaborado para esta questão:\n“Entre as décadas de 1960 e 1980, Brasil, Chile, Argentina e Uruguai, entre outros países, viveram sob regimes ditatoriais com forte participação das Forças Armadas. Em nome da segurança nacional, governos perseguiram opositores e restringiram liberdades.”\n\nApresente duas características comuns a esses regimes. Em seguida, explique a relação entre essas ditaduras e o contexto internacional da Guerra Fria.",
+  "modelAnswer": "Características: repressão política (censura, prisões, tortura e desaparecimentos de opositores); restrição ou supressão de direitos civis e de eleições diretas; adoção da Doutrina de Segurança Nacional. Relação com a Guerra Fria: os regimes se apresentavam como defesa contra o comunismo e contaram com o apoio ou a aprovação dos Estados Unidos, preocupados em evitar novas experiências como a Revolução Cubana; houve ainda cooperação repressiva entre as ditaduras do Cone Sul (Operação Condor).",
+  "explanation": "O anticomunismo e a lógica bipolar justificaram golpes e a repressão, inserindo a América Latina na zona de influência estadunidense.",
+  "skills": [
+   "identificar",
+   "explicar"
+  ],
+  "knowledge": [
+   "as ditaduras na América Latina: repressão política, transições democráticas",
+   "Guerra Fria"
+  ],
+  "patternRationale": "Tópico de alta incidência na classificação oficial; a UERJ costuma pedir características do período e sua articulação com o contexto internacional.",
+  "commonMistakes": [
+   "Descrever apenas o caso brasileiro.",
+   "Não estabelecer a relação com o anticomunismo e os EUA."
+  ],
+  "model": "Claude (acervo inicial da plataforma)"
+ },
+ {
+  "id": "ined-his-02",
+  "discipline": "HIS",
+  "topicIds": [
+   "his-a-revolucao-industrial"
+  ],
+  "difficulty": "facil",
+  "statement": "A Revolução Industrial, iniciada na Inglaterra no século XVIII, transformou profundamente a produção e a vida social.\n\nExplique duas transformações nas relações de trabalho provocadas pela industrialização. Em seguida, aponte um impacto ambiental desse processo.",
+  "modelAnswer": "Transformações: (1) generalização do trabalho assalariado e perda do controle do trabalhador sobre os meios de produção e o ritmo de trabalho; (2) disciplina fabril e divisão do trabalho, com longas jornadas e emprego de mulheres e crianças em condições precárias. Impacto ambiental: poluição do ar e da água, decorrente da queima de carvão e dos resíduos industriais, e crescimento urbano insalubre.",
+  "explanation": "A fábrica mecanizada concentrou trabalhadores e impôs novos ritmos; a energia do carvão e a urbanização acelerada trouxeram poluição e degradação ambiental.",
+  "skills": [
+   "explicar",
+   "apontar"
+  ],
+  "knowledge": [
+   "a Revolução Industrial: transformações nos mundos do trabalho; contradições entre progresso técnico e impactos ambientais"
+  ],
+  "patternRationale": "O programa oficial de 2027 cita explicitamente “contradições entre progresso técnico e impactos ambientais”, combinação típica de dois comandos em uma questão.",
+  "commonMistakes": [
+   "Citar invenções técnicas sem relacioná-las às relações de trabalho.",
+   "Confundir com a Segunda Revolução Industrial (eletricidade e petróleo)."
+  ],
+  "model": "Claude (acervo inicial da plataforma)"
+ },
+ {
+  "id": "ined-lpl-01",
+  "discipline": "LPL",
+  "topicIds": [
+   "lpl-a-oracao-e-o-periodo",
+   "lpl-coesao-textual"
+  ],
+  "difficulty": "facil",
+  "statement": "Texto elaborado para esta questão:\n“Embora a cidade tenha crescido muito nas últimas décadas, o centro histórico perdeu moradores.”\n\nIdentifique a relação de sentido estabelecida pela conjunção “embora” no período acima. Em seguida, reescreva o período com uma conjunção coordenativa, mantendo o sentido original e fazendo as alterações necessárias.",
+  "modelAnswer": "A conjunção “embora” estabelece relação de concessão. Reescrita possível: “A cidade cresceu muito nas últimas décadas, mas o centro histórico perdeu moradores.” (conjunção coordenativa adversativa; o verbo passa do subjuntivo “tenha crescido” para o indicativo “cresceu”).",
+  "explanation": "Concessivas e adversativas exprimem contraste; na concessiva, o fato é admitido mas não impede o outro. Ao trocar a subordinada concessiva pela coordenada adversativa, ajusta-se o modo verbal.",
+  "skills": [
+   "identificar",
+   "compor ou decompor"
+  ],
+  "knowledge": [
+   "a oração e o período: coordenação e subordinação",
+   "coesão textual"
+  ],
+  "patternRationale": "A UERJ cobra com frequência relações de sentido entre orações e reescritas com manutenção de sentido (itens “a oração e o período” e “coesão”).",
+  "commonMistakes": [
+   "Classificar como causa ou condição.",
+   "Manter “tenha crescido” após “mas”, gerando inadequação."
+  ],
+  "model": "Claude (acervo inicial da plataforma)"
+ },
+ {
+  "id": "ined-lpl-02",
+  "discipline": "LPL",
+  "topicIds": [
+   "lpl-formas-de-enunciacao"
+  ],
+  "difficulty": "medio",
+  "statement": "Texto elaborado para esta questão:\nO médico olhou os exames e disse ao paciente: “Volte amanhã com o resultado da nova análise.”\n\nTransponha a fala do médico para o discurso indireto. Em seguida, explique duas alterações gramaticais necessárias nessa transposição.",
+  "modelAnswer": "Discurso indireto: “O médico olhou os exames e disse ao paciente que voltasse no dia seguinte com o resultado da nova análise.” Alterações: (1) o imperativo “volte” passa ao pretérito imperfeito do subjuntivo “voltasse”, introduzido pela conjunção integrante “que”; (2) o advérbio “amanhã” passa a “no dia seguinte”, pois o ponto de referência temporal deixa de ser o momento da fala do médico.",
+  "explanation": "Na passagem ao discurso indireto, a fala é subordinada ao verbo de elocução; ajustam-se tempo e modo verbais, pronomes e advérbios de tempo e lugar.",
+  "skills": [
+   "compor ou decompor",
+   "explicar"
+  ],
+  "knowledge": [
+   "formas de enunciação: discurso direto e discurso indireto"
+  ],
+  "patternRationale": "O item “formas de enunciação” aparece na classificação oficial de Língua Portuguesa; questões pedem identificação e transformação de discursos.",
+  "commonMistakes": [
+   "Manter o imperativo (“disse que volte amanhã”).",
+   "Não ajustar o advérbio de tempo."
+  ],
+  "model": "Claude (acervo inicial da plataforma)"
+ },
+ {
+  "id": "ined-llp-01",
+  "discipline": "LPL",
+  "topicIds": [
+   "lpl-recursos-expressivos-da-criacao-estetica"
+  ],
+  "difficulty": "medio",
+  "statement": "O título do romance Luanda, Lisboa, Paraíso, de Djaimilia Pereira de Almeida, enumera três lugares que marcam o percurso de Cartola de Sousa e de seu filho Aquiles.\n\nCom base na leitura do romance, explique a relação entre o terceiro nome do título e as condições de vida dos personagens nesse lugar. Em seguida, nomeie a figura de linguagem construída por esse contraste.",
+  "modelAnswer": "Paraíso é o nome de um bairro precário (de lata) às margens do Tejo, onde pai e filho passam a viver depois de esgotados os recursos em Lisboa. O nome evoca felicidade e plenitude, mas o lugar é marcado por pobreza, doença e exclusão. O contraste entre o nome e a realidade constitui ironia.",
+  "explanation": "A ironia (por antífrase ou de situação) evidencia a distância entre a promessa associada à migração e a experiência real dos personagens.",
+  "skills": [
+   "explicar",
+   "nomear"
+  ],
+  "knowledge": [
+   "recursos expressivos: figuras de linguagem",
+   "elementos da narrativa: espaço"
+  ],
+  "patternRationale": "Reproduz a estrutura da questão oficial 2026/1 (explicar um recurso — metonímia — e uma ironia a partir do espaço do romance indicado).",
+  "commonMistakes": [
+   "Responder “metáfora”.",
+   "Descrever o bairro sem relacioná-lo ao nome."
+  ],
+  "model": "Claude (acervo inicial da plataforma)",
+  "book": "Luanda, Lisboa, Paraíso"
+ },
+ {
+  "id": "ined-llp-02",
+  "discipline": "LPL",
+  "topicIds": [
+   "lpl-procedimentos-de-intertextualidade",
+   "lpl-recursos-expressivos-da-criacao-estetica"
+  ],
+  "difficulty": "medio",
+  "statement": "No romance Luanda, Lisboa, Paraíso, o filho de Cartola de Sousa, Aquiles, nasceu com uma malformação no calcanhar, motivo da viagem a Lisboa em busca de tratamento.\n\nExplique a relação entre o nome do personagem e sua condição física. Em seguida, nomeie o procedimento de intertextualidade presente nessa escolha e indique um efeito de sentido que ele produz na narrativa.",
+  "modelAnswer": "O nome remete ao herói grego Aquiles, cujo único ponto vulnerável era o calcanhar. O procedimento é a alusão. O efeito é transformar a deficiência física em símbolo de vulnerabilidade — do personagem e de sua família de imigrantes —, conferindo à trajetória um tom trágico e irônico (o herói invencível torna-se um jovem frágil e dependente de tratamento).",
+  "explanation": "A alusão é uma referência indireta a outro texto ou tradição; aqui, ela dialoga com a mitologia para ampliar o sentido do drama individual.",
+  "skills": [
+   "explicar",
+   "nomear"
+  ],
+  "knowledge": [
+   "procedimentos de intertextualidade: alusão",
+   "recursos expressivos"
+  ],
+  "patternRationale": "Itens de intertextualidade e recursos expressivos aplicados à obra indicada estão entre os mais classificados pela UERJ em Língua Portuguesa e Literaturas.",
+  "commonMistakes": [
+   "Chamar o procedimento de paródia sem justificar.",
+   "Explicar o mito sem relacioná-lo ao personagem."
+  ],
+  "model": "Claude (acervo inicial da plataforma)",
+  "book": "Luanda, Lisboa, Paraíso"
+ },
+ {
+  "id": "ined-llp-03",
+  "discipline": "LPL",
+  "topicIds": [
+   "lpl-literatura-e-sociedade"
+  ],
+  "difficulty": "dificil",
+  "statement": "Em Luanda, Lisboa, Paraíso, Cartola e Aquiles não são tratados como portugueses em Lisboa e, com o passar dos anos, deixam também de se sentir angolanos.\n\nRelacione essa situação ao contexto histórico das relações entre Portugal e Angola após 1975. Em seguida, explique o sentido de “limbo” que pode ser atribuído à experiência desses personagens.",
+  "modelAnswer": "Após a independência de Angola (1975), em meio à guerra civil e à precariedade de serviços como a saúde, muitos angolanos migraram para a antiga metrópole, onde enfrentaram preconceito, trabalho precário e moradia nas periferias. O “limbo” é a condição de quem não pertence plenamente a nenhum dos dois lugares: excluídos em Portugal e afastados de Angola, os personagens vivem uma identidade suspensa, entre a terra de origem e a de chegada.",
+  "explanation": "A questão articula literatura e contexto sociohistórico, como pede o programa (“Literatura e sociedade: contextos sócio-históricos de produção e recepção dos textos”).",
+  "skills": [
+   "estabelecer relações",
+   "explicar"
+  ],
+  "knowledge": [
+   "literatura e sociedade",
+   "contexto pós-colonial"
+  ],
+  "patternRationale": "O programa de 2027 dá destaque a “Literatura e sociedade”; a UERJ costuma pedir a relação entre a obra e seu contexto.",
+  "commonMistakes": [
+   "Tratar o tema apenas como saudade, sem o contexto histórico.",
+   "Situar a ação no período colonial."
+  ],
+  "model": "Claude (acervo inicial da plataforma)",
+  "book": "Luanda, Lisboa, Paraíso"
+ },
+ {
+  "id": "ined-ba-01",
+  "discipline": "LPL",
+  "topicIds": [
+   "lpl-recursos-expressivos-da-criacao-estetica"
+  ],
+  "difficulty": "medio",
+  "statement": "Na peça O bem-amado, de Dias Gomes, o prefeito Odorico Paraguaçu é eleito com a promessa de construir um cemitério em Sucupira e passa a precisar de um morto para inaugurá-lo.\n\nExplique a ironia presente no desfecho da peça. Em seguida, relacione essa ironia à crítica política que a obra realiza.",
+  "modelAnswer": "No desfecho, o próprio Odorico é morto (por Zeca Diabo) e se torna o primeiro defunto do cemitério: a promessa se cumpre pelo avesso, o que caracteriza ironia de situação. A ironia expõe a crítica a uma política que instrumentaliza a vida e a morte e transforma obras públicas em promoção pessoal: o governante que manipulou a cidade acaba “inaugurando” a obra com o próprio corpo e ainda é transformado em mártir.",
+  "explanation": "A farsa usa o exagero e a reviravolta final para revelar o absurdo de práticas políticas reais, como o coronelismo e a demagogia.",
+  "skills": [
+   "explicar",
+   "estabelecer relações"
+  ],
+  "knowledge": [
+   "recursos expressivos: ironia",
+   "literatura e sociedade"
+  ],
+  "patternRationale": "Questão de leitura da obra-base da Redação 2027, útil para formar repertório; não reproduz questão oficial.",
+  "commonMistakes": [
+   "Resumir o enredo sem explicar a ironia.",
+   "Atribuir à peça episódios exclusivos da novela."
+  ],
+  "model": "Claude (acervo inicial da plataforma)",
+  "book": "O bem-amado"
+ },
+ {
+  "id": "ined-ba-02",
+  "discipline": "LPL",
+  "topicIds": [
+   "lpl-criacao-e-adocao-de-palavras",
+   "lpl-recursos-expressivos-da-criacao-estetica"
+  ],
+  "difficulty": "medio",
+  "statement": "O modo de falar de Odorico Paraguaçu, em O bem-amado, é marcado por palavras inventadas e por termos rebuscados usados de forma inadequada.\n\nNomeie o processo de criação de palavras característico da fala de Odorico. Em seguida, explique como essa linguagem contribui para a caracterização do personagem e para a crítica política da peça.",
+  "modelAnswer": "O processo é o neologismo (sobretudo neologismos formados por derivação e composição). A fala pomposa e cheia de palavras inventadas caracteriza Odorico como vaidoso, demagogo e vazio: a forma grandiloquente impressiona o eleitorado e encobre a falta de conteúdo. Assim, a linguagem é instrumento da crítica à manipulação do discurso político.",
+  "explanation": "No texto teatral, sem narrador, o personagem se constrói pelo que diz e pelo modo como diz; o humor do “odoriquês” é também denúncia.",
+  "skills": [
+   "nomear",
+   "explicar"
+  ],
+  "knowledge": [
+   "criação e adoção de palavras: neologismo",
+   "recursos expressivos"
+  ],
+  "patternRationale": "Relaciona um item do programa de Língua Portuguesa (neologismo) à obra-base da Redação, articulação útil também para argumentar na Redação.",
+  "commonMistakes": [
+   "Confundir neologismo com estrangeirismo.",
+   "Tratar o “odoriquês” apenas como piada, sem função crítica."
+  ],
+  "model": "Claude (acervo inicial da plataforma)",
+  "book": "O bem-amado"
+ },
+ {
+  "id": "ined-le-ing-01",
+  "discipline": "LE",
+  "topicIds": [
+   "le-fatores-de-coesao"
+  ],
+  "difficulty": "medio",
+  "statement": "Texto elaborado para esta questão:\n“Many cities are turning old industrial areas into parks and cultural centers. These projects often attract tourists and new businesses. However, they can also raise rents, forcing long-time residents to move elsewhere. Planners, therefore, face a difficult choice.”\n\nIndique a que se refere a expressão “These projects”. Em seguida, explique a relação de sentido estabelecida por “However” e por “therefore” no texto. (Responda em português.)",
+  "modelAnswer": "“These projects” retoma a transformação de antigas áreas industriais em parques e centros culturais (referência anafórica). “However” estabelece oposição/contraste: apesar dos benefícios (turistas e negócios), os projetos podem elevar aluguéis e expulsar moradores antigos. “Therefore” indica conclusão/consequência: por causa desses efeitos contraditórios, os planejadores enfrentam uma escolha difícil.",
+  "explanation": "Os elementos de coesão retomam referentes (anáfora) e marcam relações lógicas (contraste, conclusão) que organizam a argumentação do texto.",
+  "skills": [
+   "identificar",
+   "explicar"
+  ],
+  "knowledge": [
+   "fatores de coesão: referenciação, conectores lógicos"
+  ],
+  "patternRationale": "A classificação oficial mostra “fatores de coesão” entre os itens mais cobrados em Língua Estrangeira; as respostas são sempre em português.",
+  "commonMistakes": [
+   "Traduzir as palavras sem explicar a relação lógica.",
+   "Indicar como referente apenas “parks”."
+  ],
+  "model": "Claude (acervo inicial da plataforma)",
+  "language": "Inglês"
+ }
+]

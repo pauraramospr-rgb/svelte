@@ -1,0 +1,2011 @@
+[
+ {
+  "code": "RED",
+  "name": "Redação",
+  "orientacao": [
+   "No Vestibular Estadual 2027, o tema da Redação tem como base o livro O bem-amado, de Dias Gomes, leitura imprescindível para o exame discursivo. O foco da redação é a discussão de uma questão levantada a partir desse texto teatral, que admite posicionamentos diferentes. Por isso, a prova de Redação dá prioridade à capacidade de argumentação do candidato, entendendo-a como um importante requisito da vida acadêmica, quer pela articulação de informações e ideias, quer pelo exercício de recursos expositivos e persuasivos da linguagem.",
+   "Nessa prova, o candidato deve compor uma redação dissertativo-argumentativa, em prosa, com o mínimo de 20 e o máximo de 30 linhas. Serão avaliados os seguintes aspectos: atendimento à questão-tema; redação do texto no gênero dissertativo, com tese principal claramente explicitada, defendida por meio de argumentos válidos, suficientes e pertinentes; conclusão coerente da argumentação; organização das partes da redação por meio de variados recursos de coesão; uso adequado da norma padrão da língua portuguesa; produção de texto que proporciona leitura fluida."
+  ],
+  "units": []
+ },
+ {
+  "code": "BIO",
+  "name": "Biologia",
+  "orientacao": [
+   "O estudo da Biologia no ensino médio tem como objetivo apresentar os conhecimentos fundamentais deste campo da ciência, por meio do estudo das moléculas, das estruturas e dos mecanismos que caracterizam os seres vivos, bem como as origens e evolução da vida, sua diversidade e interações com o meio ambiente.",
+   "Este programa está organizado em cinco unidades que exploram os conhecimentos básicos da disciplina, buscando estabelecer relações entre pontos fundamentais para o desenvolvimento da biologia moderna. Este programa procura também levar os candidatos a refletirem, de forma integrada, sobre a importância do método científico, visando às suas futuras atividades profissionais.",
+   "O exame discursivo desta disciplina pretende avaliar a capacidade dos candidatos de resolver problemas a partir de temas atuais aplicados ao cotidiano e de interpretar resultados experimentais para testar hipóteses."
+  ],
+  "units": [
+   {
+    "name": "Seres vivos",
+    "topics": [
+     {
+      "id": "bio-classificacao-dos-seres-vivos",
+      "title": "Classificação dos seres vivos",
+      "subtopics": [
+       "sistemática filogenética",
+       "reinos e domínios"
+      ]
+     },
+     {
+      "id": "bio-evolucao",
+      "title": "Evolução",
+      "subtopics": [
+       "origens da vida e transformações dos seres vivos ao longo do tempo",
+       "estratégias adaptativas",
+       "mecanismos e teorias evolutivas e de seleção",
+       "biodiversidade"
+      ]
+     },
+     {
+      "id": "bio-bases-da-ecologia",
+      "title": "Bases da ecologia",
+      "subtopics": [
+       "ecossistemas e biomas",
+       "fluxo de energia e de matéria na biosfera",
+       "cadeias e teias alimentares",
+       "relações ecológicas",
+       "ciclos biogeoquímicos",
+       "poluição e desequilíbrio ecológico"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Vírus, células e tecidos",
+    "topics": [
+     {
+      "id": "bio-virus",
+      "title": "Vírus",
+      "subtopics": [
+       "estrutura",
+       "tipos",
+       "reprodução"
+      ]
+     },
+     {
+      "id": "bio-celulas-procariotas-e-eucariotas",
+      "title": "Células procariotas e eucariotas",
+      "subtopics": [
+       "características morfológicas e funcionais",
+       "principais componentes químicos",
+       "mecanismos e fases da divisão celular",
+       "sistema de biomembranas e mecanismos de transporte",
+       "organelas"
+      ]
+     },
+     {
+      "id": "bio-bioenergetica",
+      "title": "Bioenergética",
+      "subtopics": [
+       "respiração celular",
+       "fermentação",
+       "fotossíntese",
+       "quimiossíntese"
+      ]
+     },
+     {
+      "id": "bio-multicelularidade",
+      "title": "Multicelularidade",
+      "subtopics": [
+       "classificação, estrutura e funções dos tecidos animais e vegetais",
+       "desenvolvimento embrionário dos animais",
+       "germinação e dormência"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Bases da genética",
+    "topics": [
+     {
+      "id": "bio-os-acidos-nucleicos-dna-e-rna",
+      "title": "Os ácidos nucleicos DNA e RNA",
+      "subtopics": [
+       "estrutura",
+       "funções"
+      ]
+     },
+     {
+      "id": "bio-cromossomos-e-genes",
+      "title": "Cromossomos e genes",
+      "subtopics": [
+       "código genético",
+       "síntese de proteínas",
+       "mutação e recombinação gênica"
+      ]
+     },
+     {
+      "id": "bio-engenharia-genetica",
+      "title": "Engenharia genética",
+      "subtopics": [
+       "tecnologia do DNA recombinante",
+       "células-tronco"
+      ]
+     },
+     {
+      "id": "bio-hereditariedade",
+      "title": "Hereditariedade",
+      "subtopics": [
+       "mendelismo e neomendelismo",
+       "doenças hereditárias",
+       "alterações no patrimônio genético"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Bioquímica e fisiologia de animais e vegetais",
+    "topics": [
+     {
+      "id": "bio-metabolismo-animal-e-vegetal",
+      "title": "Metabolismo animal e vegetal",
+      "subtopics": [
+       "estrutura e cinética de enzimas",
+       "anabolismo e catabolismo de carboidratos, lipídios e proteínas",
+       "tipos e funções dos hormônios",
+       "vitaminas"
+      ]
+     },
+     {
+      "id": "bio-processamento-dos-alimentos",
+      "title": "Processamento dos alimentos",
+      "subtopics": [
+       "digestão",
+       "absorção e transporte de nutrientes nos animais",
+       "captação de macro e micronutrientes pelos vegetais"
+      ]
+     },
+     {
+      "id": "bio-respiracao",
+      "title": "Respiração",
+      "subtopics": [
+       "mecanismos",
+       "órgãos e tecidos envolvidos",
+       "captação e transporte de gases"
+      ]
+     },
+     {
+      "id": "bio-circulacao",
+      "title": "Circulação",
+      "subtopics": [
+       "mecanismos",
+       "órgãos e tecidos envolvidos",
+       "transporte da seiva nas plantas"
+      ]
+     },
+     {
+      "id": "bio-excrecao-nos-animais",
+      "title": "Excreção nos animais",
+      "subtopics": [
+       "mecanismos",
+       "órgãos e tecidos envolvidos"
+      ]
+     },
+     {
+      "id": "bio-homeostasia",
+      "title": "Homeostasia",
+      "subtopics": [
+       "mecanismos termorregulatórios",
+       "manutenção do pH",
+       "osmorregulação",
+       "equilíbrio hidrossalino e equilíbrio ácido- básico"
+      ]
+     },
+     {
+      "id": "bio-sistema-nervoso",
+      "title": "Sistema nervoso",
+      "subtopics": [
+       "estrutura",
+       "transmissão do impulso nervoso"
+      ]
+     },
+     {
+      "id": "bio-reproducao",
+      "title": "Reprodução",
+      "subtopics": [
+       "tipos de ciclos de vida",
+       "gametas e fecundação em animais e vegetais"
+      ]
+     },
+     {
+      "id": "bio-o-sistema-imune-animal",
+      "title": "O sistema imune animal",
+      "subtopics": [
+       "anticorpos",
+       "processos imunológicos"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Saúde e bem-estar do homem",
+    "topics": [
+     {
+      "id": "bio-doencas-infecciosas",
+      "title": "Doenças infecciosas",
+      "subtopics": [
+       "agentes causadores",
+       "endemias, epidemias e pandemias",
+       "profilaxia",
+       "infecções sexualmente transmissíveis (IST): agentes causadores e profilaxia"
+      ]
+     },
+     {
+      "id": "bio-doencas-parasitarias-e-carenciais-no-brasil",
+      "title": "Doenças parasitárias e carenciais no Brasil",
+      "subtopics": [
+       "agentes causadores",
+       "profilaxia"
+      ]
+     },
+     {
+      "id": "bio-medidas-preventivas-em-saude-publica",
+      "title": "Medidas preventivas em saúde pública",
+      "subtopics": [
+       "higiene",
+       "vacinação"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "FIS",
+  "name": "Física",
+  "orientacao": [
+   "O estudo da Física no ensino médio tem, como objetivos principais, capacitar os estudantes a descrever e a interpretar qualitativa e quantitativamente os fenômenos e sistemas físicos simples, relacionados com a experiência cotidiana e, ainda, contribuir para a formação de sua cultura científica.",
+   "Este programa está organizado em quatro unidades que correspondem às áreas clássicas do estudo da disciplina, a fim de facilitar a abordagem da Física de maneira contextualizada e integrada à vida diária.",
+   "O exame discursivo desta disciplina pretende avaliar o grau de compreensão dos conceitos, das leis e dos princípios básicos desta ciência, bem como a capacidade dos candidatos de reconhecer e estimar as grandezas associadas aos fenômenos físicos, de estabelecer relações entre grandezas a partir da representação gráfica de dados e de reconhecer os princípios de funcionamento dos instrumentos típicos de medição de grandezas físicas.",
+   "Na elaboração das questões, as unidades de medida utilizadas serão, preferencialmente, aquelas do Sistema Internacional (SI), salvo as exceções mais usuais: atm, mmHg, cm, mm, angstrom, litro, cal, eV, kWh, km/h, BTU.",
+   "Ademais, os sistemas físicos serão assumidos ideais (fio ideal, mola ideal, circuito elétrico ideal, resistência do ar desprezível), salvo considerações em contrário."
+  ],
+  "units": [
+   {
+    "name": "Fenômenos mecânicos",
+    "topics": [
+     {
+      "id": "fis-equilibrio-de-corpos",
+      "title": "Equilíbrio de corpos",
+      "subtopics": [
+       "massa",
+       "peso",
+       "centros de massa e de gravidade",
+       "atrito",
+       "pressão",
+       "tração, tensão",
+       "força resultante",
+       "torque ou momento de força",
+       "condições de equilíbrio"
+      ]
+     },
+     {
+      "id": "fis-descricao-do-movimento",
+      "title": "Descrição do movimento",
+      "subtopics": [
+       "sistemas de referência",
+       "grandezas escalares e vetoriais",
+       "posição, velocidade, aceleração",
+       "movimento uniforme (MU)",
+       "movimento uniformemente variado (MUV)"
+      ]
+     },
+     {
+      "id": "fis-leis-de-newton-e-suas-aplicacoes",
+      "title": "Leis de Newton e suas aplicações",
+      "subtopics": [
+       "queda dos corpos com atrito e sem atrito",
+       "movimento de projéteis",
+       "movimentos circulares",
+       "pêndulo simples",
+       "movimento dos planetas",
+       "oscilador harmônico simples"
+      ]
+     },
+     {
+      "id": "fis-conservacao-de-energia",
+      "title": "Conservação de energia",
+      "subtopics": [
+       "energia cinética",
+       "trabalho e potência de uma força",
+       "relação trabalho-energia",
+       "energia potencial gravitacional, eletrostática e elástica"
+      ]
+     },
+     {
+      "id": "fis-conservacao-do-momentum-linear",
+      "title": "Conservação do momentum linear",
+      "subtopics": [
+       "impulsão",
+       "quantidade de movimento",
+       "colisões elásticas e inelásticas unidimensionais e no plano"
+      ]
+     },
+     {
+      "id": "fis-propriedades-dos-fluidos",
+      "title": "Propriedades dos fluidos",
+      "subtopics": [
+       "massa específica e densidade",
+       "empuxo",
+       "pressão hidrostática",
+       "pressão atmosférica",
+       "princípio de Pascal",
+       "princípio de Arquimedes"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Fenômenos térmicos",
+    "topics": [
+     {
+      "id": "fis-interacao-termica",
+      "title": "Interação térmica",
+      "subtopics": [
+       "equilíbrio térmico",
+       "temperatura",
+       "escalas termométricas",
+       "calor e suas interações",
+       "dilatação e contração de sólidos, líquidos e gases"
+      ]
+     },
+     {
+      "id": "fis-estrutura-molecular-da-materia",
+      "title": "Estrutura molecular da matéria",
+      "subtopics": [
+       "interpretação microscópica da pressão, da temperatura e do calor",
+       "comportamento dos gases",
+       "equação de Clapeyron"
+      ]
+     },
+     {
+      "id": "fis-calorimetria",
+      "title": "Calorimetria",
+      "subtopics": [
+       "calor sensível",
+       "capacidade térmica",
+       "calor latente"
+      ]
+     },
+     {
+      "id": "fis-termodinamica",
+      "title": "Termodinâmica",
+      "subtopics": [
+       "leis da termodinâmica",
+       "diagramas termodinâmicos",
+       "entropia"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Fenômenos eletromagnéticos",
+    "topics": [
+     {
+      "id": "fis-interacao-eletrica",
+      "title": "Interação elétrica",
+      "subtopics": [
+       "carga elétrica, lei de Coulomb, potencial e campos eletrostáticos",
+       "processos de eletrização, estrutura atômica da matéria, elétrons, prótons e nêutrons"
+      ]
+     },
+     {
+      "id": "fis-circuitos-eletricos",
+      "title": "Circuitos elétricos",
+      "subtopics": [
+       "leis de Ohm, corrente, tensão, capacitância e potência elétricas",
+       "resistores, receptores, capacitores, e fontes (baterias, pilhas e geradores de corrente contínua ou alternada)",
+       "valores eficazes de tensão e corrente",
+       "potência média",
+       "associação de resistores",
+       "associação de capacitores",
+       "associação de geradores",
+       "circuitos elétricos elementares, curto-circuito",
+       "instrumentos de medida elétrica",
+       "leis de Kirchhoff"
+      ]
+     },
+     {
+      "id": "fis-eletromagnetismo",
+      "title": "Eletromagnetismo",
+      "subtopics": [
+       "campos magnéticos de correntes e ímãs",
+       "indução eletromagnética, lei de Faraday, transformadores e motores",
+       "movimento de partículas em campos eletromagnéticos uniformes"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Fenômenos ondulatórios",
+    "topics": [
+     {
+      "id": "fis-oscilacoes-e-ondas",
+      "title": "Oscilações e ondas",
+      "subtopics": [
+       "perturbações longitudinais e transversais",
+       "amplitude, frequência, período, comprimento de onda, número de onda",
+       "velocidade de propagação"
+      ]
+     },
+     {
+      "id": "fis-ondas-acusticas-e-eletromagneticas",
+      "title": "Ondas acústicas e eletromagnéticas",
+      "subtopics": [
+       "reflexão, refração, interferência, difração, polarização",
+       "cordas vibrantes",
+       "tubos sonoros",
+       "efeito doppler",
+       "espectro eletromagnético, fontes de luz",
+       "aplicações em espelhos, em lentes e em instrumentos ópticos simples"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "GEO",
+  "name": "Geografia",
+  "orientacao": [
+   "A ciência geográfica tem como foco a análise da dimensão espacial da sociedade, o que inclui a relação sociedadenatureza. Disso resulta a importância de compreender tanto os processos sociais, econômicos e políticos de produção do espaço geográfico, quanto as formas espaciais que, simultaneamente, resultam de e interferem sobre esses processos, nas diversas escalas geográficas de análise.",
+   "Este programa está estruturado em quatro unidades organizadas a partir de um conjunto de conceitos e categorias cuja afinidade e interdependência servem de base para a compreensão dos processos e das formas que configuram o espaço geográfico. Em cada unidade, a preocupação com a espacialidade dos fenômenos está sempre presente como elemento norteador da perspectiva que permite construir visões geográficas do mundo.",
+   "A primeira unidade, Natureza, meio ambiente e representações do espaço, é composta por fundamentos que possibilitam um entendimento do espaço geográfico, a partir do conhecimento das dinâmicas da natureza em sua inter-relação com os processos sociais, e inclui as diferentes formas de representação do espaço. As demais unidades articulam fenômenos e processos sociais, econômicos, políticos e culturais cuja dimensão espacial remete à organização das escalas geográficas de análise privilegiadas neste exame: mundial, brasileira e fluminense.",
+   "Assim, o exame discursivo desta disciplina tem como objetivo verificar as habilidades do candidato de avaliar os fenômenos geográficos, em uma perspectiva analítica do mundo contemporâneo, valendo-se da interpretação de textos, gráficos, tabelas, charges, imagens, mapas e cartogramas. Também será dado destaque à capacidade de identificar e explicar a diversidade do espaço geográfico a partir das contradições sociais, por meio da comparação de processos e formas espaciais e do reconhecimento de semelhanças, diferenças e nexos entre os contextos globais e locais."
+  ],
+  "units": [
+   {
+    "name": "Natureza, meio ambiente e representações do espaço",
+    "topics": [
+     {
+      "id": "geo-dinamica-e-caracterizacao-da-natureza-e-dos-espacos-naturais",
+      "title": "Dinâmica e caracterização da natureza e dos espaços naturais",
+      "subtopics": [
+       "relevo, clima, solo, hidrografia",
+       "os grandes biomas mundiais e brasileiros"
+      ]
+     },
+     {
+      "id": "geo-relacao-sociedade-natureza",
+      "title": "Relação sociedade-natureza",
+      "subtopics": [
+       "o aproveitamento econômico da natureza, a antropização do espaço e as fontes de energia",
+       "gestão dos recursos naturais e suas cadeias produtivas e as estratégias para a preservação do patrimônio ambiental",
+       "impactos socioambientais decorrentes das práticas sociais de diferentes atores e em diversas escalas de análise"
+      ]
+     },
+     {
+      "id": "geo-representacao-e-orientacao-do-no-espaco",
+      "title": "Representação e orientação do/no espaço",
+      "subtopics": [
+       "os usos das linguagens cartográfica, gráfica e iconográfica como ferramentas de representação do espaço geográfico",
+       "a escala cartográfica, a localização através das coordenadas geográficas e o sistema de fusos horários",
+       "aplicação dos princípios de localização, extensão, distribuição, ordem, arranjos, conexão, casualidade, que contribuem para o raciocínio geográfico"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Trabalho, tecnologia e a produção social do espaço",
+    "topics": [
+     {
+      "id": "geo-capitalismo-global-tecnologia-e-espaco-geografico",
+      "title": "Capitalismo global, tecnologia e espaço geográfico",
+      "subtopics": [
+       "a produção social do espaço nos diferentes modelos produtivos do capitalismo",
+       "as múltiplas formas de organização do trabalho e os impactos das transformações tecnológicas sobre o consumo, as relações sociais e de trabalho na contemporaneidade",
+       "as diferenças socioeconômicas do mundo contemporâneo, os distintos momentos da divisão internacional do trabalho e o processo de mundialização da economia capitalista"
+      ]
+     },
+     {
+      "id": "geo-territorios-e-dinamicas-da-industria",
+      "title": "Territórios e dinâmicas da indústria",
+      "subtopics": [
+       "os fatores locacionais e as espacializações do processo de industrialização",
+       "concentração financeira da atividade industrial e as novas estratégias de organização da produção fabril"
+      ]
+     },
+     {
+      "id": "geo-espaco-rural",
+      "title": "Espaço rural",
+      "subtopics": [
+       "as formas de organização da produção agrária no mundo",
+       "a modernização do campo, o agronegócio e suas consequências sociais e ambientais",
+       "as relações cidade-campo e suas transformações a partir da industrialização, estrutura fundiária, conflitos pela terra e as relações de trabalho no campo"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Redes, fluxos e os recortes espaciais regionais da industrialização",
+    "topics": [
+     {
+      "id": "geo-espaco-urbano",
+      "title": "Espaço urbano",
+      "subtopics": [
+       "os processos de urbanização, metropolização e as formas espaciais resultantes",
+       "redes de cidades e as correspondentes hierarquias urbanas",
+       "a organização espacial das cidades e as múltiplas formas da segregação socioespacial",
+       "impactos das atividades econômicas e dos atores sociais nas configurações do espaço citadino"
+      ]
+     },
+     {
+      "id": "geo-redes-geograficas-e-seus-fluxos",
+      "title": "Redes geográficas e seus fluxos",
+      "subtopics": [
+       "os circuitos mundiais de circulação de mercadorias e de informação",
+       "o sistema financeiro internacional e os fluxos globais de capital",
+       "movimentos populacionais e seus fatores econômicos, políticos e culturais",
+       "o papel das redes de transportes, de energia e de comunicações na dinâmica da economia e na organização do espaço geográfico"
+      ]
+     },
+     {
+      "id": "geo-recortes-regionais",
+      "title": "Recortes regionais",
+      "subtopics": [
+       "as grandes unidades regionais do mundo e os blocos regionais de comércio internacional",
+       "organização econômica, regionalização e unidades regionais no Brasil",
+       "organização espacial, social e econômica do estado do Rio de Janeiro"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Política, estado e gestão do território",
+    "topics": [
+     {
+      "id": "geo-organizacao-e-acao-do-estado",
+      "title": "Organização e ação do Estado",
+      "subtopics": [
+       "conceitos de nação, Estado-Nação, identidade nacional e nacionalismos",
+       "diferentes configurações do Estado moderno territorial e a dimensão espacial da representação política e da organização político-administrativa",
+       "políticas públicas de caráter nacional e regional e seu papel na estruturação do espaço geográfico"
+      ]
+     },
+     {
+      "id": "geo-dimensao-demografica-da-producao-do-espaco",
+      "title": "Dimensão demográfica da produção do espaço",
+      "subtopics": [
+       "dinâmicas do crescimento demográfico e suas interações com a estrutura populacional",
+       "os fundamentos das teorias demográficas e as políticas populacionais"
+      ]
+     },
+     {
+      "id": "geo-geografia-politica-e-a-geopolitica-do-mundo-contemporaneo",
+      "title": "Geografia política e a geopolítica do mundo contemporâneo",
+      "subtopics": [
+       "processos de ocupação do espaço e a formação de territórios, territorialidades e fronteiras",
+       "principais atores do poder global, o sistema internacional contemporâneo e as organizações supranacionais no contexto mundial",
+       "os principais conflitos geopolíticos, étnicos e religiosos e suas inter-relações",
+       "identidade regional, regionalismos e a relevância do poder local nos processos de fragmentação territorial"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "HIS",
+  "name": "História",
+  "orientacao": [
+   "O conhecimento histórico possibilita que as pessoas compreendam as experiências individuais e sociais em diversas temporalidades e espacialidades, valorizando o exercício reflexivo e crítico, de modo a contribuir para a formação ética e cidadã dos/as estudantes.",
+   "Neste programa busca-se dialogar com os conteúdos apresentados na educação básica, com ênfase no currículo escolar do ensino médio, em uma perspectiva investigativa direcionada para as práticas de construção do conhecimento histórico científico, destacando a relação multifacetada entre experiências passadas e percepções do tempo presente e a análise de registros documentais variados. A organização das cinco unidades é balizada pelos processos de construção da modernidade ocidental, redimensionados pela crítica às abordagens eurocêntricas, na consideração sobre problemáticas da atualidade, no âmbito das relações internacionais. A abordagem dos conteúdos selecionados valoriza a identificação de conexões entre o social, o político, o econômico, o cultural e o ideológico, nas suas diversidades espaciais e temporais, de modo a apreender conjunturas históricas em suas especificidades e interações.",
+   "O exame discursivo desta disciplina visa a verificar habilidades dos/as candidatos/as quanto à operacionalização de dados e informações do conhecimento histórico escolar, para além da simples memorização de nomes e datas, por meio da análise e interpretação de registros documentais, tais como textos, fotografias, pinturas, charges, mapas, tabelas, entre outros, situados nas suas ambiências de produção e circulação. Espera-se igualmente que os/as candidatos/as articulem noções e conceitos históricos às visões e percepções de mundo devidamente contextualizadas e caracterizem as múltiplas durações e ritmos das temporalidades, situando mudanças e continuidades de experiências políticas, econômicas, sociais, culturais, comportamentais e mentais."
+  ],
+  "units": [
+   {
+    "name": "Construção da modernidade ocidental (séculos XV-XVI)",
+    "topics": [
+     {
+      "id": "his-a-expansao-maritima-e-comercial-europeia",
+      "title": "A expansão marítima e comercial europeia",
+      "subtopics": [
+       "deslocamento do eixo comercial do Mediterrâneo para o Atlântico e suas implicações geopolíticas e demográficas",
+       "ideias e práticas mercantilistas"
+      ]
+     },
+     {
+      "id": "his-os-processos-de-conquista-e-colonizacao-europeia-na-america-",
+      "title": "Os processos de conquista e colonização europeia na América, África e Ásia",
+      "subtopics": [
+       "particularidades das sociedades ameríndias, asiáticas e africanas",
+       "resistências, assimilações culturais e conflitos étnicos e raciais",
+       "dinâmicas demográficas e migratórias",
+       "práticas de exploração econômica e devastação da natureza",
+       "hierarquias políticas e relações de trabalho nos processos de formação de sociedades coloniais"
+      ]
+     },
+     {
+      "id": "his-a-america-colonial-portuguesa",
+      "title": "A América colonial portuguesa",
+      "subtopics": [
+       "hierarquias e exclusões sociopolíticas",
+       "ocupação, exploração econômica dos territórios e seus impactos socioambientais",
+       "práticas culturais, conflitos e negociações entre colonos, colonizados e colonizadores"
+      ]
+     },
+     {
+      "id": "his-a-formacao-dos-estados-modernos-europeus",
+      "title": "A formação dos Estados Modernos europeus",
+      "subtopics": [
+       "o conceito de absolutismo monárquico",
+       "especificidades do Estado moderno em Portugal, Espanha, França e Inglaterra"
+      ]
+     },
+     {
+      "id": "his-as-manifestacoes-filosoficas-artisticas-e-intelectuais",
+      "title": "As manifestações filosóficas, artísticas e intelectuais",
+      "subtopics": [
+       "rupturas e continuidades nos valores e práticas do Humanismo",
+       "características e realizações culturais do Renascimento",
+       "reformas religiosas, suas principais propostas e os movimentos de cisão com a Igreja Católica",
+       "a Contrarreforma e suas consequências políticas e culturais"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Consolidação e crise do Antigo Regime (séculos XVII-XVIII)",
+    "topics": [
+     {
+      "id": "his-o-antigo-regime-em-sociedades-europeias-e-nos-tropicos",
+      "title": "O Antigo Regime em sociedades europeias e nos trópicos",
+      "subtopics": [
+       "o conceito de sociedade estamental, suas práticas sociais e políticas",
+       "as Revoluções Inglesas"
+      ]
+     },
+     {
+      "id": "his-a-ilustracao-e-a-crise-do-antigo-regime",
+      "title": "A Ilustração e a crise do Antigo Regime",
+      "subtopics": [
+       "a Revolução Científica",
+       "o Movimento Iluminista",
+       "o Despotismo Esclarecido",
+       "as críticas ao Mercantilismo, fisiocracia e liberalismo"
+      ]
+     },
+     {
+      "id": "his-a-revolucao-industrial",
+      "title": "A Revolução Industrial",
+      "subtopics": [
+       "conceito e pré-condições",
+       "transformações na ordem política, socioeconômica e nos mundos do trabalho",
+       "contradições entre progresso técnico e impactos ambientais"
+      ]
+     },
+     {
+      "id": "his-a-revolucao-francesa",
+      "title": "A Revolução Francesa",
+      "subtopics": [
+       "significados e características",
+       "impactos nas sociedades europeias e americanas",
+       "legados para o pensamento político contemporâneo"
+      ]
+     },
+     {
+      "id": "his-os-colonialismos-em-questao",
+      "title": "Os colonialismos em questão",
+      "subtopics": [
+       "a Independência das 13 Colônias inglesas",
+       "a Revolução no Haiti",
+       "rebeliões de escravizados no Caribe",
+       "a Conjuração Mineira, a Conjuração Baiana e a Conspiração do Rio de Janeiro",
+       "as resistências de colonizados e colonos na América colonial espanhola",
+       "as guerras napoleônicas e seus impactos nas colônias ibéricas",
+       "a transmigração da Corte portuguesa para o Brasil e suas implicações"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "O longo século XIX (1815-1914)",
+    "topics": [
+     {
+      "id": "his-os-processos-de-formacao-dos-estados-nacionais-americanos",
+      "title": "Os processos de formação dos estados nacionais americanos",
+      "subtopics": [
+       "lutas de emancipação, liberalismo e dependência econômica",
+       "particularidades sócio-históricas do processo de constituição e consolidação do Império do Brasil"
+      ]
+     },
+     {
+      "id": "his-restauracao-e-revolucao-na-europa-e-na-america",
+      "title": "Restauração e revolução na Europa e na América",
+      "subtopics": [
+       "liberalismo, nacionalismo e democracia nas revoltas de 1820, 1830 e 1848",
+       "liberalismo e conservadorismo nas unificações da Itália e da Alemanha",
+       "o Romantismo e o Realismo",
+       "socialismo, anarquismo, comunismo e o pensamento social-católico no movimento operário",
+       "oligarquias e sociedades agroexportadoras nas Américas",
+       "escravidão, cidadania, identidade nacional e conflitos políticos no Império do Brasil"
+      ]
+     },
+     {
+      "id": "his-formacao-e-consolidacao-do-capitalismo-nos-estados-unidos",
+      "title": "Formação e consolidação do capitalismo nos Estados Unidos",
+      "subtopics": [
+       "expansão territorial e estruturação do Estado nacional",
+       "a Guerra de Secessão, significados e efeitos sociopolíticos",
+       "a expansão geopolítica em relação à América Latina e à Ásia, suas justificativas e principais conflitos"
+      ]
+     },
+     {
+      "id": "his-transformacoes-no-capitalismo-e-expansao-imperialista",
+      "title": "Transformações no capitalismo e expansão imperialista",
+      "subtopics": [
+       "mudanças econômicas e tecnológicas e o desenvolvimento desigual do capitalismo nas sociedades europeias",
+       "conceituação e características do imperialismo",
+       "impactos da expansão imperialista nas sociedades africanas e asiáticas"
+      ]
+     },
+     {
+      "id": "his-o-brasil-da-monarquia-a-republica",
+      "title": "O Brasil da monarquia à república",
+      "subtopics": [
+       "a Guerra do Paraguai",
+       "crise da escravidão, abolicionismos e a imigração",
+       "projetos de República",
+       "positivismo, cientificismo e concepções racialistas",
+       "trabalhadores, camponeses e manifestações populares na transição para a república no Brasil"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "O tempo da Guerra Total (1914-1945)",
+    "topics": [
+     {
+      "id": "his-a-guerra-em-dois-movimentos",
+      "title": "A guerra em dois movimentos",
+      "subtopics": [
+       "as relações internacionais, políticas e econômicas na Primeira Guerra Mundial (1914-1918)",
+       "as relações internacionais, políticas e econômicas na Segunda Guerra Mundial (1939-1945)"
+      ]
+     },
+     {
+      "id": "his-a-construcao-da-hegemonia-norte-americana",
+      "title": "A construção da hegemonia norte-americana",
+      "subtopics": [
+       "os acordos de paz",
+       "a criação da Liga das Nações e da ONU",
+       "características da sociedade liberal burguesa nos E.U.A"
+      ]
+     },
+     {
+      "id": "his-ideologias-em-movimento-reformas-e-revolucoes",
+      "title": "Ideologias em movimento, reformas e revoluções",
+      "subtopics": [
+       "a Revolução Russa, significados e efeitos internacionais",
+       "a Guerra Civil Espanhola",
+       "a emergência, valores e práticas dos fascismos e dos nacionalismos no período do entre-guerras, com ênfase nos casos da Alemanha e da Itália"
+      ]
+     },
+     {
+      "id": "his-a-crise-da-sociedade-liberal",
+      "title": "A crise da sociedade liberal",
+      "subtopics": [
+       "contextualização da origem norte-americana da crise econômica liberal",
+       "caracterização da crise de 1929",
+       "o New Deal e o Estado do Bem-estar Social",
+       "dimensões internacionais da crise do liberalismo e os modelos de intervenção estatal na Europa e nas Américas",
+       "a crise do estado oligárquico na sociedade brasileira e a Revolução de 1930"
+      ]
+     },
+     {
+      "id": "his-estado-e-industrializacao-na-america-latina",
+      "title": "Estado e industrialização na América Latina",
+      "subtopics": [
+       "crise do modelo oligárquico de desenvolvimento",
+       "nacional-estatismo, crescimento industrial e transformações no mundo do trabalho, com ênfase no estudo dos casos brasileiro, argentino e mexicano"
+      ]
+     },
+     {
+      "id": "his-modernizacao-e-modernismos",
+      "title": "Modernização e modernismos",
+      "subtopics": [
+       "os processos de constituição de uma sociedade de massas",
+       "o papel das vanguardas artísticas e as novas artes industriais - a fotografia, o cinema, o rádio e a arquitetura"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Da Guerra Fria ao mundo do tempo presente (1945-2026)",
+    "topics": [
+     {
+      "id": "his-guerra-fria",
+      "title": "Guerra Fria",
+      "subtopics": [
+       "conceito e contextualização",
+       "conflitos na ordem mundial, com ênfase no caso das guerras da Coreia e do Vietnã"
+      ]
+     },
+     {
+      "id": "his-africa-asia-e-america-latina-em-um-mundo-bipolar",
+      "title": "África, Ásia e América Latina em um mundo bipolar",
+      "subtopics": [
+       "os conceitos de descolonização e anticolonialismo",
+       "comparação entre processos de independência afro-asiáticos",
+       "pan-africanismo, neocolonialismo e soberania nacional",
+       "industrialização e desenvolvimento na América Latina",
+       "contestações revolucionárias nacionalistas e de esquerda na América Latina, com ênfase no caso cubano",
+       "relações entre Estado, capital e sociedade civil no Brasil urbano-industrial, com ênfase no período 1945-1964"
+      ]
+     },
+     {
+      "id": "his-oriente-medio",
+      "title": "Oriente Médio",
+      "subtopics": [
+       "partilha da Palestina e a criação do Estado de Israel",
+       "nacionalismo árabe, pan-arabismo e as interferências internacionais nos conflitos árabe-israelenses",
+       "religião e resistência ao modelo ocidental de civilização"
+      ]
+     },
+     {
+      "id": "his-as-ditaduras-na-america-latina-e-os-movimentos-de-resistenci",
+      "title": "As ditaduras na América Latina e os movimentos de resistência",
+      "subtopics": [
+       "crescimento econômico, desenvolvimento nacional e desigualdades sociais",
+       "repressão política, luta armada, características das transições democráticas"
+      ]
+     },
+     {
+      "id": "his-contestacao-nos-anos-1960-e-1970",
+      "title": "Contestação nos anos 1960 e 1970",
+      "subtopics": [
+       "movimento hippie e contracultura",
+       "direitos humanos e as revoltas de 1968",
+       "revolução sexual, pacifismo, defesa do meio ambiente"
+      ]
+     },
+     {
+      "id": "his-a-nova-ordem-em-um-mundo-multipolar",
+      "title": "A nova ordem em um mundo multipolar",
+      "subtopics": [
+       "o papel dos Estados Unidos e da Europa após a crise do Estado do Bem-estar Social",
+       "a criação da União Europeia e seus principais impasses",
+       "soberania política e subalternidade econômica e tecnológica das nações africanas",
+       "conflitos étnico-raciais e a ideia da União Africana",
+       "o capitalismo no Japão",
+       "a formação dos blocos culturais e econômicos na América e as ideias de integração continental (NAFTA, Alca, Mercosul, entre outras)"
+      ]
+     },
+     {
+      "id": "his-o-mundo-socialista",
+      "title": "O mundo socialista",
+      "subtopics": [
+       "características do socialismo real",
+       "Perestroika, Glasnost, as reformas socialistas e a desagregação da União Soviética",
+       "a Revolução Chinesa, modernização e socialismo na China atual"
+      ]
+     },
+     {
+      "id": "his-globalizacao-e-antiglobalizacao",
+      "title": "Globalização e antiglobalização",
+      "subtopics": [
+       "secularização, religiosidade e fundamentalismo",
+       "a questão ambiental, a crise climática e os movimentos sociais",
+       "mídias e redes sociais e seus impactos geopolíticos, culturais e comportamentais",
+       "a revolução tecnológica e a disseminação da inteligência artificial, potencialidades e desigualdades"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "LE",
+  "name": "Língua Estrangeira",
+  "orientacao": [
+   "O ensino de línguas estrangeiras cumpre dupla função: possibilitar a leitura de uma diversidade de textos, com temáticas variadas, e explicitar o lugar ocupado pela linguagem verbal e suas relações com o não verbal, por intermédio do reconhecimento de formas de alteridade, tanto linguísticas como culturais. Considerando esses propósitos, este programa aborda os conteúdos relacionados ao processo de leitura e interpretação de textos, os quais se apresentam organizados em torno de três dimensões: linguístico-textual, pragmático-discursiva e literária.",
+   "O exame discursivo desta disciplina visa a avaliar a proficiência em leitura do candidato em sua língua de opção: Espanhol, Francês ou Inglês. Essa proficiência consiste, principalmente, na capacidade de identificar os traços característicos de diferentes gêneros, as temáticas abordadas e a organização interna do texto, tendo como base suas condições de produção e de leitura. Enfatiza-se, portanto, o plano textual, tratado a partir da articulação dos elementos linguísticos com seu contexto sócio-histórico."
+  ],
+  "units": [
+   {
+    "name": "Dimensão linguístico-textual",
+    "topics": [
+     {
+      "id": "le-tipologias-textuais",
+      "title": "Tipologias textuais",
+      "subtopics": [
+       "descrição",
+       "narração",
+       "argumentação",
+       "injunção"
+      ]
+     },
+     {
+      "id": "le-fatores-de-coesao",
+      "title": "Fatores de coesão",
+      "subtopics": [
+       "referenciação, repetição, substituição, elipse",
+       "marcadores discursivos, conectores lógicos",
+       "relações endofóricas"
+      ]
+     },
+     {
+      "id": "le-conhecimento-lexical",
+      "title": "Conhecimento lexical",
+      "subtopics": [
+       "sentido contextual da palavra",
+       "expressões idiomáticas",
+       "formação de palavras",
+       "sinonímia, antonímia, hiponímia, hiperonímia"
+      ]
+     },
+     {
+      "id": "le-uso-do-verbo",
+      "title": "Uso do verbo",
+      "subtopics": [
+       "tempos, modos, vozes, aspectos",
+       "formas afirmativa, negativa e interrogativa",
+       "a semântica dos tempos verbais"
+      ]
+     },
+     {
+      "id": "le-elementos-nao-verbais",
+      "title": "Elementos não verbais",
+      "subtopics": [
+       "relação entre imagem e texto",
+       "recursos gráficos e tipográficos",
+       "interjeições",
+       "onomatopeias",
+       "sentidos da pontuação"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Dimensão pragmático-discursiva",
+    "topics": [
+     {
+      "id": "le-enunciado-e-enunciacao",
+      "title": "Enunciado e enunciação",
+      "subtopics": [
+       "identificação de conteúdos pontuais",
+       "coenunciadores, espaço, tempo",
+       "gêneros do discurso",
+       "dêixis"
+      ]
+     },
+     {
+      "id": "le-processos-de-intertextualidade",
+      "title": "Processos de intertextualidade",
+      "subtopics": [
+       "apropriação, citação, paródia, pastiche, paráfrase, alusão",
+       "discurso relatado"
+      ]
+     },
+     {
+      "id": "le-formas-do-implicito",
+      "title": "Formas do implícito",
+      "subtopics": [
+       "inferência",
+       "pressuposição",
+       "subentendido"
+      ]
+     },
+     {
+      "id": "le-relacoes-semanticas",
+      "title": "Relações semânticas",
+      "subtopics": [
+       "designação",
+       "reformulação",
+       "polissemia",
+       "metáfora",
+       "metonímia",
+       "personificação",
+       "antítese",
+       "eufemismo",
+       "hipérbole",
+       "ironia",
+       "paradoxo"
+      ]
+     },
+     {
+      "id": "le-fatores-de-coerencia",
+      "title": "Fatores de coerência",
+      "subtopics": [
+       "contradição, tautologia, relevância",
+       "continuidade temática, progressão temática"
+      ]
+     },
+     {
+      "id": "le-modalizacao",
+      "title": "Modalização",
+      "subtopics": [
+       "modalizadores, valores modais"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Dimensão literária",
+    "topics": [
+     {
+      "id": "le-literatura-e-sociedade",
+      "title": "Literatura e sociedade",
+      "subtopics": [
+       "contextos sócio-históricos de produção e recepção dos textos",
+       "relações com movimentos estético-culturais",
+       "diálogos entre a literatura e as artes em geral"
+      ]
+     },
+     {
+      "id": "le-genero-narrativo",
+      "title": "Gênero narrativo",
+      "subtopics": [
+       "romance",
+       "conto",
+       "crônica"
+      ]
+     },
+     {
+      "id": "le-a-narrativa-e-seus-elementos",
+      "title": "A narrativa e seus elementos",
+      "subtopics": [
+       "enredo",
+       "personagens",
+       "tempo",
+       "espaço",
+       "narrador",
+       "foco narrativo",
+       "índices narrativos"
+      ]
+     },
+     {
+      "id": "le-recursos-expressivos-da-criacao-estetica",
+      "title": "Recursos expressivos da criação estética",
+      "subtopics": [
+       "recursos sonoros, lexicais, sintáticos e morfológicos"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "LPL",
+  "name": "Língua Portuguesa e Literaturas",
+  "orientacao": [
+   "Falando ou ouvindo, escrevendo ou lendo, cada indivíduo se expressa e percebe significados de acordo com o papel social que desempenha. Sua identidade social e seus interesses comunicativos envolvem o domínio de certas habilidades e a posse de determinados recursos, requisitos culturais do pleno exercício da cidadania.",
+   "Este programa valoriza não apenas o domínio das estruturas da língua e a consequente habilidade para construir e compreender textos, mas, ainda, o estudo das literaturas de língua portuguesa, entendendo o discurso literário como fundamental na construção do imaginário dos leitores e na formação das identidades culturais.",
+   "As características de quaisquer textos são determinadas por um complexo conjunto de componentes, que incluem o contexto histórico, a situação comunicativa, o perfil social dos interlocutores, além de elementos materiais como o gênero, o modo de organização, a gramática, o vocabulário, o registro, o estilo.",
+   "O exame discursivo desta disciplina dá prioridade à leitura e à análise de textos literários em língua portuguesa.",
+   "São fundamentais, portanto, as habilidades de ler e analisar os textos a partir de aspectos teóricos da literatura e das relações entre os textos e os contextos socioculturais; também são relevantes as habilidades de ler e interpretar textos em função das peculiaridades de diferentes gêneros. As respostas às questões discursivas devem demonstrar que o candidato é capaz de organizar as ideias e as informações na forma escrita, com clareza, considerando o registro culto da língua e seu funcionamento textual-discursivo.",
+   "O romance Luanda, Lisboa, Paraíso, da escritora da literatura portuguesa contemporânea Djaimilia Pereira de Almeida, é o livro indicado para esse exame. Sua leitura é imprescindível para responder às questões da prova."
+  ],
+  "units": [
+   {
+    "name": "Língua portuguesa: estrutura, funcionamento e significação",
+    "topics": [
+     {
+      "id": "lpl-generos",
+      "title": "Gêneros",
+      "subtopics": [
+       "composição típica",
+       "suportes",
+       "função social"
+      ]
+     },
+     {
+      "id": "lpl-unidade-e-diversidade-da-lingua-portuguesa",
+      "title": "Unidade e diversidade da língua portuguesa",
+      "subtopics": [
+       "registros de uso na oralidade e na escrita",
+       "variação regional, variação social",
+       "norma padrão"
+      ]
+     },
+     {
+      "id": "lpl-a-frase-suas-especies-e-funcoes-interacionais",
+      "title": "A frase, suas espécies e funções interacionais",
+      "subtopics": [
+       "frases declarativa, interrogativa, imperativa e exclamativa",
+       "relação entre as espécies de frases e os atos de fala"
+      ]
+     },
+     {
+      "id": "lpl-a-oracao-e-o-periodo",
+      "title": "A oração e o período",
+      "subtopics": [
+       "termos essenciais, integrantes e acessórios",
+       "processos de coordenação e de subordinação",
+       "correlação de termos e de orações"
+      ]
+     },
+     {
+      "id": "lpl-classificacao-significacao-e-uso-das-palavras",
+      "title": "Classificação, significação e uso das palavras",
+      "subtopics": [
+       "substantivos, adjetivos, pronomes, artigos e numerais",
+       "verbos e advérbios",
+       "preposições e conjunções"
+      ]
+     },
+     {
+      "id": "lpl-morfologia-do-nome-e-do-verbo",
+      "title": "Morfologia do nome e do verbo",
+      "subtopics": [
+       "gênero, número e grau dos substantivos e dos adjetivos",
+       "flexão em tempo, modo, número e pessoa"
+      ]
+     },
+     {
+      "id": "lpl-sintaxe-do-nome-e-do-verbo",
+      "title": "Sintaxe do nome e do verbo",
+      "subtopics": [
+       "concordância",
+       "regência",
+       "emprego do infinitivo, do gerúndio e do particípio",
+       "vozes verbais"
+      ]
+     },
+     {
+      "id": "lpl-estrutura-derivacao-e-composicao-das-palavras",
+      "title": "Estrutura, derivação e composição das palavras",
+      "subtopics": [
+       "radical e tema",
+       "prefixação e sufixação",
+       "aglutinação e justaposição"
+      ]
+     },
+     {
+      "id": "lpl-criacao-e-adocao-de-palavras",
+      "title": "Criação e adoção de palavras",
+      "subtopics": [
+       "neologismo lexical, neologismo semântico",
+       "estrangeirismo"
+      ]
+     },
+     {
+      "id": "lpl-o-significado-lexical-e-suas-relacoes",
+      "title": "O significado lexical e suas relações",
+      "subtopics": [
+       "sinonímia, antonímia, hiperonímia, hiponímia",
+       "polissemia, denotação, conotação"
+      ]
+     },
+     {
+      "id": "lpl-coerencia-textual",
+      "title": "Coerência textual",
+      "subtopics": [
+       "progressão temática",
+       "informação dada e informação nova",
+       "informação principal e informação secundária",
+       "informação implícita e informação pressuposta"
+      ]
+     },
+     {
+      "id": "lpl-coesao-textual",
+      "title": "Coesão textual",
+      "subtopics": [
+       "anáfora",
+       "retificação",
+       "substituição",
+       "elipse",
+       "repetição",
+       "redundância"
+      ]
+     },
+     {
+      "id": "lpl-formas-de-enunciacao",
+      "title": "Formas de enunciação",
+      "subtopics": [
+       "estratégias de neutralidade",
+       "marcas de opinião",
+       "discurso direto, discurso indireto e discurso indireto livre"
+      ]
+     },
+     {
+      "id": "lpl-elementos-nao-verbais",
+      "title": "Elementos não verbais",
+      "subtopics": [
+       "relação entre imagem e texto",
+       "recursos gráficos e tipográficos",
+       "interjeições",
+       "onomatopeias",
+       "sentidos da pontuação"
+      ]
+     },
+     {
+      "id": "lpl-funcoes-da-linguagem",
+      "title": "Funções da linguagem",
+      "subtopics": []
+     }
+    ]
+   },
+   {
+    "name": "Literatura: contexto, temas e formas",
+    "topics": [
+     {
+      "id": "lpl-literatura-e-sociedade",
+      "title": "Literatura e sociedade",
+      "subtopics": [
+       "contextos sócio-históricos de produção e recepção dos textos"
+      ]
+     },
+     {
+      "id": "lpl-elementos-da-narrativa-selecionada",
+      "title": "Elementos da narrativa selecionada",
+      "subtopics": [
+       "enredo",
+       "construção dos personagens",
+       "narrador, foco narrativo, índices narrativos",
+       "representações do tempo e do espaço",
+       "metaficção",
+       "verossimilhança"
+      ]
+     },
+     {
+      "id": "lpl-genero-narrativo",
+      "title": "Gênero narrativo",
+      "subtopics": [
+       "romance",
+       "novela",
+       "conto",
+       "crônica",
+       "fábula"
+      ]
+     },
+     {
+      "id": "lpl-generos-textuais",
+      "title": "Gêneros textuais",
+      "subtopics": [
+       "carta, diário, memória"
+      ]
+     },
+     {
+      "id": "lpl-hibridismo",
+      "title": "Hibridismo",
+      "subtopics": [
+       "intergenericidade na construção narrativa"
+      ]
+     },
+     {
+      "id": "lpl-recursos-expressivos-da-criacao-estetica",
+      "title": "Recursos expressivos da criação estética",
+      "subtopics": [
+       "seleção e combinação de palavras",
+       "formas dos vocábulos",
+       "efeitos sonoros",
+       "figurações e imagens",
+       "representações da variabilidade linguística",
+       "efeitos de sentido decorrentes de usos expressivos da linguagem",
+       "figuras de linguagem"
+      ]
+     },
+     {
+      "id": "lpl-procedimentos-de-intertextualidade",
+      "title": "Procedimentos de intertextualidade",
+      "subtopics": [
+       "estilização",
+       "paródia",
+       "paráfrase",
+       "apropriação",
+       "alusão",
+       "citação"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "MAT",
+  "name": "Matemática",
+  "orientacao": [
+   "O conhecimento da Matemática pode contribuir efetivamente para a inserção do indivíduo na sociedade contemporânea. As operações básicas com números, os cálculos de porcentagem, a leitura de gráficos, o conceito de proporcionalidade, e mesmo os modelos matemáticos mais elaborados são exemplos de aplicações práticas dessa linguagem. Essas aplicações se inserem nas diferentes áreas do conhecimento e poderão ser exigidas do candidato em sua vida profissional e pessoal.",
+   "Este programa, dividido em cinco unidades, contempla os principais tópicos do ensino fundamental e médio, servindo como suporte para a progressão dos estudos no ensino superior.",
+   "O exame discursivo desta disciplina será elaborado de modo a articular o caráter formativo ao instrumental da disciplina e enfatizará a resolução de situações-problema que possam ser modeladas matematicamente, avaliando e valorizando a compreensão e o domínio de conceitos, ferramentas e técnicas matemáticas, bem como a argumentação e a justificativa das soluções apresentadas."
+  ],
+  "units": [
+   {
+    "name": "Aritmética",
+    "topics": [
+     {
+      "id": "mat-nocoes-de-conjuntos",
+      "title": "Noções de conjuntos",
+      "subtopics": [
+       "operações",
+       "representações"
+      ]
+     },
+     {
+      "id": "mat-conjuntos-numericos",
+      "title": "Conjuntos numéricos",
+      "subtopics": [
+       "naturais",
+       "inteiros",
+       "racionais",
+       "irracionais",
+       "reais",
+       "operações"
+      ]
+     },
+     {
+      "id": "mat-multiplos-e-divisores",
+      "title": "Múltiplos e divisores",
+      "subtopics": [
+       "critérios de divisibilidade",
+       "decomposição em fatores primos",
+       "máximo divisor comum",
+       "mínimo múltiplo comum"
+      ]
+     },
+     {
+      "id": "mat-sistemas-de-numeracao",
+      "title": "Sistemas de numeração",
+      "subtopics": [
+       "decimal",
+       "não decimal",
+       "representações e operações"
+      ]
+     },
+     {
+      "id": "mat-numeros-reais",
+      "title": "Números reais",
+      "subtopics": [
+       "representações",
+       "operações",
+       "razões",
+       "proporções e porcentagens"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Álgebra",
+    "topics": [
+     {
+      "id": "mat-conceito-de-funcao",
+      "title": "Conceito de função",
+      "subtopics": [
+       "composição",
+       "inversão",
+       "paridade",
+       "periodicidade",
+       "representações gráficas, características e operações"
+      ]
+     },
+     {
+      "id": "mat-funcao-afim",
+      "title": "Função afim",
+      "subtopics": [
+       "gráficos",
+       "taxa de variação média",
+       "estudo do sinal",
+       "equações",
+       "inequações"
+      ]
+     },
+     {
+      "id": "mat-funcao-quadratica",
+      "title": "Função quadrática",
+      "subtopics": [
+       "gráficos",
+       "máximo",
+       "mínimo",
+       "estudo do sinal",
+       "equações",
+       "inequações"
+      ]
+     },
+     {
+      "id": "mat-funcao-modular",
+      "title": "Função modular",
+      "subtopics": [
+       "gráficos",
+       "equações",
+       "inequações"
+      ]
+     },
+     {
+      "id": "mat-funcoes-logaritmicas-e-exponenciais",
+      "title": "Funções logarítmicas e exponenciais",
+      "subtopics": [
+       "gráficos, propriedades operatórias",
+       "equações",
+       "inequações"
+      ]
+     },
+     {
+      "id": "mat-progressoes",
+      "title": "Progressões",
+      "subtopics": [
+       "aritmética",
+       "geométrica",
+       "por recorrência"
+      ]
+     },
+     {
+      "id": "mat-juros",
+      "title": "Juros",
+      "subtopics": [
+       "simples",
+       "compostos",
+       "equivalências"
+      ]
+     },
+     {
+      "id": "mat-problemas-de-contagem",
+      "title": "Problemas de contagem",
+      "subtopics": [
+       "principios de contagem",
+       "análise combinatória simples e com repetição"
+      ]
+     },
+     {
+      "id": "mat-polinomios-e-equacoes-polinomiais",
+      "title": "Polinômios e equações polinomiais",
+      "subtopics": [
+       "identidades",
+       "operações",
+       "funções polinominais reais, gráficos, equações",
+       "inequações",
+       "relações entre coeficientes e raízes"
+      ]
+     },
+     {
+      "id": "mat-matrizes",
+      "title": "Matrizes",
+      "subtopics": [
+       "representações",
+       "operações",
+       "determinantes de 2ª e de 3ª ordens"
+      ]
+     },
+     {
+      "id": "mat-sistemas-de-equacao",
+      "title": "Sistemas de equação",
+      "subtopics": [
+       "não lineares, lineares de 2 e 3 incógnitas",
+       "discussão de sistemas lineares"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Geometria e trigonometria",
+    "topics": [
+     {
+      "id": "mat-geometria-de-posicao",
+      "title": "Geometria de posição",
+      "subtopics": [
+       "projeções ortogonais",
+       "distâncias e ângulos"
+      ]
+     },
+     {
+      "id": "mat-circulo-trigonometrico",
+      "title": "Círculo trigonométrico",
+      "subtopics": [
+       "ângulos e arcos",
+       "representações",
+       "linhas trigonométricas",
+       "identidades",
+       "lei dos senos e dos cossenos"
+      ]
+     },
+     {
+      "id": "mat-funcoes-trigonometricas",
+      "title": "Funções trigonométricas",
+      "subtopics": [
+       "gráficos",
+       "características",
+       "equações",
+       "inequações"
+      ]
+     },
+     {
+      "id": "mat-figuras-no-plano",
+      "title": "Figuras no plano",
+      "subtopics": [
+       "congruência",
+       "simetrias e homotetias",
+       "polígonos",
+       "circunferências e círculos",
+       "relações métricas",
+       "relações trigonométricas",
+       "distâncias",
+       "ângulos, área e perímetros"
+      ]
+     },
+     {
+      "id": "mat-figuras-tridimensionais",
+      "title": "Figuras tridimensionais",
+      "subtopics": [
+       "paralelismo, perpendicularismos e projeções",
+       "congruências",
+       "simetrias e homotetias",
+       "característica dos poliedros regulares",
+       "área e volume de prismas, pirâmides, cilindros, cones e esferas",
+       "troncos de pirâmides, cilindros e cones"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Probabilidade e estatística",
+    "topics": [
+     {
+      "id": "mat-probabilidades",
+      "title": "Probabilidades",
+      "subtopics": [
+       "probabilidade condicional",
+       "união e interseção de eventos"
+      ]
+     },
+     {
+      "id": "mat-medidas-de-tendencia-central",
+      "title": "Medidas de tendência central",
+      "subtopics": [
+       "médias aritmética, geométrica, harmônica",
+       "moda",
+       "mediana"
+      ]
+     },
+     {
+      "id": "mat-graficos-e-tabelas",
+      "title": "Gráficos e tabelas",
+      "subtopics": [
+       "análise"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Geometria analítica",
+    "topics": [
+     {
+      "id": "mat-posicao-relativa",
+      "title": "Posição relativa",
+      "subtopics": []
+     },
+     {
+      "id": "mat-estudo-de-reta",
+      "title": "Estudo de reta",
+      "subtopics": [
+       "equação geral",
+       "equação reduzida",
+       "perpendicularidade, ângulo entre duas retas",
+       "distância de ponto a reta"
+      ]
+     },
+     {
+      "id": "mat-estudo-da-circunferencia",
+      "title": "Estudo da circunferência",
+      "subtopics": [
+       "equação geral",
+       "equação reduzida",
+       "posição relativa entre reta e circunferência",
+       "posição relativa entre duas circunferências"
+      ]
+     },
+     {
+      "id": "mat-estudo-das-conicas",
+      "title": "Estudo das cônicas",
+      "subtopics": [
+       "equação reduzida da elipse, parábola e hipérbole",
+       "características"
+      ]
+     },
+     {
+      "id": "mat-inequacoes-no-plano",
+      "title": "Inequações no plano",
+      "subtopics": [
+       "representações, inequações do 1º grau e do 2º grau",
+       "sistema de inequações"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "code": "QUI",
+  "name": "Química",
+  "orientacao": [
+   "O estudo da Química no ensino médio tem como objetivo capacitar os estudantes a observar, descrever e interpretar os fenômenos químicos que ocorrem em um mundo em constante modificação. Dessa forma, a Química pode contribuir para o processo de construção do conhecimento, participando da formação de um cidadão atento às implicações sociais, ambientais, econômicas e políticas do conhecimento científico e de suas aplicações tecnológicas.",
+   "Este programa está organizado em dez unidades que englobam os tópicos fundamentais da Química: Química Geral e Inorgânica, Físico-Química e Química Orgânica. Esta organização procura orientar a compreensão dos mundos macroscópico e microscópico, dos aspectos qualitativos e quantitativos envolvidos em um processo químico, dos modelos teóricos para a interpretação de fenômenos naturais e de dados experimentais e, ainda, da linguagem química como uma forma de leitura do mundo.",
+   "O exame discursivo desta disciplina, a partir de uma abordagem contextualizada dos conteúdos programáticos, pretende avaliar a capacidade dos candidatos de analisar e observar os fenômenos químicos e suas representações usuais, valorizando, assim, a concepção da ciência como atividade humana resultante de um processo de construção social."
+  ],
+  "units": [
+   {
+    "name": "Elemento químico",
+    "topics": [
+     {
+      "id": "qui-atomo",
+      "title": "Átomo",
+      "subtopics": [
+       "modelos atômicos",
+       "partículas elementares",
+       "número atômico",
+       "número de massa",
+       "semelhanças atômicas e iônicas",
+       "distribuição eletrônica"
+      ]
+     },
+     {
+      "id": "qui-radioatividade",
+      "title": "Radioatividade",
+      "subtopics": [
+       "desintegrações radioativas",
+       "tempo de meia-vida",
+       "fissão e fusão nuclear"
+      ]
+     },
+     {
+      "id": "qui-classificacao-periodica-dos-elementos",
+      "title": "Classificação periódica dos elementos",
+      "subtopics": [
+       "famílias e períodos",
+       "propriedades periódicas"
+      ]
+     },
+     {
+      "id": "qui-substancia",
+      "title": "Substância",
+      "subtopics": [
+       "substância pura",
+       "misturas e processos de separação"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Ligações químicas",
+    "topics": [
+     {
+      "id": "qui-ligacoes-interatomicas",
+      "title": "Ligações interatômicas",
+      "subtopics": [
+       "iônicas",
+       "covalentes",
+       "metálicas",
+       "polaridade",
+       "número de oxidação"
+      ]
+     },
+     {
+      "id": "qui-moleculas",
+      "title": "Moléculas",
+      "subtopics": [
+       "polaridade",
+       "geometria",
+       "forças intermoleculares",
+       "propriedades físicas"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Funções da química inorgânica",
+    "topics": [
+     {
+      "id": "qui-acidos-e-bases",
+      "title": "Ácidos e bases",
+      "subtopics": [
+       "teoria de Arrhenius, de Brönsted-Lowry e de Lewis",
+       "classificações",
+       "nomenclatura oficial",
+       "neutralização"
+      ]
+     },
+     {
+      "id": "qui-oxidos",
+      "title": "Óxidos",
+      "subtopics": [
+       "classificações",
+       "nomenclatura oficial",
+       "reações com água, com ácidos e com bases"
+      ]
+     },
+     {
+      "id": "qui-sais",
+      "title": "Sais",
+      "subtopics": [
+       "classificações",
+       "nomenclatura oficial"
+      ]
+     },
+     {
+      "id": "qui-reacoes-quimicas",
+      "title": "Reações químicas",
+      "subtopics": [
+       "classificações",
+       "condições de ocorrência",
+       "oxirredução",
+       "balanceamento"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Cálculos químicos",
+    "topics": [
+     {
+      "id": "qui-relacoes-numericas-fundamentais",
+      "title": "Relações numéricas fundamentais",
+      "subtopics": [
+       "massa atômica e molecular",
+       "mol e massa molar"
+      ]
+     },
+     {
+      "id": "qui-calculo-estequiometrico",
+      "title": "Cálculo estequiométrico",
+      "subtopics": [
+       "leis ponderais e volumétricas",
+       "quantidade de matéria, massa, volume"
+      ]
+     },
+     {
+      "id": "qui-determinacao-de-formulas",
+      "title": "Determinação de fórmulas",
+      "subtopics": [
+       "centesimal",
+       "mínima",
+       "molecular"
+      ]
+     },
+     {
+      "id": "qui-gases-ideais",
+      "title": "Gases ideais",
+      "subtopics": [
+       "equação de Clapeyron",
+       "misturas gasosas",
+       "pressão parcial"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Soluções",
+    "topics": [
+     {
+      "id": "qui-solubilidade",
+      "title": "Solubilidade",
+      "subtopics": [
+       "classificação das soluções",
+       "curvas de solubilidade"
+      ]
+     },
+     {
+      "id": "qui-unidades-de-concentracao",
+      "title": "Unidades de concentração",
+      "subtopics": [
+       "porcentagem, g.L-1, quantidade de matéria, fração molar",
+       "diluição",
+       "mistura de soluções"
+      ]
+     },
+     {
+      "id": "qui-efeitos-coligativos",
+      "title": "Efeitos coligativos",
+      "subtopics": [
+       "pressão de vapor",
+       "temperatura de congelamento",
+       "temperatura de ebulição",
+       "pressão osmótica"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Termoquímica",
+    "topics": [
+     {
+      "id": "qui-entalpia-e-variacao-de-entalpia",
+      "title": "Entalpia e variação de entalpia",
+      "subtopics": [
+       "equação termoquímica",
+       "calor de formação",
+       "calor de combustão",
+       "energia de ligação",
+       "lei de Hess"
+      ]
+     },
+     {
+      "id": "qui-combustiveis",
+      "title": "Combustíveis",
+      "subtopics": [
+       "reação de combustão",
+       "poder calorífico"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Cinética química e equilíbrio químico",
+    "topics": [
+     {
+      "id": "qui-velocidade-de-reacao",
+      "title": "Velocidade de reação",
+      "subtopics": [
+       "velocidade média e instantânea",
+       "fatores de influência",
+       "energia de ativação",
+       "teoria das colisões",
+       "ordem de reação"
+      ]
+     },
+     {
+      "id": "qui-equilibrio-em-sistemas-homogeneos",
+      "title": "Equilíbrio em sistemas homogêneos",
+      "subtopics": [
+       "constantes de equilíbrio em função das concentrações e das pressões parciais",
+       "princípio de Le Chatelier"
+      ]
+     },
+     {
+      "id": "qui-equilibrio-ionico-em-meio-aquoso",
+      "title": "Equilíbrio iônico em meio aquoso",
+      "subtopics": [
+       "ionização e dissociação",
+       "constantes de acidez e de basicidade",
+       "pH e pOH",
+       "sistemas- tampão",
+       "hidrólise salina"
+      ]
+     },
+     {
+      "id": "qui-equilibrio-em-sistemas-heterogeneos",
+      "title": "Equilíbrio em sistemas heterogêneos",
+      "subtopics": [
+       "produto de solubilidade",
+       "reações de precipitação"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Eletroquímica",
+    "topics": [
+     {
+      "id": "qui-celula-eletroquimica",
+      "title": "Célula eletroquímica",
+      "subtopics": [
+       "tabela de potenciais de oxirredução",
+       "espontaneidade de reações"
+      ]
+     },
+     {
+      "id": "qui-pilhas-e-baterias",
+      "title": "Pilhas e baterias",
+      "subtopics": [
+       "semirreações e reação global",
+       "cálculo da diferença de potencial-padrão"
+      ]
+     },
+     {
+      "id": "qui-eletrolise",
+      "title": "Eletrólise",
+      "subtopics": [
+       "semirreações e reação global",
+       "leis de Faraday"
+      ]
+     },
+     {
+      "id": "qui-corrosao",
+      "title": "Corrosão",
+      "subtopics": [
+       "processos corrosivos",
+       "mecanismos de proteção"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Química orgânica",
+    "topics": [
+     {
+      "id": "qui-propriedades-do-atomo-de-carbono",
+      "title": "Propriedades do átomo de carbono",
+      "subtopics": [
+       "hibridação",
+       "cadeias carbônicas",
+       "fórmula molecular, fórmula estrutural, notação em linha de ligação"
+      ]
+     },
+     {
+      "id": "qui-funcoes-da-quimica-organica",
+      "title": "Funções da química orgânica",
+      "subtopics": [
+       "classificação",
+       "nomenclatura oficial"
+      ]
+     },
+     {
+      "id": "qui-isomeria",
+      "title": "Isomeria",
+      "subtopics": [
+       "plana",
+       "espacial"
+      ]
+     },
+     {
+      "id": "qui-combustiveis-quimica-organica",
+      "title": "Combustíveis",
+      "subtopics": [
+       "petróleo",
+       "biocombustíveis"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Reações orgânicas",
+    "topics": [
+     {
+      "id": "qui-mecanismos",
+      "title": "Mecanismos",
+      "subtopics": [
+       "efeitos eletrônicos",
+       "acidez e basicidade",
+       "eletrófilos, nucleófilos, radicais livres",
+       "classificações das reações"
+      ]
+     },
+     {
+      "id": "qui-reacoes-de-adicao",
+      "title": "Reações de adição",
+      "subtopics": [
+       "adição de H2, X2, HX e H2O a alcenos e alcinos",
+       "adição de compostos de Grignard a aldeídos e cetonas"
+      ]
+     },
+     {
+      "id": "qui-reacoes-de-eliminacao",
+      "title": "Reações de eliminação",
+      "subtopics": [
+       "desidratação de alcoóis",
+       "desidroalogenação de haletos orgânicos"
+      ]
+     },
+     {
+      "id": "qui-reacoes-de-substituicao",
+      "title": "Reações de substituição",
+      "subtopics": [
+       "hidrocarbonetos",
+       "compostos aromáticos",
+       "ácidos carboxílicos",
+       "haletos orgânicos",
+       "saponificação"
+      ]
+     },
+     {
+      "id": "qui-reacoes-de-oxirreducao",
+      "title": "Reações de oxirredução",
+      "subtopics": [
+       "alcenos",
+       "alcoóis",
+       "aldeídos",
+       "cetonas"
+      ]
+     },
+     {
+      "id": "qui-produtos-naturais",
+      "title": "Produtos naturais",
+      "subtopics": [
+       "glicídios",
+       "lipídios",
+       "proteínas"
+      ]
+     },
+     {
+      "id": "qui-produtos-sinteticos",
+      "title": "Produtos sintéticos",
+      "subtopics": [
+       "polímeros",
+       "reações de polimerização"
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]
