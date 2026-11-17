@@ -2,6 +2,7 @@
 	import '../app.css';
 	import { page } from '$app/state';
 	import { daysUntil, EXAM_2027 } from '$lib/data/official/exam-2027';
+	import logo from '$lib/assets/logo.svg';
 
 	let { data, children } = $props();
 	let menuOpen = $state(false);
@@ -35,13 +36,13 @@
 			<button class="btn ghost menu" aria-expanded={menuOpen} aria-controls="nav" onclick={() => (menuOpen = !menuOpen)}>
 				<span aria-hidden="true">☰</span><span class="sr-only">Menu</span>
 			</button>
-			<a href="/painel" class="brand"><img src="/favicon.svg" alt="" width="28" height="28" /> Discursiva</a>
+			<a href="/painel" class="brand"><img src={logo} alt="" width="28" height="28" /> Discursiva</a>
 			<span class="countdown" title="Data do Exame Discursivo informada no seu perfil">
 				{#if days > 0}<strong>{days}</strong> {days === 1 ? 'dia' : 'dias'} para a prova{:else if days === 0}A prova é hoje!{:else}Prova realizada{/if}
 			</span>
 		</header>
 		<nav id="nav" class:open={menuOpen} aria-label="Principal">
-			<a href="/painel" class="brand side"><img src="/favicon.svg" alt="" width="30" height="30" /> Discursiva</a>
+			<a href="/painel" class="brand side"><img src={logo} alt="" width="30" height="30" /> Discursiva</a>
 			<ul>
 				{#each nav as item (item.href)}
 					<li>
@@ -56,10 +57,14 @@
 					<strong>{data.user.name}</strong>
 					<span class="small muted">{data.user.course ? `${data.user.course.name} (${data.user.course.campus})` : 'Escolha seu curso'}</span>
 				</a>
-				<form method="POST" action="/sair"><button class="btn small ghost">Sair</button></form>
+				{#if !data.embedded}<form method="POST" action="/sair"><button class="btn small ghost">Sair</button></form>{/if}
 			</div>
 			{#if !data.ai}
-				<p class="notice warn small ai-off">IA desativada neste servidor: configure <code>ANTHROPIC_API_KEY</code>. O restante da plataforma funciona normalmente.</p>
+				{#if data.embedded}
+					<p class="notice warn small ai-off">Os recursos de IA aparecem quando a página é aberta no claude.ai com acesso ao Claude permitido. O restante funciona normalmente.</p>
+				{:else}
+					<p class="notice warn small ai-off">IA desativada neste servidor: configure <code>ANTHROPIC_API_KEY</code>. O restante da plataforma funciona normalmente.</p>
+				{/if}
 			{/if}
 		</nav>
 		<main id="conteudo">
@@ -177,7 +182,9 @@
 		margin-top: 0.75rem;
 	}
 	main {
-		padding: 1.75rem clamp(1rem, 3vw, 2.5rem) 3rem;
+		padding-block: 1.75rem 3rem;
+		padding-left: max(2rem, env(safe-area-inset-left, 0px));
+		padding-right: max(2rem, env(safe-area-inset-right, 0px));
 		max-width: 1180px;
 		width: 100%;
 		min-width: 0;
@@ -192,7 +199,9 @@
 	}
 	.foot {
 		text-align: center;
-		padding: 1.5rem 1rem 2rem;
+		padding-block: 1.5rem 2rem;
+		padding-left: max(16px, env(safe-area-inset-left, 0px));
+		padding-right: max(16px, env(safe-area-inset-right, 0px));
 		border-top: 1px solid var(--border);
 	}
 	@media (max-width: 900px) {
@@ -204,11 +213,13 @@
 			align-items: center;
 			gap: 0.5rem;
 			position: sticky;
-			top: 0;
+			top: env(safe-area-inset-top, 0px);
 			z-index: 20;
 			background: var(--surface);
 			border-bottom: 1px solid var(--border);
-			padding: 0.5rem 0.75rem;
+			padding-block: 0.5rem;
+			padding-left: max(16px, env(safe-area-inset-left, 0px));
+			padding-right: max(16px, env(safe-area-inset-right, 0px));
 		}
 		nav {
 			display: none;
@@ -225,7 +236,9 @@
 			display: none;
 		}
 		main {
-			padding: 1.25rem 1rem 2.5rem;
+			padding-block: 1.25rem 2.5rem;
+			padding-left: max(16px, env(safe-area-inset-left, 0px));
+			padding-right: max(16px, env(safe-area-inset-right, 0px));
 		}
 	}
 </style>

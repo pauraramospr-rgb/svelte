@@ -90,6 +90,22 @@ Sem `ANTHROPIC_API_KEY`, tudo funciona exceto os recursos de IA: as questões po
 | `DATABASE_PATH` | Arquivo SQLite (padrão `./data/app.db`) |
 | `ORIGIN` | URL pública (exigida pelo adapter-node atrás de proxy) |
 
+## Versão publicada no claude.ai (sem servidor)
+
+A mesma plataforma também roda inteiramente no navegador, publicada como página (Artifact) no claude.ai:
+
+- as mesmas telas, carregamentos, ações e APIs de `src/routes` são executados no navegador por um pequeno emulador do SvelteKit (`web/kit.svelte.ts`);
+- o banco SQLite roda com `sql.js` (build asm.js) e é salvo na área **privada** de cada estudante no armazenamento do artifact (`data/users/<id>/`), com gravação alternada em duas fatias para nunca deixar cópia pela metade; fora do claude.ai, usa o `localStorage`;
+- não há login próprio: a identidade vem do claude.ai;
+- a IA usa a capacidade `sample` (o Claude da conta de quem usa a página), sem chave de API.
+
+```bash
+npm run build:web     # gera build-web/discursiva.html (arquivo único)
+npm run test:web      # testa em navegador real: modo local e com as capacidades do claude.ai simuladas
+```
+
+Os módulos que dependem de Node são trocados por adaptadores em `web/shims` (banco, autenticação, cliente de IA, `$app/*`, `@sveltejs/kit`).
+
 ## Testes e verificação
 
 ```bash

@@ -15,7 +15,9 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"test": "vitest run",
 		"test:e2e": "node tests/e2e/smoke.mjs",
-		"data:validate": "node scripts/validate-data.mjs"
+		"data:validate": "node scripts/validate-data.mjs",
+		"build:web": "node scripts/build-web.mjs",
+		"test:web": "node tests/e2e/web.mjs"
 	},
 	"dependencies": {
 		"@anthropic-ai/sdk": "^1.8.0",
@@ -26,6 +28,7 @@
 		"@sveltejs/kit": "^2.70.4",
 		"@sveltejs/vite-plugin-svelte": "^6.2.4",
 		"@types/node": "^22.10.0",
+		"sql.js": "^1.13.0",
 		"svelte": "^5.57.3",
 		"svelte-check": "^4.3.0",
 		"typescript": "^5.9.3",

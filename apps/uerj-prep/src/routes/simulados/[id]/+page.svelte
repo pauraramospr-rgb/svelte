@@ -17,6 +17,7 @@
 	let remaining = $state(0);
 	let saveState = $state<'salvo' | 'salvando' | 'erro'>('salvo');
 	let finishForm: HTMLFormElement | undefined = $state();
+	let confirming = $state(false);
 	const dirty = new Set<number>();
 
 	$effect.pre(() => {
@@ -124,8 +125,14 @@
 			<span class="small muted">Respostas salvas automaticamente · {saveState === 'salvo' ? 'tudo salvo' : saveState === 'salvando' ? 'salvando…' : 'falha ao salvar — tentando de novo'}</span>
 		</div>
 		<div class="timer" class:low={remaining < 600} role="timer" aria-live="off">{hms(remaining)}</div>
-		<form method="POST" action="?/finish" bind:this={finishForm} onsubmit={(e) => { if (remaining > 0 && !confirm('Encerrar o simulado e enviar todas as respostas?')) e.preventDefault(); else flush(); }}>
-			<button class="btn primary">Encerrar e corrigir</button>
+		<form method="POST" action="?/finish" bind:this={finishForm} onsubmit={() => flush()} class="row">
+			{#if confirming || remaining === 0}
+				<span class="small">Encerrar e enviar todas as respostas?</span>
+				<button class="btn primary">Sim, encerrar</button>
+				<button type="button" class="btn" onclick={() => (confirming = false)}>Continuar a prova</button>
+			{:else}
+				<button type="button" class="btn primary" onclick={() => (confirming = true)}>Encerrar e corrigir</button>
+			{/if}
 		</form>
 	</div>
 

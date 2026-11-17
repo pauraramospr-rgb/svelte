@@ -81,6 +81,7 @@ def clean_statement(lines):
     if buf:
         out.append(' '.join(buf))
     text = '\n\n'.join(x for x in out if x)
+    text = text.replace('\ufffd', '')  # caracteres que o PDF não codifica (fórmulas): removidos
     text = re.sub(r'(\[Elemento gráfico — consulte a prova original\]\s*){2,}', '[Elemento gráfico — consulte a prova original]\n\n', text)
     text = re.sub(r'-\s(?=[a-zà-ú])', '', text)  # hifenização de quebra de linha
     return text.strip()
@@ -158,9 +159,9 @@ def parse(year, pdf, url):
                 'number': num,
                 'statement': statement,
                 'hasGraphic': ('[Elemento gráfico' in statement) or bool(FIG_HINTS.search(statement)),
-                'programItems': items,
-                'programSubitems': subs,
-                'objective': objective,
+                'programItems': [x.replace('\ufffd', '') for x in items],
+                'programSubitems': [x.replace('\ufffd', '') for x in subs],
+                'objective': objective.replace('\ufffd', ''),
                 'officialCommentary': commentary,
                 'commentaryHasFormulas': bool(re.search(r'(a seguir|tem-se|seguinte forma|abaixo|indicad[oa]s? a seguir)\s*:\s*($|\n)', commentary)) or commentary.endswith(':'),
                 'sourceUrl': f'{url}#page={start_page}',

@@ -1,6 +1,7 @@
 import type { LayoutServerLoad } from './$types';
 import { aiConfigured } from '$lib/server/ai/client';
 import { findCourse } from '$lib/data/official/courses-2027';
+import { env } from '$env/dynamic/private';
 
 export const load: LayoutServerLoad = ({ locals }) => {
 	const user = locals.user;
@@ -15,6 +16,8 @@ export const load: LayoutServerLoad = ({ locals }) => {
 					examDate: user.exam_date
 				}
 			: null,
-		ai: aiConfigured()
+		ai: aiConfigured(),
+		/** true quando roda dentro do claude.ai (versão web, sem login próprio) */
+		embedded: env.DISCURSIVA_EMBEDDED === '1'
 	};
 };
