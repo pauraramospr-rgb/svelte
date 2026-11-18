@@ -1,7 +1,7 @@
 ---
 title: Os colonialismos em questão — independência dos EUA (250 anos), Haiti, conjurações e independências ibero-americanas
 discipline: HIS
-level: do básico ao avançado (nível UERJ)
+level: focado no que a UERJ cobra
 reviewed: 2026-11-18
 - UERJ/DEPSEA. Edital do Exame Discursivo 2027, Anexo 5 – História, unidade “Consolidação e crise do Antigo Regime (séculos XVII-XVIII)”, item “Os colonialismos em questão”.
 - UERJ. Questões Comentadas – Exame Discursivo 2017 a 2026 (História).
@@ -17,6 +17,21 @@ reviewed: 2026-11-18
 ## Em uma frase
 
 Entre 1763 e 1825, o sistema colonial nas Américas entrou em crise: endividadas por guerras, as metrópoles apertaram impostos e controles; colonos e colonizados, armados com as ideias do Iluminismo — ou com a própria experiência da escravidão —, romperam o vínculo colonial; mas cada ruptura definiu de modo diferente **quem** teria direito à liberdade.
+
+## O que a UERJ cobra
+
+**Programa oficial:** a independência das **13 Colônias**; a **Revolução no Haiti**; rebeliões de escravizados no Caribe; a **Conjuração Mineira**, a **Conjuração Baiana** e a Conspiração do Rio de Janeiro; resistências na América espanhola; as **guerras napoleônicas** e a **transmigração da Corte** para o Brasil.
+
+**Questões oficiais deste tópico:**
+- **UERJ 2026, questão 3** — interesses da Coroa portuguesa em conflito com as **resistências dos povos originários**.
+- **UERJ 2026, questão 4** — um movimento externo que influenciou a **Inconfidência Mineira** e duas propostas que justificaram a devassa.
+- **UERJ 2019, questão 3** — mudanças no **direito dos povos** com a Declaração de Independência dos EUA e suas repercussões.
+- **UERJ 2018, questão 3** — o que torna a **independência do Haiti** diferente das outras e suas repercussões.
+- **UERJ 2018, questão 4** — as telas de **Goya**, o **nacionalismo** nas guerras napoleônicas e um efeito na América.
+
+**O que você precisa dominar:** (1) os princípios da independência dos EUA (direitos naturais, direito de rebelião, soberania popular) e seus limites (a escravidão continuou); (2) o que torna o Haiti único (revolução de escravizados, abolição, primeira república negra, medo do “haitianismo”); (3) quem participou das conjurações, o que queriam e por que foram reprimidas; (4) o encadeamento Napoleão → vinda da Corte → independências.
+
+**Não precisa decorar:** batalhas da independência dos EUA nem a lista completa de inconfidentes.
 
 ## O fio da história
 

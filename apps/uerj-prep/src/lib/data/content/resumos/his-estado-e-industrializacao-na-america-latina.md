@@ -1,7 +1,7 @@
 ---
 title: Estado e industrialização na América Latina — de 1929 a JK (70 anos do governo Kubitschek)
 discipline: HIS
-level: do básico ao avançado (nível UERJ)
+level: focado no que a UERJ cobra
 reviewed: 2026-11-18
 - UERJ/DEPSEA. Edital do Exame Discursivo 2027, Anexo 5 – História, unidade “O tempo da Guerra Total (1914-1945)”, item “Estado e industrialização na América Latina” (com ênfase nos casos brasileiro, argentino e mexicano).
 - UERJ. Questões Comentadas – Exame Discursivo 2017 (questão 7), 2020 (questão 5) e 2024 (questão 7), História.
@@ -18,6 +18,21 @@ reviewed: 2026-11-18
 ## Em uma frase
 
 A crise de 1929 quebrou o modelo agroexportador das oligarquias; a partir daí, no Brasil, no México e na Argentina, o Estado assumiu a liderança da industrialização (Vargas, Cárdenas, Perón), e o processo chegou ao auge com o desenvolvimentismo de Juscelino Kubitschek (1956–1961) — crescimento acelerado, Brasília e indústria automobilística, mas também inflação, dívida e desigualdade, num ciclo que terminou com o golpe de 1964 e cuja memória ainda está sendo revista em 2026.
+
+## O que a UERJ cobra
+
+**Programa oficial:** a **crise do modelo oligárquico**; **nacional-estatismo**, crescimento industrial e transformações no mundo do trabalho, com ênfase nos casos **brasileiro**, **argentino** e **mexicano**.
+
+**Questões oficiais deste tópico:**
+- **UERJ 2024, questão 7** — ações e ideias do **Estado Novo** a partir da **propaganda**, comparadas a outros governos autoritários da época.
+- **UERJ 2020, questão 5** — a economia do Encilhamento e uma **notícia falsa** do século XX (como o **Plano Cohen**) com seu efeito político.
+- **UERJ 2020, questão 7** — a independência de 1822 e as **críticas à República** no centenário (anos 1920).
+- **UERJ 2018, questão 8** — um movimento brasileiro influenciado pelo socialismo (Partido Comunista, Bloco Operário Camponês, Levante de 1935).
+- **UERJ 2017, questão 7** — a **reforma agrária** na Constituição Mexicana de 1917: benefício aos camponeses indígenas × oposição dos grandes proprietários.
+
+**O que você precisa dominar:** (1) por que o modelo oligárquico entrou em crise; (2) Vargas: trabalhismo, leis trabalhistas, indústria de base, propaganda e Estado Novo; (3) Perón na Argentina e a Revolução Mexicana (reforma agrária, nacionalização do petróleo); (4) o Estado como motor da industrialização e mediador dos trabalhadores.
+
+**Não precisa decorar:** todas as datas de governos de cada país.
 
 ## O fio da história
 

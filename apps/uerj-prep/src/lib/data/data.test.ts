@@ -5,7 +5,7 @@ import { BOOKS, CURRENT_EDITION } from './official/books';
 import { REDACAO_HISTORY } from './official/redacao-history';
 import { PAST_EXAMS } from './official/past-exams';
 import { SOURCES } from './official/sources';
-import { SYLLABUS, INCIDENCE, getTopic } from '$lib/domain/syllabus';
+import { SYLLABUS, INCIDENCE, getTopic, topicsOf } from '$lib/domain/syllabus';
 import { RESUMOS } from '$lib/content';
 import { TEMAS_2027 } from './content/redacao-temas';
 import { OBRAS } from './content/obras';
@@ -110,6 +110,19 @@ describe('conteúdo pedagógico', () => {
 			for (const s of sections) {
 				expect(r.body, `${r.topicId}: ${s}`).toContain(`## ${s}`);
 			}
+		}
+	});
+
+	it('Língua Portuguesa e História: todo tópico tem resumo pronto, focado no que a UERJ cobra', () => {
+		const ids = new Set(RESUMOS.map((r) => r.topicId));
+		for (const code of ['LPL', 'HIS'] as const) {
+			for (const t of topicsOf(code)) {
+				expect(ids.has(t.id), `sem resumo: ${t.id}`).toBe(true);
+			}
+		}
+		for (const r of RESUMOS.filter((r) => r.discipline === 'LPL' || r.discipline === 'HIS')) {
+			expect(r.body, `${r.topicId}: O que a UERJ cobra`).toContain('## O que a UERJ cobra');
+			expect(r.body, `${r.topicId}: Não precisa decorar`).toContain('**Não precisa decorar:**');
 		}
 	});
 

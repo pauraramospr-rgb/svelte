@@ -1,7 +1,7 @@
 ---
 title: África, Ásia e América Latina em um mundo bipolar — descolonização, não alinhamento e neocolonialismo
 discipline: HIS
-level: do básico ao avançado (nível UERJ)
+level: focado no que a UERJ cobra
 reviewed: 2026-11-18
 - UERJ/DEPSEA. Edital do Exame Discursivo 2027, Anexo 5 – História, unidade “Da Guerra Fria ao mundo do tempo presente (1945-2026)”.
 - UERJ. Questões Comentadas – Exame Discursivo 2024 e 2026 (História).
@@ -15,6 +15,22 @@ reviewed: 2026-11-18
 ## Em uma frase
 
 Depois da Segunda Guerra, os povos da Ásia e da África conquistaram a independência das potências europeias (1945–1975), por negociação ou por guerras de libertação, e tentaram afirmar-se entre EUA e URSS (Bandung, Não Alinhados); a América Latina, já independente, viveu a mesma bipolaridade sob forte influência dos EUA — e, em quase toda parte, a independência política conviveu com a dependência econômica (neocolonialismo).
+
+## O que a UERJ cobra
+
+**Programa oficial:** **descolonização** e anticolonialismo; comparação entre independências afro-asiáticas; **pan-africanismo**, **neocolonialismo** e soberania; industrialização e desenvolvimento na América Latina; contestações revolucionárias, com ênfase em **Cuba**; Estado, capital e sociedade civil no **Brasil de 1945 a 1964**.
+
+**Questões oficiais deste tópico:**
+- **UERJ 2026, questão 8** — o **racismo** na expansão imperialista e **duas causas da descolonização** (Fanon).
+- **UERJ 2026, questão 6** — aproximações, afastamentos e intervenções na relação **Brasil–EUA**.
+- **UERJ 2024, questão 8** — **Jânio Quadros**: política externa independente × política interna conservadora; a **renúncia**.
+- **UERJ 2019, questões 5 e 10** — direitos indígenas ontem e hoje; **Gandhi, Luther King, Mandela** e presos políticos brasileiros.
+- **UERJ 2018, questões 8 e 9** — influência socialista no Brasil; **migrações internas** na ditadura (*A hora da estrela*).
+- **UERJ 2017, questão 9** — Conferência de **Berlim** × Conferência dos Povos Africanos (**1958**) e o **pan-africanismo**.
+
+**O que você precisa dominar:** (1) causas da descolonização e propostas do pan-africanismo; (2) a Revolução Cubana e seus efeitos na América Latina; (3) o Brasil de 1945–1964: Vargas, JK, Jânio e Jango; (4) neocolonialismo: independência política sem autonomia econômica.
+
+**Não precisa decorar:** datas de independência de cada país africano ou asiático.
 
 ## O fio da história
 

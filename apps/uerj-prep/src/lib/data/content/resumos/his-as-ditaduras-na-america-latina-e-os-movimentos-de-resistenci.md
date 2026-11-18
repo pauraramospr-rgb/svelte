@@ -1,7 +1,7 @@
 ---
 title: Ditaduras na América Latina — do golpe à justiça de transição (Operação Condor, memória, Nuremberg e CEMDP)
 discipline: HIS
-level: do básico ao avançado (nível UERJ)
+level: focado no que a UERJ cobra
 reviewed: 2026-11-18
 - UERJ/DEPSEA. Edital do Exame Discursivo 2027, Anexo 5 – História, unidade “Da Guerra Fria ao mundo do tempo presente (1945-2026)”, item “As ditaduras na América Latina e os movimentos de resistência”.
 - UERJ. Questões Comentadas – Exame Discursivo 2017 (questão 10), 2024 (questão 10), 2025 (questões 8 e 9) e 2026 (questões 9 e 10), História.
@@ -18,6 +18,23 @@ reviewed: 2026-11-18
 ## Em uma frase
 
 Na Guerra Fria, golpes militares com apoio civil e dos EUA instalaram ditaduras no Brasil (1964), no Chile e no Uruguai (1973) e na Argentina (1976), que governaram pela repressão — tortura, mortes, desaparecimentos e cooperação entre si na Operação Condor —; com a volta da democracia, essas sociedades passaram a lidar com o passado por meio da justiça de transição (verdade, memória, reparação e justiça), cujo marco de origem é o Tribunal de Nuremberg e que, no Brasil, inclui a CEMDP e a correção das certidões de óbito.
+
+## O que a UERJ cobra
+
+**Programa oficial:** crescimento econômico, desenvolvimento nacional e **desigualdades sociais**; **repressão política**, **luta armada** e características das **transições democráticas**.
+
+**Questões oficiais deste tópico (um dos mais cobrados):**
+- **UERJ 2026, questão 9** — diferenças entre a ditadura e o presente quanto à **perseguição de opositores** e ao **reconhecimento de crimes** contra os direitos humanos.
+- **UERJ 2026, questão 10** — **marcos da redemocratização** e mudanças no mundo do trabalho no século XXI.
+- **UERJ 2025, questão 8** — uma **ação terrorista da extrema direita** no fim dos anos 1970 e início dos 1980 e seu objetivo político (barrar a abertura).
+- **UERJ 2025, questão 9** — a exploração mineral em **Carajás** e a política dos governos militares para a Amazônia; efeitos ambientais e sociais.
+- **UERJ 2024, questão 10** — a **reforma agrária** como bandeira do MST.
+- **UERJ 2020, questão 10** — o projeto da ditadura para a **Amazônia** e as lideranças indígenas hoje.
+- **UERJ 2017, questão 10** — o papel da **grande imprensa** na crise de 1964.
+
+**O que você precisa dominar:** (1) o golpe de 1964 e seus apoios; (2) “milagre econômico” e desigualdade; (3) repressão (AI-5, censura, tortura) e resistências; (4) a abertura: anistia, atentados da extrema direita, Diretas Já, Constituição de 1988; (5) memória e justiça (Comissão da Verdade, Operação Condor); (6) Amazônia e grandes projetos.
+
+**Não precisa decorar:** todos os atos institucionais nem a sequência completa dos generais-presidentes.
 
 ## O fio da história
 

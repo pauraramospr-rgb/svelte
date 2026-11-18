@@ -1,7 +1,7 @@
 ---
 title: Formação e consolidação dos EUA — expansão, Secessão, imigração e poder no tempo presente
 discipline: HIS
-level: do básico ao avançado (nível UERJ)
+level: focado no que a UERJ cobra
 reviewed: 2026-11-18
 - UERJ/DEPSEA. Edital do Exame Discursivo 2027, Anexo 5 – História, unidade “O longo século XIX (1815-1914)”, item “Formação e consolidação do capitalismo nos Estados Unidos”; unidade “Da Guerra Fria ao mundo do tempo presente”, item “A nova ordem em um mundo multipolar”.
 - UERJ. Questões Comentadas – Exame Discursivo 2020 (questão 4) e 2026 (questão 6), História.
@@ -18,6 +18,18 @@ reviewed: 2026-11-18
 ## Em uma frase
 
 Depois da independência, os EUA cresceram para o Oeste à custa de indígenas e mexicanos, travaram uma guerra civil por causa da escravidão, tornaram-se potência industrial movida por imigrantes que, ao mesmo tempo, restringiam por critérios raciais, e projetaram seu poder sobre a América Latina e a Ásia — uma trajetória que explica temas de hoje como o muro, o ICE e o choque entre soberania e direitos humanos.
+
+## O que a UERJ cobra
+
+**Programa oficial:** **expansão territorial** e estruturação do Estado nacional; a **Guerra de Secessão**, significados e efeitos; a **expansão geopolítica** sobre a América Latina e a Ásia, suas justificativas e conflitos.
+
+**Questões oficiais deste tópico:**
+- **UERJ 2026, questão 6** — ações de **aproximação**, **afastamento** e **intervenção** na relação Brasil–EUA ao longo de duzentos anos.
+- **UERJ 2020, questão 4** — uma causa da fragmentação da América espanhola e uma **ação imperialista** dos EUA na região.
+
+**O que você precisa dominar:** (1) a marcha para o Oeste e o Destino Manifesto — e a violência contra indígenas e o México; (2) a Secessão: Norte industrial × Sul escravista, a abolição e a segregação que veio depois; (3) Doutrina Monroe, Big Stick, guerra contra a Espanha e intervenções na América Latina; (4) exemplos concretos da relação Brasil–EUA (ver também “A construção da hegemonia norte-americana”).
+
+**Não precisa decorar:** batalhas da Guerra Civil nem todas as aquisições territoriais com data.
 
 ## O fio da história
 

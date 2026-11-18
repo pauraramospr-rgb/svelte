@@ -1,7 +1,7 @@
 ---
 title: Recursos expressivos da criação estética
 discipline: LPL
-level: do básico ao avançado (nível UERJ)
+level: focado no que a UERJ cobra
 reviewed: 2026-11-18
 - UERJ/DEPSEA. Edital do Exame Discursivo 2027, Anexo 5 – Língua Portuguesa e Literaturas, unidade “Literatura: contexto, temas e formas”.
 - UERJ. Questões Comentadas – Exame Discursivo 2024, 2025 e 2026 (Língua Portuguesa e Literaturas).
@@ -13,6 +13,24 @@ reviewed: 2026-11-18
 ## Em uma frase
 
 Recursos expressivos são as escolhas de forma — figuras, imagens, sons, seleção de palavras — com que o texto literário produz sentido; na UERJ, nomear o recurso não basta: é preciso localizá-lo, justificar a classificação e explicar o efeito que ele tem na obra.
+
+## O que a UERJ cobra
+
+**Programa oficial:** seleção e combinação de palavras; formas dos vocábulos; **efeitos sonoros**; **figurações e imagens**; representações da **variabilidade linguística**; efeitos de sentido de usos expressivos da linguagem; **figuras de linguagem**.
+
+**Questões oficiais deste item (17 desde 2017 — o mais cobrado da prova):**
+- **2026, Q1** — recursos que **constroem significados no enredo** (a metonímia como estrutura do romance).
+- **2026, Q5 e Q9** — tipos de discurso e sua relação; **eufemismo** e alternância de pessoas do discurso.
+- **2025, Q5, Q6, Q9 e Q10** — recursos da **metanarrativa**; conectivo; **ironia**; efeito da **pontuação**.
+- **2024, Q5** — o sentido de vocábulos no contexto.
+- **2020, Q2** — **neologismo** e processo criativo do autor.
+- **2019, Q1** — alvo de **crítica** do autor e recursos usados.
+- **2018, Q4, Q7 e Q9** — figura de linguagem no poema; recursos para **nomear** personagens; o estilo de Saramago.
+- **2017, Q8, Q9 e Q10** — **tempos verbais** e **deslocamentos lexicais** como recursos de sentido.
+
+**O que você precisa dominar:** (1) metáfora, comparação, metonímia, ironia, eufemismo, hipérbole, personificação, antítese, paradoxo, gradação e efeitos sonoros; (2) **justificar** a classificação; (3) ligar o recurso ao **enredo** e ao **tema**.
+
+**Não precisa decorar:** figuras raras que a banca nunca pediu — foque nas que aparecem nas questões.
 
 ## Conceitos fundamentais
 
@@ -55,17 +73,13 @@ O programa oficial lista: “seleção e combinação de palavras; formas dos vo
 4. **Assíndeto no título**: “Luanda, Lisboa, Paraíso” — enumeração sem conjunção, que soa como itinerário inevitável.
 5. **Retificação como estilo**: “Não tinham querido ser meninos de novo […], mas meninos pela segunda vez” — o “mas” precisa o sentido e cria um contraste sutil.
 
-## Fórmulas e aplicações
+## Roteiro de resposta
 
 **Roteiro em 4 passos:**
 1. **Identifique** o recurso (nome técnico).
 2. **Localize** (palavras exatas do trecho).
 3. **Justifique a classificação** (“é metáfora porque não há conectivo comparativo…”).
 4. **Interprete o efeito** no contexto da obra (tema, personagem, crítica).
-
-## Contexto histórico e científico
-
-A retórica greco-latina (Aristóteles, Quintiliano) classificou as figuras como ornamentos do discurso; a estilística moderna as estuda como escolhas que produzem sentido. Nas provas da UERJ, a abordagem é **funcional**: o recurso importa pelo que faz no texto.
 
 ## Aprofundamento (nível UERJ)
 

@@ -1,7 +1,7 @@
 ---
 title: Elementos da narrativa selecionada — Luanda, Lisboa, Paraíso
 discipline: LPL
-level: do básico ao avançado (nível UERJ)
+level: focado no que a UERJ cobra
 reviewed: 2026-11-18
 - UERJ/DEPSEA. Edital do Exame Discursivo 2027, Anexo 5 – Língua Portuguesa e Literaturas (“Elementos da narrativa selecionada”, “Gêneros textuais”, “Hibridismo”).
 - UERJ. Questões Comentadas – Exame Discursivo 2024, 2025 e 2026 (Língua Portuguesa e Literaturas).
@@ -14,6 +14,23 @@ reviewed: 2026-11-18
 ## Em uma frase
 
 Os elementos da narrativa — enredo, personagens, narrador e foco narrativo, índices, tempo, espaço, metaficção e verossimilhança — são as ferramentas para explicar como o romance constrói sentido; em “Luanda, Lisboa, Paraíso”, eles contam a descida de um pai e um filho angolanos de Luanda a Lisboa e ao bairro de lata do Paraíso.
+
+## O que a UERJ cobra
+
+**Programa oficial:** **enredo**; **construção dos personagens**; **narrador**, **foco narrativo**, **índices narrativos**; representações do **tempo** e do **espaço**; **metaficção**; **verossimilhança**.
+
+**Questões oficiais deste item (16 desde 2017 — junto com “Recursos expressivos”, o mais cobrado):**
+- **2026, Q7** — **tipos de narrador** e **polifonia** na alternância de pessoas do discurso.
+- **2026, Q4 e Q8** — **metalinguagem/metaficção**; a **simbologia** de uma escolha do enredo (a língua das personagens).
+- **2025, Q1** — os **papéis** de Caim e de Deus no romance de Saramago.
+- **2024, Q1 e Q6** — os **narradores** do romance e sua função; a relação entre as palavras do **título**.
+- **2020, Q5 e Q10** — associações na construção do enredo; a **função** de personagens.
+- **2019, Q3, Q5 e Q10** — construção da personagem; etapas da narrativa ligadas ao **Realismo/Naturalismo**.
+- **2018, Q5 e Q8** — tipo de narrador; **comparação** entre duas obras.
+
+**O que você precisa dominar:** (1) nomear e explicar narrador e foco; (2) a função de cada personagem; (3) tempo e espaço como produtores de sentido; (4) metaficção e título; (5) índices que antecipam o enredo.
+
+**Não precisa decorar:** teorias narratológicas — use as categorias como ferramentas de interpretação.
 
 ## Conceitos fundamentais
 
@@ -60,17 +77,13 @@ Os elementos da narrativa — enredo, personagens, narrador e foco narrativo, í
 4. **Índice**: o calcanhar escondido no batismo antecipa o estigma que acompanhará Aquiles.
 5. **Título como elemento estrutural**: a UERJ já pediu a relação entre as palavras do título de um romance (2024, questão 6). Aqui: enumeração em assíndeto, trajetória descendente, ironia final.
 
-## Fórmulas e aplicações
+## Roteiro de resposta
 
 **Roteiro de resposta em 4 tempos** (para “identifique/explique” sobre elementos da narrativa):
 1. **Nomeie** o elemento com o termo técnico (ex.: “narrador em 3ª pessoa com focalização próxima de Glória”).
 2. **Mostre** no trecho (palavra, expressão, episódio).
 3. **Explique** o funcionamento (por que é esse elemento).
 4. **Interprete** o efeito no sentido do romance (tema, personagem, contexto).
-
-## Contexto histórico e científico
-
-A narratologia do século XX (Forster, Genette) sistematizou categorias como personagem plana/redonda, foco narrativo e ordem temporal. A crítica da metaficção (Linda Hutcheon) mostrou como romances contemporâneos refletem sobre a própria construção. Na UERJ, essas categorias são **instrumentos de interpretação**: a banca pergunta o que o elemento **faz** no romance.
 
 ## Aprofundamento (nível UERJ)
 
