@@ -5,6 +5,7 @@
 	import CategoryTag from '$lib/components/CategoryTag.svelte';
 	import SourceRef from '$lib/components/SourceRef.svelte';
 	import Markdown from '$lib/components/Markdown.svelte';
+	import MindMap from '$lib/components/MindMap.svelte';
 	import { DIFFICULTY_LABEL, type Difficulty } from '$lib/questions/types';
 
 	let { data } = $props();
@@ -12,6 +13,7 @@
 	let busy = $state('');
 	let error = $state('');
 	let difficulty = $state<Difficulty>('medio');
+	let view = $state<'texto' | 'mapa'>('texto');
 	const shownSummary = $derived(summary ?? data.aiSummary?.content ?? null);
 	const maxYear = $derived(Math.max(1, ...Object.values(data.stats.byYear)));
 
@@ -89,17 +91,26 @@
 {#if error}<p class="notice bad" role="alert">{error}</p>{/if}
 
 <section class="card">
-	{#if data.resumo}
-		<div class="spread"><h2>Resumo estratégico</h2><CategoryTag category="pedagogica" detail="revisado em {data.resumo.reviewed}" /></div>
-		<Markdown source={data.resumo.body} />
-		{#if data.resumo.references.length}
+	{#if data.resumo || shownSummary}
+		<div class="spread">
+			<h2>Resumo estratégico</h2>
+			{#if data.resumo}<CategoryTag category="pedagogica" detail="revisado em {data.resumo.reviewed}" />{:else}<CategoryTag category="ia" detail="gerado sob demanda" />{/if}
+		</div>
+		<div class="row view" role="group" aria-label="Forma de visualização">
+			<button class="btn small" class:primary={view === 'texto'} aria-pressed={view === 'texto'} onclick={() => (view = 'texto')}>Texto completo</button>
+			<button class="btn small" class:primary={view === 'mapa'} aria-pressed={view === 'mapa'} onclick={() => (view = 'mapa')}>Mapa mental</button>
+		</div>
+		{#if !data.resumo}<p class="notice small">Resumo gerado por IA para o seu nível. Confira dados e definições com o material oficial e com seu professor.</p>{/if}
+		{#if view === 'mapa'}
+			<p class="small muted">O mapa é montado automaticamente a partir das seções e dos termos em destaque do resumo. Use-o para revisar; para estudar, leia o texto completo.</p>
+			<MindMap title={data.topic.title} markdown={data.resumo?.body ?? shownSummary ?? ''} />
+		{:else}
+			<Markdown source={data.resumo?.body ?? shownSummary ?? ''} />
+		{/if}
+		{#if data.resumo?.references.length}
 			<h3>Referências</h3>
 			<ul class="small">{#each data.resumo.references as r, i (i)}<li>{r}</li>{/each}</ul>
 		{/if}
-	{:else if shownSummary}
-		<div class="spread"><h2>Resumo estratégico</h2><CategoryTag category="ia" detail="gerado sob demanda" /></div>
-		<p class="notice small">Resumo gerado por IA para o seu nível. Confira dados e definições com o material oficial e com seu professor.</p>
-		<Markdown source={shownSummary} />
 	{:else}
 		<h2>Resumo estratégico</h2>
 		<p class="muted">Este tópico ainda não tem resumo editorial. Você pode gerar um resumo com IA, adaptado ao seu nível, com conceitos, exemplos, relações entre conteúdos, como o tema aparece nas provas e exercícios de fixação.</p>
@@ -160,6 +171,9 @@
 		background: var(--cat-analise);
 		border-radius: 4px 4px 0 0;
 		min-height: 2px;
+	}
+	.view {
+		margin: 0.25rem 0 0.75rem;
 	}
 	.qlist {
 		list-style: none;

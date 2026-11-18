@@ -20,6 +20,7 @@
 		padding: 0.12rem 0.6rem;
 		border: 1px solid currentColor;
 		white-space: nowrap;
+		max-width: 100%;
 		cursor: help;
 		background: var(--surface);
 	}
@@ -31,6 +32,13 @@
 	}
 	.detail {
 		font-weight: 500;
+		white-space: normal;
+	}
+	@media (max-width: 480px) {
+		.tag {
+			white-space: normal;
+			border-radius: 10px;
+		}
 	}
 	.oficial {
 		color: var(--cat-oficial);

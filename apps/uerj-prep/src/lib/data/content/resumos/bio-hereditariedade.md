@@ -1,8 +1,8 @@
 ---
 title: Hereditariedade
 discipline: BIO
-level: do básico ao avançado
-reviewed: 2026-11-17
+level: do básico ao avançado (nível UERJ)
+reviewed: 2026-11-18
 - MENDEL, G. Versuche über Pflanzen-Hybriden (1866) — trabalho original sobre hibridação em ervilhas.
 - UERJ/DEPSEA. Edital do Exame Discursivo 2027, Anexo 5 – Biologia, unidade “Bases da genética”.
 - UERJ. Questões Comentadas – Exame Discursivo 2024, 2025 e 2026 (Biologia).
@@ -49,6 +49,20 @@ reviewed: 2026-11-17
 
 Gregor Mendel publicou em 1866 os resultados de cruzamentos com ervilhas, mas seu trabalho só foi amplamente reconhecido a partir de 1900, quando foi “redescoberto” por outros pesquisadores. A teoria cromossômica da herança (início do século XX) mostrou que os “fatores” de Mendel estão nos cromossomos, e a descoberta da estrutura do DNA (1953) explicou sua base molecular.
 
+## Aprofundamento (nível UERJ)
+
+- **Heredogramas — reconheça o padrão antes de calcular.**
+  - *Autossômica recessiva*: pais normais com filho afetado (os dois são heterozigotos); a característica “salta” gerações e atinge os dois sexos; casamentos consanguíneos aumentam a chance.
+  - *Autossômica dominante*: todo afetado tem ao menos um genitor afetado; dois afetados podem ter filho normal (ambos heterozigotos).
+  - *Recessiva ligada ao X*: predomina em homens; o homem afetado recebe o alelo da mãe; pai afetado não transmite aos filhos homens, mas todas as filhas são portadoras.
+  - *Dominante ligada ao X*: pai afetado tem todas as filhas afetadas e nenhum filho afetado.
+- **A armadilha do 2/3.** Um indivíduo de fenótipo dominante, filho de *Aa × Aa*, tem probabilidade **2/3** de ser heterozigoto, não 1/2: o genótipo *aa* já foi excluído pelo fenótipo (probabilidade condicional).
+- **Genes ligados e mapas.** A frequência de recombinantes indica a distância entre dois genes no cromossomo (1% de recombinação = 1 unidade de mapa, ou centimorgan) e nunca passa de 50%.
+- **Pleiotropia.** Um único gene com vários efeitos fenotípicos — ex.: síndrome de Marfan (esqueleto, olhos e sistema cardiovascular).
+- **Herança quantitativa (poligênica).** Vários genes de efeito aditivo, somados ao ambiente, produzem variação contínua (altura, cor da pele); com *n* pares aditivos, há 2n + 1 classes fenotípicas.
+- **Penetrância e expressividade.** Nem todo portador do genótipo manifesta o fenótipo (penetrância incompleta), e a intensidade da manifestação pode variar (expressividade variável).
+- **Herança mitocondrial.** O DNA das mitocôndrias é transmitido praticamente só pela mãe, via citoplasma do óvulo.
+
 ## Relações com outros conteúdos
 
 - **Meiose** (Vírus, células e tecidos): a separação dos homólogos na meiose I é a base física da 1ª lei; a disposição independente dos pares, da 2ª.
@@ -68,14 +82,31 @@ A UERJ costuma contextualizar a genética em situações concretas e pedir **exp
 
 Note o padrão: dois comandos encadeados (“nomeie… em seguida, explique…”) e a exigência de justificar com o mecanismo.
 
+**Resposta-modelo comentada (UERJ 2025, questão 3, a partir do comentário oficial).** *Comando: nomeie o fenômeno em que o gene B inibe o efeito do gene A e explique a diferença entre ele e um caso de herança dominante.*
+> “O fenômeno é a epistasia: um gene inibe a expressão de outro gene, situado em locus diferente. Na herança dominante, os alelos ocupam o mesmo locus de cromossomos homólogos, e um único alelo dominante basta para expressar seu fenótipo; na epistasia, a relação é entre genes de loci diferentes, e o gene inibido pode ser dominante ou recessivo.”
+
+Por que é completa: nomeia corretamente e usa o **critério** que a banca usa — mesmo locus × loci diferentes.
+
+## Erros que custam pontos
+
+- Confundir epistasia (genes de loci diferentes) com dominância (alelos do mesmo locus).
+- Usar 1/2 em vez de 2/3 para a chance de um irmão normal ser portador.
+- Somar probabilidades de eventos independentes (o correto é multiplicar).
+- Esquecer as ordens possíveis em “um menino e uma menina” quando a ordem não é dada.
+- Chamar de “portador” um homem com alelo recessivo ligado ao X (ele é hemizigoto e manifesta a característica).
+
 ## Exercícios de fixação
 
 1. Um casal heterozigoto para o albinismo (autossômico recessivo) planeja dois filhos. Qual a probabilidade de ambos serem albinos? E de ao menos um ser albino?
 2. Explique por que a hemofilia (recessiva ligada ao X) é mais frequente em homens.
 3. Em aves, uma característica é determinada por um gene exclusivo do cromossomo W. Um macho pode apresentá-la? Justifique.
+4. Um casal normal tem uma filha com fibrose cística (autossômica recessiva). Qual a probabilidade de o filho normal desse casal ser heterozigoto?
+5. Dois genes ligados, A e B, distam 20 unidades de mapa. Indique as proporções esperadas na descendência do cruzamento AB/ab × ab/ab.
 
 **Respostas comentadas**
 
 1. Cada filho tem 1/4 de chance de ser *aa*. Ambos: 1/4 × 1/4 = **1/16**. Ao menos um: 1 − P(nenhum) = 1 − (3/4)² = **7/16**.
 2. Homens têm um único X: um alelo recessivo nele já se manifesta (hemizigose). Mulheres precisam de dois alelos recessivos.
 3. **Não.** Machos são ZZ e não têm cromossomo W; a característica é transmitida exclusivamente de mãe para filhas.
+4. Os pais são *Aa × Aa*. Entre os filhos normais (*AA* ou *Aa*), 2 em 3 combinações são *Aa*: **2/3**.
+5. Gametas do duplo heterozigoto: 40% *AB* e 40% *ab* (parentais); 10% *Ab* e 10% *aB* (recombinantes). Descendência: **40% AaBb, 40% aabb, 10% Aabb, 10% aaBb**.

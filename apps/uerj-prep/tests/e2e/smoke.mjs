@@ -98,8 +98,8 @@ await step('simulado completo: responder, salvar automaticamente e encerrar', as
 	await page.fill('textarea#resp', 'Minha resposta para a primeira questão.');
 	await page.waitForTimeout(4500);
 	await page.waitForSelector('text=tudo salvo');
-	page.once('dialog', (d) => d.accept());
 	await page.click('button:has-text("Encerrar e corrigir")');
+	await page.click('button:has-text("Sim, encerrar")');
 	await page.waitForSelector('text=Resultado estimado');
 	await page.screenshot({ path: `${SHOTS}/05-simulado.png`, fullPage: true });
 });
@@ -126,6 +126,38 @@ await step('biblioteca de obras (2027 e listas antigas)', async () => {
 	await page.screenshot({ path: `${SHOTS}/06-obra.png`, fullPage: true });
 });
 
+await step('obra aprofundada: trechos comentados, espaços e gramática', async () => {
+	await page.goto(BASE + '/obras/luanda-lisboa-paraiso');
+	await page.waitForSelector('#trechos blockquote');
+	await page.waitForSelector('text=Pepe');
+	await page.waitForSelector('text=Iuri');
+	await page.waitForSelector('#gramatica table');
+	const n = await page.locator('#questoes li').count();
+	expect(n >= 10, `poucas inéditas sobre a obra: ${n}`);
+	await page.screenshot({ path: `${SHOTS}/06b-luanda.png`, fullPage: true });
+});
+
+await step('guia de como responder e temas em evidência', async () => {
+	await page.goto(BASE + '/guia');
+	await page.waitForSelector('text=Passo a passo na hora da prova');
+	const pct = await page.locator('#comandos p strong').first().textContent();
+	expect(/\d+%/.test(pct ?? ''), 'estatística de comandos ausente');
+	await page.screenshot({ path: `${SHOTS}/06c-guia.png`, fullPage: true });
+	await page.goto(BASE + '/em-evidencia');
+	await page.waitForSelector('text=250 anos da Independência dos Estados Unidos');
+	await page.waitForSelector('a[href="/banco/2026-HIS-08"]');
+});
+
+await step('resumo aprofundado vira mapa mental', async () => {
+	await page.goto(BASE + '/trilha/his-estado-e-industrializacao-na-america-latina');
+	await page.waitForSelector('text=Aprofundamento (nível UERJ)');
+	await page.click('button:has-text("Mapa mental")');
+	await page.waitForSelector('.mm svg rect');
+	const nodes = await page.locator('.mm svg g').count();
+	expect(nodes > 15, `mapa com poucos nós: ${nodes}`);
+	await page.screenshot({ path: `${SHOTS}/06d-mapa.png`, fullPage: true });
+});
+
 await step('revisão: diagnóstico e cronograma', async () => {
 	await page.goto(BASE + '/revisao');
 	await page.waitForSelector('text=Cronograma personalizado');
@@ -141,7 +173,7 @@ await step('professor IA informa quando a chave não está configurada', async (
 await step('layout responsivo em celular sem rolagem horizontal', async () => {
 	const m = await browser.newContext({ viewport: { width: 375, height: 800 }, storageState: await ctx.storageState() });
 	const p = await m.newPage();
-	for (const path of ['/painel', '/banco', '/redacao', '/obras/luanda-lisboa-paraiso', '/revisao']) {
+	for (const path of ['/painel', '/banco', '/redacao', '/obras/luanda-lisboa-paraiso', '/revisao', '/guia', '/em-evidencia', '/redacao/temas/amado-governa-bem']) {
 		await p.goto(BASE + path);
 		const overflow = await p.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
 		expect(overflow <= 1, `${path}: rolagem horizontal de ${overflow}px`);

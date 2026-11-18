@@ -137,28 +137,70 @@ export const TEMAS_2027: RedacaoTema[] = [
 		armadilhas: ['Discutir humor em geral sem focar na crítica política.', 'Afirmar dados históricos sem segurança.']
 	},
 	{
-		id: 'imprensa-oposicao',
-		question: 'A imprensa de oposição é indispensável à democracia, mesmo quando defende interesses próprios?',
-		link: 'Neco Pedreira, dono do jornal “A Trombeta”, faz oposição a Odorico. Sua atuação revela tanto a importância da imprensa crítica quanto os interesses que também a movem.',
+		id: 'amado-governa-bem',
+		question: 'Ser amado pelo povo é prova de que um governante governa bem?',
+		link: 'O título já é a provocação: Odorico é o “bem-amado” de Sucupira. Ele se elege com a promessa de um cemitério, cultiva apoiadores devotados, transforma uma obra sem utilidade imediata em vitrine pessoal e, no desfecho, morto, inaugura a própria obra. A peça separa com ironia duas coisas que costumamos confundir: o afeto que um político desperta e a qualidade do governo que ele faz.',
 		recortes: [
-			{ title: 'Liberdade de imprensa', text: 'Discutir o papel da imprensa livre como contrapeso ao poder.' },
-			{ title: 'Interesses da imprensa', text: 'Discutir como avaliar uma imprensa que fiscaliza o poder, mas também tem interesses políticos e econômicos.' }
+			{ title: 'Popularidade × resultados', text: 'Discutir se a aprovação popular é um critério suficiente para avaliar um governo ou se ela precisa ser confrontada com resultados verificáveis (serviços, contas públicas, respeito às leis).' },
+			{ title: 'Carisma, personalismo e culto ao líder', text: 'Discutir como o afeto por uma figura pode substituir a avaliação de propostas, e por que a política personalista tende a confundir o governante com o próprio governo.' },
+			{ title: 'Afeto fabricado', text: 'Discutir em que medida o “amor” do eleitorado pode ser produzido por discurso, propaganda, favores e controle da informação — como em Sucupira — e o que isso exige do cidadão.' },
+			{ title: 'Memória pública dos governantes', text: 'Discutir como as cidades lembram (ou esquecem) seus políticos: homenagens, nomes de ruas e monumentos podem consagrar quem governou mal.' }
 		],
 		motivadores: [
-			{ title: 'Texto I — elaborado para esta proposta', text: 'Um jornal que só elogia é um panfleto; um jornal que só ataca também pode ser.' },
-			{ title: 'Texto II — elaborado para esta proposta', text: 'A pluralidade de vozes não garante a verdade, mas torna a mentira mais difícil.' }
+			{
+				title: 'Texto I — elaborado para esta proposta',
+				text: 'Na praça de Sucupira, o prefeito discursa e o povo aplaude. Ninguém sabe dizer quanto custou o cemitério, nem o que deixou de ser feito para que ele existisse. Mas todos sabem repetir o nome do prefeito. Em algumas cidades, ser lembrado vale mais do que ser útil.'
+			},
+			{
+				title: 'Texto II — elaborado para esta proposta',
+				text: 'Pesquisas de opinião medem o que a população sente sobre um governo em determinado momento. Auditorias, indicadores de saúde e educação e prestações de contas medem outra coisa: o que o governo efetivamente fez. Quando os dois retratos coincidem, a democracia agradece. Quando divergem, o eleitor precisa decidir em qual deles confia.'
+			},
+			{
+				title: 'Texto III — elaborado para esta proposta',
+				text: 'Há governantes amados porque fizeram muito, e governantes amados porque souberam parecer que fizeram. O afeto não é falso em si mesmo; o problema começa quando ele dispensa perguntas.'
+			}
 		],
 		repertorio: [
-			{ ref: 'Constituição Federal de 1988, art. 5º, IX, e art. 220', use: 'Liberdade de expressão e de comunicação, vedada a censura.' },
-			{ ref: 'Hannah Arendt, “Verdade e política” (1967)', use: 'A relação conflituosa entre verdade factual e poder político.' },
-			{ ref: 'Alexis de Tocqueville, “A democracia na América”', use: 'A imprensa como instrumento de liberdade e de controle do poder.' }
+			{ ref: 'Nicolau Maquiavel, “O príncipe” (escrito em 1513), cap. XVII', use: 'Discute se é melhor ao governante ser amado ou temido: o afeto aparece como instrumento de poder, não como medida de bom governo — útil para relativizar a equação “amado = bom”.' },
+			{ ref: 'Max Weber, tipos de dominação legítima (tradicional, carismática e racional-legal)', use: 'A dominação carismática se apoia na devoção à pessoa do líder; a racional-legal, em regras impessoais. Ajuda a explicar por que a popularidade pessoal não substitui instituições.' },
+			{ ref: 'Victor Nunes Leal, “Coronelismo, enxada e voto” (1949)', use: 'Mostra como lealdades eleitorais podiam ser produzidas por dependência e troca de favores — base histórica para o “amor” fabricado de Sucupira.' },
+			{ ref: 'Sérgio Buarque de Holanda, “Raízes do Brasil” (1936)', use: 'O “homem cordial” e a dificuldade de separar relações pessoais e esfera pública ajudam a discutir o personalismo na política brasileira.' },
+			{ ref: 'Constituição Federal de 1988, art. 37, caput e § 1º', use: 'Princípio da impessoalidade: a publicidade de atos e obras públicas não pode conter nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades — o oposto da lógica do cemitério de Odorico.' }
 		],
 		caminhos: [
-			{ posicao: 'Sim', tese: 'A imprensa de oposição é indispensável, pois a pluralidade de vozes limita abusos, mesmo que cada veículo tenha interesses.', argumentos: ['Contrapeso ao poder local na peça.', 'Garantia constitucional da liberdade de imprensa.'] },
-			{ posicao: 'Não', tese: 'Uma imprensa movida apenas por interesses próprios pode desinformar e enfraquecer a democracia.', argumentos: ['Oposição sistemática não é sinônimo de jornalismo.', 'Desinformação corrói a confiança pública.'] },
-			{ posicao: 'Depende', tese: 'É indispensável desde que submetida ao compromisso com os fatos e à crítica do público.', argumentos: ['Diversidade de veículos e checagem.', 'Leitor crítico como parte do sistema democrático.'] }
+			{
+				posicao: 'Sim',
+				tese: 'Em uma democracia, o afeto popular expressa, ainda que de modo imperfeito, o reconhecimento de que um governo atende às necessidades das pessoas; ignorá-lo seria desprezar o juízo do próprio povo.',
+				argumentos: [
+					'O voto e a aprovação são as formas legítimas pelas quais a população avalia quem a governa; tratá-los como mero engano é uma visão elitista do eleitor.',
+					'Governos que melhoram a vida concreta das pessoas tendem a ser lembrados com afeto — a popularidade pode ser consequência de bons resultados.',
+					'Na peça, a sátira atinge Odorico, não o povo: o problema está na manipulação, não no afeto em si.'
+				]
+			},
+			{
+				posicao: 'Não',
+				tese: 'O amor popular não prova bom governo, porque pode ser fabricado por discurso, propaganda e favores — e a peça de Dias Gomes mostra exatamente um governante amado que governa para si mesmo.',
+				argumentos: [
+					'Odorico conquista devoção com uma retórica vazia e uma obra eleitoreira; recursos coletivos servem à sua vaidade.',
+					'O carisma desloca a atenção das contas e dos resultados para a pessoa do líder (dominação carismática, em Weber).',
+					'A Constituição exige impessoalidade justamente para impedir que a obra pública vire promoção pessoal.'
+				]
+			},
+			{
+				posicao: 'Depende',
+				tese: 'A popularidade é um indício, não uma prova: só tem valor quando se forma com informação livre, imprensa atuante e possibilidade real de crítica, e quando pode ser confrontada com resultados verificáveis.',
+				argumentos: [
+					'O mesmo afeto pode nascer de bons serviços ou de manipulação; o que distingue os casos é a qualidade da informação disponível ao eleitor.',
+					'Em Sucupira, a imprensa de oposição e a crítica existem, mas não bastam para desfazer a idolatria — sinal de que o problema é também educativo e institucional.'
+				]
+			}
 		],
-		armadilhas: ['Confundir opinião com informação.', 'Esquecer a peça como ponto de partida.']
+		armadilhas: [
+			'Resumir a peça em vez de usá-la como ponto de partida para a discussão.',
+			'Responder apenas sobre um político real do presente, citando números de pesquisas que você não pode confirmar.',
+			'Confundir “ser eleito” com “ser amado” e “ser amado” com “ser competente” sem discutir a diferença — é ela que sustenta a tese.',
+			'Concluir com “depende” sem dizer de quê: a posição intermediária precisa de critérios claros.'
+		]
 	}
 ];
 

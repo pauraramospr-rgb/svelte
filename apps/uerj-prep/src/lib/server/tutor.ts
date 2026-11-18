@@ -40,7 +40,7 @@ export function contextText(user: User, ctx: TutorContext | null): { label: stri
 		if (!o) return null;
 		return {
 			label: `Obra: ${o.title}`,
-			text: `O estudante quer estudar a obra “${o.title}”, de ${o.author} (${o.exam}). Resumo de referência da plataforma:\n${o.resumo.map((r) => `${r.title}: ${r.text}`).join('\n')}\nPontos que variam entre edições/adaptações e devem ser conferidos no livro: ${o.confiraNaLeitura.join(' ')}\nSe o estudante perguntar detalhes do enredo que você não puder garantir, diga isso e oriente a conferir no texto.`
+			text: `O estudante quer estudar a obra “${o.title}”, de ${o.author} (${o.exam}). Resumo de referência da plataforma:\n${o.resumo.map((r) => `${r.title}: ${r.text}`).join('\n')}\nPersonagens: ${o.personagens.map((p) => `${p.name} — ${p.text}`).join('\n')}\n${o.trechos ? `Trechos que a plataforma comenta (citações exatas): ${o.trechos.map((t) => `${t.ref}: ${t.texto}`).join('\n')}\n` : ''}Pontos que variam entre edições/adaptações e devem ser conferidos no livro: ${o.confiraNaLeitura.join(' ')}\nSe o estudante perguntar detalhes do enredo que você não puder garantir, diga isso e oriente a conferir no texto.`
 		};
 	}
 	if (ctx.kind === 'redacao') {

@@ -67,6 +67,9 @@ Metodologia (declarada ao estudante):
 - Respostas por outros caminhos válidos devem ser aceitas se corretas e completas.
 - Seja específico: cite trechos exatos da resposta do estudante em "excerpt".
 - "improvedAnswer": reescreva a resposta do estudante de forma completa e concisa, como seria esperada na prova (2 a 6 frases), sem copiar literalmente a referência.
+- Antes de decidir o crédito, decomponha o comando em partes (cada verbo de comando e cada quantidade pedida, como “duas ações” ou “em seguida, explique”) e verifique cada parte separadamente; no "summary", diga quais partes foram atendidas.
+- Critérios que a banca da UERJ demonstra nos comentários oficiais: termo técnico correto (nomear o conceito), evidência do texto-base ou do dado, explicação do mecanismo/efeito quando o verbo é “explique” ou “justifique”, situação no tempo/espaço (Humanas) e desenvolvimento do cálculo com unidade (Exatas). Exemplo vago, fora do período ou de outra natureza não pontua; exemplo diferente do da referência, mas correto e específico, pontua.
+- Informação a mais, correta, não aumenta o crédito; afirmação errada que contradiz a parte correta pode reduzi-lo.
 - Adapte o tom ao nível do estudante: ${LEVEL_TEXT[level]}.
 - Se a referência estiver incompleta (ex.: fórmulas ou figuras não transcritas), use seu conhecimento, mas marque "confidence" como "media" ou "baixa".
 
@@ -274,18 +277,20 @@ export async function generateSummary(args: { topicId: string; level: Level; use
 	const examples = styleExamples(t.discipline, args.topicId, 2);
 	const exText = examples.map((e) => `- UERJ ${e.year}, questão ${e.number}: ${e.statement.slice(0, 700)}`).join('\n');
 	const system = `Você é um professor universitário e autor de material didático para o vestibular da UERJ.
-Escreva um resumo estratégico, aprofundado e didático, em Markdown, sobre o tópico indicado, para um estudante de nível ${LEVEL_TEXT[args.level]}.
+Escreva um resumo estratégico, APROFUNDADO e didático, em Markdown, sobre o tópico indicado, para um estudante de nível ${LEVEL_TEXT[args.level]}.
+O padrão é o de um material de cursinho de alto nível para a UERJ: não uma explicação rápida, mas um texto que ensine os mecanismos, as distinções finas e as relações que a banca cobra.
 Use exatamente estas seções (títulos de nível 2):
-## Conceitos fundamentais
-## Explicação detalhada
-## Exemplos práticos
-## Fórmulas e aplicações  (omita se não pertinente à disciplina)
+## Conceitos fundamentais  (lista: cada item começa com o termo em **negrito**, seguido de dois-pontos e da definição precisa)
+## Explicação detalhada  (parágrafos numerados que começam com um título em **negrito**; cubra TODOS os subtópicos oficiais, com causas, mecanismos, consequências, datas ou grandezas pertinentes)
+## Exemplos práticos  (3 a 5 exemplos concretos, cada um começando com um título em **negrito**)
+## Fórmulas e aplicações  (fórmulas com significado de cada termo e unidades; em Humanas, uma linha do tempo em tabela Markdown)
 ## Contexto histórico e científico
+## Aprofundamento (nível UERJ)  (lista de 4 a 7 itens em **negrito**: distinções finas, exceções, debates, armadilhas conceituais e conexões que diferenciam uma resposta excelente)
 ## Relações com outros conteúdos
-## Como o assunto pode aparecer na prova discursiva
-## Exercícios de fixação  (3 exercícios discursivos curtos, com respostas comentadas ao final)
-Na seção sobre a prova, baseie-se nos exemplos oficiais fornecidos (cite ano e número) e deixe claro que se trata de possibilidade, não de garantia.
-Fórmulas em texto simples, sem LaTeX. Não invente dados, datas ou referências: se citar um fato, ele deve ser amplamente estabelecido.
+## Como o assunto pode aparecer na prova discursiva  (baseie-se nos exemplos oficiais fornecidos, citando ano e número; deixe claro que é possibilidade, não garantia; inclua uma "Resposta-modelo comentada" para um comando plausível, dizendo por que ela seria completa)
+## Erros que custam pontos  (4 a 6 itens)
+## Exercícios de fixação  (5 exercícios discursivos, do mais simples ao mais exigente, com "**Respostas comentadas**" ao final)
+Fórmulas em texto simples, sem LaTeX. Não invente dados, datas, números ou referências: se citar um fato, ele deve ser amplamente estabelecido; na dúvida, omita.
 
 ${INTEGRITY}`;
 	const user = `Disciplina: ${DISCIPLINES[t.discipline].name}

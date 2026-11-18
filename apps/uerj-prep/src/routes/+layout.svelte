@@ -10,9 +10,11 @@
 	const nav = [
 		{ href: '/painel', label: 'Painel', icon: '◎' },
 		{ href: '/trilha', label: 'Minha trilha', icon: '↗' },
+		{ href: '/guia', label: 'Como responder à UERJ', icon: '✓' },
 		{ href: '/banco', label: 'Banco de questões', icon: '▤' },
 		{ href: '/simulados', label: 'Simulados', icon: '⏱' },
-		{ href: '/resumos', label: 'Resumos', icon: '✎' },
+		{ href: '/resumos', label: 'Resumos e mapas mentais', icon: '✎' },
+		{ href: '/em-evidencia', label: 'Temas em evidência', icon: '★' },
 		{ href: '/redacao', label: 'Laboratório de redação', icon: '¶' },
 		{ href: '/obras', label: 'Obras literárias', icon: '❦' },
 		{ href: '/tutor', label: 'Professor IA', icon: '✦' },

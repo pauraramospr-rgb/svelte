@@ -1,8 +1,8 @@
 ---
 title: Ligações interatômicas
 discipline: QUI
-level: do básico ao avançado
-reviewed: 2026-11-17
+level: do básico ao avançado (nível UERJ)
+reviewed: 2026-11-18
 - UERJ/DEPSEA. Edital do Exame Discursivo 2027, Anexo 5 – Química, unidade “Ligações químicas”.
 - UERJ. Questões Comentadas – Exame Discursivo 2025 e 2026 (Química).
 - IUPAC. Compendium of Chemical Terminology (“Gold Book”) — definições de ligação covalente, iônica e eletronegatividade.
@@ -44,6 +44,16 @@ reviewed: 2026-11-17
 
 Gilbert N. Lewis propôs em 1916 a ideia da ligação covalente como par de elétrons compartilhado (estruturas de Lewis). Linus Pauling desenvolveu a escala de eletronegatividade (anos 1930) e a teoria da ligação química, que lhe valeu o Nobel de Química de 1954.
 
+## Aprofundamento (nível UERJ)
+
+- **Eletronegatividade e o “contínuo” das ligações.** Diferença grande → caráter iônico; intermediária → covalente polar; nula → covalente apolar. A classificação é uma escala, não uma fronteira rígida.
+- **Exceções ao octeto.** BF₃ (boro com 6 elétrons na camada de valência), PCl₅ e SF₆ (camada expandida), NO (número ímpar de elétrons).
+- **Ligação coordenada (dativa).** Um átomo cede o par de elétrons compartilhado: NH₄⁺ (NH₃ + H⁺), H₃O⁺.
+- **Geometria (repulsão dos pares eletrônicos).** Linear (CO₂), trigonal plana (BF₃), tetraédrica (CH₄), piramidal (NH₃, com um par não ligante), angular (H₂O, com dois pares não ligantes).
+- **Das ligações às propriedades: forças intermoleculares.** Dipolo induzido (London) < dipolo-dipolo < ligação de hidrogênio (H ligado a F, O ou N). Explicam pontos de ebulição: a água ferve a 100 °C, e o H₂S, de massa molar maior, a cerca de −60 °C.
+- **Solubilidade.** “Semelhante dissolve semelhante”: substâncias polares em solventes polares; apolares em apolares.
+- **Alotropia.** O₂ e O₃; diamante e grafite — o grafite conduz eletricidade por ter elétrons deslocalizados entre as camadas.
+
 ## Relações com outros conteúdos
 
 - **Tabela periódica**: grupo e período determinam elétrons de valência e eletronegatividade.
@@ -63,14 +73,30 @@ Gilbert N. Lewis propôs em 1916 a ideia da ligação covalente como par de elé
 
 Padrão: um contexto ambiental ou tecnológico e **três ou quatro comandos curtos** na mesma questão. Responda a todos, na ordem pedida.
 
+**Resposta-modelo comentada (UERJ 2026, questão 1, a partir do comentário oficial).** *Comando: indique grupo e período do bromo, nomeie a ligação no Br₂ e apresente a fórmula do agente oxidante da reação 2 Br⁻ + Cl₂ → Br₂ + 2 Cl⁻.*
+> “O bromo está no grupo 17 (VIIA) e no 4º período. No Br₂, a ligação é covalente, pois une dois átomos de ametal. O agente oxidante é o Cl₂, que se reduz ao receber elétrons, formando Cl⁻.”
+
+Por que é completa: responde aos **três comandos na ordem**, justifica a ligação e identifica o oxidante pelo critério (quem se reduz).
+
+## Erros que custam pontos
+
+- Confundir polaridade da ligação com polaridade da molécula (CO₂ tem ligações polares e é apolar).
+- Apontar como agente oxidante a espécie que se oxida (é a que se reduz).
+- Dar o íon (Cl⁻) quando se pede a fórmula do agente oxidante (Cl₂).
+- Esquecer o par não ligante e chamar o NH₃ de trigonal plano.
+
 ## Exercícios de fixação
 
 1. Classifique as ligações em: MgO, H₂O, O₂ e Fe (metal puro).
 2. Por que a molécula de CO₂ é apolar se suas ligações são polares?
 3. Na reação Zn + Cu²⁺ → Zn²⁺ + Cu, identifique o agente oxidante e o redutor.
+4. Explique por que a água tem ponto de ebulição muito maior que o do H₂S, apesar de ter menor massa molar.
+5. Indique a geometria e a polaridade das moléculas BF₃ e NH₃.
 
 **Respostas comentadas**
 
 1. MgO: **iônica** (metal + ametal); H₂O: **covalente polar**; O₂: **covalente apolar**; Fe: **metálica**.
 2. Porque é **linear** (O=C=O): os dois dipolos têm mesma intensidade e sentidos opostos e se anulam.
 3. Cu²⁺ ganha elétrons (reduz-se): **agente oxidante**. Zn perde elétrons (oxida-se): **agente redutor**.
+4. As moléculas de água se unem por **ligações de hidrogênio** (H ligado ao O, muito eletronegativo), interações mais intensas que as do H₂S; é preciso mais energia para separá-las.
+5. BF₃: **trigonal plana e apolar** (dipolos se anulam); NH₃: **piramidal e polar** (o par não ligante impede que os dipolos se anulem).

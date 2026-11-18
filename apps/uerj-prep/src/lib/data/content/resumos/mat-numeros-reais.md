@@ -1,8 +1,8 @@
 ---
 title: Números reais — razões, proporções e porcentagens
 discipline: MAT
-level: do básico ao avançado
-reviewed: 2026-11-17
+level: do básico ao avançado (nível UERJ)
+reviewed: 2026-11-18
 - UERJ/DEPSEA. Edital do Exame Discursivo 2027, Anexo 5 – Matemática, unidade “Aritmética”.
 - UERJ. Questões Comentadas – Exame Discursivo 2025 e 2026 (Matemática).
 ---
@@ -44,6 +44,16 @@ reviewed: 2026-11-17
 
 A noção de razão e proporção é central na matemática grega (Livro V dos *Elementos* de Euclides, que trata da teoria das proporções). O uso do símbolo % consolidou-se na Europa com a expansão do comércio e das finanças.
 
+## Aprofundamento (nível UERJ)
+
+- **Conjuntos numéricos.** ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ. Racionais incluem as dízimas periódicas (todas têm fração geratriz); irracionais (√2, π, φ) têm expansão decimal infinita e não periódica.
+- **Fração geratriz.** Para 0,1222…: x = 0,1222…; 100x − 10x = 12,222… − 1,222… = 11 ⇒ x = 11/90.
+- **Por que √2 é irracional (ideia).** Supondo √2 = p/q irredutível, 2q² = p² obriga p e q a serem pares — contradição.
+- **Pontos percentuais × variação percentual.** De 8% para 10%: +2 pontos percentuais, mas variação de 25%.
+- **Juros compostos.** M = C·(1 + i)ⁿ, com taxa e período na mesma unidade; descontos e aumentos sucessivos seguem a mesma lógica multiplicativa.
+- **Médias.** Aritmética, ponderada (como a nota final do vestibular, com pesos) e harmônica (velocidade média em trechos iguais).
+- **Razões geométricas.** No retângulo áureo, retirar um quadrado deixa um retângulo semelhante (razão φ); no de prata, retirar dois quadrados deixa um semelhante (razão 1 + √2) — base da questão oficial de 2026.
+
 ## Relações com outros conteúdos
 
 - **Juros simples e compostos** (Álgebra): os juros compostos são aumentos percentuais sucessivos.
@@ -63,14 +73,31 @@ A noção de razão e proporção é central na matemática grega (Livro V dos *
 
 Padrão: dados do cotidiano ou de notícias, cálculos curtos e exigência de **apresentar o desenvolvimento** (“Desenvolvimento e resposta”).
 
+**Resposta-modelo comentada (UERJ 2026, questão 2, a partir do comentário oficial).** *Comando: calcule o percentual das exportações brasileiras atingido pela sobretaxa.*
+> “Desenvolvimento: os EUA recebem 11,5% das exportações, e 40% delas foram sobretaxadas. Logo, 0,40 × 11,5% = 4,6%. Resposta: 4,6% do total das exportações brasileiras receberam a sobretaxa.”
+
+Por que é completa: identifica a **base** (o total das exportações), mostra a operação e escreve a resposta com unidade (%).
+
+## Erros que custam pontos
+
+- Somar ou subtrair porcentagens que têm bases diferentes.
+- Confundir pontos percentuais com variação percentual.
+- Usar o valor final como base da variação.
+- Arredondar cedo demais e acumular erro.
+- Apresentar só o número final: a UERJ pede “desenvolvimento e resposta”.
+
 ## Exercícios de fixação
 
 1. Um salário de R$ 2.000,00 recebe aumento de 8% e, no ano seguinte, de 5%. Qual o salário final e o aumento percentual acumulado?
 2. Em uma turma, 60% são mulheres e 25% delas usam óculos. Que porcentagem da turma são mulheres de óculos?
 3. Mostre que o retângulo de lados 1 e 1 + √2, ao se retirarem dois quadrados de lado 1, deixa um retângulo semelhante ao original.
+4. A taxa de desemprego de uma cidade passou de 8% para 10%. Expresse a mudança em pontos percentuais e em variação percentual.
+5. Determine a fração geratriz de 0,1222…
 
 **Respostas comentadas**
 
 1. 2000 × 1,08 × 1,05 = **R$ 2.268,00**; acumulado: 1,08 × 1,05 = 1,134 → **13,4%**.
 2. 0,60 × 0,25 = 0,15 → **15%**.
 3. Sobra um retângulo de lados 1 e √2 − 1. Razão original: (1 + √2)/1; razão nova: 1/(√2 − 1) = (√2 + 1)/((√2 − 1)(√2 + 1)) = √2 + 1. As razões são iguais, logo os retângulos são **semelhantes**.
+4. **+2 pontos percentuais**; variação de (10 − 8)/8 = **25%**.
+5. x = 0,1222…; 100x = 12,222… e 10x = 1,222…; subtraindo, 90x = 11 ⇒ **x = 11/90**.

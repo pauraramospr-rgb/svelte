@@ -4,19 +4,26 @@
 
 	let { data } = $props();
 	const o = $derived(data.obra);
-	const sections = [
-		['resumo', 'Resumo'],
-		['contexto', 'Contexto'],
-		['personagens', 'Personagens'],
-		['temas', 'Temas centrais'],
-		['simbolos', 'Simbolismos e elementos'],
-		['linguagem', 'Linguagem'],
-		['interpretacoes', 'Interpretações'],
-		['relacoes', 'Relações'],
-		['abordagens', 'Abordagens para a prova'],
-		['questoes', 'Questões inéditas'],
-		['confira', 'Confira na leitura']
-	];
+	const sections = $derived(
+		[
+			['resumo', 'Resumo'],
+			['linha', 'Linha do tempo', !!o.linhaDoTempo],
+			['contexto', 'Contexto'],
+			['personagens', 'Personagens'],
+			['espacos', 'Espaços', !!o.espacos],
+			['elementos', o.slug === 'o-bem-amado' ? 'Elementos do texto teatral' : 'Elementos da narrativa', !!o.elementos],
+			['trechos', 'Trechos comentados', !!o.trechos],
+			['gramatica', 'Gramática na obra', !!o.gramatica],
+			['temas', 'Temas centrais'],
+			['simbolos', 'Simbolismos'],
+			['linguagem', 'Linguagem'],
+			['interpretacoes', 'Interpretações'],
+			['relacoes', 'Relações'],
+			['abordagens', 'Abordagens para a prova'],
+			['questoes', 'Questões inéditas'],
+			['confira', 'Confira na leitura']
+		].filter((s) => s[2] !== false) as [string, string][]
+	);
 </script>
 
 <svelte:head><title>{o.title} · Obras · Discursiva</title></svelte:head>
@@ -49,6 +56,15 @@
 	{#each o.resumo as r, i (i)}<h3>{i + 1}. {r.title}</h3><p>{r.text}</p>{/each}
 </section>
 
+{#if o.linhaDoTempo}
+	<section class="card" id="linha">
+		<h2>Linha do tempo</h2>
+		<ol class="timeline">
+			{#each o.linhaDoTempo as t, i (i)}<li><strong>{t.quando}</strong><span>{t.fato}</span></li>{/each}
+		</ol>
+	</section>
+{/if}
+
 <section class="card" id="contexto">
 	<h2>Contexto histórico</h2>
 	<ul>{#each o.contexto.historico as p, i (i)}<li>{p}</li>{/each}</ul>
@@ -60,6 +76,60 @@
 	<h2>Análise dos personagens</h2>
 	{#each o.personagens as p (p.name)}<h3>{p.name}</h3><p>{p.text}</p>{/each}
 </section>
+
+{#if o.espacos}
+	<section class="card" id="espacos">
+		<h2>Os espaços e suas funções</h2>
+		<p class="small muted">Os espaços não são apenas cenários: eles participam da transformação das personagens.</p>
+		<div class="table-wrap">
+			<table class="stack">
+				<thead><tr><th>Espaço</th><th>Função na narrativa</th><th>Na obra</th></tr></thead>
+				<tbody>{#each o.espacos as e (e.lugar)}<tr><td><strong>{e.lugar}</strong></td><td data-label="Função">{e.funcao}</td><td data-label="Na obra">{e.naObra}</td></tr>{/each}</tbody>
+			</table>
+		</div>
+	</section>
+{/if}
+
+{#if o.elementos}
+	<section class="card" id="elementos">
+		<h2>{o.slug === 'o-bem-amado' ? 'Elementos do texto teatral' : 'Elementos da narrativa'}</h2>
+		<p class="small muted">Conceito + aplicação: é assim que a UERJ espera que você responda — nomear o elemento e mostrá-lo funcionando na obra.</p>
+		<div class="table-wrap">
+			<table class="stack">
+				<thead><tr><th>Elemento</th><th>O que significa</th><th>Aplicação na obra</th></tr></thead>
+				<tbody>{#each o.elementos as e (e.elemento)}<tr><td><strong>{e.elemento}</strong></td><td data-label="Conceito">{e.conceito}</td><td data-label="Na obra">{e.naObra}</td></tr>{/each}</tbody>
+			</table>
+		</div>
+	</section>
+{/if}
+
+{#if o.trechos}
+	<section class="card" id="trechos">
+		<h2>Trechos comentados</h2>
+		<p class="small muted">Citações curtas, para estudo e crítica (Lei 9.610/98, art. 46, III), identificadas por capítulo — a paginação muda conforme a edição.</p>
+		{#each o.trechos as t (t.ref)}
+			<article class="trecho">
+				<h3>{t.ref}</h3>
+				<blockquote>{t.texto}</blockquote>
+				<p><strong>Leitura:</strong> {t.leitura}</p>
+				<ul class="recursos">{#each t.recursos as r (r.nome)}<li><strong>{r.nome}.</strong> {r.comentario}</li>{/each}</ul>
+			</article>
+		{/each}
+	</section>
+{/if}
+
+{#if o.gramatica}
+	<section class="card" id="gramatica">
+		<h2>Gramática a partir da obra</h2>
+		<p class="small muted">Cada item corresponde a um conteúdo do programa oficial de Língua Portuguesa (Anexo 5). A UERJ cobra gramática sempre ligada ao sentido do texto.</p>
+		<div class="table-wrap">
+			<table class="stack">
+				<thead><tr><th>Fenômeno</th><th>Item do programa</th><th>Exemplo</th><th>Análise e efeito</th></tr></thead>
+				<tbody>{#each o.gramatica as g (g.item)}<tr><td><strong>{g.item}</strong></td><td class="small" data-label="Programa">{g.programa}</td><td data-label="Exemplo"><em>{g.exemplo}</em></td><td data-label="Análise">{g.analise}</td></tr>{/each}</tbody>
+			</table>
+		</div>
+	</section>
+{/if}
 
 <section class="card" id="temas">
 	<h2>Temas centrais</h2>
@@ -139,5 +209,45 @@
 	}
 	dd {
 		margin: 0;
+	}
+	.timeline {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		border-left: 2px solid var(--border);
+	}
+	.timeline li {
+		position: relative;
+		padding: 0.35rem 0 0.35rem 1rem;
+		display: grid;
+		gap: 0.1rem;
+	}
+	.timeline li::before {
+		content: '';
+		position: absolute;
+		left: -6px;
+		top: 0.75rem;
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		background: var(--primary);
+	}
+	.trecho {
+		border-top: 1px solid var(--border);
+		padding-top: 0.75rem;
+		margin-top: 0.75rem;
+	}
+	.trecho blockquote {
+		font-family: var(--serif);
+		font-size: 1.05rem;
+		border-left: 3px solid var(--cat-pedagogica);
+		margin: 0.5rem 0;
+		padding: 0.25rem 0 0.25rem 0.9rem;
+	}
+	.recursos {
+		padding-left: 1.1rem;
+	}
+	.recursos li {
+		margin: 0.2rem 0;
 	}
 </style>

@@ -165,6 +165,17 @@ async function flow(label, ctx, withAi) {
 		await p.waitForSelector('text=Documentos oficiais utilizados');
 		await p.screenshot({ path: `${SHOTS}/${label}-fontes.png` });
 	});
+	await step(`${label}: guia, temas em evidência e mapa mental`, async () => {
+		await p.click('nav a:has-text("Como responder à UERJ")');
+		await p.waitForSelector('text=Passo a passo na hora da prova');
+		await p.click('nav a:has-text("Temas em evidência")');
+		await p.waitForSelector('text=250 anos da Independência dos Estados Unidos');
+		await p.click('a:has-text("Estado e industrialização na América Latina") >> nth=0');
+		await p.waitForSelector('text=Aprofundamento (nível UERJ)');
+		await p.click('button:has-text("Mapa mental")');
+		await p.waitForSelector('.mm svg rect');
+		await p.screenshot({ path: `${SHOTS}/${label}-mapa.png` });
+	});
 	await step(`${label}: dados persistem após recarregar`, async () => {
 		await p.evaluate(() => new Promise((r) => { document.dispatchEvent(new Event('visibilitychange')); setTimeout(r, 2500); }));
 		await p.goto(BASE + '#revisao');

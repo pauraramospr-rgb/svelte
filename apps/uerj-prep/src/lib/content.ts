@@ -2,7 +2,7 @@
  * Conteúdo pedagógico escrito pela plataforma (resumos em Markdown com front matter simples).
  * Categoria: interpretação pedagógica. Cada arquivo declara referências e data de revisão.
  */
-const files = import.meta.glob('/src/lib/data/content/resumos/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
+const files = import.meta.glob('./data/content/resumos/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
 
 export interface Resumo {
 	topicId: string;

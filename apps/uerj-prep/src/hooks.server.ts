@@ -3,7 +3,7 @@ import { redirect } from '@sveltejs/kit';
 import { SESSION_COOKIE, validateSession } from '$lib/server/auth';
 
 /** Rotas acessíveis sem login. */
-const PUBLIC = [/^\/$/, /^\/entrar/, /^\/cadastro/, /^\/fontes/, /^\/sobre/, /^\/obras/, /^\/favicon/];
+const PUBLIC = [/^\/$/, /^\/entrar/, /^\/cadastro/, /^\/fontes/, /^\/sobre/, /^\/obras/, /^\/guia/, /^\/em-evidencia/, /^\/favicon/];
 
 export const handle: Handle = async ({ event, resolve }) => {
 	event.locals.user = validateSession(event.cookies.get(SESSION_COOKIE));

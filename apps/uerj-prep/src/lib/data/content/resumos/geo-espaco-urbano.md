@@ -1,12 +1,15 @@
 ---
 title: Espaço urbano
 discipline: GEO
-level: do básico ao avançado
-reviewed: 2026-11-17
+level: do básico ao avançado (nível UERJ)
+reviewed: 2026-11-18
 - UERJ/DEPSEA. Edital do Exame Discursivo 2027, Anexo 5 – Geografia, unidade “Redes, fluxos e os recortes espaciais regionais da industrialização”.
 - UERJ. Questões Comentadas – Exame Discursivo 2025 e 2026 (Geografia).
 - IBGE. Regiões de Influência das Cidades (REGIC) — estudo oficial sobre a hierarquia urbana brasileira.
 - SANTOS, Milton. A urbanização brasileira (1993).
+- CORRÊA, Roberto Lobato. O espaço urbano (1989).
+- LEFEBVRE, Henri. O direito à cidade (1968).
+- Lei nº 10.257/2001 (Estatuto da Cidade).
 ---
 
 ## Conceitos fundamentais
@@ -46,6 +49,15 @@ Não há fórmulas centrais, mas atenção a **taxas e percentuais** em gráfico
 
 A Geografia urbana brasileira tem em Milton Santos um autor de referência, com análises sobre a urbanização desigual do país e o papel das redes técnicas. O IBGE publica periodicamente o estudo **Regiões de Influência das Cidades (REGIC)**, que classifica a hierarquia urbana brasileira.
 
+## Aprofundamento (nível UERJ)
+
+- **Quem produz a cidade.** Roberto Lobato Corrêa identifica cinco agentes: proprietários dos meios de produção, proprietários fundiários, promotores imobiliários, o Estado e os grupos sociais excluídos (que produzem favelas e ocupações). Uma boa resposta nomeia o **agente** e a **ação**.
+- **Direito à cidade e Estatuto da Cidade.** A ideia de Henri Lefebvre (1968) inspirou a Lei 10.257/2001, que regulamenta a **função social da propriedade**: plano diretor obrigatório para cidades com mais de 20 mil habitantes, IPTU progressivo no tempo para imóveis ociosos, Zonas Especiais de Interesse Social (ZEIS), usucapião especial urbana.
+- **Centro: esvaziamento e retorno.** O comentário oficial de 2026 descreve o esvaziamento do centro do Rio — primeiro residencial, depois econômico, com funções transferidas para subcentros — e a reversão recente com investimentos em infraestrutura, requalificação viária e VLT.
+- **Segregação, autossegregação e fragmentação.** Favelas e periferias distantes (segregação imposta) convivem com condomínios fechados e shoppings (autossegregação): a cidade se fragmenta em “ilhas”.
+- **Rede e hierarquia urbana.** O IBGE classifica as cidades pela centralidade (metrópoles, capitais regionais, centros sub-regionais…). Cresce o peso das **cidades médias** (desmetropolização relativa).
+- **Riscos urbanos.** Ocupação de encostas e várzeas, impermeabilização do solo, canalização de rios e ilhas de calor tornam enchentes e deslizamentos problemas socioambientais — atingem mais quem tem menos.
+
 ## Relações com outros conteúdos
 
 - **Industrialização e espaço rural** (êxodo rural, modernização do campo).
@@ -65,14 +77,30 @@ A Geografia urbana brasileira tem em Milton Santos um autor de referência, com 
 
 Padrão: notícia ou dado recente + pedido de **causas, consequências ou justificativas** espaciais. Responda relacionando processo e forma espacial.
 
+**Resposta-modelo comentada (UERJ 2026, questão 2, a partir do comentário oficial).** *Comando: apresente duas justificativas para o crescente interesse por moradia na Zona Portuária e aponte um efeito positivo dessa procura para o transporte metropolitano.*
+> “Justificativas: os investimentos públicos e privados em infraestrutura e serviços urbanos na região nas últimas duas décadas e a implantação do VLT, que integrou a Zona Portuária ao restante da área central (também valem a requalificação viária e a construção de edifícios comerciais modernos). Efeito positivo: com mais moradores perto da área central, onde se concentram empregos, reduzem-se os longos deslocamentos pendulares a partir das periferias, aliviando a pressão sobre o sistema de transporte da região metropolitana.”
+
+Por que é completa: as justificativas são **processos espaciais concretos** (do comentário oficial); o efeito liga moradia, emprego e mobilidade — confira no padrão completo as formulações aceitas.
+
+## Erros que custam pontos
+
+- Confundir metropolização (integração funcional) com conurbação (junção física das manchas urbanas).
+- Explicar gentrificação sem a valorização imobiliária que a provoca.
+- Atribuir tudo a “o governo” ou “o mercado”, sem o agente e a ação.
+- Descrever o problema sem a escala (bairro, município, região metropolitana).
+
 ## Exercícios de fixação
 
 1. Diferencie metropolização de conurbação.
 2. Explique por que a revitalização de áreas centrais pode provocar gentrificação.
 3. Cite duas consequências socioespaciais da baixa oferta de transporte público em periferias metropolitanas.
+4. Explique o que é movimento pendular e cite uma consequência dele na Região Metropolitana do Rio de Janeiro.
+5. Apresente dois instrumentos do Estatuto da Cidade voltados para a função social da propriedade urbana.
 
 **Respostas comentadas**
 
 1. **Metropolização** é o processo funcional de integração de municípios a uma metrópole por fluxos; **conurbação** é a junção física das manchas urbanas. Pode haver uma sem a outra.
 2. A valorização imobiliária decorrente de investimentos eleva aluguéis e preços, o que tende a substituir moradores de baixa renda por grupos de renda mais alta.
 3. Por exemplo: longos tempos de deslocamento e menor acesso a empregos e serviços; aumento do uso de transporte individual ou informal, com congestionamentos e poluição.
+4. É o deslocamento diário entre a moradia e o trabalho ou estudo, frequentemente entre municípios diferentes. Consequências: longos tempos de viagem, saturação de trens, ônibus e vias, custos e desgaste para moradores da Baixada Fluminense e de São Gonçalo, por exemplo.
+5. Por exemplo: IPTU progressivo no tempo para imóveis ociosos; parcelamento, edificação ou utilização compulsórios; Zonas Especiais de Interesse Social; usucapião especial urbana; plano diretor.

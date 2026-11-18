@@ -377,7 +377,7 @@
   ],
   "difficulty": "medio",
   "statement": "O título do romance Luanda, Lisboa, Paraíso, de Djaimilia Pereira de Almeida, enumera três lugares que marcam o percurso de Cartola de Sousa e de seu filho Aquiles.\n\nCom base na leitura do romance, explique a relação entre o terceiro nome do título e as condições de vida dos personagens nesse lugar. Em seguida, nomeie a figura de linguagem construída por esse contraste.",
-  "modelAnswer": "Paraíso é o nome de um bairro precário (de lata) às margens do Tejo, onde pai e filho passam a viver depois de esgotados os recursos em Lisboa. O nome evoca felicidade e plenitude, mas o lugar é marcado por pobreza, doença e exclusão. O contraste entre o nome e a realidade constitui ironia.",
+  "modelAnswer": "Paraíso é o nome de um bairro de lata da periferia de Lisboa, onde pai e filho passam a viver depois de esgotados os recursos na cidade. O nome evoca felicidade e plenitude, mas o lugar é marcado por pobreza, doença e exclusão. O contraste entre o nome e a realidade constitui ironia.",
   "explanation": "A ironia (por antífrase ou de situação) evidencia a distância entre a promessa associada à migração e a experiência real dos personagens.",
   "skills": [
    "explicar",
@@ -443,7 +443,311 @@
   "patternRationale": "O programa de 2027 dá destaque a “Literatura e sociedade”; a UERJ costuma pedir a relação entre a obra e seu contexto.",
   "commonMistakes": [
    "Tratar o tema apenas como saudade, sem o contexto histórico.",
-   "Situar a ação no período colonial."
+   "Ignorar que a viagem ocorre depois da independência (o início do romance, com o batismo de Aquiles, remonta ao tempo colonial)."
+  ],
+  "model": "Claude (acervo inicial da plataforma)",
+  "book": "Luanda, Lisboa, Paraíso"
+ },
+ {
+  "id": "ined-llp-04",
+  "discipline": "LPL",
+  "topicIds": [
+   "lpl-a-oracao-e-o-periodo",
+   "lpl-recursos-expressivos-da-criacao-estetica"
+  ],
+  "difficulty": "dificil",
+  "statement": "Texto (cap. 1):\n“O pai, com o menino apoiado na anca, agarrou no calcanhar com a mão para que não se visse. Comeu-se e bebeu-se como se faria se o calcanhar do bebé fosse perfeito.”\n\nNa segunda frase do trecho, o narrador não identifica quem comeu e bebeu na festa de batismo de Aquiles.\n\nClassifique o sujeito das formas verbais “Comeu-se” e “bebeu-se”, justificando com base na estrutura dessas orações. Em seguida, explique de que modo a comparação introduzida por “como se” contribui para a construção de um sentido irônico no episódio.",
+  "modelAnswer": "O sujeito é indeterminado: os verbos “comer” e “beber” estão empregados sem objeto direto e acompanhados do pronome “se”, que funciona como índice de indeterminação do sujeito (não há termo que possa ser sujeito paciente). A comparação “como se faria se o calcanhar do bebé fosse perfeito”, com o imperfeito do subjuntivo, apresenta uma hipótese contrária à realidade: todos celebram como se não houvesse malformação. A ironia está no contraste entre a alegria da festa e o defeito que o pai acabara de esconder com a mão: a comunidade participa de um fingimento coletivo de normalidade.",
+  "explanation": "Índice de indeterminação: “se” + verbo sem objeto direto (intransitivo, transitivo indireto ou de ligação). Pronome apassivador: “se” + verbo transitivo direto com sujeito paciente. A conjunção “como se” introduz comparação hipotética; o subjuntivo (“fosse”) marca a irrealidade. O sentido irônico nasce da distância entre o que se diz/faz e o que se sabe.",
+  "skills": [
+   "classificar",
+   "justificar",
+   "explicar"
+  ],
+  "knowledge": [
+   "a oração e o período: sujeito; vozes verbais",
+   "recursos expressivos: ironia"
+  ],
+  "patternRationale": "Combina análise sintática e efeito de sentido, como a UERJ fez em 2026 (função gramatical e valor semântico de expressões do romance indicado).",
+  "commonMistakes": [
+   "Classificar o “se” como pronome apassivador (não há sujeito paciente).",
+   "Apontar “sujeito oculto” sem justificar.",
+   "Descrever a festa sem explicar onde está a ironia."
+  ],
+  "model": "Claude (acervo inicial da plataforma)",
+  "book": "Luanda, Lisboa, Paraíso"
+ },
+ {
+  "id": "ined-llp-05",
+  "discipline": "LPL",
+  "topicIds": [
+   "lpl-elementos-da-narrativa-selecionada",
+   "lpl-recursos-expressivos-da-criacao-estetica"
+  ],
+  "difficulty": "dificil",
+  "statement": "Texto (cap. 1):\n“O pai deu-lhe um nome helénico, tentando resolver o destino com a tradição. “Vale mais nascer grego em terra de troianos do que nascer gazela em terra de leões”, alvitrou ao erguer o menino no dia em que Aquiles foi baptizado.”\n\nO brinde de Cartola no batismo do filho pode ser lido como índice narrativo, isto é, como um elemento que antecipa sentidos desenvolvidos ao longo do romance.\n\nExplique o sentido do brinde no momento em que é pronunciado. Em seguida, relacione as duas imagens contrapostas no brinde à experiência de Aquiles em Lisboa.",
+  "modelAnswer": "No batismo, o brinde expressa um desejo do pai: que o filho, apesar do calcanhar malformado, seja forte como um guerreiro grego, mesmo cercado de inimigos (“grego em terra de troianos”), e não uma presa indefesa (“gazela em terra de leões”). Em Lisboa, as duas imagens se cumprem de modo irônico: Aquiles será de fato um estrangeiro em terra alheia, como o grego entre troianos, mas viverá a vulnerabilidade da gazela — submetido a cirurgias malsucedidas, à pobreza e à exclusão. O desejo de força anuncia, pelo avesso, a fragilidade.",
+  "explanation": "Índice narrativo é um detalhe que prepara sentidos posteriores. O brinde contrapõe duas situações por meio de uma comparação de superioridade (“vale mais… do que…”). A leitura completa exige o sentido imediato (desejo do pai) e a relação com o enredo (ironia trágica).",
+  "skills": [
+   "explicar",
+   "estabelecer relações"
+  ],
+  "knowledge": [
+   "elementos da narrativa: índices narrativos",
+   "recursos expressivos: comparação, ironia",
+   "intertextualidade: alusão"
+  ],
+  "patternRationale": "Questões oficiais de Literatura pedem com frequência a relação entre um fragmento e o enredo do romance (ex.: 2026, questão 1, sobre a cidade de Calpe como elemento estruturante).",
+  "commonMistakes": [
+   "Explicar apenas o mito de Aquiles, sem tratar do brinde.",
+   "Ler as imagens isoladamente, sem relacioná-las a Lisboa.",
+   "Confundir troianos e gregos."
+  ],
+  "model": "Claude (acervo inicial da plataforma)",
+  "book": "Luanda, Lisboa, Paraíso"
+ },
+ {
+  "id": "ined-llp-06",
+  "discipline": "LPL",
+  "topicIds": [
+   "lpl-coesao-textual",
+   "lpl-recursos-expressivos-da-criacao-estetica"
+  ],
+  "difficulty": "medio",
+  "statement": "Texto (cap. 2):\n“Ela não sabia quem era nem onde estava. A sua memória tinha ficado presa ao Império como uma renda esgarçada a um alfinete. Talvez sonhasse que Cartola a levava a passear num Ford pela marginal ou que era hora de se encontrar com as amigas saindo de casa aperaltada: a única negra fula de luvas de renda e saltos agulha admitida no Hotel da Ponte Branca.”\n\nA palavra “renda” aparece duas vezes no fragmento.\n\nIdentifique o procedimento de coesão textual que relaciona essas duas ocorrências. Em seguida, explique o que a retomada dessa palavra sugere sobre a relação entre a memória de Glória e o seu passado no tempo colonial.",
+  "modelAnswer": "O procedimento é a repetição (coesão lexical por reiteração da mesma palavra). A primeira ocorrência está na comparação que descreve a memória (“como uma renda esgarçada a um alfinete”); a segunda, nas “luvas de renda” da Glória jovem. A retomada sugere que a memória da personagem é feita do mesmo tecido da elegância que ela exibia no tempo colonial — mas agora gasta, desfiada, presa a um único ponto: o Império. O passado de prestígio (ser admitida no hotel) sobrevive como lembrança frágil e alienante.",
+  "explanation": "A repetição é um mecanismo de coesão previsto no programa (“Coesão textual: … repetição”). O efeito de sentido decorre da passagem do uso literal (luvas de renda) ao figurado (memória como renda esgarçada).",
+  "skills": [
+   "identificar",
+   "explicar"
+  ],
+  "knowledge": [
+   "coesão textual: repetição",
+   "recursos expressivos: comparação"
+  ],
+  "patternRationale": "Segue a combinação frequente na UERJ entre um mecanismo linguístico nomeado e sua função na construção do sentido literário.",
+  "commonMistakes": [
+   "Responder “sinonímia”.",
+   "Explicar a comparação sem relacioná-la às luvas de renda."
+  ],
+  "model": "Claude (acervo inicial da plataforma)",
+  "book": "Luanda, Lisboa, Paraíso"
+ },
+ {
+  "id": "ined-llp-07",
+  "discipline": "LPL",
+  "topicIds": [
+   "lpl-elementos-da-narrativa-selecionada",
+   "lpl-formas-de-enunciacao"
+  ],
+  "difficulty": "medio",
+  "statement": "Texto (cap. 2):\n“Ela não sabia quem era nem onde estava. A sua memória tinha ficado presa ao Império como uma renda esgarçada a um alfinete. Talvez sonhasse que Cartola a levava a passear num Ford pela marginal ou que era hora de se encontrar com as amigas saindo de casa aperaltada: a única negra fula de luvas de renda e saltos agulha admitida no Hotel da Ponte Branca.”\n\nNo terceiro período do fragmento, o narrador descreve aquilo com que Glória talvez sonhasse.\n\nTranscreva a palavra que marca a incerteza do narrador quanto ao que se passa na mente da personagem. Em seguida, explique o que esse recurso revela sobre o foco narrativo do romance.",
+  "modelAnswer": "A palavra é “Talvez”. Ela indica que o narrador, embora em terceira pessoa e próxima das personagens, não afirma conhecer com certeza a interioridade de Glória: apenas supõe. O foco narrativo, portanto, não é o de uma onisciência absoluta; é uma onisciência relativizada, que respeita a opacidade da personagem doente — cuja consciência está confusa (“não sabia quem era nem onde estava”).",
+  "explanation": "“Talvez” é advérbio de dúvida, marca de modalização do enunciado. O emprego do subjuntivo (“sonhasse”) reforça a hipótese. A questão liga um item de enunciação a um elemento da narrativa (foco narrativo).",
+  "skills": [
+   "transcrever",
+   "explicar"
+  ],
+  "knowledge": [
+   "formas de enunciação: marcas de opinião/modalização",
+   "elementos da narrativa: narrador e foco narrativo"
+  ],
+  "patternRationale": "Semelhante à questão oficial 2026/2, que pediu a transcrição de formas linguísticas e a explicação do efeito produzido no relato.",
+  "commonMistakes": [
+   "Transcrever “sonhasse” (a forma verbal acompanha, mas a marca de incerteza é o advérbio).",
+   "Afirmar que o narrador é personagem (1ª pessoa)."
+  ],
+  "model": "Claude (acervo inicial da plataforma)",
+  "book": "Luanda, Lisboa, Paraíso"
+ },
+ {
+  "id": "ined-llp-08",
+  "discipline": "LPL",
+  "topicIds": [
+   "lpl-recursos-expressivos-da-criacao-estetica",
+   "lpl-a-oracao-e-o-periodo"
+  ],
+  "difficulty": "dificil",
+  "statement": "Texto (cap. 6):\n“Ao ver-se ao espelho, sentia-se um boneco em que ninguém pegaria, uma marioneta que tivessem desmontado para ver como funcionava, sem paciência nem engenho para voltarem a pôr como estava.\nNo hospital, depois da hora das visitas, acontecia-lhe olhar pela janela para os automóveis estacionados. Enfermeiros de bata num ir-e-vir conversavam e fumavam cigarros, visão que o fazia sentir preso num corpo errado com vista para uma moldura do mundo aberta por uma pena que o humilhava.”\n\nNo primeiro parágrafo, Aquiles se vê ao espelho depois das cirurgias.\n\nNomeie a figura de linguagem presente em “sentia-se um boneco” e explique o efeito de sentido que ela produz em relação ao corpo do personagem. Em seguida, classifique o sujeito de “tivessem desmontado” e explique por que essa escolha é expressiva no contexto.",
+  "modelAnswer": "A figura é a metáfora: o corpo de Aquiles é identificado a um boneco (e, em seguida, a uma marioneta), sem conectivo comparativo. O efeito é a coisificação: o rapaz se percebe como objeto manipulado, desmontado e mal remontado pelas cirurgias e pelos olhares alheios. O sujeito de “tivessem desmontado” é indeterminado (verbo na 3ª pessoa do plural sem referente expresso). A escolha é expressiva porque as mãos que intervêm no corpo de Aquiles permanecem anônimas: ele sofre a ação de um sistema impessoal, sem rosto, o que reforça sua passividade e solidão.",
+  "explanation": "Metáfora × comparação: na comparação há conectivo (“como”); na metáfora, a identificação é direta. Sujeito indeterminado pode ocorrer com verbo na 3ª pessoa do plural sem referente no contexto.",
+  "skills": [
+   "nomear",
+   "explicar",
+   "classificar"
+  ],
+  "knowledge": [
+   "recursos expressivos: metáfora",
+   "a oração e o período: sujeito indeterminado"
+  ],
+  "patternRationale": "Questões oficiais costumam combinar o reconhecimento de um recurso com o seu efeito (“Explique… o efeito que o uso dessas formas produz”).",
+  "commonMistakes": [
+   "Responder “comparação”.",
+   "Classificar o sujeito como oculto (“eles”) sem perceber a indeterminação.",
+   "Não explicar o efeito."
+  ],
+  "model": "Claude (acervo inicial da plataforma)",
+  "book": "Luanda, Lisboa, Paraíso"
+ },
+ {
+  "id": "ined-llp-09",
+  "discipline": "LPL",
+  "topicIds": [
+   "lpl-o-significado-lexical-e-suas-relacoes",
+   "lpl-recursos-expressivos-da-criacao-estetica"
+  ],
+  "difficulty": "medio",
+  "statement": "Texto (cap. 6):\n“Ao ver-se ao espelho, sentia-se um boneco em que ninguém pegaria, uma marioneta que tivessem desmontado para ver como funcionava, sem paciência nem engenho para voltarem a pôr como estava.\nNo hospital, depois da hora das visitas, acontecia-lhe olhar pela janela para os automóveis estacionados. Enfermeiros de bata num ir-e-vir conversavam e fumavam cigarros, visão que o fazia sentir preso num corpo errado com vista para uma moldura do mundo aberta por uma pena que o humilhava.”\n\nNo segundo parágrafo, o narrador afirma que a visão dos enfermeiros fazia Aquiles sentir-se “preso num corpo errado com vista para uma moldura do mundo aberta por uma pena que o humilhava”.\n\nExplique o sentido da expressão “moldura do mundo” no contexto. Em seguida, identifique o sentido da palavra “pena” nesse trecho e o fenômeno semântico que permite a essa palavra assumir diferentes significados.",
+  "modelAnswer": "“Moldura do mundo” é a janela do hospital: o mundo aparece para Aquiles enquadrado, visto de fora, como um quadro do qual ele não participa — os outros vão e vêm, ele permanece imóvel. “Pena”, no trecho, significa compaixão, piedade (a piedade dos outros o humilha). O fenômeno é a polissemia: uma mesma palavra com vários sentidos relacionados (pena como compaixão, castigo, pluma), definidos pelo contexto.",
+  "explanation": "Polissemia (uma palavra, vários sentidos) é item explícito do programa (“O significado lexical e suas relações”). A imagem da moldura é uma metáfora da exclusão: a vida acontece fora do quadro do personagem.",
+  "skills": [
+   "explicar",
+   "identificar"
+  ],
+  "knowledge": [
+   "o significado lexical: polissemia, conotação",
+   "recursos expressivos: metáfora"
+  ],
+  "patternRationale": "A UERJ pede sentido contextual de palavras e o nome do fenômeno semântico envolvido.",
+  "commonMistakes": [
+   "Confundir polissemia com homonímia.",
+   "Dizer que “pena” significa “castigo”.",
+   "Explicar “moldura” literalmente, sem relacioná-la à imobilidade de Aquiles."
+  ],
+  "model": "Claude (acervo inicial da plataforma)",
+  "book": "Luanda, Lisboa, Paraíso"
+ },
+ {
+  "id": "ined-llp-10",
+  "discipline": "LPL",
+  "topicIds": [
+   "lpl-coesao-textual",
+   "lpl-o-significado-lexical-e-suas-relacoes"
+  ],
+  "difficulty": "dificil",
+  "statement": "Texto (cap. 53):\n“Iuri era o menino que eles não tinham sido. Os olhos grandes, a ingenuidade diluída na fome e no medo de ser abandonado eram para Pepe e Cartola o aceno da nova infância aberta pela amizade entre eles. Não tinham querido ser meninos de novo, através de Iuri, mas meninos pela segunda vez, sem saberem que o desejo de uma segunda infância era sinal de que a vida os reunira adoentados, esquecidos daquilo que os distinguia. (…)\nMorto Iuri, Cartola e Pepe estavam obrigados a lidar com o horizonte aberto de um livro por escrever.”\n\nNo terceiro período, o narrador distingue “ser meninos de novo” de ser “meninos pela segunda vez”.\n\nExplique a diferença de sentido entre essas duas expressões no contexto. Em seguida, identifique a relação estabelecida pela conjunção “mas” nesse período.",
+  "modelAnswer": "“Ser meninos de novo” seria repetir a própria infância, voltar a ela; ser “meninos pela segunda vez” é viver uma infância nova, diferente da que tiveram — a infância que a vida lhes negou e que Iuri parecia oferecer (“o menino que eles não tinham sido”). A conjunção “mas” não opõe ideias incompatíveis: ela retifica, isto é, corrige e precisa a afirmação anterior (não isto, mas aquilo).",
+  "explanation": "Retificação é mecanismo de coesão previsto no programa. Em estruturas “não… mas…”, o “mas” substitui a informação negada por outra mais precisa.",
+  "skills": [
+   "explicar",
+   "identificar"
+  ],
+  "knowledge": [
+   "coesão textual: retificação",
+   "significado lexical"
+  ],
+  "patternRationale": "Exige leitura fina de um contraste semântico e o nome do mecanismo coesivo, como em questões oficiais que pedem a relação lógica estabelecida por conectivos.",
+  "commonMistakes": [
+   "Tratar as expressões como sinônimas.",
+   "Classificar o “mas” apenas como “adversativo” sem explicar a retificação."
+  ],
+  "model": "Claude (acervo inicial da plataforma)",
+  "book": "Luanda, Lisboa, Paraíso"
+ },
+ {
+  "id": "ined-llp-11",
+  "discipline": "LPL",
+  "topicIds": [
+   "lpl-elementos-da-narrativa-selecionada",
+   "lpl-a-oracao-e-o-periodo"
+  ],
+  "difficulty": "dificil",
+  "statement": "Texto (cap. 53):\n“Iuri era o menino que eles não tinham sido. Os olhos grandes, a ingenuidade diluída na fome e no medo de ser abandonado eram para Pepe e Cartola o aceno da nova infância aberta pela amizade entre eles. Não tinham querido ser meninos de novo, através de Iuri, mas meninos pela segunda vez, sem saberem que o desejo de uma segunda infância era sinal de que a vida os reunira adoentados, esquecidos daquilo que os distinguia. (…)\nMorto Iuri, Cartola e Pepe estavam obrigados a lidar com o horizonte aberto de um livro por escrever.”\n\nO último período do fragmento encerra o episódio da morte de Iuri com uma imagem ligada à escrita.\n\nIdentifique o procedimento narrativo presente na imagem do “livro por escrever” e explique seu sentido no contexto do romance. Em seguida, reescreva “Morto Iuri” sob a forma de uma oração desenvolvida, mantendo o valor circunstancial da oração reduzida.",
+  "modelAnswer": "O procedimento é a metaficção (a ficção que alude ao próprio processo de criação): a vida de Cartola e Pepe é comparada a um livro ainda não escrito. Sem Iuri, a amizade fica inconclusa e o futuro, aberto e incerto; o romance recusa um desfecho consolador — o que dialoga com a abertura do livro, em que o narrador discute por onde uma história pode começar. Reescrita possível: “Depois que Iuri morreu” (valor temporal) ou “Como Iuri morreu” (valor causal).",
+  "explanation": "“Morto Iuri” é oração subordinada adverbial reduzida de particípio. A metaficção é item do programa de 2027 (“Elementos da narrativa selecionada: … metaficção”).",
+  "skills": [
+   "identificar",
+   "explicar",
+   "reescrever"
+  ],
+  "knowledge": [
+   "elementos da narrativa: metaficção",
+   "a oração e o período: orações reduzidas"
+  ],
+  "patternRationale": "A UERJ cobrou metalinguagem/metaficção em 2026 (questão 4) e reescrita com manutenção de sentido em várias edições.",
+  "commonMistakes": [
+   "Chamar o recurso de “metáfora” apenas, sem perceber a reflexão sobre a escrita.",
+   "Reescrever alterando o sentido (ex.: “Embora Iuri tenha morrido”)."
+  ],
+  "model": "Claude (acervo inicial da plataforma)",
+  "book": "Luanda, Lisboa, Paraíso"
+ },
+ {
+  "id": "ined-llp-12",
+  "discipline": "LPL",
+  "topicIds": [
+   "lpl-literatura-e-sociedade",
+   "lpl-elementos-da-narrativa-selecionada"
+  ],
+  "difficulty": "medio",
+  "statement": "Em Luanda, Lisboa, Paraíso, Cartola de Sousa era parteiro em Luanda. Em Portugal, depois de anos de tratamentos do filho e de dinheiro escasso, passa a trabalhar na construção civil e vai morar num bairro de lata da periferia de Lisboa.\n\nExplique o que essa mudança de ocupação revela sobre a experiência do imigrante africano na antiga metrópole. Em seguida, relacione essa experiência ao contexto histórico de Portugal após a descolonização.",
+  "modelAnswer": "A mudança de parteiro (profissão de saber e prestígio em Luanda) para operário da construção civil revela perda de reconhecimento profissional e rebaixamento social: em Portugal, o saber de Cartola não conta, e ele é absorvido pelos trabalhos mais precários. Após a descolonização (1974–1975), Portugal recebeu imigrantes vindos das ex-colônias, que muitas vezes ocuparam empregos mal remunerados — em especial na construção civil, em expansão nos anos 1980 — e moraram em bairros de barracas nas periferias. O romance mostra que a independência não desfez a hierarquia colonial: o ex-colonizado chega à ex-metrópole como estrangeiro pobre.",
+  "explanation": "A questão articula construção do personagem e contexto sócio-histórico (“Literatura e sociedade”), sem exigir dados que o romance não fornece.",
+  "skills": [
+   "explicar",
+   "estabelecer relações"
+  ],
+  "knowledge": [
+   "literatura e sociedade: contexto sócio-histórico",
+   "elementos da narrativa: construção dos personagens"
+  ],
+  "patternRationale": "Reproduz a articulação entre obra e contexto que o programa destaca e que a UERJ pede ao relacionar romances a processos históricos.",
+  "commonMistakes": [
+   "Descrever o enredo sem explicar o rebaixamento social.",
+   "Situar a imigração antes da independência.",
+   "Usar dados numéricos que não pode confirmar."
+  ],
+  "model": "Claude (acervo inicial da plataforma)",
+  "book": "Luanda, Lisboa, Paraíso"
+ },
+ {
+  "id": "ined-llp-13",
+  "discipline": "LPL",
+  "topicIds": [
+   "lpl-unidade-e-diversidade-da-lingua-portuguesa"
+  ],
+  "difficulty": "facil",
+  "statement": "Texto (cap. 6):\n“Ao ver-se ao espelho, sentia-se um boneco em que ninguém pegaria, uma marioneta que tivessem desmontado para ver como funcionava, sem paciência nem engenho para voltarem a pôr como estava.\nNo hospital, depois da hora das visitas, acontecia-lhe olhar pela janela para os automóveis estacionados. Enfermeiros de bata num ir-e-vir conversavam e fumavam cigarros, visão que o fazia sentir preso num corpo errado com vista para uma moldura do mundo aberta por uma pena que o humilhava.”\n\nDjaimilia Pereira de Almeida, nascida em Luanda e criada em Portugal, escreve em português europeu.\n\nTranscreva do fragmento duas marcas — lexicais ou sintáticas — dessa variedade do português, indicando, para cada uma, a forma equivalente mais comum no português do Brasil. Em seguida, nomeie o tipo de variação linguística exemplificado.",
+  "modelAnswer": "Exemplos possíveis: “bata” (no Brasil, “jaleco”); “ver-se ao espelho” (no Brasil, “ver-se no espelho”); “acontecia-lhe olhar” (ênclise, frequente em Portugal; no Brasil, a próclise é mais comum na fala: “lhe acontecia”); “em que ninguém pegaria” (regência lusitana de “pegar em”, no sentido de segurar; no Brasil, “que ninguém pegaria”). Trata-se de variação regional (diatópica) — no caso, entre variedades nacionais da mesma língua.",
+  "explanation": "O programa inclui “Unidade e diversidade da língua portuguesa: … variação regional”. A resposta deve apresentar a forma lusitana, a correspondente brasileira e o nome da variação.",
+  "skills": [
+   "transcrever",
+   "indicar",
+   "nomear"
+  ],
+  "knowledge": [
+   "unidade e diversidade da língua portuguesa: variação regional"
+  ],
+  "patternRationale": "Questão de base linguística a partir do romance indicado, no formato “transcreva + nomeie”.",
+  "commonMistakes": [
+   "Apontar como “erro” a forma lusitana.",
+   "Chamar a variação de social ou histórica."
+  ],
+  "model": "Claude (acervo inicial da plataforma)",
+  "book": "Luanda, Lisboa, Paraíso"
+ },
+ {
+  "id": "ined-llp-14",
+  "discipline": "LPL",
+  "topicIds": [
+   "lpl-literatura-e-sociedade",
+   "lpl-elementos-da-narrativa-selecionada"
+  ],
+  "difficulty": "medio",
+  "statement": "Em Luanda, Lisboa, Paraíso, Cartola, angolano, torna-se amigo de Pepe, taberneiro de origem galega, no bairro do Paraíso. A amizade entre os dois velhos é um dos eixos afetivos da segunda parte do romance.\n\nExplique por que a origem de Pepe amplia o tema da exclusão no romance. Em seguida, explique a importância dessa amizade para a construção do espaço do Paraíso na narrativa.",
+  "modelAnswer": "Pepe também é um deslocado: galego em Portugal, vive à margem, como Cartola. A amizade une dois estrangeiros pobres e mostra que a exclusão no romance não é apenas racial, mas também social e ligada à condição de migrante — embora Cartola, negro e africano, carregue ainda o peso do racismo colonial. Quanto ao espaço, a amizade faz do Paraíso não só o lugar da marginalização (o nome irônico de um bairro de lata), mas também o lugar possível do afeto, da solidariedade e do cuidado — a taberna e a barraca de Pepe tornam-se refúgio.",
+  "explanation": "O personagem secundário amplia sentidos do tema central; o espaço é construído também pelas relações que nele se formam (os espaços não são apenas cenários).",
+  "skills": [
+   "explicar"
+  ],
+  "knowledge": [
+   "elementos da narrativa: personagens e espaço",
+   "literatura e sociedade"
+  ],
+  "patternRationale": "Questões de Literatura da UERJ exploram a função de personagens e espaços na construção do sentido do romance.",
+  "commonMistakes": [
+   "Tratar Pepe como português “de origem” sem perceber a condição de migrante.",
+   "Descrever o Paraíso só como lugar de miséria, ignorando os laços afetivos."
   ],
   "model": "Claude (acervo inicial da plataforma)",
   "book": "Luanda, Lisboa, Paraíso"

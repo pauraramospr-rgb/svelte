@@ -23,15 +23,17 @@ Questões inéditas **nunca** são apresentadas como oficiais. Onde a UERJ não 
 1. **Preparação por carreira** — os 83 cursos do edital 2027 (item 4.2) com as duas específicas e seus pesos; trilha organizada pelas unidades do programa oficial, dos fundamentos ao avançado, com progresso por tópico (`/perfil`, `/trilha`).
 2. **Banco de questões** (`/banco`)
    - **Oficiais**: 650 questões do Exame Discursivo (2017–2020 e 2024–2026) extraídas dos documentos “Questões Comentadas” da UERJ, com ano, disciplina, classificação oficial (item/subitem do programa), objetivo e comentário da banca (resolução oficial).
-   - **Inéditas**: acervo inicial de 21 questões elaboradas com IA no padrão da banca (resposta-modelo, resolução, habilidades do Anexo 4, conhecimentos do Anexo 5, dificuldade, erros comuns) e geração sob demanda por tópico e dificuldade.
+   - **Inéditas**: acervo inicial de 32 questões elaboradas com IA no padrão da banca (14 sobre *Luanda, Lisboa, Paraíso*) (resposta-modelo, resolução, habilidades do Anexo 4, conhecimentos do Anexo 5, dificuldade, erros comuns) e geração sob demanda por tópico e dificuldade.
 3. **Simulados** (`/simulados`) — prova completa do curso (Redação + 2 específicas, até 5 h) ou por disciplina; cronômetro com encerramento automático, salvamento contínuo, correção comentada (IA ou autoavaliação pelo comentário oficial), nota estimada com os pesos do edital e o conceito do Exame de Qualificação; tempo por questão; dificuldades alimentam a revisão.
-4. **Resumos estratégicos** (`/resumos`, `/trilha/[tópico]`) — 9 resumos editoriais em tópicos de maior incidência (conceitos, explicação, exemplos, fórmulas, contexto, relações, como aparece na prova com exemplos oficiais reais, exercícios com respostas) e resumos por IA, sob demanda e adaptados ao nível, para os demais tópicos.
-5. **Laboratório de redação** (`/redacao`) — critérios oficiais (Anexo 5 e padrão de respostas 2026), histórico de temas 2017–2026, cinco propostas plausíveis sobre *O bem-amado* com textos motivadores originais, recortes, repertório e caminhos “sim / não / depende”, exercício de planejamento, editor com contagem estimada de linhas e correção detalhada por aspecto com trechos, problemas (argumentação, coesão, coerência, estrutura, norma, tema) e reescritas.
-6. **Biblioteca de obras** (`/obras`) — lista oficial 2027 e listas de 2019–2026 separadas; análises completas de *O bem-amado* (Redação) e *Luanda, Lisboa, Paraíso* (Língua Portuguesa e Literaturas): resumo, contexto, personagens, temas, símbolos, linguagem, interpretações, relações, abordagens, questões inéditas e uma seção “Confira na leitura” com pontos que variam entre edições/adaptações.
-7. **Professor IA** (`/tutor`) — chat em streaming com histórico, adaptado ao nível, ao curso e às dificuldades registradas; pode ser aberto a partir de uma questão, tópico, obra ou redação.
-8. **Revisão inteligente** (`/revisao`) — repetição espaçada por tópico (SM-2), índice de erro, dificuldades persistentes, exercícios recomendados, evolução semanal e cronograma até a prova.
-9. **Fundamentação** (`/fontes`) — documentos oficiais com links e data de acesso, regras do edital com item, links de todas as provas e padrões, e as metodologias.
-10. **Interface** — responsiva (testada em 375 px), tema claro/escuro automático, navegação por teclado.
+4. **Resumos estratégicos e mapas mentais** (`/resumos`, `/trilha/[tópico]`) — 13 resumos editoriais aprofundados (“nível UERJ”: conceitos, explicação detalhada, exemplos, fórmulas ou linha do tempo, contexto, aprofundamento, relações, como aparece na prova com exemplos oficiais e resposta-modelo comentada, erros que custam pontos e exercícios com respostas), incluindo quatro de História sobre os 250 anos da independência dos EUA, EUA/imigração/doutrina Bush, JK (70 anos) e ditaduras/Operação Condor/memória/Nuremberg/CEMDP; resumos por IA no mesmo formato para os demais tópicos. Qualquer resumo pode ser visto como **mapa mental** (SVG gerado a partir das seções e destaques).
+5. **Como responder à UERJ** (`/guia`) — critérios oficiais de correção, estatística dos verbos de comando nas 650 questões oficiais, o que os comentários da banca revelam (com links às questões), passo a passo, o que cada verbo pede, dicas por disciplina e checklist.
+6. **Temas em evidência** (`/em-evidencia`) — questões oficiais que partiram de efemérides (análise) e efemérides de 2025–2026 que podem servir de ponto de partida (previsão).
+7. **Laboratório de redação** (`/redacao`) — critérios oficiais (Anexo 5 e padrão de respostas 2026), histórico de temas 2017–2026, cinco propostas plausíveis sobre *O bem-amado* com textos motivadores originais, recortes, repertório e caminhos “sim / não / depende”, exercício de planejamento, editor com contagem estimada de linhas e correção detalhada por aspecto com trechos, problemas (argumentação, coesão, coerência, estrutura, norma, tema) e reescritas.
+8. **Biblioteca de obras** (`/obras`) — lista oficial 2027 e listas de 2019–2026 separadas; análises completas de *O bem-amado* (Redação) e *Luanda, Lisboa, Paraíso* (Língua Portuguesa e Literaturas): resumo, linha do tempo, contexto, personagens (incluindo Pepe e Iuri), espaços, elementos da narrativa ou do texto teatral, trechos comentados por capítulo, gramática a partir da obra (mapeada ao programa), temas, símbolos, linguagem, interpretações, relações, abordagens, questões inéditas e “Confira na leitura”.
+9. **Professor IA** (`/tutor`) — chat em streaming com histórico, adaptado ao nível, ao curso e às dificuldades registradas; pode ser aberto a partir de uma questão, tópico, obra ou redação.
+10. **Revisão inteligente** (`/revisao`) — repetição espaçada por tópico (SM-2), índice de erro, dificuldades persistentes, exercícios recomendados, evolução semanal e cronograma até a prova.
+11. **Fundamentação** (`/fontes`) — documentos oficiais com links e data de acesso, regras do edital com item, links de todas as provas e padrões, e as metodologias.
+12. **Interface** — responsiva (testada em 375 px), tema claro/escuro automático, navegação por teclado.
 
 ## Arquitetura
 
@@ -110,11 +112,11 @@ Os módulos que dependem de Node são trocados por adaptadores em `web/shims` (b
 
 ```bash
 npm run check            # tipos (svelte-check)
-npm test                 # 38 testes: pontuação, SRS, cronograma, Redação, sanitização de Markdown,
-                         # integridade dos dados, banco, autenticação, simulados e integração com a API
+npm test                 # 44 testes: pontuação, SRS, cronograma, Redação, sanitização de Markdown,
+                         # integridade dos dados, mapa mental, verbos de comando, banco, autenticação, simulados e API
                          # (servidor local que imita a API da Anthropic em streaming)
 npm run build && PORT=4173 node build &
-BASE_URL=http://localhost:4173 npm run test:e2e   # 14 etapas em navegador real (Playwright)
+BASE_URL=http://localhost:4173 npm run test:e2e   # 17 etapas em navegador real (Playwright)
 npm run data:validate    # confere se todos os links oficiais citados respondem
 ```
 
