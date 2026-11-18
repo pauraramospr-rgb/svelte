@@ -55,7 +55,7 @@ Na prova: **destaque** o sufixo, **classifique** (sufixo de grau diminutivo) e d
 ## Exemplos práticos
 
 Trechos de *Luanda, Lisboa, Paraíso* (obra indicada para 2027):
-- “os ferros **intramedulares**” (cap. 6) — **prefixação** (intra- = dentro) sobre o adjetivo “medular”: termo técnico que traz o vocabulário hospitalar para a vida de Aquiles.
+- “**intramedulares**” (cap. 6, no relato das cirurgias) — **prefixação** (intra- = dentro) sobre o adjetivo “medular”: termo técnico que traz o vocabulário hospitalar para a vida de Aquiles.
 - “**num ir-e-vir**” (cap. 6) — **derivação imprópria**: a sequência verbal vira substantivo.
 - “uma marioneta que tivessem **desmontado**” (cap. 6) — **prefixo des-** (ação contrária): o corpo de Aquiles é imaginado como um brinquedo **desfeito** peça por peça.
 - “Iuri era o **menino**…”; “meninos pela segunda vez” (cap. 53) — sem sufixos, o substantivo carrega sozinho a ideia de infância perdida; compare com o efeito que teria “menininho” (afeto) ou “meninote” (outro valor).
