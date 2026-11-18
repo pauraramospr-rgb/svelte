@@ -152,9 +152,11 @@ await step('resumo aprofundado vira mapa mental', async () => {
 	await page.goto(BASE + '/trilha/his-estado-e-industrializacao-na-america-latina');
 	await page.waitForSelector('text=Aprofundamento (nível UERJ)');
 	await page.click('button:has-text("Mapa mental")');
-	await page.waitForSelector('.mm svg rect');
-	const nodes = await page.locator('.mm svg g').count();
-	expect(nodes > 15, `mapa com poucos nós: ${nodes}`);
+	await page.waitForSelector('.mm .branch');
+	const nodes = await page.locator('.mm .branch').count();
+	expect(nodes >= 6, `mapa com poucos ramos: ${nodes}`);
+	await page.waitForSelector('.mm .timeline li');
+	await page.waitForSelector('.mm svg.links > path');
 	await page.screenshot({ path: `${SHOTS}/06d-mapa.png`, fullPage: true });
 });
 

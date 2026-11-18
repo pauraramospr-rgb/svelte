@@ -6,6 +6,7 @@
 	import SourceRef from '$lib/components/SourceRef.svelte';
 	import Markdown from '$lib/components/Markdown.svelte';
 	import MindMap from '$lib/components/MindMap.svelte';
+	import { splitMapa } from '$lib/mindmap';
 	import { DIFFICULTY_LABEL, type Difficulty } from '$lib/questions/types';
 
 	let { data } = $props();
@@ -102,10 +103,10 @@
 		</div>
 		{#if !data.resumo}<p class="notice small">Resumo gerado por IA para o seu nível. Confira dados e definições com o material oficial e com seu professor.</p>{/if}
 		{#if view === 'mapa'}
-			<p class="small muted">O mapa é montado automaticamente a partir das seções e dos termos em destaque do resumo. Use-o para revisar; para estudar, leia o texto completo.</p>
+			<p class="small muted">Leia na ordem dos números: o mapa condensa o resumo em etapas com nexo (em História, do antes ao depois). Use-o para revisar; para estudar, leia o texto completo.</p>
 			<MindMap title={data.topic.title} markdown={data.resumo?.body ?? shownSummary ?? ''} />
 		{:else}
-			<Markdown source={data.resumo?.body ?? shownSummary ?? ''} />
+			<Markdown source={splitMapa(data.resumo?.body ?? shownSummary ?? '').body} />
 		{/if}
 		{#if data.resumo?.references.length}
 			<h3>Referências</h3>

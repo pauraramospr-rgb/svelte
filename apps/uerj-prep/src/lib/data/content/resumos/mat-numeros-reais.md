@@ -7,6 +7,10 @@ reviewed: 2026-11-18
 - UERJ. Questões Comentadas – Exame Discursivo 2025 e 2026 (Matemática).
 ---
 
+## Em uma frase
+
+Os números reais reúnem racionais e irracionais e são a base das contas do cotidiano que a UERJ mais cobra: porcentagens, aumentos e descontos sucessivos, variações percentuais, razões e proporções — sempre com o cuidado de identificar a base de cada porcentagem e de mostrar o desenvolvimento.
+
 ## Conceitos fundamentais
 
 - **Razão** entre a e b (b ≠ 0) é o quociente a/b; compara grandezas.
@@ -101,3 +105,32 @@ Por que é completa: identifica a **base** (o total das exportações), mostra a
 3. Sobra um retângulo de lados 1 e √2 − 1. Razão original: (1 + √2)/1; razão nova: 1/(√2 − 1) = (√2 + 1)/((√2 − 1)(√2 + 1)) = √2 + 1. As razões são iguais, logo os retângulos são **semelhantes**.
 4. **+2 pontos percentuais**; variação de (10 − 8)/8 = **25%**.
 5. x = 0,1222…; 100x = 12,222… e 10x = 1,222…; subtraindo, 90x = 11 ⇒ **x = 11/90**.
+
+## Mapa mental
+
+> Aritmética aplicada ao cotidiano
+
+### O que é?
+- Conjunto ℝ: racionais (frações e dízimas periódicas) e irracionais (√2, π, φ).
+- Base dos cálculos de porcentagem, razão e proporção.
+
+### Porcentagem de porcentagem
+- “40% de 11,5%” = 0,40 × 11,5% = 4,6% (UERJ 2026).
+- Multiplica-se: não se soma nem se subtrai.
+
+### Fator multiplicativo
+- Aumentar x% = multiplicar por (1 + x/100); diminuir = por (1 − x/100).
+- Aumento de 10% e desconto de 10%: 1,1 × 0,9 = 0,99 (queda de 1%).
+
+### Variação percentual
+- (final − inicial)/inicial × 100%: a base é sempre o valor inicial.
+- De 8% para 10%: +2 pontos percentuais, mas variação de 25%.
+
+### Razões e proporções
+- Regra de três: grandezas na mesma ordem; inverta se forem inversas.
+- Retângulos áureo (φ) e de prata (1 + √2): semelhança ao retirar quadrados.
+
+### Como resolver
+- Identifique a base de cada porcentagem antes de calcular.
+- Mostre o desenvolvimento: a UERJ pede “desenvolvimento e resposta”.
+- Não arredonde cedo; responda com unidade ou porcentagem.

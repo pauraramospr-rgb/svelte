@@ -271,6 +271,31 @@ ${exText || '(sem exemplos oficiais disponíveis para este tópico)'}`;
 
 /* ------------------------------------------------------------------ resumos sob demanda */
 
+/** Ordem fixa da explicação, por disciplina (o resumo conta o assunto com começo, meio e fim). */
+const NARRATIVE_HUMANAS = '### 1. Antes: o contexto / ### 2. As causas / ### 3. Como começou / ### 4. O processo, etapa por etapa / ### 5. O desfecho / ### 6. As consequências / ### 7. Importância e o depois';
+const SUMMARY_STEPS: Record<DisciplineCode, string> = {
+	HIS: NARRATIVE_HUMANAS,
+	GEO: '### 1. Antes / ### 2. As causas / ### 3. O processo / ### 4. As consequências / ### 5. Hoje: tendências e políticas',
+	BIO: '### 1. O que é / ### 2. Para que serve (função) / ### 3. Como funciona, passo a passo / ### 4. Por que acontece / ### 5. Quando algo dá errado (alterações, doenças, exceções) / ### 6. Importância e aplicações',
+	FIS: '### 1. O que é / ### 2. A ideia central / ### 3. Como funciona (leis e grandezas) / ### 4. Como resolver, passo a passo / ### 5. Aplicações no cotidiano e na tecnologia',
+	QUI: '### 1. O que é / ### 2. A ideia central / ### 3. Como funciona (modelos e regras) / ### 4. Como resolver, passo a passo / ### 5. Aplicações, ambiente e tecnologia',
+	MAT: '### 1. O que é / ### 2. A ideia central / ### 3. Propriedades e fórmulas, com o porquê / ### 4. Como resolver, passo a passo / ### 5. Aplicações em situações reais',
+	LPL: '### 1. O que é / ### 2. Como reconhecer no texto / ### 3. Como funciona e que efeitos produz / ### 4. Aplicação à obra indicada ou a textos da prova',
+	LE: '### 1. O que é / ### 2. Como reconhecer no texto (inglês, espanhol e francês) / ### 3. Que relações e sentidos produz / ### 4. Como responder em português',
+	RED: '### 1. O que é / ### 2. Como funciona / ### 3. Como aplicar na redação'
+};
+const MAP_BRANCHES: Record<DisciplineCode, string> = {
+	HIS: 'O que foi? · Antes (contexto) · Causas · Como começou · Etapas · Desfecho · Consequências · Importância e depois',
+	GEO: 'O que é? · Antes · Causas · O processo · Consequências · Quem age (agentes e políticas) · Hoje',
+	BIO: 'O que é? · Para que serve · Como funciona (passo a passo) · Por que acontece · Quando dá errado · Importância e aplicações',
+	FIS: 'O que é? · Grandezas · Leis e fórmulas · Gráficos e situações · Como resolver · Armadilhas',
+	QUI: 'O que é? · A ideia central · Tipos e regras · Propriedades · Como resolver · Na prova',
+	MAT: 'O que é? · Ideia central · Propriedades · Fórmulas · Como resolver · Armadilhas',
+	LPL: 'O que é? · Como reconhecer · Tipos ou casos · Efeitos de sentido · Na obra indicada · Como responder',
+	LE: 'O que é? · Como reconhecer · Tipos ou casos · Relações de sentido · Como responder · Armadilhas',
+	RED: 'O que é? · Como funciona · Exemplos · Como aplicar · Erros comuns · Checklist'
+};
+
 export async function generateSummary(args: { topicId: string; level: Level; userId: number }): Promise<string> {
 	const t = getTopic(args.topicId);
 	if (!t) throw new Error('Tópico inexistente');
@@ -278,18 +303,20 @@ export async function generateSummary(args: { topicId: string; level: Level; use
 	const exText = examples.map((e) => `- UERJ ${e.year}, questão ${e.number}: ${e.statement.slice(0, 700)}`).join('\n');
 	const system = `Você é um professor universitário e autor de material didático para o vestibular da UERJ.
 Escreva um resumo estratégico, APROFUNDADO e didático, em Markdown, sobre o tópico indicado, para um estudante de nível ${LEVEL_TEXT[args.level]}.
-O padrão é o de um material de cursinho de alto nível para a UERJ: não uma explicação rápida, mas um texto que ensine os mecanismos, as distinções finas e as relações que a banca cobra.
-Use exatamente estas seções (títulos de nível 2):
+O padrão é o de um material de cursinho de alto nível para a UERJ: não uma explicação rápida, mas um texto com NEXO, que conte o assunto em ordem lógica — do antes ao depois — e ensine os mecanismos, as distinções finas e as relações que a banca cobra.
+Use exatamente estas seções (títulos de nível 2), nesta ordem:
+## Em uma frase  (síntese de 2 a 4 linhas que já mostre o encadeamento do assunto)
 ## Conceitos fundamentais  (lista: cada item começa com o termo em **negrito**, seguido de dois-pontos e da definição precisa)
-## Explicação detalhada  (parágrafos numerados que começam com um título em **negrito**; cubra TODOS os subtópicos oficiais, com causas, mecanismos, consequências, datas ou grandezas pertinentes)
+## Explicação detalhada  (OBRIGATORIAMENTE com estas subseções de nível 3, nesta ordem, cobrindo TODOS os subtópicos oficiais:
+${SUMMARY_STEPS[t.discipline]})
+## ${['HIS', 'GEO'].includes(t.discipline) ? 'Linha do tempo  (tabela Markdown | Ano | Fato |, em ordem cronológica, só com datas seguras)' : 'Fórmulas e aplicações  (fórmulas com o significado de cada termo e as unidades; omita se não pertinente)'}
 ## Exemplos práticos  (3 a 5 exemplos concretos, cada um começando com um título em **negrito**)
-## Fórmulas e aplicações  (fórmulas com significado de cada termo e unidades; em Humanas, uma linha do tempo em tabela Markdown)
-## Contexto histórico e científico
-## Aprofundamento (nível UERJ)  (lista de 4 a 7 itens em **negrito**: distinções finas, exceções, debates, armadilhas conceituais e conexões que diferenciam uma resposta excelente)
+## Aprofundamento (nível UERJ)  (lista de 4 a 7 itens em **negrito**: distinções finas, exceções, debates, armadilhas e conexões)
 ## Relações com outros conteúdos
-## Como o assunto pode aparecer na prova discursiva  (baseie-se nos exemplos oficiais fornecidos, citando ano e número; deixe claro que é possibilidade, não garantia; inclua uma "Resposta-modelo comentada" para um comando plausível, dizendo por que ela seria completa)
+## Como o assunto pode aparecer na prova discursiva  (baseie-se nos exemplos oficiais fornecidos, citando ano e número; deixe claro que é possibilidade, não garantia; inclua uma "Resposta-modelo comentada" e diga por que ela seria completa)
 ## Erros que custam pontos  (4 a 6 itens)
 ## Exercícios de fixação  (5 exercícios discursivos, do mais simples ao mais exigente, com "**Respostas comentadas**" ao final)
+## Mapa mental  (versão condensada e autoexplicativa do resumo, para revisão. Formato obrigatório: uma linha "> recorte (ex.: período e lugar)"; depois 6 a 8 ramos "### Nome do ramo", cada um com 2 a 4 tópicos "- " que sejam FRASES CURTAS COM SENTIDO (8 a 20 palavras, podendo começar com **termo**: ), nunca palavras soltas. Ramos, nesta ordem: ${MAP_BRANCHES[t.discipline]}.${['HIS', 'GEO'].includes(t.discipline) ? ' Termine com "### Linha do tempo" e 6 a 10 itens "- **ano**: fato".' : ''})
 Fórmulas em texto simples, sem LaTeX. Não invente dados, datas, números ou referências: se citar um fato, ele deve ser amplamente estabelecido; na dúvida, omita.
 
 ${INTEGRITY}`;

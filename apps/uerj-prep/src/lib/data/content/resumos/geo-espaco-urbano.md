@@ -12,6 +12,10 @@ reviewed: 2026-11-18
 - Lei nº 10.257/2001 (Estatuto da Cidade).
 ---
 
+## Em uma frase
+
+O Brasil se urbanizou de forma rápida e concentrada a partir de 1950: a industrialização e o êxodo rural levaram milhões às cidades sem que moradia, transporte e saneamento acompanhassem, o que produziu metrópoles desiguais — centros valorizados, periferias e favelas distantes, longos deslocamentos — e políticas recentes que tentam garantir o direito à cidade.
+
 ## Conceitos fundamentais
 
 - **Urbanização**: aumento da proporção da população que vive em cidades, acompanhado da difusão de modos de vida urbanos.
@@ -20,20 +24,41 @@ reviewed: 2026-11-18
 - **Rede urbana e hierarquia urbana**: conjunto de cidades articuladas por fluxos; as de maior hierarquia oferecem bens e serviços mais raros e influenciam áreas maiores.
 - **Segregação socioespacial**: separação de grupos sociais no espaço da cidade, expressa em desigualdades de acesso a moradia, infraestrutura e serviços.
 
-## Explicação detalhada
+## Explicação detalhada (o processo em ordem)
 
-**A urbanização brasileira** foi rápida e concentrada, sobretudo a partir da segunda metade do século XX, associada à industrialização e ao êxodo rural. O resultado foi um crescimento urbano com déficit de moradia e infraestrutura, expansão de periferias e de favelas e longos deslocamentos casa–trabalho.
+### 1. Antes: um país rural
 
-**Organização interna das cidades.** O preço da terra urbana e a ação de diferentes agentes — Estado, mercado imobiliário, proprietários fundiários e movimentos sociais — produzem uma cidade desigual: áreas centrais e bem servidas valorizadas, periferias com menos serviços. Processos importantes:
-- **Revitalização / renovação urbana**: intervenções em áreas centrais degradadas (portos, centros históricos), muitas vezes com investimento público e privado.
-- **Gentrificação**: substituição de moradores de baixa renda por grupos de renda mais alta após a valorização de uma área.
-- **Autossegregação**: condomínios fechados de alta renda.
+Até meados do século XX, a maioria dos brasileiros vivia no campo. A economia era agroexportadora (café, açúcar, borracha) e as principais cidades eram portos e capitais, como o Rio de Janeiro, então capital federal.
 
-**Mobilidade urbana.** O padrão de deslocamento depende da distribuição de empregos e moradias. Transporte coletivo eficiente reduz congestionamentos, poluição e tempo perdido; a queda de passageiros pode resultar de mudanças no trabalho (como o remoto), de tarifas, da qualidade do serviço e da concorrência de aplicativos.
+### 2. As causas da urbanização
 
-**Cidades e turismo.** O turismo de massa gera renda, mas pode provocar encarecimento da moradia, substituição de comércio local, saturação de espaços públicos e conflitos com moradores.
+- **Industrialização** (a partir de 1930, acelerada nos anos 1950 com o Plano de Metas), concentrada no Sudeste, que criou empregos urbanos na indústria e nos serviços.
+- **Êxodo rural**: concentração fundiária, ausência de reforma agrária, modernização da agricultura com máquinas que dispensavam trabalhadores (anos 1960–1970) e secas no Nordeste empurraram milhões para as cidades.
+- **Atração das cidades**: salários, saúde, educação e serviços concentrados nas metrópoles.
 
-**Escala fluminense.** A Região Metropolitana do Rio de Janeiro concentra a maior parte da população do estado, com forte centralidade da capital e movimentos pendulares a partir da Baixada Fluminense, de Niterói e São Gonçalo. A Zona Portuária carioca passou por um amplo projeto de revitalização a partir da década de 2010.
+### 3. O processo
+
+- **Rapidez**: no censo de 1970, a população urbana superou a rural; hoje, mais de 80% dos brasileiros vivem em cidades.
+- **Metropolização**: as primeiras regiões metropolitanas foram criadas por lei em 1973 (a do Rio de Janeiro, em 1974, após a fusão com o estado da Guanabara); municípios vizinhos passaram a se integrar à metrópole por fluxos diários.
+- **Periferização e favelização**: sem renda para pagar a terra urbana valorizada, os migrantes ocuparam encostas, várzeas e loteamentos distantes, muitas vezes por autoconstrução.
+- **Organização interna desigual**: o preço da terra e a ação de diferentes agentes — Estado, mercado imobiliário, proprietários fundiários e grupos sociais excluídos — produzem áreas centrais valorizadas e periferias com menos serviços; condomínios fechados expressam a **autossegregação** das elites.
+- **Movimento pendular**: deslocamento diário entre a moradia na periferia e o emprego no centro (na Região Metropolitana do Rio, a partir da Baixada Fluminense, de Niterói e São Gonçalo).
+
+### 4. As consequências
+
+- **Déficit habitacional** e moradias precárias.
+- **Infraestrutura insuficiente**: saneamento, drenagem e transporte não acompanharam o crescimento.
+- **Mobilidade difícil**: longos tempos de viagem, congestionamentos e poluição, agravados pelo modelo rodoviário.
+- **Riscos urbanos**: deslizamentos em encostas e enchentes em várzeas, que atingem mais quem tem menos.
+- **Segregação socioespacial**: acesso desigual a emprego, serviços e lazer conforme o lugar onde se mora.
+
+### 5. Hoje: tendências e políticas
+
+- **Cidades médias** crescem mais que as metrópoles (desmetropolização relativa).
+- **Estatuto da Cidade (2001)**: função social da propriedade, plano diretor, IPTU progressivo, Zonas Especiais de Interesse Social.
+- **Revitalização de áreas centrais e gentrificação**: a Zona Portuária do Rio, revitalizada a partir da década de 2010, voltou a atrair moradores (UERJ 2026); a valorização pode expulsar antigos moradores.
+- **Mobilidade em mudança**: a queda de passageiros no transporte público pode resultar do trabalho remoto, de tarifas, da qualidade do serviço e da concorrência de aplicativos (UERJ 2026).
+- **Turismo de massa**: gera renda, mas encarece a moradia e provoca conflitos com moradores (UERJ 2025, Barcelona).
 
 ## Exemplos práticos
 
@@ -104,3 +129,51 @@ Por que é completa: as justificativas são **processos espaciais concretos** (d
 3. Por exemplo: longos tempos de deslocamento e menor acesso a empregos e serviços; aumento do uso de transporte individual ou informal, com congestionamentos e poluição.
 4. É o deslocamento diário entre a moradia e o trabalho ou estudo, frequentemente entre municípios diferentes. Consequências: longos tempos de viagem, saturação de trens, ônibus e vias, custos e desgaste para moradores da Baixada Fluminense e de São Gonçalo, por exemplo.
 5. Por exemplo: IPTU progressivo no tempo para imóveis ociosos; parcelamento, edificação ou utilização compulsórios; Zonas Especiais de Interesse Social; usucapião especial urbana; plano diretor.
+
+## Mapa mental
+
+> Brasil, de 1950 aos dias atuais · foco no Rio de Janeiro
+
+### O que é?
+- **Urbanização**: aumento da população que vive em cidades e do modo de vida urbano.
+- No Brasil, foi rápida, concentrada nas metrópoles e muito desigual.
+
+### Antes
+- Até 1950, a maioria dos brasileiros vivia no campo.
+- Economia agroexportadora; cidades eram sobretudo portos e capitais.
+
+### Causas
+- **Industrialização** concentrada no Sudeste, sobretudo a partir dos anos 1950.
+- **Êxodo rural**: concentração de terras, mecanização e secas expulsam a população do campo.
+- Empregos, salários e serviços atraem migrantes para as metrópoles.
+
+### O processo
+- **1970**: população urbana supera a rural.
+- **Metropolização**: municípios vizinhos integrados à metrópole por fluxos diários.
+- **Periferização e favelização**: quem não paga a terra cara ocupa encostas e periferias.
+- **Movimento pendular**: casa na Baixada ou em São Gonçalo, trabalho no centro do Rio.
+
+### Consequências
+- Déficit habitacional e infraestrutura insuficiente (saneamento, drenagem).
+- Longos deslocamentos, congestionamentos e poluição no modelo rodoviário.
+- Riscos de deslizamentos e enchentes, que atingem mais os pobres.
+- Segregação socioespacial: o lugar de moradia define o acesso a serviços.
+
+### Quem produz a cidade
+- **Agentes**: Estado, mercado imobiliário, proprietários de terra e grupos excluídos.
+- O preço da terra separa centros valorizados de periferias mal servidas.
+- Condomínios fechados expressam a autossegregação das elites.
+
+### Hoje
+- **Estatuto da Cidade (2001)**: função social da propriedade e plano diretor.
+- Revitalização da Zona Portuária atrai moradores, mas pode gerar gentrificação.
+- Cidades médias crescem mais que as metrópoles.
+- Queda de passageiros: trabalho remoto, tarifas e aplicativos (UERJ 2026).
+
+### Linha do tempo
+- **1950**: maioria da população ainda rural.
+- **1956–1961**: industrialização acelerada (Plano de Metas).
+- **1970**: população urbana supera a rural.
+- **1973–1974**: criação das regiões metropolitanas.
+- **2001**: Estatuto da Cidade.
+- **2010s**: revitalização da Zona Portuária do Rio.

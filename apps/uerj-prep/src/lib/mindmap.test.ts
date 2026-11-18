@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { buildMindMap, layoutMindMap, wrap } from './mindmap';
+import { buildMindMap, mindMapData, parseMapa, splitMapa } from './mindmap';
 import { RESUMOS } from './content';
 import { commandStats, commandsIn } from './domain/commands';
 
@@ -27,43 +27,81 @@ Não se aplica. Linha do tempo:
 1. Pergunta que não deve entrar no mapa.
 `;
 
+const MAPA = `## Em uma frase
+
+Texto.
+
+## Mapa mental
+
+> Brasil, 1956–1961
+
+### O que foi?
+- Governo desenvolvimentista de JK.
+### Antes (contexto)
+- **Vargas**: Petrobras e BNDE.
+- Tentativas de golpe em 1954 e 1955.
+### Causas
+- Busca de industrialização acelerada.
+### Linha do tempo
+- **1956**: posse de JK.
+- **1960**: inauguração de Brasília.
+
+## Exercícios de fixação
+
+1. Pergunta.
+`;
+
 describe('mapa mental', () => {
-	it('usa seções como ramos e destaques como folhas, sem exercícios', () => {
-		const t = buildMindMap('Colonialismos', MD);
-		expect(t.label).toBe('Colonialismos');
-		expect(t.children.map((c) => c.label)).toEqual(['Conceitos fundamentais', 'Explicação detalhada', 'Fórmulas e aplicações']);
-		expect(t.children[0].children.map((c) => c.label)).toEqual(['Sistema colonial', 'Iluminismo político']);
-		expect(t.children[1].children.map((c) => c.label)).toEqual(['As Treze Colônias (1763–1776)', 'O Haiti']);
-		expect(t.children[2].children.map((c) => c.label)).toEqual(['1776 — Declaração de Independência']);
+	it('separa a seção do mapa do texto do resumo', () => {
+		const { body, mapa } = splitMapa(MAPA);
+		expect(body).not.toContain('Mapa mental');
+		expect(body).toContain('## Exercícios de fixação');
+		expect(mapa).toContain('### O que foi?');
 	});
 
-	it('posiciona todos os nós sem sobreposição vertical no mesmo lado/nível', () => {
+	it('lê ramos, tópicos com destaque, subtítulo e linha do tempo', () => {
+		const d = parseMapa('Governo JK', splitMapa(MAPA).mapa!);
+		expect(d.subtitle).toBe('Brasil, 1956–1961');
+		expect(d.branches.map((b) => b.label)).toEqual(['O que foi?', 'Antes (contexto)', 'Causas']);
+		expect(d.branches[1].items[0]).toEqual({ strong: 'Vargas', text: 'Petrobras e BNDE.' });
+		expect(d.timeline).toEqual([
+			{ when: '1956', what: 'posse de JK.' },
+			{ when: '1960', what: 'inauguração de Brasília.' }
+		]);
+	});
+
+	it('sem seção escrita, monta o mapa a partir das seções do texto', () => {
 		const t = buildMindMap('Colonialismos', MD);
-		const l = layoutMindMap(t);
-		expect(l.nodes.length).toBe(1 + 3 + 5);
-		expect(l.edges.length).toBe(3 + 5);
-		for (const side of ['left', 'right'] as const)
-			for (const level of [1, 2] as const) {
-				const ns = l.nodes.filter((n) => n.side === side && n.level === level).sort((a, b) => a.y - b.y);
-				for (let i = 1; i < ns.length; i++) expect(ns[i].y).toBeGreaterThanOrEqual(ns[i - 1].y + ns[i - 1].h);
+		expect(t.children.map((c) => c.label)).toEqual(['Conceitos fundamentais', 'Explicação detalhada', 'Fórmulas e aplicações']);
+		expect(t.children[1].children.map((c) => c.label)).toEqual(['As Treze Colônias (1763–1776)', 'O Haiti']);
+		const d = mindMapData('Colonialismos', MD);
+		expect(d.authored).toBe(false);
+		expect(d.branches[0].items.map((i) => i.text)).toEqual(['Sistema colonial', 'Iluminismo político']);
+	});
+
+	it('todo resumo editorial tem mapa mental escrito, com caixas explicativas', () => {
+		for (const r of RESUMOS) {
+			const d = mindMapData(r.title, r.body);
+			expect(d.authored, r.topicId).toBe(true);
+			expect(d.branches.length, r.topicId).toBeGreaterThanOrEqual(6);
+			for (const b of d.branches) {
+				expect(b.items.length, `${r.topicId}: ${b.label}`).toBeGreaterThanOrEqual(2);
+				// tópicos explicativos (frases), não palavras soltas
+				expect(b.items.every((i) => (i.strong ? i.strong.length + 2 : 0) + i.text.length >= 25), `${r.topicId}: ${b.label}`).toBe(true);
 			}
-		for (const n of l.nodes) {
-			expect(n.x).toBeGreaterThanOrEqual(0);
-			expect(n.x + n.w).toBeLessThanOrEqual(l.width);
-			expect(n.y).toBeGreaterThanOrEqual(0);
-			expect(n.y + n.h).toBeLessThanOrEqual(l.height);
 		}
 	});
 
-	it('quebra rótulos em linhas', () => {
-		expect(wrap('um dois três quatro', 9)).toEqual(['um dois', 'três', 'quatro']);
-	});
-
-	it('todos os resumos editoriais geram mapas com pelo menos 4 ramos e folhas', () => {
-		for (const r of RESUMOS) {
-			const t = buildMindMap(r.title, r.body);
-			expect(t.children.length, r.topicId).toBeGreaterThanOrEqual(4);
-			expect(t.children.filter((c) => c.children.length > 0).length, r.topicId).toBeGreaterThanOrEqual(4);
+	it('resumos de História contam a história em ordem e têm linha do tempo no mapa', () => {
+		const steps = ['### 1. Antes', '### 2. As causas', '### 3. Como começou', '### 4. O processo', '### 5. O desfecho', '### 6. As consequências', '### 7. Importância e o depois'];
+		for (const r of RESUMOS.filter((x) => x.discipline === 'HIS')) {
+			let last = -1;
+			for (const s of steps) {
+				const at = r.body.indexOf(s);
+				expect(at, `${r.topicId}: ${s}`).toBeGreaterThan(last);
+				last = at;
+			}
+			expect(mindMapData(r.title, r.body).timeline.length, r.topicId).toBeGreaterThanOrEqual(6);
 		}
 	});
 });

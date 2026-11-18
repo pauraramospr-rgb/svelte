@@ -8,6 +8,10 @@ reviewed: 2026-11-18
 - UERJ. Questões Comentadas – Exame Discursivo 2024, 2025 e 2026 (Biologia).
 ---
 
+## Em uma frase
+
+Hereditariedade é a transmissão das características dos pais para os filhos por meio dos genes: cada indivíduo recebe um alelo de cada gene do pai e outro da mãe, e as leis de Mendel — com suas variações (dominância incompleta, codominância, alelos múltiplos, epistasia, herança ligada ao sexo) — permitem prever, por probabilidade, como essas características aparecem nas gerações seguintes.
+
 ## Conceitos fundamentais
 
 - **Gene** é um trecho de DNA que contém informação para uma característica; **alelos** são as versões alternativas de um mesmo gene, que ocupam o mesmo **locus** em cromossomos homólogos.
@@ -110,3 +114,47 @@ Por que é completa: nomeia corretamente e usa o **critério** que a banca usa �
 3. **Não.** Machos são ZZ e não têm cromossomo W; a característica é transmitida exclusivamente de mãe para filhas.
 4. Os pais são *Aa × Aa*. Entre os filhos normais (*AA* ou *Aa*), 2 em 3 combinações são *Aa*: **2/3**.
 5. Gametas do duplo heterozigoto: 40% *AB* e 40% *ab* (parentais); 10% *Ab* e 10% *aB* (recombinantes). Descendência: **40% AaBb, 40% aabb, 10% Aabb, 10% aaBb**.
+
+## Mapa mental
+
+> Genética mendeliana e suas variações
+
+### O que é?
+- Transmissão de características dos pais para os filhos por meio dos genes.
+- **Gene**: trecho de DNA; **alelos**: versões do mesmo gene no mesmo locus.
+
+### Para que serve entender
+- Prever a chance de um filho herdar uma característica ou doença.
+- Base do aconselhamento genético, do melhoramento e da evolução.
+
+### Como funciona: 1ª lei
+- Cada característica depende de um par de alelos, um do pai e um da mãe.
+- Na meiose, os alelos se separam: cada gameta leva só um.
+- **Aa × Aa**: 1 AA : 2 Aa : 1 aa — fenótipo 3 : 1 com dominância completa.
+
+### Como funciona: 2ª lei
+- Genes em cromossomos diferentes se separam de forma independente.
+- **AaBb × AaBb**: proporção 9 : 3 : 3 : 1.
+- Não vale para genes ligados, salvo recombinação (crossing-over).
+
+### Variações
+- **Dominância incompleta**: heterozigoto com fenótipo intermediário.
+- **Codominância e alelos múltiplos**: sistema ABO (grupo AB expressa os dois).
+- **Epistasia**: um gene inibe outro de locus diferente (UERJ 2025).
+
+### Herança e sexo
+- Genes do X: homem com um alelo recessivo já manifesta (hemofilia, daltonismo).
+- Inativação de um X nas fêmeas gera mosaicos, como gatas tricolores (UERJ 2024).
+- **Aves ZW**: genes exclusivos do W passam só de mãe para filhas (UERJ 2026).
+
+### Como calcular
+- **Regra do “e”**: eventos independentes se multiplicam.
+- **Regra do “ou”**: eventos exclusivos se somam.
+- Filho normal de pais Aa tem **2/3** de chance de ser portador.
+
+### Linha do tempo
+- **1866**: Mendel publica os experimentos com ervilhas.
+- **1900**: redescoberta das leis de Mendel.
+- **1910s**: teoria cromossômica da herança.
+- **1953**: estrutura do DNA.
+- **2003**: conclusão do Projeto Genoma Humano.

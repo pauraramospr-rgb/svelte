@@ -8,6 +8,10 @@ reviewed: 2026-11-18
 - HALLIDAY, D.; RESNICK, R.; WALKER, J. Fundamentos de Física, v. 1 (Mecânica) — referência clássica de nível universitário.
 ---
 
+## Em uma frase
+
+A cinemática descreve o movimento — posição, velocidade e aceleração ao longo do tempo — sem discutir suas causas: no movimento uniforme a velocidade é constante, no uniformemente variado a aceleração é constante, e queda livre e lançamentos são combinações desses dois movimentos; na UERJ, o desafio é interpretar o contexto, escolher a equação certa e justificar a conclusão.
+
 ## Conceitos fundamentais
 
 - **Referencial**: corpo ou sistema em relação ao qual se descreve o movimento. Repouso e movimento são relativos.
@@ -108,3 +112,40 @@ Por que é completa: parte da **definição** (deslocamento/tempo), mostra o cá
 3. t = √(2·20/10) = **2 s**; alcance = 5 × 2 = **10 m**.
 4. Velocidade de aproximação: 150 km/h → t = 300/150 = **2 h**; distância da primeira cidade: 60 × 2 = **120 km**.
 5. v₀y = 20 · sen 30° = 10 m/s; tempo de subida = 10/10 = **1 s**; altura máxima = 10²/(2 · 10) = **5 m**.
+
+## Mapa mental
+
+> Cinemática escalar e vetorial
+
+### O que é?
+- Parte da Física que descreve o movimento sem discutir suas causas.
+- Repouso e movimento dependem do **referencial** escolhido.
+
+### Grandezas
+- **Deslocamento**: Δx = x − x₀ (pode diferir da distância percorrida).
+- **Velocidade média**: vₘ = Δx/Δt — nunca a média das velocidades.
+- **Aceleração média**: aₘ = Δv/Δt.
+
+### Movimento uniforme
+- Velocidade constante: x = x₀ + v·t.
+- Gráfico x × t é uma reta; a inclinação é a velocidade.
+
+### Movimento uniformemente variado
+- Aceleração constante: v = v₀ + a·t e x = x₀ + v₀·t + a·t²/2.
+- **Torricelli**: v² = v₀² + 2a·Δx, quando o tempo não é dado.
+- No gráfico v × t, a área é o deslocamento.
+
+### Queda e lançamentos
+- Queda livre com g ≈ 10 m/s², desprezando o ar.
+- Lançamento horizontal: MU na horizontal e queda livre na vertical.
+- O tempo de queda depende só da altura.
+
+### Como resolver
+- Converta unidades antes (km/h ÷ 3,6 = m/s).
+- Escolha a equação pelo que é dado e pelo que é pedido.
+- Conclua com justificativa quando o comando pede (“será multado?”).
+
+### Armadilhas
+- Trechos de mesma distância: média harmônica, 2·v₁·v₂/(v₁ + v₂).
+- UERJ 2026: 140 e 56 km/h dão 80 km/h, não 98 km/h.
+- Confundir deslocamento com distância percorrida.

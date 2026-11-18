@@ -10,6 +10,10 @@ reviewed: 2026-11-18
 - ALMEIDA, Djaimilia Pereira de. Luanda, Lisboa, Paraíso (2018).
 ---
 
+## Em uma frase
+
+Recursos expressivos são as escolhas de forma — figuras, imagens, sons, seleção de palavras — com que o texto literário produz sentido; na UERJ, nomear o recurso não basta: é preciso localizá-lo, justificar a classificação e explicar o efeito que ele tem na obra.
+
 ## Conceitos fundamentais
 
 O programa oficial lista: “seleção e combinação de palavras; formas dos vocábulos; efeitos sonoros; figurações e imagens; representações da variabilidade linguística; efeitos de sentido decorrentes de usos expressivos da linguagem; figuras de linguagem”. Em outras palavras: **como o texto literário produz sentido pela forma**.
@@ -112,3 +116,36 @@ Foi o item de Língua Portuguesa e Literaturas mais classificado pela UERJ nas e
 3. Personificação (prosopopeia): a convalescença “rouba”; a doença aparece como agente que tira de Aquiles anos de vida.
 4. Produz frieza e coisificação: o corpo do rapaz é descrito como mecanismo consertado com parafusos e pinos.
 5. Porque é uma parte do corpo que representa o todo da condição de Aquiles — sua vulnerabilidade — e, por extensão, a da família imigrante.
+
+## Mapa mental
+
+> Como o texto literário produz sentido pela forma
+
+### O que é?
+- Escolhas de forma que criam sentido: figuras, imagens, sons, palavras.
+- Item de Língua Portuguesa e Literaturas mais cobrado pela UERJ.
+
+### Comparação × metáfora
+- **Comparação** tem conectivo: “presa ao Império como uma renda esgarçada”.
+- **Metáfora** identifica direto: “sentia-se um boneco” (coisificação).
+
+### Metonímia
+- Substituição por contiguidade real: parte pelo todo, lugar pela instituição.
+- Pode estruturar o enredo: Calpe pela humanidade (UERJ 2026).
+
+### Ironia
+- Contraste entre o que se diz e o que se mostra.
+- “Paraíso” para um bairro de lata; o brinde ao filho “grego” e frágil.
+
+### Personificação e coisificação
+- “O tempo roubado pela convalescença”: a doença age como sujeito.
+- Aquiles como “marioneta” desmontada: o corpo vira objeto.
+
+### Outros recursos
+- Alusão (Aquiles), metalinguagem e metaficção (início do romance).
+- Variação linguística: português europeu como marca de lugar.
+- Pontuação e vocabulário técnico também produzem efeito.
+
+### Como responder
+- Identifique, localize, justifique a classificação.
+- Explique o efeito no contexto da obra — sem isso, a resposta é parcial.

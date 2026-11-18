@@ -11,6 +11,10 @@ reviewed: 2026-11-18
 - HUTCHEON, Linda. Narcissistic narrative: the metafictional paradox (1980).
 ---
 
+## Em uma frase
+
+Os elementos da narrativa — enredo, personagens, narrador e foco narrativo, índices, tempo, espaço, metaficção e verossimilhança — são as ferramentas para explicar como o romance constrói sentido; em “Luanda, Lisboa, Paraíso”, eles contam a descida de um pai e um filho angolanos de Luanda a Lisboa e ao bairro de lata do Paraíso.
+
 ## Conceitos fundamentais
 
 - **Enredo**: organização dos acontecimentos em relações de causa e consequência — situação inicial, conflito, complicações, clímax e desfecho. Não é “o resumo”: é a **lógica** que liga os fatos.
@@ -123,3 +127,38 @@ Atenção: é **proibido consultar o livro** durante a prova (edital, item 4.5).
 3. É o espaço da imobilidade e da coisificação: Aquiles, preso ao leito, vê pela janela o movimento dos outros, o que reforça sua sensação de estar “preso num corpo errado”.
 4. Porque o narrador reflete sobre como uma história pode começar, chamando atenção para o próprio ato de narrar.
 5. No indireto, o narrador relata a fala com verbo de elocução e conectivo (“disse que…”); no indireto livre, a voz da personagem se mistura à do narrador sem marcas, aproximando o leitor da sua subjetividade.
+
+## Mapa mental
+
+> Aplicados a “Luanda, Lisboa, Paraíso”
+
+### O que é?
+- Categorias para explicar como o romance organiza e dá sentido à história.
+- A UERJ cobra sempre aplicadas ao livro indicado (leitura obrigatória).
+
+### Enredo
+- Calcanhar malformado de Aquiles exige tratamento fora de Angola.
+- Viagem temporária vira permanência forçada em Lisboa.
+- Degradação até o Paraíso; perdas (incêndio, morte de Iuri); final aberto.
+
+### Personagens
+- **Cartola**: redondo, de parteiro a operário, perde status mas não o afeto.
+- **Aquiles**: construído pelo nome (alusão ao herói) e pelo corpo.
+- **Glória e Justina**: a família que fica; **Pepe e Iuri** ampliam os temas.
+
+### Narrador e foco
+- Terceira pessoa, próximo da interioridade das personagens.
+- Às vezes só supõe (“Talvez sonhasse”): onisciência relativizada.
+
+### Tempo e espaço
+- Do tempo colonial aos anos em Lisboa; a espera como forma de tempo.
+- Luanda (origem), Lisboa (promessa e desilusão), Paraíso (margem e afeto).
+
+### Metaficção e verossimilhança
+- Abertura: “uma história […] pode começar por um calcanhar”.
+- Cap. 53: “um livro por escrever” — o romance comenta a própria forma.
+- A morte de Iuri impede o final idealizado e mantém o realismo.
+
+### Como responder
+- Nomeie o elemento, mostre no trecho, explique o funcionamento.
+- Termine com o efeito no sentido do romance.

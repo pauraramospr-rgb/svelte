@@ -8,6 +8,10 @@ reviewed: 2026-11-18
 - IUPAC. Compendium of Chemical Terminology (“Gold Book”) — definições de ligação covalente, iônica e eletronegatividade.
 ---
 
+## Em uma frase
+
+Os átomos se ligam para atingir maior estabilidade: metais transferem elétrons para ametais (ligação iônica), ametais compartilham pares de elétrons (ligação covalente) e metais formam um “mar” de elétrons livres (ligação metálica); o tipo de ligação, a geometria e a polaridade das moléculas explicam propriedades como ponto de ebulição, solubilidade e condutividade.
+
 ## Conceitos fundamentais
 
 - Átomos se ligam porque o conjunto ligado tem **menor energia** (mais estável) que os átomos isolados.
@@ -100,3 +104,37 @@ Por que é completa: responde aos **três comandos na ordem**, justifica a liga�
 3. Cu²⁺ ganha elétrons (reduz-se): **agente oxidante**. Zn perde elétrons (oxida-se): **agente redutor**.
 4. As moléculas de água se unem por **ligações de hidrogênio** (H ligado ao O, muito eletronegativo), interações mais intensas que as do H₂S; é preciso mais energia para separá-las.
 5. BF₃: **trigonal plana e apolar** (dipolos se anulam); NH₃: **piramidal e polar** (o par não ligante impede que os dipolos se anulem).
+
+## Mapa mental
+
+> Ligações químicas e propriedades das substâncias
+
+### O que é?
+- União entre átomos que os torna mais estáveis.
+- O tipo de ligação depende da diferença de eletronegatividade.
+
+### Iônica
+- Metal transfere elétrons para ametal, formando cátions e ânions.
+- Sólidos com altos pontos de fusão; conduzem fundidos ou em solução (NaCl).
+
+### Covalente
+- Ametais compartilham pares de elétrons (simples, dupla, tripla).
+- **Apolar**: átomos iguais (Br₂, N₂); **polar**: eletronegatividades diferentes (N–H).
+- **Dativa**: um átomo cede o par compartilhado (NH₄⁺).
+
+### Metálica
+- Cátions imersos em um “mar” de elétrons livres.
+- Explica condutividade, brilho e maleabilidade dos metais.
+
+### Geometria e polaridade
+- Pares de elétrons se repelem: CO₂ linear, NH₃ piramidal, H₂O angular.
+- Ligação polar não garante molécula polar: CO₂ é apolar.
+
+### Forças intermoleculares
+- London < dipolo-dipolo < ligação de hidrogênio (H com F, O ou N).
+- A água ferve a 100 °C por causa das ligações de hidrogênio.
+- “Semelhante dissolve semelhante”: polar com polar, apolar com apolar.
+
+### Na prova (UERJ)
+- Três ou quatro comandos curtos: grupo/período, ligação, geometria, oxidante.
+- **Agente oxidante** é quem se reduz (Cl₂ na questão de 2026).

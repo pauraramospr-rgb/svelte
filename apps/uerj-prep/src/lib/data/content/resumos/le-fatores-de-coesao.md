@@ -8,6 +8,10 @@ reviewed: 2026-11-18
 - KOCH, Ingedore Villaça. A coesão textual (Contexto).
 ---
 
+## Em uma frase
+
+Coesão é o conjunto de mecanismos que ligam as partes de um texto — pronomes que retomam referentes, substituições, elipses e conectores que marcam relações lógicas —; na prova de Língua Estrangeira da UERJ, o candidato precisa identificar o que cada elemento retoma e que relação estabelece, explicando em português.
+
 ## Conceitos fundamentais
 
 A prova de Língua Estrangeira avalia **leitura**: as questões são respondidas em **português**, sobre textos em espanhol, francês ou inglês. O programa lista como fatores de coesão: “referenciação, repetição, substituição, elipse; marcadores discursivos, conectores lógicos; relações endofóricas”.
@@ -92,3 +96,34 @@ Por que é completa: explica o **valor** (hipótese/probabilidade no passado) em
 3. **Elipse**: omite-se “a acheté des pommes” após *Paul aussi*, recuperável pelo contexto.
 4. *This* retoma toda a informação anterior — a forte alta dos preços em 2022 —, e não uma palavra isolada (referência a uma ideia).
 5. **Concessão**: a chuva seria um obstáculo, mas não impediu a saída (= embora chovesse).
+
+## Mapa mental
+
+> Inglês, Espanhol e Francês
+
+### O que é?
+- Mecanismos que ligam as partes do texto e garantem sua continuidade.
+- Na UERJ, um dos itens mais cobrados nas três línguas.
+
+### Referenciação
+- **Anáfora**: retoma algo já dito (it, ellos, celui-ci).
+- **Catáfora**: antecipa algo que virá.
+- Demonstrativos podem retomar uma ideia inteira (this, esto, cela).
+
+### Substituição e elipse
+- Sinônimos, hiperônimos e nominalizações retomam termos (the decision, la medida).
+- **Elipse**: omissão de termo recuperável (“et Paul aussi”).
+
+### Conectores
+- **Oposição**: however, sin embargo, cependant.
+- **Causa**: because, porque, parce que; **consequência**: therefore, por lo tanto, donc.
+- Cuidado com falsos cognatos: eventually = finalmente; pourtant = no entanto.
+
+### Tempo e modo
+- Formas verbais também produzem sentido: hipótese, probabilidade, irrealidade.
+- UERJ 2026: “habría continuado… si no hubiera ganado” = hipótese no passado.
+
+### Como responder
+- Explique em português a relação ou o referente.
+- Transcreva na língua estrangeira só quando o comando pedir.
+- Respeite a linha ou o parágrafo indicado no enunciado.

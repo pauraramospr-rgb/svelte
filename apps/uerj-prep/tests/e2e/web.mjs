@@ -173,7 +173,8 @@ async function flow(label, ctx, withAi) {
 		await p.click('a:has-text("Estado e industrialização na América Latina") >> nth=0');
 		await p.waitForSelector('text=Aprofundamento (nível UERJ)');
 		await p.click('button:has-text("Mapa mental")');
-		await p.waitForSelector('.mm svg rect');
+		await p.waitForSelector('.mm .branch');
+		await p.waitForSelector('.mm .timeline li');
 		await p.screenshot({ path: `${SHOTS}/${label}-mapa.png` });
 	});
 	await step(`${label}: dados persistem após recarregar`, async () => {
