@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { APP_NAME, APP_TAGLINE } from '$lib/brand';
 	import CategoryTag from '$lib/components/CategoryTag.svelte';
 	import { EXAM_2027, daysUntil } from '$lib/data/official/exam-2027';
 	import { COURSES_2027 } from '$lib/data/official/courses-2027';
@@ -6,7 +7,7 @@
 	const days = daysUntil(EXAM_2027.date);
 </script>
 
-<svelte:head><title>Discursiva · Preparação para o Exame Discursivo da UERJ</title></svelte:head>
+<svelte:head><title>{APP_NAME} · {APP_TAGLINE}</title></svelte:head>
 
 <section class="hero">
 	<div>

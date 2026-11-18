@@ -1,11 +1,12 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/brand';
 	import CategoryTag from '$lib/components/CategoryTag.svelte';
 	import { INCIDENCE } from '$lib/domain/syllabus';
 	let { data } = $props();
 	let only = $state<'todos' | 'editorial' | 'prioridade'>('todos');
 </script>
 
-<svelte:head><title>Resumos · Discursiva</title></svelte:head>
+<svelte:head><title>Resumos · {APP_NAME}</title></svelte:head>
 
 <h1>Resumos estratégicos</h1>
 <p class="muted">

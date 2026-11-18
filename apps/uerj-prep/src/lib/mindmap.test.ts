@@ -63,7 +63,8 @@ describe('mapa mental', () => {
 		const d = parseMapa('Governo JK', splitMapa(MAPA).mapa!);
 		expect(d.subtitle).toBe('Brasil, 1956–1961');
 		expect(d.branches.map((b) => b.label)).toEqual(['O que foi?', 'Antes (contexto)', 'Causas']);
-		expect(d.branches[1].items[0]).toEqual({ strong: 'Vargas', text: 'Petrobras e BNDE.' });
+		expect(d.branches[1].items[0]).toEqual({ strong: 'Vargas', sep: ': ', text: 'Petrobras e BNDE.' });
+		expect(parseMapa('x', '### A\n- **Brasil (1964)**, Chile e Uruguai.').branches[0].items[0]).toEqual({ strong: 'Brasil (1964)', sep: '', text: ', Chile e Uruguai.' });
 		expect(d.timeline).toEqual([
 			{ when: '1956', what: 'posse de JK.' },
 			{ when: '1960', what: 'inauguração de Brasília.' }
@@ -86,9 +87,17 @@ describe('mapa mental', () => {
 			expect(d.branches.length, r.topicId).toBeGreaterThanOrEqual(6);
 			for (const b of d.branches) {
 				expect(b.items.length, `${r.topicId}: ${b.label}`).toBeGreaterThanOrEqual(2);
+				// cada balão abre com uma explicação em texto corrido
+				expect((b.lead ?? '').length, `${r.topicId}: ${b.label} (texto do balão)`).toBeGreaterThanOrEqual(40);
 				// tópicos explicativos (frases), não palavras soltas
 				expect(b.items.every((i) => (i.strong ? i.strong.length + 2 : 0) + i.text.length >= 25), `${r.topicId}: ${b.label}`).toBe(true);
 			}
+		}
+	});
+
+	it('resumos de História ligam cada etapa à seguinte', () => {
+		for (const r of RESUMOS.filter((x) => x.discipline === 'HIS')) {
+			expect(r.body.match(/Ligação com a próxima etapa/g)?.length ?? 0, r.topicId).toBeGreaterThanOrEqual(6);
 		}
 	});
 

@@ -306,9 +306,10 @@ Escreva um resumo estratégico, APROFUNDADO e didático, em Markdown, sobre o t�
 O padrão é o de um material de cursinho de alto nível para a UERJ: não uma explicação rápida, mas um texto com NEXO, que conte o assunto em ordem lógica — do antes ao depois — e ensine os mecanismos, as distinções finas e as relações que a banca cobra.
 Use exatamente estas seções (títulos de nível 2), nesta ordem:
 ## Em uma frase  (síntese de 2 a 4 linhas que já mostre o encadeamento do assunto)
-## Conceitos fundamentais  (lista: cada item começa com o termo em **negrito**, seguido de dois-pontos e da definição precisa)
+${['HIS', 'GEO'].includes(t.discipline) ? '## O fio da história  (lista numerada de 5 a 7 linhas: a espinha dorsal do assunto, do antes ao depois, uma linha por etapa)\n' : ''}## Conceitos fundamentais  (lista: cada item começa com o termo em **negrito**, seguido de dois-pontos e da definição precisa)
 ## Explicação detalhada  (OBRIGATORIAMENTE com estas subseções de nível 3, nesta ordem, cobrindo TODOS os subtópicos oficiais:
-${SUMMARY_STEPS[t.discipline]})
+${SUMMARY_STEPS[t.discipline]}.
+   Escreva cada subseção em TEXTO CORRIDO (parágrafos com conectivos de causa e consequência), não em tópicos soltos; use listas só para enumerações. ${['HIS', 'GEO'].includes(t.discipline) ? 'Termine cada subseção, exceto a última, com uma linha "> **Ligação com a próxima etapa:** …" que explique como aquela etapa leva à seguinte.' : ''})
 ## ${['HIS', 'GEO'].includes(t.discipline) ? 'Linha do tempo  (tabela Markdown | Ano | Fato |, em ordem cronológica, só com datas seguras)' : 'Fórmulas e aplicações  (fórmulas com o significado de cada termo e as unidades; omita se não pertinente)'}
 ## Exemplos práticos  (3 a 5 exemplos concretos, cada um começando com um título em **negrito**)
 ## Aprofundamento (nível UERJ)  (lista de 4 a 7 itens em **negrito**: distinções finas, exceções, debates, armadilhas e conexões)
@@ -316,7 +317,7 @@ ${SUMMARY_STEPS[t.discipline]})
 ## Como o assunto pode aparecer na prova discursiva  (baseie-se nos exemplos oficiais fornecidos, citando ano e número; deixe claro que é possibilidade, não garantia; inclua uma "Resposta-modelo comentada" e diga por que ela seria completa)
 ## Erros que custam pontos  (4 a 6 itens)
 ## Exercícios de fixação  (5 exercícios discursivos, do mais simples ao mais exigente, com "**Respostas comentadas**" ao final)
-## Mapa mental  (versão condensada e autoexplicativa do resumo, para revisão. Formato obrigatório: uma linha "> recorte (ex.: período e lugar)"; depois 6 a 8 ramos "### Nome do ramo", cada um com 2 a 4 tópicos "- " que sejam FRASES CURTAS COM SENTIDO (8 a 20 palavras, podendo começar com **termo**: ), nunca palavras soltas. Ramos, nesta ordem: ${MAP_BRANCHES[t.discipline]}.${['HIS', 'GEO'].includes(t.discipline) ? ' Termine com "### Linha do tempo" e 6 a 10 itens "- **ano**: fato".' : ''})
+## Mapa mental  (versão condensada e autoexplicativa do resumo, para revisão. Formato obrigatório: uma linha "> recorte (ex.: período e lugar)"; depois 6 a 8 ramos "### Nome do ramo"; cada ramo começa com UMA FRASE EXPLICATIVA em texto corrido (uma linha, sem marcador), seguida de 3 a 5 tópicos "- " que sejam frases com sentido (8 a 25 palavras, podendo começar com **termo**: ), nunca palavras soltas. Ramos, nesta ordem: ${MAP_BRANCHES[t.discipline]}.${['HIS', 'GEO'].includes(t.discipline) ? ' Termine com "### Linha do tempo" e 6 a 10 itens "- **ano**: fato".' : ''})
 Fórmulas em texto simples, sem LaTeX. Não invente dados, datas, números ou referências: se citar um fato, ele deve ser amplamente estabelecido; na dúvida, omita.
 
 ${INTEGRITY}`;

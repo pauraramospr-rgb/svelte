@@ -16,54 +16,67 @@ reviewed: 2026-11-18
 
 Depois da Segunda Guerra, os povos da Ásia e da África conquistaram a independência das potências europeias (1945–1975), por negociação ou por guerras de libertação, e tentaram afirmar-se entre EUA e URSS (Bandung, Não Alinhados); a América Latina, já independente, viveu a mesma bipolaridade sob forte influência dos EUA — e, em quase toda parte, a independência política conviveu com a dependência econômica (neocolonialismo).
 
+## O fio da história
+
+1. **Antes** — imperialismo do século XIX justificado pelo racismo e pela “missão civilizadora”.
+2. **Causas** — metrópoles enfraquecidas pela guerra, ONU e autodeterminação, movimentos de libertação.
+3. **Como começou** — Indonésia (1945) e Índia (1947) abrem a descolonização asiática.
+4. **O processo** — Dien Bien Phu, Bandung, “ano da África”, Argélia, Não Alinhados, Cuba, colônias portuguesas.
+5. **Desfecho** — por volta de 1975, Ásia e África independentes; apartheid resiste até 1994.
+6. **Consequências** — neocolonialismo, fronteiras herdadas, guerras por procuração, Terceiro Mundo.
+7. **Depois** — novo mapa do mundo, crítica ao eurocentrismo, migrações pós-coloniais, Fanon cobrado pela UERJ (2026).
+
 ## Explicação detalhada (a história em ordem)
 
 ### 1. Antes: o contexto
 
-- **O imperialismo do século XIX.** As potências industriais europeias partilharam a África na **Conferência de Berlim (1884–1885)** e dominaram grande parte da Ásia, em busca de matérias-primas, mercados e áreas de investimento.
-- **O racismo como justificativa.** O racismo científico (hierarquia de “raças”, darwinismo social) e a ideia de **missão civilizadora** — o “fardo do homem branco”, no poema de Rudyard Kipling (1899) — apresentavam os colonizados como inferiores, legitimando a dominação e a exploração.
-- **Resistências desde o início:** revoltas locais, movimentos nacionalistas educados nas próprias metrópoles e o **pan-africanismo** (solidariedade entre africanos e a diáspora).
-- **América Latina:** independente desde o século XIX, mas sob forte influência econômica e política dos EUA (Doutrina Monroe, Big Stick).
+No século XIX, as potências industriais europeias buscaram matérias-primas, mercados e lugares para investir fora da Europa. Na **Conferência de Berlim (1884–1885)**, partilharam a África entre si, e boa parte da Ásia também passou ao domínio europeu. Essa dominação foi justificada pelo **racismo científico** — a ideia de uma hierarquia de “raças” — e pela **missão civilizadora**, sintetizada no poema “O fardo do homem branco”, de Rudyard Kipling (1899): os europeus se apresentavam como portadores da civilização para povos que consideravam inferiores. A resistência existiu desde o início — revoltas locais, movimentos nacionalistas formados por jovens educados nas próprias metrópoles, o **pan-africanismo**. A **América Latina**, independente desde o século XIX, vivia outra forma de dependência: a influência econômica e política dos EUA.
+
+> **Ligação com a próxima etapa:** esse domínio parecia sólido até a Segunda Guerra Mundial abalar as metrópoles que o sustentavam.
 
 ### 2. As causas
 
-- **Metrópoles enfraquecidas** pela Segunda Guerra Mundial (1939–1945), militar e economicamente.
-- **Autodeterminação dos povos**, princípio afirmado na **Carta da ONU (1945)**.
-- **EUA e URSS**, por razões diferentes, criticavam os velhos impérios coloniais europeus.
-- **Movimentos nacionalistas e de libertação** fortalecidos — muitos combatentes coloniais haviam lutado na guerra pela “liberdade” das metrópoles.
-- **A reação à violência colonial**, analisada por **Frantz Fanon** (*Pele negra, máscaras brancas*, 1952; *Os condenados da Terra*, 1961).
+A **Segunda Guerra Mundial (1939–1945)** deixou as potências europeias enfraquecidas, militar e economicamente. A **Carta da ONU (1945)** consagrou o princípio da **autodeterminação dos povos**. EUA e URSS, cada um por suas razões, criticavam os velhos impérios coloniais. Os **movimentos de libertação** se fortaleceram — muitos colonizados haviam lutado na guerra em nome da “liberdade” das metrópoles e voltavam questionando por que ela não valia para eles. E havia a **reação à violência colonial**, que o psiquiatra martinicano **Frantz Fanon** analisou em *Pele negra, máscaras brancas* (1952) e *Os condenados da Terra* (1961).
+
+> **Ligação com a próxima etapa:** a primeira onda de independências veio na Ásia, logo após a guerra.
 
 ### 3. Como começou
 
-A descolonização começou pela **Ásia**: a **Indonésia** proclamou a independência dos Países Baixos em 1945 (reconhecida em 1949), e a **Índia** tornou-se independente do Reino Unido em **1947**, depois de décadas de luta liderada por Gandhi e pelo Partido do Congresso — com a **partilha** que criou o Paquistão e provocou deslocamentos e violência em massa.
+A **Indonésia** proclamou a independência dos Países Baixos em 1945 (reconhecida em 1949). Em **1947**, a **Índia** tornou-se independente do Reino Unido, depois de décadas de luta liderada por Gandhi e pelo Partido do Congresso; a **partilha** que criou o Paquistão provocou deslocamentos e violência em massa.
+
+> **Ligação com a próxima etapa:** a partir daí, o processo se espalhou — e passou a ser disputado pelas duas superpotências.
 
 ### 4. O processo, etapa por etapa
 
-1. **Ásia (1945–1954).** Na Indochina, a guerra contra a França terminou com a derrota francesa em **Dien Bien Phu (1954)**; o Vietnã foi dividido e virou palco da Guerra Fria.
-2. **Bandung (1955).** Conferência de países afro-asiáticos que condenou o colonialismo e defendeu a cooperação entre os povos do chamado **Terceiro Mundo**.
-3. **A África se liberta (1957–1962).** **Gana** (1957), marco da independência na África subsaariana, com Kwame Nkrumah; **1960**, o “ano da África”, com 17 novos países; a **Argélia** venceu a França numa guerra de libertação (1954–1962); no **Congo** (1960), o primeiro-ministro Patrice Lumumba foi deposto e assassinado (1961), com participação belga, em meio à interferência das potências.
-4. **Não Alinhados (1961).** Em Belgrado, formou-se o **Movimento dos Países Não Alinhados**: autonomia diante dos dois blocos.
-5. **América Latina na Guerra Fria.** A **Revolução Cubana (1959)** e a crise dos mísseis (1962) acirraram a disputa; os EUA responderam com a **Aliança para o Progresso (1961)** e com apoio a regimes anticomunistas. No Brasil, a **Política Externa Independente** (Jânio Quadros e João Goulart, 1961–1964) buscou autonomia — Jânio condecorou Che Guevara em 1961 e renunciou no mesmo ano.
-6. **As colônias portuguesas (1961–1975).** A ditadura salazarista recusou negociar e travou guerras coloniais em **Angola** (desde 1961), Guiné-Bissau e Moçambique. Só a **Revolução dos Cravos (1974)** abriu as independências (1974–1975) — em Angola, em 11 de novembro de 1975, seguida de guerra civil entre o MPLA (apoiado por URSS e Cuba) e a UNITA (apoiada por EUA e África do Sul) até 2002.
+**Ásia (1945–1954).** Na Indochina, a guerra de libertação contra a França terminou com a derrota francesa em **Dien Bien Phu (1954)**; o Vietnã foi dividido e se tornou palco da Guerra Fria.
+
+**Bandung e o Terceiro Mundo (1955).** A Conferência de Bandung, na Indonésia, reuniu países afro-asiáticos que condenaram o colonialismo e defenderam a cooperação entre os povos do chamado **Terceiro Mundo**.
+
+**A África se liberta (1957–1962).** **Gana**, com Kwame Nkrumah, tornou-se independente em 1957, marco da independência na África subsaariana; **1960** ficou conhecido como o “ano da África”, com 17 novos países. A **Argélia** conquistou a independência da França numa guerra de libertação (1954–1962). No **Congo** (1960), o primeiro-ministro Patrice Lumumba foi deposto e assassinado (1961), com participação belga, em meio à interferência das potências.
+
+**Os Não Alinhados (1961).** Em Belgrado, formou-se o **Movimento dos Países Não Alinhados**: a busca de autonomia diante dos dois blocos.
+
+**A América Latina na Guerra Fria.** A **Revolução Cubana (1959)** e a crise dos mísseis (1962) acirraram a disputa no continente; os EUA responderam com a **Aliança para o Progresso (1961)** e com apoio a regimes anticomunistas. No Brasil, a **Política Externa Independente** de Jânio Quadros e João Goulart (1961–1964) buscou autonomia: Jânio condecorou Che Guevara em 1961 e renunciou no mesmo ano.
+
+**As colônias portuguesas (1961–1975).** A ditadura salazarista recusou negociar e travou guerras coloniais em **Angola** (desde 1961), Guiné-Bissau e Moçambique. Só a **Revolução dos Cravos (1974)** abriu as independências (1974–1975). Angola tornou-se independente em 11 de novembro de 1975 e mergulhou numa guerra civil entre o MPLA (apoiado por URSS e Cuba) e a UNITA (apoiada por EUA e África do Sul), que durou até 2002.
+
+> **Ligação com a próxima etapa:** em trinta anos, o mapa colonial da Ásia e da África praticamente desapareceu.
 
 ### 5. O desfecho
 
-Por volta de **1975**, quase toda a Ásia e a África estavam politicamente independentes. Restavam regimes de minoria branca no sul da África: o **apartheid** sul-africano (1948–1994) só terminou com as eleições multirraciais de 1994, que levaram Nelson Mandela à presidência.
+Por volta de **1975**, quase toda a Ásia e a África estavam politicamente independentes. Resistiam regimes de minoria branca no sul do continente: o **apartheid** sul-africano (1948–1994) só terminou com as eleições multirraciais de 1994, que levaram Nelson Mandela à presidência.
+
+> **Ligação com a próxima etapa:** independência política, porém, não significou autonomia de fato.
 
 ### 6. As consequências
 
-- **Neocolonialismo:** a independência formal conviveu com a dependência econômica, tecnológica e financeira — conceito formulado por Kwame Nkrumah (1965).
-- **Fronteiras herdadas** da partilha colonial, que juntavam povos rivais e separavam povos aparentados, alimentaram conflitos internos.
-- **Guerras por procuração:** EUA e URSS apoiaram lados opostos em conflitos pós-independência (Congo, Angola, Moçambique).
-- **Ditaduras e golpes** em muitos dos novos Estados.
-- **Terceiro Mundo** como ator político: votos na ONU, defesa de uma ordem econômica mais justa.
+A independência formal conviveu com a **dependência econômica, tecnológica e financeira** — o **neocolonialismo**, conceito formulado por Kwame Nkrumah (1965). As **fronteiras herdadas** da partilha colonial, que juntavam povos rivais e separavam povos aparentados, alimentaram conflitos internos. EUA e URSS apoiaram lados opostos em **guerras por procuração** (Congo, Angola, Moçambique), e **ditaduras e golpes** se multiplicaram nos novos Estados. Ao mesmo tempo, o **Terceiro Mundo** ganhou voz como ator político, com votos na ONU e a defesa de uma ordem econômica mais justa.
+
+> **Ligação com a próxima etapa:** essas transformações continuam a moldar o mundo — e a própria forma de estudar história.
 
 ### 7. Importância e o depois
 
-- A descolonização mudou o mapa do mundo: a ONU passou de 51 membros fundadores para mais de 190 Estados.
-- O pensamento anticolonial (Fanon, Nkrumah, Amílcar Cabral) e a crítica ao **eurocentrismo** — citada no próprio programa da UERJ — transformaram a maneira de escrever a história.
-- **Migrações pós-coloniais** para as antigas metrópoles: é o mundo de *Luanda, Lisboa, Paraíso*, cuja trama nasce da Angola pós-independência.
-- **Efemérides recentes**: centenário de Fanon (2025), usado pela UERJ em 2026; 50 anos das independências de Angola e Moçambique (2025).
+A descolonização mudou o mapa do mundo: a ONU passou de 51 membros fundadores para mais de 190 Estados. O pensamento anticolonial (Fanon, Nkrumah, Amílcar Cabral) e a crítica ao **eurocentrismo** — citada no próprio programa da UERJ — transformaram a maneira de escrever a história. As **migrações pós-coloniais** para as antigas metrópoles criaram o mundo de *Luanda, Lisboa, Paraíso*, cuja trama nasce da Angola pós-independência. E as efemérides recentes mantêm o tema vivo: o **centenário de Fanon (2025)** foi cobrado pela UERJ em 2026, e 2025 marcou **50 anos das independências de Angola e Moçambique**.
 
 ## Linha do tempo
 
@@ -91,25 +104,13 @@ Por volta de **1975**, quase toda a Ásia e a África estavam politicamente inde
 - **Terceiro Mundo / não alinhamento**: busca de posição autônoma diante da bipolaridade.
 - **Autodeterminação dos povos**: direito de cada povo decidir seu destino político (Carta da ONU).
 
-## Exemplos práticos
+## Aprofundamento e conexões (nível UERJ)
 
-1. **Comparação Índia × Argélia × Angola**: luta não violenta com partilha violenta × guerra de libertação contra a França × guerra prolongada, com independência só após a mudança de regime em Portugal.
-2. **Neocolonialismo**: economias exportadoras de produtos primários continuam dependentes dos preços internacionais e de capitais externos após a independência.
-3. **Não alinhamento na prática**: países que negociavam com os dois blocos sem aderir a nenhum.
-
-## Aprofundamento (nível UERJ)
-
+- **Comparar é a habilidade mais cobrada**: Índia (luta não violenta, partilha violenta), Argélia (guerra de libertação) e Angola (guerra prolongada, independência só após a mudança de regime em Portugal).
 - **O racismo como engrenagem do imperialismo**: o comentário oficial de 2026 cita o “fardo do homem branco” como síntese da missão civilizadora — use o conceito, não só o exemplo.
-- **Fanon e a violência colonial**: para ele, o colonialismo é violência estrutural, e a libertação passa pela reação dos colonizados — aspecto destacado pela UERJ ao listar as causas da descolonização.
-- **A descolonização não foi “concedida”**: as metrópoles enfraquecidas cederam diante de lutas concretas.
-- **Comparar é a habilidade mais cobrada**: caminhos diferentes (negociação, guerra, ruptura na metrópole) para o mesmo processo.
-
-## Relações com outros conteúdos
-
-- **Imperialismo do século XIX** (raízes da dominação e do racismo científico).
-- **Guerra Fria** (Coreia, Vietnã, Cuba, Angola).
-- **Geografia**: fronteiras, conflitos étnicos, divisão internacional do trabalho.
-- **Literatura**: obras africanas e portuguesas indicadas pela UERJ (Pepetela, Mia Couto, Djaimilia Pereira de Almeida).
+- **A descolonização não foi “concedida”**: metrópoles enfraquecidas cederam diante de lutas concretas.
+- **Neocolonialismo na prática**: economias exportadoras de produtos primários continuam dependentes dos preços internacionais e de capitais externos.
+- **Conexões**: imperialismo do século XIX; Guerra Fria (Coreia, Vietnã, Cuba, Angola); Geografia (fronteiras, conflitos étnicos, divisão internacional do trabalho); Literatura (Pepetela, Mia Couto, Djaimilia Pereira de Almeida).
 
 ## Como o assunto pode aparecer na prova discursiva
 
@@ -153,50 +154,59 @@ Por que é completa: explica o **mecanismo** (inferioridade → legitimação) e
 
 ## Mapa mental
 
-> 1945–1975 · Guerra Fria
+> 1945–1975 · Guerra Fria · e a memória até 2026
 
 ### O que foi?
-- Independência das colônias europeias na Ásia e na África após 1945.
-- Os novos países tentaram ficar entre EUA e URSS (não alinhamento).
+Processo em que as colônias europeias na Ásia e na África conquistaram a independência depois de 1945.
+- Por negociação (Índia) ou por guerras de libertação (Argélia, Angola).
+- Os novos países tentaram ficar fora dos dois blocos: Bandung e Não Alinhados.
+- Independência política, mas com dependência econômica: o neocolonialismo.
 
 ### Antes (contexto)
-- **Imperialismo**: partilha da África na Conferência de Berlim (1884–1885).
-- **Racismo científico** e “missão civilizadora” justificavam a dominação.
-- América Latina independente, mas sob influência dos EUA.
+No século XIX, a Europa dominou a África e grande parte da Ásia.
+- **Conferência de Berlim (1884–1885)**: partilha da África entre as potências europeias.
+- **Racismo científico** e “missão civilizadora” (o “fardo do homem branco”) justificavam a dominação.
+- América Latina independente, mas sob influência econômica e política dos EUA.
 
 ### Causas
-- Metrópoles europeias enfraquecidas pela Segunda Guerra.
+A Segunda Guerra abalou as metrópoles e fortaleceu os colonizados.
+- Metrópoles europeias saíram da guerra enfraquecidas, militar e economicamente.
 - **ONU (1945)**: princípio da autodeterminação dos povos.
-- EUA e URSS criticavam os velhos impérios coloniais.
-- Movimentos de libertação e reação à violência colonial (Fanon).
+- EUA e URSS criticavam os velhos impérios coloniais, cada um por seus interesses.
+- Movimentos de libertação e reação à violência colonial, analisada por Fanon.
 
 ### Como começou
-- **1945**: Indonésia proclama independência dos Países Baixos.
-- **1947**: Índia independente, com partilha violenta e criação do Paquistão.
-- **1954**: França derrotada em Dien Bien Phu, na Indochina.
+A primeira onda de independências veio na Ásia, logo depois da guerra.
+- **1945**: Indonésia proclama independência dos Países Baixos (reconhecida em 1949).
+- **1947**: Índia independente com Gandhi; a partilha cria o Paquistão e provoca violência em massa.
+- **1954**: França derrotada em Dien Bien Phu; Vietnã dividido.
 
 ### Etapas
-- **1955**: Bandung reúne afro-asiáticos contra o colonialismo.
-- **1957–1962**: Gana, “ano da África” (1960) e guerra da Argélia.
-- **1961**: Movimento dos Não Alinhados; PEI no Brasil.
-- **1959–1962**: Revolução Cubana e crise dos mísseis na América Latina.
-- **1974–1975**: Revolução dos Cravos libera as colônias portuguesas.
+Em trinta anos, a descolonização avançou da Ásia para a África, em meio à disputa entre EUA e URSS.
+- **1955**: Bandung reúne países afro-asiáticos contra o colonialismo.
+- **1957–1962**: Gana (1957), “ano da África” com 17 países (1960) e guerra da Argélia.
+- **1960–1961**: Congo independente; Lumumba deposto e assassinado com participação belga.
+- **1961**: Movimento dos Não Alinhados; Política Externa Independente no Brasil.
+- **1974–1975**: Revolução dos Cravos libera Angola, Moçambique e Guiné-Bissau.
 
 ### Desfecho
-- Por volta de 1975, quase toda a Ásia e a África independentes.
-- Apartheid na África do Sul resiste até 1994.
+Em trinta anos, o mapa colonial da Ásia e da África praticamente desapareceu.
+- Por volta de 1975, quase toda a Ásia e a África eram independentes.
+- O apartheid sul-africano resistiu até as eleições multirraciais de 1994.
 
 ### Consequências
-- **Neocolonialismo**: independência política com dependência econômica.
-- Fronteiras coloniais alimentam conflitos internos e guerras civis.
-- Guerras por procuração das superpotências (Congo, Angola).
-- Terceiro Mundo ganha voz na ONU.
+A independência política não trouxe autonomia econômica nem paz.
+- **Neocolonialismo** (Nkrumah, 1965): dependência de capitais, tecnologia e preços externos.
+- Fronteiras coloniais juntavam povos rivais e alimentaram conflitos internos.
+- Guerras por procuração das superpotências: Congo, Angola, Moçambique.
+- O Terceiro Mundo ganhou voz na ONU e defendeu uma ordem econômica mais justa.
 
 ### Importância e depois
-- Mapa mundial redesenhado: a ONU passa de 51 para mais de 190 países.
-- Crítica ao eurocentrismo muda a forma de escrever a história.
+A descolonização mudou o mapa do mundo e a maneira de escrever a história.
+- A ONU passou de 51 membros fundadores para mais de 190 países.
+- Crítica ao eurocentrismo, citada no próprio programa da UERJ.
 - Migrações pós-coloniais: o mundo de “Luanda, Lisboa, Paraíso”.
-- Centenário de Fanon (2025) cobrado pela UERJ em 2026.
+- Centenário de Fanon (2025), cobrado pela UERJ em 2026.
 
 ### Linha do tempo
 - **1885**: fim da Conferência de Berlim.

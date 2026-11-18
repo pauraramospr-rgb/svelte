@@ -120,37 +120,47 @@ Por que é completa: nomeia corretamente e usa o **critério** que a banca usa �
 > Genética mendeliana e suas variações
 
 ### O que é?
-- Transmissão de características dos pais para os filhos por meio dos genes.
-- **Gene**: trecho de DNA; **alelos**: versões do mesmo gene no mesmo locus.
+Hereditariedade é a transmissão de características dos pais para os filhos por meio dos genes, segmentos de DNA localizados nos cromossomos.
+- **Alelos**: versões de um mesmo gene, no mesmo locus de cromossomos homólogos.
+- **Genótipo** (Aa, AA, aa) × **fenótipo** (o que se observa, com influência do ambiente).
+- **Dominante** aparece no heterozigoto; **recessivo** só em homozigose (aa).
 
 ### Para que serve entender
-- Prever a chance de um filho herdar uma característica ou doença.
-- Base do aconselhamento genético, do melhoramento e da evolução.
+Saber como as características passam de geração em geração permite prever e explicar.
+- Calcular a chance de um filho herdar uma característica ou doença genética.
+- Base do aconselhamento genético e do melhoramento de plantas e animais.
+- Ajuda a explicar a evolução: a seleção natural atua sobre fenótipos herdáveis.
 
 ### Como funciona: 1ª lei
-- Cada característica depende de um par de alelos, um do pai e um da mãe.
-- Na meiose, os alelos se separam: cada gameta leva só um.
-- **Aa × Aa**: 1 AA : 2 Aa : 1 aa — fenótipo 3 : 1 com dominância completa.
+Cada característica depende de um par de alelos, que se separam na formação dos gametas.
+- Cada filho recebe um alelo do pai e um da mãe.
+- Na meiose, os homólogos se separam: cada gameta leva só um alelo.
+- **Aa × Aa** gera 1 AA : 2 Aa : 1 aa — proporção fenotípica 3 : 1.
 
 ### Como funciona: 2ª lei
-- Genes em cromossomos diferentes se separam de forma independente.
-- **AaBb × AaBb**: proporção 9 : 3 : 3 : 1.
-- Não vale para genes ligados, salvo recombinação (crossing-over).
+Genes em cromossomos diferentes são herdados de forma independente.
+- **AaBb × AaBb** gera a proporção 9 : 3 : 3 : 1.
+- Não vale para genes ligados (próximos no mesmo cromossomo), salvo recombinação.
+- A recombinação (crossing-over) mede a distância entre genes no mapa.
 
 ### Variações
-- **Dominância incompleta**: heterozigoto com fenótipo intermediário.
-- **Codominância e alelos múltiplos**: sistema ABO (grupo AB expressa os dois).
-- **Epistasia**: um gene inibe outro de locus diferente (UERJ 2025).
+Nem toda herança segue a dominância completa de Mendel; há casos em que os alelos e os genes interagem de outro modo.
+- **Dominância incompleta**: o heterozigoto tem fenótipo intermediário (1 : 2 : 1).
+- **Codominância e alelos múltiplos**: sistema ABO, em que o grupo AB expressa os dois alelos.
+- **Epistasia**: um gene inibe outro, de locus diferente (UERJ 2025).
+- **Herança poligênica**: vários genes somam efeitos (altura, cor da pele).
 
 ### Herança e sexo
-- Genes do X: homem com um alelo recessivo já manifesta (hemofilia, daltonismo).
+Genes nos cromossomos sexuais seguem padrões próprios — tema frequente na UERJ.
+- Homem (XY) com um alelo recessivo no X já manifesta: hemofilia, daltonismo.
 - Inativação de um X nas fêmeas gera mosaicos, como gatas tricolores (UERJ 2024).
 - **Aves ZW**: genes exclusivos do W passam só de mãe para filhas (UERJ 2026).
 
 ### Como calcular
-- **Regra do “e”**: eventos independentes se multiplicam.
-- **Regra do “ou”**: eventos exclusivos se somam.
-- Filho normal de pais Aa tem **2/3** de chance de ser portador.
+Probabilidade é a ferramenta da genética — e tem armadilhas clássicas.
+- **Regra do “e”**: eventos independentes se multiplicam (1/4 × 1/4 = 1/16).
+- **Regra do “ou”**: eventos que se excluem se somam.
+- Filho normal de pais Aa tem **2/3** de chance de ser portador, não 1/2.
 
 ### Linha do tempo
 - **1866**: Mendel publica os experimentos com ervilhas.

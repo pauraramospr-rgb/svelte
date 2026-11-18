@@ -101,11 +101,15 @@ export function buildMindMap(title: string, markdown: string): MindNode {
 
 export interface MapItem {
 	strong?: string;
+	/** Separador entre o destaque e o texto (": " quando o original tinha dois-pontos ou travessão). */
+	sep?: string;
 	text: string;
 }
 
 export interface MapBranch {
 	label: string;
+	/** Texto corrido que abre o balão (explica o ramo antes dos tópicos). */
+	lead?: string;
 	items: MapItem[];
 }
 
@@ -133,8 +137,12 @@ export function splitMapa(markdown: string): { body: string; mapa: string | null
 
 function parseItem(line: string): MapItem {
 	const t = line.replace(/^(?:[-*]|\d+\.)\s+/, '').trim();
-	const m = t.match(/^\*\*([^*]+?)\*\*\s*[:—–-]?\s*(.*)$/);
-	if (m) return { strong: clean(m[1]).replace(/[:.]$/, ''), text: clean(m[2]) };
+	const m = t.match(/^\*\*([^*]+?)\*\*(\s*[:—–]\s*|\s*)(.*)$/);
+	if (m) {
+		const rest = clean(m[3]);
+		const sep = m[2].trim() ? ': ' : /^[,.;)]/.test(rest) || !rest ? '' : ' ';
+		return { strong: clean(m[1]).replace(/[:.]$/, ''), sep, text: rest };
+	}
 	return { text: clean(t) };
 }
 
@@ -158,7 +166,10 @@ export function parseMapa(title: string, mapa: string): MindMapData {
 			if (!data.subtitle) data.subtitle = clean(line.replace(/^>\s*/, ''));
 			continue;
 		}
-		if (!/^(?:[-*]|\d+\.)\s+/.test(line)) continue;
+		if (!/^(?:[-*]|\d+\.)\s+/.test(line)) {
+			if (current && !isTimeline) current.lead = (current.lead ? current.lead + ' ' : '') + clean(line);
+			continue;
+		}
 		const item = parseItem(line);
 		if (isTimeline) data.timeline.push({ when: item.strong ?? '', what: item.text });
 		else current?.items.push(item);

@@ -122,30 +122,44 @@ Foi o item de Língua Portuguesa e Literaturas mais classificado pela UERJ nas e
 > Como o texto literário produz sentido pela forma
 
 ### O que é?
-- Escolhas de forma que criam sentido: figuras, imagens, sons, palavras.
-- Item de Língua Portuguesa e Literaturas mais cobrado pela UERJ.
+Recursos expressivos são escolhas de forma — figuras, imagens, sons, palavras — que criam sentido; é o item de Literatura mais cobrado pela UERJ.
+- O programa cita seleção de palavras, efeitos sonoros, figurações, variação linguística e figuras de linguagem.
+- Nomear não basta: a banca quer o efeito do recurso no texto.
+- Em 2026, metonímia e ironia foram cobradas como estruturantes do enredo de Pepetela.
 
 ### Comparação × metáfora
-- **Comparação** tem conectivo: “presa ao Império como uma renda esgarçada”.
-- **Metáfora** identifica direto: “sentia-se um boneco” (coisificação).
+É a distinção que mais cai — e a diferença está no conectivo.
+- **Comparação** tem “como”: “presa ao Império como uma renda esgarçada a um alfinete”.
+- **Metáfora** identifica direto: “sentia-se um boneco em que ninguém pegaria”.
+- A metáfora funde os termos e intensifica o efeito (aqui, a coisificação de Aquiles).
 
 ### Metonímia
-- Substituição por contiguidade real: parte pelo todo, lugar pela instituição.
-- Pode estruturar o enredo: Calpe pela humanidade (UERJ 2026).
+Substitui um termo por outro ligado a ele por relação real (parte e todo, lugar e instituição, autor e obra).
+- “O Planalto decidiu” = o governo; “ler Machado” = a obra.
+- Pode estruturar o enredo: Calpe representava a humanidade (UERJ 2026).
+- O calcanhar de Aquiles pode ser lido como a parte que representa toda a vulnerabilidade da família.
 
 ### Ironia
-- Contraste entre o que se diz e o que se mostra.
-- “Paraíso” para um bairro de lata; o brinde ao filho “grego” e frágil.
+Contraste entre o que se diz e o que se mostra, ou entre o esperado e o que acontece.
+- **Antífrase**: chamar de “Paraíso” um bairro de lata.
+- **Ironia trágica**: o brinde deseja ao filho a força do guerreiro grego; ele será frágil.
+- **Na narração**: “comeu-se e bebeu-se como se […] o calcanhar fosse perfeito” — a festa e o fingimento.
 
 ### Personificação e coisificação
-- “O tempo roubado pela convalescença”: a doença age como sujeito.
-- Aquiles como “marioneta” desmontada: o corpo vira objeto.
+Duas operações opostas que, juntas, dizem muito sobre o drama de Aquiles.
+- **Personificação**: “o tempo roubado pela convalescença” — a doença age como sujeito.
+- **Coisificação**: Aquiles se vê como “marioneta” desmontada — o corpo vira objeto.
+- O vocabulário médico (“pinos intramedulares”) reforça a frieza do tratamento.
 
 ### Outros recursos
-- Alusão (Aquiles), metalinguagem e metaficção (início do romance).
-- Variação linguística: português europeu como marca de lugar.
-- Pontuação e vocabulário técnico também produzem efeito.
+O romance de 2027 usa também recursos ligados à língua e à própria escrita.
+- **Alusão**: o nome Aquiles e o mito do calcanhar (intertextualidade).
+- **Metalinguagem e metaficção**: o narrador comenta como uma história começa.
+- **Variação linguística**: o português europeu (“bata”, “bebé”, ênclises) marca lugar e pertencimento.
 
 ### Como responder
-- Identifique, localize, justifique a classificação.
+Siga quatro passos: identificar, localizar, justificar e interpretar.
+- Identifique o recurso pelo nome técnico.
+- Localize as palavras exatas do trecho.
+- Justifique a classificação (“é metáfora porque não há conectivo”).
 - Explique o efeito no contexto da obra — sem isso, a resposta é parcial.

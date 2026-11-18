@@ -110,31 +110,42 @@ Por que é completa: responde aos **três comandos na ordem**, justifica a liga�
 > Ligações químicas e propriedades das substâncias
 
 ### O que é?
-- União entre átomos que os torna mais estáveis.
-- O tipo de ligação depende da diferença de eletronegatividade.
+Ligação química é a união entre átomos que os torna mais estáveis; o tipo de ligação depende de como os átomos atraem elétrons (eletronegatividade).
+- Metal + ametal: iônica; ametal + ametal: covalente; metal + metal: metálica.
+- O tipo de ligação explica propriedades como fusão, condução e solubilidade.
+- Item de Química muito classificado pela UERJ, quase sempre junto com outros.
 
 ### Iônica
-- Metal transfere elétrons para ametal, formando cátions e ânions.
-- Sólidos com altos pontos de fusão; conduzem fundidos ou em solução (NaCl).
+Um metal transfere elétrons para um ametal, formando íons que se atraem.
+- Cátions (+) e ânions (−) organizados em retículo cristalino (NaCl).
+- Sólidos com altos pontos de fusão.
+- Conduzem corrente quando fundidos ou dissolvidos em água.
 
 ### Covalente
-- Ametais compartilham pares de elétrons (simples, dupla, tripla).
-- **Apolar**: átomos iguais (Br₂, N₂); **polar**: eletronegatividades diferentes (N–H).
+Ametais compartilham pares de elétrons, em ligações simples, duplas ou triplas.
+- **Apolar**: átomos iguais, sem polos (Br₂, N₂).
+- **Polar**: eletronegatividades diferentes geram polos δ+ e δ− (N–H, O–H).
 - **Dativa**: um átomo cede o par compartilhado (NH₄⁺).
 
 ### Metálica
-- Cátions imersos em um “mar” de elétrons livres.
-- Explica condutividade, brilho e maleabilidade dos metais.
+Cátions metálicos ficam imersos num “mar” de elétrons livres.
+- Explica a condução de eletricidade e calor.
+- Explica o brilho e a maleabilidade dos metais.
 
 ### Geometria e polaridade
-- Pares de elétrons se repelem: CO₂ linear, NH₃ piramidal, H₂O angular.
-- Ligação polar não garante molécula polar: CO₂ é apolar.
+A forma da molécula decide se ela é polar — não só o tipo de ligação.
+- Pares de elétrons se repelem: CO₂ linear, NH₃ piramidal, H₂O angular, CH₄ tetraédrica.
+- CO₂ tem ligações polares, mas é apolar: os vetores se anulam.
+- O par não ligante do NH₃ deixa a molécula polar.
 
 ### Forças intermoleculares
-- London < dipolo-dipolo < ligação de hidrogênio (H com F, O ou N).
-- A água ferve a 100 °C por causa das ligações de hidrogênio.
+São as atrações entre moléculas que explicam pontos de ebulição e solubilidade.
+- London < dipolo-dipolo < ligação de hidrogênio (H ligado a F, O ou N).
+- A água ferve a 100 °C, e o H₂S a cerca de −60 °C, por causa das ligações de hidrogênio.
 - “Semelhante dissolve semelhante”: polar com polar, apolar com apolar.
 
 ### Na prova (UERJ)
-- Três ou quatro comandos curtos: grupo/período, ligação, geometria, oxidante.
-- **Agente oxidante** é quem se reduz (Cl₂ na questão de 2026).
+As questões juntam vários comandos curtos sobre um contexto ambiental ou tecnológico.
+- Grupo e período, tipo de ligação, geometria, polaridade, agente oxidante.
+- **Agente oxidante** é quem se reduz (o Cl₂ na questão de 2026).
+- Responda a todos os comandos, na ordem pedida.

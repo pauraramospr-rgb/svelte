@@ -1,9 +1,13 @@
-<svelte:head><title>Sobre · Discursiva</title></svelte:head>
+<script lang="ts">
+	import { APP_NAME } from '$lib/brand';
+</script>
+
+<svelte:head><title>Sobre · {APP_NAME}</title></svelte:head>
 
 <h1>Sobre a plataforma</h1>
 <div class="card prose">
 	<p>
-		A <strong>Discursiva</strong> é uma plataforma independente de estudos para o Exame Discursivo do Vestibular Estadual da UERJ. Ela <strong>não tem vínculo</strong>
+		A <strong>{APP_NAME}</strong> é uma plataforma independente de estudos para o Exame Discursivo do Vestibular Estadual da UERJ. Ela <strong>não tem vínculo</strong>
 		com a Universidade do Estado do Rio de Janeiro nem com o DEPSEA, e não representa posições oficiais da universidade.
 	</p>
 	<p>

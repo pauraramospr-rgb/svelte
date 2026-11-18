@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/brand';
 	import CategoryTag from '$lib/components/CategoryTag.svelte';
 	import SourceRef from '$lib/components/SourceRef.svelte';
 	import { DISCIPLINES } from '$lib/data/official/exam-2027';
@@ -9,7 +10,7 @@
 	const suggested = $derived(kind === 'completo' ? Math.round(300 * (perProva / 10)) : perProva * 15);
 </script>
 
-<svelte:head><title>Novo simulado · Discursiva</title></svelte:head>
+<svelte:head><title>Novo simulado · {APP_NAME}</title></svelte:head>
 
 <p class="small"><a href="/simulados">← Simulados</a></p>
 <h1>Novo simulado</h1>

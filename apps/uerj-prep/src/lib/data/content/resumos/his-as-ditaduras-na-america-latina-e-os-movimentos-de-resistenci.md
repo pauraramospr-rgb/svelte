@@ -11,64 +11,79 @@ reviewed: 2026-11-18
 - STF. ADPF 153 (2010). Corte Interamericana de Direitos Humanos. Caso Gomes Lund e outros vs. Brasil (2010).
 - Estatuto do Tribunal Militar Internacional de Nuremberg (Acordo de Londres, 1945).
 - RICOEUR, Paul. A memória, a história, o esquecimento (2000). FICO, Carlos. Como eles agiam (2001). DINGES, John. Os anos do Condor (2004).
+- Memórias Reveladas (Arquivo Nacional). Lula recria comissão de desaparecidos extinta por Bolsonaro (2024): https://www.gov.br/memoriasreveladas/pt-br/assuntos/noticias/lula-recria-comissao-de-desaparecidos-extinta-por-bolsonaro
+- MPF/PRR3. JK entra oficialmente no rol de vítimas da ditadura (29/05/2026): https://www.mpf.mp.br/o-mpf/unidades/prr3/noticias/comissao-sobre-mortos-e-desaparecidos-anuncia-em-coletiva-no-mpf-que-jk-entra-oficialmente-no-rol-de-vitimas-da-ditadura
 ---
 
 ## Em uma frase
 
-Na Guerra Fria, golpes militares com apoio civil e dos EUA instalaram ditaduras no Brasil (1964), no Chile e no Uruguai (1973) e na Argentina (1976), que governaram pela repressão — tortura, mortes, desaparecimentos e cooperação entre si na Operação Condor; com a redemocratização, as sociedades passaram a lidar com esse passado por meio da justiça de transição (verdade, memória, reparação e justiça), cujo marco de origem é o Tribunal de Nuremberg e que, no Brasil, inclui a CEMDP e a correção das certidões de óbito.
+Na Guerra Fria, golpes militares com apoio civil e dos EUA instalaram ditaduras no Brasil (1964), no Chile e no Uruguai (1973) e na Argentina (1976), que governaram pela repressão — tortura, mortes, desaparecimentos e cooperação entre si na Operação Condor —; com a volta da democracia, essas sociedades passaram a lidar com o passado por meio da justiça de transição (verdade, memória, reparação e justiça), cujo marco de origem é o Tribunal de Nuremberg e que, no Brasil, inclui a CEMDP e a correção das certidões de óbito.
+
+## O fio da história
+
+1. **Antes** — Guerra Fria, Revolução Cubana e a doutrina do “inimigo interno”.
+2. **Causas** — anticomunismo, crise econômica, polarização em torno das reformas e apoio dos EUA.
+3. **Como começou** — golpe de 1964 no Brasil; depois Chile e Uruguai (1973) e Argentina (1976).
+4. **O processo** — atos institucionais, terrorismo de Estado, “milagre”, Operação Condor, resistências, abertura.
+5. **Desfecho** — redemocratização entre 1983 e 1990; no Brasil, transição negociada com anistia.
+6. **Consequências** — mortos e desaparecidos, dívida, impunidade e disputa de memória.
+7. **Depois** — justiça de transição: de Nuremberg à CEMDP, à CNV e às certidões corrigidas; caso JK (2026).
 
 ## Explicação detalhada (a história em ordem)
 
 ### 1. Antes: o contexto
 
-- **Guerra Fria (desde 1947).** O mundo dividido entre EUA e URSS; a América Latina era vista pelos EUA como sua área de influência.
-- **Revolução Cubana (1959).** Cuba aproximou-se da URSS, e o medo de “novas Cubas” passou a orientar a política dos EUA e das Forças Armadas latino-americanas.
-- **Doutrina de Segurança Nacional.** Formulada nas escolas militares (no Brasil, a Escola Superior de Guerra), dizia que o principal inimigo era **interno**: o “subversivo”, o comunista — o que justificava suspender direitos em nome da segurança.
-- **Reformismo e polarização.** No Brasil, o governo João Goulart (1961–1964) defendia as **reformas de base** (agrária, urbana, educacional); no Chile, Salvador Allende (eleito em 1970) iniciava a “via chilena ao socialismo”.
+Depois de 1945, o mundo se dividiu entre EUA e URSS, e a América Latina passou a ser vista pelos EUA como sua área de influência na **Guerra Fria**. A **Revolução Cubana (1959)**, que aproximou Cuba da URSS, espalhou entre militares e elites o medo de “novas Cubas”. Nas escolas militares — no Brasil, a Escola Superior de Guerra — formou-se a **Doutrina de Segurança Nacional**: o principal inimigo não estaria fora, mas **dentro** do país, o “subversivo”, o comunista. Ao mesmo tempo, governos reformistas ganhavam força: no Brasil, **João Goulart (1961–1964)** defendia as **reformas de base** (agrária, urbana, educacional); no Chile, **Salvador Allende**, eleito em 1970, tentava a “via chilena ao socialismo”.
+
+> **Ligação com a próxima etapa:** quando reformas sociais e o medo do comunismo se encontraram, setores poderosos passaram a defender a ruptura da ordem democrática.
 
 ### 2. As causas
 
-- **Anticomunismo** das Forças Armadas, de setores empresariais, de parte da Igreja, da classe média e da grande imprensa.
-- **Crise econômica e política** (inflação, greves, conflitos no campo) e polarização em torno das reformas.
-- **Apoio dos EUA**, que temiam governos de esquerda no continente (no Brasil, a operação Brother Sam estava pronta para apoiar os golpistas em 1964).
-- **Projeto de modernização autoritária**: crescer economicamente sem democracia nem reformas sociais.
+O golpe teve várias forças por trás. Havia o **anticomunismo** das Forças Armadas, de grande parte do empresariado, da imprensa, de setores da Igreja e da classe média. Havia uma **crise econômica e política** — inflação, greves, conflitos no campo — e uma **polarização** cada vez maior em torno das reformas. E havia o **apoio dos EUA**: no Brasil, a operação Brother Sam estava pronta para socorrer os golpistas em 1964. Por trás de tudo, um projeto de **modernização autoritária**: crescer economicamente sem democracia nem reformas sociais.
+
+> **Ligação com a próxima etapa:** no Brasil, essas forças se uniram em 31 de março de 1964.
 
 ### 3. Como começou
 
-- **Brasil, 31 de março–1º de abril de 1964**: golpe civil-militar depõe João Goulart; o marechal Castelo Branco assume. O **AI-1** permite cassar mandatos e direitos políticos.
-- **O ciclo se espalha**: Bolívia (1964), Argentina (1966 e **1976**), **Uruguai (1973)** e **Chile (11 de setembro de 1973)**, com o bombardeio do palácio de La Moneda e a morte de Allende.
+Entre **31 de março e 1º de abril de 1964**, um golpe civil-militar derrubou João Goulart; o marechal Castelo Branco assumiu a presidência, e o **Ato Institucional nº 1** permitiu cassar mandatos e suspender direitos políticos (JK foi cassado em junho). O ciclo se espalhou pelo continente: Bolívia (1964), Argentina (1966 e, de forma mais violenta, **1976**), **Uruguai (1973)** e **Chile (11 de setembro de 1973)**, com o bombardeio do palácio de La Moneda e a morte de Allende.
+
+> **Ligação com a próxima etapa:** no poder, os militares foram fechando os espaços políticos e institucionalizando a repressão.
 
 ### 4. O processo, etapa por etapa
 
-1. **Institucionalização do arbítrio (Brasil).** **AI-2 (1965)**: fim dos partidos e eleições indiretas para presidente; **Constituição de 1967**; **AI-5 (13 de dezembro de 1968)**: fechamento do Congresso, suspensão do *habeas corpus* para crimes políticos e censura prévia.
-2. **Repressão e terrorismo de Estado.** Órgãos como o DOI-CODI praticaram **tortura sistemática**, assassinatos e **desaparecimentos forçados**. Casos emblemáticos: **Rubens Paiva** (1971), **Stuart Angel** (1971) e sua mãe, **Zuzu Angel** (1976), **Vladimir Herzog** (1975), cuja morte sob tortura foi apresentada como suicídio. A repressão também atingiu camponeses e povos indígenas.
-3. **“Milagre econômico” (1968–1973).** Crescimento alto com **arrocho salarial**, **concentração de renda** e **endividamento externo**; grandes obras e projetos na Amazônia (Transamazônica, depois Grande Carajás).
-4. **Operação Condor (formalizada em 1975).** Coordenação repressiva entre Chile, Argentina, Uruguai, Paraguai, Bolívia e Brasil: troca de informações, sequestros, transferências ilegais de presos e assassinatos de exilados em outros países — como o de Orlando Letelier, ex-ministro de Allende, em Washington (1976), e o sequestro de uruguaios em Porto Alegre (1978). Os “**Arquivos do Terror**”, achados no Paraguai em 1992, comprovaram a operação.
-5. **Resistências.** Movimento estudantil (Passeata dos Cem Mil, 1968), luta armada urbana e rural (Guerrilha do Araguaia, 1972–1974), artistas e imprensa alternativa (*O Pasquim*), setores da Igreja (D. Paulo Evaristo Arns), o MDB nas eleições de 1974, o **novo sindicalismo** do ABC (1978–1980), a campanha pela **Anistia**. Na Argentina, as **Mães da Praça de Maio** (desde 1977).
-6. **Abertura “lenta, gradual e segura” (Geisel e Figueiredo).** A **Lei da Anistia (1979)** trouxe de volta exilados e libertou presos políticos, mas foi interpretada como beneficiando também os agentes da repressão (“crimes conexos”). A extrema direita reagiu com atentados — como o do **Riocentro (1981)**. As **Diretas Já (1984)** mobilizaram milhões, mas a emenda foi derrotada.
+**O arbítrio vira lei (Brasil, 1965–1968).** O **AI-2 (1965)** extinguiu os partidos e tornou indireta a eleição para presidente; veio a **Constituição de 1967**; e o **AI-5 (13 de dezembro de 1968)** fechou o Congresso, suspendeu o *habeas corpus* para crimes políticos e instituiu a censura prévia.
+
+**Terrorismo de Estado.** Órgãos como o DOI-CODI praticaram **tortura sistemática**, assassinatos e **desaparecimentos forçados**. Entre os casos mais conhecidos estão os de **Rubens Paiva** (1971), **Stuart Angel** (1971) e de sua mãe, **Zuzu Angel** (1976), e de **Vladimir Herzog** (1975), cuja morte sob tortura foi apresentada como suicídio. A repressão atingiu também camponeses e povos indígenas.
+
+**O “milagre econômico” (1968–1973).** O país cresceu rápido, mas com **arrocho salarial**, **concentração de renda** e **endividamento externo**; grandes obras e projetos na Amazônia (Transamazônica, depois o Grande Carajás) mudaram o território à custa do ambiente e das populações locais.
+
+**A Operação Condor (formalizada em 1975).** As ditaduras do Cone Sul — Chile, Argentina, Uruguai, Paraguai, Bolívia e Brasil — passaram a **cooperar na repressão**: trocavam informações, sequestravam, transferiam presos ilegalmente e assassinavam exilados em outros países, como Orlando Letelier, ex-ministro de Allende, morto em Washington (1976). Em 1978, uruguaios foram sequestrados em Porto Alegre. Os “**Arquivos do Terror**”, achados no Paraguai em 1992, comprovaram a operação.
+
+**As resistências.** O movimento estudantil (Passeata dos Cem Mil, 1968), a luta armada urbana e rural (Guerrilha do Araguaia, 1972–1974), artistas e a imprensa alternativa (*O Pasquim*), setores da Igreja (D. Paulo Evaristo Arns), o MDB nas eleições de 1974, o **novo sindicalismo** do ABC (1978–1980) e a campanha pela **Anistia** enfrentaram o regime. Na Argentina, as **Mães da Praça de Maio** (desde 1977) tornaram-se símbolo da luta pelos desaparecidos.
+
+**A abertura “lenta, gradual e segura” (1974–1985).** Sob Geisel e Figueiredo, a **Lei da Anistia (1979)** trouxe de volta os exilados e libertou presos políticos, mas foi interpretada como beneficiando também os agentes da repressão (“crimes conexos”). A extrema direita reagiu com atentados para barrar a abertura — o do **Riocentro (1981)** é o mais conhecido. As **Diretas Já (1984)** levaram milhões às ruas, mas a emenda foi derrotada no Congresso.
+
+> **Ligação com a próxima etapa:** com a economia em crise e a sociedade mobilizada, os regimes não se sustentaram.
 
 ### 5. O desfecho
 
-- **Argentina (1983)**, depois da derrota nas Malvinas (1982); **Uruguai (1985)**; **Brasil (1985)**, com a eleição indireta de Tancredo Neves — que morreu antes da posse, assumindo José Sarney —, a **Constituição de 1988** (“cidadã”) e a eleição direta de 1989; **Chile (1990)**, depois de Pinochet perder o plebiscito de 1988.
-- No Brasil, a transição foi **negociada** e preservou a anistia aos agentes do Estado.
+A democracia voltou na **Argentina (1983)**, depois da derrota nas Malvinas (1982); no **Uruguai (1985)**; no **Brasil (1985)**, com a eleição indireta de Tancredo Neves — que morreu antes da posse, assumindo José Sarney —, seguida da **Constituição de 1988** (“Constituição Cidadã”) e da eleição direta de 1989; e no **Chile (1990)**, depois que Pinochet perdeu o plebiscito de 1988. No Brasil, a transição foi **negociada** e manteve a anistia aos agentes do Estado.
+
+> **Ligação com a próxima etapa:** a democracia herdou não só um país em crise, mas também os mortos e os silêncios da ditadura.
 
 ### 6. As consequências
 
-- **Vítimas:** no Brasil, a Comissão Nacional da Verdade identificou **434 mortos e desaparecidos políticos**, além de milhares de presos, torturados, cassados e exilados.
-- **Economia:** dívida externa, inflação e concentração de renda herdadas pela democracia (a “década perdida” dos anos 1980).
-- **Impunidade:** no Brasil, nenhum agente foi condenado criminalmente pelas violações; famílias ainda procuram corpos.
-- **Disputas de memória:** o mesmo período é chamado de “revolução” por defensores do regime e de golpe e ditadura pela historiografia e pelas instituições democráticas.
+No Brasil, a Comissão Nacional da Verdade identificou **434 mortos e desaparecidos políticos**, além de milhares de presos, torturados, cassados e exilados. A economia chegou à democracia com **dívida externa, inflação e concentração de renda** (a “década perdida” dos anos 1980). Diferentemente da Argentina, o Brasil não condenou criminalmente nenhum agente pelas violações, e muitas famílias ainda procuram corpos. E abriu-se uma **disputa de memória**: o mesmo período é chamado de “revolução” por defensores do regime e de golpe e ditadura pela historiografia e pelas instituições democráticas.
+
+> **Ligação com a próxima etapa:** lidar com esse legado é o que se chama justiça de transição — e sua origem está no fim da Segunda Guerra.
 
 ### 7. Importância e o depois
 
-- **Nuremberg, o precedente (1945–1946).** O Tribunal Militar Internacional, formado por **EUA, Reino Unido, França e União Soviética**, julgou líderes nazistas por crimes contra a paz, crimes de guerra e **crimes contra a humanidade**; doze foram condenados à morte. Princípios: **cumprir ordens não exime de responsabilidade**; certos crimes atingem toda a humanidade. Crítica: “**justiça dos vencedores**”. Herança: Convenção contra o Genocídio e Declaração Universal dos Direitos Humanos (1948), Tribunal Penal Internacional (1998) e a ideia de que crimes contra a humanidade são **imprescritíveis**.
-- **Justiça de transição** = verdade, memória, reparação, justiça e reformas institucionais.
-  - **Argentina**: Julgamento das Juntas (1985); leis de anistia (1986–1987) anuladas nos anos 2000; centenas de condenados.
-  - **Chile**: Comissão Rettig (1991); prisão de Pinochet em Londres (1998).
-  - **Brasil**: **CEMDP** (Lei 9.140/1995), que reconheceu a responsabilidade do Estado e indenizou famílias — extinta no fim de 2022 e recriada em 2024; Comissão de Anistia (2002); **STF, ADPF 153 (2010)**, que manteve a anistia aos agentes; **Corte Interamericana, caso Gomes Lund (2010)**, que condenou o Brasil e disse que a anistia não pode impedir a punição de graves violações; **Comissão Nacional da Verdade (2012–2014)**.
-- **As certidões de óbito.** A **Resolução 601/2024 do CNJ** mandou registrar como causa da morte dos mortos e desaparecidos reconhecidos: “morte não natural, violenta, causada pelo Estado brasileiro”. As primeiras certidões corrigidas foram entregues em **2025** (Zuzu Angel, Vladimir Herzog, Rubens Paiva, entre outras) — tema da UERJ em 2026.
-- **O caso JK (2026).** Em maio, a CEMDP reconheceu a morte de Juscelino Kubitschek (1976) como causada pela ditadura, divergindo da conclusão de acidente da CNV.
-- **Memória e esquecimento.** Paul Ricoeur distingue o esquecimento imposto (como certas anistias) do trabalho de memória. No Brasil, o debate passa por nomes de ruas que homenageiam agentes do regime, abertura de arquivos, lugares de memória (como o antigo DOI-CODI em São Paulo) e obras como **“Ainda estou aqui”** (livro de 2015; filme de 2024, Oscar de melhor filme internacional em 2025), sobre a família de Rubens Paiva.
+**Nuremberg, o precedente.** Entre novembro de 1945 e outubro de 1946, o **Tribunal Militar Internacional de Nuremberg**, formado por **EUA, Reino Unido, França e União Soviética**, julgou líderes nazistas por crimes contra a paz, crimes de guerra e **crimes contra a humanidade**; doze foram condenados à morte. Ficaram dois princípios: **cumprir ordens não exime de responsabilidade**, e certos crimes atingem toda a humanidade. A crítica de “**justiça dos vencedores**” acompanha o tribunal (só os derrotados foram julgados). Sua herança inclui a Convenção contra o Genocídio e a Declaração Universal dos Direitos Humanos (1948), o Tribunal Penal Internacional (1998) e a ideia de que crimes contra a humanidade são **imprescritíveis** — argumento central no debate sobre a anistia brasileira.
+
+**A justiça de transição na América Latina.** A **Argentina** julgou as Juntas militares (1985), recuou com leis de anistia (1986–1987) e, depois de anulá-las nos anos 2000, condenou centenas de repressores. O **Chile** teve a Comissão Rettig (1991) e viu Pinochet ser preso em Londres (1998). O **Brasil** priorizou verdade e reparação: a **CEMDP** (Lei 9.140/1995) reconheceu a responsabilidade do Estado e indenizou famílias — foi extinta no fim de 2022 e recriada em 2024; a Comissão de Anistia (2002) reparou perseguidos; o **STF (ADPF 153, 2010)** manteve a anistia aos agentes, enquanto a **Corte Interamericana (caso Gomes Lund, 2010)** condenou o Brasil e afirmou que a anistia não pode impedir a punição de graves violações; a **Comissão Nacional da Verdade (2012–2014)** produziu o relatório final.
+
+**Memória no tempo presente.** A **Resolução 601/2024 do CNJ** mandou registrar nas certidões dos mortos e desaparecidos reconhecidos: “morte não natural, violenta, causada pelo Estado brasileiro”. As primeiras certidões corrigidas — entre elas as de Zuzu Angel, Vladimir Herzog e Rubens Paiva — foram entregues em **2025**, tema da UERJ em 2026. Em **29 de maio de 2026**, a CEMDP reconheceu **JK** como vítima da ditadura, divergindo da CNV. O filósofo Paul Ricoeur distingue o esquecimento imposto (como certas anistias) do trabalho de memória; no Brasil, ele passa pela abertura de arquivos, pelos nomes de ruas que homenageiam agentes do regime, pelos lugares de memória (como o antigo DOI-CODI em São Paulo) e por obras como **“Ainda estou aqui”** (livro de 2015; filme de 2024, Oscar de melhor filme internacional em 2025), sobre a família de Rubens Paiva.
 
 ## Linha do tempo
 
@@ -90,7 +105,7 @@ Na Guerra Fria, golpes militares com apoio civil e dos EUA instalaram ditaduras 
 | 2014 | Relatório da Comissão Nacional da Verdade |
 | 2024 | Resolução 601 do CNJ; CEMDP recriada |
 | 2025 | Primeiras certidões corrigidas; Oscar para “Ainda estou aqui” |
-| 2026 | CEMDP reconhece a morte de JK como causada pela ditadura |
+| 2026 | CEMDP reconhece JK como vítima da ditadura |
 
 ## Conceitos fundamentais
 
@@ -101,26 +116,14 @@ Na Guerra Fria, golpes militares com apoio civil e dos EUA instalaram ditaduras 
 - **Justiça de transição**: verdade, memória, reparação, justiça e garantias de não repetição.
 - **Crimes contra a humanidade**: violações graves e sistemáticas contra civis, consideradas imprescritíveis pelo direito internacional.
 
-## Exemplos práticos
+## Aprofundamento e conexões (nível UERJ)
 
-1. **Documento + presente**: a carta de Zuzu Angel ao presidente Geisel (1975) e a correção de sua certidão de óbito (2025) — exatamente o par usado pela UERJ em 2026.
-2. **Repressão transnacional**: um exilado brasileiro preso na Argentina e entregue ao Brasil sem processo = Operação Condor.
-3. **Nuremberg → América Latina**: “cumpri ordens” não é defesa aceita — argumento usado na Argentina para julgar repressores.
-
-## Aprofundamento (nível UERJ)
-
-- **Por que corrigir uma certidão importa?** Transforma em registro oficial o reconhecimento de que o Estado matou: reparação simbólica, combate ao negacionismo, garantia de não repetição — o núcleo da resposta esperada em 2026.
+- **Documento + presente**: a carta de Zuzu Angel ao presidente Geisel (1975) e a correção de sua certidão de óbito (2025) — exatamente o par usado pela UERJ em 2026.
+- **Por que corrigir uma certidão importa?** Transforma em registro oficial o reconhecimento de que o Estado matou: reparação simbólica, combate ao negacionismo, garantia de não repetição.
 - **Anistia ampla × direito internacional**: a ADPF 153 e o caso Gomes Lund mostram a tensão entre a interpretação interna da anistia e a obrigação de investigar crimes contra a humanidade.
 - **Nuremberg e seus limites**: princípios universais, mas tribunal formado pelos vencedores — reconheça as duas faces.
 - **Atentados × repressão**: a UERJ (2025) pediu para não confundir os atentados da extrema direita (Riocentro) com a tortura nos porões.
-
-## Relações com outros conteúdos
-
-- **Guerra Fria** e apoio dos EUA aos golpes.
-- **Segunda Guerra Mundial** e criação da ONU (Nuremberg, DUDH).
-- **Estado e industrialização**: cassação de JK, Frente Ampla e o caso JK na CEMDP.
-- **Literatura e cinema**: “Ainda estou aqui”.
-- **Redação/Direito**: memória coletiva, negacionismo, direitos humanos.
+- **Conexões**: Guerra Fria e apoio dos EUA; Segunda Guerra e ONU; cassação de JK e Frente Ampla; “Ainda estou aqui”; debates de Direito sobre memória e direitos humanos.
 
 ## Como o assunto pode aparecer na prova discursiva
 
@@ -167,56 +170,65 @@ Por que é completa: usa os **termos da época** e, na segunda parte, o **concei
 > Cone Sul, 1964–1990 · e a memória até 2026
 
 ### O que foi?
-- Regimes militares com apoio civil instalados por golpes durante a Guerra Fria.
-- Governaram pela repressão; depois, a democracia teve de lidar com esse passado.
+Ditaduras militares com apoio civil, instaladas por golpes durante a Guerra Fria, que governaram pela repressão.
+- **Brasil (1964–1985)**, Chile e Uruguai (1973), Argentina (1976–1983).
+- Tortura, mortes e desaparecimentos como política de Estado.
+- Depois, as democracias tiveram de lidar com esse passado: verdade, memória, reparação e justiça.
 
 ### Antes (contexto)
-- **Guerra Fria**: América Latina vista pelos EUA como sua área de influência.
-- **Revolução Cubana (1959)**: medo de “novas Cubas”.
+O medo do comunismo na Guerra Fria preparou o terreno para os golpes.
+- **Guerra Fria**: os EUA viam a América Latina como sua área de influência.
+- **Revolução Cubana (1959)** espalha o medo de “novas Cubas”.
 - **Segurança Nacional**: o inimigo seria interno, o “subversivo”.
-- Reformas de base de Jango e governo Allende polarizam a política.
+- Reformas de base de Jango e o governo Allende polarizam a política.
 
 ### Causas
-- Anticomunismo de militares, empresários, imprensa e parte da classe média.
-- Crise econômica, greves e conflitos no campo.
+Várias forças se uniram contra as reformas e a democracia.
+- Anticomunismo de militares, empresários, imprensa, parte da Igreja e da classe média.
+- Inflação, greves e conflitos no campo alimentam a crise.
 - Apoio dos EUA aos golpistas (operação Brother Sam, 1964).
-- Projeto de crescer economicamente sem democracia.
+- Projeto de crescer economicamente sem democracia nem reformas sociais.
 
 ### Como começou
-- **1964**: golpe depõe Jango; AI-1 permite cassações.
-- **1973**: golpes no Chile (morte de Allende) e no Uruguai.
+Um golpe no Brasil abriu um ciclo que tomou o Cone Sul.
+- **1964**: golpe depõe Jango; o AI-1 permite cassações (JK cassado em junho).
+- **1973**: golpes no Chile (morte de Allende em La Moneda) e no Uruguai.
 - **1976**: golpe na Argentina, o mais violento do ciclo.
 
 ### Etapas
-- **AI-5 (1968)**: Congresso fechado, censura e fim do habeas corpus político.
-- **Terrorismo de Estado**: tortura, mortes e desaparecimentos (Herzog, Rubens Paiva).
-- **“Milagre” (1968–1973)**: crescimento com arrocho e dívida.
-- **Operação Condor (1975)**: repressão coordenada entre os países.
-- **Resistências**: estudantes, guerrilha, Igreja, sindicatos e Mães da Praça de Maio.
-- **Abertura**: Lei da Anistia (1979), Riocentro (1981), Diretas Já (1984).
+No poder, os militares fecharam os espaços políticos, reprimiram a oposição e, depois, negociaram a saída.
+- **AI-5 (1968)**: Congresso fechado, censura e fim do habeas corpus para crimes políticos.
+- **Terrorismo de Estado**: DOI-CODI; casos de Herzog, Rubens Paiva, Stuart e Zuzu Angel.
+- **“Milagre” (1968–1973)**: crescimento com arrocho salarial, concentração de renda e dívida.
+- **Operação Condor (1975)**: ditaduras trocam presos e matam exilados em outros países.
+- **Resistências**: estudantes, guerrilha, Igreja, novo sindicalismo e Mães da Praça de Maio.
+- **Abertura**: Lei da Anistia (1979), atentado do Riocentro (1981), Diretas Já (1984).
 
 ### Desfecho
-- Redemocratização: Argentina (1983), Uruguai e Brasil (1985), Chile (1990).
-- Brasil: Constituição de 1988 e eleição direta em 1989.
+A democracia voltou entre 1983 e 1990, em transições diferentes.
+- Argentina (1983), Uruguai e Brasil (1985), Chile (1990).
+- Brasil: Tancredo eleito indiretamente, Constituição de 1988 e eleição direta em 1989.
 - Transição negociada que manteve a anistia aos agentes do Estado.
 
 ### Consequências
-- **434** mortos e desaparecidos no Brasil (CNV), além de torturados e exilados.
-- Dívida externa, inflação e concentração de renda para a democracia.
-- Impunidade no Brasil × condenações na Argentina.
+A democracia herdou mortos, silêncios e uma economia em crise.
+- **434** mortos e desaparecidos no Brasil (CNV), além de torturados, cassados e exilados.
+- Dívida externa, inflação e concentração de renda: a “década perdida”.
+- Impunidade no Brasil × condenações de repressores na Argentina.
 - Disputa de memória: “revolução” × golpe e ditadura.
 
 ### Importância e depois
-- **Nuremberg (1945–1946)**: ordens não eximem de culpa; crimes contra a humanidade.
-- **CEMDP (1995)**, CNV (2014) e certidões corrigidas (2024–2025).
-- **2026**: CEMDP reconhece que a ditadura causou a morte de JK.
-- Memória × esquecimento: “Ainda estou aqui”, arquivos e nomes de ruas.
+Lidar com o passado é a justiça de transição — e ela começou em Nuremberg.
+- **Nuremberg (1945–1946)**: ordens não eximem de culpa; crimes contra a humanidade são imprescritíveis.
+- **CEMDP (1995)**, CNV (2014), ADPF 153 × caso Gomes Lund (2010).
+- **Certidões corrigidas (2025)**: “morte causada pelo Estado brasileiro”, tema da UERJ 2026.
+- **2026**: CEMDP reconhece JK como vítima; memória × esquecimento em “Ainda estou aqui”.
 
 ### Linha do tempo
 - **1946**: sentenças de Nuremberg.
 - **1964**: golpe no Brasil.
 - **1968**: AI-5.
-- **1973**: golpe no Chile.
+- **1973**: golpes no Chile e no Uruguai.
 - **1975**: Operação Condor.
 - **1979**: Lei da Anistia.
 - **1985**: fim da ditadura no Brasil.

@@ -171,7 +171,7 @@ async function flow(label, ctx, withAi) {
 		await p.click('nav a:has-text("Temas em evidência")');
 		await p.waitForSelector('text=250 anos da Independência dos Estados Unidos');
 		await p.click('a:has-text("Estado e industrialização na América Latina") >> nth=0');
-		await p.waitForSelector('text=Aprofundamento (nível UERJ)');
+		await p.waitForSelector('text=O fio da história');
 		await p.click('button:has-text("Mapa mental")');
 		await p.waitForSelector('.mm .branch');
 		await p.waitForSelector('.mm .timeline li');

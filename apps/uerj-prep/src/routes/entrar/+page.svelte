@@ -1,11 +1,12 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/brand';
 	import { enhance } from '$app/forms';
 	import { page } from '$app/state';
 	let { form } = $props();
 	let busy = $state(false);
 </script>
 
-<svelte:head><title>Entrar · Discursiva</title></svelte:head>
+<svelte:head><title>Entrar · {APP_NAME}</title></svelte:head>
 
 <div class="auth card">
 	<h1>Entrar</h1>

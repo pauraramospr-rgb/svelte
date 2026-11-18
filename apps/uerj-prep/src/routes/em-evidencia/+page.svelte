@@ -1,11 +1,12 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/brand';
 	import CategoryTag from '$lib/components/CategoryTag.svelte';
 	import DisciplineBadge from '$lib/components/DisciplineBadge.svelte';
 
 	let { data } = $props();
 </script>
 
-<svelte:head><title>Temas em evidência · Discursiva</title></svelte:head>
+<svelte:head><title>Temas em evidência · {APP_NAME}</title></svelte:head>
 
 <h1>Temas em evidência para 2027</h1>
 <p class="muted">

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/brand';
 	import DisciplineBadge from '$lib/components/DisciplineBadge.svelte';
 	import CategoryTag from '$lib/components/CategoryTag.svelte';
 	import { page } from '$app/state';
@@ -11,7 +12,7 @@
 	};
 </script>
 
-<svelte:head><title>Banco de questões · Discursiva</title></svelte:head>
+<svelte:head><title>Banco de questões · {APP_NAME}</title></svelte:head>
 
 <h1>Banco de questões</h1>
 <p class="muted">

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/brand';
 	import QuestionView from '$lib/components/QuestionView.svelte';
 	import AnswerPanel from '$lib/components/AnswerPanel.svelte';
 	import Feedback from '$lib/components/Feedback.svelte';
@@ -9,7 +10,7 @@
 	const creditText = (c: number | null) => (c === null ? 'aguardando correção' : c >= 0.99 ? 'total' : c > 0 ? 'parcial' : 'nula');
 </script>
 
-<svelte:head><title>{data.q.source === 'oficial' ? `UERJ ${data.q.year} Q${data.q.number}` : 'Questão inédita'} · Discursiva</title></svelte:head>
+<svelte:head><title>{data.q.source === 'oficial' ? `UERJ ${data.q.year} Q${data.q.number}` : 'Questão inédita'} · {APP_NAME}</title></svelte:head>
 
 <p class="small"><a href="/banco">← Banco de questões</a></p>
 

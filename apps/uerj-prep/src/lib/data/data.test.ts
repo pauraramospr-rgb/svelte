@@ -103,7 +103,11 @@ describe('conteúdo pedagógico', () => {
 		for (const r of RESUMOS) {
 			expect(getTopic(r.topicId), r.topicId).toBeDefined();
 			expect(r.references.length).toBeGreaterThan(0);
-			for (const s of ['Conceitos fundamentais', 'Explicação detalhada', 'Exemplos práticos', 'Como o assunto pode aparecer na prova discursiva', 'Exercícios de fixação']) {
+			const sections =
+				r.discipline === 'HIS'
+					? ['Em uma frase', 'O fio da história', 'Explicação detalhada', 'Linha do tempo', 'Conceitos fundamentais', 'Aprofundamento', 'Como o assunto pode aparecer na prova discursiva', 'Erros que custam pontos', 'Exercícios de fixação', 'Mapa mental']
+					: ['Em uma frase', 'Conceitos fundamentais', 'Explicação detalhada', 'Exemplos práticos', 'Como o assunto pode aparecer na prova discursiva', 'Exercícios de fixação', 'Mapa mental'];
+			for (const s of sections) {
 				expect(r.body, `${r.topicId}: ${s}`).toContain(`## ${s}`);
 			}
 		}

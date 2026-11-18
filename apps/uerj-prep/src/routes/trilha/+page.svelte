@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/brand';
 	import DisciplineBadge from '$lib/components/DisciplineBadge.svelte';
 	import CategoryTag from '$lib/components/CategoryTag.svelte';
 	import SourceRef from '$lib/components/SourceRef.svelte';
@@ -12,7 +13,7 @@
 	const done = $derived(data.units.reduce((s, u) => s + u.topics.filter((t) => t.status === 'concluido').length, 0));
 </script>
 
-<svelte:head><title>Minha trilha · Discursiva</title></svelte:head>
+<svelte:head><title>Minha trilha · {APP_NAME}</title></svelte:head>
 
 <h1>Minha trilha</h1>
 {#if data.course}

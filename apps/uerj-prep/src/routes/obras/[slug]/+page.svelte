@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/brand';
 	import CategoryTag from '$lib/components/CategoryTag.svelte';
 	import SourceRef from '$lib/components/SourceRef.svelte';
 
@@ -26,7 +27,7 @@
 	);
 </script>
 
-<svelte:head><title>{o.title} · Obras · Discursiva</title></svelte:head>
+<svelte:head><title>{o.title} · Obras · {APP_NAME}</title></svelte:head>
 
 <p class="small"><a href="/obras">← Obras literárias</a></p>
 <span class="small muted">{o.exam}</span>

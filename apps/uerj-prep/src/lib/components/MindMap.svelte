@@ -75,9 +75,10 @@
 				aria-label="{i + 1}. {b.label}"
 			>
 				<h4><span class="n">{i + 1}</span>{b.label}</h4>
+				{#if b.lead}<p class="lead">{b.lead}</p>{/if}
 				<ul>
 					{#each b.items as it, j (j)}
-						<li>{#if it.strong}<strong>{it.strong}</strong>{it.text ? ': ' : ''}{/if}{it.text}</li>
+						<li>{#if it.strong}<strong>{it.strong}</strong>{it.sep ?? ': '}{/if}{it.text}</li>
 					{/each}
 				</ul>
 			</section>
@@ -117,7 +118,7 @@
 	.board {
 		position: relative;
 		display: grid;
-		grid-template-columns: minmax(0, 1fr) minmax(150px, 210px) minmax(0, 1fr);
+		grid-template-columns: minmax(0, 1fr) minmax(140px, 190px) minmax(0, 1fr);
 		grid-template-rows: repeat(var(--rows), auto);
 		column-gap: 3.2rem;
 		row-gap: 1rem;
@@ -173,6 +174,11 @@
 		color: var(--surface);
 		font-size: 0.75rem;
 		flex: none;
+	}
+	.lead {
+		margin: 0 0 0.4rem;
+		font-size: 0.9rem;
+		line-height: 1.45;
 	}
 	.branch ul {
 		margin: 0;

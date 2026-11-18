@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/brand';
 	import CategoryTag from '$lib/components/CategoryTag.svelte';
 	import SourceRef from '$lib/components/SourceRef.svelte';
 	import { REDACAO_2027, REDACAO_ASPECTS, PADRAO_REDACAO_2026_EXCERPT } from '$lib/data/official/exam-2027';
@@ -10,7 +11,7 @@
 	const evo = $derived(data.essays.filter((e) => e.score !== null).reverse());
 </script>
 
-<svelte:head><title>Laboratório de redação · Discursiva</title></svelte:head>
+<svelte:head><title>Laboratório de redação · {APP_NAME}</title></svelte:head>
 
 <div class="spread">
 	<div>

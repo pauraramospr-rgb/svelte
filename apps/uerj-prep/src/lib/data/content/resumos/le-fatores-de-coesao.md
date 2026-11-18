@@ -102,28 +102,36 @@ Por que é completa: explica o **valor** (hipótese/probabilidade no passado) em
 > Inglês, Espanhol e Francês
 
 ### O que é?
-- Mecanismos que ligam as partes do texto e garantem sua continuidade.
-- Na UERJ, um dos itens mais cobrados nas três línguas.
+Coesão é o conjunto de mecanismos que ligam as partes do texto — retomadas, substituições e conectores — e garantem sua continuidade.
+- Um dos itens mais cobrados pela UERJ nas três línguas.
+- As perguntas pedem o referente de um termo ou a relação criada por um conector.
+- A resposta vai em português, explicando o sentido.
 
 ### Referenciação
-- **Anáfora**: retoma algo já dito (it, ellos, celui-ci).
-- **Catáfora**: antecipa algo que virá.
-- Demonstrativos podem retomar uma ideia inteira (this, esto, cela).
+Pronomes e expressões retomam ou antecipam algo do texto.
+- **Anáfora**: retoma o que já foi dito (it, ellos, celui-ci).
+- **Catáfora**: antecipa o que ainda virá.
+- Demonstrativos podem retomar uma ideia inteira (this, esto, cela) — resuma a ideia na resposta.
 
 ### Substituição e elipse
-- Sinônimos, hiperônimos e nominalizações retomam termos (the decision, la medida).
+O texto evita repetir palavras trocando-as ou omitindo-as.
+- Sinônimos, hiperônimos e nominalizações retomam termos (the decision, la medida, cette mesure).
 - **Elipse**: omissão de termo recuperável (“et Paul aussi”).
+- Concordância de gênero e número ajuda a achar o referente certo.
 
 ### Conectores
-- **Oposição**: however, sin embargo, cependant.
-- **Causa**: because, porque, parce que; **consequência**: therefore, por lo tanto, donc.
-- Cuidado com falsos cognatos: eventually = finalmente; pourtant = no entanto.
+Conectores marcam a relação lógica entre as ideias — e os falsos cognatos enganam.
+- **Oposição**: however, sin embargo, cependant; **causa**: because, porque, parce que.
+- **Consequência**: therefore, por lo tanto, donc; **condição**: if, si, à moins que.
+- Falsos cognatos: eventually = finalmente; pourtant = no entanto; sin embargo = no entanto.
 
 ### Tempo e modo
-- Formas verbais também produzem sentido: hipótese, probabilidade, irrealidade.
-- UERJ 2026: “habría continuado… si no hubiera ganado” = hipótese no passado.
+As formas verbais também produzem sentido, e a UERJ cobra isso.
+- Indicam hipótese, probabilidade ou irrealidade, além do tempo.
+- UERJ 2026: “habría continuado… si no hubiera ganado” = hipótese sobre o passado.
 
 ### Como responder
-- Explique em português a relação ou o referente.
+Explique em português, com suas palavras, e respeite o que o comando delimita.
+- Diga a relação (oposição, causa…) ou o referente exato.
 - Transcreva na língua estrangeira só quando o comando pedir.
 - Respeite a linha ou o parágrafo indicado no enunciado.

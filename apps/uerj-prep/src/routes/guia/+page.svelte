@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/brand';
 	import CategoryTag from '$lib/components/CategoryTag.svelte';
 	import SourceRef from '$lib/components/SourceRef.svelte';
 	import DisciplineBadge from '$lib/components/DisciplineBadge.svelte';
@@ -12,7 +13,7 @@
 	let checked = $state<boolean[]>(CHECKLIST.map(() => false));
 </script>
 
-<svelte:head><title>Como responder à UERJ · Discursiva</title></svelte:head>
+<svelte:head><title>Como responder à UERJ · {APP_NAME}</title></svelte:head>
 
 <h1>Como responder exatamente o que a UERJ quer</h1>
 <p class="muted">

@@ -1,9 +1,10 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/brand';
 	let { data } = $props();
 	const fmt = (s: string) => new Date(s + 'Z').toLocaleString('pt-BR', { dateStyle: 'short', timeStyle: 'short' });
 </script>
 
-<svelte:head><title>Simulados · Discursiva</title></svelte:head>
+<svelte:head><title>Simulados · {APP_NAME}</title></svelte:head>
 
 <div class="spread">
 	<div>

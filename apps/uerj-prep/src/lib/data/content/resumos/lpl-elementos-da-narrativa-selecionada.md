@@ -130,35 +130,49 @@ Atenção: é **proibido consultar o livro** durante a prova (edital, item 4.5).
 
 ## Mapa mental
 
-> Aplicados a “Luanda, Lisboa, Paraíso”
+> Aplicados a “Luanda, Lisboa, Paraíso” (leitura obrigatória; consulta proibida na prova)
 
 ### O que é?
-- Categorias para explicar como o romance organiza e dá sentido à história.
-- A UERJ cobra sempre aplicadas ao livro indicado (leitura obrigatória).
+São as categorias que explicam como um romance organiza a história e produz sentido; a UERJ sempre as cobra aplicadas ao livro indicado.
+- Enredo, personagens, narrador e foco, índices, tempo, espaço, metaficção e verossimilhança.
+- Na prova: nomear o elemento, mostrar no trecho e explicar o efeito no romance.
+- Itens de elementos da narrativa aparecem em todas as edições recentes.
 
 ### Enredo
-- Calcanhar malformado de Aquiles exige tratamento fora de Angola.
-- Viagem temporária vira permanência forçada em Lisboa.
-- Degradação até o Paraíso; perdas (incêndio, morte de Iuri); final aberto.
+O romance conta uma descida: de Luanda à promessa de Lisboa e, por fim, ao bairro de lata do Paraíso.
+- **Conflito**: o calcanhar malformado de Aquiles exige tratamento que Angola, em guerra, não oferece.
+- **Complicação**: a viagem pensada como temporária vira permanência forçada; quatro cirurgias fracassam.
+- **Clímax e perdas**: incêndio da barraca e morte de Iuri (cap. 53).
+- **Desfecho aberto**: sem redenção, “um livro por escrever”.
 
 ### Personagens
-- **Cartola**: redondo, de parteiro a operário, perde status mas não o afeto.
-- **Aquiles**: construído pelo nome (alusão ao herói) e pelo corpo.
-- **Glória e Justina**: a família que fica; **Pepe e Iuri** ampliam os temas.
+Os personagens são construídos por ações, nomes, corpos e pela relação com os espaços.
+- **Cartola**: personagem redondo; de parteiro respeitado a operário da construção, perde status mas não o afeto.
+- **Aquiles**: o nome alude ao herói grego e cria ironia trágica com o corpo frágil.
+- **Glória e Justina**: a família que fica em Luanda — doença, memória do Império e cuidado.
+- **Pepe e Iuri**: amizade entre deslocados e a infância vulnerável da periferia.
 
 ### Narrador e foco
-- Terceira pessoa, próximo da interioridade das personagens.
-- Às vezes só supõe (“Talvez sonhasse”): onisciência relativizada.
+Um narrador em terceira pessoa acompanha de perto a interioridade das personagens, mas nem sempre sabe tudo.
+- Aproxima-se dos pensamentos de pai, filho e Glória.
+- **“Talvez sonhasse”**: o narrador apenas supõe — onisciência relativizada.
+- Esse limite respeita a opacidade de Glória, que “não sabia quem era nem onde estava”.
 
 ### Tempo e espaço
-- Do tempo colonial aos anos em Lisboa; a espera como forma de tempo.
-- Luanda (origem), Lisboa (promessa e desilusão), Paraíso (margem e afeto).
+O tempo vai do período colonial aos anos em Lisboa; os espaços participam da transformação das personagens.
+- **Tempo psicológico**: a memória de Glória presa ao Império e o “tempo roubado pela convalescença”.
+- **Luanda**: origem, família e memória; **Lisboa**: promessa que vira desilusão.
+- **Paraíso**: bairro de lata, marginalização — e também afeto possível na taberna de Pepe.
+- **Hospital**: imobilidade; pela janela, o “ir-e-vir” dos outros.
 
 ### Metaficção e verossimilhança
-- Abertura: “uma história […] pode começar por um calcanhar”.
-- Cap. 53: “um livro por escrever” — o romance comenta a própria forma.
-- A morte de Iuri impede o final idealizado e mantém o realismo.
+O romance reflete sobre a própria forma e recusa um final consolador.
+- **Abertura**: “Se uma história se parece com o corpo de um animal, então pode começar por um calcanhar.”
+- **Cap. 53**: “o horizonte aberto de um livro por escrever” — a vida como narrativa inacabada.
+- A morte de Iuri impede a idealização da amizade e mantém o pacto realista e trágico.
 
 ### Como responder
-- Nomeie o elemento, mostre no trecho, explique o funcionamento.
-- Termine com o efeito no sentido do romance.
+A UERJ quer o elemento nomeado e funcionando no texto, não um resumo do enredo.
+- Nomeie com o termo técnico (ex.: “narrador em 3ª pessoa, próximo de Glória”).
+- Mostre no trecho a palavra ou o episódio que comprova.
+- Explique o efeito no sentido do romance (tema, personagem, contexto).

@@ -18,7 +18,9 @@ if (js.length !== 1) throw new Error(`esperado 1 arquivo JS, encontrados ${js.le
 
 const safeJs = js[0].replace(/<\/script/gi, '<\\/script').replace(/<!--/g, '<\\!--');
 const safeCss = css.join('\n').replace(/<\/style/gi, '<\\/style');
-const title = html.match(/<title>[\s\S]*?<\/title>/)[0];
+const brand = readFileSync(new URL('../src/lib/brand.ts', import.meta.url), 'utf8');
+const appName = brand.match(/APP_NAME = '([^']+)'/)[1];
+const title = `<title>${appName}</title>`;
 
 const page = [
 	title,

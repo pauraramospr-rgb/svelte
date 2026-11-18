@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/brand';
 	import { enhance } from '$app/forms';
 	import { page } from '$app/state';
 	import { DISCIPLINES } from '$lib/data/official/exam-2027';
@@ -22,7 +23,7 @@
 	const welcome = page.url.searchParams.has('boas-vindas');
 </script>
 
-<svelte:head><title>Perfil · Discursiva</title></svelte:head>
+<svelte:head><title>Perfil · {APP_NAME}</title></svelte:head>
 
 <h1>Seu perfil de estudos</h1>
 {#if welcome}<p class="notice info">Bem-vindo(a)! Escolha o curso pretendido para montar sua trilha, seus simulados e seu cronograma.</p>{/if}

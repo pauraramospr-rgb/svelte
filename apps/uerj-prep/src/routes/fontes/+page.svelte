@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/brand';
 	import CategoryTag from '$lib/components/CategoryTag.svelte';
 	import { SOURCES, CATEGORY_HELP, CATEGORY_LABEL, type InfoCategory } from '$lib/data/official/sources';
 	import { EXAM_2027 } from '$lib/data/official/exam-2027';
@@ -10,7 +11,7 @@
 	const cats: InfoCategory[] = ['oficial', 'analise', 'pedagogica', 'previsao', 'ia'];
 </script>
 
-<svelte:head><title>Fontes e metodologia · Discursiva</title></svelte:head>
+<svelte:head><title>Fontes e metodologia · {APP_NAME}</title></svelte:head>
 
 <h1>Fontes e metodologia</h1>
 <p class="muted">Como a plataforma separa o que é oficial do que é análise, interpretação ou previsão — e de onde vem cada dado.</p>

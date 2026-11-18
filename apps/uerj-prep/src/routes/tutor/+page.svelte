@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/brand';
 	import { goto } from '$app/navigation';
 	import { enhance } from '$app/forms';
 	import Markdown from '$lib/components/Markdown.svelte';
@@ -81,7 +82,7 @@
 	}
 </script>
 
-<svelte:head><title>Professor IA · Discursiva</title></svelte:head>
+<svelte:head><title>Professor IA · {APP_NAME}</title></svelte:head>
 
 <div class="tutor">
 	<aside class="card threads">

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/brand';
 	import DisciplineBadge from '$lib/components/DisciplineBadge.svelte';
 	import CategoryTag from '$lib/components/CategoryTag.svelte';
 	import { DISCIPLINES, type DisciplineCode } from '$lib/data/official/exam-2027';
@@ -8,7 +9,7 @@
 	const hours = $derived(Math.round((data.overview.studySeconds / 3600) * 10) / 10);
 </script>
 
-<svelte:head><title>Painel · Discursiva</title></svelte:head>
+<svelte:head><title>Painel · {APP_NAME}</title></svelte:head>
 
 <div class="spread">
 	<div>

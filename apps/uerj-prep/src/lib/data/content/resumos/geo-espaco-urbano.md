@@ -135,38 +135,46 @@ Por que é completa: as justificativas são **processos espaciais concretos** (d
 > Brasil, de 1950 aos dias atuais · foco no Rio de Janeiro
 
 ### O que é?
-- **Urbanização**: aumento da população que vive em cidades e do modo de vida urbano.
-- No Brasil, foi rápida, concentrada nas metrópoles e muito desigual.
+Urbanização é o aumento da população que vive em cidades e a difusão do modo de vida urbano; no Brasil, foi rápida, concentrada e desigual.
+- Em poucas décadas, o país passou de rural a mais de 80% urbano.
+- O crescimento se concentrou em metrópoles como Rio e São Paulo.
+- Moradia, transporte e saneamento não acompanharam o ritmo.
 
 ### Antes
-- Até 1950, a maioria dos brasileiros vivia no campo.
-- Economia agroexportadora; cidades eram sobretudo portos e capitais.
+Até 1950, a maioria dos brasileiros vivia no campo, numa economia agroexportadora.
+- Café, açúcar e borracha eram a base da economia.
+- As principais cidades eram portos e capitais, como o Rio, então capital federal.
 
 ### Causas
-- **Industrialização** concentrada no Sudeste, sobretudo a partir dos anos 1950.
-- **Êxodo rural**: concentração de terras, mecanização e secas expulsam a população do campo.
-- Empregos, salários e serviços atraem migrantes para as metrópoles.
+A indústria atraiu e o campo expulsou: a combinação explica a migração em massa.
+- **Industrialização** concentrada no Sudeste, sobretudo a partir do Plano de Metas (anos 1950).
+- **Êxodo rural**: concentração de terras, mecanização sem reforma agrária e secas no Nordeste.
+- Salários, saúde e escolas atraíam migrantes para as metrópoles.
 
 ### O processo
-- **1970**: população urbana supera a rural.
-- **Metropolização**: municípios vizinhos integrados à metrópole por fluxos diários.
-- **Periferização e favelização**: quem não paga a terra cara ocupa encostas e periferias.
+As cidades cresceram mais rápido do que a capacidade de abrigar quem chegava.
+- **1970**: o censo registra mais população urbana que rural.
+- **Metropolização**: regiões metropolitanas criadas em 1973–1974, com municípios integrados por fluxos diários.
+- **Periferização e favelização**: quem não pagava a terra cara ocupou encostas, várzeas e loteamentos distantes.
 - **Movimento pendular**: casa na Baixada ou em São Gonçalo, trabalho no centro do Rio.
 
 ### Consequências
+A urbanização sem planejamento produziu uma cidade desigual e arriscada.
 - Déficit habitacional e infraestrutura insuficiente (saneamento, drenagem).
 - Longos deslocamentos, congestionamentos e poluição no modelo rodoviário.
-- Riscos de deslizamentos e enchentes, que atingem mais os pobres.
-- Segregação socioespacial: o lugar de moradia define o acesso a serviços.
+- Deslizamentos e enchentes, que atingem mais os pobres.
+- Segregação socioespacial: o lugar de moradia define o acesso a emprego e serviços.
 
 ### Quem produz a cidade
-- **Agentes**: Estado, mercado imobiliário, proprietários de terra e grupos excluídos.
+A cidade é resultado da ação e dos interesses de diferentes agentes (Roberto Lobato Corrêa).
+- Estado, mercado imobiliário, proprietários de terra, empresas e grupos sociais excluídos.
 - O preço da terra separa centros valorizados de periferias mal servidas.
 - Condomínios fechados expressam a autossegregação das elites.
 
 ### Hoje
-- **Estatuto da Cidade (2001)**: função social da propriedade e plano diretor.
-- Revitalização da Zona Portuária atrai moradores, mas pode gerar gentrificação.
+Novas tendências e políticas tentam corrigir parte desses problemas — e criam outros.
+- **Estatuto da Cidade (2001)**: função social da propriedade, plano diretor, IPTU progressivo, ZEIS.
+- Revitalização da Zona Portuária atrai moradores (UERJ 2026), mas pode gerar gentrificação.
 - Cidades médias crescem mais que as metrópoles.
 - Queda de passageiros: trabalho remoto, tarifas e aplicativos (UERJ 2026).
 

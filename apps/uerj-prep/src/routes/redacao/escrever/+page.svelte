@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/brand';
 	import { estimateLines, wordCount } from '$lib/domain/text';
 	import { onMount, untrack } from 'svelte';
 
@@ -35,7 +36,7 @@
 	const lineState = $derived(lines < 20 ? 'curta' : lines > 30 ? 'longa' : 'ok');
 </script>
 
-<svelte:head><title>Escrever redação · Discursiva</title></svelte:head>
+<svelte:head><title>Escrever redação · {APP_NAME}</title></svelte:head>
 
 <p class="small"><a href="/redacao">← Laboratório de redação</a></p>
 <h1>Escrever redação</h1>

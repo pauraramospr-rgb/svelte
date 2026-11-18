@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/brand';
 	import { invalidateAll } from '$app/navigation';
 	import { page } from '$app/state';
 	import { onMount } from 'svelte';
@@ -27,7 +28,7 @@
 	});
 </script>
 
-<svelte:head><title>{e.title || 'Redação'} · Discursiva</title></svelte:head>
+<svelte:head><title>{e.title || 'Redação'} · {APP_NAME}</title></svelte:head>
 
 <p class="small"><a href="/redacao">← Laboratório de redação</a></p>
 <h1>{e.title || 'Redação sem título'}</h1>

@@ -118,34 +118,43 @@ Por que é completa: parte da **definição** (deslocamento/tempo), mostra o cá
 > Cinemática escalar e vetorial
 
 ### O que é?
-- Parte da Física que descreve o movimento sem discutir suas causas.
+A cinemática descreve como os corpos se movem — posição, velocidade e aceleração ao longo do tempo — sem discutir as causas do movimento.
 - Repouso e movimento dependem do **referencial** escolhido.
+- As causas (forças) ficam para a Dinâmica (leis de Newton).
+- Foi um dos itens de Física mais cobrados pela UERJ.
 
 ### Grandezas
-- **Deslocamento**: Δx = x − x₀ (pode diferir da distância percorrida).
+Três grandezas descrevem o movimento; confundir duas delas é o erro mais comum.
+- **Deslocamento**: Δx = x − x₀; pode ser diferente da distância percorrida.
 - **Velocidade média**: vₘ = Δx/Δt — nunca a média das velocidades.
-- **Aceleração média**: aₘ = Δv/Δt.
+- **Aceleração média**: aₘ = Δv/Δt (quanto a velocidade muda por segundo).
 
 ### Movimento uniforme
-- Velocidade constante: x = x₀ + v·t.
+Velocidade constante: o corpo percorre distâncias iguais em tempos iguais.
+- Função horária: x = x₀ + v·t.
 - Gráfico x × t é uma reta; a inclinação é a velocidade.
+- Encontro de dois móveis: iguale as funções horárias.
 
 ### Movimento uniformemente variado
-- Aceleração constante: v = v₀ + a·t e x = x₀ + v₀·t + a·t²/2.
+Aceleração constante: a velocidade muda sempre no mesmo ritmo.
+- v = v₀ + a·t e x = x₀ + v₀·t + a·t²/2.
 - **Torricelli**: v² = v₀² + 2a·Δx, quando o tempo não é dado.
-- No gráfico v × t, a área é o deslocamento.
+- No gráfico v × t, a área é o deslocamento e a inclinação é a aceleração.
 
 ### Queda e lançamentos
-- Queda livre com g ≈ 10 m/s², desprezando o ar.
+Lançamentos são combinações de dois movimentos independentes: um horizontal e um vertical.
+- Queda livre com g ≈ 10 m/s², desprezando a resistência do ar.
 - Lançamento horizontal: MU na horizontal e queda livre na vertical.
-- O tempo de queda depende só da altura.
+- O tempo de queda depende só da altura, não da velocidade horizontal.
 
 ### Como resolver
+Um roteiro simples evita a maioria dos erros de cálculo e de interpretação.
 - Converta unidades antes (km/h ÷ 3,6 = m/s).
-- Escolha a equação pelo que é dado e pelo que é pedido.
+- Liste dados e incógnita; escolha a equação pelo que falta.
 - Conclua com justificativa quando o comando pede (“será multado?”).
 
 ### Armadilhas
+As questões da UERJ costumam esconder uma pegadinha conceitual.
 - Trechos de mesma distância: média harmônica, 2·v₁·v₂/(v₁ + v₂).
-- UERJ 2026: 140 e 56 km/h dão 80 km/h, não 98 km/h.
-- Confundir deslocamento com distância percorrida.
+- UERJ 2026: 140 e 56 km/h dão média de 80 km/h, não 98 km/h — sem multa.
+- Confundir deslocamento com distância percorrida em idas e voltas.

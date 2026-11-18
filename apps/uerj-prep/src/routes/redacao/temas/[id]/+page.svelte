@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/brand';
 	import CategoryTag from '$lib/components/CategoryTag.svelte';
 
 	let { data } = $props();
@@ -10,7 +11,7 @@
 	const planReady = $derived(plan.tese.trim().length > 10 && plan.arg1.trim().length > 10);
 </script>
 
-<svelte:head><title>{t.question} · Redação · Discursiva</title></svelte:head>
+<svelte:head><title>{t.question} · Redação · {APP_NAME}</title></svelte:head>
 
 <p class="small"><a href="/redacao">← Laboratório de redação</a></p>
 <CategoryTag category="previsao" detail="proposta plausível, não oficial" />

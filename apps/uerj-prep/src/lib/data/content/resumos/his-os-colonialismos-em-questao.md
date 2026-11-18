@@ -11,67 +11,78 @@ reviewed: 2026-11-18
 - JAMES, C. L. R. Os jacobinos negros: Toussaint L’Ouverture e a revolução de São Domingos (1938).
 - MAXWELL, Kenneth. A devassa da devassa: a Inconfidência Mineira, Brasil e Portugal, 1750-1808 (1973).
 - CARVALHO, José Murilo de. A formação das almas: o imaginário da República no Brasil (1990).
+- Arquivo Nacional dos EUA (National Archives). Declaration of Independence — transcrição oficial: https://www.archives.gov/founding-docs/declaration-transcript
 ---
 
 ## Em uma frase
 
-Entre 1763 e 1825, o sistema colonial nas Américas entrou em crise: endividadas por guerras, as metrópoles apertaram impostos e controles; colonos e colonizados, armados com as ideias do Iluminismo (ou com a própria experiência da escravidão), romperam o vínculo colonial — mas cada ruptura definiu de modo diferente **quem** teria direito à liberdade.
+Entre 1763 e 1825, o sistema colonial nas Américas entrou em crise: endividadas por guerras, as metrópoles apertaram impostos e controles; colonos e colonizados, armados com as ideias do Iluminismo — ou com a própria experiência da escravidão —, romperam o vínculo colonial; mas cada ruptura definiu de modo diferente **quem** teria direito à liberdade.
+
+## O fio da história
+
+1. **Antes** — colônias exploradas pelo exclusivo metropolitano e pelo trabalho escravizado; Iluminismo critica o absolutismo.
+2. **Causas** — guerras endividam as metrópoles, que aumentam impostos e controle.
+3. **Como começou** — impostos britânicos (1764–1773) provocam a revolta das Treze Colônias.
+4. **O processo** — independência dos EUA (1776–1787), conjurações no Brasil (1789–1798), Haiti (1791–1804), Napoleão desorganiza os impérios ibéricos (1808), independências até 1825.
+5. **Desfecho** — Américas independentes, com resultados muito diferentes quanto à escravidão.
+6. **Consequências** — fim do pacto colonial, liberdade desigual, medo do Haiti, reflexo na Revolução Francesa.
+7. **Depois** — o debate sobre quem cabe na liberdade chega aos 250 anos da independência dos EUA (2026).
 
 ## Explicação detalhada (a história em ordem)
 
 ### 1. Antes: o contexto
 
-- **O sistema colonial (séculos XVI–XVIII).** As metrópoles europeias exploravam as colônias segundo a lógica mercantilista: **exclusivo metropolitano** (a colônia só podia comerciar com a metrópole), produção voltada para exportação (açúcar, tabaco, ouro, algodão) e trabalho escravizado de africanos e indígenas.
-- **As Treze Colônias inglesas** eram diversas: no Norte, pequena propriedade, comércio e manufaturas; no Sul, *plantations* escravistas. Durante décadas, a Coroa praticou uma “**negligência salutar**”: as assembleias coloniais tinham muita autonomia.
-- **O Iluminismo** circulava dos dois lados do Atlântico: **Locke** (direitos naturais à vida, à liberdade e à propriedade; governo nascido de um contrato; direito de resistência contra a tirania), **Montesquieu** (separação dos poderes) e **Rousseau** (soberania popular). Eram ideias contra o absolutismo — e, potencialmente, contra o domínio colonial.
+Durante os séculos XVI a XVIII, as metrópoles europeias exploraram as colônias americanas segundo a lógica **mercantilista**: a colônia só podia comerciar com a metrópole (**exclusivo metropolitano**), produzia para exportar (açúcar, tabaco, ouro, algodão) e se apoiava no **trabalho escravizado** de africanos e indígenas.
+
+As **Treze Colônias inglesas** eram um caso particular. O Norte tinha pequena propriedade, comércio e manufaturas; o Sul, grandes *plantations* escravistas. Durante décadas, a Coroa britânica praticou uma “**negligência salutar**”: as assembleias coloniais governavam com muita autonomia. Ao mesmo tempo, circulavam dos dois lados do Atlântico as ideias do **Iluminismo**: para **Locke**, os homens têm direitos naturais à vida, à liberdade e à propriedade, o governo nasce de um **contrato** para protegê-los e, se virar tirania, o povo tem **direito de resistência**; **Montesquieu** defendia a separação dos poderes; **Rousseau**, a soberania popular.
+
+> **Ligação com a próxima etapa:** autonomia de fato e ideias de liberdade formavam um terreno fértil — faltava uma mudança na política das metrópoles para transformar insatisfação em ruptura.
 
 ### 2. As causas
 
-- **Crise fiscal das metrópoles.** A **Guerra dos Sete Anos (1756–1763)** deixou a Grã-Bretanha endividada; mais tarde, guerras e gastos também pesaram sobre França, Espanha e Portugal.
-- **Reformas que apertaram o controle.** Para pagar a conta, as metrópoles criaram impostos e reforçaram a fiscalização (na América portuguesa, as reformas pombalinas e a cobrança do quinto do ouro).
-- **Interesses coloniais próprios.** As elites coloniais já tinham riqueza, redes comerciais e instituições locais — e passaram a ver a metrópole como obstáculo.
-- **Ideias de liberdade e de igualdade**, lidas de formas diferentes por proprietários (não pagar tributo sem representação) e por escravizados (deixar de ser propriedade).
+A mudança veio pelas **finanças**. A **Guerra dos Sete Anos (1756–1763)** deixou a Grã-Bretanha profundamente endividada; outras guerras pesaram depois sobre França, Espanha e Portugal. Para pagar a conta, as metrópoles **aumentaram impostos e reforçaram a fiscalização** — na América portuguesa, com as reformas pombalinas e a cobrança rigorosa do quinto do ouro.
+
+Do outro lado, as **elites coloniais** já tinham riqueza, redes comerciais e instituições próprias, e passaram a ver a metrópole como obstáculo. E as **ideias de liberdade e igualdade** foram lidas de formas diferentes: para um proprietário, liberdade era não pagar tributo sem representação; para um escravizado, era deixar de ser propriedade.
+
+> **Ligação com a próxima etapa:** onde a pressão fiscal foi mais brusca e a autonomia era maior — nas Treze Colônias —, a ruptura veio primeiro.
 
 ### 3. Como começou
 
-O estopim veio nas Treze Colônias. O Parlamento britânico aprovou a **Lei do Açúcar (1764)**, a **Lei do Selo (1765)**, os **Atos Townshend (1767)** e a **Lei do Chá (1773)**. Os colonos responderam com boicotes e com o lema “**nenhum tributo sem representação**”. A **Festa do Chá de Boston (1773)** — carregamento de chá jogado ao mar — levou às punitivas **Leis Intoleráveis (1774)**. O **Primeiro Congresso Continental** (Filadélfia, 1774) organizou a resistência, e a guerra começou em **Lexington e Concord (1775)**.
+O Parlamento britânico aprovou a **Lei do Açúcar (1764)**, a **Lei do Selo (1765)**, os **Atos Townshend (1767)** e a **Lei do Chá (1773)**. Os colonos responderam com boicotes e com o lema “**nenhum tributo sem representação**” — eles não elegiam deputados para o Parlamento que os tributava. Em 1773, na **Festa do Chá de Boston**, colonos jogaram ao mar um carregamento de chá; a Coroa reagiu com as **Leis Intoleráveis (1774)**. O **Primeiro Congresso Continental** (Filadélfia, 1774) organizou a resistência, e a guerra começou em **Lexington e Concord (1775)**.
+
+> **Ligação com a próxima etapa:** a guerra transformou um protesto contra impostos num projeto de país independente.
 
 ### 4. O processo, etapa por etapa
 
-1. **A Declaração de Independência (4 de julho de 1776).** Redigida principalmente por **Thomas Jefferson**: “todos os homens são criados iguais”, com direitos inalienáveis à “vida, liberdade e busca da felicidade”; se o governo os viola, o povo pode alterá-lo ou aboli-lo — Locke transformado em programa político.
-2. **A guerra de independência (1775–1783).** A vitória em **Saratoga (1777)** levou a **França** a apoiar os colonos (1778), seguida de Espanha e Holanda. A rendição britânica em **Yorktown (1781)** decidiu a guerra.
-3. **O Tratado de Paris (1783).** A Grã-Bretanha reconheceu a independência dos **Estados Unidos**, com fronteira a oeste no rio Mississippi.
-4. **A Constituição de 1787.** Depois dos frágeis Artigos da Confederação, nasceu uma **república federativa presidencialista**, com separação de poderes e freios e contrapesos; a *Bill of Rights* (1791) garantiu liberdades civis. Mas a escravidão foi mantida: cada escravizado contava como **três quintos** de pessoa para a representação, e o tráfico ficou protegido até 1808.
-5. **A América portuguesa: as conjurações.**
-   - **Conjuração Mineira (1789):** com a crise da mineração e a ameaça da **derrama** (cobrança forçada dos impostos atrasados), membros da elite — poetas árcades como Tomás Antônio Gonzaga e Cláudio Manuel da Costa, padres e militares como o alferes **Tiradentes** — conspiraram por uma república inspirada nos EUA. A abolição não era consenso. Denunciados, foram presos; Tiradentes foi enforcado em **21 de abril de 1792**.
-   - **Conspiração do Rio de Janeiro (1794):** membros de uma sociedade literária presos por discutir ideias republicanas e francesas.
-   - **Conjuração Baiana (1798):** com alfaiates, soldados, libertos e escravizados, propunha república, **fim da escravidão** e igualdade. Quatro réus pobres e negros foram executados em 1799. Foi a mais radical socialmente.
-6. **O Haiti (1791–1804): a revolução dos escravizados.** Saint-Domingue, colônia francesa mais lucrativa do mundo (açúcar e café), tinha enorme maioria escravizada. A insurreição de **1791**, liderada depois por **Toussaint Louverture**, venceu tropas francesas, espanholas e britânicas; a França aboliu a escravidão em 1794. Quando **Napoleão** tentou restaurá-la (1802), a guerra recomeçou, e **Jean-Jacques Dessalines** proclamou a independência em **1º de janeiro de 1804**.
-7. **Napoleão desorganiza os impérios ibéricos (1807–1808).** Na **América espanhola**, com o rei Fernando VII preso, formaram-se juntas governativas e os **criollos** (elite nascida na América) lideraram as independências — **Bolívar** no norte (com ajuda do Haiti), **San Martín** no sul (1810–1825). Na **América portuguesa**, a **Corte transferiu-se para o Brasil (1808)**: abertura dos portos (fim do exclusivo), tratados com a Inglaterra (1810) e elevação a **Reino Unido (1815)**.
-8. **A independência do Brasil (1822).** A **Revolução do Porto (1820)** exigiu o retorno de D. João VI e tentou reduzir a autonomia brasileira. As elites do Centro-Sul apoiaram D. Pedro (Dia do Fico, janeiro de 1822), e a independência foi proclamada em **7 de setembro de 1822**, com guerras em várias províncias (na Bahia, até **2 de julho de 1823**).
+**A independência dos EUA (1776–1787).** Em **4 de julho de 1776**, a Declaração de Independência, redigida principalmente por **Thomas Jefferson**, afirmou que “todos os homens são criados iguais”, com direitos inalienáveis à “vida, liberdade e busca da felicidade”, e que o povo pode abolir um governo que os viole — Locke transformado em programa político. A vitória em **Saratoga (1777)** trouxe o apoio da **França** (1778), seguida de Espanha e Holanda; a rendição britânica em **Yorktown (1781)** decidiu a guerra, e o **Tratado de Paris (1783)** reconheceu os **Estados Unidos**. A **Constituição de 1787** criou uma **república federativa presidencialista**, com separação de poderes e, em 1791, a *Bill of Rights*. Mas manteve a escravidão: cada escravizado contava como **três quintos** de pessoa para a representação, e o tráfico ficou protegido até 1808.
+
+**As conjurações na América portuguesa (1789–1798).** Inspirada nos EUA, a **Conjuração Mineira (1789)** reuniu membros da elite de Minas — poetas árcades como Tomás Antônio Gonzaga e Cláudio Manuel da Costa, padres e militares como o alferes **Tiradentes** — diante da crise da mineração e da ameaça da **derrama** (cobrança forçada dos impostos atrasados). Queriam uma república, mas a abolição não era consenso. Denunciados, foram presos; Tiradentes foi enforcado em **21 de abril de 1792**. Em 1794, a **Conspiração do Rio de Janeiro** levou à prisão de letrados que discutiam ideias republicanas e francesas. Em **1798**, a **Conjuração Baiana**, com alfaiates, soldados, libertos e escravizados, foi mais longe: propôs república, **fim da escravidão** e igualdade; quatro réus pobres e negros foram executados em 1799.
+
+**O Haiti (1791–1804).** Na colônia francesa de Saint-Domingue, a mais lucrativa do mundo (açúcar e café) e com enorme maioria escravizada, a insurreição de **1791**, liderada depois por **Toussaint Louverture**, venceu tropas francesas, espanholas e britânicas; a França aboliu a escravidão em 1794. Quando **Napoleão** tentou restaurá-la (1802), a guerra recomeçou, e **Jean-Jacques Dessalines** proclamou a independência em **1º de janeiro de 1804**: a primeira república governada por ex-escravizados.
+
+**Napoleão e os impérios ibéricos (1807–1825).** A invasão da Península Ibérica pelas tropas napoleônicas desorganizou Espanha e Portugal. Na **América espanhola**, com o rei Fernando VII preso, formaram-se juntas governativas, e os **criollos** (elite branca nascida na América) lideraram as guerras de independência — **Simón Bolívar** no norte, com ajuda do Haiti, e **José de San Martín** no sul (1810–1825). Na **América portuguesa**, a **Corte transferiu-se para o Brasil em 1808**: vieram a abertura dos portos (fim do exclusivo), os tratados de 1810 com a Inglaterra e a elevação a **Reino Unido (1815)** — a colônia virou sede do império.
+
+**A independência do Brasil (1822).** A **Revolução do Porto (1820)** exigiu a volta de D. João VI e tentou reduzir a autonomia brasileira. As elites do Centro-Sul apoiaram o príncipe D. Pedro (Dia do Fico, janeiro de 1822), que proclamou a independência em **7 de setembro de 1822**; houve guerras em várias províncias, e na Bahia os portugueses só foram expulsos em **2 de julho de 1823**.
+
+> **Ligação com a próxima etapa:** em pouco mais de quarenta anos, quase toda a América estava independente — mas cada país saiu do processo com uma resposta diferente para a pergunta “liberdade para quem?”.
 
 ### 5. O desfecho
 
-Por volta de 1825, quase toda a América continental estava independente. Mas os resultados foram muito diferentes:
-- **EUA:** república federativa liberal, com escravidão.
-- **Haiti:** primeira república governada por ex-escravizados e primeiro país a abolir a escravidão de forma definitiva.
-- **América espanhola:** fragmentação em várias repúblicas, com permanência do latifúndio e da exclusão indígena.
-- **Brasil:** **monarquia**, conduzida pelo herdeiro da própria Coroa portuguesa, com **unidade territorial** e **escravidão** preservadas — por isso se fala em independência “conservadora” ou “pelo alto”. Portugal reconheceu a independência em 1825, mediante indenização.
+Por volta de 1825, os resultados eram muito diferentes. Os **EUA** formaram uma república federativa liberal que **manteve a escravidão**. O **Haiti** fundou um Estado de ex-escravizados e **aboliu a escravidão de forma definitiva**. A **América espanhola** fragmentou-se em várias repúblicas, que mantiveram o latifúndio e a exclusão indígena. O **Brasil** tornou-se uma **monarquia**, conduzida pelo herdeiro da própria Coroa portuguesa, com **unidade territorial** e **escravidão** preservadas — por isso a historiografia fala em independência “conservadora” ou “pelo alto”. Portugal reconheceu a independência em 1825, mediante indenização paga com empréstimo britânico.
+
+> **Ligação com a próxima etapa:** esses desfechos moldaram as sociedades americanas pelo século XIX inteiro.
 
 ### 6. As consequências
 
-- **Fim do pacto colonial** nas Américas e formação de Estados nacionais.
-- **Liberdade desigual:** escravidão mantida nos EUA (até 1865) e no Brasil (até 1888); indígenas excluídos da cidadania; mulheres sem direitos políticos.
-- **O medo do Haiti (“haitianismo”):** as elites escravistas das Américas endureceram o controle sobre os escravizados. O próprio Haiti foi isolado e, em 1825, obrigado a pagar pesada indenização à França em troca do reconhecimento.
-- **Reflexo na Europa:** a ajuda francesa aos EUA agravou a crise financeira da monarquia de Luís XVI — um dos caminhos para a **Revolução Francesa (1789)**.
-- **Dependência econômica:** as novas nações seguiram exportadoras de produtos primários, agora ligadas sobretudo à Inglaterra.
+O **pacto colonial** acabou nas Américas, e nasceram os **Estados nacionais**. Mas a liberdade foi **desigual**: a escravidão durou nos EUA até 1865 e no Brasil até 1888; indígenas ficaram fora da cidadania e as mulheres, sem direitos políticos. O exemplo do Haiti assustou as elites escravistas — o chamado “**haitianismo**” endureceu o controle sobre os escravizados —, e o próprio Haiti foi isolado e obrigado, em 1825, a pagar pesada indenização à França em troca do reconhecimento. Na Europa, a ajuda francesa aos EUA agravou a crise financeira da monarquia de Luís XVI, um dos caminhos para a **Revolução Francesa (1789)**. E as novas nações continuaram exportadoras de produtos primários, agora ligadas sobretudo à Inglaterra.
+
+> **Ligação com a próxima etapa:** a promessa de 1776 — e seus limites — continuou em disputa até hoje.
 
 ### 7. Importância e o depois
 
-- As revoluções do período criaram o vocabulário político moderno — **direitos, soberania popular, constituição, república** — e, ao mesmo tempo, revelaram seus limites: a promessa de igualdade não incluía todos.
-- O debate sobre **quem cabe na liberdade** atravessou os séculos: Guerra de Secessão e 13ª Emenda (1865), abolição no Brasil (1888), movimento pelos direitos civis (anos 1950–1960).
-- **Memória:** Tiradentes só virou herói nacional depois da República (1889); o 4 de julho e o 7 de setembro são datas construídas pela memória oficial.
-- **Em 2026, os 250 anos da independência dos EUA** reacenderam o debate sobre o significado da promessa de 1776 — e a UERJ costuma partir de efemérides.
+As revoluções do período criaram o **vocabulário político moderno** — direitos, soberania popular, constituição, república — e, ao mesmo tempo, revelaram seus limites. O debate sobre **quem cabe na liberdade** atravessou os séculos: a Guerra de Secessão e a 13ª Emenda (1865), a abolição no Brasil (1888), o movimento pelos direitos civis (anos 1950–1960). Em 1852, o abolicionista Frederick Douglass já perguntava: “O que é, para o escravo, o 4 de julho?”.
+
+A **memória** dessas independências também foi construída: Tiradentes só virou herói nacional depois da Proclamação da República (1889), e o 4 de julho e o 7 de setembro são datas consagradas pela memória oficial. Em **2026**, os **250 anos da independência dos EUA** reacenderam o debate sobre o significado da promessa de 1776 — e a UERJ costuma partir de efemérides.
 
 ## Linha do tempo
 
@@ -102,25 +113,14 @@ Por volta de 1825, quase toda a América continental estava independente. Mas os
 - **Federalismo**: divisão do poder entre União e estados (Constituição dos EUA, 1787).
 - **Criollos**: elite branca nascida na América espanhola, excluída dos altos cargos.
 
-## Exemplos práticos
+## Aprofundamento e conexões (nível UERJ)
 
-1. **Comparação em uma frase**: EUA — república liberal que manteve a escravidão; Haiti — revolução de escravizados que a aboliu; América espanhola — independências criollas com fragmentação; Brasil — monarquia, unidade e escravidão preservadas.
-2. **Mesma palavra, sentidos diferentes**: “liberdade” para um proprietário da Virgínia (não pagar imposto sem representação) × para um escravizado de Saint-Domingue (deixar de ser propriedade).
-3. **Locke na Declaração**: “direito de alterar ou abolir” o governo = direito de resistência.
-
-## Aprofundamento (nível UERJ)
-
-- **Revoluções atlânticas:** a historiografia trata essas rupturas como um conjunto atlântico, em que ideias, mercadorias, pessoas escravizadas e exércitos circulavam entre Europa, África e Américas. Nessa leitura, o Haiti é o caso que revela os limites dos outros.
-- **Por que os colonos ingleses romperam primeiro?** Autonomia política prévia, economia diversificada e mudança brusca da política britânica depois de 1763.
+- **Comparação em uma frase** (útil para respostas curtas): EUA — república liberal com escravidão; Haiti — revolução de escravizados que a aboliu; América espanhola — independências criollas com fragmentação; Brasil — monarquia, unidade e escravidão preservadas.
+- **Mesma palavra, sentidos diferentes**: “liberdade” para um proprietário da Virgínia × para um escravizado de Saint-Domingue.
+- **Revoluções atlânticas**: a historiografia trata essas rupturas como um conjunto, em que ideias, mercadorias, pessoas escravizadas e exércitos circulavam entre Europa, África e Américas; nessa leitura, o Haiti revela os limites dos outros casos.
 - **Revolução para quem?** Para os colonos, mudou a fonte da soberania (do rei ao povo); para escravizados e indígenas, pouco mudou — a expansão para o Oeste até acelerou a expropriação indígena.
-- **Crítica ao eurocentrismo:** o programa da UERJ pede a Revolução do Haiti e as rebeliões de escravizados ao lado da independência dos EUA.
-
-## Relações com outros conteúdos
-
-- **Ilustração e crise do Antigo Regime**; **Revolução Francesa**.
-- **Formação dos Estados nacionais americanos** e **Império do Brasil**.
-- **Formação do capitalismo nos EUA**: federalismo, escravidão e Guerra de Secessão.
-- **Literatura**: Arcadismo mineiro e a Inconfidência.
+- **Crítica ao eurocentrismo**: o programa da UERJ pede o Haiti e as rebeliões de escravizados ao lado da independência dos EUA.
+- **Conexões**: Iluminismo e Revolução Francesa; formação dos Estados nacionais e Império do Brasil; Guerra de Secessão; Arcadismo mineiro.
 
 ## Como o assunto pode aparecer na prova discursiva
 
@@ -161,51 +161,63 @@ Por que é completa: nomeia o princípio, liga-o ao autor e **explica** a contra
 
 ## Mapa mental
 
-> Américas, 1763–1825
+> Américas, 1763–1825 · e os 250 anos da independência dos EUA (2026)
 
 ### O que foi?
-- Crise do sistema colonial que levou às independências nas Américas.
-- Cada ruptura definiu de forma diferente **quem** teria direito à liberdade.
+Crise do sistema colonial que levou à independência de quase toda a América entre 1776 e 1825.
+- Metrópoles endividadas apertaram impostos; colonos e colonizados reagiram.
+- O Iluminismo deu a linguagem da revolta: direitos naturais, contrato social, resistência à tirania.
+- Cada ruptura definiu de um jeito diferente quem teria direito à liberdade.
 
 ### Antes (contexto)
-- **Sistema colonial**: exclusivo metropolitano, exportação e trabalho escravizado.
-- **Treze Colônias**: Norte comercial, Sul escravista e assembleias com autonomia.
-- **Iluminismo**: Locke (direitos naturais, contrato, resistência), Montesquieu e Rousseau.
+Por três séculos, as colônias existiram para enriquecer as metrópoles.
+- **Exclusivo metropolitano**: a colônia só comerciava com a metrópole e exportava açúcar, tabaco, ouro.
+- **Escravidão** de africanos e indígenas sustentava a produção colonial.
+- **Treze Colônias**: assembleias com muita autonomia, graças à “negligência salutar” britânica.
+- **Locke, Montesquieu e Rousseau** contestavam o absolutismo e defendiam direitos.
 
 ### Causas
-- **Dívidas de guerra**: a Guerra dos Sete Anos (1756–1763) quebrou as finanças britânicas.
-- **Mais impostos e controle**: metrópoles apertaram a fiscalização para pagar a conta.
-- **Interesses das elites coloniais** em conflito com a metrópole.
-- **Ideias de liberdade**, lidas de modo diferente por proprietários e escravizados.
+Guerras caras levaram as metrópoles a cobrar mais — e as colônias a reagir.
+- **Guerra dos Sete Anos (1756–1763)** deixa a Grã-Bretanha endividada.
+- Novos impostos e fiscalização mais rígida, também nas reformas pombalinas.
+- Elites coloniais ricas e organizadas passam a ver a metrópole como obstáculo.
+- Liberdade lida de dois modos: não pagar imposto (colonos) ou deixar de ser propriedade (escravizados).
 
 ### Como começou
+O estopim foram os impostos britânicos sobre as Treze Colônias.
 - Leis do Açúcar (1764), do Selo (1765) e do Chá (1773) provocam boicotes.
-- **Lema**: “nenhum tributo sem representação”.
-- Festa do Chá de Boston (1773) → Leis Intoleráveis → guerra em 1775.
+- **Lema**: “nenhum tributo sem representação” — os colonos não elegiam deputados em Londres.
+- Festa do Chá de Boston (1773) → Leis Intoleráveis (1774) → guerra em 1775.
 
 ### Etapas
-- **1776**: Declaração de Independência dos EUA, inspirada em Locke.
-- **1783**: Tratado de Paris reconhece os EUA; **1787**: Constituição federativa.
-- **1789–1798**: Conjurações Mineira (elite) e Baiana (popular e abolicionista).
-- **1791–1804**: revolução de escravizados no Haiti, com Toussaint e Dessalines.
-- **1808–1825**: Napoleão desorganiza os impérios ibéricos; Corte no Brasil; independências criollas.
+Em pouco mais de quarenta anos, as rupturas se sucederam dos EUA ao Haiti, ao Brasil e à América espanhola.
+- **1776–1787**: Declaração de Independência, apoio francês, Tratado de Paris (1783) e Constituição federativa.
+- **1789–1798**: Conjuração Mineira (elite, contra a derrama) e Baiana (popular e abolicionista).
+- **1791–1804**: escravizados de Saint-Domingue vencem a França e fundam o Haiti.
+- **1808**: Corte portuguesa no Brasil; abertura dos portos encerra o exclusivo.
+- **1810–1825**: Bolívar e San Martín lideram as independências na América espanhola.
+- **1822**: D. Pedro proclama a independência; guerras na Bahia até 1823.
 
 ### Desfecho
-- **EUA**: república federativa liberal, mas com escravidão.
+Por volta de 1825, a América estava independente — com resultados muito diferentes.
+- **EUA**: república federativa liberal que manteve a escravidão.
 - **Haiti**: república de ex-escravizados, com abolição definitiva.
-- **América espanhola**: fragmentação em várias repúblicas.
-- **Brasil (1822)**: monarquia, unidade territorial e escravidão mantidas.
+- **América espanhola**: fragmentação em várias repúblicas com latifúndio.
+- **Brasil**: monarquia, unidade territorial e escravidão — independência “pelo alto”.
 
 ### Consequências
+A liberdade conquistada foi desigual e deixou marcas por todo o século XIX.
 - Fim do pacto colonial e formação dos Estados nacionais americanos.
-- Liberdade desigual: escravidão nos EUA até 1865 e no Brasil até 1888.
-- “Haitianismo”: medo das elites endureceu o controle sobre escravizados.
+- Escravidão nos EUA até 1865 e no Brasil até 1888; indígenas sem cidadania.
+- “Haitianismo”: o medo de revoltas endureceu o controle sobre escravizados.
 - Ajuda francesa aos EUA agravou a crise que levou à Revolução Francesa.
 
 ### Importância e depois
-- Criou o vocabulário político moderno: direitos, constituição, república, soberania popular.
-- Debate sobre quem cabe na liberdade segue até os direitos civis do século XX.
-- **2026**: 250 anos da independência dos EUA — efeméride que a UERJ pode usar.
+O vocabulário político moderno nasceu aqui — e a pergunta “liberdade para quem?” continua viva.
+- Direitos, constituição e soberania popular viram base das democracias.
+- Abolição (1865, 1888) e direitos civis (anos 1960) ampliam a promessa de 1776.
+- Tiradentes, 4 de julho e 7 de setembro: heróis e datas construídos pela memória.
+- **2026**: 250 anos da independência dos EUA, efeméride que a UERJ pode usar.
 
 ### Linha do tempo
 - **1763**: fim da Guerra dos Sete Anos.
@@ -217,3 +229,4 @@ Por que é completa: nomeia o princípio, liga-o ao autor e **explica** a contra
 - **1804**: independência do Haiti.
 - **1808**: Corte portuguesa no Brasil.
 - **1822**: independência do Brasil.
+- **2026**: 250 anos da independência dos EUA.

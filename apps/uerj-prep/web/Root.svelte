@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Layout from '../src/routes/+layout.svelte';
 	import { view } from './kit.svelte';
+	import { APP_NAME } from '../src/lib/brand';
 
 	let { status }: { status: { ready: boolean; mode: string; message: string; error: string } } = $props();
 	const Page = $derived(view.component);
@@ -9,7 +10,7 @@
 {#if !status.ready}
 	<div class="boot" role="status">
 		<img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231d4ed8'/%3E%3Cpath d='M18 44V20h10c8 0 14 5 14 12s-6 12-14 12H18zm6-6h4c5 0 8-2.5 8-6s-3-6-8-6h-4v12z' fill='%23fff'/%3E%3Ccircle cx='48' cy='44' r='4' fill='%23fbbf24'/%3E%3C/svg%3E" alt="" width="56" height="56" />
-		<strong>Discursiva</strong>
+		<strong>{APP_NAME}</strong>
 		<p class="muted">{status.error || status.message}</p>
 	</div>
 {:else}

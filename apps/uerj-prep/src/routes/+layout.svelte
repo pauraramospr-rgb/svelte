@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/brand';
 	import '../app.css';
 	import { page } from '$app/state';
 	import { daysUntil, EXAM_2027 } from '$lib/data/official/exam-2027';
@@ -38,13 +39,13 @@
 			<button class="btn ghost menu" aria-expanded={menuOpen} aria-controls="nav" onclick={() => (menuOpen = !menuOpen)}>
 				<span aria-hidden="true">☰</span><span class="sr-only">Menu</span>
 			</button>
-			<a href="/painel" class="brand"><img src={logo} alt="" width="28" height="28" /> Discursiva</a>
+			<a href="/painel" class="brand"><img src={logo} alt="" width="28" height="28" /> {APP_NAME}</a>
 			<span class="countdown" title="Data do Exame Discursivo informada no seu perfil">
 				{#if days > 0}<strong>{days}</strong> {days === 1 ? 'dia' : 'dias'} para a prova{:else if days === 0}A prova é hoje!{:else}Prova realizada{/if}
 			</span>
 		</header>
 		<nav id="nav" class:open={menuOpen} aria-label="Principal">
-			<a href="/painel" class="brand side"><img src={logo} alt="" width="30" height="30" /> Discursiva</a>
+			<a href="/painel" class="brand side"><img src={logo} alt="" width="30" height="30" /> {APP_NAME}</a>
 			<ul>
 				{#each nav as item (item.href)}
 					<li>

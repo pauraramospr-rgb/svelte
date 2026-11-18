@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/brand';
 	import DisciplineBadge from '$lib/components/DisciplineBadge.svelte';
 	import CategoryTag from '$lib/components/CategoryTag.svelte';
 	import { DISCIPLINES, type DisciplineCode } from '$lib/data/official/exam-2027';
@@ -31,7 +32,7 @@
 	}
 </script>
 
-<svelte:head><title>Revisão e evolução · Discursiva</title></svelte:head>
+<svelte:head><title>Revisão e evolução · {APP_NAME}</title></svelte:head>
 
 <h1>Revisão e evolução</h1>
 <p class="muted">Repetição espaçada por tópico: cada questão corrigida atualiza o intervalo até a próxima revisão daquele tópico (algoritmo SM-2, ajustado para que revisões caiam antes da prova).</p>

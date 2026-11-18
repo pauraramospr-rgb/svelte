@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/brand';
 	import CategoryTag from '$lib/components/CategoryTag.svelte';
 	import SourceRef from '$lib/components/SourceRef.svelte';
 	import { BOOKS, CURRENT_EDITION } from '$lib/data/official/books';
@@ -8,7 +9,7 @@
 	const editions = [...new Set(previous.map((b) => b.edition))];
 </script>
 
-<svelte:head><title>Obras literárias · Discursiva</title></svelte:head>
+<svelte:head><title>Obras literárias · {APP_NAME}</title></svelte:head>
 
 <h1>Obras literárias indicadas pela UERJ</h1>
 <p class="muted">Lista oficial atual e listas de edições anteriores, sempre identificadas. A UERJ declara a leitura destes livros “indispensável/imprescindível”.</p>

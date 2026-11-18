@@ -111,26 +111,36 @@ Por que é completa: identifica a **base** (o total das exportações), mostra a
 > Aritmética aplicada ao cotidiano
 
 ### O que é?
-- Conjunto ℝ: racionais (frações e dízimas periódicas) e irracionais (√2, π, φ).
-- Base dos cálculos de porcentagem, razão e proporção.
+Os números reais reúnem racionais e irracionais e são a base das contas que a UERJ mais cobra: porcentagens, variações e proporções.
+- **Racionais**: frações e dízimas periódicas (todas têm fração geratriz).
+- **Irracionais**: √2, π, φ — decimais infinitos e não periódicos.
+- “Números reais” foi o item de Matemática mais classificado pela UERJ.
 
 ### Porcentagem de porcentagem
+Quando a porcentagem incide sobre outra porcentagem, multiplica-se.
 - “40% de 11,5%” = 0,40 × 11,5% = 4,6% (UERJ 2026).
-- Multiplica-se: não se soma nem se subtrai.
+- Não se soma nem se subtrai porcentagens de bases diferentes.
+- Identifique sempre a base: porcentagem de quê?
 
 ### Fator multiplicativo
+Aumentos e descontos viram multiplicações — e se acumulam multiplicando.
 - Aumentar x% = multiplicar por (1 + x/100); diminuir = por (1 − x/100).
-- Aumento de 10% e desconto de 10%: 1,1 × 0,9 = 0,99 (queda de 1%).
+- Aumento de 10% e desconto de 10%: 1,1 × 0,9 = 0,99, queda de 1%.
+- Juros compostos seguem a mesma lógica: M = C·(1 + i)ⁿ.
 
 ### Variação percentual
+A variação percentual compara o tamanho da mudança com o valor de partida.
 - (final − inicial)/inicial × 100%: a base é sempre o valor inicial.
 - De 8% para 10%: +2 pontos percentuais, mas variação de 25%.
+- De 80 para 100 sobe 25%; de 100 para 80 cai 20%.
 
 ### Razões e proporções
-- Regra de três: grandezas na mesma ordem; inverta se forem inversas.
-- Retângulos áureo (φ) e de prata (1 + √2): semelhança ao retirar quadrados.
+Comparar grandezas é o coração de muitas questões contextualizadas.
+- Regra de três: grandezas na mesma ordem; inverta se forem inversamente proporcionais.
+- Retângulos áureo (φ) e de prata (1 + √2): ao retirar quadrados, sobra um retângulo semelhante.
 
 ### Como resolver
-- Identifique a base de cada porcentagem antes de calcular.
-- Mostre o desenvolvimento: a UERJ pede “desenvolvimento e resposta”.
+A UERJ exige “desenvolvimento e resposta”: o raciocínio vale tanto quanto o número final.
+- Escreva a operação, não só o resultado.
 - Não arredonde cedo; responda com unidade ou porcentagem.
+- Confira se o número final responde exatamente ao que foi perguntado.

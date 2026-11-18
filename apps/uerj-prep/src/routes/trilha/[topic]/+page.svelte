@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/brand';
 	import { enhance } from '$app/forms';
 	import { goto } from '$app/navigation';
 	import DisciplineBadge from '$lib/components/DisciplineBadge.svelte';
@@ -7,6 +8,7 @@
 	import Markdown from '$lib/components/Markdown.svelte';
 	import MindMap from '$lib/components/MindMap.svelte';
 	import { splitMapa } from '$lib/mindmap';
+	import { PROFESSORES, SITES, buscaYoutube } from '$lib/data/content/aprofundar';
 	import { DIFFICULTY_LABEL, type Difficulty } from '$lib/questions/types';
 
 	let { data } = $props();
@@ -43,7 +45,7 @@
 	}
 </script>
 
-<svelte:head><title>{data.topic.title} · Trilha · Discursiva</title></svelte:head>
+<svelte:head><title>{data.topic.title} · Trilha · {APP_NAME}</title></svelte:head>
 
 <p class="small"><a href="/trilha?d={data.discipline}">← Trilha</a></p>
 <div class="spread">
@@ -110,13 +112,47 @@
 		{/if}
 		{#if data.resumo?.references.length}
 			<h3>Referências</h3>
-			<ul class="small">{#each data.resumo.references as r, i (i)}<li>{r}</li>{/each}</ul>
+			<ul class="small refs">
+				{#each data.resumo.references as r, i (i)}
+					{@const m = r.match(/^(.*?)(https?:\/\/\S+?)([.;,)]?)$/)}
+					<li>{#if m}{m[1]}<a href={m[2]} target="_blank" rel="noopener noreferrer">{m[2].replace(/^https?:\/\/(www\.)?/, '').split('/')[0]}</a>{m[3]}{:else}{r}{/if}</li>
+				{/each}
+			</ul>
 		{/if}
 	{:else}
 		<h2>Resumo estratégico</h2>
 		<p class="muted">Este tópico ainda não tem resumo editorial. Você pode gerar um resumo com IA, adaptado ao seu nível, com conceitos, exemplos, relações entre conteúdos, como o tema aparece nas provas e exercícios de fixação.</p>
 		<button class="btn primary" disabled={!data.ai || busy !== ''} onclick={genSummary}>{busy === 'summary' ? 'Gerando resumo… (pode levar 1 min)' : 'Gerar resumo com IA'}</button>
 	{/if}
+</section>
+
+<section class="card" id="aprofundar">
+	<h2>Para aprofundar</h2>
+	<p class="small muted">
+		Videoaulas de professores conhecidos (busca no YouTube pelo professor e pelo tema) e sites confiáveis. São indicações: a plataforma não assiste nem revisa o conteúdo dos
+		vídeos — confira sempre com o programa oficial e com o resumo.
+	</p>
+	<div class="grid cols-2">
+		<div>
+			<h3>Videoaulas</h3>
+			<ul class="small">
+				{#each PROFESSORES[data.discipline] ?? [] as p (p.nome)}
+					<li>
+						<a href={buscaYoutube(p, data.topic.title)} target="_blank" rel="noopener noreferrer">{p.nome}: “{data.topic.title}”</a>
+						<span class="muted">— {p.onde}{#if p.url} · <a href={p.url} target="_blank" rel="noopener noreferrer">página</a>{/if}</span>
+					</li>
+				{/each}
+			</ul>
+		</div>
+		<div>
+			<h3>Sites confiáveis</h3>
+			<ul class="small">
+				{#each SITES[data.discipline] ?? [] as s (s.url)}
+					<li><a href={s.url} target="_blank" rel="noopener noreferrer">{s.nome}</a> <span class="muted">— {s.uso}</span></li>
+				{/each}
+			</ul>
+		</div>
+	</div>
 </section>
 
 <section class="card">

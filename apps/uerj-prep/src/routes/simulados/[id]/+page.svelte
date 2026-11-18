@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { APP_NAME } from '$lib/brand';
 	import { onMount } from 'svelte';
 	import { invalidateAll } from '$app/navigation';
 	import QuestionView from '$lib/components/QuestionView.svelte';
@@ -114,7 +115,7 @@
 	const pending = $derived(data.items.filter((i) => (i.kind === 'questao' && i.attempt?.credit === null) || (i.kind === 'redacao' && i.essay && i.essay.score === null)).length);
 </script>
 
-<svelte:head><title>{data.sim.title} · Discursiva</title></svelte:head>
+<svelte:head><title>{data.sim.title} · {APP_NAME}</title></svelte:head>
 
 <p class="small"><a href="/simulados">← Simulados</a></p>
 
