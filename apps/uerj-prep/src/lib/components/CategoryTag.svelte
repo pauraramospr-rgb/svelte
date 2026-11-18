@@ -6,7 +6,7 @@
 
 <span class="tag {category}" title={CATEGORY_HELP[category]}>
 	<span class="dot" aria-hidden="true"></span>
-	{CATEGORY_LABEL[category]}{#if detail}<span class="detail">· {detail}</span>{/if}
+	<span class="label">{CATEGORY_LABEL[category]}{#if detail}{' '}<span class="detail">· {detail}</span>{/if}</span>
 </span>
 
 <style>
@@ -25,14 +25,17 @@
 		background: var(--surface);
 	}
 	.dot {
+		flex: none;
 		width: 7px;
 		height: 7px;
 		border-radius: 50%;
 		background: currentColor;
 	}
+	.label {
+		min-width: 0;
+	}
 	.detail {
 		font-weight: 500;
-		white-space: normal;
 	}
 	@media (max-width: 480px) {
 		.tag {
