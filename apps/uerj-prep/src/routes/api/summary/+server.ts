@@ -8,12 +8,12 @@ import { db } from '$lib/server/db';
 
 export const POST: RequestHandler = async ({ request, locals }) => {
 	const user = locals.user!;
-	const body = await readJson<{ topicId: string }>(request);
+	const body = await readJson<{ topicId: string; force?: boolean }>(request);
 	if (!body || !getTopic(body.topicId)) return bad('Tópico inválido.');
 	const cached = db().prepare('SELECT content FROM generated_summaries WHERE topic_id = ? AND level = ?').get(body.topicId, user.level) as
 		| { content: string }
 		| undefined;
-	if (cached) return json({ content: cached.content });
+	if (cached && !body.force) return json({ content: cached.content });
 	if (!aiConfigured()) return bad('A IA não está configurada neste servidor.', 503);
 	try {
 		const content = await generateSummary({ topicId: body.topicId, level: user.level, userId: user.id });

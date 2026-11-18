@@ -26,7 +26,7 @@ export const load: PageServerLoad = ({ params, locals }) => {
 		years: INCIDENCE.years,
 		resumo: getResumo(params.topic) ?? null,
 		aiSummary: cached ?? null,
-		official: official.slice(0, 30).map((q) => ({ id: q.id, year: (q as { year: number }).year, number: (q as { number: number }).number, statement: q.statement.slice(0, 260), language: q.language })),
+		official: official.slice(0, 30).map((q) => ({ id: q.id, year: (q as { year: number }).year, number: (q as { number: number }).number, statement: q.statement.slice(0, 260), language: q.language, objective: (q as { objective?: string }).objective ?? '' })),
 		officialTotal: official.length,
 		ineditas: ineditas.map((q) => ({ id: q.id, statement: q.statement.slice(0, 260), difficulty: (q as { difficulty: string }).difficulty })),
 		performance: topicPerformance(user.id).find((p) => p.topicId === params.topic) ?? null,

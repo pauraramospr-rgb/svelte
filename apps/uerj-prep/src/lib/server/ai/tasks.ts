@@ -2,7 +2,7 @@ import { callStructured, callText, model } from './client';
 import { DISCIPLINES, REDACAO_2027, REDACAO_ASPECTS, PADRAO_REDACAO_2026_EXCERPT, COMPETENCIAS_2027 } from '$lib/data/official/exam-2027';
 import type { DisciplineCode } from '$lib/data/official/exam-2027';
 import { referenceAnswer, type Question, type NewQuestion, type Difficulty } from '$lib/questions/types';
-import { styleExamples } from '../questions';
+import { topicOfficial, styleExamples } from '../questions';
 import { getTopic } from '$lib/domain/syllabus';
 import { CREDIT_FROM_LABEL, type CreditLabel } from '$lib/domain/scoring';
 
@@ -299,13 +299,26 @@ const MAP_BRANCHES: Record<DisciplineCode, string> = {
 export async function generateSummary(args: { topicId: string; level: Level; userId: number }): Promise<string> {
 	const t = getTopic(args.topicId);
 	if (!t) throw new Error('Tópico inexistente');
-	const examples = styleExamples(t.discipline, args.topicId, 2);
-	const exText = examples.map((e) => `- UERJ ${e.year}, questão ${e.number}: ${e.statement.slice(0, 700)}`).join('\n');
+	// Como a UERJ já cobrou ESTE tópico: enunciado, objetivo e comentário oficial (padrão de resposta).
+	const own = topicOfficial(args.topicId, 4);
+	const exText = own.length
+		? own
+				.map(
+					(e) =>
+						`- UERJ ${e.year}, questão ${e.number}\n  Enunciado (trecho): ${e.statement.replace(/\[Elemento gráfico[^\]]*\]/g, '[imagem]').slice(-700)}\n  Objetivo oficial: ${e.objective}\n  Comentário oficial / padrão de resposta (trecho): ${(e.officialCommentary || '').replace(/\[Elemento gráfico[^\]]*\]/g, '').slice(0, 1400)}`
+				)
+				.join('\n')
+		: styleExamples(t.discipline, args.topicId, 2)
+				.map((e) => `- (questão de outro tópico, só como referência de estilo) UERJ ${e.year}, questão ${e.number}: ${e.statement.slice(0, 500)}`)
+				.join('\n');
 	const system = `Você é um professor universitário e autor de material didático para o vestibular da UERJ.
 Escreva um resumo estratégico, APROFUNDADO e didático, em Markdown, sobre o tópico indicado, para um estudante de nível ${LEVEL_TEXT[args.level]}.
 O padrão é o de um material de cursinho de alto nível para a UERJ: não uma explicação rápida, mas um texto com NEXO, que conte o assunto em ordem lógica — do antes ao depois — e ensine os mecanismos, as distinções finas e as relações que a banca cobra.
+FOCO NO VESTIBULAR: o resumo serve para responder às questões da UERJ. Construa-o a partir dos subtópicos oficiais e das questões oficiais fornecidas (objetivo e comentário/padrão de resposta): priorize e aprofunde o que pode virar comando; corte curiosidades e detalhes que não ajudam a responder.
+EXPLIQUE, NÃO APENAS CITE: todo termo, conceito ou acontecimento mencionado deve vir explicado em uma ou duas frases (o que é e por que importa para o assunto). Nada de listas de nomes sem explicação.
 Use exatamente estas seções (títulos de nível 2), nesta ordem:
 ## Em uma frase  (síntese de 2 a 4 linhas que já mostre o encadeamento do assunto)
+## O que a UERJ cobra  (com base nas questões oficiais fornecidas: para cada uma, o que foi pedido e o núcleo da resposta esperada segundo o comentário oficial; depois, em 2 a 4 itens, o que o estudante precisa dominar. Se não houver questão do tópico, diga isso e oriente pelos subtópicos oficiais)
 ${['HIS', 'GEO'].includes(t.discipline) ? '## O fio da história  (lista numerada de 5 a 7 linhas: a espinha dorsal do assunto, do antes ao depois, uma linha por etapa)\n' : ''}## Conceitos fundamentais  (lista: cada item começa com o termo em **negrito**, seguido de dois-pontos e da definição precisa)
 ## Explicação detalhada  (OBRIGATORIAMENTE com estas subseções de nível 3, nesta ordem, cobrindo TODOS os subtópicos oficiais:
 ${SUMMARY_STEPS[t.discipline]}.
@@ -326,8 +339,8 @@ Unidade: ${t.unit}
 Tópico (programa oficial 2027): ${t.topic.title}
 Subtópicos oficiais: ${t.topic.subtopics.join('; ') || '—'}
 
-Questões oficiais relacionadas:
-${exText || '(nenhuma classificada neste tópico)'}`;
+Questões oficiais da UERJ classificadas neste tópico (use-as como eixo do resumo):
+${exText || '(nenhuma classificada neste tópico nas edições analisadas)'}`;
 	return callText({ task: 'resumo', userId: args.userId, system, user, effort: 'medium', maxTokens: 32000 });
 }
 

@@ -162,6 +162,15 @@ await step('resumo aprofundado vira mapa mental', async () => {
 	await page.screenshot({ path: `${SHOTS}/06d-mapa.png`, fullPage: true });
 });
 
+await step('tópico mostra como a UERJ cobrou e resumo focado na prova', async () => {
+	await page.goto(BASE + '/trilha/his-a-expansao-maritima-e-comercial-europeia');
+	await page.waitForSelector('.cobra li');
+	const n = await page.locator('.cobra li').count();
+	expect(n >= 2, `objetivos oficiais ausentes: ${n}`);
+	await page.waitForSelector('text=O que a UERJ cobra');
+	await page.waitForSelector('text=padrão de resposta oficial aceita');
+});
+
 await step('revisão: diagnóstico e cronograma', async () => {
 	await page.goto(BASE + '/revisao');
 	await page.waitForSelector('text=Cronograma personalizado');

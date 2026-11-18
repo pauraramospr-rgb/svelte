@@ -132,6 +132,13 @@ export function pickQuestions(opts: {
 }
 
 /** Exemplos oficiais do mesmo tópico/disciplina para orientar a IA (estilo da banca). */
+/** Questões oficiais classificadas pela UERJ no tópico (inclusive as com imagem), da mais recente para a mais antiga. */
+export function topicOfficial(topicId: string, n = 4): OfficialQuestion[] {
+	return OFFICIAL.filter((q) => q.topicIds.includes(topicId))
+		.sort((a, b) => b.year - a.year || a.number - b.number)
+		.slice(0, n);
+}
+
 export function styleExamples(discipline: DisciplineCode, topicId: string | undefined, n = 3): OfficialQuestion[] {
 	const same = OFFICIAL.filter((q) => q.discipline === discipline && !q.hasGraphic && (!topicId || q.topicIds.includes(topicId)));
 	const pool = same.length >= n ? same : OFFICIAL.filter((q) => q.discipline === discipline && !q.hasGraphic);

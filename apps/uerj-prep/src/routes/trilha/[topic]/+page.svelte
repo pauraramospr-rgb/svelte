@@ -20,10 +20,10 @@
 	const shownSummary = $derived(summary ?? data.aiSummary?.content ?? null);
 	const maxYear = $derived(Math.max(1, ...Object.values(data.stats.byYear)));
 
-	async function genSummary() {
+	async function genSummary(force = false) {
 		busy = 'summary';
 		error = '';
-		const res = await fetch('/api/summary', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ topicId: data.topic.id }) });
+		const res = await fetch('/api/summary', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ topicId: data.topic.id, force }) });
 		const out = await res.json();
 		busy = '';
 		if (!res.ok) error = out.error;
@@ -93,6 +93,21 @@
 
 {#if error}<p class="notice bad" role="alert">{error}</p>{/if}
 
+{#if data.official.length}
+	<section class="card cobra">
+		<div class="spread"><h2>Como a UERJ já cobrou este tópico</h2><CategoryTag category="oficial" detail="objetivos da banca" /></div>
+		<p class="small muted">Antes de ler o resumo, veja o que a banca pediu. Estude pensando nesses comandos.</p>
+		<ul>
+			{#each data.official.slice(0, 6) as q (q.id)}
+				<li>
+					<a href="/banco/{q.id}"><strong>UERJ {q.year} · Q{String(q.number).padStart(2, '0')}{q.language ? ` · ${q.language}` : ''}</strong></a>
+					{#if q.objective}— objetivo: {q.objective}{/if}
+				</li>
+			{/each}
+		</ul>
+	</section>
+{/if}
+
 <section class="card">
 	{#if data.resumo || shownSummary}
 		<div class="spread">
@@ -103,7 +118,12 @@
 			<button class="btn small" class:primary={view === 'texto'} aria-pressed={view === 'texto'} onclick={() => (view = 'texto')}>Texto completo</button>
 			<button class="btn small" class:primary={view === 'mapa'} aria-pressed={view === 'mapa'} onclick={() => (view = 'mapa')}>Mapa mental</button>
 		</div>
-		{#if !data.resumo}<p class="notice small">Resumo gerado por IA para o seu nível. Confira dados e definições com o material oficial e com seu professor.</p>{/if}
+		{#if !data.resumo}
+			<p class="notice small">
+				Resumo gerado por IA para o seu nível, a partir do programa e das questões oficiais deste tópico. Confira dados e definições com o material oficial e com seu professor.
+				<button class="btn small" disabled={!data.ai || busy !== ''} onclick={() => genSummary(true)}>{busy === 'summary' ? 'Gerando de novo…' : 'Gerar de novo (versão atualizada)'}</button>
+			</p>
+		{/if}
 		{#if view === 'mapa'}
 			<p class="small muted">Leia na ordem dos números: o mapa condensa o resumo em etapas com nexo (em História, do antes ao depois). Use-o para revisar; para estudar, leia o texto completo.</p>
 			<MindMap title={data.topic.title} markdown={data.resumo?.body ?? shownSummary ?? ''} />
@@ -122,7 +142,7 @@
 	{:else}
 		<h2>Resumo estratégico</h2>
 		<p class="muted">Este tópico ainda não tem resumo editorial. Você pode gerar um resumo com IA, adaptado ao seu nível, com conceitos, exemplos, relações entre conteúdos, como o tema aparece nas provas e exercícios de fixação.</p>
-		<button class="btn primary" disabled={!data.ai || busy !== ''} onclick={genSummary}>{busy === 'summary' ? 'Gerando resumo… (pode levar 1 min)' : 'Gerar resumo com IA'}</button>
+		<button class="btn primary" disabled={!data.ai || busy !== ''} onclick={() => genSummary()}>{busy === 'summary' ? 'Gerando resumo… (pode levar 1 min)' : 'Gerar resumo com IA'}</button>
 	{/if}
 </section>
 
@@ -211,6 +231,15 @@
 	}
 	.view {
 		margin: 0.25rem 0 0.75rem;
+	}
+	.cobra {
+		border-left: 4px solid var(--cat-oficial);
+	}
+	.cobra ul {
+		padding-left: 1.1rem;
+	}
+	.cobra li {
+		margin: 0.35rem 0;
 	}
 	.qlist {
 		list-style: none;
