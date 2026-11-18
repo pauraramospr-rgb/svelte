@@ -31,5 +31,7 @@ const md = new Marked({
 });
 
 export function renderMarkdown(src: string): string {
-	return md.parse(src ?? '', { async: false }) as string;
+	const html = md.parse(src ?? '', { async: false }) as string;
+	// Tabelas largas rolam dentro do próprio contêiner (a página nunca rola para o lado).
+	return html.replace(/<table>/g, '<div class="table-wrap"><table>').replace(/<\/table>/g, '</table></div>');
 }

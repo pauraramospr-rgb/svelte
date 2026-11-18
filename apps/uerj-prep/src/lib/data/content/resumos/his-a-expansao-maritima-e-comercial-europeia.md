@@ -51,7 +51,14 @@ Entre os séculos V e X, a Europa ocidental viveu sobretudo no campo, no **feuda
 - **Os burgos**: cidades que cresceram junto a castelos e estradas de comércio. Seus moradores, os **burgueses** (comerciantes e artesãos), formaram um grupo social novo, que vivia do comércio e do dinheiro — a **burguesia**.
 - **As feiras** (como as de Champagne, na França): grandes mercados periódicos que reuniam comerciantes de várias regiões e faziam a moeda voltar a circular.
 
-Os produtos mais desejados vinham do Oriente: as **especiarias** (pimenta, cravo, canela, noz-moscada), usadas para conservar e temperar alimentos e como remédio, além de sedas e porcelanas. O problema era o **caminho**. Esses produtos atravessavam a Ásia, chegavam aos portos do Mediterrâneo oriental pelas mãos de **mercadores muçulmanos** e eram comprados por mercadores de **Veneza e Gênova**, que tinham na prática o monopólio da revenda na Europa. Cada intermediário cobrava sua parte, e o preço final era altíssimo. Esse caminho é o que o programa da UERJ chama de **eixo comercial do Mediterrâneo**.
+Os produtos mais desejados vinham do Oriente: as **especiarias** (pimenta, cravo, canela, noz-moscada), usadas para conservar e temperar alimentos e como remédio, além de sedas e porcelanas. O problema era o **caminho** até a Europa. Acompanhe a viagem de um saco de pimenta no século XV:
+
+1. **Na Ásia**: a pimenta, o cravo e a canela eram produzidos na Índia, no Ceilão e nas ilhas da atual Indonésia.
+2. **Com os mercadores muçulmanos**: árabes, persas e, depois, turcos dominavam o comércio no oceano Índico e levavam as especiarias, por mar e em caravanas, até os portos do Mediterrâneo oriental, como Alexandria (Egito) e Beirute. Eram muçulmanos porque, desde a expansão do Islã (séculos VII e VIII), o Oriente Médio — passagem obrigatória entre a Ásia e a Europa — era governado por Estados muçulmanos.
+3. **Com os mercadores italianos**: Veneza e Gênova, cidades ricas e com grandes frotas, tinham acordos com esses governantes, compravam as especiarias nesses portos e eram praticamente as únicas a levá-las para a Europa.
+4. **No resto da Europa**: portugueses, castelhanos e franceses compravam dos italianos — pagando, no preço final, o lucro de todos os intermediários do caminho.
+
+Ou seja: quem estava no fim da fila pagava caríssimo e não controlava nada desse comércio. Esse caminho, que passava pelo Mediterrâneo e enriquecia muçulmanos e italianos, é o que o programa da UERJ chama de **eixo comercial do Mediterrâneo**. **Por que isso cai:** quem chegasse às especiarias por outro caminho, pelo oceano, “pularia” todos os intermediários e ficaria com o lucro — é o objetivo “exploração de rotas marítimas” do padrão de 2024. E, quando Portugal conseguiu (Vasco da Gama, 1498), Lisboa passou a vender pimenta trazida direto por mar e Veneza perdeu espaço: o eixo começou a se deslocar para o Atlântico. A tomada de Constantinopla pelos turcos otomanos (1453) costuma ser lembrada como mais um obstáculo nesse caminho, mas não foi a causa da expansão: Portugal já navegava desde 1415.
 
 Por fim, no século XIV a Europa enfrentou uma grande **crise**: fome, a **Peste Negra** (1347–1351), que matou cerca de um terço da população, guerras como a dos Cem Anos (1337–1453) e revoltas camponesas. A crise enfraqueceu o feudalismo e fortaleceu os **reis**, que passaram a concentrar poder.
 
@@ -210,7 +217,8 @@ As grandes navegações de Portugal e Espanha nos séculos XV e XVI, em busca de
 O comércio voltou a crescer na Europa, mas o que vinha do Oriente chegava caro.
 - **Reativação comercial (séculos XI–XIII)**: Cruzadas, burgos e feiras fazem a moeda e o comércio voltarem.
 - **Burguesia**: comerciantes e artesãos das cidades, um grupo social novo.
-- **Eixo do Mediterrâneo**: muçulmanos e italianos (Veneza e Gênova) controlavam a revenda das especiarias.
+- **Caminho das especiarias**: Ásia → mercadores muçulmanos → portos do Mediterrâneo → Veneza e Gênova → resto da Europa; cada um somava seu lucro.
+- **Por que importa**: quem chegasse às especiarias pelo oceano pularia os intermediários — é a “exploração de rotas marítimas” do padrão.
 - **Crise do século XIV**: fome, Peste Negra e guerras enfraquecem o feudalismo e fortalecem os reis.
 
 ### Causas (padrão UERJ 2024)

@@ -1,13 +1,28 @@
+/*
+ * Direção visual: "mesa de estudo" — papel claro com pauta discreta, tinta azul-caneta,
+ * marca-texto amarelo para o que importa e números em fonte técnica.
+ * Camadas: papel (fundo) · folhas (superfícies) · tinta (texto e ação) · marca-texto (destaque).
+ */
 :root {
-	--bg: #f6f7fb;
+	--bg: #f2f4fa;
+	--bg-dot: #d7dcec;
 	--surface: #ffffff;
-	--surface-2: #f1f3f9;
-	--border: #dfe3ee;
-	--text: #172033;
-	--muted: #5b6478;
-	--primary: #1d4ed8;
+	--surface-2: #eef1f9;
+	--surface-3: #e4e8f4;
+	--border: #dde2ef;
+	--border-strong: #c7cee3;
+	--text: #121633;
+	--muted: #5a6180;
+	--primary: #2f3cd9;
+	--primary-strong: #2430b8;
 	--primary-contrast: #ffffff;
-	--primary-soft: #e6edff;
+	--primary-soft: #e8eaff;
+	--mark: #ffe066;
+	--mark-soft: rgb(255 224 102 / 55%);
+	--ink-panel: #151a3a;
+	--ink-panel-2: #1f2652;
+	--ink-text: #eef0ff;
+	--ink-muted: #b4bbe0;
 	--accent: #b45309;
 	--ok: #15803d;
 	--ok-soft: #dcfce7;
@@ -15,94 +30,120 @@
 	--warn-soft: #fef3c7;
 	--bad: #b91c1c;
 	--bad-soft: #fee2e2;
-	--cat-oficial: #1d4ed8;
+	--cat-oficial: #2f3cd9;
 	--cat-analise: #7c3aed;
 	--cat-pedagogica: #0f766e;
 	--cat-previsao: #b45309;
 	--cat-ia: #be185d;
 	--c-red: #be185d;
 	--c-lpl: #7c3aed;
-	--c-mat: #1d4ed8;
+	--c-mat: #2f3cd9;
 	--c-fis: #0369a1;
 	--c-qui: #0f766e;
 	--c-bio: #15803d;
 	--c-his: #b45309;
 	--c-geo: #a16207;
 	--c-le: #4338ca;
-	--radius: 12px;
-	--shadow: 0 1px 2px rgb(16 24 40 / 6%), 0 1px 3px rgb(16 24 40 / 10%);
+	--radius: 16px;
+	--radius-sm: 11px;
+	--shadow: 0 1px 2px rgb(18 22 51 / 5%), 0 2px 8px rgb(18 22 51 / 6%);
+	--shadow-lift: 0 2px 4px rgb(18 22 51 / 6%), 0 12px 28px rgb(18 22 51 / 12%);
 	--font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+	--display: 'Bricolage Grotesque', 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+	--mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
 	--serif: 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
 	color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root:not([data-theme="light"]) {
-		--bg: #0e1220;
-		--surface: #151a2b;
-		--surface-2: #1c2236;
-		--border: #2a3150;
-		--text: #e7eaf3;
-		--muted: #a2a9bd;
-		--primary: #7aa2ff;
-		--primary-contrast: #0b1020;
-		--primary-soft: #1d2a52;
+		--bg: #0b0e1d;
+		--bg-dot: #1a2040;
+		--surface: #131932;
+		--surface-2: #1a213f;
+		--surface-3: #232b4f;
+		--border: #262e55;
+		--border-strong: #343d6c;
+		--text: #e9ebf8;
+		--muted: #a2a9c8;
+		--primary: #8f9bff;
+		--primary-strong: #a8b1ff;
+		--primary-contrast: #0b0e1d;
+		--primary-soft: #222a5e;
+		--mark: #ffd84d;
+		--mark-soft: rgb(255 216 77 / 26%);
+		--ink-panel: #1a2050;
+		--ink-panel-2: #252d66;
+		--ink-text: #eef0ff;
+		--ink-muted: #b9c0e6;
 		--ok: #4ade80;
 		--ok-soft: #12321f;
 		--warn: #fbbf24;
 		--warn-soft: #3a2c0b;
 		--bad: #f87171;
 		--bad-soft: #3b1414;
-		--cat-oficial: #7aa2ff;
+		--cat-oficial: #8f9bff;
 		--cat-analise: #b69bff;
 		--cat-pedagogica: #5eead4;
 		--cat-previsao: #fbbf24;
 		--cat-ia: #f9a8d4;
 		--c-red: #f472b6;
 		--c-lpl: #b69bff;
-		--c-mat: #7aa2ff;
+		--c-mat: #8f9bff;
 		--c-fis: #7dd3fc;
 		--c-qui: #5eead4;
 		--c-bio: #4ade80;
 		--c-his: #fbbf24;
 		--c-geo: #facc15;
 		--c-le: #a5b4fc;
-		--shadow: 0 1px 2px rgb(0 0 0 / 40%);
+		--shadow: 0 1px 2px rgb(0 0 0 / 35%);
+		--shadow-lift: 0 2px 4px rgb(0 0 0 / 35%), 0 14px 30px rgb(0 0 0 / 40%);
 		color-scheme: dark;
 	}
 }
 
 :root[data-theme="dark"] {
-	--bg: #0e1220;
-	--surface: #151a2b;
-	--surface-2: #1c2236;
-	--border: #2a3150;
-	--text: #e7eaf3;
-	--muted: #a2a9bd;
-	--primary: #7aa2ff;
-	--primary-contrast: #0b1020;
-	--primary-soft: #1d2a52;
+	--bg: #0b0e1d;
+	--bg-dot: #1a2040;
+	--surface: #131932;
+	--surface-2: #1a213f;
+	--surface-3: #232b4f;
+	--border: #262e55;
+	--border-strong: #343d6c;
+	--text: #e9ebf8;
+	--muted: #a2a9c8;
+	--primary: #8f9bff;
+	--primary-strong: #a8b1ff;
+	--primary-contrast: #0b0e1d;
+	--primary-soft: #222a5e;
+	--mark: #ffd84d;
+	--mark-soft: rgb(255 216 77 / 26%);
+	--ink-panel: #1a2050;
+	--ink-panel-2: #252d66;
+	--ink-text: #eef0ff;
+	--ink-muted: #b9c0e6;
 	--ok: #4ade80;
 	--ok-soft: #12321f;
 	--warn: #fbbf24;
 	--warn-soft: #3a2c0b;
 	--bad: #f87171;
 	--bad-soft: #3b1414;
-	--cat-oficial: #7aa2ff;
+	--cat-oficial: #8f9bff;
 	--cat-analise: #b69bff;
 	--cat-pedagogica: #5eead4;
 	--cat-previsao: #fbbf24;
 	--cat-ia: #f9a8d4;
 	--c-red: #f472b6;
 	--c-lpl: #b69bff;
-	--c-mat: #7aa2ff;
+	--c-mat: #8f9bff;
 	--c-fis: #7dd3fc;
 	--c-qui: #5eead4;
 	--c-bio: #4ade80;
 	--c-his: #fbbf24;
 	--c-geo: #facc15;
 	--c-le: #a5b4fc;
-	--shadow: 0 1px 2px rgb(0 0 0 / 40%);
+	--shadow: 0 1px 2px rgb(0 0 0 / 35%);
+	--shadow-lift: 0 2px 4px rgb(0 0 0 / 35%), 0 14px 30px rgb(0 0 0 / 40%);
 	color-scheme: dark;
 }
 
@@ -113,39 +154,56 @@
 html,
 body {
 	margin: 0;
-	background: var(--bg);
+	background-color: var(--bg);
 	color: var(--text);
 	font-family: var(--font);
 	font-size: 16px;
-	line-height: 1.55;
+	line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
+}
+
+/* Pontilhado de caderno quadriculado, bem discreto. */
+body {
+	background-image: radial-gradient(var(--bg-dot) 1px, transparent 1.2px);
+	background-size: 24px 24px;
+	background-attachment: fixed;
 }
 
 a {
 	color: var(--primary);
 	text-decoration-thickness: 1px;
-	text-underline-offset: 2px;
+	text-underline-offset: 3px;
+}
+
+a:hover {
+	color: var(--primary-strong);
 }
 
 h1,
 h2,
 h3,
 h4 {
-	line-height: 1.25;
+	font-family: var(--display);
+	line-height: 1.2;
 	margin: 0 0 0.5em;
+	text-wrap: balance;
+	letter-spacing: -0.015em;
 }
 
 h1 {
-	font-size: clamp(1.5rem, 2.5vw, 2rem);
-	letter-spacing: -0.01em;
+	font-size: clamp(1.7rem, 3vw, 2.35rem);
+	font-weight: 750;
+	letter-spacing: -0.025em;
 }
 
 h2 {
-	font-size: 1.3rem;
+	font-size: 1.32rem;
+	font-weight: 700;
 }
 
 h3 {
 	font-size: 1.08rem;
+	font-weight: 650;
 }
 
 p {
@@ -161,12 +219,37 @@ p {
 	font-size: 0.875rem;
 }
 
+.mono,
+.num {
+	font-family: var(--mono);
+	font-variant-numeric: tabular-nums;
+	letter-spacing: -0.01em;
+}
+
+/* Marca-texto: o destaque que o estudante faria com a caneta amarela. */
+.mark {
+	background: linear-gradient(transparent 52%, var(--mark-soft) 52%, var(--mark-soft) 92%, transparent 92%);
+	padding: 0 0.1em;
+	border-radius: 2px;
+}
+
+.eyebrow {
+	display: block;
+	font-size: 0.74rem;
+	font-weight: 700;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+	color: var(--muted);
+	margin-bottom: 0.35rem;
+}
+
 .card {
 	background: var(--surface);
 	border: 1px solid var(--border);
 	border-radius: var(--radius);
-	padding: 1.1rem 1.25rem;
+	padding: 1.2rem 1.35rem;
 	box-shadow: var(--shadow);
+	min-width: 0;
 }
 
 .card + .card {
@@ -178,17 +261,35 @@ p {
 	margin-top: 0;
 }
 
+a.card,
+.card.link {
+	display: block;
+	color: inherit;
+	text-decoration: none;
+	transition:
+		transform 0.18s ease,
+		box-shadow 0.18s ease,
+		border-color 0.18s ease;
+}
+
+a.card:hover,
+.card.link:hover {
+	transform: translateY(-2px);
+	box-shadow: var(--shadow-lift);
+	border-color: var(--border-strong);
+}
+
 .grid {
 	display: grid;
 	gap: 1rem;
 }
 
 .grid.cols-2 {
-	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 290px), 1fr));
 }
 
 .grid.cols-3 {
-	grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr));
 }
 
 .row {
@@ -202,7 +303,7 @@ p {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	gap: 1rem;
+	gap: 0.75rem 1rem;
 	flex-wrap: wrap;
 }
 
@@ -214,32 +315,44 @@ p {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	gap: 0.4rem;
-	border: 1px solid var(--border);
+	gap: 0.45rem;
+	border: 1px solid var(--border-strong);
 	background: var(--surface);
 	color: var(--text);
-	border-radius: 10px;
-	padding: 0.55rem 0.95rem;
+	border-radius: 12px;
+	padding: 0.55rem 1rem;
 	font: inherit;
 	font-weight: 600;
 	font-size: 0.95rem;
 	cursor: pointer;
 	text-decoration: none;
-	min-height: 40px;
+	min-height: 42px;
+	transition:
+		background 0.15s ease,
+		transform 0.15s ease,
+		box-shadow 0.15s ease;
 }
 
 .btn:hover {
 	background: var(--surface-2);
+	color: var(--text);
+}
+
+.btn:active {
+	transform: translateY(1px);
 }
 
 .btn.primary {
 	background: var(--primary);
 	border-color: var(--primary);
 	color: var(--primary-contrast);
+	box-shadow: 0 1px 0 rgb(255 255 255 / 18%) inset, 0 6px 16px color-mix(in srgb, var(--primary) 28%, transparent);
 }
 
 .btn.primary:hover {
-	filter: brightness(1.08);
+	background: var(--primary-strong);
+	border-color: var(--primary-strong);
+	color: var(--primary-contrast);
 }
 
 .btn.ghost {
@@ -247,15 +360,21 @@ p {
 	border-color: transparent;
 }
 
+.btn.ghost:hover {
+	background: var(--surface-2);
+}
+
 .btn.small {
-	min-height: 32px;
-	padding: 0.3rem 0.65rem;
+	min-height: 34px;
+	padding: 0.3rem 0.75rem;
 	font-size: 0.85rem;
+	border-radius: 10px;
 }
 
 .btn:disabled {
 	opacity: 0.55;
 	cursor: not-allowed;
+	transform: none;
 }
 
 input,
@@ -264,11 +383,11 @@ textarea {
 	font: inherit;
 	color: var(--text);
 	background: var(--surface);
-	border: 1px solid var(--border);
-	border-radius: 10px;
-	padding: 0.55rem 0.7rem;
+	border: 1px solid var(--border-strong);
+	border-radius: 11px;
+	padding: 0.55rem 0.75rem;
 	width: 100%;
-	min-height: 40px;
+	min-height: 42px;
 }
 
 textarea {
@@ -277,11 +396,25 @@ textarea {
 	line-height: 1.6;
 }
 
+/* Área de resposta com pauta, como a folha de resposta da prova. */
+textarea.pautado {
+	--pauta: 1.9rem;
+	line-height: var(--pauta);
+	padding: 0 0.9rem;
+	background-color: var(--surface);
+	background-image: linear-gradient(to bottom, transparent calc(var(--pauta) - 1px), var(--border) calc(var(--pauta) - 1px));
+	background-size: 100% var(--pauta);
+	background-attachment: local;
+	font-size: 1.02rem;
+}
+
 input:focus-visible,
 select:focus-visible,
 textarea:focus-visible,
 .btn:focus-visible,
-a:focus-visible {
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
 	outline: 2px solid var(--primary);
 	outline-offset: 2px;
 }
@@ -302,18 +435,19 @@ label {
 	align-items: center;
 	gap: 0.3rem;
 	border-radius: 999px;
-	padding: 0.1rem 0.6rem;
+	padding: 0.12rem 0.65rem;
 	font-size: 0.78rem;
 	font-weight: 600;
 	border: 1px solid var(--border);
 	background: var(--surface-2);
 	color: var(--muted);
 	white-space: nowrap;
+	font-variant-numeric: tabular-nums;
 }
 
 .notice {
-	border-radius: 10px;
-	padding: 0.7rem 0.9rem;
+	border-radius: 12px;
+	padding: 0.75rem 0.95rem;
 	border: 1px solid var(--border);
 	background: var(--surface-2);
 	font-size: 0.92rem;
@@ -348,15 +482,15 @@ table {
 th,
 td {
 	text-align: left;
-	padding: 0.5rem 0.6rem;
+	padding: 0.55rem 0.65rem;
 	border-bottom: 1px solid var(--border);
 	vertical-align: top;
 }
 
 th {
-	font-size: 0.8rem;
+	font-size: 0.74rem;
 	text-transform: uppercase;
-	letter-spacing: 0.03em;
+	letter-spacing: 0.07em;
 	color: var(--muted);
 }
 
@@ -395,16 +529,35 @@ th {
 	white-space: pre-wrap;
 	overflow-wrap: anywhere;
 	font-family: var(--serif);
-	font-size: 1.04rem;
-	line-height: 1.65;
-}
-
-.prose {
+	font-size: 1.06rem;
 	line-height: 1.7;
 }
 
+/* Texto dos resumos: leitura confortável, termos-chave grifados. */
+.prose {
+	line-height: 1.75;
+	font-size: 1.02rem;
+	max-width: 74ch;
+}
+
 .prose h2 {
-	margin-top: 1.4em;
+	margin-top: 1.8em;
+	padding-top: 0.2em;
+	font-size: 1.36rem;
+}
+
+.prose h2:first-child {
+	margin-top: 0.2em;
+}
+
+.prose h3 {
+	margin-top: 1.5em;
+	font-size: 1.12rem;
+}
+
+.prose strong {
+	background: linear-gradient(transparent 58%, var(--mark-soft) 58%, var(--mark-soft) 94%, transparent 94%);
+	padding: 0 0.08em;
 }
 
 .prose ul,
@@ -412,23 +565,61 @@ th {
 	padding-left: 1.3rem;
 }
 
+.prose li + li {
+	margin-top: 0.3em;
+}
+
 .prose blockquote {
-	margin: 0.8em 0;
-	padding: 0.4em 1em;
-	border-left: 3px solid var(--primary);
-	background: var(--surface-2);
-	border-radius: 0 8px 8px 0;
+	margin: 1.1em 0;
+	padding: 0.65em 1em 0.65em 2.6em;
+	position: relative;
+	background: var(--primary-soft);
+	border: 1px solid color-mix(in srgb, var(--primary) 22%, transparent);
+	border-radius: 12px;
+	color: var(--text);
+}
+
+.prose blockquote::before {
+	content: '↳';
+	position: absolute;
+	left: 0.9em;
+	top: 0.5em;
+	font-size: 1.15em;
+	font-weight: 700;
+	color: var(--primary);
+}
+
+.prose blockquote p:last-child {
+	margin-bottom: 0;
+}
+
+.prose blockquote strong {
+	background: none;
+	color: var(--primary);
+}
+
+.prose table {
+	margin: 0.6em 0 1em;
+	font-size: 0.93rem;
+}
+
+.prose td:first-child {
+	font-family: var(--mono);
+	font-size: 0.86rem;
+	color: var(--primary);
 }
 
 .prose code {
 	background: var(--surface-2);
 	padding: 0.05em 0.35em;
 	border-radius: 5px;
+	font-family: var(--mono);
+	font-size: 0.9em;
 }
 
 .bar {
 	height: 8px;
-	background: var(--surface-2);
+	background: var(--surface-3);
 	border-radius: 999px;
 	overflow: hidden;
 }
@@ -469,4 +660,49 @@ hr {
 	border: 0;
 	border-top: 1px solid var(--border);
 	margin: 1.2rem 0;
+}
+
+/* Abas (guia, filtros). */
+.tabs {
+	display: flex;
+	gap: 0.35rem;
+	flex-wrap: wrap;
+	padding: 0.3rem;
+	background: var(--surface-2);
+	border: 1px solid var(--border);
+	border-radius: 14px;
+	width: fit-content;
+	max-width: 100%;
+}
+
+.tabs button {
+	font: inherit;
+	font-size: 0.9rem;
+	font-weight: 600;
+	color: var(--muted);
+	background: transparent;
+	border: 0;
+	border-radius: 10px;
+	padding: 0.45rem 0.85rem;
+	cursor: pointer;
+	min-height: 38px;
+}
+
+.tabs button:hover {
+	color: var(--text);
+}
+
+.tabs button[aria-selected='true'] {
+	background: var(--surface);
+	color: var(--text);
+	box-shadow: var(--shadow);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		transition: none !important;
+		animation: none !important;
+	}
 }

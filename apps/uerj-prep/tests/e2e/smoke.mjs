@@ -140,7 +140,9 @@ await step('obra aprofundada: trechos comentados, espaços e gramática', async 
 await step('guia de como responder e temas em evidência', async () => {
 	await page.goto(BASE + '/guia');
 	await page.waitForSelector('text=Passo a passo na hora da prova');
-	const pct = await page.locator('#comandos p strong').first().textContent();
+	await page.click('button[role="tab"]:has-text("O que cada comando pede")');
+	await page.waitForSelector('.verbo');
+	const pct = await page.locator('.stat strong').first().textContent();
 	expect(/\d+%/.test(pct ?? ''), 'estatística de comandos ausente');
 	await page.screenshot({ path: `${SHOTS}/06c-guia.png`, fullPage: true });
 	await page.goto(BASE + '/em-evidencia');

@@ -136,3 +136,21 @@ export const PALESTRAS: { livro: string; quem: string; quando: string }[] = [
 	{ livro: 'O bem-amado (Redação)', quem: 'Eleonora Ziller', quando: '12/11/2026, 15h, Auditório 11 (UERJ, campus Maracanã)' },
 	{ livro: 'Luanda, Lisboa, Paraíso (Língua Portuguesa e Literaturas)', quem: 'Marcelo Brandão Mattos', quando: '19/11/2026, 15h, Auditório 11 (UERJ, campus Maracanã)' }
 ];
+
+/** Os 10 passos agrupados nas 4 fases da resposta (índices de PASSOS). */
+export const FASES: { nome: string; resumo: string; passos: number[] }[] = [
+	{ nome: 'Ler', resumo: 'Entenda exatamente o que está sendo pedido.', passos: [0, 1, 2] },
+	{ nome: 'Planejar', resumo: 'Ache a prova e monte o esqueleto no rascunho.', passos: [3, 4] },
+	{ nome: 'Escrever', resumo: 'Responda na ordem, com nome técnico e precisão.', passos: [5, 6, 7] },
+	{ nome: 'Revisar', resumo: 'Confira contra o comando e corte o que sobra.', passos: [8, 9] }
+];
+
+/** As regras de ouro, para quem tem um minuto. */
+export const REGRAS: { title: string; text: string }[] = [
+	{ title: 'Responda a todas as partes', text: 'Quase sempre há dois ou mais comandos (“identifique… em seguida, explique…”). Cada parte vale crédito.' },
+	{ title: 'Use o nome técnico', text: 'Conceito, figura de linguagem, lei, processo, função sintática: diga o nome certo.' },
+	{ title: 'Prove com o material', text: 'Apoie a resposta no trecho, no dado, no mapa ou na imagem da própria questão.' },
+	{ title: 'Explique o porquê', text: 'Quando o verbo é “explique” ou “justifique”, dê a causa, o mecanismo ou o efeito — não só o quê.' },
+	{ title: 'Seja específico e confira', text: 'Exemplo concreto e datado, cálculo com unidade, norma padrão, caneta e espaço certo.' }
+];
+

@@ -63,7 +63,7 @@
 		</div>
 		<div class="field">
 			<label for="body">Texto</label>
-			<textarea id="body" name="body" class="essay" bind:value={body} spellcheck="false"></textarea>
+			<textarea id="body" name="body" class="essay pautado" bind:value={body} spellcheck="false"></textarea>
 		</div>
 		{#if form?.error}<p class="notice bad" role="alert">{form.error}</p>{/if}
 		<button class="btn primary">Enviar para correção</button>
@@ -94,7 +94,6 @@
 		min-height: 520px;
 		font-family: var(--serif);
 		font-size: 1.05rem;
-		line-height: 1.8;
 	}
 	.side {
 		position: sticky;

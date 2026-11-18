@@ -3,6 +3,7 @@
 	import DisciplineBadge from '$lib/components/DisciplineBadge.svelte';
 	import CategoryTag from '$lib/components/CategoryTag.svelte';
 	import { DISCIPLINES, type DisciplineCode } from '$lib/data/official/exam-2027';
+	import Icon from '$lib/components/Icon.svelte';
 
 	let { data } = $props();
 	const pct = (x: number | null) => (x === null || x === undefined ? '—' : `${Math.round(x * 100)}%`);
@@ -11,33 +12,46 @@
 
 <svelte:head><title>Painel · {APP_NAME}</title></svelte:head>
 
-<div class="spread">
-	<div>
+<section class="hero">
+	<div class="hello card">
+		<span class="eyebrow">Bom estudo</span>
 		<h1>Olá, {data.user?.name.split(' ')[0]}!</h1>
 		{#if data.user?.course}
-			<p class="muted">
+			<p class="muted course">
 				{data.user.course.name} ({data.user.course.campus}) ·
 				<DisciplineBadge code={data.user.course.peso2} /> peso 2 · <DisciplineBadge code={data.user.course.peso1} /> peso 1 ·
-				<DisciplineBadge code="RED" /> peso 1
+				<DisciplineBadge code="RED" /> Redação
 			</p>
 		{/if}
+		{#if data.today?.blocks?.length && data.today.blocks[0].topicId}
+			{@const next = data.today.blocks[0]}
+			<a class="next" href="/trilha/{next.topicId}">
+				<span class="eyebrow">Próximo passo do seu plano</span>
+				<span class="next-title"><DisciplineBadge code={next.discipline} /> <strong>{next.title}</strong></span>
+				<span class="small muted">{next.activity} · {next.minutes} min</span>
+				<span class="go" aria-hidden="true"><Icon name="arrow" size={20} /></span>
+			</a>
+		{/if}
+		<div class="row actions">
+			<a class="btn primary" href="/simulados/novo">Novo simulado</a>
+			<a class="btn" href="/redacao/escrever">Escrever redação</a>
+			<a class="btn ghost" href="/guia">Como responder à UERJ</a>
+		</div>
 	</div>
-	<div class="row">
-		<a class="btn primary" href="/simulados/novo">Novo simulado</a>
-		<a class="btn" href="/redacao/escrever">Escrever redação</a>
+	<div class="journey" aria-label="Sua jornada">
+		<span class="eyebrow">Sua jornada</span>
+		<dl>
+			<div><dt>Questões respondidas</dt><dd class="num">{data.overview.attempts}</dd><span>{data.overview.graded} corrigidas</span></div>
+			<div><dt>Aproveitamento</dt><dd class="num">{pct(data.overview.avgCredit)}</dd><span>total = 100%, parcial = 50%</span></div>
+			<div><dt>Redações corrigidas</dt><dd class="num">{data.overview.essays}</dd><span>{data.overview.essayAvg !== null ? `média ${data.overview.essayAvg.toFixed(1)}/20` : 'nenhuma ainda'}</span></div>
+			<div><dt>Simulados</dt><dd class="num">{data.overview.simulados}</dd><span>{hours} h de prática</span></div>
+		</dl>
 	</div>
-</div>
+</section>
 
 {#if !data.hasCourse}
 	<p class="notice warn">Escolha seu curso no <a href="/perfil">perfil</a> para personalizar trilha, simulados e cronograma.</p>
 {/if}
-
-<section class="grid cols-3 stats">
-	<div class="card"><span class="muted small">Questões respondidas</span><strong>{data.overview.attempts}</strong><span class="small muted">{data.overview.graded} corrigidas</span></div>
-	<div class="card"><span class="muted small">Aproveitamento médio</span><strong>{pct(data.overview.avgCredit)}</strong><span class="small muted">crédito total=100%, parcial=50%</span></div>
-	<div class="card"><span class="muted small">Redações corrigidas</span><strong>{data.overview.essays}</strong><span class="small muted">{data.overview.essayAvg !== null ? `média estimada ${data.overview.essayAvg.toFixed(1)}/20` : 'nenhuma ainda'}</span></div>
-	<div class="card"><span class="muted small">Simulados concluídos</span><strong>{data.overview.simulados}</strong><span class="small muted">{hours} h de prática registradas</span></div>
-</section>
 
 <section class="grid cols-2" style="margin-top:1rem">
 	<div class="card">
@@ -117,16 +131,110 @@
 </section>
 
 <style>
-	.stats {
-		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	.hero {
+		display: grid;
+		grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
+		gap: 1rem;
+		margin-bottom: 1rem;
 	}
-	.stats .card {
+	.hello {
 		display: flex;
 		flex-direction: column;
+		gap: 0.2rem;
+		padding: 1.5rem 1.6rem;
 	}
-	.stats strong {
-		font-size: 1.8rem;
-		line-height: 1.2;
+	.hello h1 {
+		margin-bottom: 0.2rem;
+	}
+	.course {
+		margin-bottom: 0.6rem;
+	}
+	.next {
+		position: relative;
+		display: grid;
+		gap: 0.25rem;
+		margin: 0.4rem 0 1rem;
+		padding: 0.95rem 3rem 0.95rem 1.05rem;
+		border-radius: 14px;
+		background: var(--primary-soft);
+		border: 1px solid color-mix(in srgb, var(--primary) 25%, transparent);
+		color: var(--text);
+		text-decoration: none;
+		transition:
+			transform 0.15s ease,
+			box-shadow 0.15s ease;
+	}
+	.next:hover {
+		transform: translateY(-1px);
+		box-shadow: var(--shadow-lift);
+		color: var(--text);
+	}
+	.next .eyebrow {
+		margin: 0;
+		color: var(--primary);
+	}
+	.next-title {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		flex-wrap: wrap;
+		font-family: var(--display);
+		font-size: 1.15rem;
+	}
+	.next-title strong {
+		background: linear-gradient(transparent 60%, var(--mark-soft) 60%, var(--mark-soft) 95%, transparent 95%);
+	}
+	.go {
+		position: absolute;
+		right: 1rem;
+		top: 50%;
+		transform: translateY(-50%);
+		color: var(--primary);
+	}
+	.actions {
+		margin-top: auto;
+	}
+	/* Painel escuro, pautado como a folha de resposta. */
+	.journey {
+		border-radius: var(--radius);
+		padding: 1.3rem 1.4rem;
+		color: var(--ink-text);
+		background-color: var(--ink-panel);
+		background-image: linear-gradient(to bottom, transparent 27px, rgb(255 255 255 / 6%) 27px);
+		background-size: 100% 28px;
+		box-shadow: var(--shadow);
+	}
+	.journey .eyebrow {
+		color: var(--ink-muted);
+	}
+	.journey dl {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 1.1rem 1rem;
+		margin: 0.6rem 0 0;
+	}
+	.journey dt {
+		font-size: 0.8rem;
+		color: var(--ink-muted);
+	}
+	.journey dd {
+		margin: 0.1rem 0 0;
+		font-size: 2rem;
+		font-weight: 700;
+		line-height: 1.1;
+		color: var(--ink-text);
+	}
+	.journey dl > div:first-child dd {
+		color: var(--mark);
+	}
+	.journey dl span {
+		font-size: 0.78rem;
+		color: var(--ink-muted);
+	}
+	@media (max-width: 860px) {
+		.hero {
+			grid-template-columns: minmax(0, 1fr);
+		}
 	}
 	.plan,
 	.plain {

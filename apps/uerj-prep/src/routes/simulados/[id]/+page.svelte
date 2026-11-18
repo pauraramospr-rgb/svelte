@@ -160,7 +160,7 @@
 			<QuestionView q={item.q} />
 		{/if}
 		<label for="resp" class="sr-only">Resposta</label>
-		<textarea id="resp" class="answer" bind:value={answers[current]} oninput={() => dirty.add(current)} placeholder={item.kind === 'redacao' ? 'Título\n\nSeu texto…' : 'Desenvolvimento e resposta'}></textarea>
+		<textarea id="resp" class="answer pautado" bind:value={answers[current]} oninput={() => dirty.add(current)} placeholder={item.kind === 'redacao' ? 'Título\n\nSeu texto…' : 'Desenvolvimento e resposta'}></textarea>
 		<div class="spread" style="margin-top:0.6rem">
 			<button class="btn" disabled={current === 0} onclick={() => { flush(); current--; }}>← Anterior</button>
 			<span class="small muted">{current + 1} de {data.items.length} · tempo nesta questão: {Math.floor((times[current] ?? 0) / 60)} min</span>

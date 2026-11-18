@@ -66,7 +66,7 @@
 		<label for="ans-{q.id}">Sua resposta</label>
 		<span class="pill" aria-label="Tempo">{mmss}</span>
 	</div>
-	<textarea id="ans-{q.id}" bind:value={answer} disabled={attemptId !== null} placeholder="Responda como na prova: completo, objetivo e justificado."></textarea>
+	<textarea id="ans-{q.id}" class="pautado" bind:value={answer} disabled={attemptId !== null} placeholder="Responda como na prova: completo, objetivo e justificado."></textarea>
 	{#if error}<p class="notice bad small" role="alert">{error}</p>{/if}
 	{#if attemptId === null}
 		<div class="row" style="margin-top:0.6rem">
