@@ -38,7 +38,7 @@ export const LUGARES: Record<string, [number, number]> = {
 	Sharpeville: [27.86, -26.69], Bissau: [-15.6, 11.86], Conacri: [-13.7, 9.51], Abuja: [7.49, 9.06], Timbuktu: [-3.0, 16.77], 'Grande Zimbábue': [30.93, -20.27],
 	Kilwa: [39.51, -8.96], Benin: [5.63, 6.34], Ajudá: [2.08, 6.36],
 	// Ásia e Oriente Médio
-	Calicute: [75.78, 11.25], Goa: [73.83, 15.49], Cochim: [76.27, 9.93], Ormuz: [56.45, 27.1], Malaca: [102.25, 2.19], Macau: [113.54, 22.2], Cantão: [113.26, 23.13],
+	Calicute: [75.78, 11.25], Goa: [73.83, 15.49], Cochim: [76.27, 9.93], Ormuz: [56.45, 27.1], Malaca: [102.25, 2.19], Macau: [113.54, 22.2], Díli: [125.57, -8.56], Cantão: [113.26, 23.13],
 	Pequim: [116.4, 39.9], Xangai: [121.47, 31.23], Nanquim: [118.8, 32.06], 'Hong Kong': [114.17, 22.32], Nagasaki: [129.87, 32.75], Hiroshima: [132.46, 34.39],
 	Tóquio: [139.69, 35.69], Seul: [126.98, 37.57], Pyongyang: [125.75, 39.03], Hanói: [105.85, 21.03], Saigon: [106.66, 10.76], 'Dien Bien Phu': [103.0, 21.39],
 	'Phnom Penh': [104.92, 11.56], Jacarta: [106.85, -6.21], Manila: [120.98, 14.6], 'Nova Délhi': [77.21, 28.61], Bombaim: [72.88, 19.08], Calcutá: [88.36, 22.57],
