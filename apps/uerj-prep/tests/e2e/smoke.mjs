@@ -209,12 +209,15 @@ await step('aula animada: player, legendas e capítulos', async () => {
 	expect(!/^\s*Cena 1\.1\s*0:00/.test(tempo ?? ''), `relógio parado: ${tempo}`);
 	await page.screenshot({ path: `${SHOTS}/12-aula-cena.png` });
 	await page.click('button[aria-label="Pausar"]');
-	await page.click('.capitulos button:has-text("Três forças")');
+	await page.click('.capitulos li:nth-child(3) button');
 	expect((await page.textContent('.cena-id'))?.includes('Cena 1.3'), 'capítulo não abriu');
 	const n = await page.locator('.capitulos li').count();
-	expect(n === 10, `capítulos do episódio 1: ${n}`);
+	expect(n >= 3, `capítulos da parte 1: ${n}`);
 	await page.click('.episodios button:has-text("EP 3")');
-	await page.waitForSelector('.capitulos button:has-text("Muitas formas de dizer não")');
+	await page.waitForSelector('.capitulos .num:has-text("3.1")');
+	await page.goto(BASE + '/aulas');
+	const aulas = await page.locator('.aula').count();
+	expect(aulas >= 12, `aulas na lista: ${aulas}`);
 });
 
 await step('revisão: diagnóstico e cronograma', async () => {

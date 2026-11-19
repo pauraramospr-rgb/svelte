@@ -29,6 +29,24 @@ export const CORES: Record<string, string> = {
 	branco: '#f4f1e8'
 };
 
+/** Cores para pintar países: claras o bastante para não se confundirem com o oceano escuro. */
+export const CORES_MAPA: Record<string, string> = {
+	azul: '#6aa6dc',
+	anil: '#8c96ec',
+	vermelho: '#e0605a',
+	verde: '#6cc070',
+	petroleo: '#4cc2b0',
+	amarelo: '#f2c94c',
+	ouro: '#e8b931',
+	laranja: '#f39a4a',
+	roxo: '#a888e0',
+	rosa: '#ec8cc0',
+	cinza: '#b5b0aa',
+	escuro: '#7a6a5c',
+	marrom: '#b07a50',
+	branco: '#f4f1e8'
+};
+
 const FUNDOS: Fundo[] = ['arquivo', 'papel', 'noite', 'mapa', 'prancheta', 'lousa', 'ceu', 'floresta', 'chumbo', 'tribunal', 'mar', 'cidade', 'campo', 'palacio'];
 const VARIANTES: Variante[] = [
 	'professor', 'estudante', 'operario', 'soldado', 'religioso', 'jornalista', 'mulher', 'campones', 'executivo', 'marinheiro', 'politico', 'mae',
@@ -275,7 +293,7 @@ export function encenar(cena: CenaRoteiro): Encenada {
 				const [codigos = '', c, ...resto] = d.args.split(/\s+/);
 				const lista = codigos.split(',').map((x) => x.trim().toUpperCase()).filter(Boolean);
 				for (const p of lista) if (!PAISES[p]) avisos.push(`linha ${d.linha}: país desconhecido "${p}"`);
-				pinta.push({ paises: lista, cor: cor(c, '#b3261e'), a: anim(m) });
+				pinta.push({ paises: lista, cor: CORES_MAPA[(c ?? '').toLowerCase()] ?? cor(c, CORES_MAPA.vermelho), a: anim(m) });
 				const rot = semAspas(resto.join(' '));
 				if (rot && lista[0]) rotulos.push({ texto: rot, pais: lista[0], tam: 22, a: anim(mais(m, 0.4)) });
 			} else if (d.tipo === 'marca') {
@@ -330,7 +348,10 @@ export function encenar(cena: CenaRoteiro): Encenada {
 		const d0 = b.diretivas[0];
 		if (b.tipo === 'carimbo') {
 			const r = regiaoCheia;
-			elementos.push({ k: 'carimbo', texto: semAspas(d0.args), x: r.x + r.w - Math.min(260, r.w / 2), y: r.y + 30, rot: -6, tam: 34, larg: Math.min(520, r.w), fixo, a: anim(b.inicio, 'pop', saida) });
+			// No mapa, o carimbo vai para o canto oposto ao painel; no quadro, para o alto da região principal.
+			const x = modoMapa ? (painel === 'direita' ? 330 : 1290) : r.x + r.w - Math.min(260, r.w / 2);
+			const y = modoMapa ? 90 : r.y + 30;
+			elementos.push({ k: 'carimbo', texto: semAspas(d0.args), x, y, rot: -6, tam: 34, larg: modoMapa ? 560 : Math.min(520, r.w), fixo, a: anim(b.inicio, 'pop', saida) });
 			return;
 		}
 		if (b.tipo === 'overlay') {

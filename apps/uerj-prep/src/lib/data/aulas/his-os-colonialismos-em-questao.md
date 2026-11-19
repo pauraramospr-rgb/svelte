@@ -147,7 +147,7 @@ Depois de Minas, vieram outros movimentos. Em mil setecentos e noventa e quatro,
 Agora o caso mais radical de todos. A colônia francesa de São Domingos, no Caribe, era a mais lucrativa do mundo, com açúcar e café, e tinha uma enorme maioria de pessoas escravizadas. Em mil setecentos e noventa e um, começou uma grande insurreição de escravizados, liderada depois por Toussaint Louverture, um ex-escravizado. Os rebeldes venceram tropas francesas, espanholas e britânicas, e a França aboliu a escravidão em mil setecentos e noventa e quatro. Quando Napoleão tentou restaurá-la, em mil oitocentos e dois, a guerra recomeçou. E em primeiro de janeiro de mil oitocentos e quatro, Jean-Jacques Dessalines proclamou a independência do Haiti: a primeira república governada por ex-escravizados, e o primeiro país a abolir a escravidão de forma definitiva junto com a independência.
 
 :: mapa caribe
-:: marca São Domingos | Saint-Domingue: açúcar e café @Domingos
+:: rotulo "Saint-Domingue: açúcar e café" | -71.5,20.9 | 22 @Domingos
 :: marca Porto Príncipe | Haiti independente (1804) @Haiti
 :: retrato "Toussaint Louverture" | ex-escravizado, líder da revolução | escravizado @Toussaint
 :: linha @guerra

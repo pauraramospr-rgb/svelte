@@ -125,7 +125,7 @@
 						{@const larg = medir(r.texto, 'display', tam, 800) + 28}
 						<g transform="translate({meio[0]} {meio[1]}) scale({k}) translate(0 -26)" opacity={clamp01((pr.p - 0.5) * 3)}>
 							<rect x={-larg / 2} y={-tam - 4} width={larg} height={tam + 16} rx="8" fill="rgba(10,14,22,0.82)" />
-							<text text-anchor="middle" y="2" font-family={FONTE.display} font-weight="800" font-size={tam} fill={cor === '#b3261e' ? '#ffb4a8' : cor}>{r.texto}</text>
+							<text text-anchor="middle" y="2" font-family={FONTE.display} font-weight="800" font-size={tam} fill={misturar(cor, '#ffffff', 0.55)}>{r.texto}</text>
 						</g>
 					{/if}
 				{/if}
