@@ -32,6 +32,21 @@
 
 	const uid = $props.id();
 
+	/**
+	 * Texto do carimbo: numa linha só enquanto a fonte não encolher demais; se encolheria
+	 * (texto longo), quebra em duas linhas no espaço mais perto do meio.
+	 */
+	function linhasCarimbo(texto: string, larg: number | undefined, base: number): { linhas: string[]; tam: number } {
+		if (!larg) return { linhas: [texto], tam: base };
+		const um = caberLinha(texto, larg - 50, 'mono', base, 700);
+		if (um >= base * 0.78 || !texto.includes(' ')) return { linhas: [texto], tam: um };
+		const meio = texto.length / 2;
+		let corte = -1;
+		for (let i = 0; i < texto.length; i++) if (texto[i] === ' ' && (corte < 0 || Math.abs(i - meio) < Math.abs(corte - meio))) corte = i;
+		const linhas = [texto.slice(0, corte), texto.slice(corte + 1)];
+		return { linhas, tam: Math.min(...linhas.map((l) => caberLinha(l, larg - 50, 'mono', base, 700))) };
+	}
+
 	/** Cor clara (como o dourado): o carimbo ganha fundo escuro para continuar legível. */
 	function claro(cor: string): boolean {
 		const h = cor.replace('#', '');
@@ -177,13 +192,18 @@
 				{/if}
 			{/each}
 		{:else if el.k === 'carimbo'}
-			{@const tam = el.larg ? caberLinha(el.texto, el.larg - 50, 'mono', el.tam ?? 44, 700) : (el.tam ?? 44)}
-			{@const larg = medir(el.texto, 'mono', tam, 700) + 50}
+			{@const cl = linhasCarimbo(el.texto, el.larg, el.tam ?? 44)}
+			{@const tam = cl.tam}
+			{@const n = cl.linhas.length}
+			{@const larg = Math.max(...cl.linhas.map((l) => medir(l, 'mono', tam, 700))) + 50}
+			{@const alt = tam * (1.6 + (n - 1) * 1.15)}
 			{@const cor = el.cor ?? '#b3261e'}
 			<g transform="translate({el.x} {el.y}) rotate({el.rot ?? -8}) scale({fx === 'pop' ? 1 + (1 - clamp01(pr.p * 2.2)) * 0.9 : 1})">
-				<rect x={-larg / 2} y={-tam * 0.95} width={larg} height={tam * 1.6} rx="6" fill={claro(cor) ? 'rgba(18,14,10,0.86)' : 'rgba(255,250,240,0.9)'} stroke={cor} stroke-width="5" />
-				<rect x={-larg / 2 + 8} y={-tam * 0.95 + 8} width={larg - 16} height={tam * 1.6 - 16} rx="4" fill="none" stroke={cor} stroke-width="2" />
-				<text x="0" y={tam * 0.2} text-anchor="middle" font-family={FONTE.mono} font-weight="700" font-size={tam} fill={cor}>{el.texto}</text>
+				<rect x={-larg / 2} y={-alt / 2 - tam * 0.15} width={larg} height={alt} rx="6" fill={claro(cor) ? 'rgba(18,14,10,0.86)' : 'rgba(255,250,240,0.9)'} stroke={cor} stroke-width="5" />
+				<rect x={-larg / 2 + 8} y={-alt / 2 - tam * 0.15 + 8} width={larg - 16} height={alt - 16} rx="4" fill="none" stroke={cor} stroke-width="2" />
+				{#each cl.linhas as linha, i (i)}
+					<text x="0" y={tam * 0.2 + (i - (n - 1) / 2) * tam * 1.15} text-anchor="middle" font-family={FONTE.mono} font-weight="700" font-size={tam} fill={cor}>{linha}</text>
+				{/each}
 			</g>
 		{:else if el.k === 'doc'}
 			<g transform="translate({el.x} {el.y}) rotate({el.rot ?? 0})">

@@ -195,7 +195,7 @@ Em mil novecentos e setenta e nove, a União Soviética invadiu o Afeganistão p
 - 11/9/2001: ataques da Al-Qaeda @"onze de setembro"
 - 2001 e 2003: guerras do Afeganistão e do Iraque @"destruição em massa"
 - 2011–2014: Primavera Árabe e Estado Islâmico @"Estado Islâmico"
-:: carimbo "ARMADOS PELO OCIDENTE, VOLTARAM-SE CONTRA ELE" @ironia
+:: carimbo "ARMADOS PELO OCIDENTE, CONTRA ELE" @ironia
 
 ## De 7 de outubro de 2023 aos dias de hoje
 :: fundo noite

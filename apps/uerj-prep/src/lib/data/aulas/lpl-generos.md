@@ -32,7 +32,6 @@ O pensador russo Mikhail Bakhtin definiu os gêneros como formas relativamente e
 - carta pessoal | local e data, vocativo, corpo, despedida | papel, e-mail | manter contato, relatar @"a carta"
 - artigo de opinião | tese e argumentos; autoria assinada | jornal, revista | convencer @convencer
 - texto dramático | falas, rubricas, atos e cenas | palco, livro | encenar @palco
-:: carimbo "É A SOMA DOS TRÊS" @"soma dos três"
 
 ## Gênero não é tipo textual
 :: fundo lousa
@@ -53,7 +52,7 @@ Na literatura, a tradição separa três grandes gêneros. O lírico, em que um 
 - lírico | eu poético, subjetividade, poema @lírico
 - narrativo | narrador, personagens, tempo e espaço @narrativo
 - dramático | falas, rubricas, atos e cenas, sem narrador @dramático
-:: carimbo "TEXTOS QUE MISTURAM GÊNEROS: HIBRIDISMO" @hibridismo
+:: carimbo "HIBRIDISMO" @hibridismo
 
 # Parte 2 — Marcas que a UERJ cobra
 
@@ -77,10 +76,9 @@ Em dois mil e dezessete, a questão três trouxe um texto de memórias e pediu q
 
 :: uerj "UERJ 2017 · Questão 3"
 - Comando: duas passagens que mostram o narrador distante dos fatos e a justificativa @pediu
-- “com que saudades me não recordo desse heroico anseio”: recordar no presente @"heroico anseio"
-- “Hoje!...”: marca, com emoção, o tempo da enunciação @"com exclamação"
-- “Volto às minhas reminiscências:”: do presente, inicia nova digressão @"Volto às minhas"
-:: carimbo "TRANSCREVA E JUSTIFIQUE" @"Repare no que a banca"
+- Passagem 1: “com que saudades me não recordo desse heroico anseio”, com o verbo recordar no presente @"heroico anseio"
+- Passagem 2: “Hoje!...”, que marca com emoção o tempo da enunciação @"com exclamação"
+- Passagem 3: “Volto às minhas reminiscências:”, que, do presente, inicia nova digressão @"Volto às minhas"
 
 ## As marcas do texto dramático
 :: fundo palacio

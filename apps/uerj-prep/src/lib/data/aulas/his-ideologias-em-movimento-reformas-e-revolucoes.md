@@ -64,7 +64,6 @@ Em dois mil e dezoito, a UERJ trouxe dois brasões da Rússia. O primeiro, de mi
 - Brasão 1: monarquia absolutista dos czares (Romanov) @"brasão um"
 - Brasão 2: república socialista soviética (operários e camponeses) @"brasão dois"
 - Brasil: PCB (1922); Bloco Operário Camponês (1930); Levante de 1935; luta armada @"E no Brasil"
-:: carimbo "PERMANÊNCIAS: CENTRALIZAÇÃO, CENSURA, AUTORITARISMO" @permanências
 
 ## Guerra civil, URSS e stalinismo
 :: fundo chumbo

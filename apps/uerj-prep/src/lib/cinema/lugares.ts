@@ -133,6 +133,7 @@ export const REGIOES: Record<string, [number, number, number, number]> = {
 	'sudeste-brasil': [-53.5, -26, -39, -14],
 	'sul-sudeste': [-55, -29.5, -38.5, -19],
 	carajas: [-52.5, -8, -47.5, -4.5],
+	'luanda-lisboa': [-32, -34, 42, 48],
 	'europa-central': [6, 43.5, 28, 56],
 	'ocidente-1968': [-112, 8, 50, 60],
 	'sul-brasil': [-58, -34, -47, -22],

@@ -241,6 +241,17 @@ export function encenar(cena: CenaRoteiro): Encenada {
 			nomeAnterior = `${b.diretivas[0].tipo} (linha ${b.diretivas[0].linha})`;
 		}
 	}
+	// Aviso de autoria: o carimbo não cabe sobre o painel do Momento UERJ, nem com texto longo demais.
+	{
+		let principal = '';
+		for (const b of blocos) {
+			if (b.tipo === 'principal') principal = b.diretivas[0].tipo;
+			if (b.tipo !== 'carimbo') continue;
+			const d = b.diretivas[0];
+			if (principal === 'uerj') avisos.push(`carimbo (linha ${d.linha}) cobriria o painel "uerj"`);
+			if (semAspas(d.args).length > 44) avisos.push(`carimbo (linha ${d.linha}) com texto longo demais (máx. 44 caracteres)`);
+		}
+	}
 	const totalSeg = anc.inicios.length ? anc.inicios[anc.inicios.length - 1] + anc.duracoes[anc.duracoes.length - 1] + 1.2 : 6;
 
 	/** Fim de um bloco: entrada do próximo bloco do mesmo tipo (ou de um "limpa"). */
@@ -340,6 +351,8 @@ export function encenar(cena: CenaRoteiro): Encenada {
 	}
 
 	// ——— Blocos visuais ———
+	/** Largura média de um caractere da fonte mono em negrito, em ems (estimativa sem canvas). */
+	const ESTIMATIVA_MONO = 0.62;
 	/** Faixas verticais ocupadas pelos visuais principais, para o carimbo não cobrir texto. */
 	const ocupado: { ini: number; fim: number; y0: number; y1: number }[] = [];
 	const alturaOcupada = (e: Elemento, r: Regiao): [number, number] | undefined => {
@@ -372,7 +385,11 @@ export function encenar(cena: CenaRoteiro): Encenada {
 			const r = regiaoCheia;
 			// No mapa, o carimbo vai para o canto oposto ao painel; no quadro, para o alto da região principal.
 			const x = modoMapa ? (painel === 'direita' ? 330 : 1290) : r.x + r.w - Math.min(260, r.w / 2);
-			let y = modoMapa ? 90 : r.y + 30;
+			const larg = modoMapa ? 560 : Math.min(520, r.w);
+			// Texto longo vai em duas linhas (ver Elemento.svelte): o carimbo fica mais alto.
+			const duas = semAspas(d0.args).length * 34 * ESTIMATIVA_MONO > (larg - 50) / 0.78;
+			const folga = duas ? 84 : 62;
+			let y = modoMapa ? (duas ? 104 : 90) : r.y + (duas ? 48 : 30);
 			if (!modoMapa) {
 				// Se um quadro já ocupa o alto da região, o carimbo desce para o espaço livre logo abaixo dele.
 				const t0 = b.seg + 0.5;
@@ -382,11 +399,11 @@ export function encenar(cena: CenaRoteiro): Encenada {
 					const y1 = Math.max(...vis.map((o) => o.y1));
 					const limite = temPalcoEm(b.seg, b.seg + 3) ? regiaoAlta.y + regiaoAlta.h + 15 : r.y + r.h;
 					// O carimbo é inclinado (−6°): reserva ~60 px acima ou abaixo do quadro.
-					if (y0 - 62 >= 112) y = Math.min(r.y + 30, y0 - 62);
-					else if (limite - y1 >= 92) y = y1 + 60;
+					if (y0 - folga >= 112) y = Math.min(r.y + (duas ? 48 : 30), y0 - folga);
+					else if (limite - y1 >= folga + 40) y = y1 + folga + 8;
 				}
 			}
-			elementos.push({ k: 'carimbo', texto: semAspas(d0.args), x, y, rot: -6, tam: 34, larg: modoMapa ? 560 : Math.min(520, r.w), fixo, a: anim(b.inicio, 'pop', saida) });
+			elementos.push({ k: 'carimbo', texto: semAspas(d0.args), x, y, rot: -6, tam: 34, larg, fixo, a: anim(b.inicio, 'pop', saida) });
 			return;
 		}
 		if (b.tipo === 'overlay') {

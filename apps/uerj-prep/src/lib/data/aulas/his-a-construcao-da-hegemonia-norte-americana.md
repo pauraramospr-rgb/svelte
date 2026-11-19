@@ -211,7 +211,6 @@ Juntando tudo na questão seis de dois mil e vinte e seis. O texto, de agosto de
 - Aproximação: aliança na Segunda Guerra (Volta Redonda e FEB) @"como aproximação"
 - Afastamento: Política Externa Independente (Jânio e Jango) @"Como afastamento"
 - Intervenção: apoio ao golpe de 1964 @"como intervenção"
-:: carimbo "INTERVENÇÃO ≠ AFASTAMENTO" @"não é o mesmo"
 
 ## Revisão final
 :: fundo arquivo

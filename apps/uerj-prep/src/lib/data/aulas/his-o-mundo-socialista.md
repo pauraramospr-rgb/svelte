@@ -67,7 +67,7 @@ A insatisfação no Leste Europeu nunca desapareceu, e a Polônia foi o seu maio
 - cerca de dez milhões de membros @"dez milhões"
 - apoio da Igreja e do papa João Paulo II @"João Paulo"
 - 1981: lei marcial, mas sobrevive @"lei marcial"
-:: carimbo "TRABALHADORES CONTRA O “GOVERNO DOS TRABALHADORES”" @ironia
+:: carimbo "OPERÁRIOS CONTRA O “GOVERNO OPERÁRIO”" @ironia
 
 # Parte 2 — Gorbachev e o fim da União Soviética
 

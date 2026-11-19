@@ -20,7 +20,7 @@ Em abril de mil novecentos e setenta e cinco, uma mãe escreveu ao presidente da
 :: doc "CARTA DE ZUZU ANGEL AO PRESIDENTE GEISEL · 1975" @"escreveu ao presidente"
 - Stuart Angel, preso em 1971 por agentes da Aeronáutica.
 - Uma mãe pede notícias do filho e o corpo de volta.
-:: carimbo "MORTE NÃO NATURAL, VIOLENTA, CAUSADA PELO ESTADO BRASILEIRO" @"não natural"
+:: carimbo "“CAUSADA PELO ESTADO BRASILEIRO”" @"não natural"
 :: lista "O que você vai ver" | numerada @"essa a viagem"
 - as causas das ditaduras no continente @mergulhou
 - o Brasil de 1964 a 1985 @"sessenta e quatro funcionou"

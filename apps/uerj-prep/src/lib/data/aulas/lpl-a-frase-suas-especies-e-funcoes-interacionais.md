@@ -36,7 +36,7 @@ Comece pelo conceito. Frase é todo enunciado que tem sentido completo numa situ
 - a voz sobe: pergunta (?) @"a voz sobe"
 - a voz cai: afirmação (.) @"cai na afirmação"
 - a voz se intensifica: exclamação (!) @"se intensifica"
-:: carimbo "A PONTUAÇÃO É PISTA, NÃO SENTENÇA" @"não decide sozinha"
+:: carimbo "PONTUAÇÃO É PISTA" @"não decide sozinha"
 
 ## As quatro espécies
 :: fundo papel
@@ -76,7 +76,7 @@ O filósofo inglês John Austin mostrou, nos anos sessenta, uma coisa que parece
 :: tabela "Frase" | "Forma" | "Ato realizado" @"Mas nem sempre"
 - Você pode fechar a janela? | interrogativa | pedido @"você pode fechar"
 - Está frio aqui. | declarativa | pedido indireto @"está frio aqui"
-:: carimbo "ATO INDIRETO: A FORMA DIZ UMA COISA, A INTENÇÃO É OUTRA" @"a forma diz uma coisa"
+:: carimbo "ATO INDIRETO" @"a forma diz uma coisa"
 
 ## Perguntas que não perguntam
 :: fundo lousa
@@ -149,7 +149,6 @@ Antes da questão de dois mil e vinte e cinco, um aviso sobre José Saramago. El
 - Recursos: só vírgula e letra maiúscula marcam o discurso direto @"vírgula e letra maiúscula"
 - Efeito: narrativa mais fluente, próxima do oral @"mais fluente"
 - Efeito: apaga as fronteiras entre narrador e personagens @"apagamento das fronteiras"
-:: carimbo "DESCUBRA A ESPÉCIE PELA SITUAÇÃO" @"Você precisa descobri-la"
 
 ## Momento UERJ: Caim provoca Deus (2025)
 :: fundo lousa

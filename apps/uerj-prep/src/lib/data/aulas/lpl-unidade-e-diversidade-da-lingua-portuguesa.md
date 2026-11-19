@@ -72,7 +72,7 @@ Terceiro ponto do programa: a norma padrão. É um modelo idealizado de língua,
 :: compara "Norma padrão" × "Norma culta" @"Não confunda"
 - modelo idealizado das gramáticas | uso real dos falantes escolarizados @"uso real"
 - “Empresta-me o livro.” | “Me empresta o livro.” @"me empresta"
-:: cartao "Variar não é errar" | “os menino”: plural marcado uma vez só, no artigo; desvio da norma padrão, não falta de lógica @"os menino"
+:: cartao "Variar não é errar" | em “os menino”, o plural é marcado uma vez só, no artigo: desvio da norma padrão, não falta de lógica @"os menino"
 :: carimbo "CRITÉRIO: ADEQUAÇÃO" @"a adequação"
 
 ## Preconceito linguístico
@@ -124,15 +124,15 @@ A UERJ já mostrou que a escolha de uma língua num romance tem sentido. Em dois
 - Simbologia 2: a língua comum em que partilham o que pensam, sentem e são @compartilham
 
 ## Língua e identidade em Luanda, Lisboa, Paraíso
-:: mapa africa-atlantico
+:: mapa luanda-lisboa
 
 Leve esse raciocínio para o romance de dois mil e vinte e sete. Cartola de Sousa e o filho, Aquiles, saem de Angola, recém-independente e em guerra civil, e vão de Luanda para Lisboa tratar o calcanhar do menino, em meados dos anos oitenta. Angola foi colônia portuguesa: o português chegou lá com o império e se tornou a língua oficial do país. Pai e filho falam a língua da antiga metrópole, mas em Lisboa não são reconhecidos como portugueses e acabam no Paraíso, um bairro de lata da periferia. Uma leitura possível: o português europeu da narração lembra que a língua foi imposta pela colonização e, ao mesmo tempo, é partilhada por angolanos e portugueses. Partilhar a língua, porém, não garante o pertencimento. Repare que isso é interpretação, e na prova toda interpretação precisa se apoiar em passagens do texto.
 
 :: pinta AGO laranja "Angola: independente em 1975" @"recém-independente"
 :: marca Luanda | Luanda | laranja | > @"de Luanda"
 :: rota Luanda > Lisboa | a viagem para o tratamento | vermelho | tracejada @"para Lisboa"
-:: pinta PRT azul "Portugal" @"colônia portuguesa"
-:: marca Lisboa | Lisboa: hospital, pensão, Paraíso | azul | < @"bairro de lata"
+:: pinta PRT azul @"colônia portuguesa"
+:: marca Lisboa | Lisboa: hospital, pensão e Paraíso | azul | < @"bairro de lata"
 :: carimbo "LEITURA POSSÍVEL: APOIE NO TEXTO" @"Repare que isso"
 
 # Parte 4 — Na prova

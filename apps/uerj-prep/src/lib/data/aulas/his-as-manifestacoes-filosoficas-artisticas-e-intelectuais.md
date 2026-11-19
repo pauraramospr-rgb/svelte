@@ -77,7 +77,6 @@ Esta questão de dois mil e vinte e cinco ensina a ler o comando, preste muita a
 - Padrão: valorização da Antiguidade clássica (deuses greco-romanos) @clássica
 - Comando 2: a principal inovação na representação de personagens sagrados @segundo
 - Padrão: figuras sagradas humanizadas, em ação cotidiana, como pessoas comuns @humanização
-:: carimbo "RESPONDA O QUE O COMANDO PEDE" @Lição
 
 ## Momento UERJ: Hamlet e a caveira (2026)
 :: fundo noite

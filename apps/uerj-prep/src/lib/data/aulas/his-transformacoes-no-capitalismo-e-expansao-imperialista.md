@@ -286,7 +286,6 @@ Em dois mil e dezoito, a questão sete trouxe fotos de Ellis Island e um texto q
 - Padrão: mecanização do campo europeu; conflitos das unificações @mecanização
 - Padrão: EUA em crescimento, com empregos e estímulos do governo @atração
 - Padrão (impactos): mão de obra, mercado consumidor, cidades, cidadania @"Para os impactos"
-:: carimbo "INCLUSÃO E EXCLUSÃO" @"a exclusão"
 
 # Parte 5 — Impactos e descolonização
 
