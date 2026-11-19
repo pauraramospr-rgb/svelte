@@ -19,6 +19,10 @@ Sempre buscar o melhor: entregar acabado, conferido e com fonte; quando algo est
 - Demais disciplinas: `Em uma frase`, explicação em ordem lógica (Biologia: o que é → para que serve → como funciona → por que acontece), exemplos, aprofundamento, prova, erros, exercícios, `Mapa mental`.
 - `## Mapa mental`: `> recorte`, depois ramos `### Nome` com **uma frase explicativa** (sem marcador) e 3–5 tópicos em frases; `### Linha do tempo` com `- **ano**: fato`. Os testes (`src/lib/mindmap.test.ts`, `src/lib/data/data.test.ts`) verificam esse formato.
 
+## Produção nível 3 e aulas animadas
+
+Para apostilas aprofundadas, questões comentadas e roteiros de aulas animadas, seguir **`src/lib/data/producao/_diretrizes.md`** (briefing do dono do projeto) e o diagnóstico da banca em `src/lib/data/producao/_diagnostico.md`. Cada projeto fica em `src/lib/data/producao/<tópico>/` (`apostila.md` + `aula.md`) e aparece na plataforma em “Apostila completa” (tópico) e no “Estúdio de aulas”.
+
 ## Nome da plataforma
 
 O nome fica só em `src/lib/brand.ts` (`APP_NAME`). Para renomear, troque ali, rode os testes e republique.

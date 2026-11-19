@@ -534,6 +534,10 @@ th {
 }
 
 /* Texto dos resumos: leitura confortável, termos-chave grifados. */
+/* URLs longas (fontes oficiais) quebram dentro do texto: a página nunca rola para o lado. */
+.prose a {
+	overflow-wrap: anywhere;
+}
 .prose {
 	line-height: 1.75;
 	font-size: 1.02rem;

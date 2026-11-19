@@ -18,6 +18,7 @@
 		arrow: '<path d="M5 12h14M13 6l6 6-6 6"/>',
 		calendar: '<rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/>',
 		target: '<circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="0.8"/>',
+		film: '<rect x="3.5" y="5" width="17" height="14" rx="2.5"/><path d="M7.5 5v14M16.5 5v14M3.5 9.5h4M3.5 14.5h4M16.5 9.5h4M16.5 14.5h4"/>',
 		map: '<circle cx="12" cy="12" r="3"/><circle cx="4.5" cy="5" r="1.8"/><circle cx="19.5" cy="5" r="1.8"/><circle cx="4.5" cy="19" r="1.8"/><circle cx="19.5" cy="19" r="1.8"/><path d="M9.8 9.8 5.8 6.3M14.2 9.8l4-3.5M9.8 14.2l-4 3.5M14.2 14.2l4 3.5"/>'
 	} as const;
 	export type IconName = keyof typeof ICONS;

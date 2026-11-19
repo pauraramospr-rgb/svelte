@@ -177,6 +177,19 @@ async function flow(label, ctx, withAi) {
 		await p.waitForSelector('.mm .timeline li');
 		await p.screenshot({ path: `${SHOTS}/${label}-mapa.png` });
 	});
+	await step(`${label}: estúdio de aulas e apostila completa`, async () => {
+		await p.click('nav a:has-text("Estúdio de aulas")');
+		await p.click('a:has-text("Abrir roteiro") >> nth=0');
+		await p.waitForSelector('.cena');
+		const n = await p.locator('.cena').count();
+		expect(n >= 40, `cenas: ${n}`);
+		await p.click('button[role="tab"]:has-text("Conferência de consistência")');
+		await p.waitForSelector('text=Verificações finais');
+		await p.click('a:has-text("Apostila completa (base do roteiro)")');
+		await p.waitForSelector('.toc a');
+		await p.waitForSelector('#mapa-mental');
+		await p.screenshot({ path: `${SHOTS}/${label}-apostila.png` });
+	});
 	await step(`${label}: dados persistem após recarregar`, async () => {
 		await p.evaluate(() => new Promise((r) => { document.dispatchEvent(new Event('visibilitychange')); setTimeout(r, 2500); }));
 		await p.goto(BASE + '#revisao');
@@ -191,7 +204,7 @@ async function flow(label, ctx, withAi) {
 	});
 	await step(`${label}: celular sem rolagem horizontal`, async () => {
 		await p.setViewportSize({ width: 390, height: 800 });
-		for (const name of ['painel', 'banco', 'redacao', 'revisao']) {
+		for (const name of ['painel', 'banco', 'redacao', 'revisao', 'estudio']) {
 			await p.goto(BASE + '#' + name);
 			await p.reload();
 			await p.waitForSelector('main', { timeout: 20000 });

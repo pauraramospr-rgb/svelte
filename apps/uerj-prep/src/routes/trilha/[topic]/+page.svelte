@@ -8,6 +8,7 @@
 	import Markdown from '$lib/components/Markdown.svelte';
 	import MindMap from '$lib/components/MindMap.svelte';
 	import { splitMapa } from '$lib/mindmap';
+	import { formatarDuracao } from '$lib/producao';
 	import { PROFESSORES, SITES, buscaYoutube } from '$lib/data/content/aprofundar';
 	import { DIFFICULTY_LABEL, type Difficulty } from '$lib/questions/types';
 
@@ -58,6 +59,26 @@
 		<button class="btn small" class:primary={data.status === 'concluido'} name="status" value={data.status === 'concluido' ? '' : 'concluido'}>✓ Concluído</button>
 	</form>
 </div>
+
+{#if data.producao}
+	<section class="card nivel3" aria-labelledby="nivel3-titulo">
+		<div>
+			<p class="eyebrow">Material nível 3</p>
+			<h2 id="nivel3-titulo">Apostila completa e aula animada</h2>
+			<p class="small muted">
+				Estudo aprofundado, com documentos, historiografia, todas as questões oficiais comentadas e exercícios autorais — e o roteiro da aula, cena por cena.
+			</p>
+		</div>
+		<div class="row">
+			{#if data.producao.apostila}
+				<a class="btn primary" href="/trilha/{data.topic.id}/apostila">Abrir apostila · {Math.round(data.producao.apostila.palavras / 200)} min de leitura</a>
+			{/if}
+			{#if data.producao.aula}
+				<a class="btn" href="/estudio/{data.topic.id}">Aula animada · {data.producao.aula.episodios} episódios · {formatarDuracao(data.producao.aula.duracaoSeg)}</a>
+			{/if}
+		</div>
+	</section>
+{/if}
 
 <div class="grid cols-2">
 	<div class="card">
@@ -251,5 +272,17 @@
 	}
 	section.card {
 		margin-top: 1rem;
+	}
+	.nivel3 {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		gap: 0.75rem 1.25rem;
+		border: 2px solid var(--primary);
+		background: linear-gradient(135deg, var(--primary-soft), var(--surface) 60%);
+	}
+	.nivel3 h2 {
+		margin: 0.1rem 0 0.25rem;
 	}
 </style>

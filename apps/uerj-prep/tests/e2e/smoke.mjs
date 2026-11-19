@@ -173,6 +173,26 @@ await step('tópico mostra como a UERJ cobrou e resumo focado na prova', async (
 	await page.waitForSelector('text=padrão de resposta oficial aceita');
 });
 
+await step('apostila nível 3 e estúdio de aulas', async () => {
+	await page.goto(BASE + '/trilha/his-as-ditaduras-na-america-latina-e-os-movimentos-de-resistenci');
+	await page.waitForSelector('.nivel3');
+	await page.click('.nivel3 a:has-text("Abrir apostila")');
+	await page.waitForSelector('.toc a');
+	const toc = await page.locator('.toc li').count();
+	expect(toc >= 15, `sumário com poucos itens: ${toc}`);
+	await page.waitForSelector('#mapa-mental');
+	await page.waitForSelector('text=Questões oficiais e resoluções comentadas');
+	await page.screenshot({ path: `${SHOTS}/09-apostila.png` });
+	await page.goto(BASE + '/estudio');
+	await page.click('a:has-text("Abrir roteiro")');
+	await page.waitForSelector('.cena');
+	const cenas = await page.locator('.cena').count();
+	expect(cenas >= 40, `cenas do roteiro: ${cenas}`);
+	await page.click('button[role="tab"]:has-text("Orientações de animação")');
+	await page.waitForSelector('text=Ética e direitos');
+	await page.screenshot({ path: `${SHOTS}/10-estudio.png` });
+});
+
 await step('revisão: diagnóstico e cronograma', async () => {
 	await page.goto(BASE + '/revisao');
 	await page.waitForSelector('text=Cronograma personalizado');
@@ -188,7 +208,7 @@ await step('professor IA informa quando a chave não está configurada', async (
 await step('layout responsivo em celular sem rolagem horizontal', async () => {
 	const m = await browser.newContext({ viewport: { width: 375, height: 800 }, storageState: await ctx.storageState() });
 	const p = await m.newPage();
-	for (const path of ['/painel', '/banco', '/redacao', '/obras/luanda-lisboa-paraiso', '/revisao', '/guia', '/em-evidencia', '/redacao/temas/amado-governa-bem']) {
+	for (const path of ['/painel', '/banco', '/redacao', '/obras/luanda-lisboa-paraiso', '/revisao', '/guia', '/em-evidencia', '/redacao/temas/amado-governa-bem', '/estudio', '/estudio/his-as-ditaduras-na-america-latina-e-os-movimentos-de-resistenci', '/trilha/his-as-ditaduras-na-america-latina-e-os-movimentos-de-resistenci/apostila']) {
 		await p.goto(BASE + path);
 		const overflow = await p.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
 		expect(overflow <= 1, `${path}: rolagem horizontal de ${overflow}px`);

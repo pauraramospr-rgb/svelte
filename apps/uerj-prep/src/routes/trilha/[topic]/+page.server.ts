@@ -3,6 +3,7 @@ import type { Actions, PageServerLoad } from './$types';
 import { getTopic, topicStats, incidenceBand, INCIDENCE } from '$lib/domain/syllabus';
 import { listQuestions } from '$lib/server/questions';
 import { getResumo } from '$lib/content';
+import { getApostila, getAula } from '$lib/producao';
 import { db } from '$lib/server/db';
 import { setTopicStatus, topicPerformance, topicStatuses } from '$lib/server/progress';
 
@@ -25,6 +26,15 @@ export const load: PageServerLoad = ({ params, locals }) => {
 		band: incidenceBand(stats),
 		years: INCIDENCE.years,
 		resumo: getResumo(params.topic) ?? null,
+		producao: (() => {
+			const ap = getApostila(params.topic);
+			const au = getAula(params.topic);
+			if (!ap && !au) return null;
+			return {
+				apostila: ap ? { palavras: ap.body.split(/\s+/).length } : null,
+				aula: au ? { episodios: au.episodios.length, duracaoSeg: au.duracaoSeg } : null
+			};
+		})(),
 		aiSummary: cached ?? null,
 		official: official.slice(0, 30).map((q) => ({ id: q.id, year: (q as { year: number }).year, number: (q as { number: number }).number, statement: q.statement.slice(0, 260), language: q.language, objective: (q as { objective?: string }).objective ?? '' })),
 		officialTotal: official.length,

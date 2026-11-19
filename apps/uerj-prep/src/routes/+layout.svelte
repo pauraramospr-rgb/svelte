@@ -39,7 +39,8 @@
 			label: 'Progresso',
 			items: [
 				{ href: '/revisao', label: 'Revisão e evolução', icon: 'chart' },
-				{ href: '/fontes', label: 'Fontes e metodologia', icon: 'info' }
+				{ href: '/fontes', label: 'Fontes e metodologia', icon: 'info' },
+				{ href: '/estudio', label: 'Estúdio de aulas', icon: 'film' }
 			]
 		}
 	];

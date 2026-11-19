@@ -14,8 +14,8 @@ export interface Resumo {
 	body: string;
 }
 
-function parse(path: string, raw: string): Resumo {
-	const topicId = path.split('/').pop()!.replace(/\.md$/, '');
+/** Lê o front matter simples (`chave: valor` e linhas `- referência`) de um documento Markdown. */
+export function parseDoc(raw: string): { meta: Record<string, string>; refs: string[]; body: string } {
 	const m = raw.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
 	const meta: Record<string, string> = {};
 	const refs: string[] = [];
@@ -32,6 +32,12 @@ function parse(path: string, raw: string): Resumo {
 			if (kv) meta[kv[1]] = kv[2].trim();
 		}
 	}
+	return { meta, refs, body };
+}
+
+function parse(path: string, raw: string): Resumo {
+	const topicId = path.split('/').pop()!.replace(/\.md$/, '');
+	const { meta, refs, body } = parseDoc(raw);
 	return {
 		topicId,
 		title: meta.title ?? topicId,
