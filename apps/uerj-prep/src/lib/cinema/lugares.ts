@@ -64,7 +64,7 @@ export const LUGARES: Record<string, [number, number]> = {
 	'Minas Gerais': [-44.5, -18.5], 'Mato Grosso': [-55.9, -12.6], Goiás: [-49.6, -16.0], Amazônia: [-62.0, -4.5], Malvinas: [-59.0, -51.7],
 	'Estreito de Magalhães': [-70.9, -53.5], Mactan: [123.97, 10.3], Filipinas: [122.5, 11.5], Molucas: [127.4, 0.8], Ceilão: [80.7, 7.9], Champagne: [4.0, 48.9],
 	Madeira: [-16.9, 32.7], Açores: [-27.0, 38.6], Canárias: [-15.5, 28.1], Tordesilhas: [-5.0, 41.5], Sanlúcar: [-6.35, 36.78], 'Ilha de Vera Cruz': [-39.06, -16.45],
-	Guanabara: [-43.15, -22.85], Salem: [-70.9, 42.52], Olivença: [-39.02, -14.95], 'Rio da Prata': [-57.5, -35.2], Patagônia: [-68.0, -45.0],
+	Guanabara: [-43.15, -22.85], Saratoga: [-73.6, 43.0], Salem: [-70.9, 42.52], Olivença: [-39.02, -14.95], 'Rio da Prata': [-57.5, -35.2], Patagônia: [-68.0, -45.0],
 	// Oceanos e mares (rótulos)
 	'Oceano Atlântico': [-32, 18], 'Atlântico Sul': [-20, -20], 'Oceano Índico': [75, -18], 'Oceano Pacífico': [-140, 5], 'Mar Mediterrâneo': [18, 34.5],
 	'Mar Vermelho': [38.5, 20], 'Golfo Pérsico': [51, 27], 'Mar do Caribe': [-75, 15], 'Mar do Norte': [3, 56], 'Mar Báltico': [19, 58], 'Mar Negro': [34, 43.2]
