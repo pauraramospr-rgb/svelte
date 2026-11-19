@@ -110,13 +110,13 @@ O presente não serve só para o agora. Há o presente habitual, todo dia ele ac
 
 Em dois mil e vinte e cinco, a questão dois de Caim mostrou que o mesmo tempo verbal pode ter valores diferentes. Primeiro trecho: quando já cresciditos, usavam de todos os pretextos válidos e menos válidos para que o pai os levasse consigo. Segundo trecho, quando Caim reencontra Deus: tanto tempo sem dar notícias, e agora aqui estava, vestido como quando expulsou do jardim do Éden os infelizes pais destes dois. A banca pediu o valor do pretérito imperfeito em cada trecho e a expressão temporal que confirma cada valor. O padrão: no primeiro, o emprego usual do imperfeito, que indica uma ação repetida no passado, confirmada por quando já. No segundo, o imperfeito é usado para presentificar o fenômeno descrito, e a expressão que confirma isso é agora. Repare como a banca quis a prova no texto: o valor, mais a palavra que o comprova.
 
-:: compara "Trecho 1: “usavam”" × "Trecho 2: “estava”" @"Primeiro trecho"
-- ação repetida no passado | presentificação @presentificar
-- confirmada por “quando já” | confirmada por “agora” @"confirma isso é agora"
+:: compara "Trecho 1" × "Trecho 2" @"Primeiro trecho"
+- “quando já cresciditos, usavam de todos os pretextos…” | “…e agora aqui estava, vestido como quando expulsou do jardim do Éden…” @"Segundo trecho"
 :: uerj "UERJ 2025 · Questão 2"
 - Comando: o valor do imperfeito em cada trecho e a expressão que o confirma @"A banca pediu"
-- (1) “usavam”: ação repetida no passado, “quando já” @"ação repetida"
-- (2) “estava”: presentifica o fenômeno descrito, “agora” @"presentificar o fenômeno"
+- (1) “usavam”: ação repetida no passado @"ação repetida"
+- (2) “estava”: presentifica o fenômeno descrito @"presentificar o fenômeno"
+- Expressões que confirmam: (1) “quando já”; (2) “agora” @"confirma isso é agora"
 
 ## Momento UERJ: as ladeiras que o conduziriam (2017)
 :: fundo palacio

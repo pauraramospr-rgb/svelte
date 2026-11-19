@@ -184,10 +184,11 @@ Em dois mil e vinte e cinco, a questão quatro de Caim trouxe este período: Abe
 
 Em dois mil e dezenove, a questão nove de O crime do padre Amaro comparou duas conjunções temporais. No fim do romance, um personagem diz ao padre Amaro e ao cónego Dias: enquanto neste país houver sacerdotes respeitáveis como Vossas Senhorias, Portugal há de manter com dignidade o seu lugar na Europa! A reescrita trocava enquanto por quando. A banca pediu a diferença de sentido e o efeito de enquanto, considerando a conduta dos dois padres ao longo do romance. O padrão: as duas são temporais, mas têm valores distintos. Enquanto indica que já existem sacerdotes respeitáveis em Portugal; quando indicaria que ainda não existem. E enquanto é a mais adequada porque reforça a ironia de Eça de Queirós na crítica ao clero, já que, ao longo do romance, os sacerdotes não seguem os preceitos da vida religiosa. O elogio é dito justamente a dois padres que não o merecem.
 
-:: compara "“enquanto houver…”" × "“quando houver…”" @"A reescrita trocava"
-- já existem sacerdotes respeitáveis | ainda não existem @"ainda não existem"
+:: citacao "…enquanto neste país houver sacerdotes respeitáveis como Vossas Senhorias, Portugal há-de manter com dignidade o seu lugar na Europa!" | Eça de Queirós, O crime do padre Amaro (UERJ 2019) @"um personagem diz"
 :: uerj "UERJ 2019 · Questão 9"
 - As duas conjunções: temporais, com valores distintos @"têm valores distintos"
+- “enquanto”: já existem sacerdotes respeitáveis @"já existem sacerdotes"
+- “quando”: indicaria que ainda não existem @"ainda não existem"
 - Efeito de “enquanto”: reforça a ironia de Eça na crítica ao clero @"reforça a ironia"
 - Por quê: os sacerdotes não seguem os preceitos religiosos @"não seguem os preceitos"
 
@@ -200,7 +201,7 @@ E o e, que parece a conjunção mais simples, também já foi cobrado. Em dois m
 :: uerj "UERJ 2017 · Questão 4"
 - Paralelismo: “supô-los excelentes” e “consultar pessoas”, no infinitivo @"correspondência entre as estruturas"
 - Banca: reconhecer o valor que o “e” assume no contexto @"pode assumir em alguns contextos"
-- Leitura (não está no padrão): valor de alternativa, “ou” @"Uma leitura coerente"
+- Leitura nossa: valor de alternativa, “ou” (não está no padrão) @"Uma leitura coerente"
 
 # Parte 4 — Na prova
 

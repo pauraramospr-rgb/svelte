@@ -78,8 +78,11 @@ function cor(nome: string | undefined, padrao: string): string {
 	return CORES[n] ?? padrao;
 }
 
+/** Tira as aspas retas que delimitam um argumento do roteiro; aspas curvas são conteúdo (citações) e ficam. */
 function semAspas(s: string): string {
-	return s.trim().replace(/^["“]/, '').replace(/["”]$/, '').trim();
+	const t = s.trim();
+	if (t.length >= 2 && t.startsWith('"') && t.endsWith('"')) return t.slice(1, -1).trim();
+	return t.replace(/^"/, '').replace(/"$/, '').trim();
 }
 
 /** Divide os argumentos por " | ". */
@@ -191,7 +194,11 @@ export function encenar(cena: CenaRoteiro): Encenada {
 	for (const d of ds) {
 		if (['fundo', 'transicao', 'professor', 'painel'].includes(d.tipo)) continue;
 		const padrao = primeiro ? { s: 0, f: 0, d: 0.3 } : mais(anterior, 1.2);
-		const m = anc.momento(d.ancora, padrao);
+		// Quadro sem âncora própria, depois de outro visual, mas com itens ancorados (como o painel
+		// do Momento UERJ): entra junto do primeiro item, e não logo depois do quadro anterior —
+		// senão apagaria cedo demais a citação ou o documento que ainda está sendo lido.
+		const pelaPrimeira = !primeiro && !d.ancora && PRINCIPAIS.has(d.tipo) && d.itens[0]?.ancora;
+		const m = pelaPrimeira ? mais(anc.momento(d.itens[0].ancora, padrao), -0.4) : anc.momento(d.ancora, padrao);
 		momentoDe.set(d, m);
 		primeiro = false;
 		anterior = m;
