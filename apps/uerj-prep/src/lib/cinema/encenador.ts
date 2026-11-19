@@ -336,6 +336,24 @@ export function encenar(cena: CenaRoteiro): Encenada {
 	}
 
 	// ——— Blocos visuais ———
+	/** Faixas verticais ocupadas pelos visuais principais, para o carimbo não cobrir texto. */
+	const ocupado: { ini: number; fim: number; y0: number; y1: number }[] = [];
+	const alturaOcupada = (e: Elemento, r: Regiao): [number, number] | undefined => {
+		if (e.k === 'doc' || e.k === 'retrato' || e.k === 'balanca') return [r.y, r.y + r.h];
+		if (!('h' in e) || typeof e.h !== 'number' || !('y' in e)) return undefined;
+		if (e.k === 'tabela') {
+			// A tabela ocupa só as linhas que tem: estima a altura com a fonte cheia (30 px).
+			const nc = Math.max(1, e.colunas.length);
+			const larg = nc >= 3 ? [e.w * 0.24, ...Array(nc - 1).fill((e.w * 0.76) / (nc - 1))] : Array(nc).fill(e.w / nc);
+			let total = 64;
+			for (const l of e.linhas) {
+				const n = Math.max(1, ...l.celulas.map((c, j) => Math.ceil((c.length * 30 * 0.55) / Math.max(60, (larg[j] ?? 100) - 26))));
+				total += n * 30 * 1.24 + 30;
+			}
+			return [e.y, e.y + Math.min(e.h, total)];
+		}
+		return [e.y, e.y + e.h];
+	};
 	blocos.forEach((b, i) => {
 		if (b.tipo === 'limpa') return;
 		const prox = b.tipo === 'principal' ? fimDe(i, ['principal']) : b.tipo === 'palco' ? fimDe(i, ['palco']) : b.tipo === 'carimbo' ? fimDe(i, ['principal', 'carimbo']) : null;
@@ -350,7 +368,18 @@ export function encenar(cena: CenaRoteiro): Encenada {
 			const r = regiaoCheia;
 			// No mapa, o carimbo vai para o canto oposto ao painel; no quadro, para o alto da região principal.
 			const x = modoMapa ? (painel === 'direita' ? 330 : 1290) : r.x + r.w - Math.min(260, r.w / 2);
-			const y = modoMapa ? 90 : r.y + 30;
+			let y = modoMapa ? 90 : r.y + 30;
+			if (!modoMapa) {
+				// Se um quadro já ocupa o alto da região, o carimbo desce para o espaço livre logo abaixo dele.
+				const t0 = b.seg + 0.5;
+				const vis = ocupado.filter((o) => o.ini <= t0 && o.fim > t0);
+				if (vis.length) {
+					const y0 = Math.min(...vis.map((o) => o.y0));
+					const y1 = Math.max(...vis.map((o) => o.y1));
+					const limite = temPalcoEm(b.seg, b.seg + 3) ? regiaoAlta.y + regiaoAlta.h + 15 : r.y + r.h;
+					if (y0 < r.y + 70 && limite - y1 >= 76) y = y1 + 42;
+				}
+			}
 			elementos.push({ k: 'carimbo', texto: semAspas(d0.args), x, y, rot: -6, tam: 34, larg: modoMapa ? 560 : Math.min(520, r.w), fixo, a: anim(b.inicio, 'pop', saida) });
 			return;
 		}
@@ -365,7 +394,12 @@ export function encenar(cena: CenaRoteiro): Encenada {
 		// principal: região cheia, ou a de cima quando o palco está ocupado ao mesmo tempo
 		const fim = prox?.seg ?? totalSeg;
 		const r = temPalcoEm(b.seg, fim) ? regiaoAlta : regiaoCheia;
+		const antes = elementos.length;
 		montarPrincipal(b, r, saida);
+		for (const e of elementos.slice(antes)) {
+			const faixa = alturaOcupada(e, r);
+			if (faixa) ocupado.push({ ini: b.seg, fim, y0: faixa[0], y1: faixa[1] });
+		}
 	});
 
 	function itensDe(d: Diretiva): Item[] {
