@@ -297,11 +297,14 @@ export function encenar(cena: CenaRoteiro): Encenada {
 				const rot = semAspas(resto.join(' '));
 				if (rot && lista[0]) rotulos.push({ texto: rot, pais: lista[0], tam: 22, a: anim(mais(m, 0.4)) });
 			} else if (d.tipo === 'marca') {
+				// Opções: cor; "<" ou ">" (lado do rótulo); "-" (sem rótulo).
 				const [lugar, ...resto] = partes(d.args);
 				const c = resto.find((x) => CORES[x.toLowerCase()]);
-				const texto = resto.find((x) => x && !CORES[x.toLowerCase()]);
+				const lado = resto.includes('<') ? 'esq' : resto.includes('>') ? 'dir' : undefined;
+				const semRotulo = resto.includes('-');
+				const texto = resto.find((x) => x && !CORES[x.toLowerCase()] && !['<', '>', '-'].includes(x));
 				if (!LUGARES[lugar] && !/^-?\d/.test(lugar)) avisos.push(`linha ${d.linha}: lugar desconhecido "${lugar}"`);
-				marcas.push({ lugar, texto: texto || undefined, cor: cor(c, '#b3261e'), a: anim(m) });
+				marcas.push({ lugar, texto: semRotulo ? '' : texto || undefined, cor: cor(c, '#b3261e'), lado, a: anim(m) });
 			} else if (d.tipo === 'rota') {
 				const [caminho, ...resto] = partes(d.args).filter((x, i) => i === 0 || !/^(tracejada|reta)$/.test(x));
 				const c = resto.find((x) => CORES[x.toLowerCase()]);
@@ -377,7 +380,9 @@ export function encenar(cena: CenaRoteiro): Encenada {
 					const y0 = Math.min(...vis.map((o) => o.y0));
 					const y1 = Math.max(...vis.map((o) => o.y1));
 					const limite = temPalcoEm(b.seg, b.seg + 3) ? regiaoAlta.y + regiaoAlta.h + 15 : r.y + r.h;
-					if (y0 < r.y + 70 && limite - y1 >= 76) y = y1 + 42;
+					// O carimbo é inclinado (−6°): reserva ~60 px acima ou abaixo do quadro.
+					if (y0 - 62 >= 112) y = Math.min(r.y + 30, y0 - 62);
+					else if (limite - y1 >= 92) y = y1 + 60;
 				}
 			}
 			elementos.push({ k: 'carimbo', texto: semAspas(d0.args), x, y, rot: -6, tam: 34, larg: modoMapa ? 560 : Math.min(520, r.w), fixo, a: anim(b.inicio, 'pop', saida) });

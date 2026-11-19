@@ -157,7 +157,7 @@ export type Elemento = Base &
 		| {
 				k: 'mundo';
 				pinta: { paises: string[]; cor: string; a: Animacao }[];
-				marcas: { lugar: string; texto?: string; cor?: string; a: Animacao }[];
+				marcas: { lugar: string; texto?: string; cor?: string; lado?: 'esq' | 'dir'; a: Animacao }[];
 				rotas: { pontos: string[]; cor?: string; texto?: string; tracejada?: boolean; reta?: boolean; a: Animacao }[];
 				rotulos: { texto: string; lugar?: string; pais?: string; tam?: number; cor?: string; carimbo?: boolean; a: Animacao }[];
 		  }

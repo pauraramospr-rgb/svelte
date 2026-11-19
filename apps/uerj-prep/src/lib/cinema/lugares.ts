@@ -131,6 +131,7 @@ export const REGIOES: Record<string, [number, number, number, number]> = {
 	prata: [-66, -36, -46, -15],
 	'nordeste-brasil': [-48, -18, -34, -1.5],
 	'sudeste-brasil': [-53.5, -26, -39, -14],
+	'sul-sudeste': [-55, -29.5, -38.5, -19],
 	'sul-brasil': [-58, -34, -47, -22],
 	'norte-brasil': [-74, -12, -44, 5],
 	'minas-gerais': [-51.5, -23, -39.8, -14]

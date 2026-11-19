@@ -143,14 +143,16 @@
 			{@const tam = 24}
 			{@const larg = medir(texto, 'corpo', tam, 800) + 20}
 			{@const telaX = (pos[0] - cam.x) * cam.z + 800}
-			{@const esquerda = telaX + larg + 30 > 1590}
+			{@const esquerda = m.lado === 'esq' || (m.lado !== 'dir' && telaX + larg + 30 > 1590)}
 			<g transform="translate({pos[0]} {pos[1]}) scale({k})" opacity={suave.saida(pr.p) * pr.saida}>
 				<circle r={6 + 16 * pulso} fill="none" stroke={cor} stroke-width="2" opacity={1 - pulso} />
 				<circle r={7 * suave.elastico(pr.p)} fill={cor} stroke="#fff" stroke-width="2.4" />
-				<g transform="translate({esquerda ? -14 - larg + 4 : 14} -14)">
-					<rect x="-4" y={-tam - 2} width={larg} height={tam + 12} rx="7" fill="rgba(255,250,240,0.92)" stroke={cor} stroke-width="1.6" />
-					<text x={larg / 2 - 4} y="3" text-anchor="middle" font-family={FONTE.corpo} font-weight="800" font-size={tam} fill="#1a1410">{texto}</text>
-				</g>
+				{#if texto}
+					<g transform="translate({esquerda ? -14 - larg + 4 : 14} -14)">
+						<rect x="-4" y={-tam - 2} width={larg} height={tam + 12} rx="7" fill="rgba(255,250,240,0.92)" stroke={cor} stroke-width="1.6" />
+						<text x={larg / 2 - 4} y="3" text-anchor="middle" font-family={FONTE.corpo} font-weight="800" font-size={tam} fill="#1a1410">{texto}</text>
+					</g>
+				{/if}
 			</g>
 		{/if}
 	{/each}
