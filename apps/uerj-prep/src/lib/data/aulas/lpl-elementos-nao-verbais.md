@@ -113,7 +113,7 @@ Os recursos gráficos são as escolhas visíveis na página. O itálico marca pa
 - negrito, caixa-alta | destaque, grito, ênfase @"O negrito"
 - tamanho e cor | hierarquia da informação @"O tamanho e a cor"
 - espaço da página | imita o tema (poesia concreta) @"o próprio espaço da página"
-- letra das rubricas | separa rubrica e fala no teatro @"separa as rubricas"
+- letra das rubricas | separa rubrica e fala no teatro @"as rubricas costumam"
 :: carimbo "O QUE DESTACA? O QUE IMITA?" @"o que ele destaca"
 
 ## Interjeições e onomatopeias
