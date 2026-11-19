@@ -66,15 +66,16 @@
 			<p class="eyebrow">Material nível 3</p>
 			<h2 id="nivel3-titulo">Apostila completa e aula animada</h2>
 			<p class="small muted">
-				Estudo aprofundado, com documentos, historiografia, todas as questões oficiais comentadas e exercícios autorais — e o roteiro da aula, cena por cena.
+				Estudo aprofundado, com documentos, historiografia, todas as questões oficiais comentadas e exercícios autorais — e a aula animada em episódios, com narração e legendas.
 			</p>
 		</div>
 		<div class="row">
 			{#if data.producao.apostila}
-				<a class="btn primary" href="/trilha/{data.topic.id}/apostila">Abrir apostila · {Math.round(data.producao.apostila.palavras / 200)} min de leitura</a>
+				<a class="btn" href="/trilha/{data.topic.id}/apostila">Abrir apostila · {Math.round(data.producao.apostila.palavras / 200)} min de leitura</a>
 			{/if}
 			{#if data.producao.aula}
-				<a class="btn" href="/estudio/{data.topic.id}">Aula animada · {data.producao.aula.episodios} episódios · {formatarDuracao(data.producao.aula.duracaoSeg)}</a>
+				<a class="btn primary" href="/aulas/{data.topic.id}">Assistir à aula animada · {data.producao.aula.episodios} episódios · {formatarDuracao(data.producao.aula.duracaoSeg)}</a>
+				<a class="btn" href="/estudio/{data.topic.id}">Roteiro cena por cena</a>
 			{/if}
 		</div>
 	</section>

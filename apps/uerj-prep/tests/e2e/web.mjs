@@ -190,6 +190,18 @@ async function flow(label, ctx, withAi) {
 		await p.waitForSelector('#mapa-mental');
 		await p.screenshot({ path: `${SHOTS}/${label}-apostila.png` });
 	});
+	await step(`${label}: aula animada`, async () => {
+		await p.click('nav a:has-text("Aulas animadas")');
+		await p.click('a:has-text("Assistir") >> nth=0');
+		await p.waitForSelector('svg.palco');
+		await p.click('button.grande');
+		await p.waitForTimeout(1200);
+		await p.click('button[aria-label="Próxima cena"]');
+		await p.waitForSelector('.legenda', { timeout: 8000 });
+		expect((await p.textContent('.cena-id'))?.includes('Cena 1.1'), 'não avançou para a cena 1.1');
+		await p.click('button[aria-label="Pausar"]');
+		await p.screenshot({ path: `${SHOTS}/${label}-aula.png` });
+	});
 	await step(`${label}: dados persistem após recarregar`, async () => {
 		await p.evaluate(() => new Promise((r) => { document.dispatchEvent(new Event('visibilitychange')); setTimeout(r, 2500); }));
 		await p.goto(BASE + '#revisao');
@@ -204,7 +216,7 @@ async function flow(label, ctx, withAi) {
 	});
 	await step(`${label}: celular sem rolagem horizontal`, async () => {
 		await p.setViewportSize({ width: 390, height: 800 });
-		for (const name of ['painel', 'banco', 'redacao', 'revisao', 'estudio']) {
+		for (const name of ['painel', 'banco', 'redacao', 'revisao', 'estudio', 'aulas']) {
 			await p.goto(BASE + '#' + name);
 			await p.reload();
 			await p.waitForSelector('main', { timeout: 20000 });

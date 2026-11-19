@@ -193,6 +193,30 @@ await step('apostila nível 3 e estúdio de aulas', async () => {
 	await page.screenshot({ path: `${SHOTS}/10-estudio.png` });
 });
 
+await step('aula animada: player, legendas e capítulos', async () => {
+	await page.goto(BASE + '/aulas');
+	await page.click('a:has-text("Assistir") >> nth=0');
+	await page.waitForSelector('svg.palco');
+	await page.waitForSelector('button.grande');
+	await page.screenshot({ path: `${SHOTS}/11-aula-capa.png` });
+	await page.click('button.grande');
+	await page.waitForTimeout(1500);
+	await page.click('button[aria-label="Próxima cena"]');
+	await page.waitForTimeout(2500);
+	expect((await page.textContent('.cena-id'))?.includes('Cena 1.1'), 'não avançou para a cena 1.1');
+	await page.waitForSelector('.legenda', { timeout: 8000 });
+	const tempo = await page.textContent('.tempo');
+	expect(!/^\s*Cena 1\.1\s*0:00/.test(tempo ?? ''), `relógio parado: ${tempo}`);
+	await page.screenshot({ path: `${SHOTS}/12-aula-cena.png` });
+	await page.click('button[aria-label="Pausar"]');
+	await page.click('.capitulos button:has-text("Três forças")');
+	expect((await page.textContent('.cena-id'))?.includes('Cena 1.3'), 'capítulo não abriu');
+	const n = await page.locator('.capitulos li').count();
+	expect(n === 10, `capítulos do episódio 1: ${n}`);
+	await page.click('.episodios button:has-text("EP 3")');
+	await page.waitForSelector('.capitulos button:has-text("Muitas formas de dizer não")');
+});
+
 await step('revisão: diagnóstico e cronograma', async () => {
 	await page.goto(BASE + '/revisao');
 	await page.waitForSelector('text=Cronograma personalizado');
@@ -208,7 +232,7 @@ await step('professor IA informa quando a chave não está configurada', async (
 await step('layout responsivo em celular sem rolagem horizontal', async () => {
 	const m = await browser.newContext({ viewport: { width: 375, height: 800 }, storageState: await ctx.storageState() });
 	const p = await m.newPage();
-	for (const path of ['/painel', '/banco', '/redacao', '/obras/luanda-lisboa-paraiso', '/revisao', '/guia', '/em-evidencia', '/redacao/temas/amado-governa-bem', '/estudio', '/estudio/his-as-ditaduras-na-america-latina-e-os-movimentos-de-resistenci', '/trilha/his-as-ditaduras-na-america-latina-e-os-movimentos-de-resistenci/apostila']) {
+	for (const path of ['/painel', '/banco', '/redacao', '/obras/luanda-lisboa-paraiso', '/revisao', '/guia', '/em-evidencia', '/redacao/temas/amado-governa-bem', '/estudio', '/estudio/his-as-ditaduras-na-america-latina-e-os-movimentos-de-resistenci', '/trilha/his-as-ditaduras-na-america-latina-e-os-movimentos-de-resistenci/apostila', '/aulas', '/aulas/his-as-ditaduras-na-america-latina-e-os-movimentos-de-resistenci']) {
 		await p.goto(BASE + path);
 		const overflow = await p.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
 		expect(overflow <= 1, `${path}: rolagem horizontal de ${overflow}px`);

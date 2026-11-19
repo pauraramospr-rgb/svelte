@@ -39,6 +39,7 @@
 			</ol>
 			<div class="row">
 				<a class="btn primary" href="/estudio/{p.topicId}">Abrir roteiro</a>
+				<a class="btn" href="/aulas/{p.topicId}">Assistir à animação</a>
 				<a class="btn" href="/trilha/{p.topicId}/apostila">Apostila completa</a>
 			</div>
 		</article>

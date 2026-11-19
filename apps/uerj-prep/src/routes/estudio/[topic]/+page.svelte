@@ -60,6 +60,7 @@
 		<span class="muted">revisado em {data.aula.reviewed}</span>
 	</p>
 	<div class="row">
+		<a class="btn primary" href="/aulas/{data.topic.id}">Assistir à animação</a>
 		{#if data.temApostila}<a class="btn" href="/trilha/{data.topic.id}/apostila">Apostila completa (base do roteiro)</a>{/if}
 		<a class="btn" href="/trilha/{data.topic.id}">Tópico na trilha</a>
 	</div>

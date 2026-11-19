@@ -32,6 +32,7 @@
 			items: [
 				{ href: '/guia', label: 'Como responder à UERJ', icon: 'check' },
 				{ href: '/obras', label: 'Obras literárias', icon: 'library' },
+				{ href: '/aulas', label: 'Aulas animadas', icon: 'play' },
 				{ href: '/tutor', label: 'Professor IA', icon: 'sparkles' }
 			]
 		},
