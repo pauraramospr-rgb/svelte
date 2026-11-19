@@ -18,7 +18,7 @@ Frases **declarativas, interrogativas, imperativas e exclamativas** têm formas 
 
 **Questões oficiais deste item:**
 - **2025, Q9** — em *Caim*, uma frase **sem ponto de interrogação** (pontuação de Saramago) tem **função interrogativa** e **provocadora**: Caim desafia Deus — com **ironia**.
-- **2020, Q6** — duas perguntas em *Antes de nascer o mundo* que **não buscam informação**: a resposta a uma pergunta é outra pergunta, que **reafirma** a resposta dada.
+- **2020, Q6** — duas perguntas em *Antes de nascer o mundo* (“E escrevo onde?”, de Mwanito; “Há outro papel por aqui?”, de Ntunzi): a banca explorou uma função da interrogação diferente da previsível obtenção de informação — a resposta a uma das perguntas é outra pergunta, que **reafirma** a resposta dada (o baralho é o único papel disponível).
 - **2020, Q7** — o papel coesivo dos **dois-pontos**: num caso, introduzem um **aposto** explicativo; noutro, ocupam o lugar de um **conectivo** subentendido.
 
 **O que você precisa dominar:** (1) reconhecer a espécie de frase pela **função**, não só pela pontuação; (2) explicar a **intenção** de quem fala (provocar, pedir, ordenar, ironizar, reafirmar); (3) ler o efeito da **pontuação**.
@@ -42,7 +42,7 @@ Frases **declarativas, interrogativas, imperativas e exclamativas** têm formas 
 **2. Perguntas que não perguntam.** Uma pergunta pode:
 - **provocar** ou **desafiar** (questionar a autoridade de alguém);
 - **ironizar** (fingir dúvida para criticar);
-- **reafirmar** algo óbvio (“E escrevo onde?” = não há onde escrever);
+- **reafirmar** uma resposta já dada (“Há outro papel por aqui?” = o baralho é o único papel disponível);
 - **argumentar** (pergunta retórica que leva o leitor à conclusão).
 Para responder, diga **a intenção** e **o que no contexto** a revela (a reação do interlocutor, uma palavra como “sim”, o tom da cena).
 
@@ -68,8 +68,8 @@ Para responder, diga **a intenção** e **o que no contexto** a revela (a reaç�
 
 > Possibilidade baseada no histórico — não é garantia de cobrança.
 
-**Resposta-modelo (questão de treino, no padrão de 2020).** *Comando: explique a intenção da pergunta “E escrevo onde?”, dita por quem acabou de receber um lápis num lugar sem papel.*
-> “A pergunta não busca informação: ela reafirma que não há onde escrever, apontando a impossibilidade de usar o lápis. Funciona como objeção ou queixa, e não como pedido de esclarecimento.”
+**Resposta-modelo (questão de treino, no padrão de 2020).** *Comando: numa discussão sobre um colega que cometeu um erro, alguém pergunta “Quem nunca errou?”. Explique a intenção dessa pergunta.*
+> “A frase é interrogativa na forma, mas não busca informação: é uma pergunta retórica, que leva o interlocutor a concluir que todos erram. Assim, defende o colega e relativiza o erro dele.”
 
 ## Erros que custam pontos
 
@@ -108,7 +108,7 @@ Afirmar e exprimir emoção são as funções mais básicas da frase.
 ### Interrogativa
 Nem toda pergunta pede informação: muitas provocam ou afirmam.
 - **Provocação**: Caim desafia Deus.
-- **Reafirmação**: “E escrevo onde?”
+- **Reafirmação**: “Há outro papel por aqui?”
 - **Retórica**: leva o leitor a uma conclusão.
 
 ### Imperativa
