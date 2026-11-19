@@ -25,6 +25,11 @@ reviewed: 2026-11-18
 - ALVES, Maria Helena Moreira. Estado e oposição no Brasil (1964-1984). Petrópolis: Vozes, 1984.
 - McSHERRY, J. Patrice. Predatory states: Operation Condor and covert war in Latin America. Lanham: Rowman & Littlefield, 2005.
 - GIAMBIAGI, Fabio et al. (org.). Economia brasileira contemporânea (1945-2010). Rio de Janeiro: Elsevier, 2011.
+- ESTADOS UNIDOS. Senado. Covert action in Chile, 1963-1973 (relatório da Comissão Church), 1975.
+- CIA. CIA activities in Chile (relatório Hinchey ao Congresso), setembro de 2000. https://nsarchive2.gwu.edu/news/20000919/
+- CHILE. Informe de la Comisión Nacional de Verdad y Reconciliación (Comissão Rettig), 1991; Informe de la Comisión Nacional sobre Prisión Política y Tortura (Comissão Valech), 2004.
+- BIBLIOTECA DEL CONGRESO NACIONAL DE CHILE. Reseña biográfica: Augusto Pinochet Ugarte. https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Augusto_Pinochet_Ugarte
+- CHEQUEADO. 24 de marzo: 1.197 personas fueron condenadas por delitos de lesa humanidad desde 2006 (dados de março de 2025). https://chequeado.com/el-explicador/24-de-marzo-1-197-personas-fueron-condenadas-por-delitos-de-lesa-humanidad-desde-2006/
 - ANTUNES, Ricardo. O privilégio da servidão: o novo proletariado de serviços na era digital. São Paulo: Boitempo, 2018.
 ---
 
@@ -77,11 +82,13 @@ Entre 1964 e 1976, **Brasil, Bolívia, Uruguai, Chile e Argentina** passaram por
 
 > **Quadro de atenção — nem toda ditadura militar foi igual.** No Peru, o general Velasco Alvarado (1968–1975) liderou um governo militar **reformista**, que fez reforma agrária e nacionalizou empresas. O padrão do Cone Sul (Brasil, Chile, Argentina, Uruguai), porém, foi o de ditaduras **anticomunistas**, alinhadas aos EUA e voltadas a **desmobilizar** a sociedade.
 
+> **Quadro de atenção — o discurso e o alvo.** O discurso dos golpistas era o **anticomunismo**, mas, no **Brasil** e na **Argentina**, o que foi derrubado na prática foi o **trabalhismo**: aqui, o varguismo de João Goulart, do PTB, herdeiro político de Getúlio Vargas; lá, o **peronismo** — Juan Perón já fora deposto em 1955, e o golpe de 1976 derrubou o governo peronista de Isabel Perón. Eram governos nacionalistas, de base sindical e com propostas de reformas sociais — **não** governos comunistas. O **Chile** foi diferente: ali, um **socialista** chegou ao poder pelo voto (Salvador Allende, eleito em 1970), e foi esse governo socialista que o golpe de 1973 derrubou.
+
 ### Parte II — Brasil, 1961–1964: da crise ao golpe
 
 **A crise de 1961.** Quando Jânio Quadros renunciou (agosto de 1961), os ministros militares tentaram impedir a posse do vice, **João Goulart**, acusado de ligações com o comunismo e o sindicalismo. A **Campanha da Legalidade**, liderada pelo governador gaúcho Leonel Brizola, garantiu a posse — mas sob um **parlamentarismo** improvisado, que reduzia os poderes do presidente. Em janeiro de 1963, um **plebiscito** devolveu o presidencialismo a Jango.
 
-**As reformas de base.** Goulart defendia as **reformas de base**: agrária (a mais polêmica), urbana, bancária, tributária, universitária e eleitoral (inclusive o voto dos analfabetos). No campo, as **Ligas Camponesas** (desde 1955) e os sindicatos rurais pressionavam pela terra; nas cidades, cresciam as greves e a mobilização do CGT. Do outro lado, organizações empresariais como o **IPES** e o **IBAD** financiavam campanhas e publicações contra o governo — o historiador René Dreifuss mostrou como esse complexo empresarial articulou o golpe junto com militares.
+**As reformas de base.** Goulart, do PTB — o partido trabalhista criado por Getúlio Vargas —, defendia as **reformas de base**: agrária (a mais polêmica), urbana, bancária, tributária, universitária e eleitoral (inclusive o voto dos analfabetos). No campo, as **Ligas Camponesas** (desde 1955) e os sindicatos rurais pressionavam pela terra; nas cidades, cresciam as greves e a mobilização do CGT. Do outro lado, organizações empresariais como o **IPES** e o **IBAD** financiavam campanhas e publicações contra o governo — o historiador René Dreifuss mostrou como esse complexo empresarial articulou o golpe junto com militares.
 
 **A escalada de março de 1964.**
 - **13 de março:** no **Comício da Central do Brasil**, Jango anunciou decretos de desapropriação de terras às margens de rodovias e ferrovias e de nacionalização de refinarias particulares.
@@ -208,23 +215,27 @@ Esses marcos alimentaram a **esperança** associada aos governos civis — inclu
 
 ### Parte VIII — O Cone Sul: Chile, Argentina, Uruguai, Paraguai e a Operação Condor
 
-**Chile (1973–1990).** O socialista **Salvador Allende**, eleito em 1970 pela Unidade Popular, nacionalizou o cobre e aprofundou a reforma agrária, enfrentando crise econômica e oposição apoiada pelos EUA. Em **11 de setembro de 1973**, o golpe do general **Augusto Pinochet** bombardeou o palácio de La Moneda; Allende morreu no palácio. A ditadura usou estádios como campos de prisão, criou a polícia política DINA e implantou um programa **neoliberal** (os economistas formados em Chicago). Num **plebiscito em 1988**, o “**Não**” à continuidade de Pinochet venceu; a democracia voltou em 1990, mas Pinochet seguiu comandante do Exército até 1998 — e foi preso em Londres naquele ano, a pedido da Justiça espanhola.
+**Chile (1973–1990).** Aqui o caso é diferente do brasileiro e do argentino: o governo derrubado era **socialista** e tinha chegado ao poder **pelo voto**. Salvador Allende, eleito em 1970 pela Unidade Popular, nacionalizou o cobre e aprofundou a reforma agrária, enfrentando crise econômica e uma oposição apoiada pelos EUA — a CIA financiou adversários e ações de desestabilização do governo, como reconheceu uma comissão do Senado norte-americano (Comissão Church, 1975). Em **11 de setembro de 1973**, o golpe do general **Augusto Pinochet** começou com o **bombardeio do palácio presidencial de La Moneda**; Allende morreu no palácio. A ditadura usou estádios como campos de prisão, criou a polícia política DINA, implantou um programa **neoliberal** (os economistas formados em Chicago) e, em 1978, decretou uma **autoanistia** para os crimes cometidos desde o golpe. Num **plebiscito em 1988**, o “**Não**” à continuidade de Pinochet venceu, e a democracia voltou em 1990 — mas a transição **acomodou o ditador**: Pinochet seguiu comandante do Exército até março de 1998 e, em seguida, tornou-se **senador vitalício** (1998–2002). Preso em Londres em 1998, a pedido da Justiça espanhola, voltou ao Chile e morreu em 2006 sem ter sido condenado.
 
-**Argentina (1976–1983).** O golpe de **24 de março de 1976** inaugurou o “Processo de Reorganização Nacional”, a ditadura mais letal do Cone Sul: centros clandestinos de detenção (como a ESMA), voos da morte, sequestro de bebês filhos de presas. O relatório ***Nunca más*** (CONADEP, 1984) documentou cerca de **9 mil desaparecidos**; organizações de direitos humanos estimam **30 mil**. As **Mães da Praça de Maio** (1977) marcharam semanalmente pedindo seus filhos. A derrota na **Guerra das Malvinas** (1982) provocou o **colapso** do regime. Em 1985, o **Julgamento das Juntas** condenou os comandantes; leis de impunidade dos anos 1980 foram anuladas nos anos 2000, e os julgamentos foram retomados.
+**Argentina (1976–1983).** O golpe de **24 de março de 1976** derrubou o governo **peronista** de Isabel Perón e inaugurou o “Processo de Reorganização Nacional”, a ditadura mais letal do Cone Sul: centros clandestinos de detenção (como a ESMA), voos da morte, sequestro de bebês filhos de presas. O relatório ***Nunca más*** (CONADEP, 1984) documentou cerca de **9 mil desaparecidos**; organizações de direitos humanos estimam **30 mil**. As **Mães da Praça de Maio** (1977) marcharam semanalmente pedindo seus filhos. A derrota na **Guerra das Malvinas** (1982) provocou o **colapso** do regime. Em 1985, o **Julgamento das Juntas** condenou os comandantes — a Argentina **julgou** seus ditadores, depois que a comissão da verdade (CONADEP) reuniu as provas. As leis de impunidade dos anos 1980 (Ponto Final e Obediência Devida) e os indultos de 1989–1990 foram anulados nos anos 2000, e os julgamentos foram retomados: desde 2006, cerca de 1.200 pessoas foram condenadas por crimes contra a humanidade (dados de 2025).
 
 **Uruguai (1973–1985).** O golpe de 1973 dissolveu o Parlamento. A ditadura teve uma das maiores taxas de presos políticos por habitante do continente. Em **1980**, os uruguaios **rejeitaram em plebiscito** a Constituição proposta pelos militares, abrindo caminho para a transição negociada (1984–1985); a Lei de Caducidade (1986) protegeu os agentes da repressão e foi confirmada em consultas populares.
 
 **Paraguai (1954–1989).** O general **Alfredo Stroessner** governou por 35 anos. Em 1992, a descoberta dos “**Arquivos do Terror**” em uma delegacia de Assunção revelou documentos da repressão e da cooperação entre as ditaduras.
 
-**A Operação Condor.** Em **1975**, numa reunião em Santiago, os serviços de inteligência do Chile, da Argentina, do Uruguai, do Paraguai e da Bolívia formalizaram uma rede de **cooperação repressiva** — o Brasil participou da troca de informações e de ações. A Condor permitia **sequestrar, torturar e matar opositores além das fronteiras**: o assassinato do ex-chanceler chileno Orlando Letelier em Washington (1976) e o sequestro dos uruguaios Lilián Celiberti e Universindo Díaz em Porto Alegre (1978) são exemplos.
+**Violência comparada.** Todas essas ditaduras foram violentas, mas, **proporcionalmente à população**, as da **Argentina** e do **Chile** foram muito mais letais que a brasileira. No Brasil (cerca de 100 milhões de habitantes nos anos 1970), a CNV listou 434 mortos e desaparecidos políticos — além de ao menos 8.350 indígenas mortos e da violência contra camponeses, números que a própria comissão considera subestimados. No Chile (cerca de 10 milhões de habitantes), as comissões oficiais reconheceram mais de 3 mil mortos e desaparecidos (o primeiro relatório, de 1991, já listava 2.279) e dezenas de milhares de presos políticos torturados. Na Argentina (cerca de 25 milhões), o *Nunca más* documentou quase 9 mil desaparecidos, e organizações de direitos humanos estimam 30 mil. Historiadores observam que a ditadura brasileira foi mais **seletiva** na eliminação física e investiu mais na aparência de legalidade, na censura e na tortura — o que não a torna menos criminosa.
+
+**A Operação Condor.** Em **1975**, numa reunião em Santiago, os serviços de inteligência do Chile, da Argentina, do Uruguai, do Paraguai e da Bolívia formalizaram uma rede de **cooperação repressiva** — o Brasil participou da troca de informações e de ações. A Condor permitia **sequestrar, torturar e matar opositores além das fronteiras**: o assassinato do ex-chanceler chileno Orlando Letelier em Washington (1976) e o sequestro dos uruguaios Lilián Celiberti e Universindo Díaz em Porto Alegre (1978) são exemplos. E os **Estados Unidos**? Documentos liberados depois mostram o quanto Washington sabia: um relatório da CIA ao Congresso norte-americano (2000) reconheceu que a agência manteve relações com o chefe da DINA, Manuel Contreras — a quem fez um pagamento em 1975 — e que, um ano depois do golpe chileno, já conhecia os acordos entre as polícias políticas do Cone Sul para perseguir e matar opositores, acordos que deram origem à Condor. Os EUA não comandavam a operação, mas sabiam dela e se relacionavam com os serviços que a executavam, como parte da sua política de contenção do comunismo no continente.
 
 | | Brasil | Argentina | Chile | Uruguai |
 |---|---|---|---|---|
+| Governo derrubado | Trabalhista (Goulart, PTB) | Peronista (Isabel Perón) | Socialista eleito (Allende) | Parlamento dissolvido pelo próprio presidente, com os militares |
 | Duração | 1964–1985 | 1976–1983 | 1973–1990 | 1973–1985 |
-| Marca da repressão | Tortura sistemática, desaparecimentos, censura | Desaparecimento em massa, roubo de bebês | Execuções, campos de prisão, exílio | Prisão política em massa |
+| Marca da repressão | Tortura sistemática, desaparecimentos, censura | Desaparecimento em massa, roubo de bebês | Execuções desde o primeiro dia, campos de prisão, exílio | Prisão política em massa |
+| Letalidade, em proporção à população | Menor das quatro (o que não diminui seus crimes) | A mais alta | Muito alta | Menor em mortes, enorme em presos |
 | Economia | Desenvolvimentismo estatal (“milagre”) | Abertura e desindustrialização | Neoliberalismo de choque | Liberalização |
 | Transição | Negociada, controlada pelos militares | Colapso após as Malvinas | Plebiscito (1988) e transição negociada | Plebiscito (1980) e pacto (1984) |
-| Justiça | Anistia de 1979 mantida pelo STF; Comissão da Verdade (2012–2014) | Julgamento das Juntas (1985); julgamentos retomados nos anos 2000 | Comissões da verdade (1991, 2004); processos | Lei de Caducidade; processos posteriores |
+| Justiça | Anistia de 1979 mantida pelo STF; sem punição criminal dos agentes; Comissão da Verdade (2012–2014) | **Julgou**: Juntas (1985); cerca de 1.200 condenados desde 2006 | Autoanistia (1978); Pinochet comandante até 1998 e senador vitalício; processos tardios | Lei de Caducidade; processos posteriores |
 
 ### Parte IX — Memória, verdade, justiça e reparação: o presente do tema (UERJ 2026)
 
@@ -287,6 +298,7 @@ Mudanças legais recentes também fazem parte do quadro, como a **reforma trabal
 | Conceito | Definição precisa | Exemplo no tema |
 |---|---|---|
 | **Golpe de Estado** | Tomada do poder por meios ilegais, rompendo a ordem constitucional | Deposição de Goulart (1964), com a Presidência declarada vaga com o presidente no país |
+| **Trabalhismo / peronismo** | Correntes nacionalistas de base sindical, que ampliaram direitos trabalhistas sob forte liderança (Vargas e Goulart; Perón) | Alvos reais dos golpes no Brasil (1964) e na Argentina (1955 e 1976) |
 | **Ditadura civil-militar** | Regime autoritário comandado pelos militares, com apoio e participação de civis | Brasil, 1964–1985 |
 | **Doutrina de Segurança Nacional** | Concepção que identifica o “inimigo interno” (o subversivo) como a principal ameaça ao país | Justificativa das perseguições (UERJ 2026) |
 | **Atos institucionais** | Normas baixadas pelo Executivo militar acima da Constituição | AI-1 a AI-5 |
@@ -312,12 +324,19 @@ Mudanças legais recentes também fazem parte do quadro, como a **reforma trabal
 
 **4. O custo social do desenvolvimento.** A ditadura não foi apenas repressão: foi também um **projeto de desenvolvimento** — estatal, concentrador de renda, apoiado em endividamento e em grandes obras. A Amazônia mostra o lado menos lembrado: indígenas, posseiros e garimpeiros pagaram o preço do “Brasil Grande”.
 
-**5. Memória em disputa.** Expressões como “revolução de 1964”, “ditabranda” ou “anos dourados” convivem com “golpe”, “ditadura” e “anos de chumbo”. Analisar **quem** usa cada termo e **por quê** é um exercício de crítica de fontes — e a UERJ usa justamente documentos em que essas memórias se confrontam (o editorial de *O Globo*, as certidões corrigidas).
+**5. O discurso e o alvo.** Saber separar a **justificativa** (o anticomunismo, a “guerra” contra a subversão) do **alvo real** (o trabalhismo de Goulart, o peronismo, o socialismo eleito de Allende) é sinal de análise madura: o regime chamava de “comunista” qualquer projeto de reforma social com base popular.
+
+**6. Violência e justiça comparadas.** Proporcionalmente, a Argentina e o Chile mataram muito mais que o Brasil; mas a resposta posterior também variou. A Argentina **julgou** os responsáveis; o Chile manteve Pinochet no comando do Exército até 1998 e como senador vitalício; o Brasil manteve a anistia. Comparar com um **critério** (letalidade, tipo de transição, punição) é exatamente o que a UERJ pede.
+
+**7. Memória em disputa.** Expressões como “revolução de 1964”, “ditabranda” ou “anos dourados” convivem com “golpe”, “ditadura” e “anos de chumbo”. Analisar **quem** usa cada termo e **por quê** é um exercício de crítica de fontes — e a UERJ usa justamente documentos em que essas memórias se confrontam (o editorial de *O Globo*, as certidões corrigidas).
 
 ## 6. Pontos de atenção e erros frequentes
 
 > **Atenção — erros que custam pontos neste tema**
 > - Chamar o golpe de “revolução” sem aspas nem análise (é a palavra do regime).
+> - Dizer que Goulart (ou Isabel Perón) era comunista: o discurso era anticomunista, mas os governos derrubados eram **trabalhista** e **peronista**; só no Chile o governo derrubado era socialista (e eleito).
+> - Dizer que a ditadura brasileira foi a mais violenta do Cone Sul: proporcionalmente, **Argentina e Chile** mataram muito mais.
+> - Esquecer que a transição chilena **acomodou Pinochet** (comandante até 1998, senador vitalício) e que a **Argentina julgou** seus ditadores.
 > - Dizer que o golpe foi “só dos militares”: houve apoio civil e externo.
 > - Confundir o **AI-5** (1968) com o **AI-1** (1964) ou com a Constituição de 1967.
 > - Atribuir à Lei da Anistia uma anistia “ampla, geral e irrestrita” (era a bandeira da campanha, não o texto da lei).
@@ -351,6 +370,7 @@ Mudanças legais recentes também fazem parte do quadro, como a **reforma trabal
 | Efeito da exploração amazônica | Devastação ambiental; violência contra indígenas; povoamento desordenado; precarização do trabalho e da moradia |
 | Atentado contra a abertura | Carta-bomba na OAB (1980); bancas de jornal; bomba na ABI; Riocentro (1981) |
 | Marco da redemocratização (1985–1989) | Eleição de Tancredo; EC 25/1985; eleições municipais de 1985; Constituição de 1988; eleição direta de 1989 |
+| Governo derrubado e sua orientação | Brasil: trabalhista (Goulart, PTB); Argentina: peronista (Isabel Perón, 1976); Chile: socialista eleito (Allende) |
 | Medida de memória e reparação | Lei nº 9.140/1995; Comissão de Anistia; CNV; certidões corrigidas (2024–2025) |
 
 **Pontes passado–presente que a banca já fez:** imprensa em 1964 × autocrítica de 2013; Amazônia de 1973 × lideranças indígenas de 2019; carta de 1975 × certidão de 2025; novela de 1988 × *remake* de 2025; Ligas Camponesas × MST e a CPI de 2023; atentados de 1980–1981 × violência política recente (citada no comentário oficial de 2025).
@@ -457,6 +477,12 @@ Mudanças legais recentes também fazem parte do quadro, como a **reforma trabal
 *Resposta esperada:* a nação identificada com o regime — quem o critica não seria patriota e deveria sair (exílio); no auge do milagre econômico, o crescimento e a propaganda buscavam produzir consenso em torno do governo, enquanto a repressão atingia os opositores.
 *Critérios (proposta):* oposição patriota × opositor; ligação com o milagre e a propaganda.
 
+**Exercício 5 — O discurso e o alvo.**
+*Documento:* em 1964, no Brasil, e em 1976, na Argentina, os militares justificaram os golpes como defesa do país contra o comunismo; em 1973, no Chile, o governo deposto era o do socialista Salvador Allende, eleito em 1970.
+*Comando:* Identifique a orientação política dos governos derrubados no Brasil (1964) e na Argentina (1976). Em seguida, compare a forma como Argentina e Chile trataram, após a ditadura, os responsáveis pelas violações de direitos humanos.
+*Resposta esperada:* no Brasil, o governo trabalhista de João Goulart (PTB, herdeiro de Vargas); na Argentina, o governo peronista de Isabel Perón — governos nacionalistas de base sindical, não comunistas. A Argentina julgou e condenou os comandantes (Julgamento das Juntas, 1985) e, desde 2006, cerca de 1.200 repressores; no Chile, a transição preservou Pinochet como comandante do Exército até 1998 e senador vitalício, e a autoanistia de 1978 limitou os processos.
+*Critérios (proposta):* orientação correta nos dois casos (trabalhismo e peronismo); comparação com o mesmo critério (punição × acomodação).
+
 ## 12. Checklist de aprendizagem
 
 - [ ] Explico por que a Guerra Fria e a Doutrina de Segurança Nacional levaram a ditaduras no Cone Sul.
@@ -468,7 +494,9 @@ Mudanças legais recentes também fazem parte do quadro, como a **reforma trabal
 - [ ] Cito formas diferentes de resistência, com exemplos.
 - [ ] Explico a abertura, a Lei da Anistia (e sua assimetria) e os atentados contra a abertura.
 - [ ] Listo marcos da redemocratização entre 1985 e 1989.
-- [ ] Comparo a transição brasileira com a argentina e a chilena.
+- [ ] Separo o discurso anticomunista do alvo real dos golpes (trabalhismo, peronismo, socialismo eleito no Chile).
+- [ ] Sei que, proporcionalmente, Argentina e Chile foram mais letais que o Brasil.
+- [ ] Comparo a transição brasileira com a argentina e a chilena (quem julgou e quem acomodou).
 - [ ] Explico o significado atual das certidões corrigidas e da Comissão Nacional da Verdade.
 - [ ] Respondo a uma questão em duas partes, com fato + explicação, no recorte pedido.
 
@@ -491,6 +519,7 @@ A Guerra Fria e a crise do governo Goulart abriram caminho para o golpe.
 ### Causas
 Militares e civis viram nas reformas e na mobilização uma ameaça comunista.
 - **“Inimigo interno”**: a subversão como alvo.
+- **Alvo real**: o trabalhismo de Jango e o peronismo, não o comunismo.
 - Elites agrárias e empresariais contra as reformas.
 - Apoio dos EUA e da grande imprensa.
 
@@ -517,7 +546,8 @@ A abertura foi lenta, controlada pelos militares e atacada pela linha-dura.
 A democracia voltou com a Constituição de 1988, mas sem punição dos agentes.
 - Constituição Cidadã e eleição direta de 1989.
 - STF mantém a anistia; Corte Interamericana condena o Brasil.
-- No Cone Sul, julgamentos na Argentina e plebiscito no Chile.
+- **Argentina julgou** os ditadores; o Chile manteve Pinochet como senador vitalício.
+- Argentina e Chile, proporcionalmente, mais letais que o Brasil.
 
 ### Importância e depois
 A memória da ditadura segue em disputa e chega às provas de hoje.

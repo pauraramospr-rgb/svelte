@@ -89,7 +89,7 @@ A escolha pelo automóvel puxou o **rodoviarismo** (rodovias como a Belém–Bra
 
 Para pagar Brasília e as obras, o governo **emitiu moeda** e **tomou empréstimos externos**: a **inflação** subiu e a **dívida externa** cresceu. Em 1959, JK **rompeu com o FMI**, que exigia corte de gastos. A indústria se concentrou no Sudeste, o êxodo rural inchou as cidades e **não houve reforma agrária** (as Ligas Camponesas cresciam no Nordeste).
 
-Os governos seguintes herdaram a crise: **Jânio Quadros** renunciou em 1961, e **João Goulart** (1961–1964) enfrentou inflação alta e forte polarização em torno das **reformas de base**. O ciclo terminou com o **golpe civil-militar de 1964**. Na Argentina, o peronismo já fora interrompido pelo golpe de 1955.
+Os governos seguintes herdaram a crise: **Jânio Quadros** renunciou em 1961, e **João Goulart** (1961–1964) enfrentou inflação alta e forte polarização em torno das **reformas de base**. O ciclo terminou com o **golpe civil-militar de 1964**. Na Argentina, o peronismo já fora interrompido pelo golpe de 1955 — e voltaria a ser derrubado em 1976. Atenção: o discurso desses golpes era anticomunista, mas o que eles derrubaram foi o **trabalhismo** e o **peronismo**, governos nacionalistas de base sindical — não regimes comunistas.
 
 > **Ligação com a próxima etapa:** o golpe encerrou o ciclo político, mas o país que ele herdou já era outro.
 

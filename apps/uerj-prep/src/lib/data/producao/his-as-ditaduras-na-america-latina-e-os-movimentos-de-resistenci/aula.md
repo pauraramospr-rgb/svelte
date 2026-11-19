@@ -9,18 +9,18 @@ reviewed: 2026-11-19
 
 ## 10. Roteiro audiovisual completo
 
-**Série:** *Ditaduras na América Latina e resistências* — 5 episódios, cerca de 80 minutos no total.
+**Série:** *Ditaduras na América Latina e resistências* — 5 episódios, cerca de 83 minutos no total.
 **Formato:** documentário cinematográfico com animação educacional (ver seção 11). Narração em primeira pessoa por um professor ou uma professora — o “professor-narrador” —, que aparece em ilustração nas aberturas e nos “Momentos UERJ”.
 **Como a duração foi estimada:** narração a cerca de 140 palavras por minuto, mais os respiros visuais (animações, transições e pausas), que ocupam de 25% a 35% de cada cena.
 **Aviso de conteúdo:** os episódios 2, 4 e 5 tratam de tortura, assassinatos e desaparecimentos; a violência é **sugerida**, nunca mostrada (seção 11).
 
 | Episódio | Título | Partes da apostila | Duração estimada |
 |---|---|---|---|
-| 1 | 1964: o golpe e a construção da ditadura | I, II, III | 18 min |
+| 1 | 1964: o golpe e a construção da ditadura | I, II, III | 18 min 30 s |
 | 2 | O milagre e o porão | IV, V | 16 min 40 s |
 | 3 | Resistir | VI | 12 min 30 s |
 | 4 | A abertura e seus inimigos | VII | 15 min 50 s |
-| 5 | Cone Sul, Condor e a memória até hoje | VIII, IX, X e revisão | 17 min |
+| 5 | Cone Sul, Condor e a memória até hoje | VIII, IX, X e revisão | 19 min 40 s |
 
 ## Episódio 1 — 1964: o golpe e a construção da ditadura
 
@@ -62,16 +62,16 @@ reviewed: 2026-11-19
 
 ### Cena 1.3 — Três forças que se encontram
 - **Objetivo pedagógico:** explicar as causas estruturais das ditaduras e o conceito de “inimigo interno”.
-- **Conteúdo:** Guerra Fria; Doutrina de Segurança Nacional (Escola Superior de Guerra, 1949); tensões do desenvolvimento e reformas; exceção do Peru de Velasco Alvarado.
-- **Duração estimada:** 1 min 50 s
+- **Conteúdo:** Guerra Fria; Doutrina de Segurança Nacional (Escola Superior de Guerra, 1949); tensões do desenvolvimento e reformas; discurso anticomunista × alvo real (trabalhismo no Brasil, peronismo na Argentina; socialismo eleito no Chile); exceção do Peru de Velasco Alvarado.
+- **Duração estimada:** 2 min 20 s
 - **Câmera:** câmera fixa sobre diagrama; zoom suave no conceito central.
 - **Transição:** o centro do diagrama vira um alvo que “dissolve” na bandeira do Brasil (cena 1.4).
 
 **Narração**
 
-> Pensa em três forças que se encontram num ponto. A primeira você já viu: a Guerra Fria. A segunda é uma ideia que se espalhou dentro dos quartéis latino-americanos: a Doutrina de Segurança Nacional. No Brasil, ela foi elaborada na Escola Superior de Guerra, criada em 1949. E o que ela dizia de novo? Que a grande ameaça ao país não era mais um exército estrangeiro atravessando a fronteira, e sim um inimigo de dentro: o comunista, o “subversivo”, infiltrado no sindicato, na universidade, na igreja, na redação do jornal. Guarda esse raciocínio, porque ele explica quase tudo o que vem depois: se o inimigo está dentro, a guerra também está dentro — e, numa guerra, o governo se sente autorizado a suspender direitos, vigiar, prender e torturar. A terceira força são as tensões do desenvolvimento: a industrialização do pós-guerra encheu as cidades de operários e de classe média, e cresceram as demandas por reforma agrária, salários, educação. Governos com base popular assustaram elites agrárias e empresariais. Um cuidado: nem toda ditadura militar foi igual. No Peru, o general Velasco Alvarado fez reforma agrária e nacionalizou empresas. Mas no Cone Sul o padrão foi o de ditaduras anticomunistas, alinhadas aos Estados Unidos e decididas a desmobilizar a sociedade.
+> Pensa em três forças que se encontram num ponto. A primeira você já viu: a Guerra Fria. A segunda é uma ideia que se espalhou dentro dos quartéis latino-americanos: a Doutrina de Segurança Nacional. No Brasil, ela foi elaborada na Escola Superior de Guerra, criada em 1949. E o que ela dizia de novo? Que a grande ameaça ao país não era mais um exército estrangeiro atravessando a fronteira, e sim um inimigo de dentro: o comunista, o “subversivo”, infiltrado no sindicato, na universidade, na igreja, na redação do jornal. Guarda esse raciocínio, porque ele explica quase tudo o que vem depois: se o inimigo está dentro, a guerra também está dentro — e, numa guerra, o governo se sente autorizado a suspender direitos, vigiar, prender e torturar. A terceira força são as tensões do desenvolvimento: a industrialização do pós-guerra encheu as cidades de operários e de classe média, e cresceram as demandas por reforma agrária, salários, educação. Governos com base popular assustaram elites agrárias e empresariais. E aqui vai uma distinção que separa uma resposta mediana de uma excelente: o discurso dos golpistas era anticomunista, mas, no Brasil e na Argentina, quem foi derrubado não era comunista. Aqui, foi o trabalhismo — o varguismo de João Goulart; lá, o peronismo. Eram governos nacionalistas, com base sindical e propostas de reformas sociais. Só no Chile o governo derrubado era socialista: o de Salvador Allende, eleito pelo voto em 1970. Um cuidado: nem toda ditadura militar foi igual. No Peru, o general Velasco Alvarado fez reforma agrária e nacionalizou empresas. Mas no Cone Sul o padrão foi o de ditaduras anticomunistas, alinhadas aos Estados Unidos e decididas a desmobilizar a sociedade.
 
-**Textos na tela:** “Guerra Fria” · “Doutrina de Segurança Nacional — o ‘inimigo interno’” · “Tensões do desenvolvimento: reformas × privilégios” · “Exceção: Peru (Velasco Alvarado, 1968–1975)”.
+**Textos na tela:** “Guerra Fria” · “Doutrina de Segurança Nacional — o ‘inimigo interno’” · “Tensões do desenvolvimento: reformas × privilégios” · “Discurso: anticomunismo | Alvo real: trabalhismo (Brasil) · peronismo (Argentina) · socialismo eleito (Chile)” · “Exceção: Peru (Velasco Alvarado, 1968–1975)”.
 
 **Elementos visuais:** diagrama de três setas convergentes em estilo de prancheta militar; silhuetas genéricas de operário, estudante, padre e jornalista sob uma lupa.
 
@@ -103,7 +103,7 @@ reviewed: 2026-11-19
 
 **Narração**
 
-> Com o presidencialismo de volta, Jango levantou a bandeira das reformas de base. A mais explosiva era a reforma agrária, num país em que pouca gente tinha muita terra. Mas havia também a reforma urbana, a bancária, a tributária, a universitária e a eleitoral, que incluía dar voto aos analfabetos. No campo, desde 1955, as Ligas Camponesas organizavam trabalhadores rurais em luta pela terra; nas cidades, crescia o número de greves. Do outro lado, empresários, latifundiários e parte das classes médias viam nessas reformas o caminho para o comunismo. E eles se organizaram. Duas entidades, o IPES e o IBAD, financiaram publicações, filmes, campanhas e candidatos contra o governo. O historiador René Dreifuss estudou esses arquivos e mostrou que esse complexo empresarial, junto com militares, articulou o golpe. Guarda o nome: Dreifuss. Quando a gente discutir as interpretações, ele volta.
+> Com o presidencialismo de volta, Jango — do PTB, o partido trabalhista criado por Vargas — levantou a bandeira das reformas de base. A mais explosiva era a reforma agrária, num país em que pouca gente tinha muita terra. Mas havia também a reforma urbana, a bancária, a tributária, a universitária e a eleitoral, que incluía dar voto aos analfabetos. No campo, desde 1955, as Ligas Camponesas organizavam trabalhadores rurais em luta pela terra; nas cidades, crescia o número de greves. Do outro lado, empresários, latifundiários e parte das classes médias viam nessas reformas o caminho para o comunismo. E eles se organizaram. Duas entidades, o IPES e o IBAD, financiaram publicações, filmes, campanhas e candidatos contra o governo. O historiador René Dreifuss estudou esses arquivos e mostrou que esse complexo empresarial, junto com militares, articulou o golpe. Guarda o nome: Dreifuss. Quando a gente discutir as interpretações, ele volta.
 
 **Textos na tela:** “Reformas de base: agrária · urbana · bancária · tributária · universitária · eleitoral (voto dos analfabetos)” · “Ligas Camponesas (desde 1955)” · “IPES e IBAD” · “René Dreifuss, *1964: a conquista do Estado* (1981)”.
 
@@ -673,16 +673,16 @@ reviewed: 2026-11-19
 
 ### Cena 5.2 — Chile: de Allende a Pinochet e ao “Não”
 - **Objetivo pedagógico:** conhecer a ditadura chilena e sua transição.
-- **Conteúdo:** Allende eleito (1970) pela Unidade Popular; nacionalização do cobre; crise e oposição apoiada pelos EUA; golpe de 11/9/1973, bombardeio de La Moneda, morte de Allende; Pinochet; estádios como campos de prisão; DINA; neoliberalismo; plebiscito de 1988; democracia em 1990; Pinochet comandante do Exército até 1998; prisão em Londres (1998).
-- **Duração estimada:** 2 min
+- **Conteúdo:** Governo socialista eleito, diferente do Brasil e da Argentina; Allende (1970) e a nacionalização do cobre; desestabilização apoiada pela CIA (Comissão Church, 1975); golpe de 11/9/1973 com bombardeio de La Moneda e morte de Allende; estádios como prisões; DINA; neoliberalismo; autoanistia de 1978; plebiscito de 1988; democracia em 1990; Pinochet comandante até 1998 e senador vitalício; prisão em Londres (1998); morte em 2006 sem condenação.
+- **Duração estimada:** 2 min 40 s
 - **Câmera:** plano geral do palácio de La Moneda em ilustração; fumaça estilizada; corte para urna.
 - **Transição:** a urna do plebiscito gira e vira uma praça de Buenos Aires (cena 5.3).
 
 **Narração**
 
-> Chile. Em 1970, o socialista Salvador Allende foi eleito presidente pela Unidade Popular. Ele nacionalizou o cobre, a grande riqueza do país, e aprofundou a reforma agrária — e enfrentou crise econômica e uma oposição que contava com apoio dos Estados Unidos. Em 11 de setembro de 1973, o general Augusto Pinochet liderou o golpe: o palácio presidencial de La Moneda foi bombardeado, e Allende morreu lá dentro. A ditadura transformou estádios em campos de prisão, criou uma polícia política, a DINA, e implantou um programa econômico neoliberal, conduzido por economistas formados em Chicago. A saída veio pelas urnas: num plebiscito em 1988, venceu o “Não” à continuidade de Pinochet, e a democracia voltou em 1990. Mas repara num detalhe que mostra o caráter negociado da transição: Pinochet continuou comandante do Exército até 1998. Naquele ano, foi preso em Londres, a pedido da Justiça espanhola, por crimes contra a humanidade.
+> Chile. E aqui o caso é diferente do brasileiro e do argentino — presta atenção nisso. No Chile, o governo derrubado era socialista e tinha chegado ao poder pelo voto. Em 1970, Salvador Allende foi eleito presidente pela Unidade Popular. Ele nacionalizou o cobre, a grande riqueza do país, e aprofundou a reforma agrária — e enfrentou crise econômica e uma oposição apoiada pelos Estados Unidos: a CIA financiou adversários e ações de desestabilização do governo, como uma comissão do próprio Senado norte-americano, a Comissão Church, reconheceu em 1975. Em 11 de setembro de 1973, o general Augusto Pinochet liderou o golpe, que começou com o bombardeio do palácio presidencial de La Moneda; Allende morreu lá dentro. A ditadura transformou estádios em campos de prisão, criou uma polícia política, a DINA, implantou um programa econômico neoliberal, conduzido por economistas formados em Chicago, e, em 1978, decretou uma autoanistia para os crimes cometidos desde o golpe. A saída veio pelas urnas: num plebiscito em 1988, venceu o “Não” à continuidade de Pinochet, e a democracia voltou em 1990. Mas olha como essa transição acomodou o ditador: Pinochet continuou comandante do Exército até 1998 e, em seguida, virou senador vitalício. Naquele mesmo ano, foi preso em Londres, a pedido da Justiça espanhola; voltou ao Chile e morreu em 2006 sem ter sido condenado.
 
-**Textos na tela:** “1970 — Allende eleito” · “11/9/1973 — golpe de Pinochet” · “DINA · neoliberalismo” · “1988 — plebiscito: vence o ‘Não’” · “1990 — volta da democracia” · “1998 — Pinochet preso em Londres”.
+**Textos na tela:** “1970 — Allende eleito: um socialista pelo voto” · “CIA e desestabilização (Comissão Church, 1975)” · “11/9/1973 — bombardeio de La Moneda” · “DINA · neoliberalismo · autoanistia (1978)” · “1988 — plebiscito: vence o ‘Não’” · “1990 — volta da democracia” · “Pinochet: comandante até 1998 → senador vitalício” · “2006 — morre sem condenação”.
 
 **Elementos visuais:** palácio de La Moneda em ilustração; estádio vazio à noite; cédula de votação com “NO”.
 
@@ -691,15 +691,15 @@ reviewed: 2026-11-19
 ### Cena 5.3 — Argentina: os desaparecidos e as Mães
 - **Objetivo pedagógico:** conhecer a ditadura argentina, o desaparecimento em massa e a justiça posterior.
 - **Conteúdo:** golpe de 24/3/1976; “Processo de Reorganização Nacional”; centros clandestinos (ESMA); voos da morte; roubo de bebês; *Nunca más* (CONADEP, 1984): cerca de 9 mil desaparecidos documentados, estimativa de 30 mil por organizações de direitos humanos; Mães da Praça de Maio (1977); Malvinas (1982) e colapso; Julgamento das Juntas (1985); leis de impunidade anuladas nos anos 2000.
-- **Duração estimada:** 2 min
+- **Duração estimada:** 2 min 20 s
 - **Câmera:** câmera circula a Praça de Maio em ilustração; *close* em lenços brancos.
 - **Transição:** um lenço branco é levado pelo vento até o Uruguai (cena 5.4).
 
 **Narração**
 
-> Argentina. Em 24 de março de 1976, os militares derrubaram o governo e iniciaram o que chamaram de Processo de Reorganização Nacional. Foi a ditadura mais letal do Cone Sul. O método central foi o desaparecimento: pessoas eram sequestradas, levadas a centros clandestinos — como a Escola de Mecânica da Armada, a ESMA —, torturadas e mortas; muitas foram jogadas de aviões no mar. Bebês nascidos de presas foram roubados e entregues a outras famílias. O relatório *Nunca más*, da comissão nacional criada na volta da democracia, documentou cerca de 9 mil desaparecidos; organizações de direitos humanos estimam 30 mil. Desde 1977, as Mães da Praça de Maio marchavam toda semana, com lenços brancos na cabeça, perguntando pelos filhos. A ditadura caiu depois da derrota na Guerra das Malvinas, em 1982 — uma transição por colapso. E aí vem a grande diferença em relação ao Brasil: em 1985, o Julgamento das Juntas condenou os comandantes militares; leis de impunidade aprovadas depois foram anuladas nos anos 2000, e os julgamentos foram retomados.
+> Argentina. Em 24 de março de 1976, os militares derrubaram o governo peronista de Isabel Perón — o peronismo, aliás, já tinha sido derrubado antes, em 1955 — e iniciaram o que chamaram de Processo de Reorganização Nacional. Foi a ditadura mais letal do Cone Sul. O método central foi o desaparecimento: pessoas eram sequestradas, levadas a centros clandestinos — como a Escola de Mecânica da Armada, a ESMA —, torturadas e mortas; muitas foram jogadas de aviões no mar. Bebês nascidos de presas foram roubados e entregues a outras famílias. O relatório *Nunca más*, da comissão nacional criada na volta da democracia, documentou cerca de 9 mil desaparecidos; organizações de direitos humanos estimam 30 mil. Desde 1977, as Mães da Praça de Maio marchavam toda semana, com lenços brancos na cabeça, perguntando pelos filhos. A ditadura caiu depois da derrota na Guerra das Malvinas, em 1982 — uma transição por colapso. E aí vem a grande diferença em relação ao Brasil e ao Chile: a Argentina julgou seus ditadores. A comissão da verdade, a CONADEP, reuniu as provas, e em 1985 o Julgamento das Juntas condenou os comandantes militares. Leis de impunidade aprovadas depois foram anuladas nos anos 2000, e os julgamentos foram retomados: desde 2006, cerca de 1.200 pessoas foram condenadas por crimes contra a humanidade.
 
-**Textos na tela:** “24/3/1976 — golpe” · “ESMA · desaparecimentos · roubo de bebês” · “*Nunca más* (1984): cerca de 9 mil documentados; estimativa de 30 mil (organizações de direitos humanos)” · “Mães da Praça de Maio (1977)” · “1982 — Malvinas → colapso” · “1985 — Julgamento das Juntas”.
+**Textos na tela:** “24/3/1976 — golpe contra o governo peronista de Isabel Perón” · “ESMA · desaparecimentos · roubo de bebês” · “*Nunca más* (1984): cerca de 9 mil documentados; estimativa de 30 mil (organizações de direitos humanos)” · “Mães da Praça de Maio (1977)” · “1982 — Malvinas → colapso” · “1985 — Julgamento das Juntas” · “Desde 2006: cerca de 1.200 condenados”.
 
 **Elementos visuais:** Praça de Maio com a pirâmide ao centro; lenços brancos; relatório como livro; mapa das Malvinas.
 
@@ -725,15 +725,15 @@ reviewed: 2026-11-19
 ### Cena 5.5 — Operação Condor
 - **Objetivo pedagógico:** caracterizar a Operação Condor e sua ligação com o Brasil.
 - **Conteúdo:** formalização em 1975, em Santiago, por serviços de inteligência de Chile, Argentina, Uruguai, Paraguai e Bolívia; participação brasileira na troca de informações e ações; sequestros, torturas e assassinatos além das fronteiras; assassinato de Orlando Letelier em Washington (1976); sequestro de Lilián Celiberti e Universindo Díaz em Porto Alegre (1978).
-- **Duração estimada:** 1 min 40 s
+- **Duração estimada:** 2 min 10 s
 - **Câmera:** câmera segue fios vermelhos entre capitais num mapa.
 - **Transição:** os fios formam uma tabela (cena 5.6).
 
 **Narração**
 
-> Em 1975, numa reunião em Santiago, os serviços de inteligência do Chile, da Argentina, do Uruguai, do Paraguai e da Bolívia formalizaram uma rede de cooperação repressiva: a Operação Condor. O Brasil participou da troca de informações e de ações. Na prática, a Condor permitia que um opositor fosse vigiado, sequestrado, torturado ou morto fora do seu país. Dois exemplos. Em 1976, o ex-chanceler chileno Orlando Letelier foi assassinado com uma bomba em plena Washington. E em 1978, em Porto Alegre, os uruguaios Lilián Celiberti e Universindo Díaz foram sequestrados por uma ação conjunta de agentes uruguaios e brasileiros. Guarda a definição para a prova: a Condor foi uma rede transnacional de terrorismo de Estado.
+> Em 1975, numa reunião em Santiago, os serviços de inteligência do Chile, da Argentina, do Uruguai, do Paraguai e da Bolívia formalizaram uma rede de cooperação repressiva: a Operação Condor. O Brasil participou da troca de informações e de ações. Na prática, a Condor permitia que um opositor fosse vigiado, sequestrado, torturado ou morto fora do seu país. Dois exemplos. Em 1976, o ex-chanceler chileno Orlando Letelier foi assassinado com uma bomba em plena Washington. E em 1978, em Porto Alegre, os uruguaios Lilián Celiberti e Universindo Díaz foram sequestrados por uma ação conjunta de agentes uruguaios e brasileiros. E os Estados Unidos? Documentos liberados depois mostram o quanto Washington sabia. Um relatório da própria CIA ao Congresso norte-americano, em 2000, reconheceu que a agência manteve relações com o chefe da polícia secreta chilena, Manuel Contreras — e chegou a pagar a ele, em 1975 —, e que, um ano depois do golpe chileno, já conhecia os acordos entre as polícias políticas do Cone Sul para perseguir e matar opositores. Os Estados Unidos não comandavam a Condor, mas sabiam dela e se relacionavam com quem a executava, como parte da sua política de contenção do comunismo. Guarda a definição para a prova: a Condor foi uma rede transnacional de terrorismo de Estado.
 
-**Textos na tela:** “1975 — Operação Condor (Santiago)” · “Chile · Argentina · Uruguai · Paraguai · Bolívia + participação do Brasil” · “1976 — Letelier (Washington)” · “1978 — sequestro de uruguaios em Porto Alegre” · “Rede transnacional de terrorismo de Estado”.
+**Textos na tela:** “1975 — Operação Condor (Santiago)” · “Chile · Argentina · Uruguai · Paraguai · Bolívia + participação do Brasil” · “1976 — Letelier (Washington)” · “1978 — sequestro de uruguaios em Porto Alegre” · “Relatório da CIA ao Congresso (2000): relações com a DINA” · “Rede transnacional de terrorismo de Estado”.
 
 **Elementos visuais:** mapa com capitais destacadas; fios vermelhos; silhuetas de carros e aviões.
 
@@ -741,16 +741,16 @@ reviewed: 2026-11-19
 
 ### Cena 5.6 — Comparando transições
 - **Objetivo pedagógico:** comparar ditaduras e transições com critérios explícitos.
-- **Conteúdo:** tabela Brasil × Argentina × Chile × Uruguai: duração, marca da repressão, economia, tipo de transição, justiça.
-- **Duração estimada:** 1 min 30 s
+- **Conteúdo:** tabela Brasil × Argentina × Chile × Uruguai com cinco critérios: governo derrubado (trabalhista, peronista, socialista eleito, autogolpe), duração, violência em proporção à população (números oficiais e estimativas), economia, transição e justiça (anistia × acomodação de Pinochet × julgamentos).
+- **Duração estimada:** 2 min 40 s
 - **Câmera:** câmera percorre uma tabela linha a linha.
 - **Transição:** a coluna “Brasil” se destaca e se transforma numa linha do tempo de memória (cena 5.7).
 
 **Narração**
 
-> Para comparar bem, a gente usa critérios — e a UERJ adora comparação com critério. Duração: Brasil, de 1964 a 1985; Argentina, de 1976 a 1983; Chile, de 1973 a 1990; Uruguai, de 1973 a 1985. Marca da repressão: no Brasil, tortura sistemática, desaparecimentos e censura; na Argentina, o desaparecimento em massa e o roubo de bebês; no Chile, execuções e campos de prisão; no Uruguai, a prisão política em massa. Economia: o Brasil fez um desenvolvimentismo estatal, o “milagre”; o Chile, um neoliberalismo de choque; a Argentina abriu a economia e se desindustrializou. Tipo de transição: no Brasil, negociada e controlada pelos militares; na Argentina, colapso depois das Malvinas; no Chile e no Uruguai, plebiscitos e negociação. E justiça: no Brasil, a anistia de 1979 foi mantida pelo Supremo; na Argentina, os comandantes foram julgados em 1985 e os processos voltaram nos anos 2000. Quando a prova pedir para comparar, escolha um critério e mostre a diferença em relação a ele.
+> Para comparar bem, a gente usa critérios — e a UERJ adora comparação com critério. Primeiro critério: quem foi derrubado. No Brasil, o governo trabalhista de Goulart; na Argentina, o governo peronista de Isabel Perón; no Chile, um governo socialista eleito; no Uruguai, o próprio presidente fechou o Parlamento com o apoio dos militares. Segundo: duração. Brasil, de 1964 a 1985; Argentina, de 1976 a 1983; Chile, de 1973 a 1990; Uruguai, de 1973 a 1985. Terceiro: violência. Todas foram violentas, mas, em proporção à população, a Argentina e o Chile mataram muito mais. O Brasil, com cerca de 100 milhões de habitantes, teve 434 mortos e desaparecidos políticos reconhecidos pela Comissão da Verdade, além de ao menos 8.350 indígenas; o Chile, com cerca de 10 milhões, mais de 3 mil mortos e desaparecidos; a Argentina, com cerca de 25 milhões, quase 9 mil desaparecidos documentados — e 30 mil, segundo organizações de direitos humanos. Quarto: economia. O Brasil fez um desenvolvimentismo estatal, o “milagre”; o Chile, um neoliberalismo de choque; a Argentina abriu a economia e se desindustrializou. Quinto: transição e justiça. No Brasil, uma transição negociada, com a anistia mantida pelo Supremo; no Chile, plebiscito e um ditador acomodado como comandante e depois senador vitalício; na Argentina, o colapso depois das Malvinas — e o julgamento dos responsáveis. Quando a prova pedir para comparar, escolha um critério e mostre a diferença em relação a ele.
 
-**Textos na tela:** tabela com as linhas “Duração · Repressão · Economia · Transição · Justiça” e as colunas “Brasil · Argentina · Chile · Uruguai”.
+**Textos na tela:** tabela com as linhas “Governo derrubado · Duração · Violência (proporcional) · Economia · Transição e justiça” e as colunas “Brasil · Argentina · Chile · Uruguai”; destaque “Argentina julgou · Brasil e Chile acomodaram”.
 
 **Elementos visuais:** tabela em estilo de ficha de arquivo, com bandeiras estilizadas no topo.
 
@@ -871,12 +871,12 @@ reviewed: 2026-11-19
 | Parte V — Justificativa do regime, aparato, métodos, política de Estado, números da CNV, casos | 2.7 · 2.8 · 2.9 | Coberto |
 | Parte VI — Formas de resistência (tabela), luta armada, Araguaia, MST e antecedentes | 3.1 a 3.8 | Coberto |
 | Parte VII — Abertura, zigue-zague, Lei da Anistia (texto e debate), fim do bipartidarismo, atentados, Diretas, Colégio Eleitoral, marcos 1985–1989, tipo de transição | 4.1 a 4.9 | Coberto |
-| Parte VIII — Chile, Argentina, Uruguai, Paraguai, Condor, tabela comparativa | 5.2 a 5.6 | Coberto |
+| Parte VIII — Chile (socialista eleito, CIA, acomodação de Pinochet), Argentina (peronismo derrubado, julgamentos), Uruguai, Paraguai, violência comparada, Condor e o papel dos EUA, tabela comparativa | 5.2 a 5.6 | Coberto |
 | Parte IX — Justiça de transição, marcos 1985–2025, significado das certidões | 5.7 · 5.9 · 1.1 | Coberto |
 | Parte X — Trabalho no século XXI | 5.8 · 5.9 | Coberto |
 | Linha do tempo integrada | Linha do tempo recorrente em todos os episódios; 5.10 | Coberto |
 | 4. Conceitos fundamentais (15) | Golpe (1.6) · civil-militar (1.7) · Segurança Nacional (1.3) · atos institucionais e bipartidarismo (1.8) · censura (3.3) · terrorismo de Estado e desaparecimento (2.7, 2.8, 5.5) · luta armada (3.5) · milagre e arrocho (2.2, 2.3) · abertura (4.2) · anistia (4.4) · transição negociada (4.8) · justiça de transição (5.7) | Coberto |
-| 5. Aprofundamentos (conspiração × crise; regime e lei; debate da anistia; custo do desenvolvimento; memória em disputa) | 1.7 · 1.8 · 4.4 · 2.3–2.5 · 1.6 e 5.7 | Coberto |
+| 5. Aprofundamentos (conspiração × crise; regime e lei; debate da anistia; custo do desenvolvimento; discurso × alvo; violência e justiça comparadas; memória em disputa) | 1.7 · 1.8 · 4.4 · 2.3–2.5 · 1.3 · 5.2, 5.3 e 5.6 · 1.6 e 5.7 | Coberto |
 | 6. Erros frequentes | 1.6 · 1.7 · 4.5 · 4.6 · 4.9 · 5.10 | Coberto |
 | 7. Aplicações (método e banco de exemplos) | 5.9 (método) · exemplos ao longo dos Momentos UERJ | Coberto |
 | 8. Questões oficiais (7) | 2017 Q10 (1.10) · 2020 Q10 (2.4) · 2024 Q10 (3.8) · 2025 Q8 (4.9) · 2025 Q9 (2.9) · 2026 Q9 (2.9 e 5.9) · 2026 Q10 (4.9 e 5.9) | Coberto |
@@ -888,4 +888,4 @@ reviewed: 2026-11-19
 - **Sem contradições:** a aula não introduz fatos ausentes da apostila, exceto detalhes de ilustração sem conteúdo histórico novo.
 - **Sem simplificações prejudiciais:** os debates (causas do golpe, nome do regime, anistia) aparecem com as duas posições e seus autores ou instituições.
 - **Coerência narração × imagem:** toda imagem descrita representa o que está sendo narrado; recriações genéricas substituem material protegido sem licença.
-- **Duração:** cerca de 80 minutos em 5 episódios (soma das cenas), sem cortar explicações essenciais.
+- **Duração:** cerca de 83 minutos em 5 episódios (soma das cenas), sem cortar explicações essenciais.

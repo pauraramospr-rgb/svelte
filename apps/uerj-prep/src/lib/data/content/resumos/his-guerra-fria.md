@@ -80,7 +80,7 @@ Nos anos 1970, houve **distensão** (acordos de limitação de armas). A tensão
 ### 6. As consequências
 
 - **Guerras no Terceiro Mundo** em que as superpotências se enfrentavam indiretamente: Coreia, Vietnã, Afeganistão, Angola.
-- **Ditaduras anticomunistas** apoiadas pelos EUA, inclusive na América Latina (Brasil, 1964; Chile, 1973), e regimes socialistas autoritários no Leste.
+- **Ditaduras anticomunistas** apoiadas pelos EUA, inclusive na América Latina — que, em nome do anticomunismo, derrubaram governos trabalhistas e peronistas (Brasil, 1964; Argentina, 1976) e um socialista eleito (Chile, 1973) —, e regimes socialistas autoritários no Leste.
 - **Medo nuclear** e acidentes que fortaleceram a **condenação da energia nuclear**, bandeira de pacifistas e ambientalistas (UERJ 2024): Windscale (Inglaterra, 1957), Kyshtym (URSS, 1957), **Three Mile Island** (EUA, 1979), **Chernobyl** (URSS, 1986), **Fukushima** (Japão, 2011) e os ataques à usina de Zaporíjia na guerra da Ucrânia (2022).
 
 > **Ligação com a próxima etapa:** algumas divisões da Guerra Fria continuam vivas.

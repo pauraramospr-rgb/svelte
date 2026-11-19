@@ -58,6 +58,8 @@ Depois de 1945, o mundo se dividiu entre EUA e URSS, e a América Latina passou 
 
 O golpe teve várias forças por trás. Havia o **anticomunismo** das Forças Armadas, de grande parte do empresariado, da imprensa, de setores da Igreja e da classe média. Havia uma **crise econômica e política** — inflação, greves, conflitos no campo — e uma **polarização** cada vez maior em torno das reformas. E havia o **apoio dos EUA**: no Brasil, a operação Brother Sam estava pronta para socorrer os golpistas em 1964. Por trás de tudo, um projeto de **modernização autoritária**: crescer economicamente sem democracia nem reformas sociais.
 
+**Atenção — o discurso e o alvo.** O discurso era anticomunista, mas, no **Brasil** e na **Argentina**, o que se derrubou foi o **trabalhismo**: aqui, o governo de João Goulart, do PTB, herdeiro de Vargas; lá, o **peronismo** (Perón em 1955; o governo peronista de Isabel Perón em 1976). Eram governos nacionalistas de base sindical, não comunistas. Só no **Chile** o governo derrubado era socialista — o de Salvador Allende, eleito em 1970.
+
 > **Ligação com a próxima etapa:** no Brasil, essas forças se uniram em 31 de março de 1964.
 
 ### 3. Como começou
@@ -74,7 +76,9 @@ Entre **31 de março e 1º de abril de 1964**, um golpe civil-militar derrubou J
 
 **O “milagre econômico” (1968–1973).** O país cresceu rápido, mas com **arrocho salarial**, **concentração de renda** e **endividamento externo**; grandes obras e projetos na Amazônia (Transamazônica, depois o Grande Carajás) mudaram o território à custa do ambiente e das populações locais.
 
-**A Operação Condor (formalizada em 1975).** As ditaduras do Cone Sul — Chile, Argentina, Uruguai, Paraguai, Bolívia e Brasil — passaram a **cooperar na repressão**: trocavam informações, sequestravam, transferiam presos ilegalmente e assassinavam exilados em outros países, como Orlando Letelier, ex-ministro de Allende, morto em Washington (1976). Em 1978, uruguaios foram sequestrados em Porto Alegre. Os “**Arquivos do Terror**”, achados no Paraguai em 1992, comprovaram a operação.
+**A Operação Condor (formalizada em 1975).** As ditaduras do Cone Sul — Chile, Argentina, Uruguai, Paraguai, Bolívia e Brasil — passaram a **cooperar na repressão**: trocavam informações, sequestravam, transferiam presos ilegalmente e assassinavam exilados em outros países, como Orlando Letelier, ex-ministro de Allende, morto em Washington (1976). Em 1978, uruguaios foram sequestrados em Porto Alegre. Os “**Arquivos do Terror**”, achados no Paraguai em 1992, comprovaram a operação. Os **EUA** sabiam: um relatório da CIA ao Congresso norte-americano (2000) admitiu relações com o chefe da polícia secreta chilena, a quem a agência pagou em 1975.
+
+**Violência comparada.** Todas foram violentas, mas, em proporção à população, as ditaduras da **Argentina** (quase 9 mil desaparecidos documentados; 30 mil segundo organizações de direitos humanos, numa população de cerca de 25 milhões) e do **Chile** (mais de 3 mil mortos e desaparecidos reconhecidos, para cerca de 10 milhões de habitantes) foram muito mais letais que a brasileira (434 mortos e desaparecidos políticos reconhecidos pela CNV, além de ao menos 8.350 indígenas, para cerca de 100 milhões).
 
 **As resistências.** O movimento estudantil (Passeata dos Cem Mil, 1968), a luta armada urbana e rural (Guerrilha do Araguaia, 1972–1974), artistas e a imprensa alternativa (*O Pasquim*), setores da Igreja (D. Paulo Evaristo Arns), o MDB nas eleições de 1974, o **novo sindicalismo** do ABC (1978–1980) e a campanha pela **Anistia** enfrentaram o regime. Na Argentina, as **Mães da Praça de Maio** (desde 1977) tornaram-se símbolo da luta pelos desaparecidos.
 
@@ -84,7 +88,7 @@ Entre **31 de março e 1º de abril de 1964**, um golpe civil-militar derrubou J
 
 ### 5. O desfecho
 
-A democracia voltou na **Argentina (1983)**, depois da derrota nas Malvinas (1982); no **Uruguai (1985)**; no **Brasil (1985)**, com a eleição indireta de Tancredo Neves — que morreu antes da posse, assumindo José Sarney —, seguida da **Constituição de 1988** (“Constituição Cidadã”) e da eleição direta de 1989; e no **Chile (1990)**, depois que Pinochet perdeu o plebiscito de 1988. No Brasil, a transição foi **negociada** e manteve a anistia aos agentes do Estado.
+A democracia voltou na **Argentina (1983)**, depois da derrota nas Malvinas (1982); no **Uruguai (1985)**; no **Brasil (1985)**, com a eleição indireta de Tancredo Neves — que morreu antes da posse, assumindo José Sarney —, seguida da **Constituição de 1988** (“Constituição Cidadã”) e da eleição direta de 1989; e no **Chile (1990)**, depois que Pinochet perdeu o plebiscito de 1988. No Brasil, a transição foi **negociada** e manteve a anistia aos agentes do Estado. No Chile, ela **acomodou o ditador**: Pinochet seguiu comandante do Exército até 1998 e virou senador vitalício (1998–2002). A **Argentina**, ao contrário, **julgou** os comandantes (1985).
 
 > **Ligação com a próxima etapa:** a democracia herdou não só um país em crise, mas também os mortos e os silêncios da ditadura.
 
@@ -98,7 +102,7 @@ No Brasil, a Comissão Nacional da Verdade identificou **434 mortos e desapareci
 
 **Nuremberg, o precedente.** Entre novembro de 1945 e outubro de 1946, o **Tribunal Militar Internacional de Nuremberg**, formado por **EUA, Reino Unido, França e União Soviética**, julgou líderes nazistas por crimes contra a paz, crimes de guerra e **crimes contra a humanidade**; doze foram condenados à morte. Ficaram dois princípios: **cumprir ordens não exime de responsabilidade**, e certos crimes atingem toda a humanidade. A crítica de “**justiça dos vencedores**” acompanha o tribunal (só os derrotados foram julgados). Sua herança inclui a Convenção contra o Genocídio e a Declaração Universal dos Direitos Humanos (1948), o Tribunal Penal Internacional (1998) e a ideia de que crimes contra a humanidade são **imprescritíveis** — argumento central no debate sobre a anistia brasileira.
 
-**A justiça de transição na América Latina.** A **Argentina** julgou as Juntas militares (1985), recuou com leis de anistia (1986–1987) e, depois de anulá-las nos anos 2000, condenou centenas de repressores. O **Chile** teve a Comissão Rettig (1991) e viu Pinochet ser preso em Londres (1998). O **Brasil** priorizou verdade e reparação: a **CEMDP** (Lei 9.140/1995) reconheceu a responsabilidade do Estado e indenizou famílias — foi extinta no fim de 2022 e recriada em 2024; a Comissão de Anistia (2002) reparou perseguidos; o **STF (ADPF 153, 2010)** manteve a anistia aos agentes, enquanto a **Corte Interamericana (caso Gomes Lund, 2010)** condenou o Brasil e afirmou que a anistia não pode impedir a punição de graves violações; a **Comissão Nacional da Verdade (2012–2014)** produziu o relatório final.
+**A justiça de transição na América Latina.** A **Argentina** julgou as Juntas militares (1985), recuou com leis de anistia (1986–1987) e, depois de anulá-las nos anos 2000, condenou centenas de repressores. O **Chile** teve a Comissão Rettig (1991), mas a autoanistia de 1978 e a permanência de Pinochet no poder militar até 1998 — e, depois, como senador vitalício — limitaram a justiça; preso em Londres em 1998, ele morreu em 2006 sem condenação. O **Brasil** priorizou verdade e reparação: a **CEMDP** (Lei 9.140/1995) reconheceu a responsabilidade do Estado e indenizou famílias — foi extinta no fim de 2022 e recriada em 2024; a Comissão de Anistia (2002) reparou perseguidos; o **STF (ADPF 153, 2010)** manteve a anistia aos agentes, enquanto a **Corte Interamericana (caso Gomes Lund, 2010)** condenou o Brasil e afirmou que a anistia não pode impedir a punição de graves violações; a **Comissão Nacional da Verdade (2012–2014)** produziu o relatório final.
 
 **Memória no tempo presente.** A **Resolução 601/2024 do CNJ** mandou registrar nas certidões dos mortos e desaparecidos reconhecidos: “morte não natural, violenta, causada pelo Estado brasileiro”. As primeiras certidões corrigidas — entre elas as de Zuzu Angel, Vladimir Herzog e Rubens Paiva — foram entregues em **2025**, tema da UERJ em 2026. Em **29 de maio de 2026**, a CEMDP reconheceu **JK** como vítima da ditadura, divergindo da CNV. O filósofo Paul Ricoeur distingue o esquecimento imposto (como certas anistias) do trabalho de memória; no Brasil, ele passa pela abertura de arquivos, pelos nomes de ruas que homenageiam agentes do regime, pelos lugares de memória (como o antigo DOI-CODI em São Paulo) e por obras como **“Ainda estou aqui”** (livro de 2015; filme de 2024, Oscar de melhor filme internacional em 2025), sobre a família de Rubens Paiva.
 
@@ -202,6 +206,7 @@ O medo do comunismo na Guerra Fria preparou o terreno para os golpes.
 ### Causas
 Várias forças se uniram contra as reformas e a democracia.
 - Anticomunismo de militares, empresários, imprensa, parte da Igreja e da classe média.
+- **Alvo real**: o trabalhismo de Jango e o peronismo; só no Chile, um socialista eleito.
 - Inflação, greves e conflitos no campo alimentam a crise.
 - Apoio dos EUA aos golpistas (operação Brother Sam, 1964).
 - Projeto de crescer economicamente sem democracia nem reformas sociais.
