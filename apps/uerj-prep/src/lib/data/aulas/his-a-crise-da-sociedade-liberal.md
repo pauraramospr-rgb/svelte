@@ -134,9 +134,9 @@ O estopim veio da sucessão presidencial. Em mil novecentos e vinte e nove, o pr
 :: mapa brasil
 :: rotulo "Minas Gerais" | -44.5,-18.5 | 22 @Minas
 :: rotulo "Rio Grande do Sul" | -53,-29.5 | 22 @"Rio Grande do Sul"
-:: rotulo "Paraíba" | -36.8,-7.1 | 22 @Paraíba
+:: rotulo "Paraíba" | -37.6,-5.9 | 22 @Paraíba
 :: marca São Paulo | Washington Luís e Júlio Prestes | azul | < @"Júlio Prestes"
-:: marca Recife | assassinato de João Pessoa (julho) | vermelho @Recife
+:: marca Recife | João Pessoa assassinado (julho) | vermelho | < @Recife
 :: marca Rio de Janeiro | Vargas assume (3/11/1930) | verde | > @"três de novembro"
 :: lista "Aliança Liberal" @"Aliança Liberal"
 - Vargas (RS) e João Pessoa (PB) @"para presidente"

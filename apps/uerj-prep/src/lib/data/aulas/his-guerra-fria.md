@@ -21,9 +21,8 @@ O programa da UERJ pede dois pontos neste tópico: o conceito e a contextualiza�
 - conceito e contexto da Guerra Fria @conceito
 - conflitos: as guerras da Coreia e do Vietnã @Vietnã
 :: marca Berlim | Berlim dividida | escuro @Berlim
-:: marca Seul | Coreia dividida no paralelo 38 | vermelho @"paralelo trinta e oito"
 :: marca -106.5,33.7 | Novo México: a 1ª bomba (1945) | laranja @"Novo México"
-:: marca Hiroshima | Hiroshima e Nagasaki | vermelho @Hiroshima
+:: marca Hiroshima | Hiroshima e Nagasaki | vermelho | < @Hiroshima
 
 ## O conceito de Guerra Fria
 :: fundo arquivo
@@ -43,8 +42,8 @@ Em mil novecentos e quarenta e sete, os Estados Unidos oficializaram a estratég
 
 :: mapa europa
 :: marca Berlim | bloqueio e ponte aérea (1948–1949) | vermelho @bloqueou
-:: pinta USA,CAN,GBR,FRA,ITA,NLD,BEL,LUX,DNK,NOR,ISL,PRT azul "OTAN (1949)" @OTAN
-:: pinta POL,CZE,SVK,HUN,ROU,BGR,RUS,UKR,BLR,LTU,LVA,EST,MDA vermelho "Pacto de Varsóvia (1955)" @Varsóvia
+:: pinta FRA,USA,CAN,GBR,ITA,NLD,BEL,LUX,DNK,NOR,ISL,PRT azul "OTAN (1949)" @OTAN
+:: pinta UKR,POL,CZE,SVK,HUN,ROU,BGR,RUS,BLR,LTU,LVA,EST,MDA vermelho "Pacto de Varsóvia (1955)" @Varsóvia
 :: linha @Truman
 - 1947: Doutrina Truman e Plano Marshall @"Plano Marshall"
 - 1948–1949: bloqueio de Berlim @"Berlim Ocidental"
@@ -63,7 +62,7 @@ A primeira guerra quente da Guerra Fria aconteceu na Ásia. Em mil novecentos e 
 :: pinta KOR azul "Coreia do Sul (capitalista)" @"Coreia do Sul, capitalista"
 :: marca Pyongyang | Pyongyang | vermelho @"invadiu o Sul"
 :: marca Seul | Seul | azul @rechaçaram
-:: rotulo "PARALELO 38: ZONA DESMILITARIZADA" | 127.6,38.25 | 22 | carimbo @desmilitarizada
+:: rotulo "PARALELO 38" | 130.3,38.4 | 22 | carimbo @desmilitarizada
 :: linha @"guerra quente"
 - 1948: dois Estados coreanos @"dois Estados"
 - junho de 1950: o Norte invade o Sul @"invadiu o Sul"
@@ -141,9 +140,9 @@ Duas crises levaram o mundo ao limite. Em Berlim, milhões de alemães orientais
 
 :: mapa atlantico-norte
 :: marca Berlim | Muro de Berlim (13/8/1961) | vermelho @"Muro de Berlim"
-:: marca Havana | Revolução Cubana (1959) | vermelho @"Fidel Castro"
-:: marca Baía dos Porcos | baía dos Porcos (1961) | azul @"baía dos Porcos"
-:: rotulo "CRISE DOS MÍSSEIS (1962)" | -72,27 | 24 | carimbo @"mísseis nucleares"
+:: marca Havana | Havana (1959) | vermelho | < @"Fidel Castro"
+:: marca Baía dos Porcos | baía dos Porcos (1961) | azul | > @"baía dos Porcos"
+:: rotulo "CRISE DOS MÍSSEIS (1962)" | -38,33 | 24 | carimbo @"mísseis nucleares"
 :: linha @"ao limite"
 - 1961: o Muro de Berlim @"treze de agosto"
 - 1959: Revolução Cubana @revolução

@@ -323,8 +323,8 @@ Canudos não foi caso isolado. No Rio de Janeiro, a reforma urbana do prefeito P
 - 1917: greve geral operária (SP) @"greve geral"
 :: marca Canudos | Canudos (1896–1897) | vermelho @"Canudos não"
 :: camera sul-sudeste @"No Rio de Janeiro"
-:: marca Rio de Janeiro | Vacina (1904) e Chibata (1910) | vermelho | > @"Revolta da Vacina"
-:: marca Contestado | Contestado (1912–1916) | vermelho | < @"Guerra do Contestado"
+:: marca Rio de Janeiro | Vacina e Chibata | vermelho | > @"Revolta da Vacina"
+:: marca Contestado | Contestado | vermelho | < @"Guerra do Contestado"
 :: marca São Paulo | greve geral (1917) | vermelho | < @"greve geral"
 :: cartao "A questão social" | tratada como caso de polícia @polícia
 

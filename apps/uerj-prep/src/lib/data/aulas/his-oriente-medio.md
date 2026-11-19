@@ -59,11 +59,11 @@ Na Palestina, dois nacionalismos passaram a disputar a mesma terra. O sionismo, 
 Em vinte e nove de novembro de mil novecentos e quarenta e sete, a Assembleia Geral da ONU, presidida pelo brasileiro Oswaldo Aranha, aprovou o Plano de Partilha da Palestina: um Estado judeu, um Estado árabe e Jerusalém sob administração internacional. Os líderes árabes rejeitaram a divisão. Em catorze de maio de mil novecentos e quarenta e oito, David Ben-Gurion proclamou o Estado de Israel. No dia seguinte, Egito, Jordânia, Síria, Iraque e Líbano atacaram e foram derrotados. Israel saiu da guerra com um território maior do que o previsto pela ONU. Cerca de setecentos mil palestinos fugiram ou foram expulsos de suas terras: é a Nakba, a catástrofe, que deu origem ao problema dos refugiados, até hoje vivendo em campos no Líbano, na Síria, na Jordânia, em Gaza e na Cisjordânia. O Estado árabe palestino não foi criado: Gaza ficou com o Egito, e a Cisjordânia, com a Jordânia.
 
 :: mapa palestina
-:: marca Jerusalém | Jerusalém: administração internacional (plano) | ouro @Jerusalém
-:: marca Tel Aviv | proclamação de Israel (14/5/1948) | azul @Ben-Gurion
+:: marca Jerusalém | Jerusalém (internacional) | ouro | > @Jerusalém
+:: marca Tel Aviv | proclamação de Israel (14/5/1948) | azul | < @Ben-Gurion
 :: pinta ISR azul "Israel (1948)" @"Israel saiu"
-:: marca Gaza | Gaza (Egito) | verde @"Gaza ficou"
-:: marca Ramallah | Cisjordânia (Jordânia) | verde @Cisjordânia
+:: marca Gaza | Gaza (Egito) | verde | < @"Gaza ficou"
+:: rotulo "Cisjordânia (Jordânia)" | 35.45,32.35 | 20 @Cisjordânia
 :: linha @"vinte e nove de novembro"
 - 29/11/1947: Plano de Partilha da ONU (Oswaldo Aranha) @"Oswaldo Aranha"
 - 14/5/1948: proclamação do Estado de Israel @"catorze de maio"
@@ -93,11 +93,11 @@ A derrota de mil novecentos e quarenta e oito desacreditou os velhos governos á
 Em junho de mil novecentos e sessenta e sete, depois de meses de tensão, Israel atacou primeiro e venceu Egito, Jordânia e Síria em seis dias. Ocupou a Faixa de Gaza e a península do Sinai, do Egito; a Cisjordânia e Jerusalém Oriental, da Jordânia; e as Colinas de Golã, da Síria. Em novembro, o Conselho de Segurança da ONU aprovou a Resolução duzentos e quarenta e dois, que pedia a retirada de Israel dos territórios ocupados em troca do reconhecimento e da paz: a fórmula terra por paz. A derrota abalou o pan-arabismo de Nasser. E os palestinos passaram a se organizar por conta própria: a Organização para a Libertação da Palestina, a OLP, liderada a partir de mil novecentos e sessenta e nove por Yasser Arafat, tornou-se a voz dos palestinos, inclusive com ações armadas.
 
 :: mapa palestina
-:: marca Gaza | Gaza (ocupada) | vermelho @Gaza
-:: marca Sinai | Sinai (ocupado, devolvido em 1982) | vermelho @Sinai
-:: marca Ramallah | Cisjordânia (ocupada) | vermelho @Cisjordânia
-:: marca Jerusalém | Jerusalém Oriental (ocupada) | vermelho @"Jerusalém Oriental"
-:: marca Colinas de Golã | Golã (ocupado) | vermelho @Golã
+:: marca Gaza | Gaza (ocupada) | vermelho | < @Gaza
+:: marca Sinai | Sinai (ocupado, devolvido em 1982) | vermelho | > @Sinai
+:: rotulo "Cisjordânia (ocupada)" | 35.45,32.35 | 20 @Cisjordânia
+:: marca Jerusalém | Jerusalém Oriental (ocupada) | vermelho | > @"Jerusalém Oriental"
+:: marca Colinas de Golã | Golã (ocupado) | vermelho | > @Golã
 :: cartao "Resolução 242 (1967)" | retirada dos territórios ocupados em troca de paz: “terra por paz” @"duzentos e quarenta e dois"
 :: cartao "OLP" | Yasser Arafat (1969): a voz dos palestinos @Arafat
 
@@ -177,7 +177,7 @@ O caso mais importante é o Irã. Desde o golpe de mil novecentos e cinquenta e 
 :: mapa oriente-medio
 :: pinta IRN verde "República Islâmica do Irã (1979)" @"República Islâmica"
 :: marca Teerã | embaixada dos EUA (444 dias) | vermelho @embaixada
-:: marca Bagdá | Saddam Hussein invade o Irã (1980) | escuro @Saddam
+:: marca Bagdá | Saddam Hussein invade o Irã (1980) | escuro | < @Saddam
 :: lista "Por que a revolução" @"O caso mais importante"
 - o xá: aliado dos EUA, ocidentalização de cima @"Revolução Branca"
 - repressão da SAVAK e desigualdade @SAVAK

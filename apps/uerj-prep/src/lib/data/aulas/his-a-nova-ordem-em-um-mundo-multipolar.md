@@ -62,9 +62,9 @@ A resposta foi o neoliberalismo, que chegou ao poder com Margaret Thatcher, no R
 Com o fim da União Soviética, em mil novecentos e noventa e um, os Estados Unidos ficaram como a única superpotência. O pensador americano Francis Fukuyama chegou a falar no fim da história: a democracia liberal e o capitalismo de mercado teriam vencido para sempre. Na Guerra do Golfo, em mil novecentos e noventa e um, os Estados Unidos lideraram uma coalizão que expulsou o Iraque do Kuwait. A globalização se acelerou, sob regras de livre mercado defendidas pela nova Organização Mundial do Comércio, criada em mil novecentos e noventa e cinco. A Europa, por sua vez, se reunificou: a Alemanha voltou a ser um só país em mil novecentos e noventa, e os antigos países socialistas do Leste passaram a buscar a integração europeia e a OTAN. Ao mesmo tempo, os governos europeus reformaram o Estado de bem-estar, cortando gastos, mas sem abandoná-lo.
 
 :: mapa atlantico-norte
-:: pinta USA azul "única superpotência" @"única superpotência"
+:: pinta USA azul @"única superpotência"
 :: marca Berlim | Alemanha reunificada (1990) | escuro @Alemanha
-:: marca Kuwait | Guerra do Golfo (1991) | vermelho @Golfo
+:: marca Kuwait | Guerra do Golfo (1991) | vermelho | < @Golfo
 :: lista "Depois de 1991" @"fim da União Soviética"
 - os EUA, única superpotência @Fukuyama
 - Guerra do Golfo (1991) @"Guerra do Golfo"

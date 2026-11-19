@@ -168,10 +168,11 @@ Mil novecentos e sessenta e oito foi o ano em que tudo isso explodiu ao mesmo te
 
 O ano das revoltas não foi só francês. Na Tchecoslováquia, o líder comunista Alexander Dubček tentou criar um socialismo com rosto humano, com liberdade de imprensa e debate: foi a Primavera de Praga. Em agosto, os tanques do Pacto de Varsóvia invadiram o país e esmagaram a experiência. Repara: a revolta de mil novecentos e sessenta e oito também foi contra o autoritarismo socialista. No México, dez dias antes das Olimpíadas, o Exército abriu fogo contra estudantes na praça de Tlatelolco, matando dezenas, possivelmente centenas. Nessas mesmas Olimpíadas, os atletas americanos Tommie Smith e John Carlos ergueram os punhos com luvas pretas no pódio, em protesto contra o racismo. E nos Estados Unidos, Martin Luther King foi assassinado em abril, o candidato Robert Kennedy em junho, e protestos contra a guerra foram reprimidos em Chicago, em agosto.
 
-:: mapa atlantico-norte
-:: marca Paris | Maio de 68 | vermelho @"não foi só francês"
-:: marca Praga | Primavera de Praga | vermelho @"Primavera de Praga"
-:: marca Cidade do México | Tlatelolco e as Olimpíadas | vermelho @Tlatelolco
+:: mapa ocidente-1968
+:: marca Paris | Maio de 68 | vermelho | < @"não foi só francês"
+:: marca Praga | vermelho | - @"Primavera de Praga"
+:: rotulo "Primavera de Praga" | 24,46.5 | 20 @"Primavera de Praga"
+:: marca Cidade do México | Tlatelolco e as Olimpíadas | vermelho | > @Tlatelolco
 :: marca Chicago | protestos reprimidos | vermelho @Chicago
 :: lista "1968 pelo mundo" @"ano das revoltas"
 - Praga: “socialismo com rosto humano” esmagado @"rosto humano"

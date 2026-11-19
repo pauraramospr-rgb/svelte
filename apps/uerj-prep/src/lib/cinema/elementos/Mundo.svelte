@@ -70,9 +70,9 @@
 	}
 
 	/** Pontos de uma rota em curva suave (quadrática por trecho). */
-	function trechos(pontos: string[], reta = false): { d: string; fim: [number, number]; ang: number }[] {
+	function trechos(pontos: string[], reta = false): { d: string; fim: [number, number]; ang: number; meio: [number, number] }[] {
 		const ps = pontos.map((p) => lugar(p)).filter((p): p is [number, number] => !!p);
-		const lista: { d: string; fim: [number, number]; ang: number }[] = [];
+		const lista: { d: string; fim: [number, number]; ang: number; meio: [number, number] }[] = [];
 		for (let i = 0; i < ps.length - 1; i++) {
 			const [x1, y1] = ps[i];
 			const [x2, y2] = ps[i + 1];
@@ -80,7 +80,9 @@
 			const curva = reta ? 0 : 0.18;
 			const cx = (x1 + x2) / 2 - ((y2 - y1) / (dist || 1)) * dist * curva;
 			const cy = (y1 + y2) / 2 + ((x2 - x1) / (dist || 1)) * dist * curva;
-			lista.push({ d: `M${x1},${y1} Q${cx},${cy} ${x2},${y2}`, fim: [x2, y2], ang: (Math.atan2(y2 - cy, x2 - cx) * 180) / Math.PI });
+			// meio: ponto da curva em t = 0,5 (onde vai o rótulo da rota)
+			const meio: [number, number] = [0.25 * x1 + 0.5 * cx + 0.25 * x2, 0.25 * y1 + 0.5 * cy + 0.25 * y2];
+			lista.push({ d: `M${x1},${y1} Q${cx},${cy} ${x2},${y2}`, fim: [x2, y2], ang: (Math.atan2(y2 - cy, x2 - cx) * 180) / Math.PI, meio });
 		}
 		return lista;
 	}
@@ -119,7 +121,7 @@
 					{/if}
 				{/each}
 				{#if r.texto && partes.length && pr.p > 0.5}
-					{@const meio = lugar(r.pontos[Math.floor((r.pontos.length - 1) / 2)])}
+					{@const meio = partes[Math.floor((partes.length - 1) / 2)]?.meio}
 					{#if meio}
 						{@const tam = 26}
 						{@const larg = medir(r.texto, 'display', tam, 800) + 28}

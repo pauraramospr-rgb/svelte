@@ -132,6 +132,9 @@ export const REGIOES: Record<string, [number, number, number, number]> = {
 	'nordeste-brasil': [-48, -18, -34, -1.5],
 	'sudeste-brasil': [-53.5, -26, -39, -14],
 	'sul-sudeste': [-55, -29.5, -38.5, -19],
+	carajas: [-52.5, -8, -47.5, -4.5],
+	'europa-central': [6, 43.5, 28, 56],
+	'ocidente-1968': [-112, 8, 50, 60],
 	'sul-brasil': [-58, -34, -47, -22],
 	'norte-brasil': [-74, -12, -44, 5],
 	'minas-gerais': [-51.5, -23, -39.8, -14]
@@ -144,7 +147,7 @@ export function cameraDaRegiao(regiao: string): { x: number; y: number; z: numbe
 	const [x1, y0] = projetar(r[2], r[3]);
 	const w = x1 - x0;
 	const h = y1 - y0;
-	const z = Math.min(14, Math.max(1, Math.min(1600 / (w * 1.08), 900 / (h * 1.08))));
+	const z = Math.min(40, Math.max(1, Math.min(1600 / (w * 1.08), 900 / (h * 1.08))));
 	return { x: Math.round(((x0 + x1) / 2) * 10) / 10, y: Math.round(((y0 + y1) / 2) * 10) / 10, z: Math.round(z * 100) / 100 };
 }
 

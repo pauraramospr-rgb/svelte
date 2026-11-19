@@ -179,7 +179,8 @@ export function encenar(cena: CenaRoteiro): Encenada {
 		if (d.tipo === 'professor') professor = (['esquerda', 'direita', 'fora'].includes(d.args) ? d.args : 'esquerda') as typeof professor;
 		if (d.tipo === 'uerj' && !ds.some((x) => x.tipo === 'professor')) professor = 'direita';
 	}
-	const fundoCena: Fundo = fundo ?? (modoMapa ? 'mapa' : ds.some((d) => d.tipo === 'uerj') ? 'lousa' : 'arquivo');
+	// Cena com mapa usa sempre o fundo de oceano: outro fundo apareceria no lugar do mar.
+	const fundoCena: Fundo = modoMapa ? 'mapa' : (fundo ?? (ds.some((d) => d.tipo === 'uerj') ? 'lousa' : 'arquivo'));
 	if (modoMapa) professor = 'fora';
 
 	// ——— Momentos de todas as diretivas (e itens), na ordem do roteiro ———
@@ -275,7 +276,7 @@ export function encenar(cena: CenaRoteiro): Encenada {
 			const c = cameraDaRegiao(reg);
 			if (!temPainel) return c;
 			// O painel ocupa a esquerda: enquadra a região no espaço livre à direita.
-			const z = Math.max(1, c.z * 0.74);
+			const z = Math.max(0.6, c.z * 0.74);
 			return { x: Math.round((c.x + (painel === 'direita' ? 300 : -300) / z) * 10) / 10, y: c.y, z: Math.round(z * 100) / 100 };
 		};
 		const mapas = ds.filter((d) => d.tipo === 'mapa' || d.tipo === 'camera');

@@ -92,7 +92,7 @@ Na África subsaariana, o marco foi Gana, que conquistou a independência do Rei
 :: pinta SEN,MLI,NER,TCD,CMR,MDG,CIV,BFA,BEN,TGO,GAB,COG,CAF,MRT,NGA,SOM,COD amarelo @"ano da África"
 :: pinta DZA vermelho "Argélia (1962)" @Argélia
 :: pinta KEN laranja "Quênia (1963)" @Quênia
-:: marca Léopoldville | Lumumba (1960–1961) | vermelho @Lumumba
+:: marca Léopoldville | Lumumba (1960–1961) | vermelho | < @Lumumba
 :: lista "A África se liberta" @marco
 - 1957: Gana, com Nkrumah @Nkrumah
 - 1960: o ano da África (17 países) @dezessete
@@ -161,10 +161,10 @@ Na América Latina, independente desde o século dezenove, o problema era outro:
 Agora a ênfase do programa: Cuba. Depois de mil oitocentos e noventa e oito, a ilha viveu sob forte influência americana, e em mil novecentos e cinquenta e dois o general Fulgencio Batista deu um golpe e instalou uma ditadura corrupta, aliada dos Estados Unidos e das máfias dos cassinos. Em mil novecentos e cinquenta e três, um jovem advogado, Fidel Castro, atacou o quartel de Moncada e foi preso. Depois do exílio, voltou em mil novecentos e cinquenta e seis no iate Granma, com Che Guevara, e organizou uma guerrilha na Sierra Maestra, com apoio dos camponeses. Em primeiro de janeiro de mil novecentos e cinquenta e nove, Batista fugiu, e os revolucionários tomaram o poder. O novo governo fez a reforma agrária e nacionalizou as empresas americanas. Os Estados Unidos responderam com o embargo econômico e com a invasão fracassada da baía dos Porcos, em mil novecentos e sessenta e um. Fidel declarou então o caráter socialista da revolução e se aliou à União Soviética, o que levou à Crise dos Mísseis. Cuba foi suspensa da OEA em mil novecentos e sessenta e dois.
 
 :: mapa caribe
-:: pinta CUB vermelho "Cuba" @Cuba
+:: pinta CUB vermelho @Cuba
 :: marca -76.9,20.0 | Sierra Maestra: a guerrilha | verde @"Sierra Maestra"
-:: marca Havana | 1/1/1959: os revolucionários no poder | vermelho @"primeiro de janeiro"
-:: marca Baía dos Porcos | baía dos Porcos (1961) | azul @"baía dos Porcos"
+:: marca Havana | Havana, 1959 | vermelho | < @"primeiro de janeiro"
+:: marca Baía dos Porcos | baía dos Porcos (1961) | azul | > @"baía dos Porcos"
 :: linha @Batista
 - 1952: golpe e ditadura de Batista @golpe
 - 1953: ataque ao quartel de Moncada @Moncada
@@ -191,9 +191,9 @@ Cuba não foi a única. Na Bolívia, a revolução de mil novecentos e cinquenta
 
 :: mapa americas
 :: marca La Paz | Bolívia (1952): estanho e reforma agrária | verde @Bolívia
-:: marca -90.5,14.6 | Guatemala (1954): golpe contra Árbenz | vermelho @Guatemala
+:: marca -90.5,14.6 | Guatemala (1954) | vermelho | < @Guatemala
 :: marca Santiago | Chile: Allende (1970–1973) | vermelho @Allende
-:: marca -86.3,12.1 | Nicarágua: revolução sandinista (1979) | verde @Sandinista
+:: marca -86.3,12.1 | Nicarágua: revolução sandinista (1979) | verde | > @Sandinista
 :: tabela "País" | "Contestação" | "Desfecho" @"não foi a única"
 - Bolívia | revolução de 1952 | estanho nacionalizado e reforma agrária @estanho
 - Guatemala | reforma agrária de Árbenz | golpe apoiado pela CIA (1954) @Árbenz

@@ -21,8 +21,8 @@ O programa da UERJ pede três pontos neste tópico: as características do socia
 - as características do socialismo real @"socialismo real"
 - Perestroika, Glasnost e o fim da URSS @Perestroika
 - a Revolução Chinesa e a China atual @"Revolução Chinesa"
-:: pinta POL,HUN,CZE,SVK,ROU,BGR vermelho "bloco soviético" @"Leste Europeu"
-:: pinta DEU rosa "Alemanha Oriental (só o leste)" @"Alemanha Oriental"
+:: pinta HUN,POL,CZE,SVK,ROU,BGR vermelho "bloco soviético" @"Leste Europeu"
+:: rotulo "Alemanha Oriental" | 12.6,52.2 | 20 @"Alemanha Oriental"
 :: pinta SRB,HRV,SVN,BIH,MNE,MKD laranja "Iugoslávia de Tito" @Tito
 
 ## As características do socialismo real
@@ -103,12 +103,12 @@ Em mil novecentos e oitenta e cinco, chegou ao poder Mikhail Gorbachev, de cinqu
 
 Quando os povos do Leste Europeu perceberam que Moscou não mandaria mais tanques, os regimes caíram um atrás do outro, quase sem violência. Em junho de mil novecentos e oitenta e nove, o Solidariedade venceu as eleições na Polônia. A Hungria abriu a sua fronteira com a Áustria, e milhares de alemães orientais fugiram por ali para o Ocidente. Na Alemanha Oriental, multidões protestavam toda segunda-feira em Leipzig. Em nove de novembro, o Muro de Berlim caiu. Na Tchecoslováquia, a Revolução de Veludo levou o dramaturgo dissidente Václav Havel à presidência. A Bulgária também mudou. A exceção violenta foi a Romênia, onde o ditador Nicolae Ceausescu foi derrubado e executado no Natal de mil novecentos e oitenta e nove. Em outubro de mil novecentos e noventa, a Alemanha se reunificou.
 
-:: mapa europa-oriental
-:: marca Varsóvia | Polônia: Solidariedade vence (junho) | azul @"venceu as eleições"
+:: mapa europa-central
+:: marca Varsóvia | Polônia: Solidariedade vence | azul | > @"venceu as eleições"
 :: marca Budapeste | Hungria abre a fronteira | azul @"abriu a sua fronteira"
-:: marca Leipzig | protestos de segunda-feira | azul @Leipzig
-:: marca Berlim | queda do Muro (9/11/1989) | vermelho @"Muro de Berlim caiu"
-:: marca Praga | Revolução de Veludo (Havel) | azul @"Revolução de Veludo"
+:: marca Leipzig | protestos de segunda-feira | azul | < @Leipzig
+:: marca Berlim | queda do Muro (9/11/1989) | vermelho | < @"Muro de Berlim caiu"
+:: marca Praga | Revolução de Veludo (Havel) | azul | > @"Revolução de Veludo"
 :: marca 26.1,44.43 | Romênia: Ceausescu executado | vermelho @Ceausescu
 :: lista "O outono das nações (1989)" @"um atrás do outro"
 - Polônia: o Solidariedade vence @Polônia

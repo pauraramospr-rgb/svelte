@@ -47,7 +47,7 @@ Em janeiro de mil novecentos e dezoito, antes do fim da guerra, o presidente ame
 Mas, na Conferência de Paz de Paris, aberta em janeiro de mil novecentos e dezenove, quem deu o tom foram a França de Georges Clemenceau e a Inglaterra de Lloyd George, ao lado de Wilson e da Itália. Os vencedores impuseram tratados a cada derrotado, sem negociação. O de Versalhes, com a Alemanha, foi o mais duro: culpa pela guerra, perda de territórios e colônias, exército limitado e pesadas reparações. Houve ainda tratados com a Áustria, a Hungria, a Bulgária e o Império Otomano. O mapa da Europa mudou: surgiram ou renasceram a Polônia, a Tchecoslováquia, a Iugoslávia, a Finlândia e os países bálticos. As antigas colônias alemãs e as terras árabes do Império Otomano viraram mandatos, administrados sobretudo pela Inglaterra e pela França. E o economista inglês John Maynard Keynes avisou que uma paz tão punitiva arruinaria a Alemanha e a Europa.
 
 :: mapa europa
-:: marca Versalhes | Versalhes (1919) | vermelho @Versalhes
+:: marca Versalhes | Versalhes (1919) | vermelho | < @Versalhes
 :: lista "Os tratados de paz" @tratados
 - Versalhes (Alemanha): culpa, territórios, exército e reparações @"mais duro"
 - Áustria, Hungria, Bulgária e Império Otomano @Hungria

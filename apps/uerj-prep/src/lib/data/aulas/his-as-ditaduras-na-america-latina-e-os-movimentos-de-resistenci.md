@@ -37,9 +37,12 @@ Para entender mil novecentos e sessenta e quatro, sobe e olha o continente de ci
 :: pinta PRY vermelho "Paraguai 1954" @Stroessner
 :: pinta BRA vermelho "Brasil 1964" @"golpes no Brasil"
 :: pinta BOL vermelho "Bolívia 1964" @Bolívia
-:: pinta URY vermelho "Uruguai 1973" @Uruguai
-:: pinta CHL vermelho "Chile 1973" @Chile
-:: pinta ARG vermelho "Argentina 1976" @Argentina
+:: pinta URY vermelho @Uruguai
+:: rotulo "Uruguai 1973" | -49,-35 | 22 @Uruguai
+:: pinta CHL vermelho @Chile
+:: rotulo "Chile 1973" | -79,-31 | 22 @Chile
+:: pinta ARG vermelho @Argentina
+:: rotulo "Argentina 1976" | -65,-40 | 22 @Argentina
 :: linha @"duas frentes"
 - 1959: Revolução Cubana @"Aliança para o Progresso"
 - 1954: Paraguai (Stroessner) @"Paraguai já vivia"
@@ -226,10 +229,9 @@ A UERJ cobrou exatamente esse contraste em dois mil e vinte, na questão dez. De
 
 No sul do Pará, a Serra dos Carajás guardava uma das maiores reservas de minério de ferro do mundo. No começo dos anos oitenta, o governo lançou o Programa Grande Carajás: exploração de ferro, ouro, bauxita, manganês e outros minérios, com ferrovia, porto, hidrelétricas e incentivos à agricultura. Em mil novecentos e oitenta, a notícia de ouro perto de Marabá provocou uma corrida: era Serra Pelada, que se tornou o maior garimpo a céu aberto do mundo. Dezenas de milhares de homens transformaram um morro numa cratera, e o governo interveio no garimpo, sob o comando do major Sebastião Curió, que antes tinha atuado na repressão à Guerrilha do Araguaia. Por que o regime fez isso? Para acelerar o desenvolvimento econômico regional e nacional e integrar e ocupar territórios vistos como vazios. E os efeitos para quem vivia ali? Devastação ambiental, com impactos sobre os povos indígenas; povoamento desordenado; e precarização das condições de trabalho, de moradia e de saneamento.
 
-:: mapa norte-brasil
-:: marca Carajás | Serra dos Carajás: ferro | ouro @Carajás
-:: marca Serra Pelada | Serra Pelada (1980): ouro | ouro @"Serra Pelada"
-:: marca Araguaia | Guerrilha do Araguaia (1972–1974) | vermelho @Araguaia
+:: mapa carajas
+:: marca Carajás | Serra dos Carajás: ferro | ouro | < @Carajás
+:: marca Serra Pelada | Serra Pelada (1980): ouro | ouro | > @"Serra Pelada"
 :: lista "Motivações" @"Por que o regime"
 - acelerar o desenvolvimento regional e nacional @acelerar
 - integrar e ocupar os “vazios” @"integrar e ocupar"
@@ -514,9 +516,12 @@ Até aqui, a gente olhou o Brasil por dentro. Agora abra o mapa, como prometido 
 :: mapa cone-sul
 :: pinta PRY vermelho "Paraguai (1954–1989)" @Paraguai
 :: pinta BOL laranja "Bolívia (1964–1982)" @Bolívia
-:: pinta URY roxo "Uruguai (1973–1985)" @Uruguai
-:: pinta CHL rosa "Chile (1973–1990)" @Chile
-:: pinta ARG amarelo "Argentina (1976–1983)" @"e Argentina"
+:: pinta URY roxo @Uruguai
+:: rotulo "Uruguai (1973–1985)" | -49.5,-35.5 | 22 @Uruguai
+:: pinta CHL rosa @Chile
+:: rotulo "Chile (1973–1990)" | -73.5,-47 | 22 @Chile
+:: pinta ARG amarelo @"e Argentina"
+:: rotulo "Argentina (1976–1983)" | -65,-38 | 22 @"e Argentina"
 :: lista "Cada ditadura, uma marca" @"Vamos a cada uma"
 - Paraguai: a mais longa @"a mais longa"
 - Bolívia: golpes em série @"golpes em série"
@@ -531,7 +536,7 @@ Comece pelo Paraguai, a primeira e a mais longa ditadura do Cone Sul. O país vi
 
 :: mapa prata
 :: pinta PRY vermelho "Paraguai" @"Comece pelo Paraguai"
-:: marca Assunção | Arquivos do Terror (1992) | vermelho @"Arquivos do Terror"
+:: marca Assunção | Arquivos do Terror (1992) | vermelho | < @"Arquivos do Terror"
 :: marca -54.59,-25.41 | Itaipu (tratado de 1973) | azul @Itaipu
 :: lista "Os pilares do regime de Stroessner" @"três pilares"
 - o Exército @"o Exército;"
@@ -543,7 +548,7 @@ Comece pelo Paraguai, a primeira e a mais longa ditadura do Cone Sul. O país vi
 - 1954–1988: sete reeleições sem competição real @"sete vezes"
 - 1989: derrubado por Andrés Rodríguez @"Andrés Rodríguez"
 - 1992: os Arquivos do Terror @"Martín Almada"
-- comissão da verdade: quase 20 mil presos @"quase vinte mil"
+- 2008: comissão da verdade: quase 20 mil presos @"quase vinte mil"
 
 ## Bolívia: golpes em série (1964–1982)
 :: fundo mapa
@@ -551,7 +556,7 @@ Comece pelo Paraguai, a primeira e a mais longa ditadura do Cone Sul. O país vi
 Na Bolívia, a revolução de mil novecentos e cinquenta e dois, do Movimento Nacionalista Revolucionário, tinha nacionalizado as minas de estanho, feito a reforma agrária e dado o voto aos indígenas e analfabetos. Em novembro de mil novecentos e sessenta e quatro, o vice-presidente, o general René Barrientos, derrubou o presidente Víctor Paz Estenssoro. Barrientos se apoiou num pacto com os camponeses e reprimiu duramente os mineiros: em junho de mil novecentos e sessenta e sete, o Exército atacou o acampamento das minas de Siglo Veinte, no chamado Massacre de São João. No mesmo ano, Che Guevara tentou abrir uma guerrilha no país; isolado, foi capturado e executado em outubro, com a presença de um agente da CIA. Depois de breves governos militares de tendência nacionalista e de esquerda, o general Hugo Banzer deu um golpe em mil novecentos e setenta e um, com o apoio do Brasil, e governou até mil novecentos e setenta e oito, perseguindo sindicalistas, estudantes e a esquerda; a Bolívia também integrou a Operação Condor. Em mil novecentos e oitenta, o general Luis García Meza deu o chamado golpe da cocaína, ligado ao narcotráfico, e o seu regime assassinou o líder socialista Marcelo Quiroga Santa Cruz. A democracia voltou em mil novecentos e oitenta e dois. Repara num detalhe que a diferencia do Brasil: García Meza foi julgado e condenado a trinta anos de prisão na própria Bolívia, em mil novecentos e noventa e três.
 
 :: mapa andes
-:: pinta BOL laranja "Bolívia" @"Na Bolívia"
+:: pinta BOL laranja @"Na Bolívia"
 :: marca La Paz | La Paz | vermelho @Barrientos
 :: marca -64.21,-18.79 | La Higuera: Che é executado (1967) | vermelho @"Che Guevara"
 :: linha @"revolução de mil novecentos e cinquenta e dois"
@@ -652,9 +657,9 @@ Em abril de mil novecentos e setenta e sete, mães de desaparecidos começaram a
 Agora a cooperação entre essas ditaduras. Em novembro de mil novecentos e setenta e cinco, numa reunião em Santiago, os serviços de inteligência do Chile, da Argentina, do Uruguai, do Paraguai e da Bolívia formalizaram uma rede de cooperação repressiva: a Operação Condor. O Brasil participou da troca de informações e de ações. Na prática, a Condor permitia que um opositor fosse vigiado, sequestrado, torturado ou morto fora do seu país. Dois exemplos. Em mil novecentos e setenta e seis, o ex-chanceler chileno Orlando Letelier foi assassinado com uma bomba em Washington. E em mil novecentos e setenta e oito, em Porto Alegre, os uruguaios Lilián Celiberti e Universindo Díaz foram sequestrados numa ação conjunta de agentes uruguaios e brasileiros. E os Estados Unidos? Documentos liberados depois mostram o quanto Washington sabia. Um relatório da própria CIA ao Congresso americano, em dois mil, reconheceu que a agência manteve relações com o chefe da polícia secreta chilena, Manuel Contreras, chegando a pagar a ele em mil novecentos e setenta e cinco, e que já conhecia os acordos entre as polícias políticas do Cone Sul. Os Estados Unidos não comandavam a Condor, mas sabiam dela e se relacionavam com quem a executava, como parte da sua política de contenção do comunismo. E os Arquivos do Terror, achados no Paraguai, documentaram essa rede. Guarde a definição para a prova: a Condor foi uma rede transnacional de terrorismo de Estado.
 
 :: mapa cone-sul
-:: marca Santiago | reunião de criação (1975) | vermelho @"reunião em Santiago"
-:: marca Porto Alegre | sequestro de uruguaios (1978) | vermelho @"Porto Alegre"
-:: rota Montevidéu > Porto Alegre | agentes uruguaios e brasileiros | vermelho | tracejada @"ação conjunta"
+:: marca Santiago | reunião de criação (1975) | vermelho | < @"reunião em Santiago"
+:: marca Porto Alegre | sequestro de uruguaios (1978) | vermelho | > @"Porto Alegre"
+:: rota Montevidéu > Porto Alegre | vermelho | tracejada @"ação conjunta"
 :: marca Assunção | Arquivos do Terror | escuro @"Arquivos do Terror"
 :: lista "Operação Condor" @"Operação Condor"
 - Chile, Argentina, Uruguai, Paraguai, Bolívia + Brasil @"Brasil participou"
@@ -675,7 +680,6 @@ Para comparar bem, use critérios, porque a UERJ adora comparação com critéri
 - Uruguai | 1973–1985 | pacto e eleições | Caducidade; Bordaberry condenado @"por um pacto"
 - Chile | 1973–1990 | plebiscito do Não | ditador acomodado @plebiscito
 - Argentina | 1976–1983 | colapso (Malvinas) | Juntas julgadas; mais de mil condenados @colapso
-:: carimbo "ESCOLHA UM CRITÉRIO E COMPARE" @"escolha um critério"
 
 # Parte 7 — A memória até hoje
 

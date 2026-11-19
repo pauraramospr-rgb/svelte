@@ -163,7 +163,7 @@ Em primeiro de setembro de mil novecentos e trinta e nove, a Alemanha invadiu a 
 
 :: mapa europa
 :: marca Varsóvia | Polônia invadida (1/9/1939) | vermelho @Polônia
-:: marca Berlim | Berlim | escuro @"guerra-relâmpago"
+:: marca Berlim | escuro | - @"guerra-relâmpago"
 :: marca Paris | França cai (junho de 1940) | vermelho @"caiu em junho"
 :: marca Roma | Itália entra (1940) @Mussolini
 :: marca Londres | Batalha da Inglaterra (1940) | azul @"Batalha da Inglaterra"
@@ -181,8 +181,8 @@ Em mil novecentos e quarenta e um, a guerra virou mundial. Em junho, Hitler romp
 :: marca Moscou | Barbarossa (junho de 1941) | vermelho @Barbarossa
 :: marca Pearl Harbor | Pearl Harbor (7/12/1941) | vermelho @"Pearl Harbor"
 :: pinta DEU,ITA,JPN cinza "Eixo" @"O Eixo"
-:: pinta GBR,RUS,USA,CHN azul "Aliados" @"Os Aliados"
-:: cartao "Aliança improvável" | capitalismo e socialismo unidos contra o nazifascismo @improvável
+:: pinta USA,GBR,RUS,CHN azul "Aliados" @"Os Aliados"
+:: carimbo "ALIANÇA IMPROVÁVEL CONTRA O NAZIFASCISMO" @improvável
 
 ## A virada (1942–1945)
 :: fundo mapa
@@ -193,7 +193,7 @@ A virada começou em mil novecentos e quarenta e dois. No Pacífico, os american
 :: marca El Alamein | El Alamein (1942) | azul @Alamein
 :: marca Stalingrado | Stalingrado (1942–1943) | vermelho @"batalha decisiva"
 :: marca Roma | Itália (1943) | azul @"desembarcaram na Itália"
-:: marca Normandia | Dia D (6/6/1944) | azul @Normandia
+:: marca Normandia | Dia D (6/6/1944) | azul | < @Normandia
 :: marca Berlim | rendição alemã (maio de 1945) | escuro @"se rendeu"
 :: linha @virada
 - 1942: Midway e El Alamein @Midway
@@ -224,7 +224,7 @@ Nos territórios que dominaram, os nazistas executaram o Holocausto, o genocídi
 O Brasil vivia a ditadura do Estado Novo, de Getúlio Vargas, que no começo negociava com os dois lados. O que levou o país aos Aliados? O financiamento americano para a Companhia Siderúrgica Nacional, em Volta Redonda. A pressão da diplomacia dos Estados Unidos para afastar o Brasil da Alemanha. A importância estratégica do litoral do Nordeste, na rota para o norte da África, com a base aérea de Natal, o chamado trampolim da vitória. O fornecimento de matérias-primas estratégicas, como a borracha da Amazônia. E, com grande impacto na opinião pública, o afundamento de navios brasileiros por submarinos alemães, em agosto de mil novecentos e quarenta e dois, no litoral da Bahia e de Sergipe, com centenas de mortos. O Brasil declarou guerra à Alemanha e à Itália em agosto de mil novecentos e quarenta e dois e enviou a Força Expedicionária Brasileira, a FEB, com cerca de vinte e cinco mil soldados, para lutar na Itália, onde tomou Monte Castello em fevereiro de mil novecentos e quarenta e cinco.
 
 :: mapa atlantico
-:: marca Volta Redonda | CSN, Volta Redonda | ouro @"Volta Redonda"
+:: marca Volta Redonda | CSN, Volta Redonda | ouro | < @"Volta Redonda"
 :: marca Natal | base de Natal | azul @Natal
 :: marca Amazônia | borracha | verde @borracha
 :: marca -37.3,-11.6 | navios afundados (1942) | vermelho @afundamento
