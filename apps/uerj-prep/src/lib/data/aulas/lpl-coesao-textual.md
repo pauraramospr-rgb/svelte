@@ -53,13 +53,13 @@ A anáfora é o mecanismo que retoma algo já dito. A catáfora faz o contrário
 ## Momento UERJ: de lá, nesta carta (2024)
 :: fundo palacio
 
-Em dois mil e vinte e quatro, a questão oito de Coração, cabeça e estômago cobrou a anáfora com uma observação preciosa: os termos colocados no início de um período muitas vezes apresentam informação já conhecida do leitor, colaborando com a progressão temática. O trecho: Silvestre retirou-se para a província. De lá me escreveu, contando os progressos da doença e prognosticando o seu próximo fim. Nesta carta prometia o meu amigo legar-me os seus papéis. A banca pediu a que se referem os termos no início do terceiro e do quarto períodos. O padrão: de lá recupera o termo província, já mencionado, e nesta carta faz alusão direta ao ato de escrever de Silvestre, representado por me escreveu. Repare no detalhe: a anáfora pode retomar não só uma palavra, mas uma ação inteira.
+Em dois mil e vinte e quatro, a questão oito de Coração, cabeça e estômago cobrou a anáfora com uma observação preciosa: os termos colocados no início de um período muitas vezes apresentam informação já conhecida do leitor, colaborando com a progressão temática. O trecho: Silvestre retirou-se para a província. De lá me escreveu, contando os progressos da doença e prognosticando o seu próximo fim. E o período seguinte começa com nesta carta, em que o amigo promete deixar-lhe uma herança. A banca pediu a que se referem os termos no início do terceiro e do quarto períodos. O padrão: de lá recupera o termo província, já mencionado, e nesta carta faz alusão direta ao ato de escrever de Silvestre, representado por me escreveu. Repare no detalhe: a anáfora pode retomar não só uma palavra, mas uma ação inteira.
 
 :: cartao "A observação da banca" | termos no início do período costumam trazer informação já conhecida, que faz o texto progredir @"observação preciosa"
 :: doc "CORAÇÃO, CABEÇA E ESTÔMAGO · CAMILO CASTELO BRANCO" @"O trecho"
 - Retirou-se para a província […].
 - De lá me escreveu, contando os progressos da doença […].
-- Nesta carta prometia o meu amigo legar-me os seus papéis.
+- Nesta carta prometia o meu amigo legar-me […]
 :: uerj "UERJ 2024 · Questão 8"
 - Comando: a que se referem os termos no início do 3º e do 4º períodos @"A banca pediu"
 - “De lá” retoma “província” @"de lá recupera"
