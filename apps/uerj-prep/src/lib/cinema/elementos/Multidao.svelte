@@ -2,6 +2,7 @@
 
 <script lang="ts">
 	import { FONTE, sorteio } from '../util';
+	import { caberLinha } from '../medida.svelte';
 
 	/** Multidão estilizada: canto inferior esquerdo em (0,0), largura `w`. */
 	let {
@@ -47,7 +48,7 @@
 			{#if p.placa}
 				<line x1="22" y1="-120" x2="22" y2="-190" stroke="#6b4a2c" stroke-width="5" />
 				<rect x="-48" y="-238" width="140" height="56" rx="5" fill="#fffaf0" stroke="#3a2a1a" stroke-width="2" />
-				<text x="22" y="-202" text-anchor="middle" font-family={FONTE.display} font-weight="800" font-size={p.placa.length > 11 ? 16 : 21} fill="#1a1410">{p.placa}</text>
+				<text x="22" y="-202" text-anchor="middle" font-family={FONTE.display} font-weight="800" font-size={caberLinha(p.placa, 126, 'display', 22, 800)} fill="#1a1410">{p.placa}</text>
 			{/if}
 			<path d="M-30,0 L-30,-80 Q-30,-112 0,-114 Q30,-112 30,-80 L30,0 Z" fill={p.cor} />
 			<path d="M-30,0 L-30,-80 Q-30,-112 0,-114 Q30,-112 30,-80 L30,0 Z" fill="rgba(0,0,0,0.12)" transform="translate(14 0) scale(0.55 1)" />

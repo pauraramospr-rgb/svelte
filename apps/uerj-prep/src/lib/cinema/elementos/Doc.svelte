@@ -1,7 +1,8 @@
 <svelte:options namespace="svg" />
 
 <script lang="ts">
-	import { FONTE, linhasPara, sorteio } from '../util';
+	import { FONTE, sorteio } from '../util';
+	import { encaixar, fontes, quebrarMedido } from '../medida.svelte';
 
 	/**
 	 * Folha de documento centrada em (0,0). `linhas` são datilografadas quando `digitar` está ligado;
@@ -21,8 +22,17 @@
 		tam = 24
 	}: { titulo?: string; linhas?: string[]; barras?: number; destaque?: string; w: number; h: number; p?: number; digitar?: boolean; vivo: number; semente?: number; tam?: number } = $props();
 
-	const tamLinha = $derived(tam);
-	const quebradas = $derived(linhas.flatMap((l) => (l === '' ? [''] : linhasPara(l, w - 90, tamLinha, 'maquina'))));
+	/** Fonte das linhas: a maior (até `tam`) em que o texto e as barras cabem na folha. */
+	const tamLinha = $derived.by(() => {
+		void fontes.versao;
+		const disponivel = h - (titulo ? 110 : 64) - 40 - (destaque ? 120 : 0);
+		for (let k = tam; k >= 12; k -= 1) {
+			const n = linhas.reduce((s, l) => s + (l === '' ? 1 : quebrarMedido(l, w - 90, 'maquina', k, 700).length), 0) + barras;
+			if (n * k * 1.45 <= disponivel || k === 12) return k;
+		}
+		return 12;
+	});
+	const quebradas = $derived(linhas.flatMap((l) => (l === '' ? [''] : quebrarMedido(l, w - 90, 'maquina', tamLinha, 700))));
 	const total = $derived(quebradas.reduce((s, l) => s + l.length, 0));
 	const mostrar = $derived(digitar ? Math.floor(total * Math.min(1, p / 0.8)) : total);
 	const visiveis = $derived.by(() => {
@@ -34,12 +44,14 @@
 		});
 	});
 	const topoTexto = $derived(-h / 2 + (titulo ? 110 : 64));
-	const destaqueLinhas = $derived(linhasPara(destaque, w - 110, 27, 'serifa'));
+	const destaqueEnc = $derived(encaixar(destaque, w - 120, 130, 'serifa', 27, 700, 1.33, 13));
+	const destaqueLinhas = $derived(destaqueEnc.linhas);
+	const tamDestaque = $derived(destaqueEnc.tam);
 	const marca = $derived(digitar ? Math.min(1, Math.max(0, (p - 0.8) / 0.2)) : Math.min(1, p * 1.4));
 </script>
 
 <g class="doc">
-	<rect x={-w / 2 + 10} y={-h / 2 + 14} width={w} height={h} fill="rgba(0,0,0,0.35)" filter="url(#cin-desfoque)" />
+	<rect x={-w / 2 + 10} y={-h / 2 + 14} width={w} height={h} fill="rgba(0,0,0,0.35)" />
 	<path d="M{-w / 2},{-h / 2} H{w / 2 - 40} L{w / 2},{-h / 2 + 40} V{h / 2} H{-w / 2} Z" fill="url(#cin-folha)" stroke="#c9b991" stroke-width="1.5" />
 	<path d="M{w / 2 - 40},{-h / 2} L{w / 2 - 40},{-h / 2 + 40} L{w / 2},{-h / 2 + 40} Z" fill="#d8c79f" />
 	{#if titulo}
@@ -59,10 +71,10 @@
 		<rect x={-w / 2 + 45} y={topoTexto + (quebradas.length + i) * (tamLinha * 1.45) - 14} width={(w - 90) * (0.55 + 0.45 * sorteio(i + semente * 31))} height="11" rx="3" fill="#b9ab88" opacity="0.7" />
 	{/each}
 	{#if destaque && marca > 0}
-		{@const y0 = Math.min(h / 2 - 40 - (destaqueLinhas.length - 1) * 36, topoTexto + (quebradas.length + barras) * (tamLinha * 1.45) + 30)}
+		{@const y0 = Math.min(h / 2 - 30 - (destaqueLinhas.length - 1) * tamDestaque * 1.33, topoTexto + (quebradas.length + barras) * (tamLinha * 1.45) + 30)}
 		{#each destaqueLinhas as l, i (i)}
-			<rect x={-w / 2 + 50} y={y0 + i * 36 - 26} width={(l.length * 27 * 0.5 + 16) * marca} height="34" fill="#ffd84d" opacity="0.85" />
-			<text x={-w / 2 + 58} y={y0 + i * 36} font-family={FONTE.serifa} font-weight="700" font-size="27" fill="#1a1410" opacity={Math.min(1, marca * 2)}>{l}</text>
+			<rect x={-w / 2 + 50} y={y0 + i * tamDestaque * 1.33 - tamDestaque} width={(w - 100) * marca} height={tamDestaque * 1.3} fill="#ffd84d" opacity="0.85" />
+			<text x={-w / 2 + 58} y={y0 + i * tamDestaque * 1.33} font-family={FONTE.serifa} font-weight="700" font-size={tamDestaque} fill="#1a1410" opacity={Math.min(1, marca * 2)}>{l}</text>
 		{/each}
 	{/if}
 </g>

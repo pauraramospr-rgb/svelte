@@ -3,11 +3,15 @@
 	import CategoryTag from '$lib/components/CategoryTag.svelte';
 	import Player from '$lib/cinema/Player.svelte';
 	import { montarEpisodios } from '$lib/cinema/aulas';
+	import { cronograma } from '$lib/cinema/tempo';
+	import { getTopic } from '$lib/domain/syllabus';
 
 	let { data } = $props();
-	const episodios = $derived(montarEpisodios(data.topic.id, data.topic.title, data.episodios));
+	const episodios = $derived(data.modo === 'roteiro' ? data.prontos : montarEpisodios(data.topic.id, data.topic.title, data.episodios));
+	const totalCenas = $derived(episodios.reduce((s, e) => s + e.cenas.filter((c) => !c.abertura).length, 0));
 	const sobMedida = $derived(episodios.reduce((s, e) => s + e.sobMedida, 0));
-	const total = $derived(episodios.reduce((s, e) => s + e.cenas.filter((c) => !c.abertura).length, 0));
+	const minutos = $derived(Math.round(episodios.reduce((s, e) => s + e.cenas.reduce((a, c) => a + (c.abertura ? 6 : cronograma(c.narracao).total), 0), 0) / 60));
+	const nome = (id: string | null) => (id ? (getTopic(id)?.topic.title ?? id) : '');
 </script>
 
 <svelte:head><title>Aula animada: {data.topic.title} · {APP_NAME}</title></svelte:head>
@@ -18,37 +22,49 @@
 </nav>
 
 <header class="cabeca">
-	<p class="eyebrow">Aula animada · {data.episodios.length} episódios · cerca de {Math.round(data.duracaoSeg / 60)} min</p>
+	<p class="eyebrow">Aula animada · {episodios.length} {episodios.length === 1 ? 'parte' : 'partes'} · {totalCenas} cenas · cerca de {minutos} min</p>
 	<h1>{data.topic.title}</h1>
 	<div class="tags">
-		<CategoryTag category="pedagogica" detail="roteiro baseado na apostila revisada" />
+		<CategoryTag category="pedagogica" detail="roteiro baseado no resumo revisado e nas questões oficiais" />
 		<CategoryTag category="ia" detail="animação, encenação e voz geradas por computador" />
 	</div>
 </header>
 
-<Player {episodios} />
+{#key data.topic.id}
+	<Player {episodios} />
+{/key}
 
 <section class="card notas" aria-labelledby="notas-titulo">
-	<h2 id="notas-titulo">Sobre esta produção</h2>
+	<h2 id="notas-titulo">Sobre esta aula</h2>
 	<ul class="small">
-		<li>
-			<strong>{sobMedida} de {total} cenas</strong> têm animação feita sob medida (todo o Episódio 1). Nas demais, a encenação é montada automaticamente
-			a partir do roteiro — textos na tela, objetos e personagens previstos para a cena — enquanto as animações completas são produzidas.
-		</li>
-		<li>A narração é a do roteiro revisado, lida pela voz sintetizada do seu aparelho. Se preferir, desligue a voz e acompanhe pelas legendas.</li>
-		<li>
-			Pessoas reais aparecem como <strong>silhuetas com nome</strong>, sem imitar rostos. Capas de jornal e documentos são <strong>recriações genéricas</strong>:
-			só aparecem na tela os trechos citados e conferidos na apostila (como o artigo 10 do AI-5 e a frase da certidão de 2025).
-		</li>
-		<li>O episódio 2 trata de violência política (tortura e mortes) sem imagens explícitas.</li>
+		{#if data.modo === 'roteiro'}
+			<li>Todas as {totalCenas} cenas são animadas a partir do roteiro: mapas, linhas do tempo, quadros e personagens entram na hora em que o assunto é dito.</li>
+		{:else}
+			<li><strong>{sobMedida} de {totalCenas} cenas</strong> têm animação feita sob medida; as demais usam a encenação automática do roteiro.</li>
+		{/if}
+		<li>A narração é lida pela voz sintetizada do seu aparelho; se preferir, desligue a voz e acompanhe pelas legendas. As vozes “neural” do Edge, do Chrome e do Safari soam mais naturais.</li>
+		<li>Pessoas reais aparecem como <strong>silhuetas com nome</strong>, sem imitar rostos; documentos e jornais são <strong>recriações genéricas</strong> e só mostram trechos conferidos.</li>
 	</ul>
 	<div class="row">
 		{#if data.temApostila}<a class="btn" href="/trilha/{data.topic.id}/apostila">Apostila completa</a>{/if}
-		<a class="btn" href="/estudio/{data.topic.id}">Roteiro cena por cena</a>
-		<a class="btn" href="/trilha/{data.topic.id}">Tópico na trilha</a>
+		{#if data.temEstudio}<a class="btn" href="/estudio/{data.topic.id}">Roteiro cena por cena</a>{/if}
+		<a class="btn" href="/trilha/{data.topic.id}">Resumo e questões do tópico</a>
 	</div>
-	<p class="small muted">Roteiro revisado em {data.reviewed}. Atalhos: espaço (tocar/pausar), ← → (frase anterior/seguinte), N/P (cena), C (legendas), F (tela cheia).</p>
+	{#if data.referencias.length}
+		<details class="refs">
+			<summary class="small">Fontes do conteúdo</summary>
+			<ul class="small">
+				{#each data.referencias as r, i (i)}<li>{r}</li>{/each}
+			</ul>
+		</details>
+	{/if}
+	<p class="small muted">Revisado em {data.reviewed}. Atalhos: espaço (tocar/pausar), ← → (frase anterior/seguinte), N/P (cena), C (legendas), F (tela cheia).</p>
 </section>
+
+<nav class="vizinhos" aria-label="Outras aulas">
+	{#if data.vizinhos.anterior}<a class="btn" href="/aulas/{data.vizinhos.anterior}">← {nome(data.vizinhos.anterior)}</a>{/if}
+	{#if data.vizinhos.proximo}<a class="btn" href="/aulas/{data.vizinhos.proximo}">{nome(data.vizinhos.proximo)} →</a>{/if}
+</nav>
 
 <style>
 	.crumbs {
@@ -80,5 +96,19 @@
 	}
 	.notas li {
 		margin-bottom: 0.45rem;
+	}
+	.refs ul {
+		overflow-wrap: anywhere;
+	}
+	.vizinhos {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		gap: 0.6rem;
+		margin-top: 1rem;
+	}
+	.vizinhos .btn {
+		max-width: 100%;
+		white-space: normal;
 	}
 </style>

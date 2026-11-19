@@ -3,10 +3,11 @@
 <script lang="ts">
 	import type { Cronograma } from '../tempo';
 	import { clamp01, instante, suave } from '../tempo';
-	import { FONTE, linhasPara } from '../util';
+	import { FONTE } from '../util';
+	import { encaixar } from '../medida.svelte';
 
 	/** Balança de ideias com base em (0,0). `pende` diz para que lado ela pende a cada momento. */
-	let { esq, dir, pende, crono, t }: { esq: string; dir: string; pende: { s: number; d?: number; lado: -1 | 0 | 1 }[]; crono: Cronograma; t: number } = $props();
+	let { esq, dir, pende, crono, t }: { esq: string; dir: string; pende: { s: number; f?: number; d?: number; lado: -1 | 0 | 1 }[]; crono: Cronograma; t: number } = $props();
 
 	const angulo = $derived.by(() => {
 		let atual = 0;
@@ -26,12 +27,14 @@
 </script>
 
 {#snippet prato(x: number, y: number, texto: string, cor: string)}
+	{@const enc = encaixar(texto, 230, 90, 'display', 28, 800, 1.15, 12)}
 	<g transform="translate({x} {y})">
 		<line x1="0" y1="0" x2="-80" y2="120" stroke="#6b5232" stroke-width="3" />
 		<line x1="0" y1="0" x2="80" y2="120" stroke="#6b5232" stroke-width="3" />
 		<path d="M-110,120 Q0,170 110,120 Z" fill={cor} />
-		{#each linhasPara(texto, 210, 26, 'display') as l, i (i)}
-			<text x="0" y={196 + i * 30} text-anchor="middle" font-family={FONTE.display} font-weight="800" font-size="26" fill="#fffaf0" stroke="#1a1410" stroke-width="5" paint-order="stroke">{l}</text>
+		<rect x="-125" y="168" width="250" height={enc.altura + 20} rx="10" fill="rgba(26,20,16,0.85)" />
+		{#each enc.linhas as l, i (i)}
+			<text x="0" y={176 + enc.tam * (0.95 + i * 1.15)} text-anchor="middle" font-family={FONTE.display} font-weight="800" font-size={enc.tam} fill="#fffaf0">{l}</text>
 		{/each}
 	</g>
 {/snippet}

@@ -102,16 +102,8 @@ export function falar(
 	u.onboundary = (ev) => opcoes.aoLimite?.(ev.charIndex);
 	atual = u;
 	try {
+		// Falas curtas (o player divide frases longas) dispensam o contorno de pausar/retomar, que causava engasgos.
 		s.speak(u);
-		// Contorno conhecido do Chrome: vozes remotas param sozinhas depois de ~15 s.
-		if (voz && !voz.localService) {
-			manter = setInterval(() => {
-				if (s.speaking && !s.paused) {
-					s.pause();
-					s.resume();
-				}
-			}, 10000);
-		}
 	} catch {
 		terminar();
 	}

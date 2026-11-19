@@ -49,13 +49,39 @@
 	const duracoes = $derived(ep.cenas.map((c) => (c.abertura ? (c.animada.duracao ?? 5) : cronograma(c.narracao, calib).total)));
 
 	// ——— Fala em andamento (fora do estado reativo) ———
-	type Corrente = { indice: number; terminou: boolean; cancelar: () => void; inicio: number; seguranca: ReturnType<typeof setTimeout> };
+	type Corrente = {
+		indice: number;
+		terminou: boolean;
+		cancelar: () => void;
+		inicio: number;
+		/** Caracteres já falados antes do pedaço atual (frases longas são faladas em pedaços). */
+		base: number;
+		/** Último caractere informado pelo navegador e quando. */
+		ch: number;
+		quando: number;
+		seguranca: ReturnType<typeof setTimeout>;
+	};
 	let corrente: Corrente | null = null;
 	let faladas = new Set<number>();
 	let raf = 0;
 	let ultimo = 0;
 	let ultimoFalando = false;
 	const trilha = new Trilha();
+
+	/** Divide frases longas em pedaços de até ~170 caracteres (vozes do navegador travam em falas longas). */
+	function pedacos(frase: string): string[] {
+		if (frase.length <= 170) return [frase];
+		const partes: string[] = [];
+		let atual = '';
+		for (const p of frase.split(/(?<=[,;:—–])\s+/)) {
+			if (atual && (atual + ' ' + p).length > 170) {
+				partes.push(atual);
+				atual = p;
+			} else atual = atual ? atual + ' ' + p : p;
+		}
+		if (atual) partes.push(atual);
+		return partes;
+	}
 
 	function indiceFrase(c: Cronograma, tempo: number): number {
 		let i = -1;
@@ -121,7 +147,9 @@
 	function iniciarFala(i: number) {
 		faladas.add(i);
 		const c = crono;
-		const estado: Corrente = { indice: i, terminou: false, cancelar: () => {}, inicio: performance.now(), seguranca: 0 as unknown as ReturnType<typeof setTimeout> };
+		const frase = c.frases[i];
+		const partes = pedacos(frase);
+		const estado: Corrente = { indice: i, terminou: false, cancelar: () => {}, inicio: performance.now(), base: 0, ch: -1, quando: 0, seguranca: 0 as unknown as ReturnType<typeof setTimeout> };
 		corrente = estado;
 		falando = true;
 		limite = -1;
@@ -135,26 +163,62 @@
 			}
 			const real = (performance.now() - estado.inicio) / 1000;
 			if (real > 0.8) {
-				const base = c.frases[i].length / 14.5 + 0.45;
+				const base = frase.length / 14.5 + 0.45;
 				const alvo = base / (real * velocidade);
 				calib = Math.min(1.8, Math.max(0.6, calib * 0.7 + alvo * 0.3));
 			}
 		};
-		const f = falar(c.frases[i], { vozId, ritmo: velocidade, aoTerminar: fim, aoLimite: (ch) => (limite = ch) });
-		estado.cancelar = f.cancelar;
+		const falarParte = (k: number) => {
+			if (estado.terminou || corrente !== estado) return;
+			const f = falar(partes[k], {
+				vozId,
+				ritmo: velocidade,
+				aoTerminar: () => {
+					if (estado.terminou || corrente !== estado) return;
+					if (k + 1 < partes.length) {
+						estado.base += partes[k].length + 1;
+						falarParte(k + 1);
+					} else fim();
+				},
+				aoLimite: (ch) => {
+					estado.ch = estado.base + ch;
+					estado.quando = performance.now();
+					limite = estado.ch;
+				}
+			});
+			estado.cancelar = f.cancelar;
+		};
+		falarParte(0);
 		estado.seguranca = setTimeout(fim, ((c.duracoes[i] / velocidade) * 2.6 + 3) * 1000);
 	}
 
+	/**
+	 * Relógio suave: enquanto a voz fala, o tempo da cena persegue a posição estimada da fala
+	 * (pelos limites de palavra, quando o navegador informa, ou pelo tempo decorrido), sem congelar nem dar saltos.
+	 */
 	function avancar(dt: number) {
 		const c = crono;
 		const antes = t;
 		let novo = t;
 		if (corrente && vozAtiva) {
 			const f = corrente.indice;
-			const fimFrase = c.inicios[f] + c.duracoes[f];
-			if (!corrente.terminou) novo = Math.min(novo + dt * velocidade, Math.max(novo, fimFrase - 0.05));
-			else {
-				novo += dt * velocidade * (novo < fimFrase ? 2.2 : 1);
+			const ini = c.inicios[f];
+			const dur = c.duracoes[f];
+			const fimFrase = ini + dur;
+			if (!corrente.terminou) {
+				const agora = performance.now();
+				const esperado = dur / velocidade;
+				let prog = (agora - corrente.inicio) / 1000 / esperado;
+				if (corrente.ch >= 0) {
+					const len = Math.max(1, c.frases[f].length);
+					const pb = corrente.ch / len + (agora - corrente.quando) / 1000 / esperado;
+					prog = Math.max(Math.min(prog, pb + 0.08), pb);
+				}
+				const alvo = ini + dur * Math.min(0.97, Math.max(0, prog));
+				const passo = Math.min((alvo - novo) * Math.min(1, dt * 5), dt * velocidade * 1.8);
+				if (passo > 0) novo += passo;
+			} else {
+				novo += dt * velocidade * (novo < fimFrase - 0.02 ? 1.7 : 1);
 				if (novo >= fimFrase) corrente = null;
 			}
 		} else novo += dt * velocidade;

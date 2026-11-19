@@ -7,7 +7,7 @@
 	/** Cenário de fundo (desenhado maior que o palco para aguentar o movimento de câmera). */
 	let { fundo, vivo }: { fundo: Fundo; vivo: number } = $props();
 
-	const poeira = Array.from({ length: 34 }, (_, i) => ({ x: sorteio(i) * 1800 - 100, y: sorteio(i + 50) * 1000 - 50, r: 1 + sorteio(i + 99) * 2.4, v: 6 + sorteio(i + 7) * 14 }));
+	const poeira = Array.from({ length: 16 }, (_, i) => ({ x: sorteio(i) * 1800 - 100, y: sorteio(i + 50) * 1000 - 50, r: 1 + sorteio(i + 99) * 2.4, v: 6 + sorteio(i + 7) * 14 }));
 	const estrelas = Array.from({ length: 90 }, (_, i) => ({ x: sorteio(i + 3) * 1900 - 150, y: sorteio(i + 300) * 640 - 120, r: 0.6 + sorteio(i + 900) * 1.6, f: sorteio(i + 41) * 6 }));
 	const arvores = Array.from({ length: 26 }, (_, i) => ({ x: i * 76 - 180 + sorteio(i) * 40, h: 180 + sorteio(i + 12) * 160, r: 50 + sorteio(i + 33) * 40 }));
 	const nuvens = [
@@ -39,7 +39,7 @@
 	{:else if fundo === 'noite'}
 		<rect x="-300" y="-200" width="2200" height="1300" fill="url(#cin-noite)" />
 		{#each estrelas as e, i (i)}
-			<circle cx={e.x} cy={e.y} r={e.r} fill="#fff" opacity={0.35 + 0.35 * Math.sin(vivo * 1.3 + e.f)} />
+			<circle cx={e.x} cy={e.y} r={e.r} fill="#fff" opacity={i % 6 === 0 ? 0.35 + 0.35 * Math.sin(vivo * 1.3 + e.f) : 0.5} />
 		{/each}
 		<circle cx="1320" cy="150" r="58" fill="#f4efd9" opacity="0.9" />
 		<circle cx="1320" cy="150" r="140" fill="url(#cin-luar)" />
@@ -98,7 +98,7 @@
 	{:else if fundo === 'chumbo'}
 		<rect x="-300" y="-200" width="2200" height="1300" fill="url(#cin-chumbo)" />
 		<g stroke="#c9d1db" stroke-width="1.4" opacity="0.12">
-			{#each { length: 60 } as _, i (i)}
+			{#each { length: 28 } as _, i (i)}
 				{@const x = sorteio(i) * 2200 - 300}
 				{@const y = ((sorteio(i + 80) * 1300 + vivo * 420) % 1300) - 200}
 				<line x1={x} y1={y} x2={x - 10} y2={y + 46} />
@@ -118,5 +118,41 @@
 			<line x1="0" y1="-60" x2="0" y2="50" />
 			<path d="M-60,-20 L-80,20 L-40,20 Z M60,-20 L40,20 L80,20 Z" />
 		</g>
+	{:else if fundo === 'mar'}
+		<rect x="-300" y="-200" width="2200" height="1300" fill="url(#cin-mar)" />
+		<circle cx="1250" cy="150" r="70" fill="#fff6d0" opacity="0.9" />
+		{#each { length: 7 } as _, i (i)}
+			<path d="M{-300 + ((vivo * (10 + i * 3)) % 160)},{420 + i * 70} q40,-14 80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0" fill="none" stroke="#cfe6f5" stroke-width="3" opacity={0.25 + i * 0.05} />
+		{/each}
+	{:else if fundo === 'cidade'}
+		<rect x="-300" y="-200" width="2200" height="1300" fill="url(#cin-cidade)" />
+		<circle cx="300" cy="300" r="110" fill="#ffe3a8" opacity="0.85" />
+		{#each { length: 30 } as _, i (i)}
+			{@const h = 160 + sorteio(i + 5) * 380}
+			{@const w = 60 + sorteio(i + 17) * 70}
+			<rect x={-280 + i * 74} y={900 - h} width={w} height={h + 300} fill={i % 2 ? '#3a2a4a' : '#4a3358'} opacity="0.9" />
+			{#each { length: Math.floor(h / 60) } as _, j (j)}
+				<rect x={-268 + i * 74} y={920 - h + j * 60} width="14" height="20" fill="#ffd86b" opacity={sorteio(i * 7 + j) > 0.5 ? 0.8 : 0.15} />
+			{/each}
+		{/each}
+	{:else if fundo === 'campo'}
+		<rect x="-300" y="-200" width="2200" height="1300" fill="url(#cin-campo)" />
+		{#each { length: 9 } as _, i (i)}
+			<path d="M{-300 + i * 260},{560} Q{-170 + i * 260},{520 - (i % 3) * 20} {-40 + i * 260},560" fill="#7aa64a" opacity="0.6" />
+		{/each}
+		{#each { length: 14 } as _, i (i)}
+			<line x1={-300 + i * 170} y1="1100" x2={800 + (i - 7) * 40} y2="520" stroke="#6f9a3f" stroke-width="3" opacity="0.5" />
+		{/each}
+	{:else if fundo === 'palacio'}
+		<rect x="-300" y="-200" width="2200" height="1300" fill="url(#cin-palacio)" />
+		{#each { length: 9 } as _, i (i)}
+			<rect x={-200 + i * 240} y="-200" width="56" height="1100" fill="#c9a96a" opacity="0.32" />
+			<rect x={-212 + i * 240} y="-200" width="80" height="40" fill="#d4b77a" opacity="0.35" />
+		{/each}
+		<path d="M-300,-200 Q100,120 520,-200 M1080,-200 Q1500,120 1900,-200" fill="#5a0f1f" opacity="0.7" />
+		<rect x="-300" y="760" width="2200" height="400" fill="#2a1410" />
+		{#each { length: 22 } as _, i (i)}
+			<rect x={-300 + i * 100} y="760" width="50" height="400" fill="#3a1f18" />
+		{/each}
 	{/if}
 </g>

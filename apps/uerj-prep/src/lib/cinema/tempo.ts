@@ -35,7 +35,7 @@ export function cronograma(narracao: string, ritmo = 1, respiro = 1.2): Cronogra
 
 export function instante(m: Momento, c: Cronograma): number {
 	const s = Math.max(0, Math.min(m.s, c.inicios.length - 1));
-	return (c.inicios[s] ?? 0) + (m.d ?? 0);
+	return (c.inicios[s] ?? 0) + (m.f ? m.f * (c.duracoes[s] ?? 0) : 0) + (m.d ?? 0);
 }
 
 export const suave = {
