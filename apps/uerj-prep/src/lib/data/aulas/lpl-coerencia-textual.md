@@ -114,10 +114,10 @@ Você já viu esta questão de dois mil e vinte e seis na aula sobre a oração 
 Na aula sobre gêneros, você viu a questão três de dois mil e dezessete, sobre um texto de memórias. Ela também foi classificada em coerência, porque mostra como o texto progride. O narrador avança e recua entre dois tempos: o passado que ele relembra e o presente em que escreve. A banca pediu as passagens que marcam esse confronto, e o padrão aceitou três. Com que saudades me não recordo desse heroico anseio, em que o verbo recordar, no presente, mostra o tempo do narrador. Hoje!, em que ele marca com emoção o tempo da escrita, depois de expor lembranças. E volto às minhas reminiscências, em que, do presente, ele anuncia uma nova volta ao passado. São essas passagens que organizam a progressão do texto: sem elas, o leitor se perderia entre os tempos.
 
 :: linha "A progressão do texto de memórias" @"avança e recua"
-- passado: as lembranças @"o passado que ele relembra"
-- “com que saudades me não recordo…”: o presente @"verbo recordar"
-- “Hoje!…”: o tempo da escrita @"marca com emoção"
-- “Volto às minhas reminiscências”: de novo o passado @"nova volta ao passado"
+- passado | as lembranças @"o passado que ele relembra"
+- presente | “com que saudades me não recordo…” @"verbo recordar"
+- presente | “Hoje!…”: o tempo da escrita @"marca com emoção"
+- passado | “Volto às minhas reminiscências” @"nova volta ao passado"
 :: carimbo "AS MARCAS QUE ORGANIZAM OS TEMPOS" @"organizam a progressão"
 
 ## Momento UERJ: uma cidade de cidades (2017)

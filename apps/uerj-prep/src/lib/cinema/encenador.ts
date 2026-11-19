@@ -374,7 +374,8 @@ export function encenar(cena: CenaRoteiro): Encenada {
 				const n = Math.max(1, ...l.celulas.map((c, j) => Math.ceil((c.length * 30 * 0.55) / Math.max(60, (larg[j] ?? 100) - 26))));
 				total += n * 30 * 1.24 + 30;
 			}
-			return [e.y, e.y + Math.min(e.h, total)];
+			// Margem de segurança: linhas longas costumam quebrar mais do que a estimativa prevê.
+			return [e.y, e.y + Math.min(e.h, total * 1.12 + 12)];
 		}
 		return [e.y, e.y + e.h];
 	};
@@ -391,8 +392,8 @@ export function encenar(cena: CenaRoteiro): Encenada {
 		if (b.tipo === 'carimbo') {
 			const r = regiaoCheia;
 			// No mapa, o carimbo vai para o canto oposto ao painel; no quadro, para o alto da região principal.
-			const x = modoMapa ? (painel === 'direita' ? 330 : 1290) : r.x + r.w - Math.min(260, r.w / 2);
-			const larg = modoMapa ? 560 : Math.min(520, r.w);
+			let x = modoMapa ? (painel === 'direita' ? 330 : 1290) : r.x + r.w - Math.min(260, r.w / 2);
+			let larg = modoMapa ? 560 : Math.min(520, r.w);
 			// Texto longo vai em duas linhas (ver Elemento.svelte): o carimbo fica mais alto.
 			const duas = semAspas(d0.args).length * 34 * ESTIMATIVA_MONO > (larg - 50) / 0.78;
 			const folga = duas ? 84 : 62;
@@ -408,6 +409,15 @@ export function encenar(cena: CenaRoteiro): Encenada {
 					// O carimbo é inclinado (−6°): reserva ~60 px acima ou abaixo do quadro.
 					if (y0 - folga >= 112) y = Math.min(r.y + (duas ? 48 : 30), y0 - folga);
 					else if (limite - y1 >= folga + 40) y = y1 + folga + 8;
+					else if (professor === 'esquerda' || professor === 'direita') {
+						// Quadro alto, sem espaço acima nem abaixo: o carimbo vai para a coluna livre,
+						// acima do apresentador, ao lado do quadro.
+						const esq = professor === 'esquerda';
+						// Inclinado, o carimbo avança uns 20 px além da própria largura: folga generosa.
+						larg = esq ? LX - 75 : 1600 - RX - 75;
+						x = esq ? (LX - 25) / 2 : (RX + 25 + 1600) / 2;
+						y = 230;
+					}
 				}
 			}
 			elementos.push({ k: 'carimbo', texto: semAspas(d0.args), x, y, rot: -6, tam: 34, larg, fixo, a: anim(b.inicio, 'pop', saida) });
@@ -529,8 +539,11 @@ export function encenar(cena: CenaRoteiro): Encenada {
 			case 'linha': {
 				const itens = (momentosItens.get(d) ?? []).map((mi, j) => {
 					const bruto = d.itens[j].texto;
-					const k = bruto.indexOf(':');
-					return { rotulo: k > 0 ? bruto.slice(0, k).trim() : bruto, texto: k > 0 ? bruto.slice(k + 1).trim() : '', a: anim(mi, 'pop') };
+					// "rótulo: texto" ou "rótulo | texto" (a barra tem prioridade, para textos com dois-pontos).
+					const barra = bruto.indexOf(' | ');
+					const k = barra > 0 ? barra : bruto.indexOf(':');
+					const sep = barra > 0 ? 3 : 1;
+					return { rotulo: k > 0 ? bruto.slice(0, k).trim() : bruto, texto: k > 0 ? bruto.slice(k + sep).trim() : '', a: anim(mi, 'pop') };
 				});
 				if (modoMapa) elementos.push({ k: 'linha', x: r.x + 14, y: r.y + 14, w: r.w - 28, h: Math.min(r.h - 28, itens.length * 110), itens, vertical: true, fixo, a: anim(m, 'draw', { dur: 1.2, ...saida }) });
 				else {
