@@ -26,6 +26,33 @@
 	</p>
 </header>
 
+{#if data.especiais.length}
+	<section class="grupo serie" aria-labelledby="g-serie">
+		<h2 id="g-serie">Série especial · História do Brasil para a UERJ</h2>
+		<p class="small muted chamada-serie">
+			Aulas longas e aprofundadas, que atravessam vários tópicos do programa, cada uma com um resumo aprofundado para ler e revisar.
+		</p>
+		<div class="lista">
+			{#each data.especiais as a (a.id)}
+				<article class="card aula">
+					<p class="eyebrow">{a.partes.length} {a.partes.length === 1 ? 'parte' : 'partes'} · cerca de {min(a.duracaoSeg)} min</p>
+					<h3>{a.titulo}</h3>
+					<p class="small muted">{a.chamada}</p>
+					<ol class="eps">
+						{#each a.partes as e (e.numero)}
+							<li><span class="mono num">{e.numero}</span> <span class="t">{e.title}</span> <span class="muted small">{e.cenas} cenas</span></li>
+						{/each}
+					</ol>
+					<div class="acoes">
+						<a class="btn primary" href="/aulas/{a.id}"><Icon name="play" size={18} /> Assistir</a>
+						{#if a.temResumo}<a class="btn" href="/aulas/{a.id}/resumo">Resumo aprofundado</a>{/if}
+					</div>
+				</article>
+			{/each}
+		</div>
+	</section>
+{/if}
+
 {#each grupos as g (g.codigo)}
 	<section class="grupo" aria-labelledby="g-{g.codigo}">
 		<h2 id="g-{g.codigo}">{nomeDisc(g.codigo)}</h2>
@@ -54,6 +81,15 @@
 	.grupo h2 {
 		font-family: var(--display);
 		margin: 1.5rem 0 0.75rem;
+	}
+	.chamada-serie {
+		margin: -0.4rem 0 0.9rem;
+		max-width: 70ch;
+	}
+	.acoes {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
 	}
 	.lista {
 		display: grid;

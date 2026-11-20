@@ -104,6 +104,8 @@
 <style>
 	.mm {
 		position: relative;
+		/* O mapa se ajusta à largura que recebe (coluna estreita ao lado de um sumário, celular…). */
+		container-type: inline-size;
 		border: 1px solid var(--border);
 		border-radius: var(--radius);
 		background: var(--surface);
@@ -222,7 +224,7 @@
 	.note {
 		margin: 0.75rem 0 0;
 	}
-	@media (max-width: 820px) {
+	@container (max-width: 760px) {
 		.board {
 			grid-template-columns: minmax(0, 1fr);
 			grid-template-rows: none;

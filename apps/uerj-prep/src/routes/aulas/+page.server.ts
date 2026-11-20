@@ -3,6 +3,7 @@ import { getTopic, topicsOf } from '$lib/domain/syllabus';
 import { AULAS } from '$lib/producao';
 import { AULAS_ROTEIRO, cenasSobMedida } from '$lib/cinema/aulas';
 import { cronograma } from '$lib/cinema/tempo';
+import { especiaisProntos, resumoEspecial, roteiroEspecial } from '$lib/especiais';
 
 export const load: PageServerLoad = () => {
 	const ordem = [...topicsOf('HIS'), ...topicsOf('LPL')].map((t) => t.id);
@@ -41,5 +42,15 @@ export const load: PageServerLoad = () => {
 	});
 	const aulas = [...novas, ...antigas].sort((a, b) => posicao(a.topicId) - posicao(b.topicId));
 	const total = { HIS: topicsOf('HIS').length, LPL: topicsOf('LPL').length };
-	return { aulas, total };
+	const especiais = especiaisProntos().map((e) => {
+		const r = roteiroEspecial(e.id)!;
+		const partes = r.partes.map((p) => ({
+			numero: p.numero,
+			title: p.titulo,
+			cenas: p.cenas.length,
+			duracaoSeg: Math.round(p.cenas.reduce((s, c) => s + cronograma(c.narracao).total, 0))
+		}));
+		return { ...e, partes, duracaoSeg: partes.reduce((s, p) => s + p.duracaoSeg, 0), temResumo: !!resumoEspecial(e.id) };
+	});
+	return { aulas, total, especiais };
 };

@@ -108,18 +108,20 @@ export function roteiroDe(topicId: string): AulaRoteiro | undefined {
 }
 
 /** Episódios tocáveis de uma aula em roteiro: abertura de cada parte + cenas encenadas automaticamente. */
-export function episodiosDoRoteiro(aula: AulaRoteiro): { episodios: EpisodioTocavel[]; avisos: string[] } {
+export function episodiosDoRoteiro(aula: AulaRoteiro): { episodios: EpisodioTocavel[]; avisos: string[]; ordem: string[] } {
 	const avisos: string[] = [];
+	const ordem: string[] = [];
 	const episodios = aula.partes.map((p) => {
 		const cenas: CenaTocavel[] = [
 			{ id: `ep${p.numero}`, titulo: `Abertura da parte ${p.numero}`, narracao: '', animada: abertura(aula.titulo, p.numero, p.titulo, 'PARTE'), sobMedida: true, abertura: true },
 			...p.cenas.map((c) => {
-				const { animada, avisos: av } = encenarRoteiro(c);
+				const { animada, avisos: av, ordem: or } = encenarRoteiro(c);
 				for (const a of av) avisos.push(`cena ${c.id} (${c.titulo}): ${a}`);
+				for (const a of or) ordem.push(`cena ${c.id} (${c.titulo}): ${a}`);
 				return { id: c.id, titulo: c.titulo, narracao: c.narracao, animada, sobMedida: true, abertura: false };
 			})
 		];
 		return { numero: p.numero, titulo: p.titulo, cenas, sobMedida: p.cenas.length };
 	});
-	return { episodios, avisos };
+	return { episodios, avisos, ordem };
 }

@@ -5,19 +5,21 @@
 	import { montarEpisodios } from '$lib/cinema/aulas';
 	import { cronograma } from '$lib/cinema/tempo';
 	import { getTopic } from '$lib/domain/syllabus';
+	import { especialDe } from '$lib/especiais';
 
 	let { data } = $props();
 	const episodios = $derived(data.modo === 'roteiro' ? data.prontos : montarEpisodios(data.topic.id, data.topic.title, data.episodios));
 	const totalCenas = $derived(episodios.reduce((s, e) => s + e.cenas.filter((c) => !c.abertura).length, 0));
 	const sobMedida = $derived(episodios.reduce((s, e) => s + e.sobMedida, 0));
 	const minutos = $derived(Math.round(episodios.reduce((s, e) => s + e.cenas.reduce((a, c) => a + (c.abertura ? 6 : cronograma(c.narracao).total), 0), 0) / 60));
-	const nome = (id: string | null) => (id ? (getTopic(id)?.topic.title ?? id) : '');
+	const nome = (id: string | null) => (id ? (getTopic(id)?.topic.title ?? especialDe(id)?.titulo ?? id) : '');
 </script>
 
 <svelte:head><title>Aula animada: {data.topic.title} · {APP_NAME}</title></svelte:head>
 
 <nav class="crumbs small" aria-label="Caminho">
 	<a href="/aulas">Aulas animadas</a> <span aria-hidden="true">›</span>
+	{#if data.especial}<span>Série especial · História do Brasil</span> <span aria-hidden="true">›</span>{/if}
 	<span>{data.topic.title}</span>
 </nav>
 
@@ -45,11 +47,21 @@
 		<li>A narração é lida pela voz sintetizada do seu aparelho; se preferir, desligue a voz e acompanhe pelas legendas. As vozes “neural” do Edge, do Chrome e do Safari soam mais naturais.</li>
 		<li>Pessoas reais aparecem como <strong>silhuetas com nome</strong>, sem imitar rostos; documentos e jornais são <strong>recriações genéricas</strong> e só mostram trechos conferidos.</li>
 	</ul>
-	<div class="row">
-		{#if data.temApostila}<a class="btn" href="/trilha/{data.topic.id}/apostila">Apostila completa</a>{/if}
-		{#if data.temEstudio}<a class="btn" href="/estudio/{data.topic.id}">Roteiro cena por cena</a>{/if}
-		<a class="btn" href="/trilha/{data.topic.id}">Resumo e questões do tópico</a>
-	</div>
+	{#if data.especial}
+		<div class="row">
+			{#if data.especial.temResumo}<a class="btn primary" href="/aulas/{data.topic.id}/resumo">Resumo aprofundado</a>{/if}
+		</div>
+		<p class="small muted">Tópicos do programa que esta aula aprofunda:</p>
+		<div class="row">
+			{#each data.especial.relacionados as t (t.id)}<a class="btn" href="/trilha/{t.id}">{t.title}</a>{/each}
+		</div>
+	{:else}
+		<div class="row">
+			{#if data.temApostila}<a class="btn" href="/trilha/{data.topic.id}/apostila">Apostila completa</a>{/if}
+			{#if data.temEstudio}<a class="btn" href="/estudio/{data.topic.id}">Roteiro cena por cena</a>{/if}
+			<a class="btn" href="/trilha/{data.topic.id}">Resumo e questões do tópico</a>
+		</div>
+	{/if}
 	{#if data.referencias.length}
 		<details class="refs">
 			<summary class="small">Fontes do conteúdo</summary>

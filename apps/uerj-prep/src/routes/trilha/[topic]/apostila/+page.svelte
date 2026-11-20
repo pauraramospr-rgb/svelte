@@ -63,24 +63,35 @@
 			<!-- conteúdo sanitizado em renderDocument (HTML bruto escapado, links filtrados) -->
 			{@html doc.html}
 		</div>
-
-		{#if partes.mapa}
-			<h2 id="mapa-mental">Mapa mental</h2>
-			<p class="small muted">Leia na ordem dos números: do contexto ao presente.</p>
-			<MindMap title={titulo} markdown={data.apostila.body} />
-		{/if}
-
-		<h2 id="referencias">Referências</h2>
-		<ul class="small refs">
-			{#each data.apostila.references as r, i (i)}
-				{@const m = r.match(/^(.*?)(https?:\/\/\S+?)([.;,)]?)$/)}
-				<li>{#if m}{m[1]}<a href={m[2]} target="_blank" rel="noopener noreferrer">{m[2].replace(/^https?:\/\/(www\.)?/, '').split('/')[0]}</a>{m[3]}{:else}{r}{/if}</li>
-			{/each}
-		</ul>
 	</article>
 </div>
 
+{#if partes.mapa}
+	<section class="card largura-total">
+		<h2 id="mapa-mental">Mapa mental</h2>
+		<p class="small muted">Leia na ordem dos números: do contexto ao presente.</p>
+		<MindMap title={titulo} markdown={data.apostila.body} />
+	</section>
+{/if}
+
+<section class="card largura-total">
+	<h2 id="referencias">Referências</h2>
+	<ul class="small refs">
+		{#each data.apostila.references as r, i (i)}
+			{@const m = r.match(/^(.*?)(https?:\/\/\S+?)([.;,)]?)$/)}
+			<li>{#if m}{m[1]}<a href={m[2]} target="_blank" rel="noopener noreferrer">{m[2].replace(/^https?:\/\/(www\.)?/, '').split('/')[0]}</a>{m[3]}{:else}{r}{/if}</li>
+		{/each}
+	</ul>
+</section>
+
 <style>
+	.largura-total {
+		margin-top: 1.25rem;
+	}
+	.largura-total h2 {
+		margin-top: 0;
+		scroll-margin-top: 1rem;
+	}
 	.crumbs {
 		display: flex;
 		flex-wrap: wrap;

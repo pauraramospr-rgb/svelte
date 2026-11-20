@@ -3,10 +3,36 @@ import type { PageServerLoad } from './$types';
 import { getTopic, topicsOf } from '$lib/domain/syllabus';
 import { getApostila, getAula } from '$lib/producao';
 import { episodiosDoRoteiro, roteiroDe } from '$lib/cinema/aulas';
+import { especiaisProntos, especialDe, resumoEspecial, roteiroEspecial } from '$lib/especiais';
 
 export const load: PageServerLoad = ({ params }) => {
 	const info = getTopic(params.topic);
-	if (!info) error(404, 'Tópico não encontrado no programa oficial de 2027.');
+	if (!info) {
+		// Série especial de História do Brasil (aulas que atravessam vários tópicos).
+		const esp = especialDe(params.topic);
+		const roteiroEsp = esp ? roteiroEspecial(esp.id) : undefined;
+		if (!esp || !roteiroEsp) error(404, 'Aula não encontrada.');
+		const serie = especiaisProntos().map((e) => e.id);
+		const j = serie.indexOf(esp.id);
+		const { episodios } = episodiosDoRoteiro(roteiroEsp);
+		return {
+			modo: 'roteiro' as const,
+			topic: { id: esp.id, title: esp.titulo, subtopics: [] as string[] },
+			discipline: 'HIS',
+			temApostila: false,
+			temEstudio: false,
+			reviewed: roteiroEsp.revisado,
+			referencias: roteiroEsp.referencias,
+			prontos: episodios,
+			episodios: [],
+			vizinhos: { anterior: j > 0 ? serie[j - 1] : null, proximo: j >= 0 && j < serie.length - 1 ? serie[j + 1] : null },
+			especial: {
+				chamada: esp.chamada,
+				temResumo: !!resumoEspecial(esp.id),
+				relacionados: esp.relacionados.map((id) => ({ id, title: getTopic(id)?.topic.title ?? id }))
+			}
+		};
+	}
 	const ordem = topicsOf(info.discipline).map((t) => t.id);
 	const i = ordem.indexOf(params.topic);
 	const vizinhos = { anterior: i > 0 ? ordem[i - 1] : null, proximo: i >= 0 && i < ordem.length - 1 ? ordem[i + 1] : null };
@@ -23,7 +49,8 @@ export const load: PageServerLoad = ({ params }) => {
 			referencias: roteiro.referencias,
 			prontos: episodios,
 			episodios: [],
-			vizinhos
+			vizinhos,
+			especial: null
 		};
 	}
 	const aula = getAula(params.topic);
@@ -38,6 +65,7 @@ export const load: PageServerLoad = ({ params }) => {
 		referencias: aula.references,
 		prontos: [],
 		episodios: aula.episodios.map((e) => ({ numero: e.numero, title: e.title, objetivo: e.objetivo, cenas: e.cenas.map((c) => ({ ...c })) })),
-		vizinhos
+		vizinhos,
+		especial: null
 	};
 };

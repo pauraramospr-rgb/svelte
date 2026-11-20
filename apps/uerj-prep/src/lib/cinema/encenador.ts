@@ -102,6 +102,8 @@ class Ancorador {
 	private frases;
 	private norm: string;
 	private ultimo = 0;
+	/** Âncoras que só existem antes da anterior na narração (o roteiro “volta” no texto). */
+	readonly ordem: string[] = [];
 	readonly duracoes: number[];
 	readonly inicios: number[];
 	constructor(
@@ -118,13 +120,24 @@ class Ancorador {
 	get total() {
 		return this.frases.length;
 	}
-	momento(anc: Ancora | undefined, padrao: Momento): Momento {
+	/**
+	 * @param item âncora de um item (lista, linha, tabela…): se a frase só aparece antes da âncora
+	 * anterior, o item entra logo depois do anterior (`padrao`), em vez de voltar no tempo e aparecer
+	 * fora de ordem ou antes de ser narrado.
+	 */
+	momento(anc: Ancora | undefined, padrao: Momento, quem = '', item = false): Momento {
 		if (!anc) return padrao;
 		if (/^#\d+$/.test(anc.frase)) return { s: Math.min(this.total - 1, Number(anc.frase.slice(1))), f: 0, d: anc.desloc };
 		if (anc.frase === 'inicio') return { s: 0, f: 0, d: anc.desloc };
 		const alvo = normalizar(anc.frase);
 		let pos = this.norm.indexOf(alvo, this.ultimo);
-		if (pos < 0) pos = this.norm.indexOf(alvo);
+		if (pos < 0) {
+			pos = this.norm.indexOf(alvo);
+			if (pos >= 0) {
+				this.ordem.push(`âncora fora de ordem${item ? ' (item)' : ''} em "${quem}": "${anc.frase}"`);
+				if (item) return padrao;
+			}
+		}
 		if (pos < 0) {
 			this.avisos.push(`âncora não encontrada na narração: "${anc.frase}"`);
 			return padrao;
@@ -159,6 +172,8 @@ interface Bloco {
 export interface Encenada {
 	animada: CenaAnimada;
 	avisos: string[];
+	/** Âncoras que voltam na narração (não quebram a cena, mas indicam roteiro fora de ordem). */
+	ordem: string[];
 }
 
 export function encenar(cena: CenaRoteiro): Encenada {
@@ -198,14 +213,14 @@ export function encenar(cena: CenaRoteiro): Encenada {
 		// do Momento UERJ): entra junto do primeiro item, e não logo depois do quadro anterior —
 		// senão apagaria cedo demais a citação ou o documento que ainda está sendo lido.
 		const pelaPrimeira = !primeiro && !d.ancora && PRINCIPAIS.has(d.tipo) && d.itens[0]?.ancora;
-		const m = pelaPrimeira ? mais(anc.momento(d.itens[0].ancora, padrao), -0.4) : anc.momento(d.ancora, padrao);
+		const m = pelaPrimeira ? mais(anc.momento(d.itens[0].ancora, padrao, d.tipo), -0.4) : anc.momento(d.ancora, padrao, d.tipo);
 		momentoDe.set(d, m);
 		primeiro = false;
 		anterior = m;
 		let ult = m;
 		const its: Momento[] = [];
 		d.itens.forEach((it, i) => {
-			const mi = anc.momento(it.ancora, i === 0 ? mais(m, 0.4) : mais(ult, 1.4));
+			const mi = anc.momento(it.ancora, i === 0 ? mais(m, 0.4) : mais(ult, 1.4), d.tipo, true);
 			its.push(mi);
 			ult = mi;
 		});
@@ -642,7 +657,8 @@ export function encenar(cena: CenaRoteiro): Encenada {
 					return { rotulo: k > 0 && k < 24 ? it.texto.slice(0, k).trim() : undefined, texto: k > 0 && k < 24 ? it.texto.slice(k + 1).trim() : it.texto, a: anim((momentosItens.get(d) ?? [])[j] ?? m, 'up') };
 				});
 				const w = Math.min(r.w, 1150);
-				elementos.push({ k: 'uerj', x: centroX(w), y: r.y, w, h: r.h, titulo: semAspas(d.args), partes: partesU, fixo, a: anim(m, 'fade', saida) });
+				// Fica acima da legenda de duas linhas (o painel ocupa a altura toda da região).
+				elementos.push({ k: 'uerj', x: centroX(w), y: r.y, w, h: r.h - 45, titulo: semAspas(d.args), partes: partesU, fixo, a: anim(m, 'fade', saida) });
 				break;
 			}
 			case 'balanca': {
@@ -661,7 +677,7 @@ export function encenar(cena: CenaRoteiro): Encenada {
 	}
 
 	const animada: CenaAnimada = { fundo: fundoCena, transicao, elementos, camera: cameras.length ? cameras : undefined };
-	return { animada, avisos };
+	return { animada, avisos, ordem: anc.ordem };
 }
 
 function fundoClaro(f: Fundo): boolean {
