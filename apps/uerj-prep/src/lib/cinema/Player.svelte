@@ -2,11 +2,13 @@
 	import { onDestroy, onMount, untrack } from 'svelte';
 	import Icon from '$lib/components/Icon.svelte';
 	import Palco from './Palco.svelte';
-	import type { EpisodioTocavel } from './aulas';
+	import type { CenaTocavel, EpisodioTocavel } from './aulas';
 	import type { Cronograma } from './tempo';
 	import { cronograma, formatarTempo, instante } from './tempo';
 	import { Trilha } from './som';
-	import { aoMudarVozes, calar, destravar, falar, temVoz, vozesPortugues, type OpcaoVoz } from './voz';
+	import { aoMudarVozes, calar, destravar, falar, temVoz, totalDeVozes, vozesPortugues, type OpcaoVoz } from './voz';
+	import { cronogramaGravado, ENTRADA_AUDIO, type Gravacao } from './gravacoes';
+	import { Narrador, sessaoDeReproducao, urlDaGravacao } from './narrador';
 
 	let { episodios, inicial = 0 }: { episodios: EpisodioTocavel[]; inicial?: number } = $props();
 
@@ -33,20 +35,51 @@
 	let movimento = $state(true);
 	let calib = $state(1);
 	let calibCena = $state(1);
+	/** O navegador lista zero vozes (alguns apps): a fala usa a voz padrão do sistema em português. */
+	let semLista = $state(false);
+	/** A voz sintetizada não chegou a falar neste aparelho: a aula segue só com legendas. */
+	let vozMuda = $state(false);
+	let ios = $state(false);
+
+	// ——— Narração gravada (voz do ElevenLabs) ———
+	let narrador: Narrador | null = null;
+	/** O navegador recusou o áudio gravado: volta para a voz sintetizada. */
+	let gravFalhou = $state(false);
+	/** O navegador pediu um toque antes de tocar som (o player pausou). */
+	let bloqueado = $state(false);
+	/** A gravação da cena atual já tocou até o fim. */
+	let fimDoAudio = false;
 
 	let caixa: HTMLDivElement | undefined = $state();
 	let telaCheia = $state(false);
 
+	/** Gravação que pode tocar nesta cena (existe, tem arquivo e o navegador aceita áudio gravado). */
+	function gravacaoTocavel(c: CenaTocavel): Gravacao | null {
+		return !gravFalhou && !c.abertura && c.gravacao && urlDaGravacao(c.gravacao.arquivo) ? c.gravacao : null;
+	}
+
 	const ep = $derived(episodios[epIdx]);
 	const cena = $derived(ep.cenas[cenaIdx]);
+	const grav = $derived(gravacaoTocavel(cena));
+	const urlGrav = $derived(grav ? (urlDaGravacao(grav.arquivo) ?? '') : '');
 	const crono = $derived.by((): Cronograma => {
 		if (cena.abertura || !cena.narracao) return { frases: [], inicios: [], duracoes: [], total: cena.animada.duracao ?? 5 };
+		if (grav) return cronogramaGravado(cena.narracao, grav);
 		return cronograma(cena.narracao, calibCena);
 	});
-	const vozAtiva = $derived(narracao && suporteVoz && vozes.length > 0);
+	const vozAtiva = $derived(narracao && !grav && suporteVoz && !vozMuda && (vozes.length > 0 || semLista));
 	/** Quadro mostrado na prévia: depois da primeira frase (ou o título, na abertura). */
 	const tPrevia = $derived((crono.inicios[1] ?? crono.total * 0.55) + 0.6);
-	const duracoes = $derived(ep.cenas.map((c) => (c.abertura ? (c.animada.duracao ?? 5) : cronograma(c.narracao, calib).total)));
+	const duracoes = $derived(
+		ep.cenas.map((c) => {
+			if (c.abertura) return c.animada.duracao ?? 5;
+			const g = gravacaoTocavel(c);
+			return g ? cronogramaGravado(c.narracao, g).total : cronograma(c.narracao, calib).total;
+		})
+	);
+	const cenasFaladas = $derived(episodios.flatMap((e) => e.cenas.filter((c) => !c.abertura && c.narracao)));
+	const gravadas = $derived(cenasFaladas.filter((c) => c.gravacao));
+	const todasGravadas = $derived(gravadas.length > 0 && gravadas.length === cenasFaladas.length && !gravFalhou);
 
 	// ——— Fala em andamento (fora do estado reativo) ———
 	type Corrente = {
@@ -60,6 +93,8 @@
 		ch: number;
 		quando: number;
 		seguranca: ReturnType<typeof setTimeout>;
+		/** O navegador avisou que a fala começou. */
+		comecou: boolean;
 	};
 	let corrente: Corrente | null = null;
 	let faladas = new Set<number>();
@@ -133,6 +168,22 @@
 		return lista;
 	});
 
+	/** Posição (s) em que o áudio gravado deveria estar tocando agora, ou null se deve ficar parado. */
+	function posicaoDoAudio(): number | null {
+		if (!narrador || !tocando || !narracao || !grav || fimDoAudio) return null;
+		const pos = t - ENTRADA_AUDIO;
+		if (pos < 0 || pos >= grav.dur - 0.08) return null;
+		return pos;
+	}
+
+	/** Põe o elemento de áudio no estado que a cena pede (barato: chamado a cada quadro). */
+	function sincronizarAudio(buscar = false) {
+		if (!narrador) return;
+		const pos = posicaoDoAudio();
+		if (pos === null) narrador.pausar();
+		else narrador.tocar(urlGrav, pos, velocidade, buscar);
+	}
+
 	function pararFala() {
 		if (corrente) {
 			clearTimeout(corrente.seguranca);
@@ -149,7 +200,7 @@
 		const c = crono;
 		const frase = c.frases[i];
 		const partes = pedacos(frase);
-		const estado: Corrente = { indice: i, terminou: false, cancelar: () => {}, inicio: performance.now(), base: 0, ch: -1, quando: 0, seguranca: 0 as unknown as ReturnType<typeof setTimeout> };
+		const estado: Corrente = { indice: i, terminou: false, cancelar: () => {}, inicio: performance.now(), base: 0, ch: -1, quando: 0, seguranca: 0 as unknown as ReturnType<typeof setTimeout>, comecou: false };
 		corrente = estado;
 		falando = true;
 		limite = -1;
@@ -160,6 +211,11 @@
 			if (corrente === estado) {
 				falando = false;
 				limite = -1;
+			}
+			// Sem lista de vozes e sem nenhum sinal de fala: o aparelho não tem voz; segue com legendas.
+			if (!estado.comecou && semLista) {
+				vozMuda = true;
+				return;
 			}
 			const real = (performance.now() - estado.inicio) / 1000;
 			if (real > 0.8) {
@@ -181,9 +237,13 @@
 					} else fim();
 				},
 				aoLimite: (ch) => {
+					estado.comecou = true;
 					estado.ch = estado.base + ch;
 					estado.quando = performance.now();
 					limite = estado.ch;
+				},
+				aoComecar: () => {
+					estado.comecou = true;
 				}
 			});
 			estado.cancelar = f.cancelar;
@@ -192,38 +252,69 @@
 		estado.seguranca = setTimeout(fim, ((c.duracoes[i] / velocidade) * 2.6 + 3) * 1000);
 	}
 
+	/** Narração gravada: o relógio da cena segue o áudio (e espera enquanto ele carrega). */
+	function relogioGravado(dt: number): number {
+		let novo = t + dt * velocidade;
+		const n = narrador;
+		if (n && narracao && !fimDoAudio && n.usando(urlGrav) && !n.el.paused) {
+			const alvo = ENTRADA_AUDIO + n.el.currentTime;
+			const erro = alvo - novo;
+			if (erro > 0.4) novo = alvo;
+			else if (erro < -0.4) novo = t;
+			else novo += erro * Math.min(1, dt * 4);
+			if (novo < t) novo = t;
+		}
+		return novo;
+	}
+
+	/** Voz sintetizada: o relógio persegue a posição estimada da fala. */
+	function relogioSintetizado(dt: number, c: Cronograma): number {
+		let novo = t;
+		if (!corrente || !vozAtiva) return novo + dt * velocidade;
+		if (!corrente.comecou && !corrente.terminou && semLista && performance.now() - corrente.inicio > 4000) {
+			// Nenhum sinal de fala em 4 s e nenhuma voz listada: o aparelho não tem voz sintetizada.
+			vozMuda = true;
+			pararFala();
+			return novo + dt * velocidade;
+		}
+		const f = corrente.indice;
+		const ini = c.inicios[f];
+		const dur = c.duracoes[f];
+		const fimFrase = ini + dur;
+		if (!corrente.terminou) {
+			const agora = performance.now();
+			const esperado = dur / velocidade;
+			let prog = (agora - corrente.inicio) / 1000 / esperado;
+			if (corrente.ch >= 0) {
+				const len = Math.max(1, c.frases[f].length);
+				const pb = corrente.ch / len + (agora - corrente.quando) / 1000 / esperado;
+				prog = Math.max(Math.min(prog, pb + 0.08), pb);
+			}
+			const alvo = ini + dur * Math.min(0.97, Math.max(0, prog));
+			const passo = Math.min((alvo - novo) * Math.min(1, dt * 5), dt * velocidade * 1.8);
+			if (passo > 0) novo += passo;
+		} else {
+			novo += dt * velocidade * (novo < fimFrase - 0.02 ? 1.7 : 1);
+			if (novo >= fimFrase) corrente = null;
+		}
+		return novo;
+	}
+
 	/**
-	 * Relógio suave: enquanto a voz fala, o tempo da cena persegue a posição estimada da fala
-	 * (pelos limites de palavra, quando o navegador informa, ou pelo tempo decorrido), sem congelar nem dar saltos.
+	 * Relógio suave: com voz gravada, o tempo da cena segue o áudio; com voz sintetizada, persegue a
+	 * posição estimada da fala (pelos limites de palavra, quando o navegador informa, ou pelo tempo
+	 * decorrido), sem congelar nem dar saltos.
 	 */
 	function avancar(dt: number) {
 		const c = crono;
 		const antes = t;
-		let novo = t;
-		if (corrente && vozAtiva) {
-			const f = corrente.indice;
-			const ini = c.inicios[f];
-			const dur = c.duracoes[f];
-			const fimFrase = ini + dur;
-			if (!corrente.terminou) {
-				const agora = performance.now();
-				const esperado = dur / velocidade;
-				let prog = (agora - corrente.inicio) / 1000 / esperado;
-				if (corrente.ch >= 0) {
-					const len = Math.max(1, c.frases[f].length);
-					const pb = corrente.ch / len + (agora - corrente.quando) / 1000 / esperado;
-					prog = Math.max(Math.min(prog, pb + 0.08), pb);
-				}
-				const alvo = ini + dur * Math.min(0.97, Math.max(0, prog));
-				const passo = Math.min((alvo - novo) * Math.min(1, dt * 5), dt * velocidade * 1.8);
-				if (passo > 0) novo += passo;
-			} else {
-				novo += dt * velocidade * (novo < fimFrase - 0.02 ? 1.7 : 1);
-				if (novo >= fimFrase) corrente = null;
-			}
-		} else novo += dt * velocidade;
-		t = novo;
-		if (vozAtiva && !corrente) {
+		t = grav ? relogioGravado(dt) : relogioSintetizado(dt, c);
+		if (grav) {
+			sincronizarAudio();
+			const n = narrador;
+			const fala = narracao && !!n && n.usando(urlGrav) && !n.el.paused && t >= (c.inicios[0] ?? 0) - 0.05 && t <= ENTRADA_AUDIO + grav.fim;
+			if (fala !== falando) falando = fala;
+		} else if (vozAtiva && !corrente) {
 			const i = indiceFrase(c, t);
 			if (i >= 0 && !faladas.has(i)) iniciarFala(i);
 		}
@@ -260,11 +351,16 @@
 			t = 0;
 			faladas = new Set();
 		}
+		bloqueado = false;
+		// Tudo dentro do toque do aluno: libera o som no iPhone, no iPad e no Android.
+		sessaoDeReproducao();
 		destravar();
+		narrador?.destravar();
 		trilha.musicaLigada = musica;
 		trilha.iniciar();
 		trilha.definirHumor(cena.animada.fundo);
 		tocando = true;
+		sincronizarAudio(true);
 		rodar();
 	}
 
@@ -276,6 +372,7 @@
 			t = crono.inicios[corrente.indice];
 		}
 		pararFala();
+		narrador?.pausar();
 		trilha.pausar();
 	}
 
@@ -286,6 +383,8 @@
 
 	function irParaCena(e: number, c: number, continuar = tocando) {
 		pararFala();
+		narrador?.pausar();
+		fimDoAudio = false;
 		epIdx = e;
 		cenaIdx = c;
 		calibCena = calib;
@@ -293,6 +392,7 @@
 		faladas = new Set();
 		terminou = false;
 		previa = !continuar;
+		if (urlGrav) narrador?.preparar(urlGrav);
 		trilha.definirHumor(episodios[e].cenas[c].animada.fundo);
 		if (continuar) {
 			tocando = false;
@@ -304,6 +404,7 @@
 		if (cenaIdx < ep.cenas.length - 1) irParaCena(epIdx, cenaIdx + 1, automatico ? true : tocando);
 		else if (automatico) {
 			pararFala();
+			narrador?.pausar();
 			tocando = false;
 			terminou = true;
 			trilha.pausar();
@@ -325,6 +426,8 @@
 		t = novo;
 		previa = false;
 		terminou = false;
+		fimDoAudio = false;
+		sincronizarAudio(true);
 	}
 
 	function frasePasso(delta: number) {
@@ -390,6 +493,7 @@
 				faladas.add(f);
 			}
 		}
+		sincronizarAudio(true);
 	}
 
 	function trocarVoz(id: string) {
@@ -409,6 +513,25 @@
 
 	onMount(() => {
 		suporteVoz = temVoz();
+		ios = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+		narrador = new Narrador();
+		narrador.aoAcabar = () => {
+			fimDoAudio = true;
+		};
+		narrador.aoBloquear = () => {
+			if (!tocando) return;
+			pausar();
+			bloqueado = true;
+		};
+		narrador.aoFalhar = () => {
+			// O navegador recusou o áudio gravado: a cena passa para a linha do tempo da voz sintetizada,
+			// recomeçando a frase em que estava.
+			const i = indiceFrase(crono, t);
+			gravFalhou = true;
+			const c = crono;
+			t = i >= 0 ? (c.inicios[Math.min(i, c.inicios.length - 1)] ?? 0) : Math.min(t, 0.8);
+			faladas = new Set(Array.from({ length: Math.max(0, i) }, (_, k) => k));
+		};
 		movimento = !window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
 		let salva = '';
 		try {
@@ -421,6 +544,7 @@
 			(window as unknown as { __cinema: unknown }).__cinema = {
 				ir(e: number, id: string, tempo: number, relogio = tempo) {
 					pararFala();
+					narrador?.pausar();
 					tocando = false;
 					epIdx = e;
 					cenaIdx = Math.max(0, episodios[e].cenas.findIndex((c) => c.id === id));
@@ -435,6 +559,7 @@
 		}
 		const atualizar = () => {
 			vozes = vozesPortugues();
+			semLista = suporteVoz && totalDeVozes() === 0;
 			if (!vozes.find((v) => v.id === vozId)) vozId = vozes.find((v) => v.id === salva)?.id ?? vozes[0]?.id ?? '';
 		};
 		atualizar();
@@ -455,6 +580,7 @@
 	onDestroy(() => {
 		if (raf) cancelAnimationFrame(raf);
 		pararFala();
+		narrador?.encerrar();
 		trilha.encerrar();
 	});
 
@@ -479,7 +605,7 @@
 		{#if legendas && legenda && !previa}
 			<p class="legenda" aria-live="off">{legenda}</p>
 		{/if}
-		{#if previa || terminou}
+		{#if previa || terminou || bloqueado}
 			<div class="capa">
 				{#if terminou}
 					<p class="eyebrow">Fim do episódio {ep.numero}</p>
@@ -492,7 +618,7 @@
 				{:else}
 					<button class="grande" onclick={tocar}>
 						<Icon name="play" size={20} />
-						<span>{cenaIdx === 0 ? `Assistir ao episódio ${ep.numero}` : `Continuar · cena ${cena.id}`}</span>
+						<span>{bloqueado ? 'Toque para continuar com som' : cenaIdx === 0 ? `Assistir ao episódio ${ep.numero}` : `Continuar · cena ${cena.id}`}</span>
 					</button>
 				{/if}
 			</div>
@@ -530,7 +656,7 @@
 			</span>
 			<span class="espaco"></span>
 			<button class="ic" class:off={!legendas} onclick={() => (legendas = !legendas)} aria-pressed={legendas} aria-label="Legendas" title="Legendas (C)"><Icon name="cc" /></button>
-			<button class="ic" class:off={!narracao || !vozAtiva} onclick={trocarNarracao} aria-pressed={narracao} aria-label="Narração por voz" title="Narração por voz"><Icon name="voice" /></button>
+			<button class="ic" class:off={!narracao || (!vozAtiva && !grav)} onclick={trocarNarracao} aria-pressed={narracao} aria-label="Narração por voz" title="Narração por voz"><Icon name="voice" /></button>
 			<button class="ic" class:off={!musica} onclick={trocarMusica} aria-pressed={musica} aria-label="Trilha sonora" title="Trilha sonora"><Icon name="music" /></button>
 			<label class="vel">
 				<span class="sr-only">Velocidade</span>
@@ -548,20 +674,40 @@
 
 <div class="painel">
 	<div class="voz">
-		{#if !suporteVoz}
-			<p class="small muted">Este navegador não oferece voz sintetizada. A aula segue com legendas; tente o Chrome, o Edge ou o Safari para ouvir a narração.</p>
-		{:else if vozes.length === 0}
-			<p class="small muted">Nenhuma voz em português foi encontrada neste aparelho. A aula segue com legendas. No Windows, instale “Português (Brasil)” em Configurações › Hora e idioma › Fala.</p>
-		{:else}
-			<label class="small">
-				<strong>Voz do professor</strong>
-				<select value={vozId} onchange={(e) => trocarVoz((e.currentTarget as HTMLSelectElement).value)}>
-					{#each vozes as v (v.id)}
-						<option value={v.id}>{v.nome} ({v.lang}){v.natural ? ' — neural' : ''}</option>
-					{/each}
-				</select>
-			</label>
-			<p class="small muted">A voz é a do seu aparelho. As vozes marcadas como “neural” (Edge, Chrome, Safari recentes) soam mais naturais.</p>
+		{#if gravadas.length && !gravFalhou}
+			<p class="small gravada">
+				<strong>Voz gravada (ElevenLabs)</strong> —
+				{todasGravadas ? 'esta aula inteira toca' : 'as cenas marcadas com “voz gravada” tocam'} em qualquer aparelho: computador, iPhone, iPad e Android, inclusive com o modo silencioso ligado.
+			</p>
+		{/if}
+		{#if gravFalhou}
+			<p class="small muted">Este navegador recusou o áudio gravado; a aula seguiu com a voz sintetizada do aparelho.</p>
+		{/if}
+		{#if !todasGravadas}
+			{#if !suporteVoz}
+				<p class="small muted">
+					Este navegador não oferece voz sintetizada — é o caso do app do Claude no Android. {gravadas.length && !gravFalhou ? 'As cenas com voz gravada tocam normalmente; nas demais, a' : 'A'} aula segue com legendas. Para ouvir a narração, abra a página no Chrome ou no Safari.
+				</p>
+			{:else if vozMuda}
+				<p class="small muted">A voz sintetizada não respondeu neste aparelho; a aula segue com legendas.</p>
+			{:else if vozes.length === 0 && semLista}
+				<p class="small muted">O aparelho não informou a lista de vozes; a narração usa a voz padrão do sistema em português.</p>
+			{:else if vozes.length === 0}
+				<p class="small muted">Nenhuma voz em português foi encontrada neste aparelho. A aula segue com legendas. No Windows, instale “Português (Brasil)” em Configurações › Hora e idioma › Fala.</p>
+			{:else}
+				<label class="small">
+					<strong>{gravadas.length && !gravFalhou ? 'Voz das cenas sem gravação' : 'Voz do professor'}</strong>
+					<select value={vozId} onchange={(e) => trocarVoz((e.currentTarget as HTMLSelectElement).value)}>
+						{#each vozes as v (v.id)}
+							<option value={v.id}>{v.nome} ({v.lang}){v.natural ? ' — neural' : ''}</option>
+						{/each}
+					</select>
+				</label>
+				<p class="small muted">A voz sintetizada é a do seu aparelho. As vozes marcadas como “neural” (Edge, Chrome, Safari recentes) soam mais naturais.</p>
+			{/if}
+			{#if ios && suporteVoz}
+				<p class="small muted">No iPhone e no iPad, a voz sintetizada fica muda com o modo silencioso: desligue-o (chave lateral ou Central de Controle) e aumente o volume.</p>
+			{/if}
 		{/if}
 	</div>
 
@@ -582,7 +728,10 @@
 						<span class="num mono">{c.id}</span>
 						<span class="t">{c.titulo}</span>
 						<span class="d mono">{formatarTempo(duracoes[i])}</span>
-						<span class="selo" class:auto={!c.sobMedida}>{c.sobMedida ? 'animação completa' : 'encenação automática'}</span>
+						<span class="selos">
+							<span class="selo" class:auto={!c.sobMedida}>{c.sobMedida ? 'animação completa' : 'encenação automática'}</span>
+							{#if gravacaoTocavel(c)}<span class="selo voz-gravada">voz gravada</span>{/if}
+						</span>
 					</button>
 				</li>
 			{/if}
@@ -865,9 +1014,13 @@
 		font-size: 0.78rem;
 		color: var(--muted);
 	}
-	.capitulos .selo {
+	.capitulos .selos {
 		grid-column: 2 / -1;
-		justify-self: start;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.3rem;
+	}
+	.capitulos .selo {
 		font-size: 0.7rem;
 		font-weight: 700;
 		padding: 0.05rem 0.5rem;
@@ -878,6 +1031,17 @@
 	.capitulos .selo.auto {
 		background: var(--warn-soft);
 		color: var(--warn);
+	}
+	.capitulos .selo.voz-gravada {
+		background: var(--primary-soft);
+		color: var(--primary);
+	}
+	.voz .gravada {
+		margin: 0 0 0.35rem;
+		padding: 0.55rem 0.75rem;
+		border-radius: 10px;
+		background: var(--primary-soft);
+		line-height: 1.45;
 	}
 	.transcricao summary {
 		cursor: pointer;

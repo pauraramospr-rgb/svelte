@@ -19,7 +19,7 @@
 
 <nav class="crumbs small" aria-label="Caminho">
 	<a href="/aulas">Aulas animadas</a> <span aria-hidden="true">›</span>
-	{#if data.especial}<span>Série especial · História do Brasil</span> <span aria-hidden="true">›</span>{/if}
+	{#if data.especial}<span>Série especial · {data.especial.grupo}</span> <span aria-hidden="true">›</span>{/if}
 	<span>{data.topic.title}</span>
 </nav>
 

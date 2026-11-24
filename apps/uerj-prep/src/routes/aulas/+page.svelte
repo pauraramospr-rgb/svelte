@@ -26,17 +26,18 @@
 	</p>
 </header>
 
-{#if data.especiais.length}
-	<section class="grupo serie" aria-labelledby="g-serie">
-		<h2 id="g-serie">Série especial · História do Brasil para a UERJ</h2>
+{#each data.serie as g (g.grupo)}
+	<section class="grupo serie" aria-labelledby="g-serie-{g.grupo}">
+		<h2 id="g-serie-{g.grupo}">Série especial · {g.nome} para a UERJ</h2>
 		<p class="small muted chamada-serie">
 			Aulas longas e aprofundadas, que atravessam vários tópicos do programa, cada uma com um resumo aprofundado para ler e revisar.
 		</p>
 		<div class="lista">
-			{#each data.especiais as a (a.id)}
+			{#each g.aulas as a (a.id)}
 				<article class="card aula">
 					<p class="eyebrow">{a.partes.length} {a.partes.length === 1 ? 'parte' : 'partes'} · cerca de {min(a.duracaoSeg)} min</p>
 					<h3>{a.titulo}</h3>
+					{#if a.vozGravada !== 'nao'}<p class="selo-voz small">{a.vozGravada === 'toda' ? 'Voz gravada (ElevenLabs): toca em qualquer aparelho' : 'Parte das cenas com voz gravada (ElevenLabs)'}</p>{/if}
 					<p class="small muted">{a.chamada}</p>
 					<ol class="eps">
 						{#each a.partes as e (e.numero)}
@@ -51,7 +52,7 @@
 			{/each}
 		</div>
 	</section>
-{/if}
+{/each}
 
 {#each grupos as g (g.codigo)}
 	<section class="grupo" aria-labelledby="g-{g.codigo}">
@@ -81,6 +82,15 @@
 	.grupo h2 {
 		font-family: var(--display);
 		margin: 1.5rem 0 0.75rem;
+	}
+	.selo-voz {
+		justify-self: start;
+		margin: 0;
+		padding: 0.15rem 0.6rem;
+		border-radius: 999px;
+		background: var(--primary-soft);
+		color: var(--primary);
+		font-weight: 700;
 	}
 	.chamada-serie {
 		margin: -0.4rem 0 0.9rem;

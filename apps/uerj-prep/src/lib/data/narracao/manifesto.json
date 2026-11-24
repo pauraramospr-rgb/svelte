@@ -1,0 +1,13 @@
+[
+	{"aula": "esp-golpe-da-maioridade", "cena": "1.1", "hash": "4eb6bea1", "arquivo": "esp-golpe-da-maioridade/1.1.mp3", "dur": 43.494, "marcas": [0.0, 5.48, 9.36, 15.7, 18.66, 23.99, 35.37, 37.36], "fim": 43.15, "voz": "ElevenLabs"},
+	{"aula": "esp-golpe-da-maioridade", "cena": "1.2", "hash": "924bd151", "arquivo": "esp-golpe-da-maioridade/1.2.mp3", "dur": 48.118, "marcas": [0.08, 3.81, 17.65, 19.58, 29.77, 32.26, 41.72], "fim": 47.72, "voz": "ElevenLabs"},
+	{"aula": "esp-golpe-da-maioridade", "cena": "1.3", "hash": "2c875a70", "arquivo": "esp-golpe-da-maioridade/1.3.mp3", "dur": 39.34, "marcas": [0.0, 6.92, 18.27, 20.03, 24.22, 25.54, 36.05], "fim": 38.93, "voz": "ElevenLabs"},
+	{"aula": "esp-golpe-da-maioridade", "cena": "2.1", "hash": "1f28b42f", "arquivo": "esp-golpe-da-maioridade/2.1.mp3", "dur": 46.968, "marcas": [0.07, 12.78, 17.92, 25.57, 32.46, 38.77], "fim": 46.56, "voz": "ElevenLabs"},
+	{"aula": "esp-golpe-da-maioridade", "cena": "2.2", "hash": "645deef3", "arquivo": "esp-golpe-da-maioridade/2.2.mp3", "dur": 44.278, "marcas": [0.0, 1.3, 4.49, 19.4, 26.32, 34.86, 42.48], "fim": 43.75, "voz": "ElevenLabs"},
+	{"aula": "esp-golpe-da-maioridade", "cena": "2.3", "hash": "538c9d4f", "arquivo": "esp-golpe-da-maioridade/2.3.mp3", "dur": 48.588, "marcas": [0.0, 2.07, 11.93, 14.92, 16.49, 22.12, 33.07, 37.44, 44.2], "fim": 48.28, "voz": "ElevenLabs"},
+	{"aula": "esp-golpe-da-maioridade", "cena": "3.1", "hash": "9c4a63a2", "arquivo": "esp-golpe-da-maioridade/3.1.mp3", "dur": 34.56, "marcas": [0.0, 9.91, 19.83, 21.65, 31.05], "fim": 34.35, "voz": "ElevenLabs"},
+	{"aula": "esp-golpe-da-maioridade", "cena": "3.2", "hash": "1a14a0fb", "arquivo": "esp-golpe-da-maioridade/3.2.mp3", "dur": 46.681, "marcas": [0.0, 6.14, 11.18, 25.67, 29.22, 38.96], "fim": 46.26, "voz": "ElevenLabs"},
+	{"aula": "esp-golpe-da-maioridade", "cena": "3.3", "hash": "ef58b897", "arquivo": "esp-golpe-da-maioridade/3.3.mp3", "dur": 48.039, "marcas": [0.0, 1.96, 9.93, 15.36, 26.32, 33.56, 38.72, 42.34], "fim": 47.6, "voz": "ElevenLabs"},
+	{"aula": "esp-golpe-da-maioridade", "cena": "3.4", "hash": "54215ca2", "arquivo": "esp-golpe-da-maioridade/3.4.mp3", "dur": 49.11, "marcas": [0.0, 3.85, 13.48, 18.06, 31.1, 40.58], "fim": 48.64, "voz": "ElevenLabs"},
+	{"aula": "esp-golpe-da-maioridade", "cena": "3.5", "hash": "3a5f8b46", "arquivo": "esp-golpe-da-maioridade/3.5.mp3", "dur": 39.34, "marcas": [0.0, 2.12, 6.47, 7.89, 18.03, 24.49, 30.91], "fim": 38.91, "voz": "ElevenLabs"}
+]

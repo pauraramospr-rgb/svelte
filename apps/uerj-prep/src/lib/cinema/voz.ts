@@ -38,6 +38,11 @@ function pontuar(v: SpeechSynthesisVoice): number {
 	return p;
 }
 
+/** Quantas vozes o navegador lista. Alguns apps (WebViews) não listam nenhuma e ainda assim falam com a voz padrão do sistema. */
+export function totalDeVozes(): number {
+	return todas().length;
+}
+
 /** Vozes em português, da melhor para a pior. */
 export function vozesPortugues(): OpcaoVoz[] {
 	return todas()

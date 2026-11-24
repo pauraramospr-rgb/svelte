@@ -3,7 +3,7 @@ import type { PageServerLoad } from './$types';
 import { getTopic, topicsOf } from '$lib/domain/syllabus';
 import { getApostila, getAula } from '$lib/producao';
 import { episodiosDoRoteiro, roteiroDe } from '$lib/cinema/aulas';
-import { especiaisProntos, especialDe, resumoEspecial, roteiroEspecial } from '$lib/especiais';
+import { GRUPOS_SERIE, especiaisProntos, especialDe, resumoEspecial, roteiroEspecial } from '$lib/especiais';
 
 export const load: PageServerLoad = ({ params }) => {
 	const info = getTopic(params.topic);
@@ -12,7 +12,7 @@ export const load: PageServerLoad = ({ params }) => {
 		const esp = especialDe(params.topic);
 		const roteiroEsp = esp ? roteiroEspecial(esp.id) : undefined;
 		if (!esp || !roteiroEsp) error(404, 'Aula não encontrada.');
-		const serie = especiaisProntos().map((e) => e.id);
+		const serie = especiaisProntos(esp.grupo).map((e) => e.id);
 		const j = serie.indexOf(esp.id);
 		const { episodios } = episodiosDoRoteiro(roteiroEsp);
 		return {
@@ -27,6 +27,7 @@ export const load: PageServerLoad = ({ params }) => {
 			episodios: [],
 			vizinhos: { anterior: j > 0 ? serie[j - 1] : null, proximo: j >= 0 && j < serie.length - 1 ? serie[j + 1] : null },
 			especial: {
+				grupo: GRUPOS_SERIE[esp.grupo],
 				chamada: esp.chamada,
 				temResumo: !!resumoEspecial(esp.id),
 				relacionados: esp.relacionados.map((id) => ({ id, title: getTopic(id)?.topic.title ?? id }))

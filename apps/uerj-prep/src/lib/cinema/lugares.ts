@@ -72,6 +72,20 @@ export const LUGARES: Record<string, [number, number]> = {
 	Kursk: [36.19, 51.73], Leningrado: [30.32, 59.94], 'Monte Castello': [10.93, 44.21], Montese: [10.94, 44.27], Fornovo: [10.1, 44.69], Pistoia: [10.92, 43.93], Bolonha: [11.34, 44.49], Ialta: [34.16, 44.5], Potsdam: [13.06, 52.39], Guernica: [-2.68, 43.31],
 	Okinawa: [127.8, 26.3], 'Iwo Jima': [141.32, 24.78], 'Vale do Paraíba': [-45.2, -22.75], 'Oeste Paulista': [-47.9, -22.2], 'Cerro Corá': [-56.0, -22.65],
 	Humaitá: [-58.5, -27.07], Corrientes: [-58.83, -27.47], Itu: [-47.3, -23.26],
+	// Regências, Maioridade e Farroupilha
+	Sorocaba: [-47.46, -23.5], Barbacena: [-43.77, -21.23], 'Santa Luzia': [-43.85, -19.77], Saquarema: [-42.51, -22.92], Caxias: [-43.36, -4.86],
+	Carrancas: [-44.64, -21.48], Vassouras: [-43.66, -22.4], 'Paty do Alferes': [-43.42, -22.43], Piratini: [-53.1, -31.45], Caçapava: [-53.49, -30.51],
+	Alegrete: [-55.79, -29.78], Pelotas: [-52.34, -31.77], 'Rio Grande': [-52.1, -32.03], 'Rio Pardo': [-52.37, -29.99], Bagé: [-54.1, -31.33],
+	Porongos: [-53.38, -31.58], 'Ponche Verde': [-54.67, -30.98], 'Dom Pedrito': [-54.67, -30.98], Lages: [-50.33, -27.82],
+	// Revolução Cubana
+	'Santiago de Cuba': [-75.82, 20.02], 'Sierra Maestra': [-76.85, 20.0], Guantánamo: [-75.15, 19.92], Miami: [-80.19, 25.76], 'Punta del Este': [-54.95, -34.96],
+	Tuxpan: [-97.4, 20.95], 'Las Coloradas': [-77.65, 19.85], 'Santa Clara': [-79.96, 22.41], 'La Higuera': [-64.21, -18.79],
+	// Irã, Golfo e Primavera Árabe
+	Qom: [50.88, 34.64], Abadan: [48.3, 30.34], Tabriz: [46.29, 38.08], Isfahan: [51.67, 32.65], Najaf: [44.33, 32.0], 'Neauphle-le-Château': [1.95, 48.81],
+	Dhahran: [50.1, 26.29], Halabja: [45.99, 35.18], Khafji: [48.49, 28.42], Mossul: [43.13, 36.34], Erbil: [44.01, 36.19],
+	'Sidi Bouzid': [9.48, 35.04], Benghazi: [20.07, 32.12], Sirte: [16.59, 31.21], Daraa: [36.1, 32.62], Alepo: [37.16, 36.2], Homs: [36.72, 34.73],
+	Manama: [50.58, 26.23], Sanaa: [44.21, 15.37], Rabat: [-6.83, 34.02], Raqqa: [39.01, 35.95], Idlib: [36.63, 35.93], Lampedusa: [12.6, 35.5],
+	Cotonou: [2.42, 6.37], Abomey: [1.99, 7.18],
 	// Oceanos e mares (rótulos)
 	'Oceano Atlântico': [-32, 18], 'Atlântico Sul': [-20, -20], 'Oceano Índico': [75, -18], 'Oceano Pacífico': [-140, 5], 'Mar Mediterrâneo': [18, 34.5],
 	'Mar Vermelho': [38.5, 20], 'Golfo Pérsico': [51, 27], 'Mar do Caribe': [-75, 15], 'Mar do Norte': [3, 56], 'Mar Báltico': [19, 58], 'Mar Negro': [34, 43.2]
@@ -141,7 +155,14 @@ export const REGIOES: Record<string, [number, number, number, number]> = {
 	'ocidente-1968': [-112, 8, 50, 60],
 	'sul-brasil': [-58, -34, -47, -22],
 	'norte-brasil': [-74, -12, -44, 5],
-	'minas-gerais': [-51.5, -23, -39.8, -14]
+	'minas-gerais': [-51.5, -23, -39.8, -14],
+	'rio-grande-do-sul': [-58.4, -34, -48.6, -26.8],
+	cuba: [-85.5, 18.6, -73.5, 24.4],
+	'caribe-eua': [-92, 16.5, -70, 31.5],
+	ira: [42.5, 24.5, 64, 40.5],
+	'golfo-persico': [38, 22.5, 58.5, 38.5],
+	'mundo-arabe': [-12, 10, 60, 41],
+	siria: [34.5, 31.6, 43, 37.6]
 };
 
 /** Câmera que enquadra uma região no palco (com margem). */

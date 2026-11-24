@@ -24,7 +24,7 @@
 </nav>
 
 <header class="card hero">
-	<p class="eyebrow">Série especial · História do Brasil · resumo aprofundado</p>
+	<p class="eyebrow">Série especial · {data.especial.grupo} · resumo aprofundado</p>
 	<h1>{data.resumo.title}</h1>
 	<div class="meta">
 		<CategoryTag category="pedagogica" detail="revisado em {data.resumo.reviewed}" />

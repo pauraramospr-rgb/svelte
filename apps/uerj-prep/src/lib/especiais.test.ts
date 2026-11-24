@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { SERIE_BRASIL, especiaisProntos, pastasEspeciais, resumoEspecial, roteiroEspecial } from './especiais';
+import { SERIE_ESPECIAL, especiaisProntos, pastasEspeciais, resumoEspecial, roteiroEspecial } from './especiais';
 import { episodiosDoRoteiro } from './cinema/aulas';
 import { frases } from './cinema/tempo';
 import { getTopic } from './domain/syllabus';
@@ -7,12 +7,12 @@ import { parseMapa, splitMapa } from './mindmap';
 
 describe('série especial de História do Brasil', () => {
 	it('toda pasta de aula especial está registrada na série', () => {
-		const ids = SERIE_BRASIL.map((e) => e.id);
+		const ids = SERIE_ESPECIAL.map((e) => e.id);
 		for (const p of pastasEspeciais()) expect(ids, `pasta ${p}`).toContain(p);
 	});
 
 	it('os tópicos relacionados existem no programa oficial', () => {
-		for (const e of SERIE_BRASIL) for (const t of e.relacionados) expect(getTopic(t), `${e.id} → ${t}`).toBeTruthy();
+		for (const e of SERIE_ESPECIAL) for (const t of e.relacionados) expect(getTopic(t), `${e.id} → ${t}`).toBeTruthy();
 	});
 
 	for (const e of especiaisProntos()) {

@@ -4,6 +4,7 @@
  */
 import type { CenaAnimada } from './tipos';
 import { encenar } from './auto';
+import { gravacaoDe, type Gravacao } from './gravacoes';
 
 export interface CenaRoteiro {
 	id: string;
@@ -34,6 +35,8 @@ export interface CenaTocavel {
 	animada: CenaAnimada;
 	sobMedida: boolean;
 	abertura: boolean;
+	/** Narração gravada (voz do ElevenLabs), quando a cena já foi gravada com o texto atual. */
+	gravacao?: Gravacao;
 }
 
 export interface EpisodioTocavel {
@@ -118,7 +121,8 @@ export function episodiosDoRoteiro(aula: AulaRoteiro): { episodios: EpisodioToca
 				const { animada, avisos: av, ordem: or } = encenarRoteiro(c);
 				for (const a of av) avisos.push(`cena ${c.id} (${c.titulo}): ${a}`);
 				for (const a of or) ordem.push(`cena ${c.id} (${c.titulo}): ${a}`);
-				return { id: c.id, titulo: c.titulo, narracao: c.narracao, animada, sobMedida: true, abertura: false };
+				const gravacao = gravacaoDe(aula.topicId, c.id, c.narracao);
+				return { id: c.id, titulo: c.titulo, narracao: c.narracao, animada, sobMedida: true, abertura: false, ...(gravacao ? { gravacao } : {}) };
 			})
 		];
 		return { numero: p.numero, titulo: p.titulo, cenas, sobMedida: p.cenas.length };

@@ -3,7 +3,8 @@ import { getTopic, topicsOf } from '$lib/domain/syllabus';
 import { AULAS } from '$lib/producao';
 import { AULAS_ROTEIRO, cenasSobMedida } from '$lib/cinema/aulas';
 import { cronograma } from '$lib/cinema/tempo';
-import { especiaisProntos, resumoEspecial, roteiroEspecial } from '$lib/especiais';
+import { GRUPOS_SERIE, especiaisProntos, resumoEspecial, roteiroEspecial } from '$lib/especiais';
+import { duracaoDaCena, gravacaoDe } from '$lib/cinema/gravacoes';
 
 export const load: PageServerLoad = () => {
 	const ordem = [...topicsOf('HIS'), ...topicsOf('LPL')].map((t) => t.id);
@@ -48,9 +49,20 @@ export const load: PageServerLoad = () => {
 			numero: p.numero,
 			title: p.titulo,
 			cenas: p.cenas.length,
-			duracaoSeg: Math.round(p.cenas.reduce((s, c) => s + cronograma(c.narracao).total, 0))
+			duracaoSeg: Math.round(p.cenas.reduce((s, c) => s + duracaoDaCena(e.id, c), 0))
 		}));
-		return { ...e, partes, duracaoSeg: partes.reduce((s, p) => s + p.duracaoSeg, 0), temResumo: !!resumoEspecial(e.id) };
+		const cenas = r.partes.flatMap((p) => p.cenas);
+		const gravadas = cenas.filter((c) => gravacaoDe(e.id, c.id, c.narracao)).length;
+		return {
+			...e,
+			partes,
+			duracaoSeg: partes.reduce((s, p) => s + p.duracaoSeg, 0),
+			temResumo: !!resumoEspecial(e.id),
+			vozGravada: gravadas === 0 ? ('nao' as const) : gravadas === cenas.length ? ('toda' as const) : ('parte' as const)
+		};
 	});
-	return { aulas, total, especiais };
+	const serie = (Object.keys(GRUPOS_SERIE) as (keyof typeof GRUPOS_SERIE)[])
+		.map((g) => ({ grupo: g, nome: GRUPOS_SERIE[g], aulas: especiais.filter((e) => e.grupo === g) }))
+		.filter((g) => g.aulas.length);
+	return { aulas, total, especiais, serie };
 };
