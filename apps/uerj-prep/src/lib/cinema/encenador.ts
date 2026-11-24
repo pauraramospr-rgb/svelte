@@ -518,7 +518,8 @@ export function encenar(cena: CenaRoteiro): Encenada {
 					const [titulo, texto, c] = partes(dc.args);
 					let x: number, y: number, w: number, h: number;
 					if (modoMapa) {
-						h = Math.min(300, (r.h - gap * (n - 1)) / n);
+						// Com três cartões, o último não pode descer até a legenda de duas linhas.
+						h = Math.min(300, (r.h - (n >= 3 ? 40 : 0) - gap * (n - 1)) / n);
 						w = r.w;
 						x = r.x;
 						y = r.y + j * (h + gap);
