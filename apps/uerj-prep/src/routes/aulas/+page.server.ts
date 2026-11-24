@@ -2,7 +2,6 @@ import type { PageServerLoad } from './$types';
 import { getTopic, topicsOf } from '$lib/domain/syllabus';
 import { AULAS } from '$lib/producao';
 import { AULAS_ROTEIRO, cenasSobMedida } from '$lib/cinema/aulas';
-import { cronograma } from '$lib/cinema/tempo';
 import { GRUPOS_SERIE, especiaisProntos, resumoEspecial, roteiroEspecial } from '$lib/especiais';
 import { duracaoDaCena, gravacaoDe } from '$lib/cinema/gravacoes';
 
@@ -18,15 +17,18 @@ export const load: PageServerLoad = () => {
 			numero: p.numero,
 			title: p.titulo,
 			cenas: p.cenas.length,
-			duracaoSeg: Math.round(p.cenas.reduce((s, c) => s + cronograma(c.narracao).total, 0))
+			duracaoSeg: Math.round(p.cenas.reduce((s, c) => s + duracaoDaCena(a.topicId, c), 0))
 		}));
+		const cenas = a.partes.flatMap((p) => p.cenas);
+		const gravadas = cenas.filter((c) => gravacaoDe(a.topicId, c.id, c.narracao)).length;
 		return {
 			topicId: a.topicId,
 			titulo: info?.topic.title ?? a.titulo,
 			discipline: info?.discipline ?? a.topicId.split('-')[0].toUpperCase(),
 			partes,
 			completa: true,
-			duracaoSeg: partes.reduce((s, p) => s + p.duracaoSeg, 0)
+			duracaoSeg: partes.reduce((s, p) => s + p.duracaoSeg, 0),
+			vozGravada: gravadas === 0 ? ('nao' as const) : gravadas === cenas.length ? ('toda' as const) : ('parte' as const)
 		};
 	});
 	const antigas = AULAS.filter((a) => !novas.some((n) => n.topicId === a.topicId)).map((a) => {

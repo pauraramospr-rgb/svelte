@@ -37,7 +37,7 @@
 				<article class="card aula">
 					<p class="eyebrow">{a.partes.length} {a.partes.length === 1 ? 'parte' : 'partes'} · cerca de {min(a.duracaoSeg)} min</p>
 					<h3>{a.titulo}</h3>
-					{#if a.vozGravada !== 'nao'}<p class="selo-voz small">{a.vozGravada === 'toda' ? 'Voz gravada (ElevenLabs): toca em qualquer aparelho' : 'Parte das cenas com voz gravada (ElevenLabs)'}</p>{/if}
+					{#if a.vozGravada !== 'nao'}<p class="selo-voz small">{a.vozGravada === 'toda' ? 'Narração gravada: toca em qualquer aparelho' : 'Parte das cenas com narração gravada'}</p>{/if}
 					<p class="small muted">{a.chamada}</p>
 					<ol class="eps">
 						{#each a.partes as e (e.numero)}
@@ -62,6 +62,7 @@
 				<article class="card aula">
 					<p class="eyebrow">{a.partes.length} {a.partes.length === 1 ? 'parte' : 'partes'} · cerca de {min(a.duracaoSeg)} min</p>
 					<h3>{a.titulo}</h3>
+					{#if 'vozGravada' in a && a.vozGravada !== 'nao'}<p class="selo-voz small">{a.vozGravada === 'toda' ? 'Narração gravada: toca em qualquer aparelho' : 'Parte das cenas com narração gravada'}</p>{/if}
 					<ol class="eps">
 						{#each a.partes as e (e.numero)}
 							<li><span class="mono num">{e.numero}</span> <span class="t">{e.title}</span> <span class="muted small">{e.cenas} cenas</span></li>

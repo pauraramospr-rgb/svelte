@@ -18,17 +18,19 @@ export interface EntradaGravacao {
 	hash: string;
 	/** Caminho dentro de `src/lib/data/narracao/`. */
 	arquivo: string;
-	/** Duração do arquivo, em segundos. */
+	/** Onde a cena começa dentro do arquivo (s). Zero quando o arquivo é só desta cena. */
+	inicio?: number;
+	/** Duração do trecho da cena (s). */
 	dur: number;
-	/** Instante (s) em que cada frase começa no áudio. */
+	/** Instante (s) em que cada frase começa, contado a partir do início da cena. */
 	marcas: number[];
-	/** Fim da fala (s): depois disso só há silêncio. */
+	/** Fim da fala (s), contado a partir do início da cena: depois disso só há silêncio. */
 	fim: number;
 	/** Nome da voz, para exibir. */
 	voz: string;
 }
 
-export type Gravacao = Omit<EntradaGravacao, 'aula' | 'cena' | 'hash'>;
+export type Gravacao = Omit<EntradaGravacao, 'aula' | 'cena' | 'hash' | 'inicio'> & { inicio: number };
 
 /** Atraso entre o começo da cena e o começo do áudio: a cena “respira” antes da voz. */
 export const ENTRADA_AUDIO = 0.6;
@@ -57,7 +59,7 @@ export const ENTRADAS = manifesto as EntradaGravacao[];
 export function gravacaoValida(e: EntradaGravacao | undefined, narracao: string): Gravacao | undefined {
 	if (!e || !narracao) return undefined;
 	if (e.hash !== impressao(narracao) || e.marcas.length !== frases(narracao).length) return undefined;
-	return { arquivo: e.arquivo, dur: e.dur, marcas: e.marcas, fim: e.fim, voz: e.voz };
+	return { arquivo: e.arquivo, inicio: e.inicio ?? 0, dur: e.dur, marcas: e.marcas, fim: e.fim, voz: e.voz };
 }
 
 /** Gravação válida da cena, se houver. */

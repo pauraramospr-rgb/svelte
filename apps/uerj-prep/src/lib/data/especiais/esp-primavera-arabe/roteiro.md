@@ -36,8 +36,10 @@ Para entender a revolta, é preciso olhar o mapa do mundo árabe em dois mil e d
 :: cartao "Monarquias" | Arábia Saudita, Marrocos, Jordânia e os emirados do golfo @"Havia monarquias"
 :: cartao "Repúblicas hereditárias?" | presidentes eternos, filhos preparados para herdar o cargo @"repúblicas que pareciam monarquias"
 :: pinta TUN vermelho "Tunísia: Ben Ali (1987)" @"Ben Ali governava a Tunísia"
-:: pinta EGY vermelho "Egito: Mubarak (1981)" @"Hosni Mubarak"
-:: pinta LBY vermelho "Líbia: Kadafi (1969)" @"Muammar Kadafi"
+:: pinta EGY vermelho @"Hosni Mubarak"
+:: rotulo "Egito: Mubarak (1981)" | 30.5,29.2 | 20 @"Hosni Mubarak"
+:: pinta LBY vermelho @"Muammar Kadafi"
+:: rotulo "Líbia: Kadafi (1969)" | 17.5,24 | 20 @"Muammar Kadafi"
 :: pinta SYR vermelho "Síria: os Assad (1970)" @"Bashar al-Assad"
 :: cartao "Aliados do Ocidente" | estabilidade, petróleo e combate ao islamismo radical @"aliados do Ocidente"
 
@@ -73,6 +75,7 @@ A faísca correu por canais novos. Os celulares filmaram os protestos, e as imag
 
 Na Tunísia, a revolta foi rápida. Os protestos começaram no interior pobre, em Sidi Bouzid, e chegaram à capital, Túnis. A poderosa central sindical do país, a UGTT, aderiu, e o exército não se colocou contra os manifestantes. Em catorze de janeiro de dois mil e onze, Ben Ali fugiu. A imprensa chamou o movimento de Revolução de Jasmim, a flor símbolo do país. Em outubro, nas primeiras eleições livres, o partido islâmico moderado Ennahda ficou em primeiro lugar e governou em coalizão com partidos laicos. Depois de uma grave crise em dois mil e treze, um diálogo nacional costurado por quatro organizações da sociedade civil levou a uma nova Constituição, em dois mil e catorze. O quarteto ganhou o prêmio Nobel da Paz de dois mil e quinze. A Tunísia parecia a prova de que a primavera podia dar certo.
 
+:: pinta TUN laranja @"Na Tunísia"
 :: marca Sidi Bouzid | 17/12/2010: o começo | laranja | < @"em Sidi Bouzid"
 :: marca Túnis | 14/1/2011: Ben Ali foge | vermelho | > @"chegaram à capital"
 :: cartao "Sindicato e exército" | a central sindical UGTT adere; o exército não enfrenta os manifestantes @"a UGTT"
@@ -107,7 +110,7 @@ Depois da Tunísia e do Egito, a onda se espalhou. Em fevereiro e março de dois
 
 Na Líbia, os protestos começaram em meados de fevereiro de dois mil e onze em Benghazi, a segunda cidade do país, e o leste logo escapou do controle de Kadafi. O ditador respondeu com tanques e aviões e prometeu caçar os rebeldes casa por casa. Em dezessete de março, o Conselho de Segurança da ONU aprovou a resolução mil novecentos e setenta e três, que criou uma zona de exclusão aérea e autorizou todas as medidas necessárias para proteger os civis. O Brasil, que ocupava uma cadeira temporária no Conselho, se absteve, como China, Rússia, Índia e Alemanha. Aviões da França, do Reino Unido e dos Estados Unidos, e depois da OTAN, bombardearam as forças de Kadafi e ajudaram os rebeldes a avançar. Trípoli caiu em agosto, e, em vinte de outubro, Kadafi foi capturado e morto em Sirte, a sua região natal. Para os críticos, a missão de proteger civis tinha virado uma troca de regime.
 
-:: marca Benghazi | fevereiro de 2011: o leste se rebela | laranja | > @"em Benghazi"
+:: marca Benghazi | 2/2011: o leste se rebela | laranja | > @"em Benghazi"
 :: cartao "Kadafi" | no poder desde 1969, promete caçar os rebeldes casa por casa @"casa por casa"
 :: cartao "Resolução 1973 (17/3/2011)" | zona de exclusão aérea e “todas as medidas necessárias” para proteger civis; o Brasil se abstém @"a resolução mil novecentos e setenta e três"
 :: marca Trípoli | agosto de 2011: Trípoli cai | azul | < @"Trípoli caiu"
@@ -132,9 +135,10 @@ Na Síria, a revolta começou em março de dois mil e onze em Daraa, no sul, dep
 Na península Arábica, a primavera teve dois destinos. O Bahrein é um pequeno reino insular, governado por uma dinastia sunita sobre uma maioria xiita. Em fevereiro de dois mil e onze, milhares de pessoas ocuparam a rotatória da Pérola, em Manama. Em março, tropas da Arábia Saudita e dos Emirados entraram no país, e a revolta foi esmagada. No Iêmen, o país mais pobre do mundo árabe, meses de protestos levaram Ali Abdullah Saleh, no poder havia mais de trinta anos, a entregar o cargo ao vice, em dois mil e doze. Mas a transição fracassou: em dois mil e catorze, os rebeldes houthis, apoiados pelo Irã, tomaram a capital, Sanaa, e, em dois mil e quinze, uma coalizão liderada pela Arábia Saudita começou a bombardear o país. A guerra provocou uma das piores crises humanitárias do mundo, com fome e epidemias.
 
 :: cartao "Bahrein" | uma dinastia sunita governa uma maioria xiita @"governado por uma dinastia sunita"
-:: marca Manama | fevereiro de 2011: a rotatória da Pérola | laranja | > @"a rotatória da Pérola"
-:: rota Riad > Manama | tropas sauditas | azul @"tropas da Arábia Saudita"
-:: pinta YEM laranja "Iêmen" @"No Iêmen"
+:: marca Manama | 2/2011: rotatória da Pérola | laranja | > @"a rotatória da Pérola"
+:: rota Riad > Manama | azul @"tropas da Arábia Saudita"
+:: marca Riad | 3/2011: tropas sauditas | azul | < @"tropas da Arábia Saudita"
+:: pinta YEM laranja @"No Iêmen"
 :: cartao "Iêmen (2012)" | Saleh, no poder desde 1978, entrega o cargo ao vice @"a entregar o cargo ao vice"
 :: marca Sanaa | 2014: os houthis tomam a capital | vermelho | > @"tomaram a capital"
 :: cartao "Guerra desde 2015" | coalizão saudita × houthis apoiados pelo Irã; fome e epidemias @"uma coalizão liderada pela Arábia Saudita"
@@ -170,7 +174,7 @@ Depois da morte de Kadafi, a Líbia não conseguiu construir um Estado. Milícia
 
 :: cartao "Milícias" | armadas com o arsenal de Kadafi; divididas por cidades, tribos e ideologias @"Milícias armadas"
 :: marca Trípoli | governo do oeste | azul | < @"um em Trípoli"
-:: marca Benghazi | leste: o marechal Khalifa Haftar | laranja | > @"ligado ao marechal Khalifa Haftar"
+:: marca Benghazi | leste: marechal Haftar | laranja | > @"ligado ao marechal Khalifa Haftar"
 :: marca Lampedusa | rota de migrantes para a Europa | vermelho | > @"Lampedusa"
 :: cartao "Obama, 2016" | o pior erro: não planejar o dia seguinte na Líbia @"Barack Obama"
 
@@ -182,7 +186,7 @@ Na Síria, a guerra durou mais de treze anos e criou a maior crise de refugiados
 :: cartao "A maior crise de refugiados do mundo" | no auge, mais de 6,7 milhões de refugiados sírios (Acnur) @"seis milhões e setecentos mil"
 :: marca Alepo | 2016: Assad retoma Alepo | vermelho | > @"como Alepo"
 :: cartao "Por que o regime caiu" | Rússia presa à Ucrânia, Hezbollah enfraquecido, economia arruinada @"Quando a Rússia se concentrou"
-:: marca Damasco | 8/12/2024: Assad foge para Moscou | verde | < @"Assad fugiu para Moscou"
+:: marca Damasco | 8/12/2024: Assad foge para Moscou | verde | > @"Assad fugiu para Moscou"
 :: cartao "2025" | Ahmed al-Sharaa, presidente de transição; 1,3 milhão de refugiados voltam (Acnur) @"Ahmed al-Sharaa"
 
 ## Os refugiados e a Europa

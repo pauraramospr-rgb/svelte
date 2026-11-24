@@ -145,7 +145,7 @@ Depois de Fanon, muitos pensadores criticaram o eurocentrismo. O martinicano Aim
 
 Muitos acervos europeus foram formados pela força. No começo do século dezenove, Lord Elgin retirou as esculturas do Partenon, em Atenas, que estão no Museu Britânico até hoje, apesar dos pedidos da Grécia. Em mil oitocentos e sessenta, tropas britânicas e francesas saquearam e incendiaram o Palácio de Verão, em Pequim. Em mil oitocentos e noventa e dois, os franceses conquistaram Abomé, a capital do reino do Daomé, e levaram os tesouros reais. Em mil oitocentos e noventa e sete, uma expedição britânica arrasou a cidade de Benin, na atual Nigéria, e levou milhares de peças de bronze e marfim, os bronzes do Benin, hoje espalhados por museus da Europa e dos Estados Unidos. Os museus de Londres, Paris e Berlim guardam centenas de milhares de objetos da era colonial.
 
-:: marca Atenas | 1801–1812: esculturas do Partenon levadas | laranja | > @"esculturas do Partenon"
+:: marca Atenas | 1801–1812: mármores do Partenon | laranja | > @"esculturas do Partenon"
 :: cartao "Pequim, 1860" | britânicos e franceses saqueiam o Palácio de Verão @"Palácio de Verão"
 :: marca Abomey | 1892: tesouros reais do Daomé | vermelho | < @"conquistaram Abomé"
 :: marca Benin | 1897: os bronzes do Benin | vermelho | > @"arrasou a cidade de Benin"

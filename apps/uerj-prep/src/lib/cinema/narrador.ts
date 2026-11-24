@@ -80,8 +80,8 @@ export class Narrador {
 	/** Muda a cada troca de fonte: erros que chegam atrasados, de uma fonte antiga, são ignorados. */
 	private geracao = 0;
 	private tratada = -1;
-	/** O áudio gravado não toca neste navegador (o player volta para a voz sintetizada). */
-	aoFalhar: () => void = () => {};
+	/** Este arquivo gravado não toca neste navegador (o player volta para a voz sintetizada nas cenas dele). */
+	aoFalhar: (url: string) => void = () => {};
 	/** O navegador recusou tocar sem um toque do aluno (o player pausa e pede um toque). */
 	aoBloquear: () => void = () => {};
 	/** A gravação chegou ao fim. */
@@ -172,24 +172,28 @@ export class Narrador {
 		this.definirFonte(this.blobDe.get(url) ?? url);
 	}
 
-	/** Toca a gravação `url` a partir de `pos` (s). `buscar` força o salto mesmo se já estiver tocando. */
+	/**
+	 * Toca a gravação `url` a partir de `pos` (s, no arquivo). Ao (re)começar, sempre ajusta a posição:
+	 * várias cenas podem dividir o mesmo arquivo. `buscar` força o salto mesmo se já estiver tocando.
+	 */
 	tocar(url: string, pos: number, ritmo: number, buscar = false) {
 		this.quer = true;
 		if (this.pedido !== url) {
 			this.carregar(url);
 			buscar = true;
 		}
-		if (buscar && Math.abs(this.el.currentTime - pos) > 0.12) this.buscar(pos);
+		const limite = buscar ? 0.12 : this.el.paused ? 0.25 : Infinity;
+		if (Math.abs(this.el.currentTime - pos) > limite) this.buscar(pos);
 		this.el.defaultPlaybackRate = ritmo;
 		if (this.el.playbackRate !== ritmo) this.el.playbackRate = ritmo;
 		if (this.el.paused) this.iniciar();
 	}
 
 	/** Deixa a gravação carregando antes da hora de tocar (só depois do primeiro toque). */
-	preparar(url: string) {
-		if (!this.destravado || this.pedido === url || (this.pedido && !this.el.paused)) return;
-		this.carregar(url);
-		this.buscar(0);
+	preparar(url: string, pos = 0) {
+		if (!this.destravado || (this.pedido && !this.el.paused)) return;
+		if (this.pedido !== url) this.carregar(url);
+		if (Math.abs(this.el.currentTime - pos) > 0.25) this.buscar(pos);
 	}
 
 	pausar() {
@@ -213,7 +217,7 @@ export class Narrador {
 				return;
 			}
 		}
-		// Nenhuma forma de tocar a gravação: silencia o elemento e avisa o player.
+		// Nenhuma forma de tocar esta gravação: silencia o elemento e avisa o player.
 		this.pedido = '';
 		this.quer = false;
 		try {
@@ -224,7 +228,7 @@ export class Narrador {
 		} catch {
 			/* nada */
 		}
-		this.aoFalhar();
+		this.aoFalhar(url);
 	}
 
 	encerrar() {

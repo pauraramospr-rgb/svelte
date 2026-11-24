@@ -180,7 +180,7 @@ Em setembro de mil novecentos e oitenta, o ditador do Iraque, Saddam Hussein, in
 :: pinta IRN verde "Irã" @"invadiu o Irã"
 :: cartao "Por que Saddam atacou" | o rio Chatt al-Arab e o medo do contágio xiita @"Queria controlar"
 :: cartao "Uma guerra de trincheiras" | ataques em massa, mártires, mísseis, petroleiros @"lembrou a Primeira Guerra Mundial"
-:: marca Halabja | 1988: armas químicas contra os curdos | vermelho | < @"Halabja"
+:: marca Halabja | 1988: armas químicas contra os curdos | vermelho | > @"Halabja"
 :: cartao "1980–1988" | sem vencedor; centenas de milhares de mortos @"O cessar-fogo veio"
 
 ## A revolução e a Guerra Fria
@@ -189,7 +189,7 @@ Em setembro de mil novecentos e oitenta, o ditador do Iraque, Saddam Hussein, in
 A Revolução Iraniana quebrou a lógica da Guerra Fria. O lema de Khomeini era nem Oriente nem Ocidente: nem os Estados Unidos, o grande Satã, nem a União Soviética ateia. A revolução provocou o segundo choque do petróleo, em mil novecentos e setenta e nove, com os preços disparando e afetando o mundo inteiro, inclusive o Brasil, já endividado. No fim do mesmo ano, a União Soviética invadiu o Afeganistão, vizinho do Irã. Os Estados Unidos anunciaram que defenderiam o golfo Pérsico pela força, se necessário. A Arábia Saudita, monarquia sunita, passou a disputar com o Irã xiita a liderança do mundo islâmico, uma rivalidade que atravessa as guerras da região até hoje. E o Irã passou a apoiar grupos xiitas no exterior, como o Hezbollah, criado no Líbano em mil novecentos e oitenta e dois.
 
 :: cartao "Nem Oriente nem Ocidente" | nem os EUA nem a URSS @"nem Oriente nem Ocidente"
-:: rotulo "1979: SEGUNDO CHOQUE DO PETRÓLEO" | 50.5,24.2 | 18 | carimbo @"o segundo choque do petróleo"
+:: rotulo "1979: SEGUNDO CHOQUE DO PETRÓLEO" | 50.5,19.5 | 18 | carimbo @"o segundo choque do petróleo"
 :: marca Cabul | dezembro de 1979: a URSS invade o Afeganistão | vermelho | < @"invadiu o Afeganistão"
 :: pinta SAU azul "Arábia Saudita (sunita)" @"A Arábia Saudita"
 :: pinta IRN verde "Irã (xiita)" @"o Irã xiita"

@@ -60,9 +60,9 @@ Em dois de agosto de mil novecentos e noventa, o exército iraquiano invadiu o K
 :: marca Kuwait | 2/8/1990: o Iraque invade o Kuwait | vermelho | > @"invadiu o Kuwait"
 :: rotulo "“19ª PROVÍNCIA DO IRAQUE”" | 46.3,31.4 | 20 | carimbo @"a décima nona província"
 :: cartao "ONU" | resolução 660 exige a retirada; a 661 impõe sanções @"o Conselho de Segurança da ONU"
-:: marca Riad | Arábia Saudita: o medo de um avanço iraquiano | azul | < @"sobre a Arábia Saudita"
+:: marca Riad | medo de um avanço iraquiano | azul | > @"sobre a Arábia Saudita"
 :: cartao "Escudo do Deserto" | tropas dos EUA para proteger o reino saudita @"Escudo do Deserto"
-:: marca Meca | Meca: terra das cidades sagradas do islã | verde | > @"cidades sagradas do islã"
+:: cartao "Meca e Medina" | soldados ocidentais na terra das cidades sagradas do islã @"cidades sagradas do islã"
 
 ## Uma coalizão com aval da ONU
 :: fundo arquivo
@@ -82,7 +82,7 @@ Em novembro de mil novecentos e noventa, a ONU aprovou a resolução seiscentos 
 
 Esgotado o prazo, em dezessete de janeiro de mil novecentos e noventa e um, começou a operação Tempestade no Deserto. Durante seis semanas, aviões e mísseis da coalizão bombardearam o Iraque e as tropas iraquianas no Kuwait: quartéis, defesas aéreas, pontes, centrais elétricas, refinarias. Os Estados Unidos exibiam bombas guiadas a laser, que pareciam cirúrgicas na televisão. Mas houve muitas vítimas civis, como as centenas de mortos num abrigo bombardeado em Bagdá. Saddam respondeu lançando mísseis Scud contra Israel e contra a Arábia Saudita. Queria arrastar Israel para a guerra e quebrar a coalizão, já que os países árabes não aceitariam lutar ao lado dos israelenses. Pressionado pelos Estados Unidos, que mandaram baterias antimísseis, Israel não revidou.
 
-:: marca Bagdá | 17/1/1991: começa o bombardeio | vermelho | < @"começou a operação Tempestade no Deserto"
+:: marca Bagdá | 17/1/1991: começa o bombardeio | vermelho | > @"começou a operação Tempestade no Deserto"
 :: cartao "Seis semanas de bombardeio" | quartéis, defesas, pontes, energia, refinarias @"Durante seis semanas"
 :: cartao "Guerra “cirúrgica”?" | bombas guiadas na TV; centenas de civis mortos num abrigo em Bagdá @"bombas guiadas a laser"
 :: marca Tel Aviv | mísseis Scud contra Israel | azul | > @"contra Israel"
@@ -94,9 +94,9 @@ Esgotado o prazo, em dezessete de janeiro de mil novecentos e noventa e um, come
 
 Em vinte e quatro de fevereiro, começou a ofensiva terrestre. Enquanto parte das tropas atacava o Kuwait de frente, uma grande manobra pelo deserto, a oeste, cercou o exército iraquiano. Em pouco mais de quatro dias, cerca de cem horas, o Kuwait foi libertado, e milhares de soldados iraquianos se renderam. Na fuga, colunas de veículos iraquianos foram destruídas na estrada que liga o Kuwait a Basra, que ficou conhecida como a estrada da morte. Antes de recuar, as tropas iraquianas incendiaram mais de seiscentos poços de petróleo do Kuwait e derramaram petróleo no golfo, num dos maiores desastres ambientais da história. Os incêndios só foram apagados em novembro. Em vinte e oito de fevereiro, Bush declarou o cessar-fogo. A coalizão tinha poucas centenas de mortos; o Iraque, dezenas de milhares.
 
-:: rotulo "MANOBRA PELO DESERTO" | 44.2,30.2 | 20 @"uma grande manobra pelo deserto"
+:: rotulo "MANOBRA PELO DESERTO" | 43,28.2 | 20 @"uma grande manobra pelo deserto"
 :: marca Kuwait | 26–27/2/1991: Kuwait libertado | verde | > @"o Kuwait foi libertado"
-:: rotulo "“ESTRADA DA MORTE”" | 47.2,30.3 | 18 | carimbo @"a estrada da morte"
+:: rotulo "“ESTRADA DA MORTE”" | 46.4,30.6 | 18 | carimbo @"a estrada da morte"
 :: cartao "Desastre ambiental" | mais de 600 poços incendiados; petróleo derramado no golfo @"incendiaram mais de seiscentos poços"
 :: cartao "28 de fevereiro de 1991" | cessar-fogo @"declarou o cessar-fogo"
 :: cartao "O saldo" | coalizão: poucas centenas de mortos; Iraque: dezenas de milhares @"poucas centenas de mortos"

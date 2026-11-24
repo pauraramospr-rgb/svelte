@@ -43,8 +43,9 @@
 
 	// ——— Narração gravada (voz do ElevenLabs) ———
 	let narrador: Narrador | null = null;
-	/** O navegador recusou o áudio gravado: volta para a voz sintetizada. */
-	let gravFalhou = $state(false);
+	/** Arquivos gravados que o navegador recusou: as cenas deles voltam para a voz sintetizada. */
+	let falhas = $state<string[]>([]);
+	const gravFalhou = $derived(falhas.length > 0);
 	/** O navegador pediu um toque antes de tocar som (o player pausou). */
 	let bloqueado = $state(false);
 	/** A gravação da cena atual já tocou até o fim. */
@@ -55,7 +56,9 @@
 
 	/** Gravação que pode tocar nesta cena (existe, tem arquivo e o navegador aceita áudio gravado). */
 	function gravacaoTocavel(c: CenaTocavel): Gravacao | null {
-		return !gravFalhou && !c.abertura && c.gravacao && urlDaGravacao(c.gravacao.arquivo) ? c.gravacao : null;
+		if (c.abertura || !c.gravacao) return null;
+		const url = urlDaGravacao(c.gravacao.arquivo);
+		return url && !falhas.includes(url) ? c.gravacao : null;
 	}
 
 	const ep = $derived(episodios[epIdx]);
@@ -80,6 +83,7 @@
 	const cenasFaladas = $derived(episodios.flatMap((e) => e.cenas.filter((c) => !c.abertura && c.narracao)));
 	const gravadas = $derived(cenasFaladas.filter((c) => c.gravacao));
 	const todasGravadas = $derived(gravadas.length > 0 && gravadas.length === cenasFaladas.length && !gravFalhou);
+	const vozGravada = $derived(gravadas[0]?.gravacao?.voz.startsWith('ElevenLabs') ? 'Voz gravada (ElevenLabs)' : 'Narração gravada (voz neural gratuita)');
 
 	// ——— Fala em andamento (fora do estado reativo) ———
 	type Corrente = {
@@ -181,7 +185,7 @@
 		if (!narrador) return;
 		const pos = posicaoDoAudio();
 		if (pos === null) narrador.pausar();
-		else narrador.tocar(urlGrav, pos, velocidade, buscar);
+		else narrador.tocar(urlGrav, grav!.inicio + pos, velocidade, buscar);
 	}
 
 	function pararFala() {
@@ -257,7 +261,7 @@
 		let novo = t + dt * velocidade;
 		const n = narrador;
 		if (n && narracao && !fimDoAudio && n.usando(urlGrav) && !n.el.paused) {
-			const alvo = ENTRADA_AUDIO + n.el.currentTime;
+			const alvo = ENTRADA_AUDIO + n.el.currentTime - (grav?.inicio ?? 0);
 			const erro = alvo - novo;
 			if (erro > 0.4) novo = alvo;
 			else if (erro < -0.4) novo = t;
@@ -392,7 +396,7 @@
 		faladas = new Set();
 		terminou = false;
 		previa = !continuar;
-		if (urlGrav) narrador?.preparar(urlGrav);
+		if (urlGrav && grav) narrador?.preparar(urlGrav, grav.inicio);
 		trilha.definirHumor(episodios[e].cenas[c].animada.fundo);
 		if (continuar) {
 			tocando = false;
@@ -523,11 +527,13 @@
 			pausar();
 			bloqueado = true;
 		};
-		narrador.aoFalhar = () => {
-			// O navegador recusou o áudio gravado: a cena passa para a linha do tempo da voz sintetizada,
-			// recomeçando a frase em que estava.
+		narrador.aoFalhar = (url) => {
+			// O navegador recusou este arquivo: as cenas dele passam para a linha do tempo da voz
+			// sintetizada, recomeçando a frase em que estavam.
 			const i = indiceFrase(crono, t);
-			gravFalhou = true;
+			const desta = urlGrav === url;
+			falhas = [...falhas, url];
+			if (!desta) return;
 			const c = crono;
 			t = i >= 0 ? (c.inicios[Math.min(i, c.inicios.length - 1)] ?? 0) : Math.min(t, 0.8);
 			faladas = new Set(Array.from({ length: Math.max(0, i) }, (_, k) => k));
@@ -676,7 +682,7 @@
 	<div class="voz">
 		{#if gravadas.length && !gravFalhou}
 			<p class="small gravada">
-				<strong>Voz gravada (ElevenLabs)</strong> —
+				<strong>{vozGravada}</strong> —
 				{todasGravadas ? 'esta aula inteira toca' : 'as cenas marcadas com “voz gravada” tocam'} em qualquer aparelho: computador, iPhone, iPad e Android, inclusive com o modo silencioso ligado.
 			</p>
 		{/if}

@@ -90,7 +90,7 @@ O homem forte desse período foi Fulgencio Batista, um sargento que liderou uma 
 
 A primeira tentativa foi um desastre. Em vinte e seis de julho de mil novecentos e cinquenta e três, Fidel e cerca de cento e cinquenta jovens atacaram o quartel Moncada, em Santiago de Cuba. Foram derrotados; dezenas morreram, muitos assassinados depois de presos. No julgamento, Fidel fez a própria defesa e terminou com uma frase que virou título de livro: a história me absolverá. Condenado, foi anistiado em mil novecentos e cinquenta e cinco e partiu para o exílio no México. O movimento ganhou o nome da data do ataque: Movimento Vinte e Seis de Julho. No México, Fidel conheceu um jovem médico argentino que tinha viajado pela América Latina e visto de perto a miséria e a intervenção norte-americana na Guatemala: Ernesto Guevara, o Che.
 
-:: marca Santiago de Cuba | 26/7/1953: ataque ao quartel Moncada | vermelho | > @"atacaram o quartel Moncada"
+:: marca Santiago de Cuba | 26/7/1953: ataque ao quartel Moncada | vermelho | < @"atacaram o quartel Moncada"
 :: cartao "“A história me absolverá”" | a defesa de Fidel no julgamento @"a história me absolverá"
 :: cartao "Movimento 26 de Julho" | o nome da data do ataque @"Movimento Vinte e Seis de Julho"
 :: cartao "Ernesto “Che” Guevara" | médico argentino; viu a intervenção dos EUA na Guatemala @"Ernesto Guevara"
@@ -100,9 +100,9 @@ A primeira tentativa foi um desastre. Em vinte e seis de julho de mil novecentos
 
 Em novembro de mil novecentos e cinquenta e seis, oitenta e dois homens partiram de Tuxpan, no México, num iate velho e superlotado, o Granma. Desembarcaram no começo de dezembro no sudeste de Cuba, com dias de atraso, e foram surpreendidos pelo Exército. Só um pequeno grupo sobreviveu e chegou à Sierra Maestra, a região montanhosa do oriente da ilha. Ali, a guerrilha cresceu devagar, com o apoio de camponeses pobres, a quem prometia a reforma agrária e protegia dos abusos dos guardas rurais. Os guerrilheiros barbudos atacavam pequenos postos militares, escondiam-se nas montanhas e mostravam que a ditadura não era invencível.
 
-:: marca Tuxpan | novembro de 1956: o Granma parte com 82 homens | azul | > @"partiram de Tuxpan"
+:: cartao "Novembro de 1956" | de Tuxpan, no México, o iate Granma parte com 82 homens @"partiram de Tuxpan"
 :: marca Las Coloradas | dezembro de 1956: desembarque | vermelho | < @"Desembarcaram"
-:: marca Sierra Maestra | Sierra Maestra: a guerrilha | verde | > @"chegou à Sierra Maestra"
+:: marca Sierra Maestra | Sierra Maestra | verde | > @"chegou à Sierra Maestra"
 :: cartao "O apoio camponês" | promessa de reforma agrária; proteção contra os guardas rurais @"apoio de camponeses pobres"
 :: rotulo "A DITADURA NÃO ERA INVENCÍVEL" | -79.5,21.7 | 20 | carimbo @"não era invencível"
 
@@ -124,11 +124,11 @@ A revolução não foi feita só na serra. Nas cidades, o Movimento Vinte e Seis
 
 No segundo semestre de mil novecentos e cinquenta e oito, Fidel mandou duas colunas guerrilheiras para o centro da ilha, comandadas por Che Guevara e por Camilo Cienfuegos. No fim de dezembro, a coluna de Che atacou Santa Clara, uma cidade estratégica, e descarrilou um trem blindado cheio de soldados e armas. O Exército de Batista, desmoralizado, desmoronou. Na madrugada de primeiro de janeiro de mil novecentos e cinquenta e nove, Batista fugiu para a República Dominicana. Uma greve geral convocada pelos rebeldes paralisou o país. Em oito de janeiro, Fidel entrou em Havana, aclamado por multidões, depois de atravessar a ilha de leste a oeste. Começava a revolução no poder.
 
-:: marca Sierra Maestra | as colunas partem da serra | verde | > @"duas colunas guerrilheiras"
-:: marca Santa Clara | dezembro de 1958: Che vence em Santa Clara | vermelho | > @"atacou Santa Clara"
+:: marca Sierra Maestra | as colunas partem da serra | verde | < @"duas colunas guerrilheiras"
+:: marca Santa Clara | 12/1958: Che vence em Santa Clara | vermelho | > @"atacou Santa Clara"
 :: cartao "O trem blindado" | descarrilado pela coluna de Che @"trem blindado"
-:: rotulo "1º/1/1959: BATISTA FOGE" | -78.5,23.6 | 22 | carimbo @"Batista fugiu para a República Dominicana"
-:: marca Havana | 8/1/1959: Fidel entra em Havana | vermelho | < @"Fidel entrou em Havana"
+:: rotulo "1º/1/1959: BATISTA FOGE" | -79,25.2 | 22 | carimbo @"Batista fugiu para a República Dominicana"
+:: marca Havana | 8/1/1959: Fidel entra em Havana | vermelho | > @"Fidel entrou em Havana"
 
 # Parte 3 — Do nacionalismo ao socialismo
 
@@ -167,7 +167,7 @@ O governo norte-americano decidiu derrubar Fidel. A CIA treinou cerca de mil e q
 
 :: cartao "A operação da CIA" | cerca de 1.400 exilados treinados para invadir @"A CIA treinou"
 :: rotulo "16/4/1961: “A REVOLUÇÃO É SOCIALISTA”" | -79,23.6 | 20 | carimbo @"a revolução era socialista"
-:: marca Baía dos Porcos | 17/4/1961: desembarque na praia Girón | vermelho | < @"desembarcaram na Baía dos Porcos"
+:: marca Baía dos Porcos | 17/4/1961: desembarque na praia Girón | vermelho | > @"desembarcaram na Baía dos Porcos"
 :: cartao "Três dias" | invasores derrotados; mais de mil presos @"Em três dias"
 :: cartao "Dezembro de 1961" | Fidel se declara marxista-leninista @"marxista-leninista"
 
@@ -203,7 +203,7 @@ Para Washington, o perigo era o exemplo cubano se espalhar. A resposta teve duas
 
 :: pinta CUB vermelho "Cuba" @"o exemplo cubano"
 :: cartao "Aliança para o Progresso (1961)" | cerca de 20 bilhões de dólares em dez anos para reformas @"a Aliança para o Progresso"
-:: marca Punta del Este | Punta del Este: Aliança (1961) e suspensão de Cuba da OEA (1962) | azul | > @"assinada em Punta del Este"
+:: marca Punta del Este | Punta del Este (1961–1962) | azul | < @"assinada em Punta del Este"
 :: cartao "Janeiro de 1962" | a OEA suspende Cuba @"suspendeu Cuba"
 :: cartao "A face militar" | treinamento contra o “inimigo interno”; apoio a golpes @"o inimigo interno"
 

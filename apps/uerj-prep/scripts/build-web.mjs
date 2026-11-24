@@ -16,7 +16,20 @@ const js = assets.filter((f) => f.endsWith('.js')).map((f) => readFileSync(join(
 const css = assets.filter((f) => f.endsWith('.css')).map((f) => readFileSync(join(out, 'assets', f), 'utf8'));
 if (js.length !== 1) throw new Error(`esperado 1 arquivo JS, encontrados ${js.length}`);
 
-const safeJs = js[0].replace(/<\/script/gi, '<\\/script').replace(/<!--/g, '<\\!--');
+// O JS vai embutido na página, então import.meta.url passa a ser o endereço da própria página, e não o de
+// assets/index-*.js. Os MP3 que ficam fora do HTML (voz gratuita) continuam em assets/, publicados ao lado
+// da página: os endereços relativos ganham o prefixo assets/.
+const externos = new Set(assets.filter((f) => f.endsWith('.mp3')));
+const usados = new Set();
+const jsPagina = js[0].replace(/new URL\("([^"/]+\.mp3)",\s*import\.meta\.url\)/g, (_, f) => {
+	if (!externos.has(f)) throw new Error(`MP3 referenciado sem arquivo em assets/: ${f}`);
+	usados.add(f);
+	return `new URL("assets/${f}",import.meta.url)`;
+});
+const soltos = [...externos].filter((f) => !usados.has(f));
+if (soltos.length) throw new Error(`MP3 em assets/ que a página não usa: ${soltos.slice(0, 3).join(', ')}`);
+
+const safeJs = jsPagina.replace(/<\/script/gi, '<\\/script').replace(/<!--/g, '<\\!--');
 const safeCss = css.join('\n').replace(/<\/style/gi, '<\\/style');
 const brand = readFileSync(new URL('../src/lib/brand.ts', import.meta.url), 'utf8');
 const appName = brand.match(/APP_NAME = '([^']+)'/)[1];
@@ -33,4 +46,4 @@ const page = [
 ].join('\n');
 
 writeFileSync(join(out, 'discursiva.html'), page);
-console.log(`build-web/discursiva.html: ${(page.length / 1024 / 1024).toFixed(2)} MB`);
+console.log(`build-web/discursiva.html: ${(page.length / 1024 / 1024).toFixed(2)} MB; ${usados.size} MP3 em build-web/assets/`);

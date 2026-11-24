@@ -50,7 +50,16 @@ describe('manifesto da narração gravada', () => {
 			}
 		};
 		varrer(PASTA);
-		expect(mp3.sort()).toEqual(ENTRADAS.map((e) => e.arquivo).sort());
+		expect(mp3.sort()).toEqual([...new Set(ENTRADAS.map((e) => e.arquivo))].sort());
+	});
+
+	it('cenas que dividem um arquivo não se sobrepõem', () => {
+		const porArquivo = new Map<string, EntradaGravacao[]>();
+		for (const e of ENTRADAS) porArquivo.set(e.arquivo, [...(porArquivo.get(e.arquivo) ?? []), e]);
+		for (const [arquivo, es] of porArquivo) {
+			const ordem = [...es].sort((a, b) => (a.inicio ?? 0) - (b.inicio ?? 0));
+			for (let i = 1; i < ordem.length; i++) expect((ordem[i].inicio ?? 0) + 1e-6, arquivo).toBeGreaterThanOrEqual((ordem[i - 1].inicio ?? 0) + ordem[i - 1].dur - 0.01);
+		}
 	});
 
 	for (const e of ENTRADAS) {

@@ -31,7 +31,7 @@ O nome fica só em `src/lib/brand.ts` (`APP_NAME`). Para renomear, troque ali, r
 
 ```bash
 npm run check && npx vitest run
-npm run build && PORT=4173 node build &   BASE_URL=http://localhost:4173 node tests/e2e/smoke.mjs
+npm run build && ORIGIN=http://localhost:4173 PORT=4173 node build &   BASE_URL=http://localhost:4173 node tests/e2e/smoke.mjs
 npm run build:web && npm run test:web      # versão do claude.ai
 ```
 
