@@ -7,9 +7,10 @@ separadamente, então o início de cada frase é exato. As cenas de uma mesma pa
 MP3 (`<aula>/parte-<n>.mp3`), e o manifesto guarda onde cada cena começa dentro do arquivo (`inicio`).
 Um arquivo por parte mantém o total de arquivos dentro do limite da página publicada.
 
-Requer o pacote `piper-tts` e um modelo de voz (.onnx + .onnx.json). Uso (com -I; o modelo baixado fica
-numa pasta própria):
-  python -I scripts/narracao/piper.py --textos todas.json --modelo pt_BR-faber-medium.onnx [--aulas a,b] [--jobs 4]
+Requer o pacote `piper-tts` e um modelo de voz (.onnx + .onnx.json). Voz atual: pt_BR-cadu-medium (masculina,
+CC0), no ritmo natural (--ritmo 1.0) e com +1 dB (--ganho 1), sob um limitador de picos em -1 dBFS. Uso (com
+-I; o modelo baixado fica numa pasta própria):
+  python -I scripts/narracao/piper.py --textos todas.json --modelo pt_BR-cadu-medium.onnx [--aulas a,b] [--jobs 4]
 
 O JSON de textos vem de: EXPORTAR_NARRACAO=todas EXPORTAR_DESTINO=todas.json npx vitest run src/lib/cinema/narracao-exportar.test.ts
 Cenas que já têm gravação do ElevenLabs no manifesto (com o texto atual) são mantidas e não são regeradas.
@@ -31,7 +32,6 @@ ENTRADA = 0.15        # silêncio no começo de cada cena (s)
 PAUSA_FRASE = 0.42    # pausa depois de cada frase (s)
 PAUSA_INTERNA = 0.22  # pausa entre períodos que o Piper separa dentro de uma frase (s)
 PAUSA_CENA = 0.6      # silêncio extra no fim de cada cena (s)
-RITMO = 1.08          # length_scale: um pouco mais devagar que o padrão, para soar didático
 TAXA_MP3 = '24k'
 
 # Pronúncias: o fonetizador soletra a maioria das siglas corretamente; estas são lidas como palavra.
@@ -41,7 +41,7 @@ _voz = None
 _config = None
 
 
-def _iniciar(modelo):
+def _iniciar(modelo, ritmo):
     global _voz, _config
     import onnxruntime
     # Um núcleo por processo: os processos em paralelo não disputam os mesmos núcleos.
@@ -55,7 +55,7 @@ def _iniciar(modelo):
     onnxruntime.SessionOptions = opcoes
     from piper import PiperVoice, SynthesisConfig
     _voz = PiperVoice.load(modelo)
-    _config = SynthesisConfig(length_scale=RITMO)
+    _config = SynthesisConfig(length_scale=ritmo)
 
 
 def _silencio(seg, taxa):
@@ -88,7 +88,7 @@ def _falar(texto):
 
 def _parte(args):
     """Gera o MP3 de uma parte e devolve as entradas do manifesto das suas cenas."""
-    aula, parte, cenas, voz_nome = args
+    aula, parte, cenas, voz_nome, ganho = args
     blocos, entradas, pos, taxa = [], [], 0.0, 22050
     for c in cenas:
         inicio_cena = pos
@@ -119,10 +119,12 @@ def _parte(args):
             wf.setsampwidth(2)
             wf.setframerate(taxa)
             wf.writeframes(b''.join(blocos))
-        # O Piper entrega cerca de -15 LUFS com picos no máximo: ganho fixo de -3 dB (sem compressão
-        # dinâmica, que mexeria nos silêncios); mono, 22,05 kHz, taxa constante (busca exata no arquivo).
+        # Ganho fixo (sem compressão dinâmica, que mexeria nos silêncios) e um limitador só para os picos
+        # (teto de -1 dBFS, com o atraso compensado para não deslocar as marcas); mono, 22,05 kHz, taxa
+        # constante (busca exata no arquivo).
         r = subprocess.run(['ffmpeg', '-y', '-hide_banner', '-loglevel', 'error', '-i', caminho_wav,
-                            '-af', 'volume=-3dB', '-ac', '1', '-ar', '22050',
+                            '-af', f'volume={ganho}dB,alimiter=limit=0.891:level=false:latency=true',
+                            '-ac', '1', '-ar', '22050',
                             '-c:a', 'libmp3lame', '-b:a', TAXA_MP3, destino], capture_output=True, text=True)
         if r.returncode:
             raise RuntimeError(r.stderr[-500:])
@@ -137,7 +139,9 @@ def main():
     ap.add_argument('--modelo', required=True)
     ap.add_argument('--aulas', default='', help='só estas aulas (separadas por vírgula)')
     ap.add_argument('--jobs', type=int, default=os.cpu_count() or 2)
-    ap.add_argument('--voz', default='Piper · faber (voz neural gratuita, CC0)')
+    ap.add_argument('--voz', default='Piper · cadu (voz neural gratuita, CC0)')
+    ap.add_argument('--ritmo', type=float, default=1.0, help='length_scale do Piper (maior = mais devagar)')
+    ap.add_argument('--ganho', type=float, default=1.0, help='ganho em dB antes do limitador de picos')
     args = ap.parse_args()
 
     with open(args.textos, encoding='utf-8') as f:
@@ -159,11 +163,11 @@ def main():
                 continue
             partes.setdefault(c['parte'], []).append(c)
         for parte, cenas in sorted(partes.items()):
-            tarefas.append((a['aula'], parte, cenas, args.voz))
+            tarefas.append((a['aula'], parte, cenas, args.voz, args.ganho))
     print(f'{len(tarefas)} partes para gerar', flush=True)
 
     novas = []
-    with Pool(args.jobs, initializer=_iniciar, initargs=(args.modelo,)) as pool:
+    with Pool(args.jobs, initializer=_iniciar, initargs=(args.modelo, args.ritmo)) as pool:
         for k, entradas in enumerate(pool.imap_unordered(_parte, tarefas), 1):
             novas.extend(entradas)
             if k % 20 == 0 or k == len(tarefas):

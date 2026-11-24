@@ -901,6 +901,7 @@
 	:global(html.player-tela-cheia),
 	:global(html.player-tela-cheia body) {
 		overflow: hidden;
+		overscroll-behavior: none;
 	}
 	.tela-cheia .tela {
 		width: min(100%, calc((100vh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px)) * 16 / 9));
@@ -955,6 +956,8 @@
 		border: 0;
 		background: transparent;
 		cursor: pointer;
+		/* dois toques seguidos pausam e retomam, sem ampliar a página */
+		touch-action: manipulation;
 	}
 	.legenda {
 		position: absolute;

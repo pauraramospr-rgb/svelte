@@ -6,7 +6,7 @@ As aulas animadas tocam a narração de três jeitos:
   aparelho, inclusive no iPhone e no iPad com o modo silencioso ligado e no app do Claude no Android (onde não
   existe voz sintetizada). O player segue o relógio do áudio, de modo que cada animação entra quando a voz
   chega à frase dela.
-- **Voz neural gratuita** (Piper, voz masculina “faber”, modelo CC0): as demais aulas, enquanto não há créditos do
+- **Voz neural gratuita** (Piper, voz masculina “cadu”, modelo CC0): as demais aulas, enquanto não há créditos do
   ElevenLabs para elas. Também é áudio gravado em arquivo, então toca em qualquer aparelho.
 - **Voz sintetizada do aparelho** (Web Speech API): usada nas cenas que ainda não foram gravadas, ou quando o
   navegador recusa o áudio gravado.
@@ -49,15 +49,18 @@ repetir chamadas (cada chamada cobra de novo).
 
 ## Como gerar a voz gratuita (Piper)
 
-Requer `pip install piper-tts` (num ambiente virtual) e o modelo `pt_BR-faber-medium` (`.onnx` e `.onnx.json`,
+Requer `pip install piper-tts` (num ambiente virtual) e o modelo `pt_BR-cadu-medium` (`.onnx` e `.onnx.json`,
 de https://huggingface.co/rhasspy/piper-voices, licença CC0). Cada frase é sintetizada separadamente, então as
 marcas de sincronia são exatas; cenas já gravadas com o ElevenLabs (texto atual) são mantidas.
 
 ```bash
 EXPORTAR_NARRACAO=todas EXPORTAR_DESTINO=/tmp/todas.json npx vitest run src/lib/cinema/narracao-exportar.test.ts
-python -I scripts/narracao/piper.py --textos /tmp/todas.json --modelo /caminho/pt_BR-faber-medium.onnx [--aulas id1,id2]
+python -I scripts/narracao/piper.py --textos /tmp/todas.json --modelo /caminho/pt_BR-cadu-medium.onnx [--aulas id1,id2]
 ```
 
-Depois de mudar o texto de uma cena, rode de novo para a aula dela (`--aulas`). Na publicação da versão web, os
+A cadu fala no ritmo natural (`--ritmo 1.0`, o padrão) e recebe +1 dB (`--ganho 1`) sob um limitador de picos em
+-1 dBFS; ela é mais lenta e mais baixa que a faber, usada antes. Depois de mudar o texto de uma cena, rode de
+novo para a aula dela (`--aulas`). Na publicação da versão web, os
 MP3 de `build-web/assets/` vão no mapa `files` (no máximo 255 arquivos e 64 MB por publicação; o limite total da
-página é 511 arquivos e 256 MB).
+página é 511 arquivos e 256 MB). Ao regravar, os nomes dos MP3 mudam (levam a impressão digital do
+conteúdo): remova os antigos da página publicada (`null` no mapa `files`) para não passar desse limite.
