@@ -5,7 +5,7 @@ import { frases } from './cinema/tempo';
 import { getTopic } from './domain/syllabus';
 import { parseMapa, splitMapa } from './mindmap';
 
-describe('série especial de História do Brasil', () => {
+describe('série especial (História do Brasil e História Geral)', () => {
 	it('toda pasta de aula especial está registrada na série', () => {
 		const ids = SERIE_ESPECIAL.map((e) => e.id);
 		for (const p of pastasEspeciais()) expect(ids, `pasta ${p}`).toContain(p);
