@@ -245,6 +245,30 @@ await step('claude: banco salvo na área privada do estudante', async () => {
 	const prompts = await cp.evaluate(() => Number(sessionStorage.getItem('samples') || 0));
 	expect(prompts >= 4, 'IA não foi chamada');
 });
+// 3) Celular sem a API de tela cheia (iPhone, app do Claude): o player cobre a tela por CSS.
+const celular = await browser.newContext({ viewport: { width: 390, height: 664 }, isMobile: true, hasTouch: true, deviceScaleFactor: 1 });
+await celular.addInitScript(() => {
+	for (const p of ['requestFullscreen', 'webkitRequestFullscreen']) Object.defineProperty(Element.prototype, p, { value: undefined, configurable: true });
+	Object.defineProperty(Document.prototype, 'fullscreenEnabled', { get: () => false, configurable: true });
+});
+await step('celular sem API de tela cheia: a aula cobre a tela', async () => {
+	const p = await celular.newPage();
+	p.on('pageerror', (e) => errors.push(String(e)));
+	await p.goto(BASE + '#aulas');
+	await p.click('a:has-text("Assistir") >> nth=0');
+	await p.waitForSelector('svg.palco');
+	await p.tap('button[aria-label="Tela cheia"]');
+	await p.waitForTimeout(300);
+	const m = await p.evaluate(() => {
+		const b = document.querySelector('.player').getBoundingClientRect();
+		return { pagina: document.querySelector('.player').classList.contains('pagina'), w: Math.round(b.width), h: Math.round(b.height), vw: innerWidth, vh: innerHeight };
+	});
+	expect(m.pagina && m.w === m.vw && m.h === m.vh, `player ${m.w}x${m.h} na tela ${m.vw}x${m.vh} (pagina=${m.pagina})`);
+	await p.screenshot({ path: `${SHOTS}/celular-tela-cheia.png` });
+	await p.tap('button[aria-label="Sair da tela cheia"]');
+	await p.waitForTimeout(200);
+	expect(!(await p.evaluate(() => document.querySelector('.player').classList.contains('tela-cheia'))), 'não saiu da tela cheia');
+});
 await step('sem erros de JavaScript', async () => expect(errors.length === 0, errors.slice(0, 3).join(' | ')));
 
 await browser.close();

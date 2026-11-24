@@ -52,7 +52,22 @@
 	let fimDoAudio = false;
 
 	let caixa: HTMLDivElement | undefined = $state();
-	let telaCheia = $state(false);
+	/**
+	 * Tela cheia: "nativa" usa a API do navegador (computador, Android, alguns iPads); "pagina" é o
+	 * player cobrindo a janela por CSS, para onde a API não existe ou é recusada (iPhone, app do Claude,
+	 * página dentro de outra).
+	 */
+	let modoTela = $state<'' | 'nativa' | 'pagina'>('');
+	const telaCheia = $derived(modoTela !== '');
+	/** Em tela cheia, os controles ficam sobre a imagem e somem durante a reprodução. */
+	let controlesVisiveis = $state(true);
+	let timerControles: ReturnType<typeof setTimeout> | undefined;
+	let alturaPlayer = $state(0);
+	let alturaTela = $state(0);
+	let alturaControles = $state(0);
+	const controlesOcultos = $derived(telaCheia && tocando && !controlesVisiveis);
+	/** Quanto subir a legenda para os controles (sobre a imagem) não a cobrirem. */
+	const elevarLegenda = $derived(telaCheia && !controlesOcultos ? Math.max(0, alturaControles - (alturaPlayer - alturaTela) / 2) : 0);
 
 	/** Gravação que pode tocar nesta cena (existe, tem arquivo e o navegador aceita áudio gravado). */
 	function gravacaoTocavel(c: CenaTocavel): Gravacao | null {
@@ -458,7 +473,12 @@
 	}
 
 	function teclas(ev: KeyboardEvent) {
+		mostrarControles();
 		const alvo = ev.target as HTMLElement;
+		if (ev.key === 'Escape' && modoTela === 'pagina') {
+			sairDaTelaDaPagina();
+			return;
+		}
 		if (alvo.closest('select, input, textarea, [role="slider"]')) return;
 		const k = ev.key.toLowerCase();
 		if (k === ' ' || k === 'k') {
@@ -473,13 +493,79 @@
 		else if (k === 'f') void alternarTelaCheia();
 	}
 
+	type DocTela = Document & { webkitFullscreenElement?: Element | null; webkitFullscreenEnabled?: boolean; webkitExitFullscreen?: () => void };
+	type ElTela = HTMLElement & { webkitRequestFullscreen?: () => void };
+	type Orientacao = ScreenOrientation & { lock?: (o: string) => Promise<void> };
+
+	function emTelaCheiaNativa(): boolean {
+		const d = document as DocTela;
+		return !!(d.fullscreenElement ?? d.webkitFullscreenElement);
+	}
+
 	async function alternarTelaCheia() {
-		try {
-			if (document.fullscreenElement) await document.exitFullscreen();
-			else await caixa?.requestFullscreen?.();
-		} catch {
-			/* tela cheia indisponível neste aparelho */
+		const d = document as DocTela;
+		if (modoTela === 'pagina') return sairDaTelaDaPagina();
+		if (emTelaCheiaNativa()) {
+			try {
+				if (d.exitFullscreen) await d.exitFullscreen();
+				else d.webkitExitFullscreen?.();
+			} catch {
+				/* já tinha saído */
+			}
+			return;
 		}
+		const el = caixa as ElTela | undefined;
+		if (!el) return;
+		if ((d.fullscreenEnabled || d.webkitFullscreenEnabled) && (el.requestFullscreen || el.webkitRequestFullscreen)) {
+			try {
+				if (el.requestFullscreen) await el.requestFullscreen({ navigationUI: 'hide' });
+				else el.webkitRequestFullscreen?.();
+			} catch {
+				/* recusada (por exemplo, numa página dentro de outra): vai para a tela cheia da página */
+			}
+			// O Safari com prefixo não devolve promessa: espera um instante antes de decidir.
+			for (let i = 0; i < 8 && !emTelaCheiaNativa(); i++) await new Promise((r) => setTimeout(r, 50));
+			if (emTelaCheiaNativa()) {
+				// No Android, deita a tela (só funciona em tela cheia nativa; nos outros, ignora).
+				(screen.orientation as Orientacao | undefined)?.lock?.('landscape').catch(() => {});
+				return;
+			}
+		}
+		entrarNaTelaDaPagina();
+	}
+
+	function entrarNaTelaDaPagina() {
+		modoTela = 'pagina';
+		document.documentElement.classList.add('player-tela-cheia');
+		caixa?.focus({ preventScroll: true });
+	}
+
+	function sairDaTelaDaPagina() {
+		modoTela = '';
+		document.documentElement.classList.remove('player-tela-cheia');
+	}
+
+	function mostrarControles() {
+		controlesVisiveis = true;
+		clearTimeout(timerControles);
+		if (telaCheia && tocando) timerControles = setTimeout(() => (controlesVisiveis = false), 3000);
+	}
+
+	// Ao entrar ou sair da tela cheia e ao tocar ou pausar, os controles reaparecem e o prazo recomeça.
+	$effect(() => {
+		void telaCheia;
+		void tocando;
+		mostrarControles();
+		return () => clearTimeout(timerControles);
+	});
+
+	/** Toque na imagem: com os controles escondidos, o primeiro toque só os mostra. */
+	function toqueNaTela() {
+		if (controlesOcultos) {
+			mostrarControles();
+			return;
+		}
+		alternar();
 	}
 
 	function trocarMusica() {
@@ -570,8 +656,13 @@
 		};
 		atualizar();
 		const desligar = aoMudarVozes(atualizar);
-		const fs = () => (telaCheia = !!document.fullscreenElement);
+		const fs = () => {
+			if (modoTela === 'pagina') return;
+			modoTela = emTelaCheiaNativa() ? 'nativa' : '';
+			if (!modoTela) (screen.orientation as (ScreenOrientation & { unlock?: () => void }) | undefined)?.unlock?.();
+		};
 		document.addEventListener('fullscreenchange', fs);
+		document.addEventListener('webkitfullscreenchange', fs);
 		const visivel = () => {
 			if (document.hidden && tocando) pausar();
 		};
@@ -579,7 +670,9 @@
 		return () => {
 			desligar();
 			document.removeEventListener('fullscreenchange', fs);
+			document.removeEventListener('webkitfullscreenchange', fs);
 			document.removeEventListener('visibilitychange', visivel);
+			document.documentElement.classList.remove('player-tela-cheia');
 		};
 	});
 
@@ -595,8 +688,26 @@
 </script>
 
 <!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
-<div class="player" class:tela-cheia={telaCheia} bind:this={caixa} onkeydown={teclas} role="region" aria-label="Aula animada" tabindex="-1">
-	<div class="tela">
+<div
+	class="player"
+	class:tela-cheia={telaCheia}
+	class:pagina={modoTela === 'pagina'}
+	class:ocultos={controlesOcultos}
+	style:--elevar-legenda="{elevarLegenda}px"
+	bind:this={caixa}
+	bind:clientHeight={alturaPlayer}
+	onkeydown={teclas}
+	onpointermove={(e) => {
+		if (e.pointerType === 'mouse') mostrarControles();
+	}}
+	role="region"
+	aria-label="Aula animada"
+	tabindex="-1"
+>
+	{#if telaCheia}
+		<p class="girar" aria-hidden="true">Gire o aparelho para ver a aula maior</p>
+	{/if}
+	<div class="tela" bind:clientHeight={alturaTela}>
 		<Palco
 			cena={cena.animada}
 			{crono}
@@ -607,7 +718,7 @@
 			entrada={cenaIdx > 0 ? (ep.cenas[cenaIdx - 1].animada.transicao ?? 'fade') : 'preto'}
 			{movimento}
 		/>
-		<button class="toque" onclick={alternar} aria-label={tocando ? 'Pausar' : 'Tocar'} tabindex="-1"></button>
+		<button class="toque" onclick={toqueNaTela} aria-label={tocando ? 'Pausar' : 'Tocar'} tabindex="-1"></button>
 		{#if legendas && legenda && !previa}
 			<p class="legenda" aria-live="off">{legenda}</p>
 		{/if}
@@ -631,7 +742,7 @@
 		{/if}
 	</div>
 
-	<div class="controles">
+	<div class="controles" bind:clientHeight={alturaControles} onfocusin={mostrarControles}>
 		<div class="barra-linha">
 			<div
 				class="barra"
@@ -673,7 +784,12 @@
 					<option value={1.3}>1,3×</option>
 				</select>
 			</label>
-			<button class="ic" onclick={alternarTelaCheia} aria-label="Tela cheia" title="Tela cheia (F)"><Icon name="expand" /></button>
+			<button
+				class="ic"
+				onclick={alternarTelaCheia}
+				aria-label={telaCheia ? 'Sair da tela cheia' : 'Tela cheia'}
+				title={telaCheia ? 'Sair da tela cheia (F)' : 'Tela cheia (F)'}><Icon name={telaCheia ? 'shrink' : 'expand'} /></button
+			>
 		</div>
 	</div>
 </div>
@@ -761,19 +877,77 @@
 		box-shadow: var(--shadow-lift);
 		outline: none;
 	}
+	/* Tela cheia (nativa ou da página): a imagem ocupa o maior 16:9 que couber, e os controles ficam
+	   sobre ela, no rodapé, sumindo durante a reprodução. */
 	.player.tela-cheia {
+		position: relative;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		border-radius: 0;
+		box-sizing: border-box;
 		height: 100vh;
+		height: 100dvh;
+		padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
+		border-radius: 0;
+		box-shadow: none;
+	}
+	/* Sem a API do navegador (iPhone, app do Claude): o player cobre a janela. */
+	.player.pagina {
+		position: fixed;
+		inset: 0;
+		z-index: 1000;
+		width: auto;
+	}
+	:global(html.player-tela-cheia),
+	:global(html.player-tela-cheia body) {
+		overflow: hidden;
 	}
 	.tela-cheia .tela {
-		width: min(100%, calc((100vh - 96px) * 16 / 9));
+		width: min(100%, calc((100vh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px)) * 16 / 9));
+		width: min(100%, calc((100dvh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px)) * 16 / 9));
 		margin: 0 auto;
+	}
+	.tela-cheia .controles {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		padding: 1.75rem max(0.6rem, env(safe-area-inset-right, 0px)) max(0.5rem, env(safe-area-inset-bottom, 0px)) max(0.6rem, env(safe-area-inset-left, 0px));
+		background: linear-gradient(to bottom, rgb(0 0 0 / 0%), rgb(5 6 12 / 88%) 42%);
+		transition: opacity 0.3s;
+	}
+	.tela-cheia.ocultos .controles {
+		opacity: 0;
+		pointer-events: none;
+	}
+	.tela-cheia.ocultos {
+		cursor: none;
+	}
+	.tela-cheia .legenda,
+	.tela-cheia .grande {
+		bottom: calc(5% + var(--elevar-legenda, 0px));
+		transition: bottom 0.3s;
+	}
+	.girar {
+		display: none;
+	}
+	@media (orientation: portrait) and (max-width: 760px) {
+		.tela-cheia .girar {
+			display: block;
+			position: absolute;
+			top: max(1rem, env(safe-area-inset-top, 0px));
+			left: 0;
+			right: 0;
+			margin: 0;
+			padding: 0 1rem;
+			text-align: center;
+			color: #b4bbe0;
+			font-size: 0.85rem;
+		}
 	}
 	.tela {
 		position: relative;
+		container-type: inline-size;
 	}
 	.toque {
 		position: absolute;
