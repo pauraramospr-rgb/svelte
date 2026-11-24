@@ -85,6 +85,7 @@ export const LUGARES: Record<string, [number, number]> = {
 	Dhahran: [50.1, 26.29], Halabja: [45.99, 35.18], Khafji: [48.49, 28.42], Mossul: [43.13, 36.34], Erbil: [44.01, 36.19],
 	'Sidi Bouzid': [9.48, 35.04], Benghazi: [20.07, 32.12], Sirte: [16.59, 31.21], Daraa: [36.1, 32.62], Alepo: [37.16, 36.2], Homs: [36.72, 34.73],
 	Manama: [50.58, 26.23], Sanaa: [44.21, 15.37], Rabat: [-6.83, 34.02], Raqqa: [39.01, 35.95], Idlib: [36.63, 35.93], Lampedusa: [12.6, 35.5],
+	Izmir: [27.14, 38.42], Lesbos: [26.33, 39.1], Bodrum: [27.43, 37.03],
 	Cotonou: [2.42, 6.37], Abomey: [1.99, 7.18], Uagadugu: [-1.52, 12.37],
 	// Oceanos e mares (rótulos)
 	'Oceano Atlântico': [-32, 18], 'Atlântico Sul': [-20, -20], 'Oceano Índico': [75, -18], 'Oceano Pacífico': [-140, 5], 'Mar Mediterrâneo': [18, 34.5],
@@ -162,7 +163,11 @@ export const REGIOES: Record<string, [number, number, number, number]> = {
 	ira: [42.5, 24.5, 64, 40.5],
 	'golfo-persico': [38, 22.5, 58.5, 38.5],
 	'mundo-arabe': [-12, 10, 60, 41],
-	siria: [34.5, 31.6, 43, 37.6]
+	siria: [34.5, 31.6, 43, 37.6],
+	tunisia: [4.5, 31, 15.5, 38.5],
+	libia: [7, 24.5, 27.5, 37],
+	'peninsula-arabica': [33, 11, 60, 31],
+	'rota-refugiados': [5, 29, 41, 55]
 };
 
 /** Câmera que enquadra uma região no palco (com margem). */
