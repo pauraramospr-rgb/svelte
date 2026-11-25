@@ -36,6 +36,18 @@
 	<Player {episodios} />
 {/key}
 
+{#if data.simulado}
+	<section class="card simulado" aria-labelledby="sim-titulo">
+		<div>
+			<h2 id="sim-titulo">Simulado desta aula</h2>
+			<p class="small">
+				{data.simulado.total} questões discursivas{data.simulado.oficiais ? ` — ${data.simulado.oficiais} da UERJ e ${data.simulado.ineditas} inéditas` : ', inéditas'}, cerca de {data.simulado.minutos} min. As respostas ficam salvas; no fim, você compara com o comentário oficial ou com a resposta esperada.
+			</p>
+		</div>
+		<a class="btn primary" href="/simulados/aula/{data.topic.id}">Fazer o simulado</a>
+	</section>
+{/if}
+
 <section class="card notas" aria-labelledby="notas-titulo">
 	<h2 id="notas-titulo">Sobre esta aula</h2>
 	<ul class="small">
@@ -79,6 +91,22 @@
 </nav>
 
 <style>
+	.simulado {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		gap: 0.8rem 1.5rem;
+		margin-top: 1.25rem;
+		border-left: 4px solid var(--primary);
+	}
+	.simulado h2 {
+		margin: 0 0 0.25rem;
+	}
+	.simulado p {
+		margin: 0;
+		max-width: 60ch;
+	}
 	.crumbs {
 		display: flex;
 		flex-wrap: wrap;

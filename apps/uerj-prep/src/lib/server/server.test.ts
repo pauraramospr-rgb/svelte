@@ -3,7 +3,8 @@ import { openDatabase, setDatabase, tx, db } from './db';
 import { createUser, createSession, validateSession, verifyPassword, hashPassword, findUserByEmail } from './auth';
 import { recordAttempt, gradeAttempt, topicPerformance, dueCards } from './progress';
 import { getQuestion, listQuestions, pickQuestions } from './questions';
-import { createSimulado, finishSimulado, computeResult, getSimulado } from './simulados';
+import { createSimulado, finishSimulado, computeResult, getSimulado, createSimuladoDaAula, aulaDoSimulado } from './simulados';
+import { simuladoDaAula } from '$lib/data/content/simulados-aulas';
 
 beforeAll(() => {
 	setDatabase(openDatabase(':memory:'));
@@ -85,5 +86,19 @@ describe('banco e simulados', () => {
 		expect(r.final).toBe(20);
 		expect(r.complete).toBe(true);
 		expect(r.eliminated).toBe(true);
+	});
+
+	it('monta o simulado de uma aula com as questões fixas, na ordem, e lembra de qual aula ele é', () => {
+		const user = createUser('aula@example.com', 'Aula', 'segredo123');
+		const id = createSimuladoDaAula(user, 'his-a-revolucao-francesa', 'A Revolução Francesa')!;
+		const s = getSimulado(user.id, id)!;
+		const plano = simuladoDaAula('his-a-revolucao-francesa')!;
+		expect(s.sim.title).toBe('Simulado da aula: A Revolução Francesa');
+		expect(s.sim.duration_minutes).toBe(plano.minutos);
+		expect(s.items.map((i) => i.question_id)).toEqual(plano.questoes);
+		expect(s.items.every((i) => i.discipline === 'HIS')).toBe(true);
+		expect(s.items.every((i) => getQuestion(i.question_id))).toBe(true);
+		expect(aulaDoSimulado(s.sim)).toBe('his-a-revolucao-francesa');
+		expect(createSimuladoDaAula(user, 'aula-que-nao-existe', 'X')).toBeNull();
 	});
 });

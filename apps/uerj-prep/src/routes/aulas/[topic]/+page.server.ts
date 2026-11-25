@@ -4,6 +4,12 @@ import { getTopic, topicsOf } from '$lib/domain/syllabus';
 import { getApostila, getAula } from '$lib/producao';
 import { episodiosDoRoteiro, roteiroDe } from '$lib/cinema/aulas';
 import { GRUPOS_SERIE, especiaisProntos, especialDe, resumoEspecial, roteiroEspecial } from '$lib/especiais';
+import { simuladoDaAula } from '$lib/data/content/simulados-aulas';
+
+function resumoDoSimulado(id: string) {
+	const s = simuladoDaAula(id);
+	return s ? { total: s.questoes.length, oficiais: s.oficiais.length, ineditas: s.ineditas.length, minutos: s.minutos } : null;
+}
 
 export const load: PageServerLoad = ({ params }) => {
 	const info = getTopic(params.topic);
@@ -26,6 +32,7 @@ export const load: PageServerLoad = ({ params }) => {
 			prontos: episodios,
 			episodios: [],
 			vizinhos: { anterior: j > 0 ? serie[j - 1] : null, proximo: j >= 0 && j < serie.length - 1 ? serie[j + 1] : null },
+			simulado: resumoDoSimulado(esp.id),
 			especial: {
 				grupo: GRUPOS_SERIE[esp.grupo],
 				chamada: esp.chamada,
@@ -51,6 +58,7 @@ export const load: PageServerLoad = ({ params }) => {
 			prontos: episodios,
 			episodios: [],
 			vizinhos,
+			simulado: resumoDoSimulado(params.topic),
 			especial: null
 		};
 	}
@@ -67,6 +75,7 @@ export const load: PageServerLoad = ({ params }) => {
 		prontos: [],
 		episodios: aula.episodios.map((e) => ({ numero: e.numero, title: e.title, objetivo: e.objetivo, cenas: e.cenas.map((c) => ({ ...c })) })),
 		vizinhos,
+		simulado: resumoDoSimulado(params.topic),
 		especial: null
 	};
 };

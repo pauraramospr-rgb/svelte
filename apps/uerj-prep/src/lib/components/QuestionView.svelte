@@ -4,6 +4,7 @@
 	import CategoryTag from './CategoryTag.svelte';
 	import DisciplineBadge from './DisciplineBadge.svelte';
 	import { BOOKS, CURRENT_EDITION } from '$lib/data/official/books';
+	import { cadernoDaQuestao } from '$lib/data/official/caderno';
 
 	let { q, compact = false }: { q: Question; compact?: boolean } = $props();
 	// Questões oficiais de Língua Portuguesa e Literaturas costumam se basear no livro indicado naquele ano.
@@ -12,6 +13,8 @@
 			? BOOKS.find((b) => b.edition === q.year && b.exam.startsWith('Língua Portuguesa'))
 			: undefined
 	);
+	// Questões oficiais com o caderno de prova recortado: imagens, textos e tabelas como na prova.
+	const caderno = $derived(q.source === 'oficial' && !compact ? cadernoDaQuestao(q.id) : []);
 </script>
 
 <article class="qv">
@@ -26,7 +29,7 @@
 		{/if}
 	</header>
 
-	{#if q.source === 'oficial' && !compact}
+	{#if q.source === 'oficial' && !compact && !caderno.length}
 		{#if q.requiresBaseText}
 			<p class="notice warn small">Esta questão se refere a textos-base publicados no início do caderno de prova. <a href={q.sourceUrl} target="_blank" rel="noopener noreferrer">Abra a prova oficial</a> para ler o texto.</p>
 		{/if}
@@ -44,7 +47,22 @@
 		<p class="notice small">Em {pastBook.edition}, a prova de Língua Portuguesa e Literaturas teve como base <em>{pastBook.title}</em>, de {pastBook.author}. Use esta questão para treinar o tipo de comando; o livro de {CURRENT_EDITION} é outro.</p>
 	{/if}
 
-	<div class="statement" class:clamp={compact}>{q.statement}</div>
+	{#if caderno.length}
+		<figure class="caderno">
+			{#each caderno as pg (pg.src)}
+				<img src={pg.src} alt={pg.alt} loading="lazy" decoding="async" class:texto={pg.tipo === 'texto'} />
+			{/each}
+			<figcaption class="small muted">
+				Reprodução do caderno de prova oficial da UERJ — Vestibular Estadual {q.source === 'oficial' ? q.year : ''}, Exame Discursivo{caderno.some((c) => c.tipo === 'texto') ? ': texto-base e questão, com a numeração de linhas original' : ''}.
+			</figcaption>
+		</figure>
+		<details class="transcricao">
+			<summary class="small">Enunciado em texto (transcrição)</summary>
+			<div class="statement">{q.statement}</div>
+		</details>
+	{:else}
+		<div class="statement" class:clamp={compact}>{q.statement}</div>
+	{/if}
 
 	{#if !compact}
 		<footer class="small muted">
@@ -65,6 +83,38 @@
 	}
 	.qv footer {
 		margin-top: 0.8rem;
+	}
+	.caderno {
+		margin: 0;
+		display: grid;
+		gap: 0.6rem;
+	}
+	.caderno img {
+		display: block;
+		width: 100%;
+		max-width: 46rem;
+		height: auto;
+		/* o caderno é impresso em papel branco: fica branco também no tema escuro */
+		background: #fff;
+		border: 1px solid var(--border);
+		border-radius: 10px;
+		padding: 0.4rem;
+		box-sizing: border-box;
+	}
+	.caderno img.texto {
+		border-style: dashed;
+	}
+	.caderno figcaption {
+		margin-top: 0.1rem;
+	}
+	.transcricao {
+		margin-top: 0.6rem;
+	}
+	.transcricao summary {
+		cursor: pointer;
+	}
+	.transcricao .statement {
+		margin-top: 0.5rem;
 	}
 	.clamp {
 		display: -webkit-box;

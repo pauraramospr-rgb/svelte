@@ -1,5 +1,6 @@
 import officialJson from '$lib/data/official/questions-official.json';
 import seedJson from '$lib/data/content/questoes-ineditas.json';
+import { QUESTOES_DAS_AULAS } from '$lib/data/content/simulados-aulas';
 import { db } from './db';
 import type { NewQuestion, OfficialQuestion, Question, Difficulty } from '$lib/questions/types';
 import type { DisciplineCode } from '$lib/data/official/exam-2027';
@@ -7,7 +8,7 @@ import type { DisciplineCode } from '$lib/data/official/exam-2027';
 const OFFICIAL = (officialJson as unknown as Omit<OfficialQuestion, 'source'>[]).map(
 	(q) => ({ ...q, source: 'oficial' }) as OfficialQuestion
 );
-const SEED = (seedJson as unknown as Omit<NewQuestion, 'source' | 'origin'>[]).map(
+const SEED = ([...seedJson, ...QUESTOES_DAS_AULAS] as unknown as Omit<NewQuestion, 'source' | 'origin'>[]).map(
 	(q) => ({ ...q, source: 'inedita', origin: 'acervo' }) as NewQuestion
 );
 

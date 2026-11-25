@@ -18,16 +18,16 @@ if (js.length !== 1) throw new Error(`esperado 1 arquivo JS, encontrados ${js.le
 
 // O JS vai embutido na página, então import.meta.url passa a ser o endereço da própria página, e não o de
 // assets/index-*.js. Os MP3 que ficam fora do HTML (voz gratuita) continuam em assets/, publicados ao lado
-// da página: os endereços relativos ganham o prefixo assets/.
-const externos = new Set(assets.filter((f) => f.endsWith('.mp3')));
+// da página, assim como os recortes dos cadernos de prova (WEBP): os endereços relativos ganham o prefixo assets/.
+const externos = new Set(assets.filter((f) => /\.(mp3|webp)$/.test(f)));
 const usados = new Set();
-const jsPagina = js[0].replace(/new URL\("([^"/]+\.mp3)",\s*import\.meta\.url\)/g, (_, f) => {
-	if (!externos.has(f)) throw new Error(`MP3 referenciado sem arquivo em assets/: ${f}`);
+const jsPagina = js[0].replace(/new URL\("([^"/]+\.(?:mp3|webp))",\s*import\.meta\.url\)/g, (_, f) => {
+	if (!externos.has(f)) throw new Error(`arquivo referenciado sem cópia em assets/: ${f}`);
 	usados.add(f);
 	return `new URL("assets/${f}",import.meta.url)`;
 });
 const soltos = [...externos].filter((f) => !usados.has(f));
-if (soltos.length) throw new Error(`MP3 em assets/ que a página não usa: ${soltos.slice(0, 3).join(', ')}`);
+if (soltos.length) throw new Error(`arquivos em assets/ que a página não usa: ${soltos.slice(0, 3).join(', ')}`);
 
 const safeJs = jsPagina.replace(/<\/script/gi, '<\\/script').replace(/<!--/g, '<\\!--');
 const safeCss = css.join('\n').replace(/<\/style/gi, '<\\/style');
@@ -46,4 +46,4 @@ const page = [
 ].join('\n');
 
 writeFileSync(join(out, 'discursiva.html'), page);
-console.log(`build-web/discursiva.html: ${(page.length / 1024 / 1024).toFixed(2)} MB; ${usados.size} MP3 em build-web/assets/`);
+console.log(`build-web/discursiva.html: ${(page.length / 1024 / 1024).toFixed(2)} MB; ${usados.size} arquivos (MP3 e recortes de caderno) em build-web/assets/`);

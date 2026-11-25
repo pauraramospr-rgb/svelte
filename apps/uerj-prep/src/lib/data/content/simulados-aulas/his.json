@@ -1,0 +1,2064 @@
+{
+	"aulas": {
+		"his-a-america-colonial-portuguesa": {
+			"oficiais": [
+				"2026-HIS-03",
+				"2025-HIS-02"
+			],
+			"ineditas": [
+				"simu-his-a-america-colonial-portuguesa-1",
+				"simu-his-a-america-colonial-portuguesa-2"
+			]
+		},
+		"his-a-construcao-da-hegemonia-norte-americana": {
+			"oficiais": [
+				"2026-HIS-06"
+			],
+			"ineditas": [
+				"simu-his-a-construcao-da-hegemonia-norte-americana-1",
+				"simu-his-a-construcao-da-hegemonia-norte-americana-2",
+				"simu-his-a-construcao-da-hegemonia-norte-americana-3"
+			]
+		},
+		"his-a-crise-da-sociedade-liberal": {
+			"oficiais": [],
+			"ineditas": [
+				"simu-his-a-crise-da-sociedade-liberal-1",
+				"simu-his-a-crise-da-sociedade-liberal-2",
+				"simu-his-a-crise-da-sociedade-liberal-3",
+				"simu-his-a-crise-da-sociedade-liberal-4"
+			]
+		},
+		"his-a-expansao-maritima-e-comercial-europeia": {
+			"oficiais": [
+				"2026-HIS-01",
+				"2024-HIS-01"
+			],
+			"ineditas": [
+				"simu-his-a-expansao-maritima-e-comercial-europeia-1",
+				"simu-his-a-expansao-maritima-e-comercial-europeia-2"
+			]
+		},
+		"his-a-formacao-dos-estados-modernos-europeus": {
+			"oficiais": [
+				"2020-HIS-03",
+				"2019-HIS-01"
+			],
+			"ineditas": [
+				"simu-his-a-formacao-dos-estados-modernos-europeus-1",
+				"simu-his-a-formacao-dos-estados-modernos-europeus-2"
+			]
+		},
+		"his-a-guerra-em-dois-movimentos": {
+			"oficiais": [
+				"2025-HIS-05",
+				"2017-HIS-08"
+			],
+			"ineditas": [
+				"simu-his-a-guerra-em-dois-movimentos-1",
+				"simu-his-a-guerra-em-dois-movimentos-2"
+			]
+		},
+		"his-a-ilustracao-e-a-crise-do-antigo-regime": {
+			"oficiais": [
+				"2025-HIS-01",
+				"2019-HIS-02"
+			],
+			"ineditas": [
+				"simu-his-a-ilustracao-e-a-crise-do-antigo-regime-1",
+				"simu-his-a-ilustracao-e-a-crise-do-antigo-regime-2"
+			]
+		},
+		"his-a-nova-ordem-em-um-mundo-multipolar": {
+			"oficiais": [
+				"2020-HIS-09"
+			],
+			"ineditas": [
+				"simu-his-a-nova-ordem-em-um-mundo-multipolar-1",
+				"simu-his-a-nova-ordem-em-um-mundo-multipolar-2",
+				"simu-his-a-nova-ordem-em-um-mundo-multipolar-3"
+			]
+		},
+		"his-a-revolucao-francesa": {
+			"oficiais": [],
+			"ineditas": [
+				"simu-his-a-revolucao-francesa-1",
+				"simu-his-a-revolucao-francesa-2",
+				"simu-his-a-revolucao-francesa-3",
+				"simu-his-a-revolucao-francesa-4"
+			]
+		},
+		"his-a-revolucao-industrial": {
+			"oficiais": [],
+			"ineditas": [
+				"ined-his-02",
+				"simu-his-a-revolucao-industrial-1",
+				"simu-his-a-revolucao-industrial-2",
+				"simu-his-a-revolucao-industrial-3"
+			]
+		},
+		"his-africa-asia-e-america-latina-em-um-mundo-bipolar": {
+			"oficiais": [
+				"2026-HIS-08",
+				"2024-HIS-08"
+			],
+			"ineditas": [
+				"simu-his-africa-asia-e-america-latina-em-um-mundo-bipolar-1",
+				"simu-his-africa-asia-e-america-latina-em-um-mundo-bipolar-2"
+			]
+		},
+		"his-as-ditaduras-na-america-latina-e-os-movimentos-de-resistenci": {
+			"oficiais": [
+				"2026-HIS-09",
+				"2026-HIS-10"
+			],
+			"ineditas": [
+				"ined-his-01",
+				"simu-his-as-ditaduras-na-america-latina-e-os-movimentos-de-resistenci-1"
+			]
+		},
+		"his-as-manifestacoes-filosoficas-artisticas-e-intelectuais": {
+			"oficiais": [
+				"2026-HIS-02",
+				"2025-HIS-03"
+			],
+			"ineditas": [
+				"simu-his-as-manifestacoes-filosoficas-artisticas-e-intelectuais-1",
+				"simu-his-as-manifestacoes-filosoficas-artisticas-e-intelectuais-2"
+			]
+		},
+		"his-contestacao-nos-anos-1960-e-1970": {
+			"oficiais": [
+				"2019-HIS-06",
+				"2019-HIS-10"
+			],
+			"ineditas": [
+				"simu-his-contestacao-nos-anos-1960-e-1970-1",
+				"simu-his-contestacao-nos-anos-1960-e-1970-2"
+			]
+		},
+		"his-estado-e-industrializacao-na-america-latina": {
+			"oficiais": [
+				"2024-HIS-07",
+				"2020-HIS-05"
+			],
+			"ineditas": [
+				"simu-his-estado-e-industrializacao-na-america-latina-1",
+				"simu-his-estado-e-industrializacao-na-america-latina-2"
+			]
+		},
+		"his-formacao-e-consolidacao-do-capitalismo-nos-estados-unidos": {
+			"oficiais": [
+				"2020-HIS-04"
+			],
+			"ineditas": [
+				"simu-his-formacao-e-consolidacao-do-capitalismo-nos-estados-unidos-1",
+				"simu-his-formacao-e-consolidacao-do-capitalismo-nos-estados-unidos-2",
+				"simu-his-formacao-e-consolidacao-do-capitalismo-nos-estados-unidos-3"
+			]
+		},
+		"his-globalizacao-e-antiglobalizacao": {
+			"oficiais": [
+				"2020-HIS-10",
+				"2019-HIS-09"
+			],
+			"ineditas": [
+				"simu-his-globalizacao-e-antiglobalizacao-1",
+				"simu-his-globalizacao-e-antiglobalizacao-2"
+			]
+		},
+		"his-guerra-fria": {
+			"oficiais": [
+				"2025-HIS-07",
+				"2024-HIS-09"
+			],
+			"ineditas": [
+				"simu-his-guerra-fria-1",
+				"simu-his-guerra-fria-2"
+			]
+		},
+		"his-ideologias-em-movimento-reformas-e-revolucoes": {
+			"oficiais": [
+				"2025-HIS-06",
+				"2025-HIS-10"
+			],
+			"ineditas": [
+				"simu-his-ideologias-em-movimento-reformas-e-revolucoes-1",
+				"simu-his-ideologias-em-movimento-reformas-e-revolucoes-2"
+			]
+		},
+		"his-modernizacao-e-modernismos": {
+			"oficiais": [
+				"2019-HIS-06"
+			],
+			"ineditas": [
+				"simu-his-modernizacao-e-modernismos-1",
+				"simu-his-modernizacao-e-modernismos-2",
+				"simu-his-modernizacao-e-modernismos-3"
+			]
+		},
+		"his-o-antigo-regime-em-sociedades-europeias-e-nos-tropicos": {
+			"oficiais": [
+				"2024-HIS-03"
+			],
+			"ineditas": [
+				"simu-his-o-antigo-regime-em-sociedades-europeias-e-nos-tropicos-1",
+				"simu-his-o-antigo-regime-em-sociedades-europeias-e-nos-tropicos-2",
+				"simu-his-o-antigo-regime-em-sociedades-europeias-e-nos-tropicos-3"
+			]
+		},
+		"his-o-brasil-da-monarquia-a-republica": {
+			"oficiais": [
+				"2026-HIS-07",
+				"2024-HIS-04"
+			],
+			"ineditas": [
+				"simu-his-o-brasil-da-monarquia-a-republica-1",
+				"simu-his-o-brasil-da-monarquia-a-republica-2"
+			]
+		},
+		"his-o-mundo-socialista": {
+			"oficiais": [],
+			"ineditas": [
+				"simu-his-o-mundo-socialista-1",
+				"simu-his-o-mundo-socialista-2",
+				"simu-his-o-mundo-socialista-3",
+				"simu-his-o-mundo-socialista-4"
+			]
+		},
+		"his-oriente-medio": {
+			"oficiais": [],
+			"ineditas": [
+				"simu-his-oriente-medio-1",
+				"simu-his-oriente-medio-2",
+				"simu-his-oriente-medio-3",
+				"simu-his-oriente-medio-4"
+			]
+		},
+		"his-os-colonialismos-em-questao": {
+			"oficiais": [
+				"2026-HIS-04",
+				"2019-HIS-03"
+			],
+			"ineditas": [
+				"simu-his-os-colonialismos-em-questao-1",
+				"simu-his-os-colonialismos-em-questao-2"
+			]
+		},
+		"his-os-processos-de-conquista-e-colonizacao-europeia-na-america-": {
+			"oficiais": [
+				"2020-HIS-01",
+				"2019-HIS-08"
+			],
+			"ineditas": [
+				"simu-his-os-processos-de-conquista-e-colonizacao-europeia-na-america--1",
+				"simu-his-os-processos-de-conquista-e-colonizacao-europeia-na-america--2"
+			]
+		},
+		"his-os-processos-de-formacao-dos-estados-nacionais-americanos": {
+			"oficiais": [
+				"2025-HIS-04",
+				"2020-HIS-07"
+			],
+			"ineditas": [
+				"simu-his-os-processos-de-formacao-dos-estados-nacionais-americanos-1",
+				"simu-his-os-processos-de-formacao-dos-estados-nacionais-americanos-2"
+			]
+		},
+		"his-restauracao-e-revolucao-na-europa-e-na-america": {
+			"oficiais": [
+				"2026-HIS-05",
+				"2024-HIS-06"
+			],
+			"ineditas": [
+				"simu-his-restauracao-e-revolucao-na-europa-e-na-america-1",
+				"simu-his-restauracao-e-revolucao-na-europa-e-na-america-2"
+			]
+		},
+		"his-transformacoes-no-capitalismo-e-expansao-imperialista": {
+			"oficiais": [
+				"2020-HIS-06",
+				"2019-HIS-04"
+			],
+			"ineditas": [
+				"simu-his-transformacoes-no-capitalismo-e-expansao-imperialista-1",
+				"simu-his-transformacoes-no-capitalismo-e-expansao-imperialista-2"
+			]
+		}
+	},
+	"questoes": [
+		{
+			"id": "simu-his-a-america-colonial-portuguesa-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-america-colonial-portuguesa"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“No Nordeste açucareiro dos séculos XVI e XVII, o engenho reunia a casa-grande, a capela, a moenda e a senzala. O senhor de engenho concentrava terras e prestígio, enquanto o trabalho era feito, sobretudo, por africanos escravizados trazidos pelo tráfico atlântico.”\n\nApresente duas características da economia açucareira na América portuguesa. Em seguida, explique por que o tráfico de africanos escravizados se tornou central para essa economia.",
+			"modelAnswer": "Características (duas): grande propriedade (latifúndio); monocultura voltada à exportação para o mercado europeu; uso intensivo do trabalho escravizado; subordinação ao exclusivo comercial metropolitano; dependência de capitais e do refino e da distribuição feitos fora da colônia (comerciantes portugueses e flamengos).\nTráfico: era um negócio muito lucrativo para comerciantes e para a Coroa, que cobrava impostos sobre ele; a mão de obra indígena foi dizimada por epidemias e guerras, resistia e fugia e passou a ser protegida, em parte, pelos jesuítas e por leis que restringiam sua escravização; e Portugal controlava feitorias e rotas na costa africana (Costa da Mina, Angola), o que garantia o fornecimento regular de escravizados.",
+			"explanation": "A plantation açucareira combinava terra abundante, capital mercantil e trabalho compulsório. O tráfico não foi apenas “solução” para a falta de braços: era, ele mesmo, um dos ramos mais rentáveis do comércio atlântico, ligando a América portuguesa à África.",
+			"skills": [
+				"identificar",
+				"explicar"
+			],
+			"knowledge": [
+				"economia açucareira e plantation",
+				"tráfico atlântico de africanos escravizados"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Justificar a escravidão africana pela suposta “preguiça” ou “inaptidão” indígena, um preconceito da época.",
+				"Citar características da mineração (século XVIII) em vez das do açúcar."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-america-colonial-portuguesa-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-america-colonial-portuguesa"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“A descoberta de ouro em Minas Gerais, no fim do século XVII, atraiu milhares de pessoas, fez crescer vilas e caminhos e levou a Coroa portuguesa a reforçar a fiscalização, cobrando o quinto e criando casas de fundição.”\n\nCite duas mudanças provocadas pela mineração na América portuguesa no século XVIII. Em seguida, apresente um motivo da insatisfação de colonos com a política fiscal da Coroa nesse período.",
+			"modelAnswer": "Mudanças (duas): deslocamento do eixo econômico do Nordeste para o Centro-Sul; transferência da capital de Salvador para o Rio de Janeiro (1763); urbanização (Vila Rica, Mariana, São João del-Rei); interiorização da colonização e abertura de caminhos; formação de um mercado interno (tropeiros, gado e mulas do Sul, alimentos); aumento do tráfico de africanos escravizados.\nInsatisfação: a cobrança do quinto e a obrigação de fundir o ouro nas casas de fundição (motivo da Revolta de Vila Rica, de 1720); a ameaça da derrama, cobrança forçada dos impostos atrasados, que precipitou a Inconfidência Mineira (1789); a capitação e o controle rígido da circulação do ouro.",
+			"explanation": "A mineração reorganizou o território colonial e aumentou a presença do Estado português, que via no ouro uma saída para suas dificuldades. A pressão fiscal gerou conflitos entre a Coroa e as elites coloniais.",
+			"skills": [
+				"citar",
+				"apresentar"
+			],
+			"knowledge": [
+				"mineração no século XVIII",
+				"política fiscal metropolitana e revoltas coloniais"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Confundir o quinto (imposto sobre o ouro) com o dízimo.",
+				"Atribuir à Inconfidência Mineira um projeto abolicionista, que ela não tinha."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-construcao-da-hegemonia-norte-americana-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-construcao-da-hegemonia-norte-americana"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em 1823, o presidente James Monroe declarou que os continentes americanos não deveriam mais ser considerados objeto de colonização por potências europeias. Oito décadas depois, Theodore Roosevelt acrescentou que os Estados Unidos poderiam exercer um ‘poder de polícia internacional’ no continente.”\n\nExplique o sentido da Doutrina Monroe no contexto das independências latino-americanas. Em seguida, apresente uma forma de intervenção dos Estados Unidos na América Latina associada ao Corolário Roosevelt.",
+			"modelAnswer": "Doutrina Monroe: opunha-se a tentativas europeias (como as da Santa Aliança) de recolonizar ou intervir nas novas nações americanas — “a América para os americanos” —, afirmando o continente como área de influência dos Estados Unidos.\nIntervenção (uma): política do Big Stick, com ocupações militares (Haiti, 1915–1934; República Dominicana, 1916–1924; Nicarágua), controle de alfândegas de países endividados, a Emenda Platt imposta a Cuba (1901) e o apoio à separação do Panamá (1903) para a construção do canal.",
+			"explanation": "Entre 1823 e 1904, a doutrina mudou de sentido: de recusa à intervenção europeia passou a justificar a intervenção norte-americana, sinal da transformação dos EUA em potência regional.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"Doutrina Monroe",
+				"Corolário Roosevelt e Big Stick"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Afirmar que a Doutrina Monroe autorizava, desde 1823, ocupações militares dos EUA.",
+				"Confundir o Big Stick com a Política da Boa Vizinhança (anos 1930)."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-construcao-da-hegemonia-norte-americana-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-construcao-da-hegemonia-norte-americana"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Nos anos 1930 e 1940, o governo de Franklin Roosevelt adotou a chamada Política da Boa Vizinhança, que trocava as intervenções militares diretas por acordos comerciais, cooperação e intercâmbio cultural com a América Latina. O personagem Zé Carioca, criado pelos estúdios Disney em 1942, ficou associado a esse momento.”\n\nApresente um objetivo dos Estados Unidos com a Política da Boa Vizinhança no contexto da Segunda Guerra Mundial. Em seguida, cite uma contrapartida obtida pelo Brasil ao se alinhar aos Estados Unidos nesse período.",
+			"modelAnswer": "Objetivo (um): garantir aliados no continente e afastar a influência da Alemanha nazista; assegurar matérias-primas estratégicas (borracha, minérios); obter bases militares, como a de Natal; ampliar mercados para produtos e para a cultura norte-americana.\nContrapartida (uma): financiamento e equipamentos para a Companhia Siderúrgica Nacional, em Volta Redonda (Acordos de Washington, 1942); fornecimento de armamentos para as Forças Armadas; acordos de compra de borracha e minérios brasileiros.",
+			"explanation": "A Boa Vizinhança substituiu a força pela persuasão (comércio, cinema, rádio) num momento em que os EUA precisavam da América Latina unida contra o Eixo. Vargas negociou o alinhamento em troca de vantagens para a industrialização.",
+			"skills": [
+				"apresentar",
+				"citar"
+			],
+			"knowledge": [
+				"Política da Boa Vizinhança",
+				"Brasil na Segunda Guerra Mundial"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que o Brasil se alinhou aos EUA desde o início da guerra: até 1942, Vargas negociou com os dois lados.",
+				"Confundir Volta Redonda (siderurgia) com a Petrobras (1953)."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-construcao-da-hegemonia-norte-americana-3",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-construcao-da-hegemonia-norte-americana"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“Ao fim da Segunda Guerra Mundial, os Estados Unidos concentravam grande parte da produção industrial do planeta, eram o maior credor internacional e detinham, até 1949, o monopólio da bomba atômica. Em 1944, a conferência de Bretton Woods definiu o dólar como moeda de referência das trocas internacionais.”\n\nIdentifique dois instrumentos que consolidaram a hegemonia dos Estados Unidos no pós-guerra. Em seguida, explique por que o Plano Marshall pode ser compreendido como parte dessa estratégia no início da Guerra Fria.",
+			"modelAnswer": "Instrumentos (dois): o dólar como moeda-padrão, conversível em ouro (Bretton Woods); o FMI e o Banco Mundial (BIRD); a ONU, com assento permanente e poder de veto no Conselho de Segurança; a OTAN (1949) e a rede de bases militares; o poder atômico.\nPlano Marshall: a ajuda econômica à reconstrução da Europa Ocidental (a partir de 1948) buscava conter a expansão do comunismo, em linha com a Doutrina Truman, ao reduzir a miséria que favorecia os partidos comunistas; ao mesmo tempo, reativava mercados para produtos e capitais norte-americanos e prendia os aliados à liderança dos EUA.",
+			"explanation": "A hegemonia combinou força militar, instituições internacionais e dinheiro. O Plano Marshall mostra a dimensão econômica da contenção: reconstruir para não perder a Europa Ocidental para a influência soviética.",
+			"skills": [
+				"identificar",
+				"explicar"
+			],
+			"knowledge": [
+				"ordem de Bretton Woods e ONU",
+				"Plano Marshall e Doutrina Truman"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Tratar o Plano Marshall como ajuda humanitária desinteressada.",
+				"Incluir a URSS entre os beneficiários: ela recusou o plano e o vetou aos países do Leste."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-crise-da-sociedade-liberal-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-crise-da-sociedade-liberal"
+			],
+			"difficulty": "facil",
+			"statement": "Texto elaborado para esta questão:\n“Em outubro de 1929, as ações da Bolsa de Valores de Nova York despencaram. Nos anos seguintes, bancos quebraram, fábricas fecharam e o desemprego atingiu milhões de trabalhadores nos Estados Unidos e em outros países.”\n\nApresente duas causas da crise de 1929. Em seguida, explique por que a crise se espalhou para outros países.",
+			"modelAnswer": "Causas (duas): superprodução industrial e agrícola diante de um consumo que não acompanhava (salários baixos, renda concentrada); especulação financeira e crédito fácil para comprar ações; recuperação da produção europeia, que reduziu as exportações norte-americanas; ausência de regulação do mercado.\nDifusão: os EUA eram o maior credor e um dos maiores importadores do mundo; com a crise, cortaram empréstimos e repatriaram capitais (atingindo a Alemanha e a Áustria), reduziram importações e derrubaram os preços das matérias-primas (como o café brasileiro); o protecionismo (tarifa Smoot-Hawley, 1930) encolheu ainda mais o comércio internacional.",
+			"explanation": "A crise expôs os limites do liberalismo econômico: o mercado sozinho não garantiu emprego nem estabilidade, e a interdependência criada pela posição central dos EUA transformou uma crise nacional em mundial.",
+			"skills": [
+				"apresentar",
+				"explicar"
+			],
+			"knowledge": [
+				"crise de 1929 e Grande Depressão"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Apontar apenas a “quebra da Bolsa” como causa, sem explicar a superprodução e a especulação.",
+				"Dizer que a crise atingiu só os EUA."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-crise-da-sociedade-liberal-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-crise-da-sociedade-liberal"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Eleito em 1932, Franklin Delano Roosevelt prometeu um ‘novo acordo’ (New Deal) para os norte-americanos. Entre as medidas adotadas estiveram grandes obras públicas, o controle da produção agrícola, a regulamentação dos bancos e a criação de um sistema de seguridade social.”\n\nExplique de que modo o New Deal rompeu com os princípios do liberalismo econômico clássico. Em seguida, apresente um efeito social dessas medidas.",
+			"modelAnswer": "Ruptura: o Estado passou a intervir na economia — gastos públicos para gerar empregos e demanda, regulação de bancos e da produção, controle de preços —, contra a ideia liberal de um mercado autorregulado e de um Estado mínimo (laissez-faire); a política se aproxima das ideias de John Maynard Keynes.\nEfeito social (um): redução do desemprego com as frentes de obras públicas; criação de aposentadorias e do seguro-desemprego (Social Security Act, 1935); reconhecimento dos sindicatos e da negociação coletiva (Lei Wagner, 1935); salário mínimo e jornada máxima (1938) — bases de um Estado de bem-estar.",
+			"explanation": "O New Deal não aboliu o capitalismo: reformou-o, dando ao Estado o papel de estimular a economia e proteger os trabalhadores para evitar o colapso social e político.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"New Deal",
+				"intervencionismo e keynesianismo"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Chamar o New Deal de socialista.",
+				"Descrever medidas sem explicar a ruptura com o liberalismo."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-crise-da-sociedade-liberal-3",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-crise-da-sociedade-liberal"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“A crise de 1929 atingiu em cheio a economia cafeeira: com a queda do consumo nos Estados Unidos e na Europa, o preço internacional do café despencou, e os estoques se acumularam nos armazéns paulistas.”\n\nExplique a relação entre a crise de 1929 e o fim da Primeira República no Brasil. Em seguida, cite uma medida do governo Vargas diante da crise do café.",
+			"modelAnswer": "Relação: a crise arruinou a base econômica da oligarquia cafeeira paulista, que sustentava o arranjo político da Primeira República; somada ao rompimento da aliança com Minas Gerais na sucessão de 1930 (Washington Luís indicou o paulista Júlio Prestes), à formação da Aliança Liberal e ao assassinato de João Pessoa, abriu caminho para o movimento armado que levou Getúlio Vargas ao poder em 1930.\nMedida (uma): compra e queima de estoques de café para sustentar os preços (Conselho Nacional do Café, 1931; Departamento Nacional do Café, 1933); estímulo à diversificação agrícola e à industrialização por substituição de importações.",
+			"explanation": "A crise internacional e a crise política interna se reforçaram: o enfraquecimento econômico dos cafeicultores ajudou a quebrar a hegemonia oligárquica.",
+			"skills": [
+				"explicar",
+				"citar"
+			],
+			"knowledge": [
+				"crise de 1929 no Brasil",
+				"Revolução de 1930"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Explicar 1930 só pela crise econômica, sem a disputa política entre as oligarquias.",
+				"Dizer que Vargas abandonou os cafeicultores: ele os protegeu com a compra de estoques."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-crise-da-sociedade-liberal-4",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-crise-da-sociedade-liberal"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“Na Alemanha, a crise econômica iniciada em 1929 levou o desemprego a cerca de seis milhões de pessoas no início de 1932. Nas eleições de julho daquele ano, o Partido Nazista tornou-se a maior bancada do Parlamento.”\n\nExplique a relação entre a crise econômica e o fortalecimento dos regimes autoritários na Europa nos anos 1930. Em seguida, apresente duas críticas desses regimes à democracia liberal.",
+			"modelAnswer": "Relação: desemprego, miséria e insegurança desacreditaram os governos parlamentares, vistos como incapazes de resolver a crise; o medo de uma revolução comunista e o ressentimento nacionalista (no caso alemão, contra o Tratado de Versalhes) levaram parte da população e das elites a apoiar líderes que prometiam ordem, emprego e grandeza nacional — Hitler chegou a chanceler em 1933.\nCríticas (duas): o parlamento seria fraco, lento e dividido por partidos; o individualismo liberal enfraqueceria a nação, que deveria estar acima do indivíduo; a democracia permitiria a “luta de classes” e o avanço comunista; defendiam partido único, um chefe carismático e um Estado forte.",
+			"explanation": "Os fascismos se apresentaram como alternativa tanto ao liberalismo quanto ao socialismo. A crise econômica não os criou, mas lhes deu uma base de massas.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"crise de 1929 e totalitarismos",
+				"nazismo e fascismo"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Afirmar que Hitler tomou o poder por golpe em 1933: ele foi nomeado chanceler dentro das regras e depois destruiu a democracia.",
+				"Confundir as críticas fascistas com as críticas socialistas ao liberalismo."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-expansao-maritima-e-comercial-europeia-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-expansao-maritima-e-comercial-europeia"
+			],
+			"difficulty": "facil",
+			"statement": "Texto elaborado para esta questão:\n“Em 1415, os portugueses conquistaram Ceuta, no norte da África. Ao longo do século XV, suas caravelas avançaram pela costa africana, e em 1498 a frota de Vasco da Gama chegou a Calicute, na Índia, abrindo uma rota marítima direta para as especiarias.”\n\nApresente duas condições que explicam o pioneirismo português na expansão marítima. Em seguida, explique o interesse europeu em chegar às especiarias do Oriente por uma rota marítima.",
+			"modelAnswer": "Condições (duas): centralização política precoce, com a dinastia de Avis (1385) apoiada pela burguesia mercantil; posição geográfica voltada para o Atlântico; experiência náutica e técnicas como a caravela, a bússola, o astrolábio e a cartografia; investimento da Coroa e da nobreza (o infante D. Henrique) nas navegações; ausência de guerras internas no século XV.\nInteresse: as especiarias (pimenta, cravo, canela, noz-moscada) eram muito valorizadas e caras porque chegavam à Europa por intermediários árabes e pelas cidades italianas (Veneza, Gênova); a tomada de Constantinopla pelos turcos (1453) tornou o comércio pelo Mediterrâneo ainda mais difícil; uma rota marítima direta eliminaria intermediários e ampliaria os lucros.",
+			"explanation": "A expansão uniu interesses do rei (riqueza e poder), da burguesia (lucros), da nobreza (terras e cargos) e da Igreja (expansão da fé).",
+			"skills": [
+				"apresentar",
+				"explicar"
+			],
+			"knowledge": [
+				"pioneirismo português",
+				"comércio de especiarias"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Repetir o mito de uma “Escola de Sagres” formal.",
+				"Ignorar o papel do Estado centralizado."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-expansao-maritima-e-comercial-europeia-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-expansao-maritima-e-comercial-europeia"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em 1494, Portugal e Castela assinaram o Tratado de Tordesilhas, que dividia as terras ‘descobertas e por descobrir’ por uma linha imaginária traçada a 370 léguas a oeste das ilhas de Cabo Verde.”\n\nExplique o significado do Tratado de Tordesilhas para as monarquias ibéricas. Em seguida, apresente uma consequência da expansão marítima para os povos da África ou da América.",
+			"modelAnswer": "Significado: partilha do mundo ultramarino entre Portugal e Castela, que evitava a guerra entre os dois reinos e garantia a cada um o domínio sobre as rotas e as terras de sua área, excluindo as demais potências (o que França, Inglaterra e Holanda contestariam).\nConsequência (uma): conquista e colonização da América, com a morte de grande parte da população indígena por epidemias, guerras e trabalho compulsório; destruição de sociedades como a asteca e a inca; o tráfico atlântico de africanos escravizados; a imposição do cristianismo.",
+			"explanation": "Tordesilhas mostra como as monarquias ibéricas concebiam o mundo como objeto de posse. Para os povos atingidos, a expansão significou conquista, exploração e catástrofe demográfica.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"Tratado de Tordesilhas",
+				"consequências da expansão marítima"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que o tratado foi aceito por todas as potências europeias.",
+				"Tratar a “descoberta” do ponto de vista apenas europeu."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-formacao-dos-estados-modernos-europeus-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-formacao-dos-estados-modernos-europeus"
+			],
+			"difficulty": "facil",
+			"statement": "Texto elaborado para esta questão:\n“Entre os séculos XV e XVII, reis da Europa ocidental passaram a cobrar impostos permanentes, a manter exércitos próprios e a organizar uma burocracia de funcionários pagos pela Coroa.”\n\nExplique o interesse da burguesia na centralização do poder real. Em seguida, cite dois elementos que caracterizam o Estado moderno.",
+			"modelAnswer": "Interesse da burguesia: unificação de moedas, pesos, medidas, leis e impostos; fim das barreiras e cobranças dos senhores feudais; segurança nas estradas e nos mares; proteção e monopólios comerciais concedidos pelo rei — condições para ampliar o comércio e os lucros; em troca, financiava a Coroa.\nElementos (dois): território com fronteiras definidas; exército permanente; burocracia; sistema de impostos regular; leis e justiça centralizadas; moeda única; soberania concentrada no rei.",
+			"explanation": "A centralização resultou de uma aliança desigual: o rei precisava do dinheiro da burguesia e da lealdade da nobreza, que mantinha privilégios.",
+			"skills": [
+				"explicar",
+				"citar"
+			],
+			"knowledge": [
+				"formação das monarquias nacionais"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que a nobreza perdeu todos os privilégios com o absolutismo.",
+				"Confundir o Estado moderno com o Estado democrático."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-formacao-dos-estados-modernos-europeus-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-formacao-dos-estados-modernos-europeus"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Para o bispo francês Jacques Bossuet, o poder do rei vinha diretamente de Deus. Já o inglês Thomas Hobbes, em Leviatã (1651), justificou o poder absoluto como resultado de um pacto: os homens abririam mão de sua liberdade em troca de segurança.”\n\nCompare as justificativas de Bossuet e de Hobbes para o absolutismo. Em seguida, apresente um exemplo de prática política do absolutismo francês no reinado de Luís XIV.",
+			"modelAnswer": "Comparação: para Bossuet, o poder tinha origem divina (direito divino dos reis), e o rei só respondia a Deus; para Hobbes, a origem era racional e contratual — para escapar do estado de natureza, marcado pela violência, os homens entregariam o poder a um soberano absoluto capaz de garantir a paz. Os dois defendem o poder absoluto, mas com fundamentos diferentes (religioso × racional).\nExemplo (um): a corte de Versalhes, que mantinha a nobreza sob vigilância e dependente de favores; a não convocação dos Estados Gerais; a revogação do Édito de Nantes (1685), que acabou com a tolerância aos protestantes; o mercantilismo de Colbert; os intendentes nas províncias.",
+			"explanation": "O absolutismo precisou de justificativas teóricas. A comparação entre Bossuet e Hobbes é um comando típico: identificar o ponto comum e a diferença.",
+			"skills": [
+				"comparar",
+				"apresentar"
+			],
+			"knowledge": [
+				"absolutismo e seus teóricos",
+				"reinado de Luís XIV"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que Hobbes defendia o direito divino.",
+				"Usar a frase “O Estado sou eu” como prova: a autoria é duvidosa."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-guerra-em-dois-movimentos-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-guerra-em-dois-movimentos"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Pelo Tratado de Versalhes (1919), a Alemanha foi considerada responsável pela guerra, perdeu territórios e colônias, teve seu exército limitado e foi obrigada a pagar pesadas indenizações.”\n\nApresente duas causas da Primeira Guerra Mundial. Em seguida, explique por que o Tratado de Versalhes é considerado um dos fatores que levaram à Segunda Guerra Mundial.",
+			"modelAnswer": "Causas (duas): disputas imperialistas por mercados e colônias; nacionalismos (revanchismo francês pela Alsácia-Lorena, pan-eslavismo, pan-germanismo); corrida armamentista; sistema de alianças (Tríplice Entente × Tríplice Aliança); tensões nos Bálcãs, com o assassinato de Francisco Ferdinando em Sarajevo (1914) como estopim.\nVersalhes: a paz punitiva humilhou a Alemanha e alimentou o ressentimento nacionalista; as indenizações agravaram a crise econômica (hiperinflação de 1923); o nazismo explorou essa revolta para conquistar apoio, rearmar o país e justificar a expansão territorial.",
+			"explanation": "A ideia de “dois movimentos” liga as duas guerras: a paz de 1919 não resolveu as rivalidades e criou novos conflitos.",
+			"skills": [
+				"apresentar",
+				"explicar"
+			],
+			"knowledge": [
+				"causas da Primeira Guerra Mundial",
+				"Tratado de Versalhes"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Apontar só o assassinato do arquiduque como causa.",
+				"Dizer que Versalhes, sozinho, causou a Segunda Guerra."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-guerra-em-dois-movimentos-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-guerra-em-dois-movimentos"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“O Brasil declarou guerra à Alemanha em 1917, depois do afundamento de navios mercantes brasileiros. Em 1942, novos torpedeamentos levaram o país a entrar na Segunda Guerra Mundial ao lado dos Aliados, e a Força Expedicionária Brasileira (FEB) combateu na Itália entre 1944 e 1945.”\n\nExplique uma contradição política vivida pelo governo Vargas ao enviar a FEB para lutar contra regimes fascistas. Em seguida, apresente uma consequência dessa participação para a política interna brasileira.",
+			"modelAnswer": "Contradição: o Estado Novo era uma ditadura (Constituição outorgada de 1937, censura, polícia política, fechamento do Congresso), com traços inspirados nos regimes fascistas, mas combatia o nazifascismo ao lado das democracias aliadas.\nConsequência (uma): o desgaste do Estado Novo e o crescimento das pressões pela redemocratização (Manifesto dos Mineiros, 1943); a anistia, a volta dos partidos e a convocação de eleições; a deposição de Vargas em outubro de 1945 e a Constituição de 1946.",
+			"explanation": "A vitória aliada sobre o fascismo tornou insustentável a permanência de uma ditadura no Brasil: os soldados que lutaram pela democracia na Europa voltaram a um país sem eleições.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"Brasil na Segunda Guerra Mundial",
+				"fim do Estado Novo"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que o Brasil entrou na guerra em 1939.",
+				"Afirmar que Vargas deixou o poder por renúncia em 1945: ele foi deposto pelos militares."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-ilustracao-e-a-crise-do-antigo-regime-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-ilustracao-e-a-crise-do-antigo-regime"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Para Montesquieu, em O espírito das leis (1748), só haveria liberdade se os poderes de fazer as leis, de executá-las e de julgar estivessem em mãos diferentes. Para Rousseau, em Do contrato social (1762), a soberania pertence ao povo e se expressa pela vontade geral.”\n\nExplique de que modo as ideias de Montesquieu e de Rousseau contestavam o absolutismo. Em seguida, apresente uma diferença entre as propostas políticas dos dois autores.",
+			"modelAnswer": "Contestação: Montesquieu propunha dividir o poder entre Executivo, Legislativo e Judiciário, que se limitariam mutuamente, impedindo a concentração de todos os poderes nas mãos do rei; Rousseau afirmava que o poder legítimo nasce do povo (soberania popular), e não de Deus ou do nascimento, negando a base do direito divino dos reis.\nDiferença (uma): Montesquieu defendia um governo moderado, com freios e contrapesos, inspirado na monarquia constitucional inglesa e compatível com a representação e com a nobreza como corpo intermediário; Rousseau defendia a soberania inalienável do povo, desconfiava da representação e dava mais peso à igualdade, numa proposta mais democrática e radical.",
+			"explanation": "Os dois autores atacam o absolutismo por caminhos diferentes: um limita o poder dividindo-o; o outro muda a sua fonte, transferindo a soberania do rei para o povo. A Constituição dos EUA (1787) e a Revolução Francesa usaram os dois.",
+			"skills": [
+				"explicar",
+				"diferenciar"
+			],
+			"knowledge": [
+				"Iluminismo político",
+				"separação dos poderes e soberania popular"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Atribuir a separação dos poderes a Rousseau ou a soberania popular a Montesquieu.",
+				"Descrever as ideias sem dizer o que elas negavam no absolutismo."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-ilustracao-e-a-crise-do-antigo-regime-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-ilustracao-e-a-crise-do-antigo-regime"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em Minas Gerais, em 1789, e em Salvador, em 1798, grupos conspiraram contra o domínio português. Os dois movimentos foram descobertos e punidos: Tiradentes foi enforcado em 1792, e quatro participantes do movimento baiano, homens pobres e pardos, em 1799.”\n\nApresente uma diferença entre a Conjuração Mineira e a Conjuração Baiana quanto à composição social ou às propostas. Em seguida, explique a relação desses movimentos com as ideias iluministas.",
+			"modelAnswer": "Diferença (uma): a Conjuração Mineira reuniu sobretudo membros da elite (mineradores, fazendeiros, padres, poetas, militares) e não propunha abolir a escravidão; a Conjuração Baiana (dos Alfaiates) teve participação de alfaiates, soldados, artesãos, libertos e escravizados, muitos pardos, e defendia o fim da escravidão e a igualdade sem distinção de cor, além da república e do livre comércio.\nRelação: os dois movimentos se apoiaram em ideias ilustradas — liberdade, república, soberania, crítica ao exclusivo colonial e à opressão fiscal — difundidas por livros e pelo exemplo da independência dos EUA (1776) e da Revolução Francesa (1789); na Bahia, a leitura das ideias de igualdade foi mais radical, aproximando-se também da revolução em São Domingos (1791).",
+			"explanation": "Comparar a composição social explica as propostas: a elite mineira queria autonomia sem mexer na escravidão; os grupos populares baianos levaram a igualdade às últimas consequências — e foram punidos com mais dureza.",
+			"skills": [
+				"apresentar",
+				"explicar"
+			],
+			"knowledge": [
+				"Conjuração Mineira e Conjuração Baiana",
+				"Iluminismo na América portuguesa"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que a Conjuração Mineira era abolicionista.",
+				"Tratar os dois movimentos como independentistas “do Brasil inteiro”: eram projetos regionais."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-nova-ordem-em-um-mundo-multipolar-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-nova-ordem-em-um-mundo-multipolar"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Nos anos 1970, os choques do petróleo, a inflação alta e o baixo crescimento — a ‘estagflação’ — abalaram as economias ocidentais. Margaret Thatcher, no Reino Unido (1979–1990), e Ronald Reagan, nos Estados Unidos (1981–1989), responderam com um programa de redução do papel do Estado na economia.”\n\nExplique por que o neoliberalismo foi apresentado como resposta à crise do Estado de bem-estar social. Em seguida, cite duas medidas neoliberais adotadas a partir dos anos 1980.",
+			"modelAnswer": "Explicação: seus defensores atribuíam a crise ao excesso de intervenção estatal — gastos sociais e déficits elevados, impostos altos, empresas estatais consideradas ineficientes e sindicatos fortes, que pressionariam salários e preços; a saída seria devolver ao mercado o papel de regular a economia.\nMedidas (duas): privatização de empresas estatais; corte de gastos sociais e controle do déficit público; redução de impostos, sobretudo dos mais altos; desregulamentação financeira e trabalhista; abertura comercial; enfrentamento dos sindicatos (como na greve dos mineiros britânicos de 1984–1985).",
+			"explanation": "O neoliberalismo retoma princípios do liberalismo econômico contra o modelo keynesiano do pós-guerra. Na América Latina, essas receitas foram associadas ao chamado Consenso de Washington (1989) e às privatizações dos anos 1990.",
+			"skills": [
+				"explicar",
+				"citar"
+			],
+			"knowledge": [
+				"crise do Estado de bem-estar social",
+				"neoliberalismo"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Confundir neoliberalismo com o liberalismo político (direitos civis).",
+				"Citar medidas do New Deal, que vão no sentido oposto."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-nova-ordem-em-um-mundo-multipolar-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-nova-ordem-em-um-mundo-multipolar"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em 1991, o Tratado de Assunção criou o Mercosul, reunindo Brasil, Argentina, Uruguai e Paraguai. Em 1994, entrou em vigor o NAFTA, acordo entre Estados Unidos, Canadá e México, substituído em 2020 por um novo tratado entre os mesmos países.”\n\nDiferencie uma zona de livre comércio, como o NAFTA, de uma união aduaneira, como o Mercosul. Em seguida, apresente um objetivo da formação de blocos econômicos no contexto da globalização dos anos 1990.",
+			"modelAnswer": "Diferença: na zona de livre comércio, os países reduzem ou eliminam as tarifas no comércio entre si, mas cada um mantém sua própria política tarifária diante de países de fora; na união aduaneira, além do livre comércio interno, os membros adotam uma tarifa externa comum (no Mercosul, a TEC, em vigor desde 1995).\nObjetivo (um): ampliar mercados e o comércio entre os membros; ganhar escala e poder de negociação diante de outros blocos e das grandes potências; atrair investimentos; integrar cadeias produtivas regionais num mundo de concorrência mais aberta.",
+			"explanation": "Os níveis de integração formam uma escada: zona de livre comércio → união aduaneira → mercado comum → união econômica e monetária (caso da União Europeia, com o euro). O Mercosul é considerado uma união aduaneira incompleta.",
+			"skills": [
+				"diferenciar",
+				"apresentar"
+			],
+			"knowledge": [
+				"blocos econômicos",
+				"globalização e regionalização"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que o Mercosul tem moeda única.",
+				"Confundir união aduaneira com livre circulação de pessoas (Schengen)."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-nova-ordem-em-um-mundo-multipolar-3",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-nova-ordem-em-um-mundo-multipolar"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“Décadas depois das independências, muitos países africanos continuavam dependentes da exportação de poucos produtos primários, como cacau, café, cobre ou petróleo. Nos anos 1980 e 1990, para renegociar suas dívidas, vários governos aceitaram os programas de ajuste estrutural do Fundo Monetário Internacional e do Banco Mundial.”\n\nExplique a contradição entre independência política e autonomia econômica vivida por muitos países africanos. Em seguida, apresente um efeito social dos programas de ajuste estrutural.",
+			"modelAnswer": "Contradição: a soberania política conquistada nas décadas de 1950 a 1970 não eliminou a dependência herdada do colonialismo — economias voltadas à exportação de matérias-primas com preços definidos no mercado internacional, necessidade de importar tecnologia, bens industrializados e capitais, presença de empresas das antigas metrópoles e endividamento externo (o que se chamou de neocolonialismo).\nEfeito social (um): cortes de gastos em saúde e educação; fim de subsídios a alimentos e aumento do custo de vida; desemprego causado por privatizações e demissões no setor público; aumento da pobreza e da desigualdade.",
+			"explanation": "A questão trabalha a ideia de “subalternidade econômica”: independência formal sem autonomia real. Os programas de ajuste aplicaram receitas neoliberais a países pobres e endividados.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"África pós-colonial",
+				"neocolonialismo e dívida externa"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Explicar a pobreza africana por fatores naturais ou culturais, ignorando a história colonial.",
+				"Dizer que as independências não mudaram nada: houve soberania política, mas com limites econômicos."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-revolucao-francesa-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-revolucao-francesa"
+			],
+			"difficulty": "facil",
+			"statement": "Texto elaborado para esta questão:\n“Em maio de 1789, o rei Luís XVI convocou os Estados Gerais, assembleia que não se reunia desde 1614, para tentar resolver a crise financeira do reino. Em poucas semanas, os deputados do Terceiro Estado se declararam Assembleia Nacional e juraram não se separar até dar uma Constituição à França.”\n\nApresente duas causas da Revolução Francesa. Em seguida, explique por que a atitude dos deputados do Terceiro Estado representou uma ruptura com o absolutismo.",
+			"modelAnswer": "Causas (duas): crise financeira do Estado, endividado por guerras (inclusive o apoio à independência dos EUA) e pelos gastos da corte; más colheitas de 1788 e alta do preço do pão; privilégios fiscais do clero e da nobreza, enquanto o Terceiro Estado pagava os impostos; insatisfação da burguesia, rica mas excluída do poder; difusão das ideias iluministas.\nRuptura: ao se proclamar Assembleia Nacional (17 de junho de 1789) e fazer o Juramento do Jogo da Pela (20 de junho), o Terceiro Estado afirmou que a soberania pertencia à nação, e não ao rei, e que o poder deveria ser limitado por uma Constituição — negando o voto por ordem, que garantia a maioria ao clero e à nobreza.",
+			"explanation": "A disputa sobre o voto (por ordem ou por cabeça) revelou o conflito de fundo: quem representa a nação? A resposta do Terceiro Estado transformou uma assembleia fiscal em revolução política, confirmada pela tomada da Bastilha (14 de julho).",
+			"skills": [
+				"apresentar",
+				"explicar"
+			],
+			"knowledge": [
+				"crise do Antigo Regime na França",
+				"Estados Gerais e Assembleia Nacional"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Começar a revolução pela tomada da Bastilha, ignorando a crise e os Estados Gerais.",
+				"Dizer que o Terceiro Estado era formado só pela burguesia: incluía camponeses e trabalhadores urbanos."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-revolucao-francesa-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-revolucao-francesa"
+			],
+			"difficulty": "medio",
+			"statement": "Declaração dos Direitos do Homem e do Cidadão (França, 26 de agosto de 1789), artigo 1º:\n“Os homens nascem e são livres e iguais em direitos. As distinções sociais só podem fundamentar-se na utilidade comum.”\n\nExplique por que o princípio expresso nesse artigo rompia com a sociedade do Antigo Regime. Em seguida, apresente um limite da igualdade proclamada pelos revolucionários.",
+			"modelAnswer": "Ruptura: o Antigo Regime era uma sociedade de ordens, em que o nascimento definia direitos — clero e nobreza tinham privilégios fiscais, judiciais e de acesso a cargos; o artigo afirma a igualdade jurídica de todos e só aceita diferenças baseadas na utilidade social, e não no sangue.\nLimite (um): as mulheres foram excluídas da cidadania política — Olympe de Gouges, autora da Declaração dos Direitos da Mulher e da Cidadã (1791), foi guilhotinada em 1793; a Constituição de 1791 adotou o voto censitário, separando cidadãos ativos e passivos; a escravidão foi mantida nas colônias até 1794 (e restabelecida por Napoleão em 1802).",
+			"explanation": "A Declaração tem alcance universal no texto, mas aplicação restrita na prática. Reconhecer essa tensão é um comando comum: o princípio é revolucionário, e os limites mostram quem ficou de fora.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"Declaração dos Direitos do Homem e do Cidadão",
+				"sociedade de ordens"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Afirmar que a Declaração garantiu o voto a todos os homens já em 1789.",
+				"Confundir igualdade jurídica com igualdade econômica."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-revolucao-francesa-3",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-revolucao-francesa"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Proclamada a República em setembro de 1792, a Convenção Nacional julgou e condenou à morte Luís XVI, executado em janeiro de 1793. Diante da guerra externa e das revoltas internas, os jacobinos, liderados por Robespierre, assumiram o controle do governo por meio do Comitê de Salvação Pública.”\n\nDiferencie girondinos e jacobinos quanto à base social ou às propostas políticas. Em seguida, cite duas medidas do governo jacobino (1793–1794).",
+			"modelAnswer": "Diferença: os girondinos representavam principalmente a alta burguesia das províncias, defendiam uma revolução moderada, a proteção da propriedade e a liberdade econômica e temiam a participação popular; os jacobinos (montanheses), apoiados pelos sans-culottes de Paris, defendiam medidas radicais, maior centralização e a ampliação da participação política.\nMedidas (duas): Constituição de 1793, com sufrágio universal masculino (não chegou a ser aplicada); Lei do Máximo, que tabelou preços de alimentos e salários; abolição da escravidão nas colônias (1794); Lei dos Suspeitos e o Terror, com prisões e execuções de opositores; venda de terras confiscadas em pequenos lotes; recrutamento em massa para a guerra.",
+			"explanation": "A fase jacobina foi a mais popular e a mais repressiva da revolução. A queda de Robespierre, em julho de 1794 (9 Termidor), devolveu o poder à alta burguesia.",
+			"skills": [
+				"diferenciar",
+				"citar"
+			],
+			"knowledge": [
+				"Convenção Nacional",
+				"girondinos, jacobinos e o Terror"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Inverter as posições de girondinos e jacobinos.",
+				"Atribuir aos jacobinos a execução de Robespierre como medida do seu governo."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-revolucao-francesa-4",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-revolucao-francesa"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“Em 1791, uma grande insurreição de escravizados começou na colônia francesa de São Domingos, no Caribe, a mais lucrativa produtora de açúcar do mundo. Em 1º de janeiro de 1804, depois de derrotar as tropas enviadas por Napoleão, os revolucionários proclamaram a independência do Haiti.”\n\nExplique a relação entre a Revolução Francesa e a revolução em São Domingos. Em seguida, apresente uma repercussão da independência do Haiti nas sociedades escravistas das Américas, como o Brasil.",
+			"modelAnswer": "Relação: os princípios de liberdade e igualdade proclamados em 1789 foram reivindicados por pessoas livres de cor e por escravizados, que os levaram além do que os revolucionários franceses previam; a crise na metrópole enfraqueceu o controle colonial; a Convenção aboliu a escravidão em 1794, e a tentativa de Napoleão de restabelecê-la (1802) provocou a guerra que levou à independência.\nRepercussão (uma): o medo de revoltas semelhantes entre as elites escravistas (o “haitianismo”), que reforçaram a vigilância e a repressão; o uso desse medo para defender a ordem e a escravidão; a inspiração para escravizados e libertos, que passaram a ver no Haiti a prova de que a liberdade podia ser conquistada.",
+			"explanation": "São Domingos mostra o limite da universalidade dos direitos na Revolução Francesa e o protagonismo dos escravizados: o Haiti foi a primeira república independente governada por antigos escravizados na América.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"Revolução de São Domingos (Haiti)",
+				"escravidão e revoluções atlânticas"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Apresentar a abolição como concessão da França, apagando a luta dos escravizados.",
+				"Confundir São Domingos (Haiti) com a República Dominicana."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-revolucao-industrial-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-revolucao-industrial"
+			],
+			"difficulty": "facil",
+			"statement": "Texto elaborado para esta questão:\n“Na Inglaterra, os cercamentos (enclosures) transformaram terras de uso comum em propriedades privadas cercadas, destinadas à criação de ovelhas e à agricultura comercial. Muitas famílias camponesas perderam o acesso à terra e migraram para as cidades.”\n\nApresente duas condições que explicam o pioneirismo da Inglaterra na Revolução Industrial. Em seguida, explique como os cercamentos contribuíram para a industrialização.",
+			"modelAnswer": "Condições (duas): acúmulo de capitais com o comércio colonial, o tráfico de escravizados e a manufatura; grandes reservas de carvão e ferro; mercados internos e coloniais em expansão; estabilidade política e burguesia no poder depois da Revolução Gloriosa (1688); rede de portos, rios e canais; marinha poderosa.\nCercamentos: expulsaram camponeses do campo, formando uma massa de trabalhadores sem terra obrigados a vender sua força de trabalho nas fábricas por salários baixos; além disso, a agricultura comercial aumentou a produção de alimentos e de lã para as cidades e a indústria.",
+			"explanation": "A industrialização dependeu de capital, recursos, mercados e, sobretudo, de trabalhadores “livres” — separados dos meios de produção. Os cercamentos ajudam a explicar a formação do proletariado.",
+			"skills": [
+				"apresentar",
+				"explicar"
+			],
+			"knowledge": [
+				"pré-condições da Revolução Industrial",
+				"cercamentos e proletarização"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Citar apenas a invenção da máquina a vapor como causa.",
+				"Dizer que os camponeses migraram por escolha, sem relação com a perda das terras."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-revolucao-industrial-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-revolucao-industrial"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Entre 1811 e 1816, grupos de trabalhadores ingleses invadiram oficinas e quebraram teares mecânicos. A partir de 1838, outro movimento reuniu milhares de assinaturas em petições ao Parlamento em defesa da Carta do Povo.”\n\nCompare o ludismo e o cartismo quanto à forma de luta dos trabalhadores. Em seguida, apresente uma reivindicação cartista e explique sua relação com as condições de vida operária.",
+			"modelAnswer": "Comparação: o ludismo atacava diretamente as máquinas, vistas como causa do desemprego, da queda dos salários e da miséria — uma reação imediata à mecanização; o cartismo buscava mudanças políticas por meio de petições, manifestações e organização de massa, reivindicando participação no Parlamento.\nReivindicação (uma): sufrágio universal masculino; voto secreto; fim da exigência de propriedade para ser deputado; remuneração dos parlamentares; distritos eleitorais iguais; eleições anuais. Relação: sem direito de voto, os operários não tinham como aprovar leis que limitassem a jornada, proibissem o trabalho infantil ou melhorassem salários e condições nas fábricas; a participação política era vista como caminho para mudar essas condições.",
+			"explanation": "Os dois movimentos mostram a passagem de uma resistência direta à máquina para a luta organizada por direitos — ao lado dos sindicatos (trade unions) e das ideias socialistas.",
+			"skills": [
+				"comparar",
+				"apresentar",
+				"explicar"
+			],
+			"knowledge": [
+				"movimento operário inglês",
+				"ludismo e cartismo"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que os cartistas quebravam máquinas.",
+				"Apresentar a reivindicação sem relacioná-la às condições de trabalho."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-a-revolucao-industrial-3",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-a-revolucao-industrial"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“A Grã-Bretanha proibiu o tráfico de escravizados em seu império em 1807 e, nas décadas seguintes, passou a pressionar outros países a fazer o mesmo. Em 1845, o Parlamento britânico aprovou o Bill Aberdeen, que autorizava a Marinha britânica a apreender navios negreiros brasileiros.”\n\nExplique um interesse da Grã-Bretanha industrial no combate ao tráfico de escravizados no século XIX. Em seguida, cite uma medida tomada no Brasil em resposta a essa pressão.",
+			"modelAnswer": "Interesse (um): ampliar mercados consumidores para os produtos industrializados, o que dependia de trabalhadores assalariados com renda; reduzir a concorrência do açúcar e de outros produtos feitos com trabalho escravizado, mais baratos que os das colônias britânicas depois da abolição nelas (1833); afirmar a hegemonia naval e comercial britânica. A pressão também tinha motivação humanitária e religiosa, com o movimento abolicionista britânico.\nMedida (uma): a lei de 7 de novembro de 1831, que declarava livres os africanos desembarcados a partir de então, mas não foi cumprida (“lei para inglês ver”); a Lei Eusébio de Queirós (1850), que proibiu efetivamente o tráfico atlântico.",
+			"explanation": "A questão liga a industrialização britânica ao Brasil escravista. Uma boa resposta não reduz a política britânica a um único motivo: interesses econômicos e o abolicionismo caminharam juntos.",
+			"skills": [
+				"explicar",
+				"citar"
+			],
+			"knowledge": [
+				"capitalismo industrial e escravidão",
+				"fim do tráfico no Brasil"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Confundir a Lei Eusébio de Queirós (fim do tráfico, 1850) com a Lei Áurea (abolição, 1888).",
+				"Dizer que a Inglaterra foi sempre contrária à escravidão: ela dominou o tráfico no século XVIII."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-africa-asia-e-america-latina-em-um-mundo-bipolar-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-africa-asia-e-america-latina-em-um-mundo-bipolar"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em abril de 1955, representantes de 29 países da Ásia e da África reuniram-se em Bandung, na Indonésia. Entre os líderes presentes estavam Sukarno, Nehru e Nasser. Seis anos depois, em Belgrado, surgiu o Movimento dos Países Não Alinhados.”\n\nExplique o significado da Conferência de Bandung no contexto da Guerra Fria. Em seguida, apresente uma dificuldade enfrentada pelos países recém-independentes para manter sua autonomia.",
+			"modelAnswer": "Significado: afirmou o chamado Terceiro Mundo como ator internacional, condenando o colonialismo e o racismo, defendendo a autodeterminação dos povos, a cooperação entre países asiáticos e africanos e uma posição própria, sem alinhamento automático aos Estados Unidos ou à União Soviética.\nDificuldade (uma): dependência econômica (exportação de produtos primários, falta de capitais e tecnologia, dívidas); pressões e intervenções das superpotências, inclusive golpes e guerras apoiadas por elas (como no Congo, em 1960–1961); fronteiras herdadas do colonialismo, que provocaram conflitos étnicos e territoriais; instabilidade política e regimes autoritários.",
+			"explanation": "Bandung é o marco da descolonização como projeto político coletivo. O não alinhamento, porém, conviveu com a disputa das superpotências por influência no Sul do mundo.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"Conferência de Bandung e não alinhamento",
+				"descolonização afro-asiática"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que os países de Bandung se aliaram à URSS.",
+				"Confundir Bandung com a Conferência de Berlim (1884–1885), que dividiu a África."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-africa-asia-e-america-latina-em-um-mundo-bipolar-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-africa-asia-e-america-latina-em-um-mundo-bipolar"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“A Índia tornou-se independente do Reino Unido em 1947, após décadas de mobilizações lideradas pelo Partido do Congresso e por Gandhi. A Argélia só se libertou da França em 1962, depois de oito anos de guerra.”\n\nCompare os processos de independência da Índia e da Argélia quanto às formas de luta. Em seguida, apresente uma consequência da partição da Índia britânica em 1947.",
+			"modelAnswer": "Comparação: na Índia, predominou a mobilização de massas pela não violência e pela desobediência civil (boicotes, Marcha do Sal de 1930), combinada com negociações com um Reino Unido enfraquecido pela Segunda Guerra; na Argélia, a Frente de Libertação Nacional (FLN) conduziu uma guerra de libertação (1954–1962) contra a França, que resistia a sair por causa da numerosa população de colonos europeus, com repressão violenta e tortura.\nConsequência (uma): a divisão entre Índia e Paquistão provocou violência entre hindus, muçulmanos e sikhs, com centenas de milhares de mortos e milhões de refugiados; o conflito pela Caxemira; a rivalidade duradoura entre Índia e Paquistão, depois potências nucleares.",
+			"explanation": "A descolonização teve caminhos diferentes conforme a metrópole, a presença de colonos e a organização dos movimentos. Comparar dois casos com o mesmo critério (formas de luta) é o que a questão pede.",
+			"skills": [
+				"comparar",
+				"apresentar"
+			],
+			"knowledge": [
+				"independência da Índia",
+				"guerra de independência da Argélia"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que a independência da Índia foi pacífica em tudo: a partição foi extremamente violenta.",
+				"Atribuir a independência da Argélia a uma negociação sem guerra."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-as-ditaduras-na-america-latina-e-os-movimentos-de-resistenci-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-as-ditaduras-na-america-latina-e-os-movimentos-de-resistenci"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“Em 1985, a Justiça argentina condenou integrantes das juntas militares que governaram o país durante a ditadura. No Brasil, a Lei da Anistia, de 1979, foi interpretada como extensiva aos agentes do Estado acusados de crimes como tortura e desaparecimento forçado — interpretação mantida pelo Supremo Tribunal Federal em 2010.”\n\nExplique o que se entende por justiça de transição. Em seguida, compare a forma como Brasil e Argentina lidaram com os crimes cometidos por agentes do Estado durante as ditaduras.",
+			"modelAnswer": "Justiça de transição: conjunto de medidas adotadas por sociedades que saem de regimes autoritários para enfrentar as violações de direitos humanos — busca da verdade, preservação da memória, reparação às vítimas e a seus familiares, responsabilização dos culpados e reformas que evitem a repetição.\nComparação: na Argentina, os comandantes foram julgados já em 1985; depois vieram leis e indultos que interromperam os processos, mas essas leis foram anuladas nos anos 2000 e centenas de agentes foram condenados; no Brasil, a anistia impediu a punição dos agentes do Estado, e as iniciativas concentraram-se na reparação e na memória, como a Comissão Nacional da Verdade (2012–2014), que identificou 434 mortos e desaparecidos.",
+			"explanation": "A comparação mostra caminhos distintos de transição. Em 2010, a Corte Interamericana de Direitos Humanos condenou o Brasil no caso da Guerrilha do Araguaia, afirmando que a anistia não pode impedir a investigação de graves violações.",
+			"skills": [
+				"explicar",
+				"comparar"
+			],
+			"knowledge": [
+				"justiça de transição",
+				"Lei da Anistia e Comissão Nacional da Verdade"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que o Brasil julgou e condenou os torturadores da ditadura.",
+				"Confundir anistia com reparação: a lei de 1979 tratou de perdão, não de indenização."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-as-manifestacoes-filosoficas-artisticas-e-intelectuais-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-as-manifestacoes-filosoficas-artisticas-e-intelectuais"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em 1517, o monge Martinho Lutero divulgou 95 teses contra a venda de indulgências. Graças à imprensa de tipos móveis, desenvolvida por Gutenberg em meados do século XV, suas ideias circularam rapidamente pelo Sacro Império Romano-Germânico.”\n\nExplique dois fatores que favoreceram a difusão da Reforma protestante. Em seguida, apresente uma diferença entre o luteranismo e o catolicismo quanto à salvação ou à autoridade religiosa.",
+			"modelAnswer": "Fatores (dois): a imprensa, que multiplicou panfletos e Bíblias traduzidas para as línguas locais; o apoio de príncipes alemães interessados nas terras e riquezas da Igreja e em mais autonomia diante do papa e do imperador; as críticas à corrupção do clero e à venda de indulgências; o ressentimento contra os tributos enviados a Roma; a afinidade de grupos burgueses com as novas doutrinas (sobretudo o calvinismo).\nDiferença (uma): para Lutero, a salvação vem somente pela fé, enquanto a Igreja Católica defendia a fé acompanhada das obras e dos sacramentos; para os luteranos, a Bíblia é a única autoridade e pode ser lida pelos fiéis, enquanto os católicos reconheciam também a tradição e a autoridade do papa; os luteranos mantiveram apenas dois sacramentos (batismo e eucaristia) e aboliram o celibato do clero.",
+			"explanation": "A Reforma combinou motivos religiosos, políticos e econômicos. A imprensa foi decisiva: pela primeira vez, uma controvérsia teológica chegou a um grande público em pouco tempo.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"Reforma protestante",
+				"imprensa e circulação de ideias"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Explicar a Reforma apenas pela corrupção do clero, sem os interesses políticos dos príncipes.",
+				"Confundir a predestinação (Calvino) com a doutrina de Lutero."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-as-manifestacoes-filosoficas-artisticas-e-intelectuais-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-as-manifestacoes-filosoficas-artisticas-e-intelectuais"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Entre 1545 e 1563, o Concílio de Trento reuniu bispos e teólogos católicos para responder ao avanço protestante. Na mesma época, a Companhia de Jesus, fundada por Inácio de Loyola, enviava missionários à Ásia e à América.”\n\nApresente duas medidas adotadas pela Igreja Católica na Contrarreforma. Em seguida, explique a atuação da Companhia de Jesus na colonização da América portuguesa.",
+			"modelAnswer": "Medidas (duas): reafirmação dos dogmas católicos (sete sacramentos, salvação pela fé e pelas obras, autoridade do papa e da tradição) no Concílio de Trento; criação de seminários para formar o clero e combate a abusos, como a venda de indulgências; fortalecimento da Inquisição; criação do Índice de Livros Proibidos; apoio a novas ordens religiosas, como os jesuítas.\nJesuítas: chegaram em 1549, com Tomé de Sousa, e se dedicaram à catequese dos indígenas, reunindo-os em aldeamentos (missões); fundaram colégios para os filhos dos colonos; estudaram línguas nativas (José de Anchieta escreveu uma gramática do tupi); entraram em conflito com colonos que queriam escravizar indígenas; foram expulsos dos domínios portugueses por Pombal em 1759.",
+			"explanation": "A Contrarreforma foi também uma reforma católica: a Igreja corrigiu abusos, mas reforçou a disciplina e a vigilância. A catequese jesuítica ligou a disputa religiosa europeia à colonização.",
+			"skills": [
+				"apresentar",
+				"explicar"
+			],
+			"knowledge": [
+				"Contrarreforma e Concílio de Trento",
+				"jesuítas na América portuguesa"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que os jesuítas defendiam a liberdade plena dos indígenas: a catequese também impunha mudanças culturais e trabalho.",
+				"Confundir o Concílio de Trento com a Paz de Augsburgo (1555)."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-contestacao-nos-anos-1960-e-1970-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-contestacao-nos-anos-1960-e-1970"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em 1955, em Montgomery, no Alabama, a costureira Rosa Parks foi presa por se recusar a ceder seu lugar a um passageiro branco num ônibus. O boicote aos ônibus da cidade durou mais de um ano e projetou o pastor Martin Luther King Jr. como liderança do movimento pelos direitos civis.”\n\nExplique o que era a segregação racial legal no Sul dos Estados Unidos. Em seguida, compare a estratégia de Martin Luther King com a de grupos do movimento Black Power, como os Panteras Negras.",
+			"modelAnswer": "Segregação: leis estaduais (as leis Jim Crow) separavam negros e brancos em escolas, transportes, restaurantes, banheiros e outros espaços, e criavam barreiras ao voto da população negra (taxas, testes de alfabetização); a Suprema Corte aceitara esse sistema em 1896, com a doutrina “separados, mas iguais”.\nComparação: King defendia a desobediência civil não violenta — boicotes, marchas, ocupações pacíficas — e a integração com direitos iguais, apelando à Constituição e buscando alianças amplas; os Panteras Negras (1966) e outros grupos do Black Power defendiam a autodefesa armada contra a violência policial, o orgulho negro, a autonomia das comunidades negras e programas sociais próprios, com crítica mais radical à sociedade norte-americana.",
+			"explanation": "O movimento obteve a Lei dos Direitos Civis (1964) e a Lei do Direito ao Voto (1965). Comparar estratégias é diferente de julgar qual era a “certa”: a banca quer os critérios (métodos e objetivos) bem explicados.",
+			"skills": [
+				"explicar",
+				"comparar"
+			],
+			"knowledge": [
+				"movimento pelos direitos civis",
+				"segregação racial nos EUA"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que a segregação era só costume: ela era imposta por lei.",
+				"Tratar o Black Power como sinônimo de violência, sem citar seus programas e objetivos."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-contestacao-nos-anos-1960-e-1970-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-contestacao-nos-anos-1960-e-1970"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em março de 1968, o estudante Edson Luís foi morto pela polícia no restaurante Calabouço, no Rio de Janeiro. Em junho, a Passeata dos Cem Mil reuniu estudantes, artistas, intelectuais e religiosos contra a ditadura. Em dezembro, o governo decretou o Ato Institucional nº 5.”\n\nExplique por que 1968 é considerado um ano de contestação em escala mundial, citando acontecimentos em dois países diferentes. Em seguida, cite duas medidas do AI-5.",
+			"modelAnswer": "Contestação mundial: em vários países, sobretudo jovens questionaram autoridades, guerras, autoritarismos e costumes tradicionais, tanto no mundo capitalista quanto no socialista. Exemplos (dois): as revoltas estudantis e a greve geral de maio na França; os protestos contra a Guerra do Vietnã e o assassinato de Martin Luther King nos EUA; a Primavera de Praga, na Tchecoslováquia, esmagada pelos tanques do Pacto de Varsóvia; o massacre de estudantes em Tlatelolco, no México; as passeatas contra a ditadura no Brasil.\nAI-5 (duas medidas): fechamento do Congresso Nacional; suspensão do habeas corpus para crimes políticos; cassação de mandatos e suspensão de direitos políticos; ampliação da censura; intervenção em estados e municípios; demissão e aposentadoria compulsória de servidores, inclusive professores universitários.",
+			"explanation": "O caso brasileiro deve ser lido no quadro internacional, mas com sua especificidade: aqui, a contestação enfrentava uma ditadura, que respondeu com o endurecimento máximo do regime.",
+			"skills": [
+				"explicar",
+				"citar"
+			],
+			"knowledge": [
+				"1968 e a contestação mundial",
+				"AI-5"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Citar dois acontecimentos do mesmo país quando o comando pede países diferentes.",
+				"Confundir o AI-5 (1968) com o AI-1 (1964)."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-estado-e-industrializacao-na-america-latina-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-estado-e-industrializacao-na-america-latina"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Entre 1941 e 1953, o governo brasileiro criou a Companhia Siderúrgica Nacional, a Companhia Vale do Rio Doce e a Petrobras. No mesmo período, a legislação trabalhista foi reunida na Consolidação das Leis do Trabalho (CLT), de 1943.”\n\nExplique o papel do Estado no projeto de industrialização da Era Vargas. Em seguida, apresente uma característica da relação entre o governo Vargas e os trabalhadores urbanos.",
+			"modelAnswer": "Papel do Estado: assumiu a criação da indústria de base (siderurgia, mineração, petróleo, energia), que exigia grandes investimentos que o capital privado nacional não tinha condições ou interesse de fazer; planejou a economia, protegeu a indústria nacional e financiou a substituição de importações, com orientação nacionalista.\nRelação (uma característica): concessão de direitos trabalhistas (salário mínimo, jornada de oito horas, férias, carteira de trabalho, CLT) combinada com o controle dos sindicatos pelo Ministério do Trabalho (sindicato único, imposto sindical) e com a repressão a comunistas e greves; propaganda que apresentava Vargas como “pai dos pobres” (trabalhismo).",
+			"explanation": "A industrialização varguista é estatal e nacionalista; a política trabalhista combina inclusão e controle. As duas faces ajudam a entender a popularidade de Vargas e os limites da autonomia sindical.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"nacional-estatismo na Era Vargas",
+				"trabalhismo e legislação social"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que os direitos trabalhistas foram apenas “dados” por Vargas, sem as lutas operárias anteriores.",
+				"Atribuir a Petrobras ao Estado Novo: ela foi criada em 1953, no governo eleito de Vargas."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-estado-e-industrializacao-na-america-latina-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-estado-e-industrializacao-na-america-latina"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“O Plano de Metas de Juscelino Kubitschek (1956–1961) prometia ‘cinquenta anos em cinco’. No período, instalaram-se no país montadoras estrangeiras de automóveis, e Brasília foi inaugurada em 1960.”\n\nCompare os projetos de desenvolvimento de Vargas e de Juscelino Kubitschek quanto à participação do capital estrangeiro. Em seguida, apresente uma consequência negativa do desenvolvimentismo de JK.",
+			"modelAnswer": "Comparação: Vargas priorizou o Estado e o capital nacional nos setores estratégicos, com forte nacionalismo econômico (monopólio estatal do petróleo, campanha “O petróleo é nosso”); JK abriu a economia ao capital estrangeiro, atraindo multinacionais sobretudo para a indústria automobilística e de bens de consumo duráveis, num tripé formado por Estado, capital privado nacional e capital estrangeiro.\nConsequência negativa (uma): aumento da inflação; crescimento da dívida externa; endividamento público com as grandes obras, como Brasília; concentração industrial no Sudeste e aumento das desigualdades regionais; dependência de tecnologia e capitais externos; prioridade ao transporte rodoviário.",
+			"explanation": "Os dois governos são desenvolvimentistas e industrializantes, mas divergem no papel do capital estrangeiro — o critério que a questão pede. O custo do crescimento acelerado pesou na crise do início dos anos 1960.",
+			"skills": [
+				"comparar",
+				"apresentar"
+			],
+			"knowledge": [
+				"desenvolvimentismo de JK",
+				"nacional-estatismo de Vargas"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Afirmar que JK estatizou a economia.",
+				"Citar uma consequência positiva quando o comando pede uma negativa."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-formacao-e-consolidacao-do-capitalismo-nos-estados-unidos-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-formacao-e-consolidacao-do-capitalismo-nos-estados-unidos"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em 1845, o jornalista John O’Sullivan escreveu que era o ‘destino manifesto’ dos Estados Unidos expandir-se por todo o continente. Entre 1846 e 1848, uma guerra contra o México levou à anexação de vastos territórios, da Califórnia ao Novo México.”\n\nExplique a ideia de Destino Manifesto. Em seguida, apresente uma consequência da expansão para o Oeste para os povos indígenas.",
+			"modelAnswer": "Destino Manifesto: crença de que os Estados Unidos tinham a missão, dada por Deus, de expandir seu território, suas instituições e sua “civilização” por todo o continente — ideia que justificava a conquista de terras indígenas e mexicanas como algo natural e inevitável.\nConsequência (uma): a remoção forçada de povos inteiros para o oeste do Mississippi (Lei de Remoção dos Índios, de 1830; Trilha das Lágrimas dos cherokees, 1838–1839); guerras e massacres; o confinamento em reservas; a destruição dos rebanhos de bisões, base de vida de povos das planícies; a perda de terras, línguas e modos de vida.",
+			"explanation": "A expansão territorial é a base do crescimento econômico dos EUA no século XIX, mas foi feita à custa de povos indígenas e do México, que perdeu cerca de metade de seu território.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"expansão para o Oeste",
+				"Destino Manifesto"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Tratar o Oeste como “vazio”: era habitado por povos indígenas e, em parte, pertencia ao México.",
+				"Confundir Destino Manifesto com Doutrina Monroe."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-formacao-e-consolidacao-do-capitalismo-nos-estados-unidos-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-formacao-e-consolidacao-do-capitalismo-nos-estados-unidos"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em 1860, a eleição de Abraham Lincoln, contrário à expansão da escravidão para os novos territórios do Oeste, levou estados do Sul a se separarem da União. A guerra que se seguiu (1861–1865) deixou centenas de milhares de mortos.”\n\nApresente duas diferenças entre as economias do Norte e do Sul dos Estados Unidos antes da Guerra de Secessão. Em seguida, explique por que a abolição da escravidão, em 1865, não garantiu igualdade à população negra do Sul.",
+			"modelAnswer": "Diferenças (duas): o Norte era industrializado e urbano, baseado no trabalho assalariado e na imigração, e o Sul era agrário e agroexportador (algodão), baseado na plantation com trabalho escravizado; o Norte defendia tarifas protecionistas para a indústria nacional, e o Sul preferia o livre-comércio com a Inglaterra, compradora de seu algodão.\nExplicação: depois da abolição (13ª Emenda) e do período da Reconstrução, os estados do Sul aprovaram leis de segregação racial (leis Jim Crow) e criaram barreiras ao voto dos negros; a violência de grupos como a Ku Klux Klan e os linchamentos intimidavam a população negra, que não recebeu terras e continuou em situação de pobreza e dependência; a Suprema Corte legitimou a segregação em 1896.",
+			"explanation": "A Secessão foi uma guerra em torno da escravidão, ainda que os confederados falassem em “direitos dos estados”. A comparação com o Brasil (abolição em 1888) é frequente: abolição sem igualdade nos dois casos, com formas diferentes de exclusão.",
+			"skills": [
+				"apresentar",
+				"explicar"
+			],
+			"knowledge": [
+				"Guerra de Secessão",
+				"abolição e segregação nos EUA"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que o Norte lutou desde o início pela igualdade racial.",
+				"Afirmar que o Sul queria a independência por razões só tarifárias, apagando a escravidão."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-formacao-e-consolidacao-do-capitalismo-nos-estados-unidos-3",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-formacao-e-consolidacao-do-capitalismo-nos-estados-unidos"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“Entre 1880 e 1920, mais de 20 milhões de imigrantes chegaram aos Estados Unidos, muitos vindos do Sul e do Leste da Europa. Ao mesmo tempo, leis restringiam a entrada de grupos considerados indesejáveis.”\n\nExplique a relação entre imigração e industrialização nos Estados Unidos nesse período. Em seguida, cite uma lei de restrição à imigração e o critério que ela adotava.",
+			"modelAnswer": "Relação: os imigrantes forneceram mão de obra abundante e barata para fábricas, minas, ferrovias e obras urbanas, no momento em que os EUA se tornavam a maior potência industrial do mundo (Segunda Revolução Industrial: aço, petróleo, eletricidade); também ampliaram as cidades e o mercado consumidor.\nLei (uma): a Lei de Exclusão dos Chineses (1882), que proibiu a entrada de trabalhadores chineses, com critério racial e étnico; a Lei de Imigração de 1924, que criou cotas por origem nacional, favorecendo europeus do Norte e do Oeste, restringindo italianos e judeus do Leste europeu e barrando a imigração asiática.",
+			"explanation": "A imigração mostra uma contradição do capitalismo norte-americano: dependia dos trabalhadores estrangeiros, mas definia, por critérios raciais, quem poderia fazer parte da nação (nativismo). As cotas por origem nacional só foram abolidas em 1965.",
+			"skills": [
+				"explicar",
+				"citar"
+			],
+			"knowledge": [
+				"industrialização dos EUA",
+				"imigração e nativismo"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Citar a lei sem dizer o critério de restrição.",
+				"Dizer que os EUA sempre tiveram fronteiras abertas a todos."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-globalizacao-e-antiglobalizacao-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-globalizacao-e-antiglobalizacao"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em 1999, milhares de manifestantes protestaram em Seattle, nos Estados Unidos, durante uma conferência da Organização Mundial do Comércio. Dois anos depois, em Porto Alegre, o primeiro Fórum Social Mundial adotou o lema ‘Um outro mundo é possível’.”\n\nApresente duas críticas dos movimentos antiglobalização à globalização neoliberal. Em seguida, explique por que esses movimentos também usaram recursos da própria globalização para se organizar.",
+			"modelAnswer": "Críticas (duas): aumento das desigualdades entre países e dentro deles; poder excessivo das empresas transnacionais e de instituições como a OMC, o FMI e o Banco Mundial sobre os governos; transferência de fábricas para países com salários baixos e menos direitos, com precarização do trabalho; danos ambientais; homogeneização cultural; endividamento dos países pobres.\nExplicação: os movimentos usaram a internet, as redes internacionais de ativistas, a facilidade de deslocamento e a mídia global para coordenar protestos simultâneos e fazer circular informações — por isso muitos se definem como “altermundialistas”: não rejeitam a integração mundial, mas defendem outra globalização.",
+			"explanation": "A antiglobalização é uma crítica à forma neoliberal da globalização, e não necessariamente à integração entre os povos. A segunda parte da questão cobra essa nuance.",
+			"skills": [
+				"apresentar",
+				"explicar"
+			],
+			"knowledge": [
+				"globalização neoliberal",
+				"movimentos antiglobalização"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Confundir antiglobalização com nacionalismo de extrema direita, que também critica a globalização, mas por outros motivos.",
+				"Apresentar críticas vagas, sem dizer quem ganha e quem perde."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-globalizacao-e-antiglobalizacao-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-globalizacao-e-antiglobalizacao"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“Na Conferência das Nações Unidas sobre Meio Ambiente e Desenvolvimento, a Rio-92, os países reconheceram ‘responsabilidades comuns, porém diferenciadas’ diante dos problemas ambientais globais. Em 2015, o Acordo de Paris estabeleceu a meta de limitar o aquecimento global a bem menos de 2 °C em relação aos níveis pré-industriais.”\n\nExplique o princípio das responsabilidades comuns, porém diferenciadas, considerando a história da industrialização. Em seguida, apresente um conflito entre exploração econômica e preservação ambiental na Amazônia brasileira.",
+			"modelAnswer": "Explicação: todos os países devem agir contra a crise climática, mas os que se industrializaram primeiro emitiram a maior parte dos gases de efeito estufa acumulados desde a Revolução Industrial e têm mais recursos; por isso, deveriam reduzir mais suas emissões e apoiar, com financiamento e tecnologia, os países em desenvolvimento, que reivindicam o direito de se desenvolver.\nConflito (um): desmatamento para pecuária e soja; garimpo ilegal em terras indígenas, como na Terra Yanomami; grandes hidrelétricas, como Belo Monte; projetos de exploração de petróleo na foz do Amazonas; grilagem de terras públicas — em oposição aos direitos dos povos indígenas e tradicionais, à biodiversidade e ao equilíbrio climático.",
+			"explanation": "A questão liga a Revolução Industrial (carvão, petróleo) ao debate climático atual e à Amazônia, tema frequente na UERJ. Apresentar o conflito exige dizer quais interesses se opõem.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"crise climática e acordos internacionais",
+				"Amazônia: desenvolvimento e preservação"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que todos os países têm a mesma responsabilidade histórica pelas emissões.",
+				"Citar um problema ambiental sem identificar a atividade econômica envolvida."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-guerra-fria-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-guerra-fria"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em outubro de 1962, aviões espiões norte-americanos fotografaram bases de mísseis soviéticos em construção em Cuba. Durante treze dias, o mundo esteve à beira de uma guerra nuclear.”\n\nExplique a relação entre a Revolução Cubana e a crise de outubro de 1962. Em seguida, apresente uma forma pela qual a crise foi resolvida ou uma consequência dela para as relações entre as superpotências.",
+			"modelAnswer": "Relação: depois da revolução de 1959, o governo de Fidel Castro nacionalizou empresas norte-americanas, sofreu embargo econômico e uma tentativa de invasão apoiada pelos EUA (baía dos Porcos, 1961) e aproximou-se da União Soviética, declarando-se socialista; a URSS instalou mísseis na ilha para protegê-la e responder aos mísseis norte-americanos posicionados na Turquia e na Itália.\nResolução ou consequência (uma): a URSS retirou os mísseis em troca do compromisso público dos EUA de não invadir Cuba e da retirada secreta dos mísseis norte-americanos da Turquia; a criação da “linha direta” entre Washington e Moscou (1963); o tratado de proibição parcial de testes nucleares (1963); o início de uma fase de distensão.",
+			"explanation": "A crise dos mísseis mostra a lógica da dissuasão nuclear: as superpotências chegaram ao limite e recuaram porque uma guerra direta significaria destruição mútua.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"crise dos mísseis",
+				"Revolução Cubana e Guerra Fria"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que a Revolução Cubana nasceu socialista e aliada da URSS desde 1959.",
+				"Afirmar que houve combate direto entre EUA e URSS."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-guerra-fria-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-guerra-fria"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em agosto de 1961, o governo da Alemanha Oriental começou a erguer um muro separando Berlim Oriental de Berlim Ocidental. Em novembro de 1989, multidões atravessaram a fronteira e começaram a derrubá-lo.”\n\nExplique por que Berlim se tornou um símbolo da Guerra Fria. Em seguida, apresente dois fatores que contribuíram para o fim da União Soviética, em 1991.",
+			"modelAnswer": "Símbolo: depois de 1945, a Alemanha foi dividida em zonas de ocupação e, em 1949, em dois Estados — a República Federal (capitalista, aliada dos EUA) e a República Democrática (socialista, aliada da URSS); Berlim, situada dentro da Alemanha Oriental, também foi dividida; o bloqueio de 1948–1949 e o muro, construído para conter a fuga de alemães orientais para o Ocidente, materializaram a divisão do mundo em dois blocos.\nFatores (dois): estagnação econômica, baixa produtividade e escassez de bens de consumo; gastos com a corrida armamentista e com a guerra no Afeganistão (1979–1989); as reformas de Gorbachev (perestroika e glasnost), que abriram espaço para críticas ao regime; as revoluções de 1989 no Leste europeu; os movimentos nacionalistas nas repúblicas soviéticas; a tentativa fracassada de golpe de agosto de 1991.",
+			"explanation": "Berlim condensa a Guerra Fria do começo ao fim: divisão (1949), muro (1961), queda (1989) e reunificação alemã (1990), pouco antes do fim da URSS.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"divisão da Alemanha e Muro de Berlim",
+				"fim da União Soviética"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que o muro dividia a Alemanha inteira: ele cercava Berlim Ocidental.",
+				"Confundir a queda do Muro (1989) com o fim da URSS (1991)."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-ideologias-em-movimento-reformas-e-revolucoes-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-ideologias-em-movimento-reformas-e-revolucoes"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em fevereiro de 1917, greves e motins em Petrogrado derrubaram o czar Nicolau II. Em outubro, os bolcheviques, liderados por Lênin, tomaram o poder com o lema ‘Paz, terra e pão’.”\n\nExplique por que a participação da Rússia na Primeira Guerra Mundial contribuiu para a queda do czarismo. Em seguida, apresente duas medidas do governo bolchevique após outubro de 1917.",
+			"modelAnswer": "Explicação: as derrotas militares, os milhões de mortos e feridos, a fome, a inflação e o desabastecimento das cidades aprofundaram a crise de um império agrário e autocrático; soldados desertavam e operários entravam em greve, e o czar, que assumira o comando do exército, foi responsabilizado pelos fracassos. O Governo Provisório, ao manter o país na guerra, também perdeu apoio.\nMedidas (duas): retirada da Rússia da guerra (Tratado de Brest-Litovsk, 1918); decreto sobre a terra, que expropriou as grandes propriedades; nacionalização de bancos e indústrias e controle operário das fábricas; dissolução da Assembleia Constituinte e implantação do partido único; criação do Exército Vermelho e da polícia política (Tcheca); requisição de alimentos no “comunismo de guerra”.",
+			"explanation": "O lema “Paz, terra e pão” resume as demandas que o Governo Provisório não atendeu e que os bolcheviques prometeram resolver. A guerra civil (1918–1921) consolidou o poder bolchevique e a centralização.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"Revolução Russa",
+				"Primeira Guerra Mundial e crise do czarismo"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Confundir a revolução de fevereiro (queda do czar) com a de outubro (tomada do poder pelos bolcheviques).",
+				"Dizer que a URSS foi criada em 1917: ela surgiu em 1922."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-ideologias-em-movimento-reformas-e-revolucoes-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-ideologias-em-movimento-reformas-e-revolucoes"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“Em 1935, as Leis de Nuremberg retiraram dos judeus alemães a cidadania plena e proibiram casamentos entre judeus e não judeus. Em novembro de 1938, na chamada Noite dos Cristais, sinagogas, lojas e casas de judeus foram destruídas em toda a Alemanha.”\n\nExplique de que modo o racismo e o antissemitismo se tornaram política de Estado na Alemanha nazista. Em seguida, apresente uma forma de uso da propaganda pelo regime.",
+			"modelAnswer": "Explicação: o nazismo transformou em leis e ações do Estado a ideia de uma suposta superioridade “ariana” e a culpa atribuída aos judeus pelos problemas da Alemanha: exclusão dos judeus do serviço público e das profissões, perda de direitos civis e políticos, confisco de bens, violência organizada, guetos e campos de concentração e, durante a guerra, o extermínio sistemático — o Holocausto, que matou cerca de 6 milhões de judeus, além de ciganos (roma e sinti), pessoas com deficiência, homossexuais e opositores.\nPropaganda (uma): o Ministério da Propaganda, dirigido por Goebbels, controlava jornais, rádio e cinema; o regime distribuiu rádios baratos para levar os discursos de Hitler às casas; grandes comícios e desfiles (como os de Nuremberg); filmes como O triunfo da vontade; controle da educação e da Juventude Hitlerista; queima de livros considerados “antialemães”; culto à figura do Führer.",
+			"explanation": "O ponto central é a passagem do preconceito à política de Estado: leis, burocracia e violência organizada. A propaganda produziu consentimento e naturalizou a perseguição.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"nazismo",
+				"antissemitismo e Holocausto"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Tratar o Holocausto como consequência “inesperada” da guerra, sem a escalada de leis e violência desde 1933.",
+				"Citar a propaganda de forma vaga, sem um meio ou exemplo concreto."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-modernizacao-e-modernismos-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-modernizacao-e-modernismos"
+			],
+			"difficulty": "facil",
+			"statement": "Texto elaborado para esta questão:\n“A primeira transmissão de rádio no Brasil aconteceu em 7 de setembro de 1922, nas comemorações do centenário da Independência. Nos anos 1940, a Rádio Nacional, do Rio de Janeiro, levava radionovelas, programas musicais e noticiários a todo o país.”\n\nExplique o que se entende por sociedade de massas no início do século XX. Em seguida, apresente um uso político do rádio no governo Vargas.",
+			"modelAnswer": "Sociedade de massas: sociedade urbana e industrial em que milhões de pessoas passam a consumir os mesmos produtos, informações e diversões, produzidos em série e difundidos por meios de comunicação de massa (jornais de grande tiragem, rádio, cinema), e em que a política se volta para multidões (partidos de massa, comícios, propaganda).\nUso político (um): o programa oficial Hora do Brasil, de transmissão obrigatória pelas emissoras durante o Estado Novo; o controle e a censura das rádios pelo Departamento de Imprensa e Propaganda (DIP); a incorporação da Rádio Nacional ao Estado (1940); os discursos de Vargas aos trabalhadores no 1º de Maio, que difundiam o trabalhismo e o culto ao líder.",
+			"explanation": "O rádio foi o grande meio de massa no Brasil dos anos 1930–1950: integrava um país de muitos analfabetos e foi usado pelo Estado para construir apoio e uma identidade nacional.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"sociedade e cultura de massas",
+				"rádio e propaganda no governo Vargas"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Definir sociedade de massas apenas como “sociedade com muita gente”.",
+				"Citar o rádio sem explicar o uso político."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-modernizacao-e-modernismos-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-modernizacao-e-modernismos"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em fevereiro de 1922, no Theatro Municipal de São Paulo, artistas e escritores como Anita Malfatti, Di Cavalcanti, Mário de Andrade e Oswald de Andrade realizaram a Semana de Arte Moderna. Seis anos depois, Oswald publicou o Manifesto Antropófago, com a frase ‘Tupi, or not tupi, that is the question’.”\n\nExplique uma proposta do modernismo brasileiro em relação à arte tradicional. Em seguida, relacione a ideia de antropofagia à busca de uma identidade cultural brasileira.",
+			"modelAnswer": "Proposta (uma): romper com o academicismo e com o parnasianismo, defendendo a liberdade formal (verso livre, linguagem coloquial, novas formas na pintura); dialogar com as vanguardas europeias (futurismo, cubismo, expressionismo); valorizar temas, falas e culturas populares brasileiras.\nAntropofagia: Oswald propôs “devorar” a cultura estrangeira, como os tupinambás devoravam seus inimigos para absorver suas qualidades — isto é, assimilar criticamente as influências europeias e transformá-las numa produção original brasileira, sem cópia passiva da Europa e sem simples rejeição do que vinha de fora.",
+			"explanation": "A frase do manifesto parodia Hamlet e já pratica a antropofagia: “devora” Shakespeare para afirmar a questão nacional. O Abaporu, de Tarsila do Amaral (1928), é a imagem associada ao movimento.",
+			"skills": [
+				"explicar",
+				"relacionar"
+			],
+			"knowledge": [
+				"Semana de Arte Moderna",
+				"modernismo e identidade nacional"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que os modernistas rejeitavam toda influência estrangeira.",
+				"Confundir o modernismo de 1922 com o parnasianismo, que ele combatia."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-modernizacao-e-modernismos-3",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-modernizacao-e-modernismos"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em 1907, Pablo Picasso pintou As senhoritas de Avignon, com figuras fragmentadas em planos geométricos. Em 1909, o italiano Filippo Marinetti publicou o Manifesto Futurista, que exaltava a velocidade, as máquinas e a cidade industrial.”\n\nExplique de que modo as vanguardas artísticas do início do século XX romperam com a arte tradicional, citando dois movimentos. Em seguida, relacione o futurismo ao contexto de modernização técnica da Europa.",
+			"modelAnswer": "Ruptura: as vanguardas abandonaram as regras acadêmicas e a representação realista do mundo. Movimentos (dois): o cubismo fragmentou as formas e mostrou o objeto por vários ângulos ao mesmo tempo; o futurismo buscou representar o movimento e a velocidade; o expressionismo deformou figuras e cores para expressar emoções e angústias; o dadaísmo, surgido durante a Primeira Guerra, atacou a própria ideia de arte e a racionalidade que levara à guerra; o surrealismo explorou o sonho e o inconsciente.\nFuturismo: nasceu da euforia com a eletricidade, o automóvel, o avião, as fábricas e a cidade moderna; exaltava a máquina e a velocidade, rejeitava o passado e os museus e glorificava a guerra — parte de seus integrantes aderiu depois ao fascismo italiano.",
+			"explanation": "As vanguardas respondem a um mundo transformado pela técnica e pela guerra. Citar dois movimentos com uma característica de cada é o mínimo que o comando exige.",
+			"skills": [
+				"explicar",
+				"relacionar"
+			],
+			"knowledge": [
+				"vanguardas artísticas europeias",
+				"modernização técnica e arte"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Listar nomes de movimentos sem dizer como cada um rompia com a tradição.",
+				"Atribuir ao futurismo uma visão crítica da máquina: ele a exaltava."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-o-antigo-regime-em-sociedades-europeias-e-nos-tropicos-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-o-antigo-regime-em-sociedades-europeias-e-nos-tropicos"
+			],
+			"difficulty": "facil",
+			"statement": "Texto elaborado para esta questão:\n“No Antigo Regime europeu, a sociedade dividia-se em ordens ou estamentos: o clero, que rezava; a nobreza, que guerreava; e o terceiro estado, que trabalhava. Cada ordem tinha direitos e deveres próprios, definidos pelo nascimento e pela lei.”\n\nDiferencie estamento e classe social. Em seguida, apresente dois privilégios do clero ou da nobreza no Antigo Regime.",
+			"modelAnswer": "Diferença: o estamento é definido pelo nascimento e reconhecido pela lei, com direitos e deveres desiguais e mobilidade social muito restrita; a classe social é definida pela posição econômica (propriedade, renda, lugar na produção), numa sociedade de igualdade jurídica em que a mobilidade é, em princípio, possível.\nPrivilégios (dois): isenção de impostos diretos; tribunais e foros próprios; acesso exclusivo a altos cargos na Igreja, no exército e na corte; direitos senhoriais sobre camponeses (tributos e serviços); pensões, títulos e mercês concedidos pelo rei; honras e precedências (como o porte de espada).",
+			"explanation": "A distinção estamento × classe é um conceito-chave: na sociedade de ordens, a desigualdade está escrita na lei; na sociedade de classes, a lei é igual para todos, mas a desigualdade econômica permanece.",
+			"skills": [
+				"diferenciar",
+				"apresentar"
+			],
+			"knowledge": [
+				"sociedade estamental",
+				"privilégios no Antigo Regime"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que a burguesia era um estamento à parte: ela fazia parte do terceiro estado.",
+				"Confundir privilégio com riqueza: havia nobres pobres com privilégios."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-o-antigo-regime-em-sociedades-europeias-e-nos-tropicos-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-o-antigo-regime-em-sociedades-europeias-e-nos-tropicos"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em 1689, depois da Revolução Gloriosa, o Parlamento inglês aprovou a Declaração de Direitos (Bill of Rights). A partir de então, o rei não poderia suspender leis, cobrar impostos nem manter um exército em tempo de paz sem o consentimento do Parlamento.”\n\nExplique a importância da Declaração de Direitos de 1689 para a limitação do poder real na Inglaterra. Em seguida, relacione as ideias de John Locke à Revolução Gloriosa.",
+			"modelAnswer": "Importância: subordinou o rei às leis e ao Parlamento, que passou a controlar os impostos, a legislação e o exército, com eleições livres e liberdade de expressão nos debates parlamentares — o fim do absolutismo e o início da monarquia parlamentar, com garantias à propriedade da burguesia e da gentry.\nLocke: nos Dois tratados sobre o governo, defendeu que os homens têm direitos naturais (vida, liberdade, propriedade), que o governo se baseia no consentimento dos governados e que o povo tem o direito de resistir ao governante que viola esses direitos — o que justificava a deposição de Jaime II e a nova ordem parlamentar.",
+			"explanation": "A Inglaterra seguiu um caminho diferente do absolutismo continental. As ideias de Locke influenciaram depois o Iluminismo e a independência dos EUA.",
+			"skills": [
+				"explicar",
+				"relacionar"
+			],
+			"knowledge": [
+				"Revoluções inglesas do século XVII",
+				"liberalismo político de Locke"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que a Revolução Gloriosa criou uma república: ela manteve a monarquia, limitada pelo Parlamento.",
+				"Atribuir a Locke a defesa do absolutismo, que é a posição de Hobbes."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-o-antigo-regime-em-sociedades-europeias-e-nos-tropicos-3",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-o-antigo-regime-em-sociedades-europeias-e-nos-tropicos"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“Na América portuguesa, para ocupar cargos nas câmaras municipais, receber hábitos de ordens militares ou ingressar em irmandades de prestígio, era comum a exigência de ‘pureza de sangue’, isto é, a ausência de ascendentes judeus, mouros, negros ou indígenas.”\n\nExplique de que modo a exigência de pureza de sangue reproduzia, na colônia, a lógica da sociedade de Antigo Regime. Em seguida, apresente uma forma pela qual africanos, libertos ou seus descendentes buscaram proteção ou ascensão nessa sociedade.",
+			"modelAnswer": "Explicação: como na Europa, o lugar social era definido pelo nascimento e pela honra, e não pelo mérito ou pela riqueza; na colônia, a essas hierarquias somaram-se a cor e a condição jurídica (livre, liberto ou escravizado), de modo que a ascendência africana ou indígena funcionava como “defeito” que excluía de cargos, honras e mercês concedidas pela Coroa.\nForma (uma): as irmandades leigas de pretos e pardos (como as de Nossa Senhora do Rosário), que ofereciam ajuda mútua, enterros dignos e sociabilidade; a compra da alforria; o ingresso nas milícias de pardos e de pretos; o acúmulo de bens; pedidos à Coroa de dispensa do “defeito de cor”.",
+			"explanation": "A ideia de “Antigo Regime nos trópicos” mostra que a colônia não copiou simplesmente a Europa: a escravidão e a cor criaram novas hierarquias, cujos efeitos chegam à desigualdade racial de hoje.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"sociedade colonial e hierarquias",
+				"pureza de sangue e irmandades"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Descrever a sociedade colonial como dividida apenas entre senhores e escravizados.",
+				"Apresentar africanos e descendentes apenas como vítimas, sem estratégias próprias."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-o-brasil-da-monarquia-a-republica-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-o-brasil-da-monarquia-a-republica"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“A Guerra do Paraguai (1864–1870), travada pela Tríplice Aliança — Brasil, Argentina e Uruguai — contra o Paraguai, foi o maior conflito armado da história da América do Sul. Um ano depois do fim da guerra, foi aprovada no Brasil a Lei do Ventre Livre.”\n\nApresente duas consequências da Guerra do Paraguai que contribuíram para a crise da monarquia brasileira. Em seguida, explique por que a Lei do Ventre Livre (1871) expressava uma estratégia de abolição gradual.",
+			"modelAnswer": "Consequências (duas): o fortalecimento do Exército, cujos oficiais passaram a reivindicar prestígio e participação política (questão militar), muitos deles influenciados pelo positivismo e pelo republicanismo; o aumento das dívidas e dos gastos do Império; a participação de escravizados e libertos nas tropas, que reforçou o debate sobre a abolição e o desprestígio da escravidão diante dos soldados.\nExplicação: a lei declarava livres os filhos de escravizadas nascidos a partir de então, mas eles ficavam sob a tutela dos senhores até os 8 anos, quando o senhor podia receber indenização do Estado ou usar seus serviços até os 21 anos; assim, a escravidão continuaria por décadas, o processo seria controlado pelos proprietários e evitava-se uma ruptura imediata.",
+			"explanation": "O gradualismo (Ventre Livre, 1871; Sexagenários, 1885) buscava adiar o fim da escravidão. O abolicionismo, ao contrário, defendia a abolição imediata e cresceu nos anos 1880.",
+			"skills": [
+				"apresentar",
+				"explicar"
+			],
+			"knowledge": [
+				"Guerra do Paraguai",
+				"leis abolicionistas graduais"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que a Lei do Ventre Livre libertou imediatamente as crianças nascidas escravizadas.",
+				"Atribuir à guerra o fim imediato da monarquia, sem a crise das décadas seguintes."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-o-brasil-da-monarquia-a-republica-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-o-brasil-da-monarquia-a-republica"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“A Constituição de 1891 estabeleceu o voto direto para os maiores de 21 anos, mas excluiu analfabetos, mendigos, soldados rasos e religiosos sujeitos a voto de obediência. O voto não era secreto, e as eleições eram frequentemente marcadas por fraudes.”\n\nExplique o funcionamento do coronelismo na Primeira República. Em seguida, apresente uma razão pela qual essa República é chamada de oligárquica.",
+			"modelAnswer": "Coronelismo: grandes proprietários rurais (os coronéis) controlavam os votos de trabalhadores e dependentes por meio de favores, ameaças e violência — o voto de cabresto, facilitado pelo voto aberto — e por fraudes nas atas; em troca, recebiam do governo estadual cargos, verbas e apoio policial, num sistema de compromissos que ia do município ao governo federal.\nRazão (uma): o poder ficava concentrado em pequenos grupos das elites agrárias estaduais, sobretudo de São Paulo e Minas Gerais (política do café com leite); a política dos governadores garantia apoio mútuo entre o presidente e as oligarquias estaduais, e a Comissão Verificadora de Poderes impedia a posse de opositores eleitos (“degola”); a participação eleitoral era restrita a uma pequena parcela da população.",
+			"explanation": "A República mudou a forma de governo, mas manteve a exclusão política. O coronelismo ligava o poder local, estadual e federal numa cadeia de troca de votos por favores.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"Primeira República",
+				"coronelismo e política dos governadores"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que as mulheres votavam na Primeira República.",
+				"Confundir coronelismo com patente militar: o título vinha da antiga Guarda Nacional."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-o-mundo-socialista-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-o-mundo-socialista"
+			],
+			"difficulty": "facil",
+			"statement": "Texto elaborado para esta questão:\n“A partir de 1928, Stálin lançou na União Soviética os planos quinquenais, que priorizavam a indústria pesada, e a coletivização forçada da agricultura, que reuniu as terras dos camponeses em fazendas coletivas e estatais.”\n\nExplique o que é uma economia planificada. Em seguida, apresente uma consequência social da coletivização forçada da agricultura soviética.",
+			"modelAnswer": "Economia planificada: o Estado, dono dos meios de produção, define por meio de planos o que, quanto e como produzir, além de preços e salários, no lugar do mercado e da concorrência.\nConsequência (uma): a resistência dos camponeses, sobretudo dos mais prósperos (chamados kulaks), foi reprimida com deportações, prisões e execuções; a queda da produção agrícola e as requisições de grãos provocaram a fome de 1932–1933, que matou milhões de pessoas, principalmente na Ucrânia e no Cazaquistão; muitos camponeses foram enviados aos campos de trabalho forçado (gulag) ou migraram para as cidades.",
+			"explanation": "Os planos quinquenais industrializaram rapidamente a URSS, mas a um custo humano enorme. Reconhecer conquistas e violências é o que a banca espera do estudo do “socialismo real”.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"economia planificada",
+				"stalinismo e coletivização"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Confundir planificação com qualquer intervenção do Estado na economia (como o New Deal).",
+				"Apresentar a coletivização como adesão voluntária dos camponeses."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-o-mundo-socialista-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-o-mundo-socialista"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em 1957, a União Soviética lançou o Sputnik, primeiro satélite artificial. Em 1961, Iuri Gagarin tornou-se o primeiro ser humano a viajar ao espaço. No mesmo país, milhões de pessoas haviam passado pelos campos de trabalho forçado nas décadas anteriores.”\n\nApresente duas características políticas do regime stalinista. Em seguida, cite uma conquista social ou científica da União Soviética e explique por que ela era usada como propaganda na Guerra Fria.",
+			"modelAnswer": "Características (duas): partido único e ausência de liberdades políticas; culto à personalidade de Stálin; polícia política e campos de trabalho forçado (gulag); expurgos e processos contra opositores, inclusive antigos bolcheviques e militares (Grande Expurgo, 1936–1938); censura e controle das artes e da imprensa.\nConquista (uma) e propaganda: a alfabetização em massa, o acesso universal à saúde e à educação, o pleno emprego ou os feitos da corrida espacial (Sputnik, Gagarin); eram apresentados como prova da superioridade do socialismo sobre o capitalismo, na disputa por prestígio e influência com os Estados Unidos.",
+			"explanation": "O enunciado contrapõe ciência avançada e repressão: o “socialismo real” teve as duas faces. A corrida espacial era parte da Guerra Fria, porque mostrava capacidade tecnológica e militar.",
+			"skills": [
+				"apresentar",
+				"citar",
+				"explicar"
+			],
+			"knowledge": [
+				"stalinismo",
+				"corrida espacial e Guerra Fria"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Descrever o stalinismo só pela economia, sem as características políticas pedidas.",
+				"Citar uma conquista sem relacioná-la à disputa da Guerra Fria."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-o-mundo-socialista-3",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-o-mundo-socialista"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em 1º de outubro de 1949, Mao Tsé-tung proclamou a República Popular da China, depois de uma longa guerra civil contra os nacionalistas do Kuomintang, que se refugiaram na ilha de Taiwan.”\n\nExplique uma diferença entre a Revolução Chinesa e a Revolução Russa quanto à sua base social. Em seguida, apresente uma consequência do Grande Salto Adiante (1958–1962) ou da Revolução Cultural (1966–1976).",
+			"modelAnswer": "Diferença: a Revolução Russa teve como base principal os operários e os soldados das grandes cidades, como Petrogrado; a Revolução Chinesa apoiou-se sobretudo nos camponeses, numa guerra popular prolongada travada a partir do campo pelo Exército Vermelho de Mao.\nConsequência (uma): o Grande Salto Adiante, que tentou acelerar a industrialização e coletivizou o campo em comunas populares, desorganizou a agricultura e provocou uma fome que matou dezenas de milhões de pessoas; a Revolução Cultural mobilizou os jovens Guardas Vermelhos contra supostos inimigos da revolução, com perseguição a professores, intelectuais e dirigentes, fechamento de universidades, destruição de patrimônio cultural e reforço do culto a Mao.",
+			"explanation": "A China adaptou o marxismo a um país majoritariamente camponês. As campanhas de massa do período maoísta tiveram custos humanos gigantescos — um dado a relacionar com a guinada de Deng Xiaoping depois de 1978.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"Revolução Chinesa",
+				"maoísmo"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que a Revolução Chinesa foi operária e urbana.",
+				"Confundir Taiwan (nacionalistas) com a República Popular da China."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-o-mundo-socialista-4",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-o-mundo-socialista"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“A partir de 1978, Deng Xiaoping iniciou reformas que abriram a economia chinesa a empresas privadas e ao capital estrangeiro, sobretudo nas Zonas Econômicas Especiais. Em 1989, o governo reprimiu com o exército os protestos da Praça da Paz Celestial, em Pequim.”\n\nCompare os caminhos seguidos pela União Soviética e pela China diante da crise do socialismo real nos anos 1980. Em seguida, explique por que o modelo chinês costuma ser chamado de “socialismo de mercado”.",
+			"modelAnswer": "Comparação: na URSS, Gorbachev combinou reformas econômicas (perestroika) com abertura política (glasnost), o que permitiu críticas ao regime, enfraqueceu o Partido Comunista e abriu caminho para as independências das repúblicas e para o fim da União Soviética em 1991; na China, as reformas foram apenas econômicas — abertura ao mercado e ao capital estrangeiro —, enquanto o Partido Comunista manteve o monopólio do poder e reprimiu as demandas por liberdade política.\nSocialismo de mercado: o modelo combina mecanismos de mercado, empresas privadas e investimento estrangeiro com grandes empresas estatais, planejamento estatal e controle político do partido único — o que levou a um crescimento acelerado e fez da China a segunda maior economia do mundo.",
+			"explanation": "A comparação URSS × China é um eixo do tema: reformar a economia e a política ao mesmo tempo (URSS) ou só a economia (China) levou a destinos opostos.",
+			"skills": [
+				"comparar",
+				"explicar"
+			],
+			"knowledge": [
+				"crise do socialismo real",
+				"reformas de Deng Xiaoping"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que a China abandonou o partido único.",
+				"Afirmar que a perestroika foi uma reforma apenas política."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-oriente-medio-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-oriente-medio"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em 1917, o governo britânico declarou apoiar o estabelecimento, na Palestina, de um ‘lar nacional para o povo judeu’. Pouco antes, em 1916, britânicos e franceses haviam combinado secretamente a divisão das terras árabes do Império Otomano (acordo Sykes-Picot), enquanto prometiam aos árabes apoio à sua independência.”\n\nExplique por que as promessas britânicas durante a Primeira Guerra Mundial são consideradas uma das origens dos conflitos no Oriente Médio. Em seguida, apresente uma característica do sistema de mandatos estabelecido após a guerra.",
+			"modelAnswer": "Explicação: os britânicos fizeram promessas contraditórias — independência aos árabes que se revoltassem contra os otomanos, um lar nacional judeu na Palestina aos sionistas (Declaração Balfour) e a partilha da região com a França (Sykes-Picot) —, criando expectativas incompatíveis sobre o mesmo território, especialmente a Palestina.\nCaracterística (uma): a Liga das Nações entregou a administração dos territórios ao Reino Unido (Palestina, Transjordânia, Iraque) e à França (Síria, Líbano), sob o argumento de prepará-los para a independência; na prática, foi uma forma de dominação colonial; as fronteiras foram traçadas segundo interesses europeus (petróleo, rotas para a Índia), sem considerar as populações locais.",
+			"explanation": "A “origem europeia” do conflito é um ponto central: o colapso do Império Otomano e a partilha franco-britânica definiram fronteiras e rivalidades que perduram.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"fim do Império Otomano",
+				"Declaração Balfour e mandatos"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Apresentar o conflito como milenar e religioso, ignorando o século XX.",
+				"Dizer que o Estado de Israel foi criado em 1917."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-oriente-medio-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-oriente-medio"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em novembro de 1947, a Assembleia Geral da ONU aprovou um plano de partilha da Palestina em um Estado judeu e um Estado árabe, com Jerusalém sob administração internacional. Em maio de 1948, foi proclamado o Estado de Israel, e a guerra entre Israel e países árabes começou no dia seguinte.”\n\nExplique o significado da Nakba para os palestinos. Em seguida, apresente duas razões para a permanência do conflito entre israelenses e palestinos.",
+			"modelAnswer": "Nakba (“catástrofe”, em árabe): a expulsão e a fuga de cerca de 700 mil palestinos durante a guerra de 1948–1949, com a destruição de centenas de aldeias e a proibição do retorno — origem da questão dos refugiados palestinos, que vivem até hoje em campos e na diáspora.\nRazões (duas): a ocupação da Cisjordânia, de Gaza e de Jerusalém Oriental desde a Guerra dos Seis Dias (1967); a expansão dos assentamentos israelenses na Cisjordânia, considerados ilegais pela ONU; a disputa por Jerusalém; a questão do retorno dos refugiados; a não criação de um Estado palestino e o fracasso dos Acordos de Oslo (1993); a ação de grupos que negam o direito de existência do outro e os ciclos de violência entre forças israelenses e grupos armados palestinos; a interferência de potências estrangeiras.",
+			"explanation": "A mesma guerra de 1948 é lembrada por israelenses como independência e por palestinos como Nakba — reconhecer as duas memórias é parte da compreensão histórica.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"criação do Estado de Israel",
+				"questão palestina"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que o Estado palestino foi criado em 1948 junto com Israel.",
+				"Apresentar razões vagas (“ódio religioso”), sem fatos concretos."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-oriente-medio-3",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-oriente-medio"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em julho de 1956, o presidente egípcio Gamal Abdel Nasser nacionalizou o Canal de Suez, controlado por acionistas britânicos e franceses. Em outubro, Israel, Reino Unido e França atacaram o Egito, mas se retiraram meses depois, pressionados pelos Estados Unidos e pela União Soviética.”\n\nExplique o projeto pan-arabista defendido por Nasser. Em seguida, explique por que a crise de Suez revelou mudanças no equilíbrio de poder mundial após a Segunda Guerra.",
+			"modelAnswer": "Pan-arabismo: projeto de unidade política dos povos árabes, com nacionalismo, anti-imperialismo, modernização laica, reforma agrária, nacionalização de recursos estratégicos e não alinhamento na Guerra Fria — que chegou a unir Egito e Síria na República Árabe Unida (1958–1961).\nMudanças: as antigas potências coloniais (Reino Unido e França) não conseguiram impor sua vontade e tiveram de recuar diante da pressão das duas superpotências, mostrando seu declínio e a nova ordem bipolar; ao mesmo tempo, Nasser saiu fortalecido como líder do nacionalismo árabe e do Terceiro Mundo.",
+			"explanation": "Suez marca o fim da era em que Londres e Paris decidiam sozinhas o destino do Oriente Médio. A partir dali, EUA e URSS disputaram a influência na região.",
+			"skills": [
+				"explicar"
+			],
+			"knowledge": [
+				"pan-arabismo e nasserismo",
+				"crise de Suez"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Confundir pan-arabismo com fundamentalismo religioso: o projeto de Nasser era laico.",
+				"Dizer que os EUA apoiaram a invasão do Egito."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-oriente-medio-4",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-oriente-medio"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“Em outubro de 1973, durante a guerra entre Israel e Egito e Síria (Guerra do Yom Kippur), países árabes produtores de petróleo reduziram a produção e embargaram as vendas aos Estados Unidos e a outros aliados de Israel. Em poucos meses, o preço do barril quadruplicou.”\n\nExplique a relação entre o conflito árabe-israelense e o primeiro choque do petróleo. Em seguida, apresente um efeito desse choque na economia brasileira.",
+			"modelAnswer": "Relação: os países árabes exportadores usaram o petróleo como arma política para pressionar os países que apoiavam Israel na guerra de 1973 — e, ao mesmo tempo, afirmaram o poder dos produtores, reunidos na OPEP, sobre os preços, até então controlados pelas grandes companhias ocidentais.\nEfeito (um): o encarecimento das importações de petróleo contribuiu para o fim do “milagre econômico”, o aumento da inflação e o crescimento da dívida externa, já que o governo Geisel manteve o crescimento com empréstimos externos (II PND); estimulou a criação do Proálcool (1975) e os investimentos da Petrobras na exploração de petróleo no Brasil.",
+			"explanation": "A questão liga o Oriente Médio à economia mundial e ao Brasil da ditadura. A crise da dívida dos anos 1980 tem raízes nos choques do petróleo de 1973 e 1979.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"crise do petróleo de 1973",
+				"economia brasileira nos anos 1970"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que a OPEP foi criada em 1973: ela é de 1960.",
+				"Citar o efeito sem relacioná-lo ao preço do petróleo."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-os-colonialismos-em-questao-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-os-colonialismos-em-questao"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Depois da Guerra dos Sete Anos (1756–1763), o governo britânico aprovou novos impostos sobre as Treze Colônias, como a Lei do Selo (1765) e a Lei do Chá (1773). Os colonos protestaram com o lema ‘nenhuma taxação sem representação’.”\n\nExplique a relação entre a Guerra dos Sete Anos e a crise entre a Grã-Bretanha e as Treze Colônias. Em seguida, apresente uma contradição entre os princípios da Declaração de Independência (1776) e a sociedade norte-americana da época.",
+			"modelAnswer": "Relação: endividada pela guerra contra a França, a Coroa britânica passou a cobrar mais impostos dos colonos e a controlar mais o comércio e a expansão para o Oeste, rompendo a relativa autonomia das colônias; os colonos, sem representantes no Parlamento britânico, consideraram ilegítimas as novas taxas, e os protestos (como a Festa do Chá de Boston, 1773) evoluíram para a guerra de independência.\nContradição (uma): a Declaração afirmava que todos os homens são criados iguais e têm direito à vida, à liberdade e à busca da felicidade, mas a escravidão de africanos e seus descendentes foi mantida, os povos indígenas continuaram excluídos e expropriados de suas terras, e mulheres e homens sem propriedade não tinham direitos políticos.",
+			"explanation": "A crise do sistema colonial começa com o aperto fiscal das metrópoles endividadas. A contradição entre princípios universais e exclusões concretas aparece em todas as independências americanas.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"independência dos EUA",
+				"crise do sistema colonial"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que a independência aboliu a escravidão nos EUA.",
+				"Explicar a crise só pelos impostos, sem a questão da representação política."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-os-colonialismos-em-questao-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-os-colonialismos-em-questao"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“Em 1808, Napoleão invadiu a Espanha, obrigou o rei Fernando VII a abdicar e entregou a Coroa a seu irmão, José Bonaparte. Na América espanhola, formaram-se juntas de governo e, entre 1810 e 1825, as guerras de independência, lideradas por criollos como Simón Bolívar e José de San Martín, deram origem a diversos países.”\n\nExplique por que a invasão napoleônica da Espanha contribuiu para as independências da América espanhola. Em seguida, diferencie emancipação política de revolução social, aplicando essa distinção ao caso dessas independências.",
+			"modelAnswer": "Explicação: com o rei deposto, a autoridade da metrópole perdeu legitimidade; as elites criollas, já insatisfeitas com o monopólio comercial e com a exclusão dos altos cargos (reservados aos espanhóis peninsulares), formaram juntas que governavam em nome de Fernando VII, mas, na prática, conquistaram autonomia — que se transformou em luta pela independência, sobretudo quando o rei, restaurado, tentou retomar o controle.\nDiferença: emancipação política é o rompimento do vínculo com a metrópole e a criação de Estados soberanos; revolução social é a transformação da estrutura da sociedade (propriedade, trabalho, hierarquias). Nas independências hispano-americanas houve emancipação política sem revolução social: as elites criollas assumiram o poder, mantiveram os latifúndios e a exploração dos indígenas e, em vários países, a escravidão durou até meados do século XIX.",
+			"explanation": "A distinção conceitual é uma ferramenta para comparar processos: o Haiti, ao contrário, combinou independência e abolição da escravidão.",
+			"skills": [
+				"explicar",
+				"diferenciar"
+			],
+			"knowledge": [
+				"independências da América espanhola",
+				"emancipação política e revolução social"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que as independências foram lideradas por indígenas e escravizados.",
+				"Confundir criollos (nascidos na América) com peninsulares (nascidos na Espanha)."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-os-processos-de-conquista-e-colonizacao-europeia-na-america--1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-os-processos-de-conquista-e-colonizacao-europeia-na-america-"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em 1519, Hernán Cortés desembarcou no México com algumas centenas de soldados. Em 1521, Tenochtitlán, a capital mexica (asteca), uma das maiores cidades do mundo naquela época, foi tomada.”\n\nExplique dois fatores que permitiram a conquista do Império Asteca por um número reduzido de espanhóis. Em seguida, apresente uma forma de resistência indígena à colonização europeia na América.",
+			"modelAnswer": "Fatores (dois): as alianças com povos indígenas submetidos aos mexicas, como os tlaxcaltecas, que forneceram milhares de guerreiros; as epidemias trazidas pelos europeus, como a varíola, que devastaram a população; armas de aço e de fogo e cavalos, desconhecidos na América; as divisões internas do império e o uso de intérpretes, como Malinche.\nResistência (uma): rebeliões armadas, como a de Tupac Amaru II, no Peru (1780–1781); a longa resistência dos mapuches no Chile; a Confederação dos Tamoios, no Brasil (século XVI); fugas para o interior; preservação de línguas, crenças e práticas, muitas vezes combinadas com o cristianismo; uso da própria justiça colonial para defender terras e direitos.",
+			"explanation": "Explicar a conquista apenas pela superioridade das armas é um erro: alianças indígenas e epidemias foram decisivas. A banca valoriza respostas que tratam os povos originários como agentes, e não só como vítimas.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"conquista da América",
+				"resistências indígenas"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Atribuir a conquista apenas à “superioridade” europeia.",
+				"Dizer que os indígenas confundiram os espanhóis com deuses, versão contestada pelos historiadores."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-os-processos-de-conquista-e-colonizacao-europeia-na-america--2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-os-processos-de-conquista-e-colonizacao-europeia-na-america-"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Descoberta em 1545, a montanha de prata de Potosí, nos Andes, tornou-se uma das maiores fontes de riqueza do Império espanhol. Milhares de indígenas eram enviados para trabalhar em suas minas por meio da mita.”\n\nExplique o funcionamento da mita colonial. Em seguida, relacione a exploração dos metais preciosos americanos à economia europeia dos séculos XVI e XVII.",
+			"modelAnswer": "Mita: sistema de trabalho compulsório e rotativo, adaptado pelos espanhóis de uma instituição do Império Inca — as comunidades indígenas eram obrigadas a enviar periodicamente parte de seus homens adultos para trabalhar nas minas, por salários muito baixos e em condições que provocavam muitas mortes.\nRelação: o ouro e a prata americanos sustentaram o mercantilismo metalista das monarquias ibéricas, financiaram guerras e cortes, provocaram alta generalizada de preços na Europa (a “revolução dos preços”) e circularam pelo comércio para outros países europeus e até para a Ásia, contribuindo para a acumulação de capitais que mais tarde favoreceu o desenvolvimento do capitalismo.",
+			"explanation": "A riqueza que saía de Potosí ajuda a entender tanto a exploração colonial quanto as transformações da economia europeia. Conectar a América e a Europa é o que a segunda parte pede.",
+			"skills": [
+				"explicar",
+				"relacionar"
+			],
+			"knowledge": [
+				"trabalho indígena na América espanhola",
+				"metais preciosos e mercantilismo"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Confundir mita com encomienda ou com escravidão africana.",
+				"Dizer que a prata enriqueceu de forma duradoura a Espanha, que acabou endividada."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-os-processos-de-formacao-dos-estados-nacionais-americanos-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-os-processos-de-formacao-dos-estados-nacionais-americanos"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em 1810, Portugal assinou com a Grã-Bretanha um tratado que fixava em 15% a tarifa sobre os produtos britânicos que entravam no Brasil — menos do que a cobrada sobre os produtos portugueses. Em 1825, Portugal reconheceu a independência do Brasil, em negociação mediada pelos britânicos.”\n\nExplique de que modo a independência política do Brasil conviveu com a dependência econômica em relação à Grã-Bretanha. Em seguida, explique por que a manutenção da monarquia e da escravidão interessava às elites que conduziram a independência.",
+			"modelAnswer": "Dependência: os privilégios comerciais britânicos foram renovados depois da independência, em troca do apoio ao reconhecimento do novo país; o Brasil assumiu empréstimos britânicos para pagar a indenização exigida por Portugal e comprometeu-se a extinguir o tráfico de africanos; os produtos industrializados britânicos dominavam o mercado, e o país continuava exportador de produtos primários.\nInteresse: a monarquia, com um herdeiro da Coroa portuguesa à frente, garantia a ordem, a unidade territorial e a legitimidade do novo Estado, evitando a fragmentação e as guerras civis das repúblicas vizinhas e o risco de revoltas populares e de escravizados (o medo de um “novo Haiti”); a escravidão era a base econômica dos grandes proprietários que apoiaram D. Pedro.",
+			"explanation": "A independência brasileira foi uma emancipação política conduzida pelas elites, com continuidade da monarquia, da escravidão e da dependência externa — o que a diferencia das repúblicas hispano-americanas.",
+			"skills": [
+				"explicar"
+			],
+			"knowledge": [
+				"independência do Brasil",
+				"dependência econômica e tratados com a Grã-Bretanha"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que a independência rompeu os laços econômicos com o exterior.",
+				"Apresentar a monarquia como mera vontade pessoal de D. Pedro."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-os-processos-de-formacao-dos-estados-nacionais-americanos-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-os-processos-de-formacao-dos-estados-nacionais-americanos"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Na madrugada de 25 de janeiro de 1835, em Salvador, centenas de africanos escravizados e libertos, muitos deles muçulmanos, saíram às ruas em armas. A revolta foi derrotada em poucas horas, e seus participantes foram punidos com prisões, açoites, deportações para a África e execuções.”\n\nExplique uma característica que torna a Revolta dos Malês singular entre as revoltas do período regencial. Em seguida, apresente uma consequência dessa revolta para a população africana da Bahia ou para a política escravista do Império.",
+			"modelAnswer": "Característica (uma): foi uma revolta urbana organizada por africanos — sobretudo nagôs (iorubás) e haussás —, muitos deles muçulmanos alfabetizados em árabe, articulados por laços religiosos e étnicos; foi planejada para o fim do Ramadã e tinha como alvo a escravidão e a dominação dos brancos, diferentemente das revoltas lideradas por elites provinciais ou por pobres livres.\nConsequência (uma): aumento da vigilância e da repressão sobre africanos, escravizados e libertos; deportação de libertos para a África e leis provinciais que restringiram seus direitos e sua circulação; perseguição às práticas islâmicas; aprovação, em 1835, de uma lei nacional que previa a pena de morte para escravizados que matassem ou ferissem gravemente seus senhores; reforço do medo das elites diante das revoltas escravas.",
+			"explanation": "Nas Regências, as revoltas mostram projetos diferentes de país. A dos Malês revela a capacidade de organização dos africanos e o pavor que ela provocava numa sociedade escravista.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"revoltas regenciais",
+				"Revolta dos Malês"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Confundir a Revolta dos Malês com a Sabinada, também ocorrida em Salvador.",
+				"Dizer que os malês lutavam pela independência da Bahia."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-restauracao-e-revolucao-na-europa-e-na-america-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-restauracao-e-revolucao-na-europa-e-na-america"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Entre 1814 e 1815, o Congresso de Viena redesenhou o mapa europeu com base nos princípios da legitimidade e do equilíbrio entre as potências. Em 1848, uma onda de revoluções — a ‘Primavera dos Povos’ — atingiu Paris, Viena, Berlim, Milão e outras cidades.”\n\nExplique o objetivo do Congresso de Viena. Em seguida, apresente duas reivindicações dos movimentos revolucionários de 1848.",
+			"modelAnswer": "Objetivo: restaurar as monarquias e as fronteiras anteriores à Revolução Francesa e a Napoleão (princípio da legitimidade), garantir o equilíbrio entre as grandes potências e conter as ideias liberais e nacionalistas — para isso, as monarquias formaram a Santa Aliança, disposta a intervir contra revoluções.\nReivindicações (duas): constituições e governos representativos; sufrágio universal masculino e república (França); unificação ou autonomia nacional (Alemanha, Itália, Hungria); fim da servidão camponesa no Império Austríaco; direito ao trabalho e melhores condições para os operários, defendidos por socialistas.",
+			"explanation": "A Restauração não conseguiu apagar as ideias de 1789: liberalismo, nacionalismo e, depois, socialismo alimentaram as revoluções de 1820, 1830 e 1848. O Manifesto Comunista foi publicado em 1848.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"Congresso de Viena e Restauração",
+				"revoluções de 1848"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que o Congresso de Viena difundiu as ideias da Revolução Francesa.",
+				"Apresentar reivindicações sem relação com liberalismo, nacionalismo ou socialismo."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-restauracao-e-revolucao-na-europa-e-na-america-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-restauracao-e-revolucao-na-europa-e-na-america"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em janeiro de 1871, depois de vencer a França, o rei da Prússia foi proclamado imperador da Alemanha no Palácio de Versalhes. No mesmo ano, Roma tornou-se a capital do Reino da Itália, completando a unificação italiana.”\n\nExplique por que as unificações italiana e alemã são consideradas processos conduzidos “por cima”. Em seguida, apresente uma consequência da unificação alemã para o equilíbrio de poder na Europa.",
+			"modelAnswer": "Explicação: as duas unificações foram lideradas por governos de reinos fortes — o Piemonte-Sardenha, com o ministro Cavour e o rei Vítor Emanuel II, e a Prússia, com o chanceler Bismarck e o rei Guilherme I —, por meio da diplomacia e de guerras, com participação limitada das massas e sem transformar a estrutura social e política em sentido democrático (embora Garibaldi tenha mobilizado voluntários no sul da Itália).\nConsequência (uma): o surgimento de uma nova grande potência industrial e militar no centro da Europa; a rivalidade com a França, que perdeu a Alsácia-Lorena e alimentou o revanchismo; a corrida armamentista e o sistema de alianças que levaram à Primeira Guerra Mundial; a entrada da Alemanha na disputa por colônias.",
+			"explanation": "A unificação alemã mudou o equilíbrio estabelecido em Viena e está na raiz das tensões de 1914. A política de Bismarck ficou conhecida pela fórmula “ferro e sangue”.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"unificações italiana e alemã",
+				"nacionalismo no século XIX"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Atribuir a unificação alemã a uma revolução popular.",
+				"Confundir a proclamação do Império Alemão (1871) com a República de Weimar (1919)."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-transformacoes-no-capitalismo-e-expansao-imperialista-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-transformacoes-no-capitalismo-e-expansao-imperialista"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“No fim do século XIX, novas fontes de energia, como a eletricidade e o petróleo, e novos setores, como o do aço e o da química, transformaram a indústria. Grandes empresas, como a Standard Oil, de John D. Rockefeller, passaram a dominar mercados inteiros.”\n\nApresente duas características da Segunda Revolução Industrial. Em seguida, explique a relação entre a concentração de capitais e a expansão imperialista.",
+			"modelAnswer": "Características (duas): uso da eletricidade e do petróleo como fontes de energia; produção de aço em larga escala e avanço da indústria química; motor a combustão, telefone e novos meios de comunicação e transporte; produção em massa; industrialização de novos países, como EUA, Alemanha e Japão; concentração de capitais em trustes, cartéis e holdings, com a fusão entre bancos e indústrias.\nRelação: os grandes grupos econômicos precisavam de matérias-primas (borracha, cobre, petróleo), de novos mercados consumidores e de lugares para investir capitais excedentes; por isso pressionavam os Estados a conquistar colônias e áreas de influência na África e na Ásia — o que intensificou a rivalidade entre as potências.",
+			"explanation": "O imperialismo do fim do século XIX não é uma simples continuação do colonialismo moderno: está ligado ao capitalismo monopolista e financeiro, como analisaram autores da época.",
+			"skills": [
+				"apresentar",
+				"explicar"
+			],
+			"knowledge": [
+				"Segunda Revolução Industrial",
+				"capitalismo monopolista e imperialismo"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Citar características da Primeira Revolução Industrial (vapor, carvão, tear mecânico).",
+				"Explicar o imperialismo só pela “missão civilizatória”, sem os interesses econômicos."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-his-transformacoes-no-capitalismo-e-expansao-imperialista-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-transformacoes-no-capitalismo-e-expansao-imperialista"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Entre novembro de 1884 e fevereiro de 1885, representantes de potências europeias e dos Estados Unidos reuniram-se em Berlim para estabelecer regras para a ocupação do território africano. Nenhum representante dos povos africanos participou da conferência.”\n\nExplique uma consequência da Conferência de Berlim para a organização territorial da África. Em seguida, apresente uma forma de resistência africana à dominação colonial.",
+			"modelAnswer": "Consequência (uma): a partilha acelerou a conquista do continente (exigência de ocupação efetiva) e traçou fronteiras de acordo com os interesses europeus, separando povos aparentados e reunindo povos rivais num mesmo território — fronteiras mantidas depois das independências e associadas a conflitos atuais.\nResistência (uma): a vitória da Etiópia sobre a Itália na batalha de Adwa (1896), que garantiu sua independência; as guerras de Samori Touré contra os franceses na África Ocidental; as revoltas dos hererós e namas contra os alemães, na atual Namíbia (1904–1908), reprimidas com genocídio; a revolta Maji-Maji, na África Oriental Alemã (1905–1907); a resistência dos axântis no atual Gana; formas cotidianas de resistência, como fugas, sabotagem e preservação de tradições.",
+			"explanation": "A Conferência de Berlim simboliza a decisão sobre a África sem os africanos. Citar uma resistência concreta, com povo e lugar, vale mais do que falar genericamente em “revoltas”.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"partilha da África",
+				"resistências africanas ao imperialismo"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que a conferência dividiu toda a África de uma vez, com o mapa já pronto.",
+				"Apresentar os africanos como passivos diante da conquista."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		}
+	]
+}

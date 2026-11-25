@@ -1,0 +1,1055 @@
+{
+	"aulas": {
+		"esp-constituicoes-brasileiras": {
+			"oficiais": [],
+			"ineditas": [
+				"simu-esp-constituicoes-brasileiras-1",
+				"simu-esp-constituicoes-brasileiras-2",
+				"simu-esp-constituicoes-brasileiras-3",
+				"simu-esp-constituicoes-brasileiras-4"
+			]
+		},
+		"esp-ditaduras-brasileiras": {
+			"oficiais": [
+				"2026-HIS-09",
+				"2025-HIS-08"
+			],
+			"ineditas": [
+				"simu-esp-ditaduras-brasileiras-1",
+				"simu-esp-ditaduras-brasileiras-2"
+			]
+		},
+		"esp-era-vargas": {
+			"oficiais": [
+				"2024-HIS-07"
+			],
+			"ineditas": [
+				"simu-esp-era-vargas-1",
+				"simu-esp-era-vargas-2",
+				"simu-esp-era-vargas-3"
+			]
+		},
+		"esp-eurocentrismo-e-patrimonio": {
+			"oficiais": [
+				"2025-HIS-01",
+				"2019-HIS-04"
+			],
+			"ineditas": [
+				"simu-esp-eurocentrismo-e-patrimonio-1",
+				"simu-esp-eurocentrismo-e-patrimonio-2"
+			]
+		},
+		"esp-golpe-da-maioridade": {
+			"oficiais": [
+				"2025-HIS-04"
+			],
+			"ineditas": [
+				"simu-esp-golpe-da-maioridade-1",
+				"simu-esp-golpe-da-maioridade-2",
+				"simu-esp-golpe-da-maioridade-3"
+			]
+		},
+		"esp-guerra-do-golfo": {
+			"oficiais": [],
+			"ineditas": [
+				"simu-esp-guerra-do-golfo-1",
+				"simu-esp-guerra-do-golfo-2",
+				"simu-esp-guerra-do-golfo-3",
+				"simu-esp-guerra-do-golfo-4"
+			]
+		},
+		"esp-periodo-regencial": {
+			"oficiais": [
+				"2025-HIS-04"
+			],
+			"ineditas": [
+				"simu-esp-periodo-regencial-1",
+				"simu-esp-periodo-regencial-2",
+				"simu-esp-periodo-regencial-3"
+			]
+		},
+		"esp-primavera-arabe": {
+			"oficiais": [],
+			"ineditas": [
+				"simu-esp-primavera-arabe-1",
+				"simu-esp-primavera-arabe-2",
+				"simu-esp-primavera-arabe-3",
+				"simu-esp-primavera-arabe-4"
+			]
+		},
+		"esp-revolucao-cubana": {
+			"oficiais": [
+				"2024-HIS-08"
+			],
+			"ineditas": [
+				"simu-esp-revolucao-cubana-1",
+				"simu-esp-revolucao-cubana-2",
+				"simu-esp-revolucao-cubana-3"
+			]
+		},
+		"esp-revolucao-farroupilha": {
+			"oficiais": [
+				"2025-HIS-04"
+			],
+			"ineditas": [
+				"simu-esp-revolucao-farroupilha-1",
+				"simu-esp-revolucao-farroupilha-2",
+				"simu-esp-revolucao-farroupilha-3"
+			]
+		},
+		"esp-revolucao-iraniana": {
+			"oficiais": [],
+			"ineditas": [
+				"simu-esp-revolucao-iraniana-1",
+				"simu-esp-revolucao-iraniana-2",
+				"simu-esp-revolucao-iraniana-3",
+				"simu-esp-revolucao-iraniana-4"
+			]
+		}
+	},
+	"questoes": [
+		{
+			"id": "simu-esp-era-vargas-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-estado-e-industrializacao-na-america-latina",
+				"his-a-crise-da-sociedade-liberal",
+				"his-ideologias-em-movimento-reformas-e-revolucoes",
+				"his-a-guerra-em-dois-movimentos"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em julho de 1932, São Paulo pegou em armas contra o Governo Provisório de Getúlio Vargas. Derrotados militarmente em outubro, os paulistas viram, ainda assim, o governo convocar eleições para uma Assembleia Constituinte, realizadas em 1933 já sob o novo Código Eleitoral.”\n\nApresente duas reivindicações dos paulistas na Revolução Constitucionalista de 1932. Em seguida, cite duas inovações do Código Eleitoral de 1932.",
+			"modelAnswer": "Reivindicações (duas): a convocação de uma Assembleia Constituinte e o fim do governo provisório, que governava por decretos desde 1930; a volta das eleições; a autonomia de São Paulo, com um interventor civil e paulista no lugar dos interventores nomeados por Vargas; a recuperação do poder político perdido pela elite paulista em 1930.\nInovações (duas): o voto secreto; o voto feminino; a criação da Justiça Eleitoral, encarregada do alistamento, da apuração e da proclamação dos eleitos.",
+			"explanation": "Mesmo derrotado nas armas, o movimento de 1932 acelerou a constitucionalização: a Constituinte foi eleita em 1933 e a Constituição promulgada em 1934. O Código Eleitoral buscava combater as fraudes da Primeira República.",
+			"skills": [
+				"apresentar",
+				"citar"
+			],
+			"knowledge": [
+				"Revolução Constitucionalista de 1932",
+				"Código Eleitoral de 1932"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que o voto feminino foi conquistado só na Constituição de 1946.",
+				"Apresentar 1932 como movimento separatista: a bandeira central era a Constituição."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-era-vargas-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-estado-e-industrializacao-na-america-latina",
+				"his-a-crise-da-sociedade-liberal",
+				"his-ideologias-em-movimento-reformas-e-revolucoes",
+				"his-a-guerra-em-dois-movimentos"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em 30 de setembro de 1937, o governo divulgou um suposto plano comunista de tomada do poder, o Plano Cohen. Pouco mais de um mês depois, em 10 de novembro, Getúlio Vargas fechou o Congresso e outorgou uma nova Constituição, inaugurando o Estado Novo.”\n\nExplique de que modo o anticomunismo foi usado para justificar o golpe do Estado Novo. Em seguida, compare a relação do governo Vargas com a Aliança Nacional Libertadora e com a Ação Integralista Brasileira entre 1935 e 1938.",
+			"modelAnswer": "Explicação: depois do levante comunista de novembro de 1935, o governo ampliou a repressão (estado de sítio, Lei de Segurança Nacional, Tribunal de Segurança Nacional) e passou a apresentar o comunismo como ameaça permanente; o Plano Cohen, um documento falso atribuído aos comunistas, serviu para obter do Congresso o estado de guerra e criar o clima que justificou o golpe como “defesa da nação”.\nComparação: a ANL, frente antifascista e anti-imperialista com participação comunista e presidida de honra por Luiz Carlos Prestes, foi fechada pelo governo em julho de 1935 e seus membros foram perseguidos; a AIB, de inspiração fascista e liderada por Plínio Salgado, apoiou o golpe de 1937 esperando participar do novo regime, mas foi extinta com os demais partidos e, depois do ataque integralista ao Palácio Guanabara (maio de 1938), também foi reprimida.",
+			"explanation": "O Estado Novo nasceu de uma fraude política (o Plano Cohen) e usou o anticomunismo como argumento. Vargas reprimiu a esquerda e, depois, descartou a extrema direita que o apoiara.",
+			"skills": [
+				"explicar",
+				"comparar"
+			],
+			"knowledge": [
+				"golpe do Estado Novo",
+				"ANL, AIB e anticomunismo"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que o Plano Cohen foi um plano comunista verdadeiro.",
+				"Afirmar que os integralistas governaram com Vargas no Estado Novo."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-era-vargas-3",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-estado-e-industrializacao-na-america-latina",
+				"his-a-crise-da-sociedade-liberal",
+				"his-ideologias-em-movimento-reformas-e-revolucoes",
+				"his-a-guerra-em-dois-movimentos"
+			],
+			"difficulty": "dificil",
+			"statement": "Getúlio Vargas, carta-testamento, 24 de agosto de 1954 (trecho final):\n“Serenamente dou o primeiro passo no caminho da eternidade e saio da vida para entrar na História.”\n\nApresente duas razões para a crise política que levou ao suicídio de Vargas em 1954. Em seguida, explique o efeito imediato da carta-testamento sobre a conjuntura política.",
+			"modelAnswer": "Razões (duas): a oposição da UDN e de Carlos Lacerda, que acusava o governo de corrupção (o “mar de lama”); o descontentamento militar, expresso no Memorial dos Coronéis contra o aumento de 100% do salário mínimo proposto por João Goulart; o choque entre o nacionalismo econômico (Petrobras, críticas à remessa de lucros) e interesses estrangeiros e conservadores; a inflação e as greves, como a dos 300 mil (1953); o atentado da rua Tonelero (agosto de 1954), que matou o major da Aeronáutica Rubens Vaz e foi ligado à guarda pessoal do presidente, levando os militares a exigir sua renúncia.\nEfeito: a carta, que atribuía a crise aos inimigos do povo e dos trabalhadores, provocou comoção e revolta popular contra os opositores (jornais e sedes ligados à oposição foram atacados), adiou o golpe que se desenhava e manteve vivo o trabalhismo — que, com Juscelino Kubitschek e João Goulart, venceu as eleições de 1955.",
+			"explanation": "O suicídio transformou uma derrota política iminente em vitória simbólica. A carta-testamento é um documento político: interpretar seu efeito faz parte do comando.",
+			"skills": [
+				"apresentar",
+				"explicar"
+			],
+			"knowledge": [
+				"segundo governo Vargas",
+				"crise de 1954"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Situar o suicídio no fim do Estado Novo (1945): foi no governo eleito, em 1954.",
+				"Tratar a carta como desabafo pessoal, sem efeito político."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-ditaduras-brasileiras-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-as-ditaduras-na-america-latina-e-os-movimentos-de-resistenci",
+				"his-estado-e-industrializacao-na-america-latina",
+				"his-guerra-fria"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“O Brasil viveu duas ditaduras no século XX: o Estado Novo (1937–1945), chefiado por um líder civil, Getúlio Vargas, e o regime militar (1964–1985), em que generais se revezaram na Presidência.”\n\nApresente uma semelhança entre o Estado Novo e o regime militar quanto aos métodos de governo. Em seguida, apresente duas diferenças entre esses regimes.",
+			"modelAnswer": "Semelhança (uma): censura aos meios de comunicação (DIP × censura prévia); polícia política e tortura (a polícia de Filinto Müller × DOI-CODI); leis de segurança nacional e perseguição a comunistas; propaganda oficial; controle dos sindicatos; Estado indutor do crescimento industrial.\nDiferenças (duas): o Estado Novo era personalista, centrado em Vargas, e o regime militar tinha a instituição militar no poder, com rodízio de generais; o Estado Novo fechou o Congresso e extinguiu os partidos, e o regime militar manteve o Congresso funcionando na maior parte do tempo, com bipartidarismo controlado (Arena × MDB) e eleições restritas; o Estado Novo buscou a mobilização e o apoio ativo dos trabalhadores, com direitos trabalhistas (CLT), e o regime militar preferiu a sociedade desmobilizada, com arrocho salarial e fim da estabilidade no emprego (FGTS, 1966).",
+			"explanation": "Comparar “peça por peça” (origem, leis, repressão, propaganda, economia, relação com os trabalhadores) é o método da aula. A banca premia diferenças precisas, e não genéricas.",
+			"skills": [
+				"apresentar",
+				"comparar"
+			],
+			"knowledge": [
+				"Estado Novo",
+				"regime militar de 1964"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que não houve tortura no Estado Novo.",
+				"Afirmar que o Congresso ficou fechado durante todo o regime militar."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-ditaduras-brasileiras-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-as-ditaduras-na-america-latina-e-os-movimentos-de-resistenci",
+				"his-estado-e-industrializacao-na-america-latina",
+				"his-guerra-fria"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“Em 1974, o presidente Ernesto Geisel anunciou uma abertura política ‘lenta, gradual e segura’. Dez anos depois, milhões de pessoas foram às ruas na campanha das Diretas Já, mas a emenda que restabelecia as eleições diretas para presidente foi rejeitada pela Câmara dos Deputados.”\n\nExplique o caráter da abertura política iniciada no governo Geisel. Em seguida, apresente duas formas de pressão da sociedade civil pela redemocratização.",
+			"modelAnswer": "Caráter: foi uma transição controlada pelos próprios militares, que pretendiam devolver o poder aos civis no ritmo e nas condições que definissem, sem punição aos agentes do regime e sem perder o controle do processo — por isso conviveu com recuos e medidas autoritárias, como o Pacote de Abril (1977), antes do fim do AI-5 (1979), da Lei da Anistia (1979) e da reforma partidária (1979).\nPressões (duas): o movimento pela anistia “ampla, geral e irrestrita”; as greves operárias do ABC paulista (1978–1980); a atuação de entidades como a OAB, a ABI, a CNBB e a SBPC; a imprensa alternativa; o voto de oposição ao MDB, como na vitória de 1974 para o Senado; a campanha das Diretas Já (1983–1984).",
+			"explanation": "A redemocratização foi uma combinação de abertura “pelo alto” e pressão “por baixo”. A eleição indireta de Tancredo Neves (1985) mostra os limites da transição negociada.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"abertura política",
+				"redemocratização e sociedade civil"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que as Diretas Já conseguiram aprovar a eleição direta em 1984.",
+				"Apresentar a abertura apenas como concessão dos militares, sem as pressões sociais."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-constituicoes-brasileiras-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-os-processos-de-formacao-dos-estados-nacionais-americanos",
+				"his-o-brasil-da-monarquia-a-republica",
+				"his-estado-e-industrializacao-na-america-latina",
+				"his-as-ditaduras-na-america-latina-e-os-movimentos-de-resistenci"
+			],
+			"difficulty": "facil",
+			"statement": "Texto elaborado para esta questão:\n“Das sete Constituições brasileiras, algumas foram outorgadas e outras promulgadas. A de 1824 foi imposta por dom Pedro I depois de dissolver a Assembleia Constituinte; a de 1988 foi elaborada por uma Assembleia Nacional Constituinte eleita em 1986.”\n\nDiferencie uma Constituição outorgada de uma Constituição promulgada. Em seguida, cite uma Constituição outorgada no século XX e o contexto político em que foi imposta.",
+			"modelAnswer": "Diferença: a Constituição outorgada é imposta pelo governante, sem participação de representantes eleitos para elaborá-la, geralmente em contextos autoritários; a promulgada é discutida e aprovada por uma assembleia constituinte eleita, em contextos democráticos ou de redemocratização.\nExemplo (um): a Constituição de 1937 (a “Polaca”), outorgada por Vargas no golpe do Estado Novo, que fechou o Congresso e extinguiu os partidos; a Constituição de 1967, aprovada por um Congresso mutilado pelas cassações e convocado pelo regime militar, ou a Emenda nº 1 de 1969, outorgada pela junta militar depois do AI-5.",
+			"explanation": "A alternância entre Cartas outorgadas e promulgadas acompanha a alternância entre autoritarismo e democracia na história do país. A de 1967 é frequentemente classificada como “semioutorgada”.",
+			"skills": [
+				"diferenciar",
+				"citar"
+			],
+			"knowledge": [
+				"Constituições brasileiras",
+				"outorga e promulgação"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Classificar a Constituição de 1891 ou a de 1946 como outorgadas.",
+				"Citar a Carta sem o contexto político pedido."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-constituicoes-brasileiras-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-os-processos-de-formacao-dos-estados-nacionais-americanos",
+				"his-o-brasil-da-monarquia-a-republica",
+				"his-estado-e-industrializacao-na-america-latina",
+				"his-as-ditaduras-na-america-latina-e-os-movimentos-de-resistenci"
+			],
+			"difficulty": "medio",
+			"statement": "Constituição Política do Império do Brasil (1824), artigo 98:\n“O Poder Moderador é a chave de toda a organização Política, e é delegado privativamente ao Imperador [...].”\n\nExplique o que era o Poder Moderador e por que ele concentrava poder nas mãos do imperador. Em seguida, explique por que o sistema eleitoral de 1824 é chamado de censitário.",
+			"modelAnswer": "Poder Moderador: quarto poder, ao lado do Legislativo, do Executivo e do Judicial, exercido apenas pelo imperador, que por meio dele podia nomear e demitir ministros, dissolver a Câmara dos Deputados, escolher senadores vitalícios a partir de listas tríplices, suspender magistrados, sancionar ou vetar leis e conceder anistia — isto é, interferir em todos os demais poderes, sem ser responsabilizado (sua pessoa era “inviolável e sagrada”).\nVoto censitário: o direito de votar e de ser votado dependia de renda mínima anual — 100 mil-réis para os votantes, 200 mil-réis para os eleitores que escolhiam deputados e senadores, valores maiores para os candidatos —, numa eleição indireta; escravizados não eram cidadãos, e as mulheres não votavam.",
+			"explanation": "A Carta de 1824 combinou liberalismo (representação, direitos civis) e centralização (Poder Moderador, Estado unitário), preservando a escravidão. Foi a Constituição mais longa da história do país (1824–1889).",
+			"skills": [
+				"explicar"
+			],
+			"knowledge": [
+				"Constituição de 1824",
+				"Poder Moderador e voto censitário"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que o Poder Moderador era exercido pelo Parlamento.",
+				"Confundir voto censitário com voto restrito aos alfabetizados (regra de 1881 e da República)."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-constituicoes-brasileiras-3",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-os-processos-de-formacao-dos-estados-nacionais-americanos",
+				"his-o-brasil-da-monarquia-a-republica",
+				"his-estado-e-industrializacao-na-america-latina",
+				"his-as-ditaduras-na-america-latina-e-os-movimentos-de-resistenci"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“A Constituição de 1934 foi a primeira do país a incluir direitos sociais. Três anos depois, a Carta de 1937, apelidada de ‘Polaca’, foi redigida por Francisco Campos e imposta no dia do golpe do Estado Novo.”\n\nCompare as Constituições de 1934 e de 1937 quanto à origem e aos direitos políticos. Em seguida, apresente um direito social previsto na Constituição de 1934.",
+			"modelAnswer": "Comparação: a de 1934 foi promulgada por uma Assembleia Constituinte eleita (com voto secreto e feminino) e manteve eleições, partidos e voto secreto e feminino a partir dos 18 anos; a de 1937 foi outorgada por Vargas, concentrou o poder no presidente, que governou por decretos-leis, extinguiu os partidos, suprimiu as eleições (o Parlamento nunca foi convocado e o plebiscito previsto nunca foi feito) e permitiu a censura prévia.\nDireito social (um): salário mínimo; jornada de oito horas; repouso semanal; férias remuneradas; proteção ao trabalho das mulheres e dos menores; previsão da Justiça do Trabalho; assistência e previdência social.",
+			"explanation": "As duas Cartas mostram a ambiguidade da Era Vargas: direitos sociais com e sem direitos políticos. Comparar origem e direitos políticos é usar dois critérios precisos.",
+			"skills": [
+				"comparar",
+				"apresentar"
+			],
+			"knowledge": [
+				"Constituição de 1934",
+				"Constituição de 1937"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que a Carta de 1937 foi aprovada por plebiscito.",
+				"Atribuir a criação dos direitos sociais apenas à CLT de 1943."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-constituicoes-brasileiras-4",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-os-processos-de-formacao-dos-estados-nacionais-americanos",
+				"his-o-brasil-da-monarquia-a-republica",
+				"his-estado-e-industrializacao-na-america-latina",
+				"his-as-ditaduras-na-america-latina-e-os-movimentos-de-resistenci"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“Instalada em 1º de fevereiro de 1987 e presidida por Ulysses Guimarães, a Assembleia Nacional Constituinte recebeu emendas populares com milhões de assinaturas. Em 5 de outubro de 1988, foi promulgada a Constituição que Ulysses chamou de ‘Cidadã’.”\n\nExplique por que a Constituição de 1988 está associada ao processo de redemocratização. Em seguida, apresente duas inovações dessa Constituição no campo dos direitos.",
+			"modelAnswer": "Explicação: foi elaborada por uma assembleia eleita depois de mais de vinte anos de ditadura, com grande participação de movimentos sociais (audiências públicas, emendas populares) e em reação direta ao arbítrio do regime militar: proibiu a censura, tornou a tortura crime inafiançável, restabeleceu as eleições diretas em todos os níveis e definiu o país como Estado Democrático de Direito.\nInovações (duas): racismo como crime inafiançável e imprescritível; tortura como crime inafiançável e insuscetível de graça ou anistia; voto facultativo para analfabetos e para jovens de 16 e 17 anos; saúde como direito de todos e dever do Estado (SUS); reconhecimento dos direitos dos povos indígenas às terras que tradicionalmente ocupam (art. 231) e das comunidades quilombolas às suas terras; habeas data e mandado de injunção; função social da propriedade; proteção ao meio ambiente.",
+			"explanation": "A Constituição de 1988 é ponto de chegada da redemocratização e referência para os debates atuais sobre direitos. Duas inovações devem ser citadas com precisão — “direitos humanos” em geral não basta.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"Constituição de 1988",
+				"redemocratização"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que a Constituição de 1988 foi feita pelo regime militar.",
+				"Citar inovações vagas, sem dizer qual direito foi criado ou ampliado."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-periodo-regencial-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-os-processos-de-formacao-dos-estados-nacionais-americanos",
+				"his-o-brasil-da-monarquia-a-republica"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Nos primeiros anos das Regências, os liberais moderados aprovaram a criação da Guarda Nacional (1831), o Código do Processo Criminal (1832) e o Ato Adicional (1834). A partir de 1837, porém, o Regresso conservador passou a defender a recentralização do Estado.”\n\nExplique o sentido descentralizador de duas reformas do início do período regencial. Em seguida, explique por que os defensores do Regresso justificavam a recentralização.",
+			"modelAnswer": "Reformas (duas): a Guarda Nacional, milícia de cidadãos com renda comandada por proprietários locais, que reduzia o peso do Exército e dava força armada às elites de cada região; o Código do Processo Criminal, que fortaleceu os juízes de paz eleitos localmente, com funções policiais e judiciais, e instituiu o júri; o Ato Adicional, que criou assembleias legislativas provinciais com poder sobre impostos, empregos e obras provinciais e extinguiu o Conselho de Estado.\nJustificativa: para os regressistas, as revoltas em várias províncias (Cabanagem, Malês, Farroupilha, Sabinada, Balaiada) provavam que a descentralização levava à “anarquia” e ameaçava a unidade territorial, a monarquia, a escravidão e a ordem; era preciso devolver ao governo central o controle da polícia, da justiça e dos cargos — o que começou com a Lei de Interpretação do Ato Adicional (1840).",
+			"explanation": "O período regencial foi um laboratório de projetos de país. O avanço liberal e o Regresso conservador são as duas fases que organizam a explicação.",
+			"skills": [
+				"explicar"
+			],
+			"knowledge": [
+				"avanço liberal nas Regências",
+				"Regresso conservador"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Atribuir o Ato Adicional aos conservadores.",
+				"Tratar o “caos” das Regências como fato neutro, e não como argumento político dos regressistas."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-periodo-regencial-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-os-processos-de-formacao-dos-estados-nacionais-americanos",
+				"his-o-brasil-da-monarquia-a-republica"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Na Cabanagem (Grão-Pará, 1835–1840), indígenas, tapuios, mestiços, escravizados e pobres livres tomaram Belém e chegaram a governar a província. A repressão imperial deixou dezenas de milhares de mortos. Já a Revolução Farroupilha (1835–1845), liderada por estancieiros gaúchos, terminou com um acordo de paz e anistia.”\n\nExplique por que a Cabanagem é considerada uma revolta popular, diferentemente da Farroupilha. Em seguida, explique a diferença no tratamento dado pelo governo imperial às duas revoltas.",
+			"modelAnswer": "Explicação: embora tenha começado com disputas entre elites locais, a Cabanagem foi dominada por grupos pobres e marginalizados — os “cabanos” —, que expressavam revolta contra a miséria, o recrutamento forçado e a dominação das elites; a Farroupilha foi dirigida por estancieiros e charqueadores, que defendiam interesses econômicos e políticos da elite regional (impostos, autonomia provincial).\nTratamento: contra os cabanos, o Império usou repressão brutal, com massacres e execuções; com os farroupilhas, negociou: a paz de Ponche Verde (1845) concedeu anistia e incorporou oficiais rebeldes ao Exército — o Estado negociava com as elites e esmagava as “classes perigosas”.",
+			"explanation": "A comparação entre revoltas pelo grupo social que as conduzia e pela resposta do Estado é o critério central da interpretação historiográfica sobre o período.",
+			"skills": [
+				"explicar",
+				"comparar"
+			],
+			"knowledge": [
+				"Cabanagem",
+				"revoltas regenciais e repressão"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que todas as revoltas regenciais tinham o mesmo perfil social.",
+				"Afirmar que a Farroupilha foi esmagada militarmente como a Cabanagem."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-periodo-regencial-3",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-os-processos-de-formacao-dos-estados-nacionais-americanos",
+				"his-o-brasil-da-monarquia-a-republica"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“Enquanto a América espanhola se dividia em várias repúblicas ao longo do século XIX, o Império do Brasil, apesar das revoltas provinciais das décadas de 1830 e 1840, manteve a unidade de seu território.”\n\nExplique dois fatores que contribuíram para a manutenção da unidade territorial do Brasil após as Regências. Em seguida, explique por que a escravidão funcionou como interesse comum das elites provinciais.",
+			"modelAnswer": "Fatores (dois): a monarquia, que oferecia uma fonte de legitimidade e um símbolo de unidade acima das disputas regionais; a recentralização conservadora (Lei de Interpretação, 1840; reforma do Código do Processo e recriação do Conselho de Estado, 1841), que deu ao governo central o controle da polícia, da justiça e dos cargos; a repressão às revoltas com o Exército e a Guarda Nacional, combinada com a negociação com as elites provinciais, que mantiveram suas assembleias e parte da autonomia; uma elite política relativamente homogênea, formada em Coimbra e depois nas faculdades de Direito do Brasil.\nEscravidão: os grandes proprietários de todas as províncias dependiam do trabalho escravizado e temiam revoltas escravas como a do Haiti; um Estado central forte, capaz de manter a ordem, reprimir levantes e negociar com a Grã-Bretanha a questão do tráfico, protegia esse interesse melhor do que províncias isoladas.",
+			"explanation": "Por que o Brasil não se fragmentou? A resposta combina instituições (monarquia, centralização), interesses (escravidão) e medo (das “classes perigosas”).",
+			"skills": [
+				"explicar"
+			],
+			"knowledge": [
+				"construção do Estado imperial",
+				"unidade territorial e escravidão"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Explicar a unidade por uma “índole pacífica” do povo brasileiro.",
+				"Esquecer que a unidade foi mantida também pela repressão."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-golpe-da-maioridade-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-os-processos-de-formacao-dos-estados-nacionais-americanos",
+				"his-o-brasil-da-monarquia-a-republica"
+			],
+			"difficulty": "facil",
+			"statement": "Texto elaborado para esta questão:\n“Em 23 de julho de 1840, a Assembleia Geral declarou maior de idade dom Pedro II, então com 14 anos. A Constituição de 1824 fixava em 18 anos a maioridade do imperador.”\n\nExplique por que a antecipação da maioridade de dom Pedro II é considerada um golpe parlamentar. Em seguida, apresente um interesse dos liberais nessa antecipação.",
+			"modelAnswer": "Explicação: a própria Assembleia Geral rompeu uma regra expressa da Constituição (a maioridade aos 18 anos) para entregar o governo a um imperador de 14 anos — uma ruptura da ordem constitucional decidida pelo Parlamento, sem uso de tropas.\nInteresse (um): afastados do governo pela Regência conservadora de Araújo Lima, que aprovara a Lei de Interpretação do Ato Adicional, os liberais buscavam voltar ao poder por meio do imperador, que, com o Poder Moderador, nomeava e demitia ministros; também apresentavam o monarca como fonte de autoridade capaz de pôr fim às revoltas e às disputas da Regência.",
+			"explanation": "Ter o imperador ao seu lado significava poder formar o governo: é a chave para entender por que os liberais, defensores da descentralização, apoiaram a antecipação.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"golpe da maioridade",
+				"liberais e conservadores no Império"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que o golpe foi militar.",
+				"Atribuir a iniciativa da maioridade aos conservadores do Regresso."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-golpe-da-maioridade-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-os-processos-de-formacao-dos-estados-nacionais-americanos",
+				"his-o-brasil-da-monarquia-a-republica"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“O primeiro ministério do Segundo Reinado, formado por liberais, caiu em março de 1841, depois de eleições marcadas por violência e fraude, conhecidas como ‘eleições do cacete’. Os conservadores voltaram ao governo e, em 1842, venceram as revoltas liberais de São Paulo e de Minas Gerais.”\n\nExplique por que o grande vencedor do golpe da maioridade acabou sendo o Regresso conservador. Em seguida, cite duas medidas centralizadoras adotadas em 1841.",
+			"modelAnswer": "Explicação: os liberais ficaram pouco tempo no poder; com a queda do gabinete liberal, os conservadores retomaram o governo e usaram a autoridade do jovem imperador para completar a recentralização do Estado, derrotar as revoltas liberais de 1842 e construir a ordem imperial sob sua direção — o “tempo saquarema”, baseado na unidade territorial, na monarquia, na centralização e na escravidão.\nMedidas (duas): a recriação do Conselho de Estado; a reforma do Código do Processo Criminal, que passou a polícia e parte da justiça para chefes de polícia, delegados e subdelegados nomeados pelo governo central e esvaziou os juízes de paz eleitos.",
+			"explanation": "A maioridade foi uma manobra liberal que favoreceu os conservadores. As leis de 1840–1841 consolidaram o Regresso e moldaram o Segundo Reinado.",
+			"skills": [
+				"explicar",
+				"citar"
+			],
+			"knowledge": [
+				"Regresso e leis de 1841",
+				"tempo saquarema"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que os liberais governaram durante toda a década de 1840.",
+				"Confundir as revoltas liberais de 1842 com a Farroupilha."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-golpe-da-maioridade-3",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-os-processos-de-formacao-dos-estados-nacionais-americanos",
+				"his-o-brasil-da-monarquia-a-republica"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“Em 1840, o Parlamento antecipou a maioridade do imperador. Em 1937, o próprio presidente da República fechou o Congresso e impôs uma nova Constituição. Nos dois casos, os autores da ruptura apresentaram-na como uma forma de ‘salvar’ o país.”\n\nCompare o golpe da maioridade (1840) e o golpe do Estado Novo (1937) quanto aos agentes e aos meios empregados. Em seguida, apresente uma característica comum aos dois episódios.",
+			"modelAnswer": "Comparação: em 1840, o agente foi o Parlamento — os liberais e o Clube da Maioridade —, que, sem tropas, aprovou a antecipação de uma regra constitucional; em 1937, o agente foi o próprio chefe do Executivo, Getúlio Vargas, com o apoio da cúpula militar, que fechou o Congresso, extinguiu os partidos e outorgou uma nova Constituição, usando um documento falso (o Plano Cohen) como pretexto.\nCaracterística comum (uma): a ruptura da ordem constitucional apresentada como salvação da nação diante de uma ameaça — a “anarquia” das revoltas regenciais em 1840, o comunismo em 1937; o fortalecimento do poder central; a decisão tomada por grupos dirigentes, sem consulta à população.",
+			"explanation": "Comparar golpes ajuda a precisar o conceito: golpe parlamentar (1840), golpe militar (1889), autogolpe (1937) e golpe civil-militar (1964). Em todos, a justificativa é a “salvação” do país.",
+			"skills": [
+				"comparar",
+				"apresentar"
+			],
+			"knowledge": [
+				"conceito de golpe na história do Brasil",
+				"maioridade e Estado Novo"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Tratar os dois episódios como idênticos, sem diferenciar os agentes.",
+				"Esquecer o papel das Forças Armadas em 1937."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-revolucao-farroupilha-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-os-processos-de-formacao-dos-estados-nacionais-americanos",
+				"his-o-brasil-da-monarquia-a-republica"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em 20 de setembro de 1835, tropas lideradas por Bento Gonçalves tomaram Porto Alegre. Em 1836, depois da vitória no Seival, os farroupilhas proclamaram a República Rio-Grandense.”\n\nApresente duas causas da Revolução Farroupilha. Em seguida, explique por que a revolta é associada à defesa dos interesses das elites regionais.",
+			"modelAnswer": "Causas (duas): os impostos cobrados sobre o charque, o couro, o gado e o sal, essenciais à economia gaúcha; a concorrência do charque platino (do Uruguai e da Argentina), que entrava no mercado brasileiro em condições vantajosas; a centralização, com presidentes de província nomeados pela Corte; a força dos liberais exaltados na política provincial.\nExplicação: foi liderada por estancieiros e charqueadores, que lutavam por menos impostos, proteção ao charque e autonomia provincial (federalismo); a República Rio-Grandense manteve a escravidão, base das charqueadas, e o acordo de paz atendeu sobretudo aos chefes do movimento.",
+			"explanation": "A Farroupilha combina economia (charque), política (centralização) e fronteira (Prata). Não é uma revolta popular, embora tenha mobilizado peões e escravizados como soldados.",
+			"skills": [
+				"apresentar",
+				"explicar"
+			],
+			"knowledge": [
+				"Revolução Farroupilha",
+				"economia do charque"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que a República Rio-Grandense aboliu a escravidão.",
+				"Confundir o charque (carne salgada) com o café ou o açúcar."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-revolucao-farroupilha-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-os-processos-de-formacao-dos-estados-nacionais-americanos",
+				"his-o-brasil-da-monarquia-a-republica"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em 14 de novembro de 1844, no cerro de Porongos, o acampamento farroupilha comandado por David Canabarro foi atacado de surpresa por tropas imperiais, e os lanceiros negros foram massacrados. Em 2024, os lanceiros negros foram inscritos no Livro dos Heróis e Heroínas da Pátria.”\n\nExplique a participação dos lanceiros negros na Revolução Farroupilha e a contradição que ela revela. Em seguida, explique por que o massacre de Porongos é objeto de disputa de memória.",
+			"modelAnswer": "Participação e contradição: escravizados fugidos ou tomados das estâncias inimigas formaram corpos de cavalaria (os lanceiros negros), com a promessa de liberdade em troca da luta pela república; a contradição é que a República Rio-Grandense não aboliu a escravidão, e os estancieiros farroupilhas continuaram escravistas — a liberdade dos lanceiros dependia da vitória e da palavra dos chefes.\nDisputa de memória: uma carta atribuída a Caxias sugere que o ataque teria sido combinado com Canabarro para eliminar os soldados negros antes da paz (a autenticidade do documento é debatida pelos historiadores); a memória tradicionalista celebra a Farroupilha como epopeia heroica e igualitária, enquanto o movimento negro destaca a traição e a exclusão dos combatentes negros e luta por reconhecimento — como a inscrição dos lanceiros no Livro dos Heróis e Heroínas da Pátria.",
+			"explanation": "A UERJ cobra com frequência a relação entre memória, monumentos e poder. Porongos mostra como uma memória regional celebrada pode ser contestada por grupos antes silenciados.",
+			"skills": [
+				"explicar"
+			],
+			"knowledge": [
+				"lanceiros negros e Porongos",
+				"memória e disputas sobre o passado"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Afirmar como fato comprovado que Canabarro traiu os lanceiros: o documento é contestado.",
+				"Apresentar a Farroupilha como luta abolicionista."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-revolucao-farroupilha-3",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-os-processos-de-formacao-dos-estados-nacionais-americanos",
+				"his-o-brasil-da-monarquia-a-republica"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“Em 1845, a paz de Ponche Verde encerrou dez anos de guerra no Rio Grande do Sul. Poucos anos depois, o Império do Brasil interveio nas disputas do Rio da Prata, combatendo Oribe, no Uruguai, e Rosas, na Argentina (1851–1852).”\n\nApresente duas condições da paz de Ponche Verde. Em seguida, relacione o fim negociado da Farroupilha aos interesses do Império na região do Prata.",
+			"modelAnswer": "Condições (duas): anistia aos revoltosos; incorporação de oficiais farroupilhas ao Exército imperial; atenção às reivindicações econômicas gaúchas, num contexto de aumento das tarifas de importação (Tarifa Alves Branco, 1844), que protegia o charque nacional; promessa de liberdade aos escravizados que lutaram, cumprida só em parte.\nRelação: o Rio Grande do Sul era a fronteira e a base militar do Império no Prata; diante dos conflitos com os governos de Oribe e de Rosas, o governo imperial precisava da cavalaria e da lealdade das elites gaúchas — por isso preferiu negociar e integrá-las, em vez de destruí-las, e, poucos anos depois, usou essas forças nas guerras platinas.",
+			"explanation": "A pacificação de 1845 foi parte de uma estratégia: transformar antigos rebeldes em aliados na política externa do Império. A mesma fronteira seria decisiva na Guerra do Paraguai.",
+			"skills": [
+				"apresentar",
+				"relacionar"
+			],
+			"knowledge": [
+				"paz de Ponche Verde",
+				"política do Império no Prata"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que a Farroupilha terminou com a independência do Rio Grande do Sul.",
+				"Ignorar a dimensão platina da negociação."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-eurocentrismo-e-patrimonio-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-os-processos-de-conquista-e-colonizacao-europeia-na-america-",
+				"his-transformacoes-no-capitalismo-e-expansao-imperialista",
+				"his-os-colonialismos-em-questao",
+				"his-a-ilustracao-e-a-crise-do-antigo-regime"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em 1897, uma expedição militar britânica saqueou a cidade de Benin, na atual Nigéria, e levou milhares de objetos — entre eles, as placas e esculturas conhecidas como bronzes do Benin. Muitas dessas peças foram parar no Museu Britânico e em outros museus europeus.”\n\nExplique de que modo o eurocentrismo e o racismo científico do século XIX ajudaram a justificar a pilhagem de bens culturais africanos. Em seguida, apresente um argumento usado hoje pelos defensores da devolução desses bens.",
+			"modelAnswer": "Explicação: o eurocentrismo tomava a Europa como centro e medida da civilização, e o racismo científico e o darwinismo social classificavam os povos africanos como inferiores ou “primitivos”; com a ideia de “missão civilizadora”, a conquista e a apropriação de objetos pareciam legítimas — as peças eram tratadas como troféus de guerra, curiosidades exóticas ou “arte primitiva” para os museus europeus, sem consideração pelo seu significado para os povos que as produziram.\nArgumento (um): os bens foram tomados pela violência colonial, o que torna ilegítima sua posse; são memória, identidade e patrimônio dos povos de origem (muitos têm valor sagrado ou histórico); a devolução é uma forma de reparação histórica e de reconhecimento do direito de cada povo à própria memória — como fez a França ao devolver à República do Benin, em 2021, peças do tesouro de Abomé.",
+			"explanation": "A questão liga o imperialismo do século XIX aos debates atuais sobre museus. Cuidado com os nomes: os bronzes do Benin vieram do antigo Reino do Benin (atual Nigéria); o tesouro de Abomé, do Reino do Daomé (atual República do Benin).",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"eurocentrismo e racismo científico",
+				"restituição de bens culturais"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que os objetos foram comprados ou doados livremente.",
+				"Confundir o antigo Reino do Benin (Nigéria) com a atual República do Benin."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-eurocentrismo-e-patrimonio-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-os-processos-de-conquista-e-colonizacao-europeia-na-america-",
+				"his-transformacoes-no-capitalismo-e-expansao-imperialista",
+				"his-os-colonialismos-em-questao",
+				"his-a-ilustracao-e-a-crise-do-antigo-regime"
+			],
+			"difficulty": "medio",
+			"statement": "Constituição Federal de 1988, artigo 216:\n“Constituem patrimônio cultural brasileiro os bens de natureza material e imaterial, tomados individualmente ou em conjunto, portadores de referência à identidade, à ação, à memória dos diferentes grupos formadores da sociedade brasileira [...].”\n\nDiferencie patrimônio material de patrimônio imaterial, apresentando um exemplo brasileiro de cada. Em seguida, explique por que o reconhecimento do patrimônio de povos indígenas e afro-brasileiros pode ser entendido como uma crítica ao eurocentrismo.",
+			"modelAnswer": "Diferença: o patrimônio material é formado por bens físicos — edifícios, sítios, objetos, documentos (exemplos: o Cais do Valongo, no Rio de Janeiro; o centro histórico de Ouro Preto; o terreiro da Casa Branca, em Salvador; o manto tupinambá); o imaterial, por práticas, saberes, celebrações e formas de expressão transmitidos entre gerações (exemplos: o samba de roda do Recôncavo Baiano; a roda de capoeira; o ofício das baianas de acarajé; o jongo; o Círio de Nazaré; a arte gráfica Kusiwa dos Wajãpi).\nExplicação: durante muito tempo, o patrimônio oficial valorizou sobretudo igrejas, palácios e monumentos ligados à herança europeia e às elites; reconhecer saberes, rituais, línguas e lugares indígenas e afro-brasileiros afirma que esses grupos também formaram a nação, combate o apagamento de seus saberes e rompe com a ideia de que só a cultura de origem europeia seria “civilização”.",
+			"explanation": "O artigo 216 fala em “diferentes grupos formadores da sociedade brasileira”: é a base constitucional para uma visão não eurocêntrica do patrimônio. A UERJ valoriza exemplos concretos e brasileiros.",
+			"skills": [
+				"diferenciar",
+				"explicar"
+			],
+			"knowledge": [
+				"patrimônio material e imaterial",
+				"crítica ao eurocentrismo"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dar exemplos de patrimônio imaterial que são, na verdade, objetos ou edifícios.",
+				"Tratar a cultura indígena e afro-brasileira como folclore exótico, e não como patrimônio."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-revolucao-cubana-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-africa-asia-e-america-latina-em-um-mundo-bipolar",
+				"his-guerra-fria",
+				"his-a-construcao-da-hegemonia-norte-americana",
+				"his-ideologias-em-movimento-reformas-e-revolucoes"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Depois da independência em relação à Espanha, Cuba teve de incorporar à sua Constituição a Emenda Platt (1901), que dava aos Estados Unidos o direito de intervir na ilha. Em 1952, Fulgencio Batista deu um golpe e cancelou as eleições previstas para aquele ano.”\n\nApresente dois elementos da dependência de Cuba em relação aos Estados Unidos antes de 1959. Em seguida, explique por que o golpe de Batista contribuiu para a opção pela luta armada.",
+			"modelAnswer": "Elementos (dois): o direito de intervenção previsto na Emenda Platt e a base naval de Guantánamo (1903); a economia baseada no açúcar, com os EUA como principal comprador e grandes investidores em usinas, terras, bancos e serviços públicos; as intervenções militares norte-americanas; a presença de cassinos, turismo e máfia ligados aos EUA.\nExplicação: ao interromper o caminho eleitoral e instalar uma ditadura corrupta e repressiva, o golpe convenceu jovens oposicionistas, como Fidel Castro, de que não havia saída pelas urnas — daí o ataque ao quartel Moncada (1953), o desembarque do Granma (1956) e a guerrilha em Sierra Maestra, com apoio camponês e da resistência urbana.",
+			"explanation": "A revolução nasceu como movimento nacionalista e antiditatorial; a opção socialista e a aliança com a URSS vieram depois, em meio ao conflito com os EUA (1960–1961).",
+			"skills": [
+				"apresentar",
+				"explicar"
+			],
+			"knowledge": [
+				"Cuba antes de 1959",
+				"origens da Revolução Cubana"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que Cuba era colônia dos EUA: era independente, mas com soberania limitada.",
+				"Afirmar que a revolução foi comunista desde o ataque ao Moncada."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-revolucao-cubana-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-africa-asia-e-america-latina-em-um-mundo-bipolar",
+				"his-guerra-fria",
+				"his-a-construcao-da-hegemonia-norte-americana",
+				"his-ideologias-em-movimento-reformas-e-revolucoes"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em 1º de janeiro de 1959, Batista fugiu de Cuba. Nos dois anos seguintes, o governo revolucionário fez uma reforma agrária, nacionalizou empresas e lançou uma campanha de alfabetização. Em abril de 1961, exilados cubanos treinados pela CIA desembarcaram na Baía dos Porcos.”\n\nApresente duas medidas do governo revolucionário cubano entre 1959 e 1961. Em seguida, explique por que essas medidas levaram à ruptura com os Estados Unidos.",
+			"modelAnswer": "Medidas (duas): a reforma agrária (1959), que expropriou latifúndios, inclusive de empresas norte-americanas; a nacionalização de refinarias, usinas, bancos e outras empresas estrangeiras (1960); a campanha de alfabetização (1961); a redução de aluguéis e tarifas; a criação de milícias populares.\nExplicação: as medidas atingiram diretamente interesses econômicos norte-americanos; os EUA reagiram com o corte da compra de açúcar, o embargo comercial, o rompimento das relações diplomáticas (janeiro de 1961) e a invasão fracassada da Baía dos Porcos; Cuba aproximou-se da União Soviética, que passou a comprar seu açúcar e a vender-lhe petróleo, e Fidel declarou o caráter socialista da revolução.",
+			"explanation": "A radicalização foi um processo de ação e reação entre Cuba e os EUA, no quadro da Guerra Fria, que culminou na crise dos mísseis (1962).",
+			"skills": [
+				"apresentar",
+				"explicar"
+			],
+			"knowledge": [
+				"reformas da Revolução Cubana",
+				"ruptura Cuba–EUA"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Inverter a ordem: dizer que Cuba se aliou à URSS antes das primeiras reformas.",
+				"Esquecer o papel dos interesses econômicos norte-americanos na ruptura."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-revolucao-cubana-3",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-africa-asia-e-america-latina-em-um-mundo-bipolar",
+				"his-guerra-fria",
+				"his-a-construcao-da-hegemonia-norte-americana",
+				"his-ideologias-em-movimento-reformas-e-revolucoes"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“Em 1961, o governo dos Estados Unidos lançou a Aliança para o Progresso, um programa de ajuda econômica à América Latina. No ano seguinte, Cuba foi suspensa da Organização dos Estados Americanos (OEA).”\n\nExplique de que modo a Revolução Cubana influenciou a política dos Estados Unidos para a América Latina nos anos 1960, citando duas ações. Em seguida, relacione essa influência ao golpe de 1964 no Brasil.",
+			"modelAnswer": "Influência: o temor de que surgissem “outras Cubas” levou os EUA a combinar ajuda e repressão. Ações (duas): a Aliança para o Progresso, que financiava reformas moderadas para esvaziar o apelo revolucionário; o isolamento de Cuba (suspensão da OEA, embargo); o treinamento de militares latino-americanos na doutrina de segurança nacional, que via o comunismo como “inimigo interno”; o apoio a governos e golpes anticomunistas.\nRelação: no Brasil, o exemplo cubano reforçou o anticomunismo; as reformas de base de João Goulart (sobretudo a agrária) e a política externa independente (que se opôs às sanções contra Cuba) foram apresentadas como ameaça de “comunização”; os EUA financiaram a oposição e apoiaram o golpe de 1964, inclusive com o envio de uma força naval preparada para apoiar os golpistas (Operação Brother Sam).",
+			"explanation": "A Revolução Cubana mudou a política dos EUA para o continente e ajuda a explicar a onda de ditaduras militares dos anos 1960 e 1970 na América Latina.",
+			"skills": [
+				"explicar",
+				"relacionar"
+			],
+			"knowledge": [
+				"Revolução Cubana e América Latina",
+				"golpe de 1964 e Guerra Fria"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Explicar o golpe de 1964 só por fatores externos, sem os grupos internos que o apoiaram.",
+				"Dizer que a Aliança para o Progresso foi um programa militar."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-revolucao-iraniana-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-oriente-medio",
+				"his-guerra-fria",
+				"his-africa-asia-e-america-latina-em-um-mundo-bipolar"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em 1951, o primeiro-ministro Mohammad Mossadegh nacionalizou o petróleo iraniano, até então explorado por uma companhia britânica. Em 1953, um golpe organizado com apoio dos serviços secretos dos Estados Unidos e do Reino Unido derrubou Mossadegh e fortaleceu o poder do xá Mohammad Reza Pahlavi.”\n\nExplique por que o golpe de 1953 é considerado uma das raízes do anti-imperialismo presente na Revolução Iraniana de 1979. Em seguida, relacione esse golpe ao contexto da Guerra Fria.",
+			"modelAnswer": "Explicação: potências estrangeiras derrubaram um governo nacionalista para proteger interesses petrolíferos e consolidaram um xá autoritário aliado do Ocidente, com polícia política (SAVAK); a memória dessa intervenção alimentou o ressentimento contra os EUA e o Reino Unido, e em 1979 a revolução atacou o xá como “fantoche” norte-americano — o que culminou na tomada da embaixada dos EUA em Teerã e na crise dos reféns.\nRelação: os EUA temiam que o Irã, vizinho da União Soviética e grande produtor de petróleo, se aproximasse do bloco soviético (havia um partido comunista influente, o Tudeh); derrubar Mossadegh fazia parte da política de contenção do comunismo e de controle de áreas estratégicas.",
+			"explanation": "O golpe de 1953 é um exemplo de intervenção da Guerra Fria em que o anticomunismo e o petróleo se misturam. Entender essa memória é essencial para compreender 1979.",
+			"skills": [
+				"explicar",
+				"relacionar"
+			],
+			"knowledge": [
+				"golpe de 1953 no Irã",
+				"petróleo e Guerra Fria"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que Mossadegh era um líder religioso: era um nacionalista laico.",
+				"Explicar a revolução de 1979 apenas pela religião, sem o anti-imperialismo."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-revolucao-iraniana-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-oriente-medio",
+				"his-guerra-fria",
+				"his-africa-asia-e-america-latina-em-um-mundo-bipolar"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em 1963, o xá lançou a chamada Revolução Branca: reforma agrária, voto feminino, campanha de alfabetização e outras medidas de modernização. Ao mesmo tempo, a polícia política (SAVAK) perseguia opositores, e o aiatolá Khomeini foi exilado em 1964.”\n\nExplique por que o governo do xá é considerado um caso de modernização autoritária. Em seguida, apresente dois grupos sociais que se opuseram ao regime.",
+			"modelAnswer": "Explicação: o xá impôs reformas econômicas e sociais “de cima para baixo”, financiadas pela renda do petróleo e alinhadas ao Ocidente, sem liberdades políticas — com censura, polícia política, partido único (a partir de 1975) e repressão; a modernização beneficiou desigualmente a sociedade, concentrou riqueza e feriu valores religiosos e tradicionais.\nGrupos (dois): o clero xiita, liderado por Khomeini; os comerciantes do bazar; estudantes e intelectuais; liberais e nacionalistas herdeiros de Mossadegh; comunistas e grupos guerrilheiros de esquerda; trabalhadores, como os petroleiros, cuja greve de 1978 paralisou o país; os pobres urbanos vindos do campo.",
+			"explanation": "A revolução reuniu uma frente heterogênea contra o xá; só depois de 1979 o clero de Khomeini afastou os aliados laicos e de esquerda e impôs a República Islâmica.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"Revolução Branca",
+				"oposição ao xá"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que só os religiosos fizeram a revolução.",
+				"Apresentar a modernização do xá como democrática."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-revolucao-iraniana-3",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-oriente-medio",
+				"his-guerra-fria",
+				"his-africa-asia-e-america-latina-em-um-mundo-bipolar"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em abril de 1979, um plebiscito aprovou a criação da República Islâmica do Irã. A Constituição aprovada em dezembro daquele ano criou o cargo de líder supremo, ocupado por um jurista religioso, acima do presidente eleito.”\n\nExplique por que o regime instituído em 1979 pode ser definido como uma teocracia. Em seguida, apresente uma mudança na vida das mulheres iranianas depois da revolução.",
+			"modelAnswer": "Explicação: segundo a doutrina do “governo do jurista islâmico” (velayat-e faqih), defendida por Khomeini, o poder supremo pertence a um clérigo — o líder supremo —, e as leis e a política devem seguir a interpretação xiita do islã; há presidente e parlamento eleitos, mas sob tutela religiosa: um conselho de clérigos e juristas pode vetar leis e candidatos.\nMudança (uma): a obrigatoriedade do véu (hijab) em público, imposta nos primeiros anos do regime e fiscalizada pela polícia; a perda de direitos de família conquistados antes (divórcio, guarda dos filhos) e a redução da idade mínima para o casamento; restrições a profissões e à presença em espaços públicos. Essas regras motivaram protestos, como o movimento “Mulher, Vida, Liberdade”, de 2022.",
+			"explanation": "O Irã é um caso de república com eleições, mas com soberania religiosa acima da popular. A situação das mulheres é um dos eixos mais cobrados quando se fala do regime.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"República Islâmica do Irã",
+				"teocracia e direitos das mulheres"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que o Irã não tem eleições: elas existem, mas com candidatos filtrados.",
+				"Confundir o xiismo iraniano com o wahabismo sunita da Arábia Saudita."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-revolucao-iraniana-4",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-oriente-medio",
+				"his-guerra-fria",
+				"his-africa-asia-e-america-latina-em-um-mundo-bipolar"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“Um dos lemas da Revolução Iraniana foi ‘Nem Oriente nem Ocidente, República Islâmica’. Em setembro de 1980, o Iraque de Saddam Hussein invadiu o Irã, dando início a uma guerra que durou até 1988.”\n\nExplique o significado do lema “Nem Oriente nem Ocidente” no contexto da Guerra Fria. Em seguida, apresente uma razão pela qual a Revolução Iraniana preocupou governos vizinhos, como os do Iraque e da Arábia Saudita.",
+			"modelAnswer": "Significado: a recusa de alinhamento tanto aos Estados Unidos (capitalismo ocidental, chamado de “Grande Satã”) quanto à União Soviética (comunismo ateu), em nome de um projeto islâmico próprio — uma alternativa religiosa à bipolaridade, diferente do não alinhamento laico de Bandung.\nRazão (uma): o temor da “exportação” da revolução islâmica xiita para populações xiitas da região — maioria no Iraque, governado por uma elite sunita do partido Baath, e minorias importantes na Arábia Saudita e no Bahrein; a ameaça às monarquias do golfo e à liderança religiosa saudita no mundo islâmico; a disputa pela hegemonia regional e por fronteiras e petróleo (como o Chatt al-Arab).",
+			"explanation": "A guerra Irã-Iraque (1980–1988) deixou centenas de milhares de mortos e endividou o Iraque — antecedente direto da invasão do Kuwait e da Guerra do Golfo.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"Revolução Iraniana e Guerra Fria",
+				"rivalidades no Oriente Médio"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que o Irã se aliou à URSS depois de 1979.",
+				"Confundir iranianos (persas) com árabes."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-guerra-do-golfo-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-oriente-medio",
+				"his-a-nova-ordem-em-um-mundo-multipolar",
+				"his-guerra-fria"
+			],
+			"difficulty": "facil",
+			"statement": "Texto elaborado para esta questão:\n“Em 2 de agosto de 1990, tropas iraquianas invadiram o Kuwait, que foi anexado como a ‘19ª província’ do Iraque. Saddam Hussein acusava o vizinho de prejudicar a economia iraquiana.”\n\nApresente duas razões alegadas pelo Iraque ou interesses iraquianos na invasão do Kuwait. Em seguida, explique por que a invasão foi considerada uma ameaça aos interesses das potências ocidentais.",
+			"modelAnswer": "Razões (duas): a dívida da guerra contra o Irã (1980–1988), inclusive com o Kuwait, que se recusava a perdoá-la; a acusação de que o Kuwait produzia acima das cotas da Opep, derrubando o preço do petróleo; a acusação de exploração do campo petrolífero de Rumaila, na fronteira; a reivindicação do Kuwait como parte do Iraque, cujas fronteiras haviam sido traçadas pelos britânicos; o interesse em ampliar a saída para o golfo Pérsico e a liderança no mundo árabe.\nAmeaça: com o Kuwait, o Iraque passaria a controlar uma parcela enorme das reservas mundiais de petróleo e ameaçaria a Arábia Saudita, maior exportadora do mundo e aliada dos EUA — o que poderia afetar preços e abastecimento; além disso, a anexação de um Estado soberano criava um precedente perigoso para a ordem internacional.",
+			"explanation": "Petróleo, dívidas e fronteiras herdadas do colonialismo explicam a invasão. A resposta internacional combinou interesses econômicos e o princípio da soberania dos Estados.",
+			"skills": [
+				"apresentar",
+				"explicar"
+			],
+			"knowledge": [
+				"invasão do Kuwait",
+				"petróleo e geopolítica"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Confundir a Guerra do Golfo (1991) com a invasão do Iraque (2003).",
+				"Explicar o conflito apenas por motivos religiosos."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-guerra-do-golfo-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-oriente-medio",
+				"his-a-nova-ordem-em-um-mundo-multipolar",
+				"his-guerra-fria"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Em novembro de 1990, o Conselho de Segurança da ONU aprovou a resolução 678, que autorizava o uso de ‘todos os meios necessários’ para expulsar o Iraque do Kuwait se as tropas iraquianas não se retirassem até 15 de janeiro de 1991. Uma coalizão de cerca de 35 países, liderada pelos Estados Unidos, iniciou os ataques em 17 de janeiro.”\n\nExplique por que a Guerra do Golfo é considerada o primeiro grande teste da “nova ordem mundial” anunciada pelo presidente George Bush. Em seguida, explique por que a autorização da ONU só foi possível com o fim da Guerra Fria.",
+			"modelAnswer": "Explicação: Bush apresentou o pós-Guerra Fria como uma ordem em que a ONU, sob liderança dos EUA, garantiria a segurança coletiva contra agressões; a guerra contra o Iraque, com autorização do Conselho de Segurança e uma ampla coalizão (incluindo países árabes), foi a primeira aplicação desse modelo — e a demonstração do poder militar e tecnológico norte-americano num mundo que se tornava unipolar.\nExplicação (ONU): durante a Guerra Fria, o Conselho de Segurança ficava paralisado pelos vetos das superpotências, que protegiam seus aliados — e o Iraque tinha sido próximo da URSS; com Gorbachev, a União Soviética, enfraquecida e interessada na cooperação com o Ocidente, não vetou a resolução, e a China se absteve.",
+			"explanation": "A Guerra do Golfo marca a passagem da bipolaridade para a hegemonia dos EUA nos anos 1990 — com a URSS ainda existente, mas já sem força para se opor.",
+			"skills": [
+				"explicar"
+			],
+			"knowledge": [
+				"nova ordem mundial",
+				"ONU e segurança coletiva"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que a URSS lutou ao lado do Iraque.",
+				"Afirmar que os EUA agiram sem autorização da ONU em 1991."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-guerra-do-golfo-3",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-oriente-medio",
+				"his-a-nova-ordem-em-um-mundo-multipolar",
+				"his-guerra-fria"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Depois do cessar-fogo de 28 de fevereiro de 1991, Saddam Hussein permaneceu no poder. As sanções econômicas impostas ao Iraque pela ONU foram mantidas durante mais de uma década; em 1995, foi criado o programa ‘petróleo por comida’.”\n\nApresente duas consequências da Guerra do Golfo para o Iraque. Em seguida, explique por que as sanções econômicas impostas ao país foram criticadas.",
+			"modelAnswer": "Consequências (duas): Saddam continuou no poder; as revoltas de xiitas, no sul, e de curdos, no norte, foram esmagadas pelo regime; foram criadas zonas de exclusão aérea; o país foi submetido a inspeções de armas e a sanções econômicas; a infraestrutura (energia, água, saneamento) foi muito destruída; o meio ambiente sofreu com os poços de petróleo incendiados e o derramamento no golfo.\nCrítica: as sanções atingiram sobretudo a população civil — falta de alimentos, remédios e água tratada, aumento da mortalidade infantil e da pobreza — sem derrubar o regime, que continuou controlando os recursos; o programa “petróleo por comida” amenizou, mas não resolveu, a crise humanitária.",
+			"explanation": "A guerra libertou o Kuwait, mas deixou um Iraque arrasado e um ditador no poder — situação retomada na invasão de 2003.",
+			"skills": [
+				"apresentar",
+				"explicar"
+			],
+			"knowledge": [
+				"pós-guerra no Iraque",
+				"sanções econômicas"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que Saddam foi deposto em 1991.",
+				"Tratar as sanções como medida que atingia só o governo."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-guerra-do-golfo-4",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-oriente-medio",
+				"his-a-nova-ordem-em-um-mundo-multipolar",
+				"his-guerra-fria"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“Depois da Guerra do Golfo, tropas norte-americanas permaneceram na Arábia Saudita, onde ficam Meca e Medina, as cidades mais sagradas do islã. Em 2003, os Estados Unidos invadiram o Iraque e derrubaram Saddam Hussein.”\n\nExplique a relação entre a presença militar dos Estados Unidos na Arábia Saudita após 1991 e o fortalecimento da Al-Qaeda. Em seguida, compare a Guerra do Golfo (1991) e a invasão do Iraque (2003) quanto à legitimidade internacional.",
+			"modelAnswer": "Relação: Osama bin Laden e a Al-Qaeda usaram a presença de soldados “infiéis” na terra das cidades sagradas como um dos principais argumentos de sua propaganda e de sua declaração de guerra aos EUA, recrutando militantes; seguiram-se atentados contra alvos norte-americanos, até os ataques de 11 de setembro de 2001.\nComparação: a guerra de 1991 teve autorização expressa do Conselho de Segurança da ONU, uma ampla coalizão (inclusive com países árabes) e um objetivo limitado — libertar o Kuwait; a invasão de 2003 foi feita sem autorização explícita da ONU, com base em acusações não comprovadas (armas de destruição em massa, que nunca foram encontradas, e ligação com a Al-Qaeda) e na ideia de guerra preventiva, sob oposição de países como França, Alemanha e Rússia e de grandes protestos — e levou à queda de Saddam, a uma guerra civil e ao surgimento do Estado Islâmico.",
+			"explanation": "A questão liga 1991, 2001 e 2003: um encadeamento central para entender o Oriente Médio contemporâneo e a crise da “nova ordem mundial”.",
+			"skills": [
+				"explicar",
+				"comparar"
+			],
+			"knowledge": [
+				"Al-Qaeda e 11 de Setembro",
+				"invasão do Iraque em 2003"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que Saddam Hussein foi responsável pelo 11 de Setembro.",
+				"Afirmar que a invasão de 2003 foi autorizada pela ONU."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-primavera-arabe-1",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-oriente-medio",
+				"his-globalizacao-e-antiglobalizacao",
+				"his-a-nova-ordem-em-um-mundo-multipolar"
+			],
+			"difficulty": "facil",
+			"statement": "Texto elaborado para esta questão:\n“Em 17 de dezembro de 2010, o vendedor ambulante Mohamed Bouazizi ateou fogo ao próprio corpo em Sidi Bouzid, na Tunísia, depois de ter sua mercadoria apreendida por agentes municipais. Os protestos que se seguiram derrubaram o presidente Ben Ali em 14 de janeiro de 2011 e se espalharam pelo mundo árabe.”\n\nApresente duas causas da onda de protestos conhecida como Primavera Árabe. Em seguida, explique o papel das redes sociais e da televisão por satélite na difusão dos protestos.",
+			"modelAnswer": "Causas (duas): ditaduras longas e personalistas, algumas preparando a sucessão por filhos (“repúblicas hereditárias”); falta de liberdades e violência policial; corrupção e concentração de riqueza; desemprego elevado entre os jovens, inclusive diplomados; alta dos preços dos alimentos em 2010–2011.\nPapel: celulares e redes sociais permitiram convocar manifestações, contornar a censura e divulgar imagens da repressão; a TV por satélite Al Jazeera levou essas imagens a todo o mundo árabe, produzindo um efeito de contágio entre países — embora a mobilização também dependesse de organizações como sindicatos, movimentos de jovens e grupos de oposição.",
+			"explanation": "O gesto de Bouazizi foi o estopim, não a causa. As causas estruturais (políticas, econômicas e demográficas) explicam por que os protestos se espalharam tão rápido.",
+			"skills": [
+				"apresentar",
+				"explicar"
+			],
+			"knowledge": [
+				"causas da Primavera Árabe",
+				"redes sociais e mobilização política"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Atribuir os protestos apenas às redes sociais.",
+				"Confundir o estopim (Bouazizi) com as causas."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-primavera-arabe-2",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-oriente-medio",
+				"his-globalizacao-e-antiglobalizacao",
+				"his-a-nova-ordem-em-um-mundo-multipolar"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Na Tunísia, a queda de Ben Ali foi seguida por eleições e por uma nova Constituição, em 2014. No Egito, Hosni Mubarak deixou o poder em fevereiro de 2011; Mohamed Morsi, da Irmandade Muçulmana, foi eleito em 2012 e derrubado pelos militares em 2013.”\n\nCompare os desdobramentos da Primavera Árabe na Tunísia e no Egito. Em seguida, explique por que as monarquias árabes, em geral, resistiram melhor à onda de protestos.",
+			"modelAnswer": "Comparação: na Tunísia, houve uma transição negociada entre forças islâmicas e laicas, com eleições, uma nova Constituição e o Nobel da Paz de 2015 ao Quarteto do Diálogo Nacional — embora a democracia tenha recuado a partir de 2021; no Egito, depois da queda de Mubarak e da eleição de Morsi, o golpe militar de 2013, liderado por Abdel Fattah al-Sisi, restabeleceu um regime autoritário, com forte repressão.\nExplicação: as monarquias contavam com legitimidade religiosa e tradicional; as do golfo usaram a renda do petróleo para distribuir benefícios (aumentos de salários, subsídios, empregos públicos); algumas fizeram reformas limitadas (como o Marrocos, com uma nova Constituição em 2011); e houve apoio mútuo e repressão — como a entrada de tropas sauditas no Bahrein, em 2011 —, além do apoio de potências ocidentais.",
+			"explanation": "Os desfechos variaram conforme o papel do Exército, a força da sociedade civil, os recursos do Estado e a interferência estrangeira. A Tunísia foi a exceção — e mesmo ela recuou.",
+			"skills": [
+				"comparar",
+				"explicar"
+			],
+			"knowledge": [
+				"transições na Tunísia e no Egito",
+				"monarquias árabes e Estado rentista"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que a Primavera Árabe instalou democracias duradouras em todos os países.",
+				"Esquecer o golpe militar de 2013 no Egito."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-primavera-arabe-3",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-oriente-medio",
+				"his-globalizacao-e-antiglobalizacao",
+				"his-a-nova-ordem-em-um-mundo-multipolar"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Na Síria, os protestos de 2011 contra o governo de Bashar al-Assad foram reprimidos com violência e transformaram-se numa guerra civil. Milhões de sírios deixaram o país, e o conflito envolveu potências regionais e mundiais.”\n\nExplique por que a guerra civil síria pode ser considerada uma guerra por procuração. Em seguida, apresente uma consequência desse conflito para a Europa.",
+			"modelAnswer": "Explicação: potências estrangeiras apoiaram lados opostos para defender seus próprios interesses, sem se enfrentarem diretamente: a Rússia (com intervenção militar a partir de 2015), o Irã e o Hezbollah sustentaram Assad; a Turquia, a Arábia Saudita, o Catar e os EUA apoiaram diferentes grupos rebeldes ou as forças curdas contra o Estado Islâmico.\nConsequência (uma): a crise dos refugiados de 2015, com a chegada de mais de um milhão de pessoas à Europa, muitas vindas da Síria; as tensões entre os países da União Europeia sobre o acolhimento e o acordo com a Turquia (2016); o fortalecimento de partidos de extrema direita com discurso anti-imigração; as mortes de migrantes no Mediterrâneo.",
+			"explanation": "A guerra síria combinou conflito interno, guerra regional e disputa entre potências. A queda de Assad, em dezembro de 2024, abriu uma nova fase de transição.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"guerra civil na Síria",
+				"crise dos refugiados"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Confundir refugiado (que foge de guerra ou perseguição) com migrante econômico.",
+				"Dizer que EUA e Rússia lutaram diretamente entre si na Síria."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-esp-primavera-arabe-4",
+			"discipline": "HIS",
+			"topicIds": [
+				"his-oriente-medio",
+				"his-globalizacao-e-antiglobalizacao",
+				"his-a-nova-ordem-em-um-mundo-multipolar"
+			],
+			"difficulty": "dificil",
+			"statement": "Texto elaborado para esta questão:\n“Em março de 2011, o Conselho de Segurança da ONU aprovou a resolução 1973, que autorizava ‘todas as medidas necessárias’ para proteger civis na Líbia. O Brasil se absteve na votação. Em outubro, Muammar Kadafi foi capturado e morto por rebeldes.”\n\nExplique o princípio da “responsabilidade de proteger”. Em seguida, apresente uma crítica feita à intervenção da OTAN na Líbia.",
+			"modelAnswer": "Princípio: aprovado na ONU em 2005, afirma que cada Estado deve proteger sua população contra genocídio, crimes de guerra, limpeza étnica e crimes contra a humanidade; se não o fizer, a comunidade internacional, por meio do Conselho de Segurança, pode agir — inclusive com o uso da força, como último recurso.\nCrítica (uma): a intervenção foi além da proteção de civis e se transformou numa operação de mudança de regime; a queda de Kadafi deixou um vazio de poder, com guerra civil e um país dividido a partir de 2014; armas líbias espalharam-se pelo Sahel; a aplicação do princípio foi seletiva (não houve intervenção semelhante no Bahrein, por exemplo). Por isso, o Brasil propôs, em 2011, a ideia de “responsabilidade ao proteger”: quem intervém deve seguir critérios e responder pelos danos que causa.",
+			"explanation": "A Líbia é o caso-teste da “responsabilidade de proteger”. A questão cobra o conceito e o debate crítico, inclusive a posição brasileira.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"responsabilidade de proteger",
+				"intervenção na Líbia"
+			],
+			"patternRationale": "Segue o molde mais frequente da prova de História da UERJ (ver o diagnóstico da banca): um documento de apoio, a contextualização no enunciado e dois comandos encadeados.",
+			"commonMistakes": [
+				"Dizer que a ONU autorizou expressamente a derrubada de Kadafi.",
+				"Confundir a intervenção na Líbia (2011) com a invasão do Iraque (2003)."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		}
+	]
+}

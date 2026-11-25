@@ -1,0 +1,1286 @@
+{
+	"aulas": {
+		"lpl-a-frase-suas-especies-e-funcoes-interacionais": {
+			"oficiais": [
+				"2025-LPL-09",
+				"2020-LPL-06"
+			],
+			"ineditas": [
+				"simu-lpl-a-frase-suas-especies-e-funcoes-interacionais-1",
+				"simu-lpl-a-frase-suas-especies-e-funcoes-interacionais-2"
+			]
+		},
+		"lpl-a-oracao-e-o-periodo": {
+			"oficiais": [
+				"2026-LPL-03",
+				"2026-LPL-06"
+			],
+			"ineditas": [
+				"ined-lpl-01",
+				"ined-llp-04"
+			]
+		},
+		"lpl-classificacao-significacao-e-uso-das-palavras": {
+			"oficiais": [
+				"2025-LPL-04",
+				"2020-LPL-03"
+			],
+			"ineditas": [
+				"simu-lpl-classificacao-significacao-e-uso-das-palavras-1",
+				"simu-lpl-classificacao-significacao-e-uso-das-palavras-2"
+			]
+		},
+		"lpl-coerencia-textual": {
+			"oficiais": [
+				"2017-LPL-01",
+				"2017-LPL-03"
+			],
+			"ineditas": [
+				"simu-lpl-coerencia-textual-1",
+				"simu-lpl-coerencia-textual-2"
+			]
+		},
+		"lpl-coesao-textual": {
+			"oficiais": [
+				"2024-LPL-08",
+				"2020-LPL-09"
+			],
+			"ineditas": [
+				"ined-llp-06",
+				"ined-llp-10"
+			]
+		},
+		"lpl-criacao-e-adocao-de-palavras": {
+			"oficiais": [
+				"2020-LPL-02"
+			],
+			"ineditas": [
+				"ined-ba-02",
+				"simu-lpl-criacao-e-adocao-de-palavras-1",
+				"simu-lpl-criacao-e-adocao-de-palavras-2"
+			]
+		},
+		"lpl-elementos-da-narrativa-selecionada": {
+			"oficiais": [
+				"2026-LPL-01",
+				"2026-LPL-04"
+			],
+			"ineditas": [
+				"ined-llp-05",
+				"ined-llp-07"
+			]
+		},
+		"lpl-elementos-nao-verbais": {
+			"oficiais": [
+				"2025-LPL-07"
+			],
+			"ineditas": [
+				"simu-lpl-elementos-nao-verbais-1",
+				"simu-lpl-elementos-nao-verbais-2",
+				"simu-lpl-elementos-nao-verbais-3"
+			]
+		},
+		"lpl-estrutura-derivacao-e-composicao-das-palavras": {
+			"oficiais": [
+				"2019-LPL-04",
+				"2018-LPL-05"
+			],
+			"ineditas": [
+				"simu-lpl-estrutura-derivacao-e-composicao-das-palavras-1",
+				"simu-lpl-estrutura-derivacao-e-composicao-das-palavras-2"
+			]
+		},
+		"lpl-formas-de-enunciacao": {
+			"oficiais": [
+				"2026-LPL-02",
+				"2026-LPL-09"
+			],
+			"ineditas": [
+				"ined-lpl-02",
+				"simu-lpl-formas-de-enunciacao-1"
+			]
+		},
+		"lpl-funcoes-da-linguagem": {
+			"oficiais": [],
+			"ineditas": [
+				"simu-lpl-funcoes-da-linguagem-1",
+				"simu-lpl-funcoes-da-linguagem-2",
+				"simu-lpl-funcoes-da-linguagem-3",
+				"simu-lpl-funcoes-da-linguagem-4"
+			]
+		},
+		"lpl-genero-narrativo": {
+			"oficiais": [
+				"2024-LPL-07"
+			],
+			"ineditas": [
+				"simu-lpl-genero-narrativo-1",
+				"simu-lpl-genero-narrativo-2",
+				"simu-lpl-genero-narrativo-3"
+			]
+		},
+		"lpl-generos": {
+			"oficiais": [
+				"2017-LPL-03"
+			],
+			"ineditas": [
+				"simu-lpl-generos-1",
+				"simu-lpl-generos-2",
+				"simu-lpl-generos-3"
+			]
+		},
+		"lpl-generos-textuais": {
+			"oficiais": [],
+			"ineditas": [
+				"simu-lpl-generos-textuais-1",
+				"simu-lpl-generos-textuais-2",
+				"simu-lpl-generos-textuais-3",
+				"simu-lpl-generos-textuais-4"
+			]
+		},
+		"lpl-hibridismo": {
+			"oficiais": [],
+			"ineditas": [
+				"simu-lpl-hibridismo-1",
+				"simu-lpl-hibridismo-2",
+				"simu-lpl-hibridismo-3",
+				"simu-lpl-hibridismo-4"
+			]
+		},
+		"lpl-literatura-e-sociedade": {
+			"oficiais": [
+				"2026-LPL-08",
+				"2026-LPL-10"
+			],
+			"ineditas": [
+				"ined-llp-03",
+				"ined-llp-12"
+			]
+		},
+		"lpl-morfologia-do-nome-e-do-verbo": {
+			"oficiais": [
+				"2025-LPL-02",
+				"2017-LPL-08"
+			],
+			"ineditas": [
+				"simu-lpl-morfologia-do-nome-e-do-verbo-1",
+				"simu-lpl-morfologia-do-nome-e-do-verbo-2"
+			]
+		},
+		"lpl-o-significado-lexical-e-suas-relacoes": {
+			"oficiais": [
+				"2024-LPL-05",
+				"2020-LPL-08"
+			],
+			"ineditas": [
+				"ined-llp-09",
+				"simu-lpl-o-significado-lexical-e-suas-relacoes-1"
+			]
+		},
+		"lpl-procedimentos-de-intertextualidade": {
+			"oficiais": [
+				"2025-LPL-08",
+				"2020-LPL-01"
+			],
+			"ineditas": [
+				"ined-llp-02",
+				"simu-lpl-procedimentos-de-intertextualidade-1"
+			]
+		},
+		"lpl-recursos-expressivos-da-criacao-estetica": {
+			"oficiais": [
+				"2026-LPL-05",
+				"2025-LPL-05"
+			],
+			"ineditas": [
+				"ined-llp-01",
+				"ined-llp-08"
+			]
+		},
+		"lpl-sintaxe-do-nome-e-do-verbo": {
+			"oficiais": [],
+			"ineditas": [
+				"simu-lpl-sintaxe-do-nome-e-do-verbo-1",
+				"simu-lpl-sintaxe-do-nome-e-do-verbo-2",
+				"simu-lpl-sintaxe-do-nome-e-do-verbo-3",
+				"simu-lpl-sintaxe-do-nome-e-do-verbo-4"
+			]
+		},
+		"lpl-unidade-e-diversidade-da-lingua-portuguesa": {
+			"oficiais": [],
+			"ineditas": [
+				"ined-llp-13",
+				"simu-lpl-unidade-e-diversidade-da-lingua-portuguesa-1",
+				"simu-lpl-unidade-e-diversidade-da-lingua-portuguesa-2",
+				"simu-lpl-unidade-e-diversidade-da-lingua-portuguesa-3"
+			]
+		}
+	},
+	"questoes": [
+		{
+			"id": "simu-lpl-a-frase-suas-especies-e-funcoes-interacionais-1",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-a-frase-suas-especies-e-funcoes-interacionais"
+			],
+			"difficulty": "medio",
+			"statement": "Castro Alves, “O navio negreiro” (1869), parte V:\n“Senhor Deus dos desgraçados!\nDizei-me vós, Senhor Deus!\nSe é loucura... se é verdade\nTanto horror perante os céus?!”\n\nClassifique a frase “Dizei-me vós, Senhor Deus!” quanto à espécie e explique a função interacional que ela cumpre no poema. Em seguida, explique por que a pergunta dos dois últimos versos não tem como objetivo obter uma informação.",
+			"modelAnswer": "Classificação e função: frase imperativa (verbo no imperativo, “dizei”, com o vocativo “Senhor Deus”); o eu lírico interpela Deus e exige uma resposta — um apelo que expressa súplica e, ao mesmo tempo, protesto diante do sofrimento dos africanos escravizados.\nPergunta: é uma interrogação retórica — o eu lírico não espera resposta, pois o horror do navio negreiro é evidente; a pergunta, combinada com a exclamação (“?!”) e as reticências, exprime espanto e indignação e convoca o leitor a compartilhar a revolta contra o tráfico.",
+			"explanation": "Na UERJ, o tipo de frase importa pelo que ela faz na interação. Um imperativo pode ser súplica; uma pergunta pode ser denúncia. O poema condoreiro usa esses atos de fala para mobilizar o leitor.",
+			"skills": [
+				"classificar",
+				"explicar"
+			],
+			"knowledge": [
+				"espécies de frase",
+				"funções interacionais e pergunta retórica"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Classificar “Dizei-me vós” como exclamativa só por causa do ponto de exclamação.",
+				"Dizer que o eu lírico quer saber se o horror é verdadeiro."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-a-frase-suas-especies-e-funcoes-interacionais-2",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-a-frase-suas-especies-e-funcoes-interacionais"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“— Está frio aqui, não acha? — disse a avó, olhando para a janela aberta.\nO neto levantou-se e fechou a janela.”\n\nClassifique as duas frases da fala da avó quanto à espécie. Em seguida, explique a função interacional que essa fala cumpre no diálogo, considerando a reação do neto.",
+			"modelAnswer": "Classificação: “Está frio aqui” é uma frase declarativa (afirmativa); “não acha?” é uma frase interrogativa, uma pergunta de confirmação.\nFunção: a avó não pretende apenas informar a temperatura nem pedir uma opinião — ela faz um pedido indireto para que a janela seja fechada, como o neto entende e mostra com sua ação; a forma declarativa e interrogativa torna o pedido mais delicado e polido do que uma ordem direta (“Feche a janela”).",
+			"explanation": "É um ato de fala indireto: a forma da frase (declarar, perguntar) não coincide com a ação realizada (pedir). O contexto e a reação do interlocutor mostram o sentido.",
+			"skills": [
+				"classificar",
+				"explicar"
+			],
+			"knowledge": [
+				"espécies de frase",
+				"atos de fala indiretos"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Dizer que a avó apenas comenta o tempo.",
+				"Classificar a fala inteira como imperativa, sem identificar a forma de cada frase."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-classificacao-significacao-e-uso-das-palavras-1",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-classificacao-significacao-e-uso-das-palavras"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“O não que ela me disse doeu mais do que qualquer grito.”\n\nClassifique morfologicamente a palavra “não” nesse período, justificando. Em seguida, explique o efeito de sentido produzido por essa mudança de classe.",
+			"modelAnswer": "Classificação: substantivo — normalmente advérbio de negação, “não” vem antecedido do artigo “o” e funciona como núcleo do sujeito de “doeu” (derivação imprópria ou conversão).\nEfeito: a negação deixa de ser apenas a recusa de uma ação e torna-se uma “coisa” concreta, um acontecimento que a pessoa recebe e que a fere — o que dá peso e materialidade à recusa e intensifica a dor do enunciador.",
+			"explanation": "A UERJ cobra a palavra que muda de classe para criar efeito. O artigo é a pista: qualquer palavra antecedida de artigo passa a funcionar como substantivo.",
+			"skills": [
+				"classificar",
+				"explicar"
+			],
+			"knowledge": [
+				"classes de palavras",
+				"derivação imprópria"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Classificar “não” como advérbio sem observar o artigo.",
+				"Explicar a classe sem dizer o efeito de sentido."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-classificacao-significacao-e-uso-das-palavras-2",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-classificacao-significacao-e-uso-das-palavras"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Ele não era um homem grande — mal passava de um metro e sessenta —, mas foi, para toda a vila, um grande homem.”\n\nExplique a diferença de sentido entre “homem grande” e “grande homem” no período. Em seguida, apresente outro adjetivo cujo sentido muda conforme sua posição em relação ao substantivo, com um exemplo de cada sentido.",
+			"modelAnswer": "Diferença: em “homem grande”, o adjetivo posposto tem sentido literal e objetivo — tamanho físico, o que o trecho entre travessões confirma; em “grande homem”, o adjetivo anteposto tem sentido figurado e subjetivo — importância, valor moral, admiração da comunidade.\nOutro adjetivo (um): “pobre” — “homem pobre” (sem dinheiro) × “pobre homem” (digno de pena); “velho” — “amigo velho” (idoso) × “velho amigo” (amizade antiga); “simples” — “funcionário simples” (modesto) × “simples funcionário” (apenas um funcionário); “certo” — “dia certo” (exato) × “certo dia” (um dia qualquer).",
+			"explanation": "Em português, a anteposição do adjetivo tende a dar valor subjetivo, afetivo ou figurado; a posposição, valor objetivo. O período joga com essa diferença para construir o elogio.",
+			"skills": [
+				"explicar",
+				"exemplificar"
+			],
+			"knowledge": [
+				"adjetivo e posição",
+				"valor semântico no contexto"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Dizer que as duas expressões são sinônimas.",
+				"Dar um exemplo sem explicar os dois sentidos."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-coerencia-textual-1",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-coerencia-textual"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Depois de muitos anos, Joana voltou a sorrir no trabalho.\n— Finalmente trocaram o chefe — comentou um colega.”\n\nIdentifique um pressuposto presente no primeiro período, indicando a expressão que o marca. Em seguida, explique o subentendido presente no comentário do colega.",
+			"modelAnswer": "Pressuposto (um): Joana já sorria no trabalho antes e deixou de sorrir durante muito tempo — marcado pela locução “voltou a” (e reforçado por “Depois de muitos anos”).\nSubentendido: sem dizê-lo, o colega sugere que o antigo chefe era a causa da infelicidade de Joana e do mau ambiente de trabalho; “Finalmente” indica que a troca era desejada. É uma inferência do ouvinte, que o falante poderia negar (“Só comentei que trocaram o chefe”).",
+			"explanation": "Pressuposto está marcado na língua (palavras como “voltar a”, “deixar de”, “ainda”, “finalmente”) e não pode ser negado sem contradição; subentendido depende do contexto e é de responsabilidade de quem interpreta.",
+			"skills": [
+				"identificar",
+				"explicar"
+			],
+			"knowledge": [
+				"pressupostos e subentendidos",
+				"implícitos e coerência"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Confundir pressuposto com subentendido.",
+				"Apontar o implícito sem indicar a expressão que o marca."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-coerencia-textual-2",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-coerencia-textual"
+			],
+			"difficulty": "medio",
+			"statement": "Luís de Camões, soneto (século XVI), primeira estrofe:\n“Amor é fogo que arde sem se ver;\né ferida que dói, e não se sente;\né um contentamento descontente;\né dor que desatina sem doer.”\n\nExplique por que as contradições presentes nos versos não comprometem a coerência do texto. Em seguida, explique de que modo a repetição da estrutura “é + definição” contribui para a progressão do poema.",
+			"modelAnswer": "Explicação: a coerência não depende da ausência de contradições lógicas, mas da construção de um sentido global; o poema define o amor justamente como experiência contraditória, que escapa à razão — os paradoxos (“fogo que arde sem se ver”, “contentamento descontente”) são o próprio tema, e o leitor os compreende a partir de seu conhecimento de mundo sobre os sentimentos.\nProgressão: a anáfora do verbo “é” cria um paralelismo em que cada verso acrescenta uma nova definição do mesmo tema; a acumulação faz o texto avançar e reforça a ideia de que o amor não cabe numa definição única.",
+			"explanation": "Coerência = sentido global + progressão sem contradição de ideias. Aqui, a contradição está na experiência descrita, não no raciocínio do texto. O soneto é retomado em canções e textos modernos.",
+			"skills": [
+				"explicar"
+			],
+			"knowledge": [
+				"coerência textual",
+				"progressão temática e paralelismo"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Afirmar que o texto é incoerente por ter contradições.",
+				"Confundir progressão com simples repetição sem acréscimo de informação."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-criacao-e-adocao-de-palavras-1",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-criacao-e-adocao-de-palavras"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“No home office, ela fez o login, deu um print na tela e escreveu para a equipe: ‘Deletei o arquivo sem querer!’”\n\nIdentifique, no texto, um estrangeirismo usado na forma original e um empréstimo já adaptado à morfologia do português, justificando. Em seguida, explique por que a adoção de palavras estrangeiras não ameaça, por si só, a unidade da língua.",
+			"modelAnswer": "Identificação: na forma original — “home office”, “login” ou “print”; adaptado — “deletei”, do inglês “delete”, transformado no verbo “deletar” (sufixo verbal -ar, primeira conjugação) e flexionado no pretérito perfeito (-ei), como qualquer verbo português.\nExplicação: o empréstimo é um processo natural do contato entre culturas — o português incorporou palavras do árabe (alface, açúcar), do tupi (jacaré, pipoca), de línguas africanas (cochilar, moleque), do francês (abajur) e do inglês (futebol); as palavras adotadas se submetem à gramática da língua (flexões, derivação, pronúncia), que continua sendo a do português.",
+			"explanation": "A UERJ pede o processo e a justificativa. O verbo “deletar” mostra a integração: recebeu desinência e conjugação portuguesas.",
+			"skills": [
+				"identificar",
+				"explicar"
+			],
+			"knowledge": [
+				"estrangeirismo e empréstimo",
+				"mudança linguística"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Dizer que “deletei” é um estrangeirismo puro.",
+				"Tratar todo empréstimo como “erro” ou ameaça à língua."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-criacao-e-adocao-de-palavras-2",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-criacao-e-adocao-de-palavras"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Na rede social, a influenciadora viralizou com um vídeo sobre a uberização do trabalho. Nos comentários, alguém escreveu que a internet virou uma nuvem onde guardamos a vida inteira.”\n\nExplique o processo de formação da palavra “uberização” e o sentido que ela adquiriu. Em seguida, diferencie neologismo lexical de neologismo semântico, usando uma palavra do texto como exemplo de cada.",
+			"modelAnswer": "Formação e sentido: derivação sufixal a partir do nome da empresa Uber — “Uber” → “uberizar” (sufixo -izar) → “uberização” (sufixo -ção); designa o processo de transformação do trabalho em serviço sob demanda por aplicativos, com trabalhadores sem vínculo e sem direitos trabalhistas.\nDiferença: o neologismo lexical é uma palavra nova na forma (“uberização”, “viralizou”, formada de “viral” + -izar); o neologismo semântico é uma palavra já existente que ganha sentido novo (“nuvem”, no sentido de armazenamento de dados na internet).",
+			"explanation": "Palavras novas registram transformações sociais: “uberização” nomeia uma mudança no mundo do trabalho. O processo de formação (derivação a partir de nome próprio) é o que a banca pede.",
+			"skills": [
+				"explicar",
+				"diferenciar"
+			],
+			"knowledge": [
+				"neologismo lexical e semântico",
+				"derivação sufixal"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Classificar “nuvem” como neologismo lexical.",
+				"Explicar o processo sem indicar os sufixos."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-elementos-nao-verbais-1",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-elementos-nao-verbais"
+			],
+			"difficulty": "medio",
+			"statement": "No capítulo LV de Memórias póstumas de Brás Cubas (1881), intitulado “O velho diálogo de Adão e Eva”, Machado de Assis apresenta uma conversa entre Brás Cubas e Virgília composta apenas pelos nomes dos personagens, por linhas de pontos e por alguns sinais de interrogação e de exclamação.\n\nExplique o efeito de sentido produzido pela substituição das falas por sinais gráficos. Em seguida, relacione esse recurso à atitude do narrador diante do leitor.",
+			"modelAnswer": "Efeito: os pontos substituem as palavras e criam um silêncio que o leitor deve preencher; a interrogação e a exclamação sugerem o ritmo e a emoção da conversa (perguntas, hesitação, entusiasmo) de uma cena amorosa que não é narrada — o título, que alude a Adão e Eva, indica que se trata do diálogo mais antigo do mundo, a sedução, que dispensa palavras; o resultado é humor, malícia e discrição.\nAtitude do narrador: Brás Cubas brinca com o leitor, rompe as convenções do romance e o obriga a participar da construção do sentido — um narrador irônico, digressivo, que chama a atenção para o próprio livro como construção.",
+			"explanation": "Elementos não verbais (pontuação, disposição gráfica) também significam. Em Machado, o recurso gráfico é parte do jogo irônico com o leitor.",
+			"skills": [
+				"explicar",
+				"relacionar"
+			],
+			"knowledge": [
+				"recursos gráficos e pontuação",
+				"narrador machadiano"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Dizer que o capítulo está “incompleto” por erro de impressão.",
+				"Descrever o recurso sem explicar o sentido que ele cria."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-elementos-nao-verbais-2",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-elementos-nao-verbais"
+			],
+			"difficulty": "facil",
+			"statement": "Texto elaborado para esta questão:\n“Tique-taque, tique-taque... O relógio da sala não deixava ninguém esquecer a hora da prova.\n— Ai! Esqueci a caneta! — gritou Lucas, já na porta.”\n\nClassifique “tique-taque” e “Ai!” quanto ao recurso expressivo, explicando a diferença entre eles. Em seguida, explique a função da repetição de “tique-taque” seguida de reticências na construção da tensão.",
+			"modelAnswer": "Classificação: “tique-taque” é uma onomatopeia — palavra que imita o som do relógio; “Ai!” é uma interjeição — expressa a emoção (susto, aflição) de quem fala. A onomatopeia reproduz um ruído do mundo; a interjeição exprime um estado do falante.\nFunção: a repetição prolonga o som e, com as reticências, sugere a passagem lenta e contínua do tempo e a espera angustiada antes da prova — cria ritmo, suspense e ansiedade, que culminam no grito de Lucas.",
+			"explanation": "Onomatopeia e interjeição são recursos muito próximos da oralidade e frequentes em quadrinhos, crônicas e narrativas. A banca quer a distinção e o efeito.",
+			"skills": [
+				"classificar",
+				"explicar"
+			],
+			"knowledge": [
+				"onomatopeia e interjeição",
+				"pontuação expressiva"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Classificar as duas palavras como interjeições.",
+				"Dizer que as reticências indicam apenas “frase incompleta”."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-elementos-nao-verbais-3",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-elementos-nao-verbais"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“O prefeito inaugurou a ‘nova’ praça: três bancos e uma placa com o seu nome.”\n\nExplique o efeito de sentido produzido pelas aspas no adjetivo “nova”. Em seguida, explique a função dos dois-pontos no período.",
+			"modelAnswer": "Aspas: marcam distanciamento e ironia — o enunciador não assume o adjetivo, sugerindo que a praça não é realmente nova (ou que a novidade é mínima), e critica a propaganda da inauguração.\nDois-pontos: introduzem uma enumeração que explica e comprova a ironia — a “nova” praça se resume a três bancos e a uma placa com o nome do prefeito, o que revela também a autopromoção do político.",
+			"explanation": "As aspas nem sempre indicam citação: podem marcar ironia, distanciamento, estrangeirismo ou termo impróprio. Os dois-pontos anunciam a explicação que sustenta a crítica.",
+			"skills": [
+				"explicar"
+			],
+			"knowledge": [
+				"aspas e ironia",
+				"dois-pontos e explicação"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Dizer que as aspas indicam fala do prefeito.",
+				"Ignorar a relação entre a enumeração e a crítica."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-estrutura-derivacao-e-composicao-das-palavras-1",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-estrutura-derivacao-e-composicao-das-palavras"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Com a chuva, o caminho enlameou-se. Infelizmente, ninguém tinha previsto a tempestade.”\n\nExplique por que a palavra “enlameou” (do verbo “enlamear”) é formada por parassíntese. Em seguida, explique por que “infelizmente”, embora tenha prefixo e sufixo, não é formada por parassíntese.",
+			"modelAnswer": "Parassíntese: “enlamear” forma-se pelo acréscimo simultâneo do prefixo en- e do sufixo verbal -ar ao radical “lama”; não existem as formas intermediárias “*enlama” nem “*lamear”, o que mostra que os dois afixos entraram ao mesmo tempo.\n“Infelizmente”: formada por prefixação e sufixação (in- + feliz + -mente), mas os afixos não são simultâneos — existem tanto “infeliz” quanto “felizmente”; portanto, é derivação prefixal e sufixal.",
+			"explanation": "O teste da parassíntese é retirar um dos afixos: se a palavra resultante não existe, os afixos são simultâneos. É um raciocínio típico do comando “explique o processo de formação”.",
+			"skills": [
+				"explicar"
+			],
+			"knowledge": [
+				"derivação parassintética",
+				"derivação prefixal e sufixal"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Classificar como parassintética toda palavra com prefixo e sufixo.",
+				"Não testar a existência das formas intermediárias."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-estrutura-derivacao-e-composicao-das-palavras-2",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-estrutura-derivacao-e-composicao-das-palavras"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“No planalto, entre girassóis, o velho lia o jornaleco da cidade, que insistia em publicar os versos de um poetastro local.”\n\nDiferencie composição por justaposição de composição por aglutinação, classificando as palavras “girassol” e “planalto”. Em seguida, explique o valor semântico dos sufixos em “jornaleco” e “poetastro”.",
+			"modelAnswer": "Diferença: na justaposição, os radicais se unem sem perda de fonemas — “girassol” (gira + sol, com o “s” dobrado apenas por regra ortográfica); na aglutinação, há perda ou alteração de fonemas e um só acento tônico — “planalto” (plano + alto, com a perda do “o” de “plano”).\nSufixos: -eco e -astro têm valor pejorativo, depreciativo — “jornaleco” é um jornal sem qualidade, sem importância; “poetastro” é um mau poeta; os sufixos revelam o juízo negativo do enunciador.",
+			"explanation": "Afixos carregam sentido e avaliação. Assim como o diminutivo pode indicar afeto ou desprezo, sufixos como -eco, -astro e -ola (gentalha, rapazola) marcam desvalorização.",
+			"skills": [
+				"diferenciar",
+				"explicar"
+			],
+			"knowledge": [
+				"composição por justaposição e aglutinação",
+				"sufixos e valor pejorativo"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Classificar “planalto” como justaposição.",
+				"Dizer que -eco e -astro indicam diminutivo de tamanho."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-formas-de-enunciacao-1",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-formas-de-enunciacao"
+			],
+			"difficulty": "medio",
+			"statement": "Graciliano Ramos, Vidas secas (1938), capítulo “Fabiano”:\n“Fabiano, você é um homem, exclamou em voz alta.\n[...] E, pensando bem, ele não era homem: era apenas um cabra ocupado em guardar coisas dos outros.”\n\nIdentifique, no fragmento, um trecho em discurso direto e um trecho em discurso indireto livre, justificando. Em seguida, explique o efeito do discurso indireto livre na construção da personagem Fabiano.",
+			"modelAnswer": "Identificação: discurso direto — “Fabiano, você é um homem”, fala reproduzida do personagem, introduzida pelo verbo de elocução “exclamou”, com vocativo e pronome de 2ª pessoa (“você”); discurso indireto livre — “E, pensando bem, ele não era homem: era apenas um cabra ocupado em guardar coisas dos outros”, em que o pensamento de Fabiano aparece na voz do narrador (3ª pessoa, pretérito imperfeito), sem verbo de elocução nem conjunção introdutória, mas com expressões do próprio personagem (“pensando bem”, “cabra”).\nEfeito: o leitor entra na consciência de Fabiano e acompanha sua oscilação entre o orgulho e a humilhação — ele se vê como alguém inferior, que vive em terra alheia; o narrador em 3ª pessoa dá voz a um personagem de pouca expressão verbal, o que torna visível a opressão que ele interiorizou.",
+			"explanation": "No indireto livre, as vozes do narrador e do personagem se misturam. Em Vidas secas, o recurso é central: a pobreza de palavras de Fabiano é parte da sua condição social.",
+			"skills": [
+				"identificar",
+				"explicar"
+			],
+			"knowledge": [
+				"discurso direto e indireto livre",
+				"foco narrativo em Vidas secas"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Classificar o segundo trecho como discurso indireto (que exigiria verbo de elocução e conjunção).",
+				"Dizer que o narrador de Vidas secas é Fabiano."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-funcoes-da-linguagem-1",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-funcoes-da-linguagem"
+			],
+			"difficulty": "facil",
+			"statement": "Textos elaborados para esta questão:\nI. Cartaz de campanha: “Vacine-se. Proteja quem você ama.”\nII. Telefonema: “— Alô? Alô? Está me ouvindo? — Oi, oi... a ligação está cortando...”\n\nIdentifique a função da linguagem predominante em cada texto, justificando com um elemento linguístico. Em seguida, explique por que a função predominante no texto I é adequada a uma campanha de saúde.",
+			"modelAnswer": "Identificação: no texto I, função conativa (apelativa) — verbos no imperativo (“vacine-se”, “proteja”) e referência direta ao interlocutor (“você”); no texto II, função fática — expressões que testam e mantêm o canal de comunicação (“Alô?”, “Está me ouvindo?”, “a ligação está cortando”).\nAdequação: a campanha pretende convencer o público a mudar de comportamento (vacinar-se); por isso se dirige diretamente a ele, com apelos e envolvimento afetivo (“quem você ama”), em vez de apenas informar.",
+			"explanation": "Cada função põe em destaque um elemento da comunicação: a conativa, o receptor; a fática, o canal. Justificar com uma marca linguística concreta é o que garante a pontuação.",
+			"skills": [
+				"identificar",
+				"explicar"
+			],
+			"knowledge": [
+				"funções da linguagem",
+				"conativa e fática"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Classificar o texto II como emotiva por causa das repetições.",
+				"Identificar a função sem apontar a marca linguística."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-funcoes-da-linguagem-2",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-funcoes-da-linguagem"
+			],
+			"difficulty": "medio",
+			"statement": "Olavo Bilac, “Língua portuguesa” (1919), primeira estrofe:\n“Última flor do Lácio, inculta e bela,\nÉs, a um tempo, esplendor e sepultura:\nOuro nativo, que na ganga impura\nA bruta mina entre os cascalhos vela...”\n\nExplique por que, nesses versos, se manifestam ao mesmo tempo a função metalinguística e a função poética. Em seguida, explique o sentido da expressão “Última flor do Lácio”.",
+			"modelAnswer": "Explicação: há função metalinguística porque o poema trata do próprio código — a língua portuguesa é o assunto do texto; há função poética porque a mensagem é elaborada em sua forma: metáforas (“flor do Lácio”, “ouro nativo”), antítese (“esplendor e sepultura”), versos decassílabos, rimas (bela/vela, sepultura/impura) e a forma do soneto.\nSentido: o Lácio é a região da Itália onde se falava o latim; o português seria a última das línguas neolatinas (românicas) a se formar — uma “flor”, isto é, um rebento belo dessa origem latina.",
+			"explanation": "Um texto pode combinar funções: aqui, falar da língua (metalinguagem) com linguagem trabalhada (poética). O soneto parnasiano valoriza a forma, a rima e a métrica.",
+			"skills": [
+				"explicar"
+			],
+			"knowledge": [
+				"função metalinguística e poética",
+				"origem latina do português"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Dizer que só há função poética porque é um poema.",
+				"Interpretar “Lácio” como um lugar de Portugal."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-funcoes-da-linguagem-3",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-funcoes-da-linguagem"
+			],
+			"difficulty": "medio",
+			"statement": "Cecília Meireles, “Motivo” (Viagem, 1939), primeira estrofe:\n“Eu canto porque o instante existe\ne a minha vida está completa.\nNão sou alegre nem sou triste:\nsou poeta.”\n\nIdentifique dois elementos linguísticos que caracterizam a função emotiva nos versos. Em seguida, explique por que eles também podem ser lidos como metalinguísticos.",
+			"modelAnswer": "Elementos (dois): a primeira pessoa do discurso (“Eu”, “minha”, “sou”, “canto”); a expressão do estado do sujeito (“Não sou alegre nem sou triste”); o foco no emissor, que se define e fala de si.\nMetalinguagem: os versos refletem sobre o próprio fazer poético — “canto” significa fazer poesia, e o eu lírico define sua identidade e o motivo do seu canto (“sou poeta”); o poema fala da própria poesia.",
+			"explanation": "O título “Motivo” já anuncia a reflexão sobre a razão de escrever. A função emotiva (foco no emissor) e a metalinguística (foco no código, aqui a poesia) convivem.",
+			"skills": [
+				"identificar",
+				"explicar"
+			],
+			"knowledge": [
+				"função emotiva",
+				"metalinguagem na poesia"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Confundir a função emotiva com a presença de exclamações.",
+				"Dizer que o poema não fala de poesia porque não usa a palavra “poema”."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-funcoes-da-linguagem-4",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-funcoes-da-linguagem"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“A prefeitura anunciou ontem a construção de duas novas escolas na Zona Oeste, com previsão de entrega em dezembro. Mais uma promessa que, infelizmente, ninguém vai cumprir.”\n\nIdentifique a função da linguagem predominante no primeiro período, explicando duas marcas linguísticas que a caracterizam. Em seguida, explique por que o segundo período rompe com essa função, indicando a função que nele se manifesta.",
+			"modelAnswer": "Primeiro período: função referencial — linguagem denotativa e objetiva, em 3ª pessoa, centrada no fato (quem anunciou, o quê, quando, onde), com dados concretos (duas escolas, Zona Oeste, dezembro).\nSegundo período: função emotiva (expressiva) — o enunciador manifesta opinião e sentimento, com juízos de valor (“Mais uma promessa”), o advérbio modalizador “infelizmente” e a previsão pessimista “ninguém vai cumprir”; o foco passa do fato para a avaliação de quem escreve.",
+			"explanation": "Textos jornalísticos misturam funções: a notícia tende à referencial, o comentário à emotiva. Perceber a mudança de foco é uma competência de leitura crítica.",
+			"skills": [
+				"identificar",
+				"explicar"
+			],
+			"knowledge": [
+				"função referencial e emotiva",
+				"modalização"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Classificar o segundo período como conativo.",
+				"Citar a função sem explicar as marcas linguísticas."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-genero-narrativo-1",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-genero-narrativo"
+			],
+			"difficulty": "facil",
+			"statement": "O escritor argentino Julio Cortázar, no ensaio “Alguns aspectos do conto”, comparou o romance ao cinema e o conto à fotografia.\n\nExplique essa comparação, apresentando duas diferenças entre o conto e o romance. Em seguida, explique o que caracteriza a novela em relação a esses dois gêneros.",
+			"modelAnswer": "Comparação e diferenças (duas): como o filme, o romance se desenvolve em extensão, com vários conflitos e núcleos, muitas personagens, tempo amplo e espaços variados; como a fotografia, o conto faz um recorte — é breve, concentra-se num conflito central, com poucas personagens, tempo e espaço reduzidos, e busca um efeito único e intenso.\nNovela: tem extensão intermediária e se organiza como uma sequência de episódios encadeados em torno de um núcleo principal, com ação mais linear do que a do romance.",
+			"explanation": "Extensão, número de conflitos, personagens e tempo são os critérios mais usados para distinguir os gêneros narrativos. A UERJ sempre indica um romance, e a banca espera que você reconheça sua construção.",
+			"skills": [
+				"explicar",
+				"diferenciar"
+			],
+			"knowledge": [
+				"romance, conto e novela"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Diferenciar os gêneros apenas pelo número de páginas.",
+				"Dizer que o conto não tem conflito."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-genero-narrativo-2",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-genero-narrativo"
+			],
+			"difficulty": "medio",
+			"statement": "Machado de Assis, Dom Casmurro (1899), capítulo I:\n“Uma noite destas, vindo da cidade para o Engenho Novo, encontrei no trem da Central um rapaz aqui do bairro, que eu conheço de vista e de chapéu.”\n\nClassifique o narrador quanto ao foco narrativo, justificando com dois elementos do trecho. Em seguida, explique por que esse tipo de narrador limita a confiabilidade do relato num romance como Dom Casmurro.",
+			"modelAnswer": "Classificação: narrador-personagem, em 1ª pessoa — verbos e pronomes de 1ª pessoa (“encontrei”, “eu conheço”) e marcas de proximidade com o momento da enunciação (“Uma noite destas”, “aqui do bairro”).\nLimitação: tudo é contado do ponto de vista de Bento Santiago, que é parte interessada na história — ele acusa Capitu de adultério sem provas; o leitor só tem acesso à versão dele, filtrada pela memória, pelo ciúme e pelo desejo de convencer, o que torna o narrador pouco confiável e a narrativa ambígua.",
+			"explanation": "O foco narrativo define o que o leitor sabe. Em Dom Casmurro, a 1ª pessoa é a chave da ambiguidade: não há como confirmar a traição fora da voz do narrador.",
+			"skills": [
+				"classificar",
+				"explicar"
+			],
+			"knowledge": [
+				"foco narrativo",
+				"narrador não confiável"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Classificar o narrador como onisciente.",
+				"Afirmar como fato que Capitu traiu Bentinho."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-genero-narrativo-3",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-genero-narrativo"
+			],
+			"difficulty": "medio",
+			"statement": "Machado de Assis, Memórias póstumas de Brás Cubas (1881), capítulo I:\n“Algum tempo hesitei se devia abrir estas memórias pelo princípio ou pelo fim, isto é, se poria em primeiro lugar o meu nascimento ou a minha morte.”\n\nExplique de que modo o trecho rompe com a organização cronológica tradicional do enredo. Em seguida, diferencie tempo cronológico de tempo psicológico na narrativa.",
+			"modelAnswer": "Ruptura: o narrador, um “defunto autor”, discute com o leitor a ordem da narrativa e acaba começando pela própria morte — o fim da história —, invertendo a sequência linear; ao fazer isso, revela que o enredo é uma construção e expõe o próprio ato de narrar.\nDiferença: o tempo cronológico é o da sucessão linear e mensurável dos acontecimentos (horas, dias, anos, na ordem em que ocorrem); o tempo psicológico é o tempo vivido pela consciência da personagem ou do narrador, guiado pela memória e pelas emoções, que pode se alongar, se comprimir e saltar entre passado e presente.",
+			"explanation": "Memórias póstumas inaugura o Realismo no Brasil com uma narrativa que quebra a linearidade e conversa com o leitor. A distinção entre os dois tempos é um conceito básico do gênero narrativo.",
+			"skills": [
+				"explicar",
+				"diferenciar"
+			],
+			"knowledge": [
+				"tempo na narrativa",
+				"enredo e ordem dos fatos"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Dizer que o romance é narrado em ordem cronológica rigorosa.",
+				"Confundir tempo psicológico com o tempo em que a obra foi escrita."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-generos-1",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-generos"
+			],
+			"difficulty": "facil",
+			"statement": "Texto elaborado para esta questão:\n“Bolo de fubá: Bata os ovos com o açúcar. Junte o óleo, o leite e o fubá. Misture bem e asse em forno médio por 40 minutos.”\n\nDiferencie gênero textual de tipo textual. Em seguida, identifique o tipo textual predominante no texto acima e justifique com uma marca linguística.",
+			"modelAnswer": "Diferença: gênero textual é uma forma de texto relativamente estável, reconhecida socialmente, com composição, linguagem e função próprias (receita, notícia, carta, poema); tipo textual é um modo de organização da linguagem definido por traços linguísticos (narração, descrição, argumentação, exposição, injunção), que aparece dentro dos gêneros.\nTipo predominante: injuntivo (instrucional) — verbos no imperativo (“bata”, “junte”, “misture”, “asse”) organizados numa sequência de passos que orientam a ação do leitor.",
+			"explanation": "Um mesmo gênero pode combinar tipos (uma notícia narra e expõe); a receita, um gênero, é dominada pela injunção, um tipo.",
+			"skills": [
+				"diferenciar",
+				"identificar"
+			],
+			"knowledge": [
+				"gênero e tipo textual",
+				"sequência injuntiva"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Dizer que “receita” é um tipo textual.",
+				"Identificar o tipo sem apontar a marca linguística."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-generos-2",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-generos"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Rio de Janeiro, 3 de março de 1920.\nQuerida mamãe,\nEscrevo-lhe às pressas, porque o vapor parte amanhã cedo. Estou bem e com saudades de todos.\nSua filha,\nLaura”\n\nIdentifique dois elementos da composição típica do gênero carta presentes no texto. Em seguida, explique o que o tratamento usado por Laura revela sobre a relação entre as interlocutoras e o grau de formalidade.",
+			"modelAnswer": "Elementos (dois): local e data; vocativo de saudação (“Querida mamãe”); corpo da mensagem; despedida (“Sua filha”); assinatura (“Laura”).\nTratamento: “Querida mamãe” revela intimidade e afeto; já “Escrevo-lhe”, com o pronome oblíquo “lhe” em ênclise, mostra uma escrita cuidada e respeitosa, segundo a norma culta da época — uma relação afetuosa, mas com deferência à mãe, própria da correspondência familiar daquele tempo.",
+			"explanation": "O gênero carta tem composição reconhecível e um interlocutor definido; o tratamento escolhido mostra a relação social entre quem escreve e quem lê.",
+			"skills": [
+				"identificar",
+				"explicar"
+			],
+			"knowledge": [
+				"gênero carta",
+				"formas de tratamento e registro"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Confundir a composição do gênero com o conteúdo da mensagem.",
+				"Dizer que a carta é totalmente informal ou totalmente formal, sem nuance."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-generos-3",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-generos"
+			],
+			"difficulty": "medio",
+			"statement": "Textos elaborados para esta questão:\nI. “Este jornal entende que a reforma do transporte público não pode mais esperar.”\nII. “Penso que a reforma do transporte público é urgente, mas discordo do modelo proposto. Além disso, os números da prefeitura não convencem.” (artigo assinado por um leitor)\n\nDiferencie o editorial (I) do artigo de opinião (II) quanto à autoria e à voz que se manifesta. Em seguida, apresente duas marcas linguísticas de argumentação presentes no texto II.",
+			"modelAnswer": "Diferença: o editorial expressa a opinião da própria empresa jornalística, sem assinatura individual — por isso a voz é institucional (“Este jornal entende”); o artigo de opinião é assinado por um autor, que assume individualmente a responsabilidade pelo ponto de vista, muitas vezes em 1ª pessoa.\nMarcas (duas): verbos de opinião em 1ª pessoa (“Penso”, “discordo”); conectivos argumentativos — “mas” (oposição), “Além disso” (acréscimo de argumento); a avaliação negativa dos dados (“os números [...] não convencem”).",
+			"explanation": "Os dois gêneros são argumentativos e circulam no jornal, mas diferem na autoria e na responsabilidade pela opinião. A UERJ valoriza a identificação do gênero pelas marcas de composição e de enunciação.",
+			"skills": [
+				"diferenciar",
+				"apresentar"
+			],
+			"knowledge": [
+				"editorial e artigo de opinião",
+				"marcas de argumentação"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Dizer que o editorial é neutro, sem opinião.",
+				"Citar como marca argumentativa palavras que não organizam o raciocínio."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-generos-textuais-1",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-generos-textuais"
+			],
+			"difficulty": "medio",
+			"statement": "Textos elaborados para esta questão:\nI. “Segunda-feira, 12 de abril. Hoje a professora não veio. Fiquei a tarde inteira olhando a chuva.”\nII. “Naquele tempo, eu tinha doze anos e passava as tardes de abril olhando a chuva. Hoje sei que esperava alguém que nunca veio.”\n\nIdentifique o gênero de cada fragmento (diário ou memória), justificando com marcas de tempo. Em seguida, explique a diferença entre os dois gêneros quanto à relação entre o tempo da escrita e o tempo dos fatos.",
+			"modelAnswer": "Identificação: I é um diário — data no início e o advérbio “Hoje” referindo-se ao próprio dia da escrita, com fatos recentes; II é uma memória — expressões de distância temporal (“Naquele tempo”, “eu tinha doze anos”) e o contraste com o presente de quem escreve (“Hoje sei”).\nDiferença: no diário, a escrita é quase simultânea aos fatos — quem escreve não conhece o desfecho e registra o dia a dia; na memória, há grande distância entre os fatos e a escrita — o narrador adulto seleciona e reinterpreta o passado à luz do presente, num “eu” duplo (o que viveu e o que narra).",
+			"explanation": "Diário e memória são gêneros da escrita pessoal em 1ª pessoa, mas organizam o tempo de modos opostos. Na memória, o “hoje sei” revela o saber posterior do narrador.",
+			"skills": [
+				"identificar",
+				"explicar"
+			],
+			"knowledge": [
+				"diário e memória",
+				"tempo da enunciação e tempo dos fatos"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Classificar os dois textos como diário porque ambos usam 1ª pessoa.",
+				"Não justificar com marcas temporais."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-generos-textuais-2",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-generos-textuais"
+			],
+			"difficulty": "medio",
+			"statement": "Pero Vaz de Caminha, carta ao rei dom Manuel (1500), início:\n“Senhor, posto que o Capitão-mor desta Vossa frota, e assim os outros capitães escrevam a Vossa Alteza a notícia do achamento desta Vossa terra nova [...], não deixarei de também dar disso minha conta a Vossa Alteza [...].”\n\nIdentifique duas marcas da interlocução típica do gênero carta presentes no trecho. Em seguida, explique por que a carta de Caminha pode ser lida, ao mesmo tempo, como documento histórico e como texto inaugural da literatura produzida sobre o Brasil.",
+			"modelAnswer": "Marcas (duas): o vocativo “Senhor”; o pronome de tratamento “Vossa Alteza”, que identifica o destinatário (o rei); a 1ª pessoa do remetente (“não deixarei de [...] dar disso minha conta”); a referência à própria comunicação (“escrevam a Vossa Alteza a notícia”).\nExplicação: como documento, registra a chegada da frota de Cabral em 1500 e descreve a terra e os povos indígenas do ponto de vista europeu; como texto literário, inaugura a chamada literatura de informação (Quinhentismo), com descrições e narrações de valor estético, e foi retomado por escritores posteriores — os modernistas, como Oswald de Andrade, parodiaram trechos da carta.",
+			"explanation": "A carta mostra que gênero e função podem se sobrepor: correspondência oficial, relato de viagem e texto fundador da tradição literária sobre o Brasil.",
+			"skills": [
+				"identificar",
+				"explicar"
+			],
+			"knowledge": [
+				"gênero carta",
+				"literatura de informação"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Dizer que a carta foi escrita para o público brasileiro.",
+				"Tratar a visão de Caminha como neutra, sem o ponto de vista europeu."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-generos-textuais-3",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-generos-textuais"
+			],
+			"difficulty": "medio",
+			"statement": "Carolina Maria de Jesus, Quarto de despejo: diário de uma favelada (1960), primeira entrada (grafia atualizada):\n“15 de julho de 1955. Aniversário de minha filha Vera Eunice. Eu pretendia comprar um par de sapatos para ela. Mas o custo dos gêneros alimentícios nos impede a realização dos nossos desejos.”\n\nIdentifique duas marcas do gênero diário no trecho. Em seguida, explique por que o diário de Carolina Maria de Jesus pode ser lido como denúncia social.",
+			"modelAnswer": "Marcas (duas): a data no início do registro; a 1ª pessoa (“Eu pretendia”, “minha filha”); o relato de um fato do próprio dia (o aniversário da filha); a escrita íntima, que mistura acontecimento e sentimento.\nDenúncia: ao registrar o cotidiano na favela do Canindé, em São Paulo — a fome, o custo dos alimentos, a impossibilidade de comprar um par de sapatos para a filha —, a autora transforma a experiência pessoal em testemunho da pobreza e da exclusão; o gênero íntimo ganha dimensão pública e política, dando voz a uma mulher negra e pobre, raramente ouvida na literatura da época.",
+			"explanation": "O diário, gênero da escrita pessoal, pode funcionar como testemunho coletivo. A obra de Carolina é um marco da literatura brasileira e um exemplo de como o gênero muda de função conforme o contexto.",
+			"skills": [
+				"identificar",
+				"explicar"
+			],
+			"knowledge": [
+				"gênero diário",
+				"literatura e testemunho"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Confundir o diário com memória, escrita muito depois dos fatos.",
+				"Tratar a obra apenas como relato pessoal, sem dimensão social."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-generos-textuais-4",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-generos-textuais"
+			],
+			"difficulty": "dificil",
+			"statement": "Machado de Assis, Memórias póstumas de Brás Cubas (1881), dedicatória:\n“Ao verme que primeiro roeu as frias carnes do meu cadáver dedico como saudosa lembrança estas memórias póstumas.”\n\nExplique de que modo a dedicatória subverte as convenções do gênero memória. Em seguida, explique o efeito de ironia produzido pela expressão “saudosa lembrança”.",
+			"modelAnswer": "Subversão: as memórias são, por convenção, escritas por alguém vivo que relembra a própria vida e costuma dedicá-las a pessoas queridas ou importantes; aqui, o autor é um defunto que escreve depois da morte e dedica o livro ao verme que devorou seu corpo — inversão que anuncia o tom irreverente e pessimista da obra.\nIronia: “saudosa lembrança” é uma fórmula afetuosa e solene das dedicatórias, aplicada a um verme que se alimentou do cadáver; o contraste entre a expressão carinhosa e o destinatário grotesco produz humor macabro e desmonta a seriedade do gênero, revelando o olhar desencantado do narrador sobre a vida e a vaidade humana.",
+			"explanation": "Machado usa as convenções do gênero (dedicatória, memórias) para quebrá-las. Reconhecer o gênero “de dentro” e explicar o que a subversão produz é um comando típico.",
+			"skills": [
+				"explicar"
+			],
+			"knowledge": [
+				"gênero memória e dedicatória",
+				"ironia machadiana"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Ler a dedicatória como homenagem sincera.",
+				"Dizer que Brás Cubas escreve as memórias antes de morrer."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-hibridismo-1",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-hibridismo"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“A crônica nasce no jornal, presa ao assunto do dia, mas muitas sobrevivem em livro, lidas décadas depois como literatura.”\n\nExplique por que a crônica é considerada um gênero híbrido. Em seguida, apresente duas características da linguagem da crônica que a aproximam de uma conversa com o leitor.",
+			"modelAnswer": "Explicação: a crônica mistura jornalismo e literatura — publicada periodicamente em jornais e revistas, parte de fatos do cotidiano e da atualidade, como a notícia; mas trata esses fatos com subjetividade, humor, lirismo, reflexão e elaboração estética, às vezes com ficção, o que permite que sobreviva ao dia em que foi publicada.\nCaracterísticas (duas): tom coloquial, próximo da fala; uso da 1ª pessoa; interlocução direta com o leitor (“você”, “caro leitor”); brevidade; humor e ironia; reflexão a partir de um fato banal.",
+			"explanation": "Hibridismo (intergenericidade) é a mistura de gêneros. A crônica é o exemplo brasileiro mais conhecido: do jornal para o livro, do fato para a literatura.",
+			"skills": [
+				"explicar",
+				"apresentar"
+			],
+			"knowledge": [
+				"hibridismo de gêneros",
+				"crônica"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Confundir crônica com notícia.",
+				"Apresentar características sem relação com a conversa com o leitor."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-hibridismo-2",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-hibridismo"
+			],
+			"difficulty": "medio",
+			"statement": "João Cabral de Melo Neto, Morte e vida severina — Auto de Natal pernambucano (1955), fala inicial do retirante:\n“O meu nome é Severino,\ncomo não tenho outro de pia.”\n\nExplique por que a obra, que tem o subtítulo “Auto de Natal pernambucano”, é um exemplo de hibridismo. Em seguida, explique o efeito de sentido de o personagem se apresentar dizendo que seu nome é Severino, “como não tenho outro de pia”.",
+			"modelAnswer": "Hibridismo: a obra mistura poesia (versos com métrica e ritmo populares, rimas) e teatro (falas de personagens, escrita para ser encenada, na forma do auto, gênero dramático de tradição medieval e religiosa), além de dialogar com a tradição popular nordestina dos autos de Natal e da literatura de cordel.\nEfeito: “de pia” refere-se ao nome de batismo; ao dizer que não tem outro nome, o retirante mostra que é um entre muitos Severinos — seu nome é comum e não o distingue; o indivíduo torna-se representante coletivo dos retirantes nordestinos, e “severino” passa a qualificar uma vida dura e uma morte precoce (“vida severina”).",
+			"explanation": "A mistura de poesia e teatro aproxima a obra do público popular e dá força dramática à denúncia social. A transformação do nome em adjetivo é um recurso central do poema.",
+			"skills": [
+				"explicar"
+			],
+			"knowledge": [
+				"hibridismo: poesia e teatro",
+				"Morte e vida severina"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Classificar a obra apenas como romance ou apenas como poema lírico.",
+				"Interpretar “de pia” como lugar de origem do personagem."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-hibridismo-3",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-hibridismo"
+			],
+			"difficulty": "dificil",
+			"statement": "José de Alencar, Iracema (1865), início do capítulo I:\n“Verdes mares bravios de minha terra natal, onde canta a jandaia nas frondes da carnaúba; [...]”\n\nExplique por que o trecho é um exemplo de prosa poética. Em seguida, relacione essa mistura de gêneros ao projeto romântico de construção de uma identidade nacional.",
+			"modelAnswer": "Prosa poética: embora seja um romance em prosa, o trecho usa recursos próprios da poesia — ritmo e musicalidade, apóstrofe (o narrador se dirige aos “verdes mares”), inversões sintáticas, adjetivação expressiva e imagens da natureza; o próprio autor chamou a obra de “lenda do Ceará”.\nRelação: a linguagem poética eleva a natureza brasileira (jandaia, carnaúba) e o indígena à condição de mito fundador; a história de Iracema e do português Martim, cujo filho é chamado de primeiro cearense, cria uma narrativa de origem da nação mestiça, com valorização da cor local e do vocabulário tupi — um projeto de literatura nacional, distinta da europeia.",
+			"explanation": "No Romantismo, a fusão de prosa e poesia dá à narrativa um tom épico e lendário, adequado à criação de mitos nacionais — mitos que, hoje, também são lidos criticamente (a idealização do indígena e da colonização).",
+			"skills": [
+				"explicar",
+				"relacionar"
+			],
+			"knowledge": [
+				"prosa poética",
+				"Romantismo e identidade nacional"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Dizer que Iracema é um poema em versos.",
+				"Ignorar a visão idealizada do indígena no projeto romântico."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-hibridismo-4",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-hibridismo"
+			],
+			"difficulty": "medio",
+			"statement": "Manuel Bandeira, “Poema tirado de uma notícia de jornal” (Libertinagem, 1930):\n“João Gostoso era carregador de feira livre e morava no morro da Babilônia num barracão sem número\nUma noite ele chegou no bar Vinte de Novembro\nBebeu\nCantou\nDançou\nDepois se atirou na Lagoa Rodrigo de Freitas e morreu afogado.”\n\nExplique o hibridismo de gêneros indicado pelo título do poema. Em seguida, explique o efeito produzido pela disposição dos verbos “Bebeu”, “Cantou” e “Dançou” em versos separados.",
+			"modelAnswer": "Hibridismo: o poema mistura a notícia de jornal — linguagem referencial, fato do cotidiano policial, dados como nome, profissão, endereço e desfecho — com a poesia — versos livres, recorte e ritmo; o fato banal, que mal ocuparia uma nota de jornal, é transformado em matéria poética, como propunha o Modernismo.\nEfeito: cada verbo ganha destaque e uma pausa própria; a sucessão rápida acelera o ritmo e sugere uma noite de alegria, que contrasta com a morte súbita do último verso; o silêncio entre os versos deixa sem explicação o gesto final, intensificando o impacto trágico.",
+			"explanation": "A disposição gráfica dos versos é parte do sentido. O poema mostra como o Modernismo incorporou à poesia o cotidiano das pessoas comuns e a linguagem da imprensa.",
+			"skills": [
+				"explicar"
+			],
+			"knowledge": [
+				"hibridismo: notícia e poema",
+				"verso livre e Modernismo"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Dizer que o poema é uma notícia verdadeira transcrita sem alterações.",
+				"Explicar a disposição dos verbos apenas como “estilo”, sem efeito de sentido."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-morfologia-do-nome-e-do-verbo-1",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-morfologia-do-nome-e-do-verbo"
+			],
+			"difficulty": "facil",
+			"statement": "Texto elaborado para esta questão:\n“Em 13 de maio de 1888, a princesa assina a lei. Do lado de fora do palácio, a multidão comemora.”\n\nIdentifique o tempo e o modo verbais empregados e explique o efeito de sentido de seu uso para narrar fatos passados. Em seguida, reescreva o primeiro período no pretérito perfeito do indicativo.",
+			"modelAnswer": "Identificação e efeito: presente do indicativo (“assina”, “comemora”), usado com valor de passado — o chamado presente histórico ou narrativo; ele aproxima o fato do leitor e dá vivacidade ao relato, como se o acontecimento se desenrolasse diante de seus olhos.\nReescrita: “Em 13 de maio de 1888, a princesa assinou a lei.”",
+			"explanation": "Os tempos verbais têm valores que vão além da cronologia. A banca pede o valor no contexto — aqui, a presentificação de um fato histórico.",
+			"skills": [
+				"identificar",
+				"explicar",
+				"reescrever"
+			],
+			"knowledge": [
+				"tempos verbais",
+				"presente histórico"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Dizer que o texto está errado por usar o presente para o passado.",
+				"Reescrever no pretérito imperfeito (“assinava”)."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-morfologia-do-nome-e-do-verbo-2",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-morfologia-do-nome-e-do-verbo"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão:\n“Se eu tivesse estudado mais, teria passado na prova.”\n\nIdentifique o tempo e o modo das formas “tivesse estudado” e “teria passado” e explique a relação de sentido que elas estabelecem. Em seguida, explique por que, na linguagem coloquial, é comum ouvir “Se eu tivesse estudado mais, tinha passado na prova”.",
+			"modelAnswer": "Identificação e relação: “tivesse estudado” é o pretérito mais-que-perfeito composto do subjuntivo e expressa uma condição hipotética não realizada no passado; “teria passado” é o futuro do pretérito composto do indicativo e expressa a consequência hipotética, também não realizada — o falante não estudou e não passou (relação de condição e consequência irreal, contrafactual).\nExplicação: no português brasileiro falado, é frequente o uso do pretérito imperfeito do auxiliar (“tinha passado”, forma do mais-que-perfeito composto do indicativo) no lugar do futuro do pretérito; trata-se de uma variação aceita em registros informais, enquanto a norma padrão, na escrita formal, prefere “teria passado”.",
+			"explanation": "Modos e tempos verbais expressam atitudes do falante: certeza, hipótese, desejo. A segunda parte da questão cobra a relação entre norma e uso, tema recorrente na prova.",
+			"skills": [
+				"identificar",
+				"explicar"
+			],
+			"knowledge": [
+				"modo subjuntivo e futuro do pretérito",
+				"variação e norma"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Classificar “tivesse estudado” como indicativo.",
+				"Dizer que a forma coloquial é “erro” sem considerar a situação de uso."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-o-significado-lexical-e-suas-relacoes-1",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-o-significado-lexical-e-suas-relacoes"
+			],
+			"difficulty": "medio",
+			"statement": "Texto elaborado para esta questão (manchete fictícia):\n“Prefeito deixa a cidade sem banco”\n\nExplique a ambiguidade da manchete, considerando a polissemia da palavra “banco”. Em seguida, diferencie polissemia de homonímia, apresentando um exemplo de homonímia.",
+			"modelAnswer": "Ambiguidade: “banco” pode significar assento (de praça, por exemplo) ou instituição financeira (agência bancária); assim, a manchete pode dizer que o prefeito retirou os bancos das praças ou que a cidade ficou sem agência bancária — e a própria expressão “deixa a cidade” pode ser lida como “faz a cidade ficar” ou como “vai embora da cidade”.\nDiferença: na polissemia, uma mesma palavra tem vários sentidos relacionados entre si por sua história ou por semelhança (o banco-assento deu nome ao banco dos cambistas e, depois, à instituição financeira); na homonímia, palavras diferentes, de origens distintas, coincidem na forma. Exemplo (um): “manga” (fruta) × “manga” (da camisa); “são” (sadio) × “são” (forma do verbo ser); “rio” (curso de água) × “rio” (forma do verbo rir); “cedo” (advérbio) × “cedo” (forma do verbo ceder).",
+			"explanation": "Manchetes jogam com a ambiguidade, às vezes de propósito. O contexto resolve o sentido; a análise exige reconhecer as leituras possíveis.",
+			"skills": [
+				"explicar",
+				"diferenciar"
+			],
+			"knowledge": [
+				"polissemia e homonímia",
+				"ambiguidade"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Confundir homonímia com sinonímia.",
+				"Apontar a ambiguidade sem explicar os dois sentidos."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-procedimentos-de-intertextualidade-1",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-procedimentos-de-intertextualidade"
+			],
+			"difficulty": "medio",
+			"statement": "Texto I — Gonçalves Dias, “Canção do exílio” (1843):\n“Minha terra tem palmeiras,\nOnde canta o Sabiá;\nAs aves, que aqui gorjeiam,\nNão gorjeiam como lá.”\n\nTexto II — Oswald de Andrade, “Canto de regresso à pátria” (Pau-Brasil, 1925):\n“Minha terra tem palmares\nOnde gorjeia o mar\nOs passarinhos daqui\nNão cantam como os de lá”\n\nExplique por que o texto II é uma paródia do texto I. Em seguida, explique o sentido crítico da substituição de “palmeiras” por “palmares”.",
+			"modelAnswer": "Paródia: o texto II retoma a estrutura, o ritmo e versos quase idênticos do poema romântico, mas desloca seu sentido com humor e crítica — desmonta o nacionalismo ufanista e idealizado da “Canção do exílio”, característica do projeto modernista de rever a tradição.\nSentido crítico: “palmares” significa conjuntos de palmeiras, mas evoca o Quilombo dos Palmares, símbolo da resistência dos africanos escravizados; a troca insere na imagem da pátria a história da escravidão e da luta negra, que a visão romântica da natureza deixava de fora.",
+			"explanation": "Paráfrase retoma um texto mantendo o sentido; paródia retoma para subverter. A comparação entre os poemas de 1843 e 1925 mostra duas visões de Brasil.",
+			"skills": [
+				"explicar"
+			],
+			"knowledge": [
+				"paródia e intertextualidade",
+				"Romantismo e Modernismo"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Classificar o texto II como paráfrase.",
+				"Ler “palmares” apenas como sinônimo de “palmeiras”, sem o sentido histórico."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-sintaxe-do-nome-e-do-verbo-1",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-sintaxe-do-nome-e-do-verbo"
+			],
+			"difficulty": "facil",
+			"statement": "Carlos Drummond de Andrade, “No meio do caminho” (1928):\n“No meio do caminho tinha uma pedra\ntinha uma pedra no meio do caminho”\n\nTexto elaborado para esta questão: “Haviam muitas pedras no caminho.”\n\nReescreva a frase elaborada de acordo com a norma padrão e justifique a correção. Em seguida, explique o efeito do uso de “tinha” (em vez de “havia”) nos versos de Drummond.",
+			"modelAnswer": "Reescrita e justificativa: “Havia muitas pedras no caminho.” — o verbo “haver” com sentido de “existir” é impessoal (não tem sujeito); por isso fica na 3ª pessoa do singular, e “muitas pedras” é seu objeto direto.\nEfeito: “ter” com sentido existencial é próprio do português brasileiro falado; ao usá-lo, o poeta aproxima o poema da fala cotidiana, como propunha o Modernismo — e a linguagem simples, somada à repetição, cria a sensação de obsessão diante do obstáculo. Na época, o poema foi atacado como “erro” e provocou polêmica.",
+			"explanation": "Concordância com verbos impessoais (haver, fazer indicando tempo) é um dos pontos mais cobrados da norma padrão. O verso de Drummond mostra que a escolha da forma também é estilística.",
+			"skills": [
+				"reescrever",
+				"explicar"
+			],
+			"knowledge": [
+				"verbos impessoais e concordância",
+				"variação e estilo"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Manter “haviam”, concordando o verbo com “pedras”.",
+				"Dizer que Drummond errou a concordância."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-sintaxe-do-nome-e-do-verbo-2",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-sintaxe-do-nome-e-do-verbo"
+			],
+			"difficulty": "medio",
+			"statement": "Textos elaborados para esta questão (manchetes fictícias):\nI. “Manifestantes são detidos durante protesto no centro”\nII. “Policiais detêm manifestantes durante protesto no centro”\n\nIdentifique a voz verbal empregada em cada manchete. Em seguida, explique o efeito de sentido da escolha da voz passiva sem agente da passiva na manchete I.",
+			"modelAnswer": "Identificação: na manchete I, voz passiva analítica (verbo “ser” + particípio: “são detidos”), com sujeito paciente (“manifestantes”); na manchete II, voz ativa, com sujeito agente (“policiais”).\nEfeito: a voz passiva coloca em destaque os manifestantes, que sofrem a ação, e, sem o agente da passiva (“pela polícia”), omite quem a praticou; isso pode atenuar ou esconder a responsabilidade dos agentes — a escolha gramatical revela um ponto de vista sobre o fato.",
+			"explanation": "Na UERJ, as vozes verbais aparecem pelo efeito: o que fica em evidência e o que fica oculto. A comparação entre manchetes mostra que a gramática também constrói sentidos políticos.",
+			"skills": [
+				"identificar",
+				"explicar"
+			],
+			"knowledge": [
+				"vozes verbais",
+				"agente da passiva e efeito de sentido"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Classificar a manchete I como voz ativa porque o verbo está no presente.",
+				"Dizer que as duas manchetes têm exatamente o mesmo sentido."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-sintaxe-do-nome-e-do-verbo-3",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-sintaxe-do-nome-e-do-verbo"
+			],
+			"difficulty": "medio",
+			"statement": "Textos elaborados para esta questão:\nI. “O médico assistiu o paciente durante toda a noite.”\nII. “O médico assistiu ao jogo durante toda a noite.”\nIII. “Nas férias, fui à Bahia e depois a Roma.”\n\nExplique a diferença de sentido do verbo “assistir” nas frases I e II, relacionando-a à regência. Em seguida, justifique o uso do acento grave em “à Bahia” e sua ausência em “a Roma”, na frase III.",
+			"modelAnswer": "Diferença: em I, “assistir” significa prestar assistência, ajudar — é transitivo direto (“assistiu o paciente”); em II, significa ver, presenciar — é transitivo indireto e exige a preposição “a” (“assistiu ao jogo”). A mudança de regência acompanha a mudança de sentido.\nCrase: em “à Bahia”, há fusão da preposição “a”, exigida pelo verbo “ir”, com o artigo “a” que acompanha o nome “Bahia” (diz-se “volto da Bahia”); em “a Roma”, há apenas a preposição, porque o nome “Roma” não admite artigo (diz-se “volto de Roma”).",
+			"explanation": "Regência e crase andam juntas: a crase só ocorre quando há preposição “a” mais artigo “a”. O teste com “voltar de/da” ajuda a identificar o artigo diante de nomes de lugares.",
+			"skills": [
+				"explicar",
+				"justificar"
+			],
+			"knowledge": [
+				"regência verbal",
+				"crase"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Dizer que “assistir” tem o mesmo sentido nas duas frases.",
+				"Usar crase em “a Roma” ou omiti-la em “à Bahia”."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-sintaxe-do-nome-e-do-verbo-4",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-sintaxe-do-nome-e-do-verbo"
+			],
+			"difficulty": "dificil",
+			"statement": "Textos elaborados para esta questão:\nI. “A cidade foi crescendo, crescendo, e os rios foram desaparecendo sob o asfalto.”\nII. “É hora de os jovens decidirem o seu futuro.”\n\nExplique o efeito de sentido produzido pelas locuções verbais com gerúndio no período I. Em seguida, justifique a flexão do infinitivo “decidirem” no período II.",
+			"modelAnswer": "Efeito: as locuções “foi crescendo” e “foram desaparecendo” expressam aspecto durativo e progressivo — ações graduais, contínuas, que se desenvolvem ao longo do tempo; a repetição de “crescendo” intensifica essa continuidade, e o paralelismo opõe o crescimento da cidade ao desaparecimento dos rios, sugerindo uma relação de causa e consequência.\nFlexão: o infinitivo se flexiona (3ª pessoa do plural) porque tem sujeito próprio expresso — “os jovens” —, diferente do sujeito da oração principal; por isso também não se faz a contração “dos jovens”, já que “os jovens” é sujeito do infinitivo.",
+			"explanation": "Formas nominais do verbo (gerúndio, infinitivo, particípio) aparecem na prova pelo efeito: o gerúndio mostra processo; o infinitivo flexionado marca o sujeito.",
+			"skills": [
+				"explicar",
+				"justificar"
+			],
+			"knowledge": [
+				"formas nominais do verbo",
+				"infinitivo flexionado"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Dizer que o gerúndio indica ação concluída.",
+				"Corrigir para “dos jovens decidirem” sem considerar que “os jovens” é sujeito."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-unidade-e-diversidade-da-lingua-portuguesa-1",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-unidade-e-diversidade-da-lingua-portuguesa"
+			],
+			"difficulty": "medio",
+			"statement": "Oswald de Andrade, “Pronominais” (Pau-Brasil, 1925):\n“Dê-me um cigarro\nDiz a gramática\nDo professor e do aluno\nE do mulato sabido\nMas o bom negro e o bom branco\nDa Nação Brasileira\nDizem todos os dias\nDeixa disso camarada\nMe dá um cigarro”\n\nExplique a diferença entre as duas formas de pedir o cigarro apresentadas no poema, considerando a colocação pronominal. Em seguida, explique a posição do poeta diante da norma gramatical de base lusitana.",
+			"modelAnswer": "Diferença: “Dê-me” apresenta ênclise (pronome depois do verbo), exigida pela gramática tradicional, que condena iniciar a frase com pronome oblíquo átono — forma de prestígio, de matriz portuguesa; “Me dá” apresenta próclise no início da frase, com o imperativo informal “dá”, construção típica do português brasileiro falado por todos, “o bom negro e o bom branco da Nação Brasileira”.\nPosição: o poeta valoriza a fala brasileira cotidiana e ironiza a gramática “do professor e do aluno e do mulato sabido”, isto é, o pedantismo de quem imita a norma lusitana; defende uma língua literária brasileira, em sintonia com o projeto modernista de nacionalização da linguagem.",
+			"explanation": "O poema é um clássico sobre norma e uso: a colocação pronominal é um dos traços que mais distinguem o português do Brasil do de Portugal.",
+			"skills": [
+				"explicar"
+			],
+			"knowledge": [
+				"colocação pronominal",
+				"variação e Modernismo"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Dizer que Oswald defende a norma lusitana.",
+				"Explicar a diferença sem nomear a colocação pronominal."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-unidade-e-diversidade-da-lingua-portuguesa-2",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-unidade-e-diversidade-da-lingua-portuguesa"
+			],
+			"difficulty": "medio",
+			"statement": "Manuel Bandeira, “Evocação do Recife” (Libertinagem, 1930), fragmento:\n“A vida não me chegava pelos jornais nem pelos livros\nVinha da boca do povo na língua errada do povo\nLíngua certa do povo\nPorque ele é que fala gostoso o português do Brasil\nAo passo que nós\nO que fazemos\nÉ macaquear\nA sintaxe lusíada”\n\nExplique a aparente contradição entre as expressões “língua errada do povo” e “Língua certa do povo”. Em seguida, explique o que o poeta critica com o uso do verbo “macaquear”.",
+			"modelAnswer": "Explicação: a língua do povo é “errada” segundo a gramática normativa de base portuguesa, mas é “certa” porque é a língua viva e autêntica falada pelos brasileiros, com legitimidade própria — o poeta relativiza a noção de erro e reconhece a variedade popular como expressão legítima do “português do Brasil”.\nCrítica: “macaquear” significa imitar servilmente; o poeta critica a elite letrada (“nós”) que copia a sintaxe lusitana em vez de escrever no português falado no Brasil — uma crítica à dependência cultural em relação a Portugal.",
+			"explanation": "Os modernistas fizeram da língua brasileira uma bandeira. A ideia de que nenhuma variedade é intrinsecamente errada é a base do estudo da variação linguística.",
+			"skills": [
+				"explicar"
+			],
+			"knowledge": [
+				"variação linguística e norma",
+				"Modernismo e língua brasileira"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Ler “errada” e “certa” como contradição sem solução.",
+				"Interpretar “macaquear” como elogio à imitação."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		},
+		{
+			"id": "simu-lpl-unidade-e-diversidade-da-lingua-portuguesa-3",
+			"discipline": "LPL",
+			"topicIds": [
+				"lpl-unidade-e-diversidade-da-lingua-portuguesa"
+			],
+			"difficulty": "dificil",
+			"statement": "Textos elaborados para esta questão:\nI. Mensagem de celular a uma amiga: “vc vem hj? to te esperando aki”\nII. E-mail a uma empresa: “Prezada Sra. Marta, venho por meio deste solicitar informações sobre o processo seletivo.”\n\nIdentifique o tipo de variação linguística representado pela diferença entre as duas mensagens, justificando com marcas dos textos. Em seguida, explique por que seria um equívoco considerar a primeira mensagem simplesmente “errada”.",
+			"modelAnswer": "Identificação: variação situacional (diafásica), de registro — a mensagem I, informal, usa abreviações (“vc”, “hj”, “to”), grafia próxima da fala (“aki”) e ausência de pontuação, adequadas à conversa íntima no meio digital; a mensagem II, formal, usa vocativo de cortesia (“Prezada”), forma de tratamento (“Sra.”) e fórmula convencional (“venho por meio deste”), adequadas à comunicação com uma empresa.\nExplicação: a mensagem I é adequada à situação, ao meio e à interlocutora; o falante competente ajusta o registro conforme o contexto. O problema estaria na inadequação — usar o registro informal num e-mail profissional —, e não na variedade em si; tratá-la como “errada” é preconceito linguístico.",
+			"explanation": "Adequação é o conceito-chave: a norma padrão é a referência para situações formais, mas não é a única forma legítima da língua.",
+			"skills": [
+				"identificar",
+				"explicar"
+			],
+			"knowledge": [
+				"variação situacional (registro)",
+				"adequação e preconceito linguístico"
+			],
+			"patternRationale": "Segue o molde das questões de Língua Portuguesa e Literaturas da UERJ (ver o diagnóstico da banca): um fragmento como base e dois comandos encadeados — identificar ou classificar o recurso e explicar o efeito de sentido que ele produz no contexto.",
+			"commonMistakes": [
+				"Classificar a variação como regional.",
+				"Dizer que a escrita informal deve ser evitada em qualquer situação."
+			],
+			"model": "Claude (simulado da aula, acervo da plataforma)"
+		}
+	]
+}

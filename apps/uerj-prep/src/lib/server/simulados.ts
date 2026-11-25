@@ -7,6 +7,7 @@ import { recordAttempt } from './progress';
 import { TEMAS_2027, getTema } from '$lib/data/content/redacao-temas';
 import { REDACAO_HISTORY } from '$lib/data/official/redacao-history';
 import { provaPoints, estimateExam, type ProvaScore } from '$lib/domain/scoring';
+import { simuladoDaAula } from '$lib/data/content/simulados-aulas';
 
 export interface SimuladoConfig {
 	kind: 'completo' | 'disciplina';
@@ -14,6 +15,8 @@ export interface SimuladoConfig {
 	perProva: number;
 	mix: 'oficial' | 'inedita' | 'misto';
 	themeId?: string;
+	/** Simulado de uma aula animada (questões fixas, definidas em simulados-aulas). */
+	aulaId?: string;
 }
 
 export interface SimuladoRow {
@@ -74,6 +77,31 @@ export function createSimulado(user: User, cfg: SimuladoConfig, durationMinutes:
 		items.forEach((it, i) => ins.run(id, i + 1, it.qid, it.disc));
 		return id;
 	});
+}
+
+/** Simulado de uma aula: as questões oficiais do tópico e as inéditas escritas para a aula, nessa ordem. */
+export function createSimuladoDaAula(user: User, aulaId: string, tituloAula: string): number | null {
+	const s = simuladoDaAula(aulaId);
+	if (!s || !s.questoes.every((id) => getQuestion(id))) return null;
+	const cfg: SimuladoConfig = { kind: 'disciplina', disciplines: [{ code: s.disciplina, weight: 1 }], perProva: s.questoes.length, mix: 'misto', aulaId };
+	return tx(() => {
+		const res = db()
+			.prepare('INSERT INTO simulados (user_id, kind, title, config, duration_minutes) VALUES (?,?,?,?,?)')
+			.run(user.id, cfg.kind, `Simulado da aula: ${tituloAula}`, JSON.stringify(cfg), s.minutos);
+		const id = Number(res.lastInsertRowid);
+		const ins = db().prepare('INSERT INTO simulado_items (simulado_id, position, question_id, discipline) VALUES (?,?,?,?)');
+		s.questoes.forEach((qid, i) => ins.run(id, i + 1, qid, s.disciplina));
+		return id;
+	});
+}
+
+/** Aula de cada simulado já feito (para marcar as aulas com simulado concluído). */
+export function aulaDoSimulado(row: SimuladoRow): string | undefined {
+	try {
+		return (JSON.parse(row.config) as SimuladoConfig).aulaId;
+	} catch {
+		return undefined;
+	}
 }
 
 export function defaultConfig(user: User, kind: 'completo' | 'disciplina', discipline?: DisciplineCode): SimuladoConfig | null {

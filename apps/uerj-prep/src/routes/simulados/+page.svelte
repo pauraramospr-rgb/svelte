@@ -14,6 +14,28 @@
 	<a class="btn primary" href="/simulados/novo">Novo simulado</a>
 </div>
 
+{#if data.porAula.length}
+	<section class="card por-aula" aria-labelledby="por-aula-titulo">
+		<h2 id="por-aula-titulo">Simulados por aula</h2>
+		<p class="small muted">Um simulado para cada aula animada: as questões da UERJ sobre o assunto (com o caderno original de 2024 a 2026) e inéditas escritas a partir da aula, rotuladas como não oficiais.</p>
+		{#each data.porAula as g (g.grupo)}
+			<details open={g.grupo === 'História'}>
+				<summary><strong>{g.grupo}</strong> <span class="muted small">· {g.aulas.length} simulados</span></summary>
+				<ul>
+					{#each g.aulas as a (a.id)}
+						<li>
+							<a href="/simulados/aula/{a.id}">{a.titulo}</a>
+							<span class="muted small">{a.questoes} questões{a.oficiais ? ` (${a.oficiais} da UERJ)` : ''}</span>
+							{#if a.feito}<span class="pill feito">feito</span>{/if}
+						</li>
+					{/each}
+				</ul>
+			</details>
+		{/each}
+	</section>
+{/if}
+
+<h2 class="historico">Seus simulados</h2>
 {#if data.simulados.length}
 	<div class="table-wrap card">
 		<table>
@@ -37,3 +59,28 @@
 {:else}
 	<p class="card muted">Você ainda não fez simulados.</p>
 {/if}
+
+<style>
+	.por-aula {
+		margin: 1rem 0 1.5rem;
+	}
+	.por-aula details {
+		margin-top: 0.6rem;
+	}
+	.por-aula summary {
+		cursor: pointer;
+	}
+	.por-aula ul {
+		margin: 0.5rem 0 0;
+		padding-left: 1.2rem;
+		display: grid;
+		gap: 0.3rem;
+	}
+	.feito {
+		background: var(--ok-soft);
+		color: var(--ok);
+	}
+	.historico {
+		margin-top: 1.5rem;
+	}
+</style>

@@ -50,7 +50,9 @@ export default defineConfig({
 		// Tudo embutido no HTML, menos a narração da voz neural gratuita (um MP3 por parte de aula,
 		// mais de 150 MB no total): esses arquivos são publicados ao lado da página e carregados pelo
 		// endereço relativo. As gravações do ElevenLabs continuam embutidas.
-		assetsInlineLimit: (arquivo: string) => !/[\\/]narracao[\\/].+[\\/]parte-\d+\.mp3$/.test(arquivo),
+		// O mesmo vale para os recortes dos cadernos de prova da UERJ (official/caderno/*.webp).
+		assetsInlineLimit: (arquivo: string) =>
+			!(/[\\/]narracao[\\/].+[\\/]parte-\d+\.mp3$/.test(arquivo) || /[\\/]official[\\/]caderno[\\/][^\\/]+\.webp$/.test(arquivo)),
 		chunkSizeWarningLimit: 10_000,
 		rollupOptions: { output: { inlineDynamicImports: true } }
 	}

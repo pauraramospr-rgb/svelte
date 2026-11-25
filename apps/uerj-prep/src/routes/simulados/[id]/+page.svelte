@@ -15,7 +15,10 @@
 	let current = $state(0);
 	let answers = $state<string[]>([]);
 	let times = $state<number[]>([]);
-	let remaining = $state(0);
+	// O relógio já nasce com o tempo que falta (no servidor e no navegador): começar em zero mostrava
+	// 0:00:00 em vermelho e o aviso “Encerrar e enviar todas as respostas?” até o primeiro segundo passar.
+	const segundosRestantes = () => Math.max(0, Math.round((new Date(data.sim.deadline).getTime() - Date.now()) / 1000));
+	let remaining = $state(segundosRestantes());
 	let saveState = $state<'salvo' | 'salvando' | 'erro'>('salvo');
 	let finishForm: HTMLFormElement | undefined = $state();
 	let confirming = $state(false);
@@ -51,9 +54,8 @@
 
 	onMount(() => {
 		if (data.sim.finished) return;
-		const end = new Date(data.sim.deadline).getTime();
 		const tick = setInterval(() => {
-			remaining = Math.max(0, Math.round((end - Date.now()) / 1000));
+			remaining = segundosRestantes();
 			times[current] = (times[current] ?? 0) + 1;
 			if (times[current] % 15 === 0) dirty.add(current);
 			if (remaining === 0) {

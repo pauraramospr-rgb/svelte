@@ -1,7 +1,9 @@
 /**
  * Registro de documentos oficiais usados pela plataforma.
- * Todos foram obtidos diretamente em www.vestibular.uerj.br ou www.revista.vestibular.uerj.br
- * na data indicada em `accessedAt`.
+ * Foram obtidos diretamente em www.vestibular.uerj.br ou www.revista.vestibular.uerj.br na data indicada em
+ * `accessedAt` — com uma exceção declarada: os cadernos de prova do Exame Discursivo 2024–2026, reproduzidos
+ * nas questões oficiais, vieram da cópia dos PDFs da UERJ publicada pelo Estratégia Vestibulares (o site da
+ * UERJ não respondia na data; ver src/lib/data/official/caderno/LEIAME.md).
  */
 export type SourceId =
 	| 'edital-2027'
@@ -20,7 +22,8 @@ export type SourceId =
 	| 'anexo6-2019'
 	| 'padrao-redacao-2026'
 	| 'questoes-comentadas'
-	| 'revista-vestibular';
+	| 'revista-vestibular'
+	| 'cadernos-discursivo';
 
 export interface OfficialSource {
 	id: SourceId;
@@ -169,6 +172,14 @@ export const SOURCES: Record<SourceId, OfficialSource> = {
 		year: 2026,
 		url: 'https://www.revista.vestibular.uerj.br/',
 		accessedAt: ACCESSED_AT
+	},
+	'cadernos-discursivo': {
+		id: 'cadernos-discursivo',
+		title: 'Cadernos de prova do Exame Discursivo 2024, 2025 e 2026 (História e Língua Portuguesa e Literaturas), reproduzidos nas questões oficiais',
+		publisher: 'UERJ / DEPSEA — cópia dos PDFs publicada pelo Estratégia Vestibulares',
+		year: 2025,
+		url: 'https://vestibulares.estrategia.com/portal/noticias/vestibular-uerj-2026-confira-os-cadernos-de-prova-e-o-padrao-de-respostas-do-exame-discursivo/',
+		accessedAt: '2026-11-25'
 	}
 };
 
