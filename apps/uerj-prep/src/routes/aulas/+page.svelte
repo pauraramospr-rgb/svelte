@@ -24,6 +24,10 @@
 		Prontas: {data.aulas.filter((a) => a.discipline === 'HIS').length} de {data.total.HIS} tópicos de História · {data.aulas.filter((a) => a.discipline === 'LPL').length} de {data.total.LPL} de
 		Língua Portuguesa e Literaturas.
 	</p>
+	<div class="intensivao">
+		<a class="btn primary" href="/intensivao"><Icon name="fila" size={18} /> Intensivão: todas as aulas em sequência</a>
+		<span class="small muted">As aulas inteiras, uma depois da outra, com reprodução automática.</span>
+	</div>
 </header>
 
 {#each data.serie as g (g.grupo)}
@@ -83,6 +87,16 @@
 	.grupo h2 {
 		font-family: var(--display);
 		margin: 1.5rem 0 0.75rem;
+	}
+	.intensivao {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.5rem 0.9rem;
+		margin-top: 0.9rem;
+	}
+	.intensivao :global(.icon) {
+		vertical-align: -3px;
 	}
 	.selo-voz {
 		justify-self: start;

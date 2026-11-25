@@ -16,7 +16,20 @@ mkdirSync(SHOTS, { recursive: true });
 // Esqueleto equivalente ao que o claude.ai acrescenta na publicação
 const page = readFileSync('build-web/discursiva.html', 'utf8');
 const doc = `<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}body{margin:0;font:14px system-ui}img{max-width:100%}[hidden]{display:none!important}</style></head><body>${page}</body></html>`;
+// Como na publicação, os arquivos de assets/ (MP3 da narração e recortes dos cadernos) ficam ao lado da página.
+const TIPOS = { mp3: 'audio/mpeg', webp: 'image/webp' };
 const server = createServer((req, res) => {
+	const arq = /^\/assets\/([\w.-]+\.(mp3|webp))$/.exec(req.url ?? '');
+	if (arq) {
+		try {
+			const corpo = readFileSync(`build-web/assets/${arq[1]}`);
+			res.writeHead(200, { 'content-type': TIPOS[arq[2]] });
+			return res.end(corpo);
+		} catch {
+			res.writeHead(404);
+			return res.end();
+		}
+	}
 	res.writeHead(200, { 'content-type': 'text/html; charset=utf-8' });
 	res.end(doc);
 }).listen(0);
@@ -190,6 +203,23 @@ async function flow(label, ctx, withAi) {
 		await p.waitForSelector('#mapa-mental');
 		await p.screenshot({ path: `${SHOTS}/${label}-apostila.png` });
 	});
+	await step(`${label}: simulado da aula com o caderno oficial reproduzido`, async () => {
+		await p.click('nav a:has-text("Simulados")');
+		await p.waitForSelector('text=Simulados por aula');
+		await p.click('.por-aula a:has-text("A América colonial portuguesa")');
+		await p.waitForSelector('text=Como funciona');
+		await p.click('button:has-text("Começar o simulado")');
+		await p.waitForSelector('.timer');
+		expect((await p.locator('text=Encerrar e enviar todas as respostas?').count()) === 0, 'aviso de encerramento ao abrir');
+		await p.waitForFunction(() => {
+			const i = document.querySelector('figure.caderno img');
+			return i instanceof HTMLImageElement && i.complete && i.naturalWidth > 300;
+		}, null, { timeout: 15000 });
+		await p.screenshot({ path: `${SHOTS}/${label}-simulado-aula.png`, fullPage: true });
+		await p.click('button:has-text("Encerrar e corrigir")');
+		await p.click('button:has-text("Sim, encerrar")');
+		await p.waitForSelector('text=Resultado estimado');
+	});
 	await step(`${label}: aula animada`, async () => {
 		await p.click('nav a:has-text("Aulas animadas")');
 		await p.click('a:has-text("Assistir") >> nth=0');
@@ -201,6 +231,26 @@ async function flow(label, ctx, withAi) {
 		expect((await p.textContent('.cena-id'))?.includes('Cena 1.1'), 'não avançou para a cena 1.1');
 		await p.click('button[aria-label="Pausar"]');
 		await p.screenshot({ path: `${SHOTS}/${label}-aula.png` });
+	});
+	await step(`${label}: intensivão — a próxima aula começa sozinha`, async () => {
+		await p.click('nav a:has-text("Intensivão")');
+		await p.waitForSelector('svg.palco', { timeout: 20000 });
+		const agora = async () => ((await p.textContent('.agora .eyebrow')) ?? '').trim();
+		expect((await agora()).startsWith('Aula 1 de'), `começo: ${await agora()}`);
+		await p.click('button.grande');
+		await p.waitForTimeout(800);
+		await p.click('.partes button >> nth=-1');
+		await p.waitForTimeout(500);
+		await p.click('details.cenas summary');
+		await p.click('.capitulos li:last-child button');
+		await p.waitForTimeout(500);
+		await p.locator('.barra').scrollIntoViewIfNeeded();
+		const box = await p.locator('.barra').boundingBox();
+		await p.mouse.click(box.x + box.width * 0.985, box.y + box.height / 2);
+		await p.waitForFunction(() => document.querySelector('.agora .eyebrow')?.textContent?.trim().startsWith('Aula 2 de'), null, { timeout: 30000 });
+		await p.waitForSelector('button.ic.play[aria-label="Pausar"]');
+		await p.click('button.ic.play');
+		await p.screenshot({ path: `${SHOTS}/${label}-intensivao.png` });
 	});
 	await step(`${label}: dados persistem após recarregar`, async () => {
 		await p.evaluate(() => new Promise((r) => { document.dispatchEvent(new Event('visibilitychange')); setTimeout(r, 2500); }));

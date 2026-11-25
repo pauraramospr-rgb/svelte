@@ -10,7 +10,31 @@
 	import { cronogramaGravado, ENTRADA_AUDIO, type Gravacao } from './gravacoes';
 	import { Narrador, sessaoDeReproducao, urlDaGravacao } from './narrador';
 
-	let { episodios, inicial = 0 }: { episodios: EpisodioTocavel[]; inicial?: number } = $props();
+	let {
+		episodios,
+		inicial = 0,
+		continuo = false,
+		haMais = false,
+		mostrarEpisodios = true,
+		rotuloInicio = '',
+		cenasRecolhidas = false,
+		aoMudarEpisodio
+	}: {
+		/** A lista de cenas da parte fica recolhida (Intensivão: a página fica curta, o player no alto). */
+		cenasRecolhidas?: boolean;
+		episodios: EpisodioTocavel[];
+		inicial?: number;
+		/** Intensivão: ao fim de cada parte, segue sozinho para a próxima — e, depois, para a próxima aula. */
+		continuo?: boolean;
+		/** Intensivão: depois da última parte da lista ainda há aulas para chegar (o player espera por elas). */
+		haMais?: boolean;
+		/** Lista de episódios abaixo do player (o Intensivão mostra a sua, por aula). */
+		mostrarEpisodios?: boolean;
+		/** Texto do botão de começar, no lugar de “Assistir ao episódio N”. */
+		rotuloInicio?: string;
+		/** Avisado sempre que o player passa para outra parte (índice em `episodios`). */
+		aoMudarEpisodio?: (indice: number) => void;
+	} = $props();
 
 	// ——— Estado de reprodução ———
 	let epIdx = $state(untrack(() => Math.min(Math.max(0, inicial), episodios.length - 1)));
@@ -21,6 +45,8 @@
 	/** Parado mostrando um quadro de prévia (capa do episódio ou da cena escolhida). */
 	let previa = $state(true);
 	let terminou = $state(false);
+	/** Modo contínuo: a última parte carregada acabou e a próxima aula ainda está chegando. */
+	let esperando = $state(false);
 	let falando = $state(false);
 	let limite = $state(-1);
 
@@ -421,14 +447,39 @@
 
 	function proximaCena(automatico = false) {
 		if (cenaIdx < ep.cenas.length - 1) irParaCena(epIdx, cenaIdx + 1, automatico ? true : tocando);
+		else if (automatico && continuo && epIdx < episodios.length - 1) irParaCena(epIdx + 1, 0, true);
 		else if (automatico) {
 			pararFala();
 			narrador?.pausar();
 			tocando = false;
-			terminou = true;
 			trilha.pausar();
+			if (continuo && haMais) esperando = true;
+			else terminou = true;
 		} else if (epIdx < episodios.length - 1) irParaCena(epIdx + 1, 0, tocando);
 	}
+
+	/** Vai para o começo de uma parte (no Intensivão, chamado pela lista de aulas, dentro do toque do aluno). */
+	export function irParaEpisodio(i: number, tocarJa = true) {
+		if (i < 0 || i >= episodios.length) return;
+		esperando = false;
+		irParaCena(i, 0, tocarJa);
+	}
+
+	// Intensivão: a próxima aula chegou enquanto o player esperava — segue tocando (o som já foi liberado
+	// pelo primeiro toque, então o navegador deixa continuar sem novo toque).
+	$effect(() => {
+		if (esperando && epIdx < episodios.length - 1) {
+			untrack(() => {
+				esperando = false;
+				irParaCena(epIdx + 1, 0, true);
+			});
+		}
+	});
+
+	$effect(() => {
+		const i = epIdx;
+		untrack(() => aoMudarEpisodio?.(i));
+	});
 
 	function cenaAnterior() {
 		if (t > 4 || cenaIdx === 0) irParaCena(epIdx, cenaIdx, tocando);
@@ -722,12 +773,14 @@
 		{#if legendas && legenda && !previa}
 			<p class="legenda" aria-live="off">{legenda}</p>
 		{/if}
-		{#if previa || terminou || bloqueado}
+		{#if previa || terminou || bloqueado || esperando}
 			<div class="capa">
-				{#if terminou}
-					<p class="eyebrow">Fim do episódio {ep.numero}</p>
+				{#if esperando}
+					<p class="eyebrow">Fim da parte {ep.numero} · carregando a próxima aula…</p>
+				{:else if terminou}
+					<p class="eyebrow">{continuo ? 'Fim do Intensivão — você chegou à última aula' : `Fim do episódio ${ep.numero}`}</p>
 					<div class="capa-acoes">
-						<button class="btn" onclick={() => irParaCena(epIdx, 0, true)}><Icon name="replay" size={18} /> Assistir de novo</button>
+						<button class="btn" onclick={() => irParaCena(epIdx, 0, true)}><Icon name="replay" size={18} /> {continuo ? 'Rever a última parte' : 'Assistir de novo'}</button>
 						{#if epIdx < episodios.length - 1}
 							<button class="btn primary" onclick={() => irParaCena(epIdx + 1, 0, true)}><Icon name="play" size={18} /> Episódio {episodios[epIdx + 1].numero}</button>
 						{/if}
@@ -735,7 +788,13 @@
 				{:else}
 					<button class="grande" onclick={tocar}>
 						<Icon name="play" size={20} />
-						<span>{bloqueado ? 'Toque para continuar com som' : cenaIdx === 0 ? `Assistir ao episódio ${ep.numero}` : `Continuar · cena ${cena.id}`}</span>
+						<span
+							>{bloqueado
+								? 'Toque para continuar com som'
+								: cenaIdx === 0
+									? rotuloInicio || `Assistir ao episódio ${ep.numero}`
+									: `Continuar · cena ${cena.id}`}</span
+						>
 					</button>
 				{/if}
 			</div>
@@ -833,32 +892,44 @@
 		{/if}
 	</div>
 
-	<nav class="episodios" aria-label="Episódios">
-		{#each episodios as e, i (e.numero)}
-			<button class:atual={i === epIdx} aria-current={i === epIdx ? 'true' : undefined} onclick={() => irParaCena(i, 0, false)}>
-				<span class="mono">EP {e.numero}</span>
-				<span class="t">{e.titulo}</span>
-			</button>
-		{/each}
-	</nav>
+	{#if mostrarEpisodios}
+		<nav class="episodios" aria-label="Episódios">
+			{#each episodios as e, i (i)}
+				<button class:atual={i === epIdx} aria-current={i === epIdx ? 'true' : undefined} onclick={() => irParaCena(i, 0, false)}>
+					<span class="mono">EP {e.numero}</span>
+					<span class="t">{e.titulo}</span>
+				</button>
+			{/each}
+		</nav>
+	{/if}
 
-	<ol class="capitulos">
-		{#each ep.cenas as c, i (c.id)}
-			{#if !c.abertura}
-				<li>
-					<button class:atual={i === cenaIdx} aria-current={i === cenaIdx ? 'true' : undefined} onclick={() => irParaCena(epIdx, i, tocando)}>
-						<span class="num mono">{c.id}</span>
-						<span class="t">{c.titulo}</span>
-						<span class="d mono">{formatarTempo(duracoes[i])}</span>
-						<span class="selos">
-							<span class="selo" class:auto={!c.sobMedida}>{c.sobMedida ? 'animação completa' : 'encenação automática'}</span>
-							{#if gravacaoTocavel(c)}<span class="selo voz-gravada">voz gravada</span>{/if}
-						</span>
-					</button>
-				</li>
-			{/if}
-		{/each}
-	</ol>
+	{#snippet listaDeCenas()}
+		<ol class="capitulos">
+			{#each ep.cenas as c, i (c.id)}
+				{#if !c.abertura}
+					<li>
+						<button class:atual={i === cenaIdx} aria-current={i === cenaIdx ? 'true' : undefined} onclick={() => irParaCena(epIdx, i, tocando)}>
+							<span class="num mono">{c.id}</span>
+							<span class="t">{c.titulo}</span>
+							<span class="d mono">{formatarTempo(duracoes[i])}</span>
+							<span class="selos">
+								<span class="selo" class:auto={!c.sobMedida}>{c.sobMedida ? 'animação completa' : 'encenação automática'}</span>
+								{#if gravacaoTocavel(c)}<span class="selo voz-gravada">voz gravada</span>{/if}
+							</span>
+						</button>
+					</li>
+				{/if}
+			{/each}
+		</ol>
+	{/snippet}
+	{#if cenasRecolhidas}
+		<details class="cenas">
+			<summary>Cenas da parte {ep.numero} ({ep.cenas.filter((c) => !c.abertura).length})</summary>
+			{@render listaDeCenas()}
+		</details>
+	{:else}
+		{@render listaDeCenas()}
+	{/if}
 
 	{#if !cena.abertura}
 		<details class="transcricao">
@@ -1226,9 +1297,16 @@
 		background: var(--primary-soft);
 		line-height: 1.45;
 	}
-	.transcricao summary {
+	.transcricao summary,
+	.cenas summary {
 		cursor: pointer;
 		font-weight: 600;
+	}
+	.cenas summary {
+		padding: 0.35rem 0;
+	}
+	.cenas .capitulos {
+		margin-top: 0.5rem;
 	}
 	.transcricao p {
 		line-height: 1.6;

@@ -20,6 +20,7 @@
 		target: '<circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="0.8"/>',
 		film: '<rect x="3.5" y="5" width="17" height="14" rx="2.5"/><path d="M7.5 5v14M16.5 5v14M3.5 9.5h4M3.5 14.5h4M16.5 9.5h4M16.5 14.5h4"/>',
 		play: '<path d="M8 5.5v13l10.5-6.5z"/>',
+		fila: '<path d="M4 6.5h11M4 11.5h11M4 16.5h6"/><path d="M14.5 14v6.5l5.5-3.25z"/>',
 		pause: '<path d="M8.5 5.5v13M15.5 5.5v13"/>',
 		prev: '<path d="M6 5.5v13M18 5.5l-9 6.5 9 6.5z"/>',
 		next: '<path d="M18 5.5v13M6 5.5l9 6.5-9 6.5z"/>',

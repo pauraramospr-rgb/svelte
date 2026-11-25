@@ -104,6 +104,34 @@ await step('simulado completo: responder, salvar automaticamente e encerrar', as
 	await page.screenshot({ path: `${SHOTS}/05-simulado.png`, fullPage: true });
 });
 
+await step('simulado da aula: da aula animada ao simulado, com o caderno oficial reproduzido', async () => {
+	await page.goto(BASE + '/aulas/his-a-america-colonial-portuguesa');
+	await page.click('a:has-text("Fazer o simulado")');
+	await page.waitForSelector('text=Simulado da aula');
+	const itens = await page.locator('ol.lista li').count();
+	expect(itens >= 4, `questões listadas: ${itens}`);
+	expect((await page.locator('ol.lista .pill:has-text("caderno original")').count()) >= 1, 'sem questão com caderno original');
+	await page.screenshot({ path: `${SHOTS}/05b-simulado-aula.png`, fullPage: true });
+	await page.click('button:has-text("Começar o simulado")');
+	await page.waitForSelector('.timer');
+	const relogio = (await page.textContent('.timer'))?.trim();
+	expect(relogio && relogio !== '0:00:00', `relógio ao abrir: ${relogio}`);
+	expect((await page.locator('text=Encerrar e enviar todas as respostas?').count()) === 0, 'aviso de encerramento aparece ao abrir');
+	const img = page.locator('figure.caderno img').first();
+	await img.waitFor();
+	await page.waitForFunction(() => {
+		const i = document.querySelector('figure.caderno img');
+		return i instanceof HTMLImageElement && i.complete && i.naturalWidth > 300;
+	});
+	await page.screenshot({ path: `${SHOTS}/05c-simulado-aula-caderno.png`, fullPage: true });
+	await page.goto(BASE + '/simulados');
+	await page.waitForSelector('text=Simulados por aula');
+	await page.goto(BASE + '/banco/2025-LPL-08');
+	const paginas = await page.locator('figure.caderno img').count();
+	expect(paginas === 2, `recortes da questão 2025-LPL-08: ${paginas}`);
+	await page.waitForSelector('details.transcricao');
+});
+
 await step('laboratório de redação: critérios oficiais, histórico e escrita', async () => {
 	await page.goto(BASE + '/redacao');
 	await page.waitForSelector('text=O que a UERJ avalia');
@@ -218,6 +246,39 @@ await step('aula animada: player, legendas e capítulos', async () => {
 	await page.goto(BASE + '/aulas');
 	const aulas = await page.locator('.aula').count();
 	expect(aulas >= 12, `aulas na lista: ${aulas}`);
+});
+
+await step('intensivão: todas as aulas em sequência, e a próxima começa sozinha', async () => {
+	await page.goto(BASE + '/intensivao');
+	await page.waitForSelector('svg.palco');
+	const agora = async () => ((await page.textContent('.agora .eyebrow')) ?? '').trim();
+	expect((await agora()).startsWith('Aula 1 de'), `começo: ${await agora()}`);
+	const itens = await page.locator('.fila .aulas li').count();
+	expect(itens >= 60, `aulas na sequência: ${itens}`);
+	await page.click('button.grande');
+	await page.waitForTimeout(800);
+	// Última parte da aula 1, última cena, perto do fim: a aula 2 tem de começar sem novo toque.
+	await page.click('.partes button >> nth=-1');
+	await page.waitForTimeout(600);
+	await page.click('details.cenas summary');
+	await page.click('.capitulos li:last-child button');
+	await page.waitForTimeout(600);
+	await page.locator('.barra').scrollIntoViewIfNeeded();
+	const box = await page.locator('.barra').boundingBox();
+	await page.mouse.click(box.x + box.width * 0.985, box.y + box.height / 2);
+	await page.waitForFunction(() => document.querySelector('.agora .eyebrow')?.textContent?.trim().startsWith('Aula 2 de'), null, { timeout: 30000 });
+	await page.waitForSelector('button.ic.play[aria-label="Pausar"]');
+	expect((await page.locator('.fila .estado.vista').count()) >= 1, 'a aula 1 não ficou marcada como vista');
+	await page.screenshot({ path: `${SHOTS}/13-intensivao.png` });
+	await page.click('button.ic.play');
+	// Lembra onde parou.
+	await page.reload();
+	await page.waitForSelector('svg.palco');
+	await page.waitForFunction(() => document.querySelector('.agora .eyebrow')?.textContent?.trim().startsWith('Aula 2 de'), null, { timeout: 15000 });
+	// Pular para uma aula adiante pela lista.
+	await page.click('.fila details:last-of-type summary');
+	await page.click('.fila details:last-of-type .aulas li:first-child button');
+	await page.waitForFunction(() => /^Aula \d+ de \d+ · Língua Portuguesa/.test(document.querySelector('.agora .eyebrow')?.textContent?.trim() ?? ''), null, { timeout: 15000 });
 });
 
 await step('revisão: diagnóstico e cronograma', async () => {

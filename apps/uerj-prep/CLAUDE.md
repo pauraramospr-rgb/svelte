@@ -23,6 +23,12 @@ Sempre buscar o melhor: entregar acabado, conferido e com fonte; quando algo est
 
 Para apostilas aprofundadas, questões comentadas e roteiros de aulas animadas, seguir **`src/lib/data/producao/_diretrizes.md`** (briefing do dono do projeto) e o diagnóstico da banca em `src/lib/data/producao/_diagnostico.md`. Cada projeto fica em `src/lib/data/producao/<tópico>/` (`apostila.md` + `aula.md`) e aparece na plataforma em “Apostila completa” (tópico) e no “Estúdio de aulas”.
 
+## Simulados por aula, cadernos oficiais e Intensivão
+
+- **Simulado de cada aula** (`src/lib/data/content/simulados-aulas/{his,esp,lpl}.json`): questões oficiais do tópico (de preferência 2024–2026) + inéditas escritas para a aula (ids `simu-<aula>-N`, sempre rotuladas como não oficiais). Toda aula de História (trilha e série especial) e de Língua Portuguesa precisa ter simulado com ao menos 4 questões e 2 inéditas (`src/lib/data/simulados-aulas.test.ts`). Aula nova → simulado novo.
+- **Caderno oficial nas questões** (`src/lib/data/official/caderno/`): recortes WEBP das questões como impressas (imagens, textos, tabelas), com fonte e ajustes em `caderno/LEIAME.md`; gerados por `scripts/caderno/recortar.py`.
+- **Intensivão** (`/intensivao`, `src/lib/intensivao.ts`): todas as aulas inteiras em sequência, num player só (modo `continuo`), carregadas uma a uma por `/api/aulas/[aula]/episodios`. Aula nova entra sozinha na sequência.
+
 ## Nome da plataforma
 
 O nome fica só em `src/lib/brand.ts` (`APP_NAME`). Para renomear, troque ali, rode os testes e republique.
