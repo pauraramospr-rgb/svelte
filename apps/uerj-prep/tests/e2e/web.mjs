@@ -23,7 +23,16 @@ const server = createServer((req, res) => {
 	if (arq) {
 		try {
 			const corpo = readFileSync(`build-web/assets/${arq[1]}`);
-			res.writeHead(200, { 'content-type': TIPOS[arq[2]] });
+			// Pedidos parciais (Range), como num servidor de arquivos de verdade: é o que permite ao navegador
+			// pular para o meio de uma gravação (várias cenas dividem o mesmo MP3).
+			const faixa = /^bytes=(\d*)-(\d*)$/.exec(req.headers.range ?? '');
+			if (faixa) {
+				const ini = faixa[1] ? Number(faixa[1]) : Math.max(0, corpo.length - Number(faixa[2]));
+				const fim = faixa[1] && faixa[2] ? Math.min(Number(faixa[2]), corpo.length - 1) : corpo.length - 1;
+				res.writeHead(206, { 'content-type': TIPOS[arq[2]], 'accept-ranges': 'bytes', 'content-range': `bytes ${ini}-${fim}/${corpo.length}`, 'content-length': fim - ini + 1 });
+				return res.end(corpo.subarray(ini, fim + 1));
+			}
+			res.writeHead(200, { 'content-type': TIPOS[arq[2]], 'accept-ranges': 'bytes', 'content-length': corpo.length });
 			return res.end(corpo);
 		} catch {
 			res.writeHead(404);
